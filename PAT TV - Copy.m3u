@@ -1960,6 +1960,14 @@ http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1200px-Indosiar_2015.svg.png", Indosiar
 http://playlist.urfan.web.id/qwr9ew/s/s04/01.m3u8
 
+#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://dfnc.ru/en/wp-content/uploads/2021/12/tild3063-6239-4561-b134-636330383162__army2022_art_base-900x444.jpg", Trực tiếp Tank Biathlon Army Games
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/%D0%92%D0%BE%D0%B5%D0%BD%D0%A2%D0%92%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D0%B8/live
+#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://yt3.ggpht.com/2ZNxE1Uu30rjtLrYY76vSy-CpvIDz9FuT66sLazPfLyJlTQ7JKKjwBC7iZNEtqIKimVMzH7BQrw=s900-c-k-c0x00ffffff-no-rj", TV360 Live 1
+https://api.vthanhtivi.pw/v1/getlink/core/tv360.php?id=285
+#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://yt3.ggpht.com/2ZNxE1Uu30rjtLrYY76vSy-CpvIDz9FuT66sLazPfLyJlTQ7JKKjwBC7iZNEtqIKimVMzH7BQrw=s900-c-k-c0x00ffffff-no-rj", TV360 Live 2
+https://api.vthanhtivi.pw/v1/getlink/core/tv360.php?id=287
+
+
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", FPT Play Event 1
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
@@ -2004,27 +2012,33 @@ https://vips-livecdn.fptplay.net/hdevent/fsport08_vhls.smil/chunklist_b5000000.m
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://vips-livecdn.fptplay.net/hdevent/fsport09_vhls.smil/chunklist_b5000000.m3u8
 
+#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", WBC 01
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://vips-livecdn.fptplay.net/schedule/wbc01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", WBC 02
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://vips-livecdn.fptplay.net/schedule/wbc02_vhls.smil/chunklist_b5000000.m3u8
+
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://webapi.mytv.vn/static/channel/267.png?ver=19", MyTV Sự kiện và Thể thao
-https://api.vthanhtivii.xyz/v1/getlink/mytv_web/267/hd
+#https://api.vthanhtivi.pw/v1/getlink/mytv_web/267/hd
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://webapi.mytv.vn/static/channel/349.png?ver=19", MyTV Phim truyện
-https://api.vthanhtivii.xyz/v1/getlink/mytv_web/349/hd
+#https://api.vthanhtivi.pw/v1/getlink/mytv_web/349/hd
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://webapi.mytv.vn/static/channel/447.png?ver=19", MyTV Âm nhạc
-https://api.vthanhtivii.xyz/v1/getlink/mytv_web/447/hd
+#https://api.vthanhtivi.pw/v1/getlink/mytv_web/447/hd
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://webapi.mytv.vn/static/channel/449.png?ver=19", MyTV Giải trí tổng hợp 
-https://api.vthanhtivii.xyz/v1/getlink/mytv_web/449/hd
+#https://api.vthanhtivi.pw/v1/getlink/mytv_web/449/hd
 
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://golfnewstv.com/assets/images/GolfNews1.png", GolfNews
 https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8
 
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://cdn.hqth.me/cvmedia.png", CVmedia Live 1
-http://cvmedia.hqth.me:8000/live1
+http://sv1.cvacetv.ga:8080/live1
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://cdn.hqth.me/cvmedia.png", CVmedia Live 2
-http://cvmedia.hqth.me:8000/live2
+http://sv1.cvacetv.ga:8080/live2
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://cdn.hqth.me/cvmedia.png", CVmedia Live 3
-http://cvmedia.hqth.me:8000/live3
+http://sv1.cvacetv.ga:8080/live3
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://cdn.hqth.me/cvmedia.png", CVmedia Live 4K
-http://cvmedia.hqth.me:8000/4KUHD
-
+http://sv1.cvacetv.ga:8080/4KUHD
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
