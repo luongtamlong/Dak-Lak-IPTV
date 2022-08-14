@@ -1679,18 +1679,26 @@ http://140.238.6.140:8881/stream/channel/aa36691f41e62b915c013542740d6df9
 http://140.238.6.140:8881/stream/channel/4b6668e35a1425f4c95167f90c1a0323
 #EXTINF:-1 tvg-id="MBCTV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/2560px-Munhwa_Broadcasting_Company.svg.png", MBC
 https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
-#EXTINF:-1 tvg-id="MBCEvery1.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/jv5fRK3/MBC-every1-BEARTV.png", MBC every1
+#EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/jv5fRK3/MBC-every1-BEARTV.png", MBC every1
 http://140.238.6.140:8881/stream/channel/a066cadb3e9373b07ba7c86a29baaa7e
-#EXTINF:-1 tvg-id="MBCDrama.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/jbbF2qK/MBC-Drama-BEARTV.png", MBC Drama
+#EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/jbbF2qK/MBC-Drama-BEARTV.png", MBC Drama
 http://140.238.6.140:8881/stream/channel/a385edd7462645fad49cf0514c5799d1
-#EXTINF:-1 tvg-id="MBCM.kr" group-title="🇰🇷| Kênh Hàn Quốc tvg-logo="https://i.ibb.co/Y833Qss/MBC-M-BEARTV.png", MBC M
+#EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/Y833Qss/MBC-M-BEARTV.png", MBC M
 http://140.238.6.140:8881/stream/channel/b75283ab1143c531db6a1b151d0c5812
-#EXTINF:-1 tvg-id="MBCOn.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/bbgwWrs/MBC-ON-BEARTV.png", MBC ON
+#EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/bbgwWrs/MBC-ON-BEARTV.png", MBC ON
 http://140.238.6.140:8881/stream/channel/48b717363d943ee4d4f9806a3c0c482b
 #EXTINF:-1 tvg-id="JTBC.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://6.vikiplatform.com/image/dd32095cfb9e46ab8358b31792e1e8f9.png?x=b&s=843x474&q=h&cb=1", JTBC
 http://mytv.dothome.co.kr/ch/catv/211.php
+#EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/YBbxvch/MBCKR-BEARTV.png", MBC
+https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
 #EXTINF:-1 tvg-id="SBSTV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/640px-SBS_Korea_Logo_%28Word_Only%29.svg.png", SBS
 http://itskoi.dothome.co.kr/sbs.php?id=S01
+#EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/k6gp40F/sbsfune-BEARTV.png", SBS funE
+http://han.ddkdxmkj.com/api/sbs.php?id=4
+#http://ye23.win/iptv/sbs5.1.php?id=S04
+#EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/qy5hVQ2/SBS-MTV-BEARTV.png", SBS MTV
+http://han.ddkdxmkj.com/api/sbs.php?id=9
+#http://ye23.win/iptv/sbs5.1.php?id=S09
 #EXTINF:-1 tvg-id="EBS1TV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/1200px-EBS_1TV_Logo.svg.png", EBS 1
 http://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBS2TV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/EBS_2_logo.svg/2560px-EBS_2_logo.svg.png", EBS 2
@@ -2048,6 +2056,24 @@ http://sv1.cvacetv.ga:8080/live3
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://cdn.hqth.me/cvmedia.png", CVmedia Live 4K
 http://sv1.cvacetv.ga:8080/4KUHD
 
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://i.ibb.co/F3z1Nf0/sbssports-BEARTV.png", SBS SPORTS
+http://live1.streamk.co:8080/sportsbox_preview/live51/playlist.m3u8?site=gaktv&ch=live51
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://i.ibb.co/SQTKn2X/tvnsports-BEARTV.png", tVN SPORTS
+http://live1.streamk.co:8080/sportsbox_preview/live55/playlist.m3u8?site=gaktv&ch=live55
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://i.ibb.co/HTH90wP/KBS-N-Sports-BEARTV.png", KBSN SPORTS
+http://live1.streamk.co:8080/sportsbox_preview/live52/playlist.m3u8?site=gaktv&ch=live52
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://i.ibb.co/GJfhCXJ/JTBCGolf-Sports-BEARTV.png", JTBC Golf & Sports
+http://140.238.6.140:8881/stream/channel/bc035199f244ef5eabb539c178fabdfb
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://i.ibb.co/rmRSzGc/IB-Sports-BEARTV.png", IB SPORTS
+http://140.238.6.140:8881/stream/channel/0b2bbeebae682ab19623247648425c1b
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://cms.spotvasia.com/upload/footer/file_99872251-4bb3-4ce9-8a98-f5bb47395f6f.png" ,SPOTV1
+http://live1.streamk.co:8080/sportsbox_preview/live53/playlist.m3u8?site=gaktv&ch=live53
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://cms.spotvasia.com/upload/channel/file_15a81966-c8d6-492a-aed6-3c6a8ff34604.png" ,SPOTV2
+http://live1.streamk.co:8080/sportsbox_preview/live54/playlist.m3u8?site=gaktv&ch=live54
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://www.spotvon.co.kr/P/images/main/title_channel1.png" ,SPOTV·ON
+http://live1.streamk.co:8080/sportsbox_preview/live46/playlist.m3u8?site=gaktv&ch=live46
+#EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://www.spotvon.co.kr/P/images/main/title_channel2.png" ,SPOTV·ON2
+http://live1.streamk.co:8080/sportsbox_preview/live47/playlist.m3u8?site=gaktv&ch=live47
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=e2a4758854ddf83f1e8f465a3d3d8910&key=a464e1f2f904d40f3235a57304e72d78
