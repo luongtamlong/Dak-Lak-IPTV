@@ -716,9 +716,7 @@ http://ott-cdn.ucom.am/s14/04.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/fCDZKZa.png", RTR Planeta
 http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/NTV_MIR.svg/1200px-NTV_MIR.svg.png", NTV Mir
-http://92.46.127.146:8080/ntv/index.m3u8
-#EXTINF:-1 tvg-id="tvci" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/fIkd01t.png", ТV Tsentr (М.)
-http://uiptv.do.am/1ufc/000000009/playlist.m3u8
+http://92.46.127.146:8080/ntv-L3-TRANS/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/cfvjieR.png", CCTV4 Asia
 http://live.tvfix.org/hls/cctv4hd.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -2105,36 +2103,6 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_primary.mpd
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2100/default_primary.mpd
 
 
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",Sky Sport Top Event
-http://live-eu.cvacetv.ga:8080/stream/channelid/458698047?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",Sky Sport Premier League
-http://live-eu.cvacetv.ga:8080/stream/channelid/857180288?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",Sky Sport Bundesliga
-http://live-eu.cvacetv.ga:8080/stream/channelid/943037218?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",Sky Sport Tennis
-http://live-eu.cvacetv.ga:8080/stream/channelid/1994407003?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",Sky Sport Golf
-http://live-eu.cvacetv.ga:8080/stream/channelid/1927543192?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",Sky Sport Mix
-http://live-eu.cvacetv.ga:8080/stream/channelid/1335422074?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",DAZN 1
-http://live-eu.cvacetv.ga:8080/stream/channelid/1697423428?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",DAZN 2
-http://live-eu.cvacetv.ga:8080/stream/channelid/1313772429?profile=ace
-#EXTINF:-1 group-title="SKY SPORT & DAZN - ĐỨC",Sportdigital
-http://live-eu.cvacetv.ga:8080/stream/channelid/1344872521?profile=ace
-#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Sport TV 1
-http://live-eu.cvacetv.ga:8080/stream/channelid/32217420?profile=ace
-#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Sport TV 2
-http://live-eu.cvacetv.ga:8080/stream/channelid/1003229911?profile=ace
-#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Sport TV 3
-http://live-eu.cvacetv.ga:8080/stream/channelid/1998227386?profile=ace
-#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Eleven 1
-http://live-eu.cvacetv.ga:8080/stream/channelid/549607407?profile=ace
-#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Eleven 2
-http://live-eu.cvacetv.ga:8080/stream/channelid/1877013522?profile=ace
-#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Eleven 3
-http://live-eu.cvacetv.ga:8080/stream/channelid/1258257981?profile=ace
 #EXTINF:-1 group-title="SETANTA SPORTS",Setanta Sports 1
 http://live-eu.cvacetv.ga:8080/stream/channelid/366513027?profile=ace
 #EXTINF:-1 group-title="SETANTA SPORTS",Setanta Sports 2
@@ -2143,6 +2111,20 @@ http://live-eu.cvacetv.ga:8080/stream/channelid/1186140710?profile=ace
 http://live-eu.cvacetv.ga:8080/stream/channelid/526303944?profile=ace
 #EXTINF:-1 group-title="SETANTA SPORTS",Setanta Sports UA Plus
 http://live-eu.cvacetv.ga:8080/stream/channelid/714498194?profile=ace
+#EXTINF:-1 group-title="THỂ THAO PHÁP",CANAL+
+http://live-eu.cvacetv.ga:8080/stream/channelid/234191154?profile=ace
+#EXTINF:-1 group-title="THỂ THAO PHÁP",CANAL+SPORT
+http://live-eu.cvacetv.ga:8080/stream/channelid/1176928142?profile=ace
+#EXTINF:-1 group-title="THỂ THAO PHÁP",CANAL+DECALE
+http://live-eu.cvacetv.ga:8080/stream/channelid/367395574?profile=ace
+#EXTINF:-1 group-title="THỂ THAO PHÁP",GOLF+
+http://live-eu.cvacetv.ga:8080/stream/channelid/2004141092?profile=ace
+#EXTINF:-1 group-title="THỂ THAO PHÁP",BEIN SPORTS 1
+http://live-eu.cvacetv.ga:8080/stream/channelid/1259273937?profile=ace
+#EXTINF:-1 group-title="THỂ THAO PHÁP",BEIN SPORTS 2
+http://live-eu.cvacetv.ga:8080/stream/channelid/2115527153?profile=ace
+#EXTINF:-1 group-title="THỂ THAO PHÁP",BEIN SPORTS 3
+http://live-eu.cvacetv.ga:8080/stream/channelid/688385117?profile=ace
 #EXTINF:-1 group-title="MATCH TV - NGA",Маtch ТV
 http://live-eu.cvacetv.ga:8080/stream/channelid/2089532616?profile=ace
 #EXTINF:-1 group-title="MATCH TV - NGA",Маtch Futbol 1
@@ -2153,6 +2135,12 @@ http://live-eu.cvacetv.ga:8080/stream/channelid/1979316726?profile=ace
 http://live-eu.cvacetv.ga:8080/stream/channelid/1369262328?profile=ace
 #EXTINF:-1 group-title="MATCH TV - NGA",Маtch Premier
 http://live-eu.cvacetv.ga:8080/stream/channelid/1658534168?profile=ace
+#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Sport TV 1
+http://live-eu.cvacetv.ga:8080/stream/channelid/32217420?profile=ace
+#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Sport TV 2
+http://live-eu.cvacetv.ga:8080/stream/channelid/1003229911?profile=ace
+#EXTINF:-1 group-title="SPORT TV & ELEVEN - BỒ ĐÀO NHA",Sport TV 3
+http://live-eu.cvacetv.ga:8080/stream/channelid/1998227386?profile=ace
 #EXTINF:-1 group-title="ELEVEN SPORT - BA LAN",Eleven Sports 1
 http://live-eu.cvacetv.ga:8080/stream/channelid/365713668?profile=ace
 #EXTINF:-1 group-title="ELEVEN SPORT - BA LAN",Eleven Sports 2
@@ -2169,14 +2157,6 @@ http://live-eu.cvacetv.ga:8080/stream/channelid/1369349572?profile=ace
 http://live-eu.cvacetv.ga:8080/stream/channelid/1195525951?profile=ace
 #EXTINF:-1 group-title="CANAL SPORT - BA LAN",Canal+ Family
 http://live-eu.cvacetv.ga:8080/stream/channelid/1185753356?profile=ace
-#EXTINF:-1 group-title="THỂ THAO PHÁP",BEIN SPORTS 1
-http://live-eu.cvacetv.ga:8080/stream/channelid/1259273937?profile=ace
-#EXTINF:-1 group-title="THỂ THAO PHÁP",BEIN SPORTS 2
-http://live-eu.cvacetv.ga:8080/stream/channelid/2115527153?profile=ace
-#EXTINF:-1 group-title="THỂ THAO PHÁP",BEIN SPORTS 3
-http://live-eu.cvacetv.ga:8080/stream/channelid/688385117?profile=ace
-#EXTINF:-1 group-title="THỂ THAO PHÁP",GOLF+
-http://live-eu.cvacetv.ga:8080/stream/channelid/2004141092?profile=ace
 #EXTINF:-1 group-title="DIGI SPORT - ROMANIA",Digi Sport 1
 http://live-eu.cvacetv.ga:8080/stream/channelid/79579365?profile=ace
 #EXTINF:-1 group-title="DIGI SPORT - ROMANIA",Digi Sport 2
@@ -2261,16 +2241,6 @@ http://live-vn.cvacetv.ga:9981/stream/channelid/692654039?profile=ace
 http://live-vn.cvacetv.ga:9981/stream/channelid/699583609?profile=ace
 #EXTINF:-1 group-title="ESPN NAM MỸ",ESPN3 Argentina
 http://live-vn.cvacetv.ga:9981/stream/channelid/1736423595?profile=ace
-#EXTINF:-1 group-title="THỂ THAO KHÁC",CBC Sport Azerbaijan
-http://live-eu.cvacetv.ga:8080/stream/channelid/1532684093?profile=ace
-#EXTINF:-1 group-title="THỂ THAO KHÁC",bTV Action
-http://live-eu.cvacetv.ga:8080/stream/channelid/1293982775?profile=ace
-#EXTINF:-1 group-title="THỂ THAO KHÁC",Canal 11
-http://live-eu.cvacetv.ga:8080/stream/channelid/1332360777?profile=ace
-#EXTINF:-1 group-title="THỂ THAO KHÁC",TVP Sport
-http://live-eu.cvacetv.ga:8080/stream/channelid/1075224219?profile=ace
-#EXTINF:-1 group-title="THỂ THAO KHÁC",PTV Sports Pakistan
-http://live-vn.cvacetv.ga:9981/stream/channelid/1664862898?profile=ace
 
 #EXTINF:0 tvg-id="" tvg-logo="" group-title="Streamer nimotv" , Trực tiếp game
 http://al.flv.nimo.tv/backsrc/su1599518330519r8ad49929364df698b4242646f0bfd01f.flv?uid=2399217891867891&uuid=6517087441302793&wsSecret=ebd0193904ac620a041367ed65396a7b&wsTime=62092038&ratio=6000&streamType=3&needwm=1&sphd=1&appid=81&tp=1644678841498&ticker=429391
