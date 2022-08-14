@@ -1681,6 +1681,14 @@ http://140.238.6.140:8881/stream/channel/aa36691f41e62b915c013542740d6df9
 http://140.238.6.140:8881/stream/channel/4b6668e35a1425f4c95167f90c1a0323
 #EXTINF:-1 tvg-id="MBCTV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/2560px-Munhwa_Broadcasting_Company.svg.png", MBC
 https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
+#EXTINF:-1 tvg-id="MBCEvery1.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/jv5fRK3/MBC-every1-BEARTV.png", MBC every1
+http://140.238.6.140:8881/stream/channel/a066cadb3e9373b07ba7c86a29baaa7e
+#EXTINF:-1 tvg-id="MBCDrama.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/jbbF2qK/MBC-Drama-BEARTV.png", MBC Drama
+http://140.238.6.140:8881/stream/channel/a385edd7462645fad49cf0514c5799d1
+#EXTINF:-1 tvg-id="MBCM.kr" group-title="🇰🇷| Kênh Hàn Quốc tvg-logo="https://i.ibb.co/Y833Qss/MBC-M-BEARTV.png", MBC M
+http://140.238.6.140:8881/stream/channel/b75283ab1143c531db6a1b151d0c5812
+#EXTINF:-1 tvg-id="MBCOn.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/bbgwWrs/MBC-ON-BEARTV.png", MBC ON
+http://140.238.6.140:8881/stream/channel/48b717363d943ee4d4f9806a3c0c482b
 #EXTINF:-1 tvg-id="JTBC.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://6.vikiplatform.com/image/dd32095cfb9e46ab8358b31792e1e8f9.png?x=b&s=843x474&q=h&cb=1", JTBC
 http://mytv.dothome.co.kr/ch/catv/211.php
 #EXTINF:-1 tvg-id="SBSTV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/640px-SBS_Korea_Logo_%28Word_Only%29.svg.png", SBS
@@ -1913,6 +1921,52 @@ http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1200px-Indosiar_2015.svg.png", Indosiar
 http://playlist.urfan.web.id/qwr9ew/s/s04/01.m3u8
+
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 1 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://bb5iqwas4fliv.vcdn.cloud/m201nd/m201nd@456.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 2 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://bb5iqwas4fliv.vcdn.cloud/m301nd/m301nd@456.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 3 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://bb5iqwas4fliv.vcdn.cloud/m401nd/m401nd@456.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 4 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://bb5iqwas4fliv.vcdn.cloud/m501nd/m501nd@456.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 5 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m201nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 6 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m202nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 7 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m301nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 8 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m302nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 9 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m304nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 10 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m401nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 11 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m402nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 12 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m403nd/chunklist.m3u8|Referer=https://live.rakhoi.live/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 13 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://live.zeuscdn.live/live/_definst_/stream_1_4831b@x6y4/chunklist.m3u8|Referer=https://saoketv.space/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 14 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://live.zeuscdn.live/live/_definst_/stream_1_4831b@x2y4/chunklist.m3u8|Referer=https://saoketv.space/
+#EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 15 ⚽ [Chọn HW]
+#EXTVLCOPT:http-user-agent="BearTV"
+https://live.zeuscdn.live/live/_definst_/stream_1_4831b@x3y4/chunklist.m3u8|Referer=https://saoketv.space/
 
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://dfnc.ru/en/wp-content/uploads/2021/12/tild3063-6239-4561-b134-636330383162__army2022_art_base-900x444.jpg", Trực tiếp Tank Biathlon Army Games (feed Việt Nam)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/TrạmTin/live
