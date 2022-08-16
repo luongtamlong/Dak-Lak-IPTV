@@ -692,9 +692,9 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
-http://live.tvfix.org/hls/cgtnhd.m3u8
+http://39.135.46.111:6610/000000001001/7745129417417101820/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7745129417417101820
 #EXTINF:-1 tvg-id="891" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CGTN_Documentary_logo.png/220px-CGTN_Documentary_logo.png", CGTN Documentary
-http://live.tvfix.org/hls/cgtndochd.m3u8
+http://39.135.46.111:6610/000000001001/7114647837765104058/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7114647837765104058
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German
 https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8?ern=0
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German+
@@ -1391,10 +1391,10 @@ http://111.12.101.65:6610/PLTV/77777777/224/3221225676/index.m3u8?servicetype=1&
 http://111.12.101.65:6610/PLTV/77777777/224/3221225677/index.m3u8?servicetype=1&IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="4" tvg-logo="https://nettvpro.live/uploads/18/1-1P525203500491.jpg" group-title="🇨🇳| Kênh Trung Quốc",CCTV4
 http://111.12.101.65:6610/PLTV/77777777/224/3221225753/index.m3u8?servicetype=1&IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="22" tvg-name="CCTV4EUO" tvg-logo="http://nettvpro.live/uploads/19/1-19103016035W49.jpg" group-title="🇨🇳| Kênh Trung Quốc",CCTV4-欧洲
-http://117.148.179.162/PLTV/88888888/224/3221231615/index.m3u8
-#EXTINF:-1 tvg-id="23" tvg-name="CCTV4AME" tvg-logo="http://nettvpro.live/uploads/19/1-191030155JY51.jpg" group-title="🇨🇳| Kênh Trung Quốc",CCTV4-美洲
-http://117.148.179.162/PLTV/88888888/224/3221231654/index.m3u8
+#EXTINF:-1 tvg-id="22" tvg-name="CCTV4EUO" tvg-logo="http://nettvpro.live/uploads/19/1-19103016035W49.jpg" group-title="央视频道",CCTV4-欧洲
+http://117.148.130.102/PLTV/88888888/224/3221231615/index.m3u8
+#EXTINF:-1 tvg-id="23" tvg-name="CCTV4AME" tvg-logo="http://nettvpro.live/uploads/19/1-191030155JY51.jpg" group-title="央视频道",CCTV4-美洲
+http://117.148.130.102/PLTV/88888888/224/3221231654/index.m3u8
 #EXTINF:-1 tvg-id="5" tvg-logo="https://nettvpro.live/uploads/18/1-1PZ21S93X48.jpg" group-title="🇨🇳| Kênh Trung Quốc",CCTV5
 http://111.12.101.65:6610/PLTV/77777777/224/3221225801/index.m3u8?servicetype=1&IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="6" tvg-logo="https://nettvpro.live/uploads/170103/1-1F1031Q640N5.jpg" group-title="🇨🇳| Kênh Trung Quốc",CCTV5+
@@ -1605,6 +1605,8 @@ https://live4.tdm.com.mo/ch2/ch2.live/playlist.m3u8
 https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/TDM_Ou_Mun_Macau_logo.png/revision/latest/scale-to-width-down/300?cb=20220124185451", TDM Ou Mun-Macau
 https://live4.tdm.com.mo/ch3/ch3.live/chunklist_w976321456.m3u8
+#EXTINF:-1 tvg-id="476" tvg-logo="https://nettvpro.live/uploads/18/1-1P5121TS0225.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Macau Asia Satellile TV
+http://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=5712f6638931e8d701daf8b7b0131310&key=7b34f0cfde27af4f2da14380f05a8d1c
 #EXTINF:-1 tvg-id="316" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Cti_v1.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTI ASIA
