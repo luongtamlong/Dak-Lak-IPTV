@@ -711,14 +711,12 @@ https://rt-glb.rttv.com/dvr/rtnews/playlist_2500Kb.m3u8
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Intl
 https://pkvc-hls4.cdnvideo.ru/Poehali/smil:Poehali.smil/chunklist_b2628000_slru.m3u8
-#EXTINF:-1 tvg-id="pervy-kanal-csi" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Asia
-http://ott-cdn.ucom.am/s14/04.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/fCDZKZa.png", RTR Planeta
 https://radio-live-mg.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/NTV_MIR.svg/1200px-NTV_MIR.svg.png", NTV Mir
 http://92.46.127.146:8080/ntv-L3-TRANS/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/cfvjieR.png", CCTV4 Asia
-http://live.tvfix.org/hls/cctv4hd.m3u8
+http://111.63.117.13:6060/030000001000/CCTV-4/CCTV-4.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTINF:-1 tvg-ID="CHN" group-title="🌏| Quốc tế" tvg-logo="https://www.tvchinese.net/uploads/tv/jszy.jpg",JIANGSU TV INTL
@@ -751,6 +749,8 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtpi.smil/.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 http://210.210.155.35/uq2663/h/h158/index2.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
+http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73745?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/226.png", TRT World
 https://tv-trtworld.live.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://photos.live-tv-channels.org/tv-logo/us-un-web-tv-6932.jpg", UN Web TV
@@ -1085,9 +1085,7 @@ https://rfahls-i.akamaihd.net/hls/live/226233/RFALive_2/index.m3u8
 https://rfivietnamien96k.ice.infomaniak.ch/rfivietnamien-96k.mp3
 
 #EXTINF:-1 tvg-id="ITVLondon.uk" group-title="🇪🇺| Châu Âu" tvg-logo="https://tvadvertising.co.uk/wp-content/uploads/2020/04/TV-Advertising-ITV-Logo-1.png", ITV (UK)
-http://sv2.cvacetv.ga:8080/stream/channelid/259255739?profile=ace2
-#EXTINF:-1 tvg-id="Channel4.uk" group-title="🇪🇺| Châu Âu" tvg-logo="https://tvadvertising.co.uk/wp-content/uploads/2020/04/TV-Advertising-ITV-Logo-1.png", Channel 4 (UK)
-http://45.153.35.210:8000/play/UK_channel_4_sd/index.m3u8
+http://live-eu.cvacetv.ga:8080/stream/channelid/1088570370?profile=ace
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://www.appep.net/mat/2021/05/LogoFranceInfo.jpg", franceinfo
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/franceinfo/live
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/400px-Logo_TVE-1.svg.png", TVE La Uno
@@ -1109,16 +1107,10 @@ http://live-eu.cvacetv.ga:8080/stream/channelid/604561997?profile=ace
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 tvg-id="ZDF.de" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/200px-ZDF_logo.svg.png", ZDF
 http://live-eu.cvacetv.ga:8080/stream/channelid/876757161?profile=ace
-#EXTINF:-1 tvg-id="Phoenix.de" group-title="🇪🇺| Châu Âu" tvg-logo="https://photos.live-tv-channels.org/tv-logo/de-phoenix-hd-4663.jpg", Phoenix
-http://mastaaa.dynv6.net/playlist2.php?id=73
-#EXTINF:-1 tvg-id="3sat.de" group-title="🇪🇺| Châu Âu" tvg-logo="https://img.utdstc.com/icon/317/900/31790060f4351e108192d770de2eafc2c26bf520b4dfdaa21713afbbb9cb3fe3:200", 3sat
-https://s4.hopslan.com/3sat/index.m3u8?token=0c5c58db6f5bd0d8c6a5970503dde1128ccf9ca4-2003e5831d88328dbc72c7ba8a13ca65-1655027654-1655016854
 #EXTINF:-1 tvg-id="RTLGermany.de" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/RTL_Logo_2021.svg/500px-RTL_Logo_2021.svg.png", RTL
 http://live-eu.cvacetv.ga:8080/stream/channelid/427040053?profile=ace
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rik-sat-cy.png", RIK Sat
 http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="🌎| Bắc Mỹ" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN (US Feed)
-http://1942468522.rsc.cdn77.org/s7SG-DvCrXWekEf4nklmSA==,1656999674/1942468522/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌎| Bắc Mỹ" tvg-logo="https://i.imgur.com/AWAZOOS.png", Global News Canada
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌎| Bắc Mỹ" tvg-logo="https://play-lh.googleusercontent.com/R-Dlb-6gMbHZuaHJqkLs5BeGJDEmBHyrsQ-r4X3IImHvdpS_7umgjOO6-7e_4AbAXQ", CBS
@@ -1293,6 +1285,16 @@ https://euronews.alteox.app/hls/ru_stream.m3u8
 http://f1.stream.devkom.pro:1063/ramowka/video.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%C4%8CT1_HD_logo_2012.svg/512px-%C4%8CT1_HD_logo_2012.svg.png", ČT1 HD
 http://213.151.233.20:8000/dna-5100-tv-pc.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%C4%8CT2_logo_2012.svg/150px-%C4%8CT2_logo_2012.svg.png", ČT2 HD
+http://platin4k.eu:80/kralkerim/8TKLyJivVEA/115458?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/230px-%C4%8CT24_logo.png", ČT24 HD
+http://platin4k.eu:80/kralkerim/8TKLyJivVEA/115459?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/250px-TVP_HD_logo.svg.png", TVP HD
+http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73741?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TVP1_2021_box-1.svg/70px-TVP1_2021_box-1.svg.png", TVP1 HD
+http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73738?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TVP2_2021_box-1.svg/70px-TVP2_2021_box-1.svg.png", TVP2 HD
+http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73739?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://s2.tvp.pl/images/b/c/3/uid_bc337ce8f24a5496ed394a9ff8b114e21412249630300_width_300_height_150_play_0_pos_0_gs_0.png", TVP Info
 http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpinfo
 #EXTINF:-1 group-title="🇪🇺| Châu Âu",TV3 HD 
