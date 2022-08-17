@@ -744,10 +744,16 @@ https://rt-glb.rttv.com/dvr/rtnews/playlist_2500Kb.m3u8
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Intl
 https://pkvc-hls4.cdnvideo.ru/Poehali/smil:Poehali.smil/chunklist_b2628000_slru.m3u8
-#EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="🌏| Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6e/RTR_Planeta_2013.png/revision/latest/scale-to-width-down/250?cb=20150206123335", RTR Planeta
-http://213.172.73.170:8081/nimble_live/1102__RTR_Planeta/playlist.m3u8
+#EXTINF:-1 tvg-id="pervy-kanal-csi" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Asia
+https://sc.id-tv.kz/1KanalVsemSet_36_37.m3u8
+#EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rtr-planeta.png", RTR Planeta
+https://radio-live-mg.rtr-vesti.ru/hls/planeta_rtr_euro/playlist_3.m3u8
+#EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rtr-planeta.png", RTR Planeta (Asia)
+https://radio-live-mg.rtr-vesti.ru/hls/planeta_rtr_asia/playlist_3.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/NTV_MIR.svg/1200px-NTV_MIR.svg.png", NTV Mir
 http://92.46.127.146:8080/ntv-L3-TRANS/index.m3u8
+#EXTINF:-1 tvg-id="rentv-int" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rentv-int.png", REN TV Intl
+https://sc.id-tv.kz/RenTV_36_37.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/cfvjieR.png", CCTV4 Asia
 http://111.63.117.13:6060/030000001000/CCTV-4/CCTV-4.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -1276,6 +1282,8 @@ http://persik.by/stream/1234/3/10405.m3u8
 http://persik.by/stream/1234/3/10406.m3u8
 #EXTINF:-1 tvg-id="belarus3" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/belarus3hd.png", Belarus 3
 http://persik.by/stream/1234/3/10407.m3u8
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/belarus4.png", Belarus 4 (Vitebsk)
+https://flu.vtv.by/bt4-non-by/index.m3u8
 #EXTINF:-1 tvg-id="belarus5" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/belarus5hd.png", Belarus 5
 http://persik.by/stream/1234/3/10408.m3u8
 #EXTINF:-1 tvg-id="belarus5-inet" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/belarus5-inet.png", Belarus 5 Internet
