@@ -745,15 +745,13 @@ https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Intl
 https://pkvc-hls4.cdnvideo.ru/Poehali/smil:Poehali.smil/chunklist_b2628000_slru.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-csi" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Asia
-https://sc.id-tv.kz/1KanalVsemSet_36_37.m3u8
+http://ott-cdn.ucom.am/s14/04.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rtr-planeta.png", RTR Planeta
 https://radio-live-mg.rtr-vesti.ru/hls/planeta_rtr_euro/playlist_3.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rtr-planeta.png", RTR Planeta (Asia)
 https://radio-live-mg.rtr-vesti.ru/hls/planeta_rtr_asia/playlist_3.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/NTV_MIR.svg/1200px-NTV_MIR.svg.png", NTV Mir
 http://92.46.127.146:8080/ntv-L3-TRANS/index.m3u8
-#EXTINF:-1 tvg-id="rentv-int" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rentv-int.png", REN TV Intl
-https://sc.id-tv.kz/RenTV_36_37.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/cfvjieR.png", CCTV4 Asia
 http://111.63.117.13:6060/030000001000/CCTV-4/CCTV-4.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -794,7 +792,7 @@ http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73745?checkedby:iptvcat.com
 http://saveukraine.only4.tv/0195/video.m3u8?token=saveUkrain
 #EXTINF:-1 tvg-id="inter-plus-ua" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/inter-plus-ua.png", INTER+
 http://myott.top/stream/MQC4SG6DIS/345.m3u8
-#EXTINF:-1 tvg-id="ictv-ukraine" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/inter-plus-ua.png", ICTV Ukraine
+#EXTINF:-1 tvg-id="ictv-ukraine" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/ictv-ukraine.png", ICTV Ukraine
 http://saveukraine.only4.tv/6650/video.m3u8?token=saveUkrain
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/226.png", TRT World
 https://tv-trtworld.live.trt.com.tr/master_720.m3u8
@@ -1249,9 +1247,11 @@ https://bl.uma.media/live/410336/HLS/6307840_7/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="tvcentr" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://i.imgur.com/fIkd01t.png",TV Centr
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="tvcentr-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://i.imgur.com/fIkd01t.png",TV Centr (MSK+4)
+http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5215
 #EXTINF:-1 tvg-id="rentv" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://i.imgur.com/18TAzYV.png",REN TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://188.191.160.238:9099/channel/REN_TV.ts
+http://195.2.74.99/channel/1fb175cd/index.m3u8?q=76e2e28c6098712f77c0a0812f81b8c1
 #EXTINF:-1 tvg-id="rentv-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://i.imgur.com/18TAzYV.png",REN TV (MSK+4)
 http://85.92.123.108:6060/play/rentv/index.m3u8
 #EXTINF:-1 tvg-id="tnt" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/tnt.png",TNT HD
@@ -1265,10 +1265,18 @@ http://213.172.73.170:8081/nimble_live/1087__STS/playlist.m3u8
 http://85.92.123.108:6060/play/sts/index.m3u8
 #EXTINF:-1 tvg-id="5kanal-ru" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/5-tv.svg/150px-5-tv.svg.png", 5TV Russia
 http://194.113.234.110:4005
+#EXTINF:-1 tvg-id="5kanal-ru-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/5-tv.svg/150px-5-tv.svg.png", 5TV Russia
+http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5208
 #EXTINF:-1 tvg-id="domkino" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/200px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png", Dom Kino
 http://50.7.92.90/Dom_kino/playlist.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://www.tvkeep.com/uploads/domkino-premium.jpg", Dom Kino Premium
 http://194.113.234.110:4111
+#EXTINF:-1 tvg-id="ntv-pravo" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-pravo.png", NTV Pravo
+http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5147
+#EXTINF:-1 tvg-id="ntv-serial" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-serial.png", NTV Serial
+http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5096
+#EXTINF:-1 tvg-id="ntv-xit" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-xit.png", NTV Hit
+http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5095
 #EXTINF:-1 tvg-id="h1-am" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Armenian_Public_TV_logo_%282021%29_%282%29.svg/220px-Armenian_Public_TV_logo_%282021%29_%282%29.svg.png", Armenia 1
 http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5349
 #EXTINF:-1 tvg-id="aztv" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/Az%C9%99rbaycan_Televiziya_logo.png", AzTV
