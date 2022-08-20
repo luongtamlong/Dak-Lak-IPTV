@@ -309,16 +309,6 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
 #EXTINF:-1 tvg-id="btv5hd" group-title="SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 HD
 https://vtsstr4.tv24.vn/live/btv5_HD_new.smil/playlist.m3u8
 
-#-*--Kẹo-*--#
-#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+CINE HD
-http://live.television4you.xyz/muzipa/km_20220817_1080p.mp4/index.m3u8
-#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+LIFE HD
-http://live.television4you.xyz/muzipa/km_20220817_1080p.mp4/index.m3u8
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+SPORT1 HD
-http://live.television4you.xyz/muzipa/km_20220817_1080p.mp4/index.m3u8
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+SPORT2 HD
-http://live.television4you.xyz/muzipa/km_20220817_1080p.mp4/index.m3u8
-
 
 
 #-*--Thiết yếu-*--#
@@ -1762,7 +1752,8 @@ http://mytv.dothome.co.kr/ch/catv/211.php
 #EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/RHf2x5F/JTBC2-BEARTV.png", JTBC 2
 http://140.238.6.140:8881/stream/channel/0cfb525632103496bff37e973644f970
 #EXTINF:-1 tvg-id="SBSTV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/640px-SBS_Korea_Logo_%28Word_Only%29.svg.png", SBS
-http://itskoi.dothome.co.kr/sbs.php?id=S01
+http://han.ddkdxmkj.com/api/sbs.php?id=1
+#http://itskoi.dothome.co.kr/sbs.php?id=S01
 #http://51.81.66.195:1935/krtv/sbs_540/playlist.m3u8
 #http://ye23.win/iptv/sbs5.1.php?id=S01
 #EXTINF:-1 group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo="https://i.ibb.co/k6gp40F/sbsfune-BEARTV.png", SBS funE
@@ -1791,6 +1782,8 @@ http://mytv.dothome.co.kr/ch/catv/221.php
 http://sjva.soa1.duckdns.org/klive/api/url.m3u8?m=url&s=seezn&i=217&q=default
 #EXTINF:-1 tvg-id="YonhapNewsTV.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo=""https://static.epg.best/kr/YonhapNewsTV.kr.png", Yonhap
 https://wms211-kortv.akamaized.net/a_live/34402987/smil:20ch211.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="YTN.kr" group-title="🇰🇷| Kênh Hàn Quốc" tvg-logo=""https://static.epg.best/kr/YonhapNewsTV.kr.png", YTN
+http://ye23.win/iptv/korea2021.php?id=ytn
 
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://ptv.com.pk/user/assets/images/ptvhomelogo.png", PTV Home
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/PTVHomeEntertainment/live
