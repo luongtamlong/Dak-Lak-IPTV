@@ -1076,10 +1076,24 @@ https://multi-playlist-zmp3.zadn.vn/RckDo1XPsU4/zhls/playback-realtime/111c87d8b
 
 
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC World Service" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png" radio="true" group-title="📻| Radio",BBC World Service
-http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_world_service.m3u8
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 1" tvg-logo="https://ichef.bbci.co.uk/images/ic/1920x1080/p0cbj45j.jpg" radio="true" group-title="📻| Radio",BBC Radio 1
+http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 2" tvg-logo="https://ichef.bbci.co.uk/images/ic/1200x675/p0cbjbk8.jpg" radio="true" group-title="📻| Radio",BBC Radio 2
+http://stream.live.vc.bbcmedia.co.uk/bbc_radio_two
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 3" tvg-logo="https://ichef.bbci.co.uk/images/ic/464x261/p041cg2r.jpg" radio="true" group-title="📻| Radio",BBC Radio 3
+https://stream.live.vc.bbcmedia.co.uk/bbc_radio_three
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 4" tvg-logo="https://ichef.bbci.co.uk/images/ic/128x128/p01tqv8z.png" radio="true" group-title="📻| Radio",BBC Radio 4
+http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 4 Extra" tvg-logo="https://media.info/i/lf/300/1637794649/468.png" radio="true" group-title="📻| Radio",BBC Radio 4 Extra
+https://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 5 Live" tvg-logo="https://ichef.bbci.co.uk/images/ic/1200x675/p0cbjck5.jpg" radio="true" group-title="📻| Radio",BBC Radio 5 Live
+http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_five_live/format/pls.pls
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 6" tvg-logo="https://media.info/i/lv/bbc-radio-6-music/1648307331/5505.png" radio="true" group-title="📻| Radio",BBC Radio 6
+http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_6music/format/pls.pls
 #EXTINF:-1 tvg-chno="280" tvg-id="france24eng" tvg-name="Radio Sputnik" tvg-logo="https://bloximages.newyork1.vip.townnews.com/insideradio.com/content/tncms/assets/v3/editorial/b/21/b2169bce-61c8-11e7-a712-ff8eda6ea981/595d59b415893.image.jpg" radio="true" group-title="📻| Radio",Radio Sputnik
 https://nfw.ria.ru/flv/audio.aspx?ID=36292119&type=mp3
-#EXTINF:-1 tvg-chno="281" tvg-id="radio-rossii tvg-name="Radio Rossii" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a2/Radio_Rossii_%282021%2C_full%29.svg/revision/latest/scale-to-width-down/150?cb=20210611145413" radio="true" group-title="📻| Radio",Radio Rossii
+#EXTINF:-1 tvg-chno="281" tvg-id="radio-rossii" tvg-name="Radio Rossii" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a2/Radio_Rossii_%282021%2C_full%29.svg/revision/latest/scale-to-width-down/150?cb=20210611145413" radio="true" group-title="📻| Radio",Radio Rossii
 http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_128kbps
 #EXTINF:-1 tvg-chno="282" tvg-id="vesti-fm" tvg-name="Vesti FM" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/11/Vesti_FM_%282021%2C_full%29.svg/revision/latest/scale-to-width-down/150?cb=20210611145743" radio="true" group-title="📻| Radio",Vesti FM
 http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
