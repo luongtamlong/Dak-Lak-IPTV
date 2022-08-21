@@ -779,6 +779,8 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
 http://210.210.155.37/qwr9ew/s/s38/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 http://210.210.155.35/uq2663/h/h158/index2.m3u8
+#EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="TheFilipinoChannelAsia.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/220px-The_Filipino_Channel_2011_logo.svg.png",TFC Asia
+https://tfcguam-abscbn-ono.amagi.tv/index_6.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
 http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73745?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="1plus1-int" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
@@ -887,15 +889,10 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/100/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 https://liveanevia.mncnow.id/live/eds/XingKongTV/sa_dash_vmx/XingKongTV.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/angahjee1994/logo/master/scm.png" group-title="🎬| Giải trí", SCM HD
-#http://77.247.108.32:8080/oMnFdj88ij/uQjzzncJGN/171981
-http://1.9.62.158/PLTV/88888888/224/3221227606/3221227606.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/angahjee1994/logo/master/svm%20legend.png" group-title="🎬| Giải trí", SCM Legend HD
-https://liveanevia.mncnow.id/live/eds/SCMlegend/sa_dash_vmx/SCMlegend.mpd
+#EXTINF:-1 group-title="Infotainment" tvg-id="StarChineseChannelTaiwan.hk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Star_Chinese_Channel_logo_2016.png/220px-Star_Chinese_Channel_logo_2016.png",Star Chinese Channel Taiwan
+http://61.219.170.95:18522/.m3u8
+#http://59.125.122.90:18522/.m3u8
+#http://60.251.33.252:18522/.m3u8
 #EXTINF:-1 tvg-id="iQIYI.cn" group-title="🎬| Giải trí" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/355_144.png",IQIYI HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=fed51001c357a9224f8221161313f010&key=7e0183501f83df2174844c03011fb491
@@ -2004,6 +2001,8 @@ https://livefta.malimarcdn.com/tvkedge/tvkhd.stream/chunklist.m3u8
 https://livefta.malimarcdn.com/tvkedge/tvk2.stream/chunklist.m3u8
 #EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/zG1DTmj/BTVNews-BEARTV.png", BTV News
 https://livefta.malimarcdn.com/tvkedge/btv.stream/chunklist.m3u8
+#EXTINF:-1 group-title="ASIAN TV" tvg-id="ANC.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/220px-ABS-CBN_News_Channel_%282015%29.svg.png",ANC
+https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-anc-global/CDN/playlist.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/k4WZXFv/TVRI-BEARTV.png", TVRI
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)/Stream(04)/index.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/WWrSQT9/TVRI-Sport-HD-BEARTV.png", TVRI SPORT
