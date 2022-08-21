@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml,http://cvmovh.duckdns.org:9981/xmltv/channels,http://cvmvnpt.duckdns.org:9981/xmltv/channels,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
+#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml,http://cvmovh.duckdns.org:9981/xmltv/channels,http://cvmvnpt.duckdns.org:9981/xmltv/channels,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
 
 
 
@@ -779,6 +779,10 @@ https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
 http://210.210.155.37/qwr9ew/s/s38/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 http://210.210.155.35/uq2663/h/h158/index2.m3u8
+#EXTINF:0 tvg-id="GMALifeTV.ph" tvg-logo="https://i.imgur.com/JSLsN7L.jpg" group-title="🌏| Quốc tế", GMA Life TV
+http://user.scalecdn.co:8080/live/Alfred/Alfred/546783.m3u8
+#EXTINF:-1 tvg-id="GMAPinoyTVAsiaPacific.ph" tvg-logo="https://i.imgur.com/2QkjBUo.jpg" group-title="🌏| Quốc tế", GMA Pinoy TV
+http://user.scalecdn.co:8080/live/Alfred/Alfred/546784.m3u8
 #EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="TheFilipinoChannelAsia.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/220px-The_Filipino_Channel_2011_logo.svg.png",TFC Asia
 https://tfcguam-abscbn-ono.amagi.tv/index_6.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
@@ -2008,6 +2012,56 @@ https://livefta.malimarcdn.com/tvkedge/tvk2.stream/chunklist.m3u8
 https://livefta.malimarcdn.com/tvkedge/btv.stream/chunklist.m3u8
 #EXTINF:-1 group-title="ASIAN TV" tvg-id="ANC.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/220px-ABS-CBN_News_Channel_%282015%29.svg.png",ANC
 https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-anc-global/CDN/playlist.m3u8
+#EXTINF:0 tvg-id="A2ZChannel11.ph" tvg-logo="https://i.imgur.com/hhd8QjJ.jpg" group-title="ASIAN TV", A2Z
+https://bit.ly/FEITAN-A2Z
+
+#EXTINF:0 tvg-id="KapamilyaChannel.ph" tvg-logo="https://i.imgur.com/K5eEqKz.jpg" group-title="ASIAN TV", KAPAMILYA CHANNEL
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=11
+
+#EXTINF:0 tvg-id="TV5.ph" tvg-logo="https://i.imgur.com/F9u7gsQ.jpg" group-title="ASIAN TV",IBA SA 5
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=8
+
+#EXTINF:-1 tvg-id="GMATV.ph"  tvg-logo="https://i.imgur.com/orZGgot.jpg" group-title="ASIAN TV",GMA 7
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=5
+
+#EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-logo="https://i.imgur.com/8d2CJkg.jpg" group-title="ASIAN TV",KAPATID 5
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:AD:7A:B6&stream=31052&extension=ts
+
+#EXTINF:-1, tvg-id="Net25.ph" tvg-logo="https://i.imgur.com/HZQABuh.jpg" group-title="ASIAN TV", NET 25
+http://user.scalecdn.co:8080/live/Alfred/Alfred/567730.m3u8
+
+#EXTINF:-1, tvg-id="IBC13.ph" tvg-logo="https://i.imgur.com/R7GtAsh.jpg" group-title="ASIAN TV", IBC 13
+http://user.scalecdn.co:8080/live/Alfred/Alfred/567719.m3u8
+
+#EXTINF:-1, tvg-id="CCTN47.ph" tvg-logo="https://i.imgur.com/P0iQIp8.jpg" group-title="ASIAN TV", CCTN 47
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=4
+
+#EXTINF:-1, tvg-id="PilipinasHD.ph" tvg-logo="https://i.imgur.com/k7sbIa1.jpg" group-title="ASIAN TV", PILIPINAS HD
+https://d3cbe0gidjd4k2.cloudfront.net/channel_5/smil:channel_5.smil/chunklist_w612733615_b300000_sleng.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z9ZTaTB.jpg" group-title="ASIAN TV",GTV
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=7
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/u0gp2fH.jpg" group-title="ASIAN TV",GMA NEWS TV
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension=ts&play_token=wY4LMv3TMk
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/m5S895p.jpg" group-title="ASIAN TV",CNN PHILIPPINES
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=10
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gXI3ma7.jpg" group-title="ASIAN TV",ONE PH
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=42
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/489UArk.jpg" group-title="ASIAN TV",PTV
+https://ctr-10135-ap-ph.dailymotion-live-mr.qwilted-cds.cqloud.com/sec(vb0ikD3rmZA2RvEN2UsfwJUY4-_yk4GWtGyaAVPzcL-30p9CD5tbi6yFtpPMAWQ0)/dm/3/x5cr6b9/d/live-2.m3u8#cell=qlph1
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JaCCD65.jpg" group-title="ASIAN TV",TELERADYO
+https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=41
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/I106q2t.jpg" group-title="ASIAN TV",SUPER RADYO DZBB
+http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/S0GdOES.jpg" group-title="ASIAN TV",CLTV 36
+http://210.213.69.20:5080/LiveApp/streams/cltvmcr.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/k4WZXFv/TVRI-BEARTV.png", TVRI
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)/Stream(04)/index.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/WWrSQT9/TVRI-Sport-HD-BEARTV.png", TVRI SPORT
