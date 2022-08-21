@@ -775,6 +775,8 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
 https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://www.nettvpro.live/uploads/19/1-1Z40323412G28.jpg", TV5Monde Info
 https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://greekcitytimes.com/wp-content/uploads/2022/07/gr-ert-world-2073.jpg", ERT World
+https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://farm5.staticflickr.com/4296/36269566276_7431647a93_b.jpg", TVP Internacional
 http://210.210.155.37/qwr9ew/s/s38/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
@@ -809,6 +811,9 @@ https://livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="discoveryasiahd" group-title="🌿| Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/205.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/discoveryasia_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Discovery Asia
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🌿| Khám phá" tvg-id="DiscoveryScienceHongKong.hk" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/a2/Discovery_Science_2017.png/revision/latest/scale-to-width-down/180?cb=20220305105453&path-prefix=vi",Discovery Science
+http://50.7.220.74:8278/discoverysc_twn/playlist.m3u8?tid=mc6599c2e8abf17200438&ct=17877&tsum=04c82c404888445ec55711287ad6b21b
+##http://50.7.220.74:8278/discoverysc_twn/playlist.m3u8?tid=MECE1045237810452378&ct=18393&tsum=806a4803bc2c402750bf7fde4daaf50e
 #EXTINF:-1 tvg-id="historyhd" group-title="🌿| Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/209.png", History HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://code.television4you.xyz/key.php?kid=6765ea7b7cc54c1c86551d6b3440b39b&key=1613f6b40465bbe91740f78571ac79fa
@@ -889,10 +894,6 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/100/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 https://liveanevia.mncnow.id/live/eds/XingKongTV/sa_dash_vmx/XingKongTV.mpd
-#EXTINF:-1 group-title="Infotainment" tvg-id="StarChineseChannelTaiwan.hk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Star_Chinese_Channel_logo_2016.png/220px-Star_Chinese_Channel_logo_2016.png",Star Chinese Channel Taiwan
-http://61.219.170.95:18522/.m3u8
-#http://59.125.122.90:18522/.m3u8
-#http://60.251.33.252:18522/.m3u8
 #EXTINF:-1 tvg-id="iQIYI.cn" group-title="🎬| Giải trí" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/355_144.png",IQIYI HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=fed51001c357a9224f8221161313f010&key=7e0183501f83df2174844c03011fb491
@@ -1830,7 +1831,7 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/Repub
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/DD_India_logo.jpg/180px-DD_India_logo.jpg", DD India
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/DDIndia/live
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/26/DD_National_new_logo.png", DD National
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=oNi70I6khY8
+http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/DD_News.png", DD News
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCKwucPzHZ7zCUIf7If-Wo1g/live
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/India_tv.png/250px-India_tv.png", India TV
@@ -1910,6 +1911,9 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/chunklist_b4596000_slENG.m3u8
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-id="RTMK08" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/Dewan%20Negara.jpg",Dewan Negara
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/chunklist_b4596000_slENG.m3u8
+#EXTINF:-1 tvg-id="TV3.my" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/106_144.png",TV3
+# https://raw.githubusercontent.com/samleong123/tonton_dailymotion_php/main/m3u8/TV3.m3u8
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live03.mpd
 #EXTINF:-1 tvg-id="NTV7.my" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://didik.tv/images/logotv2.png",DidikTV KPM
 https://raw.githubusercontent.com/samleong123/tonton_dailymotion_php/main/m3u8/DidikTVKPM.m3u8
 # https://aqfadtv.astradamy.com/stream/DidikTVKPM.php
@@ -1958,6 +1962,10 @@ http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20621
 #EXTINF:-1 tvg-id="AstroQuanJiaHD.my" tvg-logo="https://i.imgur.com/FTvi5XK.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",Astro Quan Jia HD
 http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20408 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=2019dd03e75adfc2f58ec94eff26d810&key=79dc64991db24e051b3cb7b39e59e8c3
+#EXTINF:-1 tvg-id="307" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Shuang_Xing_v1.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",ASTRO SHUANG XING
+http://linearjitp-playback.astro.com.my/dash-wv/linear/2403/default_ott.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d3c8254e50da7724a51b591a83205b10&key=430df09e80ddc23d14f0acf7d24c5a46
 #EXTINF:-1 tvg-id="304" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Xiao_Tai_Yang_v1.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",ASTRO XIAO TAI YANG
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2711/default_ott.mpd
@@ -1967,9 +1975,25 @@ http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20411
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d8cc914692987662d5beeed2a84ecf10&key=1ad7af3abe78cece01e7a772dd88a09b
 #EXTINF:-1 tvg-id="311" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_AOD_v1.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",ASTRO AOD 311
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2706/default_ott.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=615ed4bcd8cecca6b9703e54252f8c10&key=84b3495bfb163c17a6cc6cf43b1f02e9
 #EXTINF:-1 tvg-id="352" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_AOD_v1.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",ASTRO AOD 352
-http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c21007
+http://linearjitp-playback.astro.com.my/dash-wv/linear/700/default_ott.mpd
 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=72c97cb54df5626d72ab35a1d6efaf10&key=8d40587f3f21561aa2ca5b5bf008187e
+#EXTINF:-1 tvg-id="353" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_AOD_v1.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",ASTRO AOD 353
+http://linearjitp-playback.astro.com.my/dash-wv/linear/905/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d24b39ffd2824eeb3e03eb5da918ad10&key=7ca1866a4eace300a65998d1fc94ac28
+#EXTINF:-1 tvg-id="354" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_AOD_v1.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",ASTRO AOD 354
+http://linearjitp-playback.astro.com.my/dash-wv/linear/212/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=12415fae0e5af6a762e14eee8017ca10&key=0ae4216d6d772906acd1531c12adaead
+#EXTINF:-1 tvg-id="355" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_AOD_v1.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",ASTRO AOD 355
+http://linearjitp-playback.astro.com.my/dash-wv/linear/307/default_ott.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=607b7d22565c4bc3b95ff6c33ce65425&key=28cc5367df666c44be4382e64af64d57
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-id="Channel5.sg" tvg-logo="https://www.appcreator24.com/srv/imgs/seccs/9428076_ico.png",Channel 5 
