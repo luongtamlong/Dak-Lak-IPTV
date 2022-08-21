@@ -737,8 +737,6 @@ https://rt-glb.rttv.com/dvr/rtnews/playlist_2500Kb.m3u8
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Intl
 https://pkvc-hls4.cdnvideo.ru/Poehali/smil:Poehali.smil/chunklist_b2628000_slru.m3u8
-#EXTINF:-1 tvg-id="pervy-kanal-csi" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/CrVXSx5.png", OPT1 Asia
-http://ott-cdn.ucom.am/s14/04.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-eu" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rtr-planeta.png", RTR Planeta
 https://radio-live-mg.rtr-vesti.ru/hls/planeta_rtr_euro/playlist_3.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="🌏| Quốc tế" tvg-logo="https://iptvxcdn.ml/rtr-planeta.png", RTR Planeta (Asia)
@@ -1216,7 +1214,7 @@ https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea09
 http://live-vn.cvacetv.ga:9981/stream/channelid/57280988?profile=ace
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/1920px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png", OPT1 HD
-http://78.25.155.47:1309/channel/ORT_HD.ts
+https://1tv-live-gcore.gcdn.co/dash-live12/streams/1tv/1tvdash.mpd
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/1920px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png", OPT1 (MSK+4)
 http://85.92.123.108:6060/play/perviy/index.m3u8
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b6/Russia_1_2012.svg/revision/latest/scale-to-width-down/250?cb=20210123160619", Russia 1 HD
@@ -1238,7 +1236,7 @@ http://iptv.ktkru.ru:8009/index.m3u8
 #EXTINF:-1 tvg-id="izvestia" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Iz.tv.logo_news.png/200px-Iz.tv.logo_news.png", Izvestia Novosti
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 tvg-id="rbk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://a-russia.ru/wp-content/uploads/2015/11/tvrbc-logo-top.jpg", RBK
-https://online-video.rbc.ru/online/rbctvhd.m3u8
+http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="zvezda" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zvezda_logo.svg/400px-Zvezda_logo.svg.png", Zvezda
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
@@ -1280,9 +1278,11 @@ http://50.7.92.90/Dom_kino/playlist.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://www.tvkeep.com/uploads/domkino-premium.jpg", Dom Kino Premium
 http://194.113.234.110:4111
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-pravo.png", NTV Pravo
-http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5147
+http://ntv-hls-orig.cdnvideo.ru/th_pravo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-serial.png", NTV Serial
-http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5096
+http://ntv-hls-orig.cdnvideo.ru/th_serial/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ntv-style" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-style.png", NTV Style
+http://ntv-hls-orig.cdnvideo.ru/th_style/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-xit.png", NTV Hit
 http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5095
 #EXTINF:-1 tvg-id="h1-am" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Armenian_Public_TV_logo_%282021%29_%282%29.svg/220px-Armenian_Public_TV_logo_%282021%29_%282%29.svg.png", Armenia 1
