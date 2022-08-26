@@ -740,9 +740,9 @@ https://vips-livecdn.fptplay.net/hda3/cnn_vhls.smil/chunklist_b5000000.m3u8
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://static.epg.best/au/CGTN.au.png" group-title="🌏| Quốc tế", CGTN
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028019/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="891" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CGTN_Documentary_logo.png/220px-CGTN_Documentary_logo.png", CGTN Documentary
+#EXTINF:-1 tvg-id="891" tvg-name="CGTNDocumentary" tvg-logo="http://static.epg.best/au/CGTNDocu.au.png" group-title="🌏| Quốc tế", CGTN Documentary
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028012/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German
 https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8?ern=0
@@ -1486,7 +1486,7 @@ http://[2409:8087:6a01:1020::d]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221
 http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="🇨🇳| Kênh Trung Quốc",哈哈炫动
 http://183.207.255.188/live/program/live/hhxdhd/4000000/mnf.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2020/12/31/cc2b0ca1bd0db74f75ad810587c28c32.png" group-title="地方",浙江新闻
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2020/12/31/cc2b0ca1bd0db74f75ad810587c28c32.png" group-title="🇨🇳| Kênh Trung Quốc",浙江新闻
 http://hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/04/12/72d035c03412d7cb2d319c6607fef8e9.png" group-title="🇨🇳| Kênh Trung Quốc",浙江国际
 http://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
