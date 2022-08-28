@@ -741,9 +741,9 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://static.epg.best/au/CGTN.au.png" group-title="🌏| Quốc tế", CGTN
-http://39.135.138.58:18890/PLTV/88888888/224/3221225645/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225652/index.m3u8
+http://[2409:8087:5c0b:10:2::85]:6610/000000001001/7745129417417101820/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7745129417417101820
 #EXTINF:-1 tvg-id="891" tvg-name="CGTNDocumentary" tvg-logo="http://static.epg.best/au/CGTNDocu.au.png" group-title="🌏| Quốc tế", CGTN Documentary
-https://livedoc.cgtn.com/1000d/prog_index.m3u8
+http://[2409:8087:5c0b:10:2::85]:6610/000000001001/7114647837765104058/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7114647837765104058
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German
 https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8?ern=0
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German+
@@ -988,6 +988,10 @@ https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX
 http://ott-cdn.ucom.am/s29/04.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/2560px-Rai_News_24_logo_%282022%29.svg.png", RAI News 24
 https://streamcdnb11-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_1200/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://nettvpro.live/uploads/18/1-1P5101F02Q92.jpg" group-title="🇪🇺| Châu Âu",CGTN French
+http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227220/index.m3u8
+#EXTINF:-1 tvg-logo="http://nettvpro.live/uploads/18/1-1P5101A626326.jpg" group-title="🇪🇺| Châu Âu",CGTN Spanish
+http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227238/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logo_RTL_Luxembourg.png/220px-Logo_RTL_Luxembourg.png", RTL Tele
 https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/130px-France_2_2018.svg.png", France 2
@@ -1207,7 +1211,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://onair.mir24.tv/storage/app/uploads/public/5d6/f65/368/5d6f653687663422591825.jpg", Mir 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="cctv-ru" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/cctv-ru.png", CGTN Russian
-https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
+http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227103/index.m3u8
 #EXTINF:-1 tvg-id="nastoyaschee-vremia" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Current_Time_TV_Logo.png/220px-Current_Time_TV_Logo.png", Current Time TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 #KODIPROP:inputstream=inputstream.adaptive
