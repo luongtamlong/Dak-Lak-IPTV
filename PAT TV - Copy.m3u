@@ -741,9 +741,9 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://static.epg.best/au/CGTN.au.png" group-title="🌏| Quốc tế", CGTN
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028019/main.m3u8?IASHttpSessionId=OTT
+http://39.135.138.58:18890/PLTV/88888888/224/3221225645/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225652/index.m3u8
 #EXTINF:-1 tvg-id="891" tvg-name="CGTNDocumentary" tvg-logo="http://static.epg.best/au/CGTNDocu.au.png" group-title="🌏| Quốc tế", CGTN Documentary
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028012/main.m3u8?IASHttpSessionId=OTT
+https://livedoc.cgtn.com/1000d/prog_index.m3u8
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German
 https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8?ern=0
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German+
@@ -772,8 +772,6 @@ http://he11o.akadatel.com/iptv/5NNE9G44FKFB6G/15229/index.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8|Referer=https://teveo.cu/
-#EXTINF:-1 tvg-id="CCTV4Asia.cn" group-title="🌏| Quốc tế" tvg-logo="https://i.imgur.com/cfvjieR.png", CCTV4 Asia
-https://cctvwbcdcnchw.v.cdn20.com/cctvwbcd/cdrmcctv4_1_720P/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTINF:-1 tvg-ID="CHN" group-title="🌏| Quốc tế" tvg-logo="https://www.tvchinese.net/uploads/tv/jszy.jpg",JIANGSU TV INTL
@@ -1209,7 +1207,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://onair.mir24.tv/storage/app/uploads/public/5d6/f65/368/5d6f653687663422591825.jpg", Mir 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="cctv-ru" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/cctv-ru.png", CGTN Russian
-http://39.135.46.111:6610/PLTV/77777777/224/3221225825/index.m3u8?servicetype=1&IASHttpSessionId=OTT
+https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 tvg-id="nastoyaschee-vremia" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Current_Time_TV_Logo.png/220px-Current_Time_TV_Logo.png", Current Time TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1334,196 +1332,103 @@ http://myott.top/stream/MQC4SG6DIS/381.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇰🇵| Kênh Triều Tiên" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ad/Korean_Central_Television_2005.svg/revision/latest/scale-to-width-down/200?cb=20180426214949", KCTV
 https://tv.nknews.org/tvdash/stream.mpd
 
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-1  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225642/index.m3u8
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-2  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225643/index.m3u8
-#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-3  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225634/index.m3u8
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-4  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225621/index.m3u8
-#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-5
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225633/index.m3u8
-#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-6  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225632/index.m3u8
-#EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-7  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225624/index.m3u8
-#EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-8 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225631/index.m3u8
-#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-9  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225646/index.m3u8
-#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-10  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225636/index.m3u8
-#EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-11   
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225628/index.m3u8
-#EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-12  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225637/index.m3u8
-#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-13  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225638/index.m3u8
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-14  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225640/index.m3u8
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-15  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225641/index.m3u8
-#EXTINF:-1 tvg-id="16" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-16  
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226230/index.m3u8
-#EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-17 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225909/index.m3u8
-#EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="🇨🇳| Kênh Trung Quốc", CCTV-4K  
-http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
-#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="🇨🇳| Kênh Trung Quốc",体育赛事
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225706/index.m3u8
-#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="🇨🇳| Kênh Trung Quốc", 北京卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225674/index.m3u8
-#EXTINF:-1 tvg-id="1880" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="🇨🇳| Kênh Trung Quốc",北京新闻
-http://live.cooltv.top/tv/btime.php?id=btvxw
-#EXTINF:-1 tvg-id="1875" tvg-name="BTV影视" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV影视.png" group-title="🇨🇳| Kênh Trung Quốc",北京影视
-http://live.cooltv.top/tv/btime.php?id=btvys
-#EXTINF:-1 tvg-id="1873" tvg-name="BTV文艺" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV文艺.png" group-title="🇨🇳| Kênh Trung Quốc",北京文艺
-http://live.cooltv.top/tv/btime.php?id=btvwy
-#EXTINF:-1 tvg-id="1876" tvg-name="BTV财经" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV财经.png" group-title="🇨🇳| Kênh Trung Quốc",北京财经
-http://live.cooltv.top/tv/btime.php?id=btvcj 
-#EXTINF:-1 tvg-id="1878" tvg-name="BTV生活" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV生活.png" group-title="🇨🇳| Kênh Trung Quốc",北京生活
-http://live.cooltv.top/tv/btime.php?id=btvsh
-#EXTINF:-1 tvg-id="1879" tvg-name="BTV青年" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV青年.png" group-title="🇨🇳| Kênh Trung Quốc",北京青年
-http://live.cooltv.top/tv/btime.php?id=btvqn 
-#EXTINF:-1 tvg-id="1874" tvg-name="BTV科教" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV科教.png" group-title="🇨🇳| Kênh Trung Quốc",北京科教
-http://live.cooltv.top/tv/btime.php?id=btvkj
-#EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="🇨🇳| Kênh Trung Quốc", 东南卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225585/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="🇨🇳| Kênh Trung Quốc", 东方卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225659/index.m3u8
-#EXTINF:-1 tvg-id="56" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="🇨🇳| Kênh Trung Quốc", 四川卫视
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225487/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="39" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="🇨🇳| Kênh Trung Quốc", 天津卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225698/index.m3u8
-#EXTINF:-1 tvg-id="32" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="🇨🇳| Kênh Trung Quốc", 安徽卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225691/index.m3u8
-#EXTINF:-1 tvg-id="38" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" group-title="🇨🇳| Kênh Trung Quốc", 山东卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225484/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="🇨🇳| Kênh Trung Quốc", 广东卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225701/index.m3u8
-#EXTINF:-1 tvg-id="43" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="🇨🇳| Kênh Trung Quốc", 广西卫视
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226211/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="🇨🇳| Kênh Trung Quốc", 江苏卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225702/index.m3u8
-#EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="🇨🇳| Kênh Trung Quốc", 江西卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225492/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="🇨🇳| Kênh Trung Quốc", 河北卫视
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225610/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="🇨🇳| Kênh Trung Quốc", 河南卫视
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225611/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="🇨🇳| Kênh Trung Quốc", 浙江卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225703/index.m3u8
-#EXTINF:-1 tvg-id="37" tvg-name="旅游卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="🇨🇳| Kênh Trung Quốc", 海南卫视
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226212/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="🇨🇳| Kênh Trung Quốc", 深圳卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225598/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="45" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="🇨🇳| Kênh Trung Quốc", 湖北卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225699/index.m3u8
-#EXTINF:-1 tvg-id="54" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" group-title="🇨🇳| Kênh Trung Quốc",山西卫视
-http://live.cooltv.top/tv/yqdtv.php?id=133
-#EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="🇨🇳| Kênh Trung Quốc", 湖南卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225704/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="湖南经视" tvg-logo=" " group-title="🇨🇳| Kênh Trung Quốc",湖南经视
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000027983/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="" tvg-name="湖南娱乐"  tvg-logo=" "  group-title="🇨🇳| Kênh Trung Quốc",湖南娱乐
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000040/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="" tvg-name="湖南都市"  tvg-logo=" "  group-title="🇨🇳| Kênh Trung Quốc",湖南都市
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000041/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="" tvg-name="湖南电影"  tvg-logo=" " group-title="🇨🇳| Kênh Trung Quốc",湖南电影
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000038/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="" tvg-name="湖南公共"  tvg-logo=" " group-title="🇨🇳| Kênh Trung Quốc",湖南公共
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000044/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="" tvg-name="湖南国际"  tvg-logo=" "  group-title="🇨🇳| Kênh Trung Quốc",湖南国际
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000045/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="" tvg-name="湖南教育台"  tvg-logo=" "  group-title="🇨🇳| Kênh Trung Quốc",湖南教育
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001016000000368716/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="" tvg-name="湖南电视剧"  tvg-logo=" "  group-title="🇨🇳| Kênh Trung Quốc",湖南影剧
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000037/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="44" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="🇨🇳| Kênh Trung Quốc", 贵州卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225483/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="🇨🇳| Kênh Trung Quốc", 辽宁卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225601/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="40" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="🇨🇳| Kênh Trung Quốc", 重庆卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225612/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="🇨🇳| Kênh Trung Quốc", 龙江卫视 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225690/index.m3u8
-#EXTINF:-1 tvg-id="42" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" group-title="🇨🇳| Kênh Trung Quốc", 甘肃卫视
-http://[2409:8087:5050:20::3023]/180000001001/00000001000000000045000000287932/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="🇨🇳| Kênh Trung Quốc", 吉林卫视 
-http://[2409:8087:1070:301:2028::11]:80/wh7f454c46tw4200346826_-520081866/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225959/10000100000000060000000000777681_0.smil/01.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="61" tvg-name="兵团卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/bingtuan.png" group-title="🇨🇳| Kênh Trung Quốc", 兵团卫视
-http://test5.btzx.com.cn/live/btxjbtws.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="72" tvg-name="三沙卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sansha.png" group-title="🇨🇳| Kênh Trung Quốc", 三沙卫视
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
-#EXTINF:-1 tvg-id="" tvg-name="海峡卫视"  tvg-logo=" "  group-title="🇨🇳| Kênh Trung Quốc",海峡卫视
-http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227198/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-#EXTINF:-1 tvg-id="6563" tvg-name="兵器科技" tvg-logo="http://tv.cn/web/images/channels/bqkj.png" group-title="🇨🇳| Kênh Trung Quốc",兵器科技
-http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226111/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6562" tvg-name="怀旧剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE7.jpg" group-title="🇨🇳| Kênh Trung Quốc", 怀旧剧场
-http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226097/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6560" tvg-name="世界地理" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVshijiedili.png" group-title="🇨🇳| Kênh Trung Quốc", 世界地理
-http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226071/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6569" tvg-name="央视精品" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVwenhuajingpin.png" group-title="🇨🇳| Kênh Trung Quốc", 文化精品
-http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225675/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6584" tvg-name="央视台球" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVtaiqiu.png" group-title="🇨🇳| Kênh Trung Quốc", 央视台球
-http://[2409:8087:6a01:1020::c]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226117/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="🇨🇳| Kênh Trung Quốc", 动作电影 
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="🇨🇳| Kênh Trung Quốc", 家庭影院
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="🇨🇳| Kênh Trung Quốc", 高清电影
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="69" tvg-name="金鹰卡通" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" group-title="🇨🇳| Kênh Trung Quốc", 金鹰卡通
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000039/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="🇨🇳| Kênh Trung Quốc", 金鹰纪实
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225595/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" group-title="🇨🇳| Kênh Trung Quốc", 茶友频道
-http://[2409:8087:6a01:1020::d]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226240/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/KUAILECHUIDIAO.jpg" group-title="🇨🇳| Kênh Trung Quốc", 快乐垂钓
-http://[2409:8087:6a01:1020::d]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226224/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="1986" tvg-name="东方影视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shanghaidongfangyingshi.png" group-title="🇨🇳| Kênh Trung Quốc",东方影视
-http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8
-#EXTINF:-1 tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="🇨🇳| Kênh Trung Quốc",哈哈炫动
-http://183.207.255.188/live/program/live/hhxdhd/4000000/mnf.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2020/12/31/cc2b0ca1bd0db74f75ad810587c28c32.png" group-title="🇨🇳| Kênh Trung Quốc",浙江新闻
-http://hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/04/12/72d035c03412d7cb2d319c6607fef8e9.png" group-title="🇨🇳| Kênh Trung Quốc",浙江国际
-http://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/04/12/33b59c051574c604f93157baa61455b2.png" group-title="🇨🇳| Kênh Trung Quốc",浙江少儿
-http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/04/12/b500dac5d5af1dae3a3eceaf2e165bd0.png" group-title="🇨🇳| Kênh Trung Quốc",浙江科影
-http://hw-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/05/16/090bdb9f3da9df74a275a785c3ba023f.png" group-title="🇨🇳| Kênh Trung Quốc",浙江数码
-http://hw-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/04/11/b11dda9a789c67cb16e6a5a5fce63125.png" group-title="🇨🇳| Kênh Trung Quốc",浙江民生
-http://hw-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/04/12/6c2c5375eff2669abfc9ad58b5fb200b.png" group-title="🇨🇳| Kênh Trung Quốc",浙江经济
-http://hw-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ohudong.cztv.com/1/logos/2017/04/12/bf6ad9ce4da1182a3a7ed0e188d8632f.png" group-title="🇨🇳| Kênh Trung Quốc",浙江钱江
-http://hw-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="🇨🇳| Kênh Trung Quốc", 纪实人文
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225655/index.m3u8
-#EXTINF:-1 tvg-id="1872"  tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="🇨🇳| Kênh Trung Quốc", 冬奥纪实
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-id="1976" tvg-name="全纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/quanjishi.png" group-title="🇨🇳| Kênh Trung Quốc", 全景纪实
-http://[2409:8087:6a01:1020::d]/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226221/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="6650" tvg-name="欧美影院" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/OMYY.jpg" group-title="🇨🇳| Kênh Trung Quốc", 欧美影院 
-http://39.136.48.23:8089/PLTV/88888888/224/3221226345/index.m3u8
-#EXTINF:-1 tvg-id="4K超高清电影" tvg-name="4K超高清电影"  tvg-logo=" " group-title="🇨🇳| Kênh Trung Quốc",超清电影
-http://[2409:8c02:21c:60::2b]/live.rxip.sc96655.com/live/emdy4k_8000.m3u8
-#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://epg.112114.xyz/logo/黑莓电影.png" group-title="🇨🇳| Kênh Trung Quốc", 黑莓电影
-http://[2409:8087:3000:23:0:3::110A]:8112/ysten-business/live/jdianying/.m3u8
-#EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://epg.112114.xyz/logo/黑莓动画.png" group-title="🇨🇳| Kênh Trung Quốc", 黑莓动画 
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225672/index.m3u8
-#EXTINF:-1 tvg-id="求索动物" tvg-name="求索动物" tvg-logo="https://epg.112114.xyz/logo/求索动物.png" group-title="🇨🇳| Kênh Trung Quốc", 求索动物
-http://[2409:8087:4402:20:1:1216:401:41]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226118/index.m3u8
-#EXTINF:-1 tvg-id="浙江求索生活" tvg-name="浙江求索生活" tvg-logo="https://epg.112114.xyz/logo/浙江求索生活.png" group-title="🇨🇳| Kênh Trung Quốc", 求索生活
-http://[2409:8087:4402:20:1:1216:401:43]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226116/index.m3u8
-#EXTINF:-1 tvg-id="求索科学" tvg-name="求索科学" tvg-logo="https://epg.112114.xyz/logo/求索科学.png" group-title="🇨🇳| Kênh Trung Quốc", 求索科学
-http://[2409:8087:4402:20:1:1216:401:46]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226115/index.m3u8
-#EXTINF:-1 tvg-id="求索纪录" tvg-name="求索纪录" tvg-logo="https://epg.112114.xyz/logo/求索纪录.png" group-title="🇨🇳| Kênh Trung Quốc", 求索纪录
-http://cache.ott.fifalive.itv.cmvideo.cn:80/6000000002000032052/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032052&livemode=1&stbId=no
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="10MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-1综合
+http://39.135.138.58:18890/PLTV/88888888/224/3221226221/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225918/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225618/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225642/index.m3u8#http://39.134.67.226/PLTV/88888888/224/3221225816/index.m3u8
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-2财经
+http://39.135.138.58:18890/PLTV/88888888/224/3221225619/index.m3u8
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="6MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-3综艺
+http://39.135.138.58:18890/PLTV/88888888/224/3221225647/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225634/index.m3u8#http://39.134.67.226/PLTV/88888888/224/3221225799/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225588/index.m3u8#http://111.40.196.29/PLTV/88888888/224/3221225588/index.m3u8
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="15MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-4中文国际
+http://111.20.33.70/PLTV/88888893/224/3221226223/index.m3u8#http://183.207.248.15/PLTV/3/224/3221225534/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225621/index.m3u8
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-5体育
+http://39.135.138.58:18890/PLTV/88888888/224/3221225633/index.m3u8#http://39.134.67.226/PLTV/88888888/224/3221225818/index.m3u8#http://39.134.67.226/TVOD/88888888/224/3221225818/index.m3u8#http://39.134.66.2/PLTV/88888888/224/3221225818/index.m3u8#http://39.134.66.110/PLTV/88888888/224/3221225818/index.m3u8
+#EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="4MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-5+体育赛事
+http://39.134.66.2/PLTV/88888888/224/3221225818/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225767/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225649/index.m3u8
+#EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="6MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-6电影
+http://39.135.138.58:18890/PLTV/88888888/224/3221225632/index.m3u8#http://39.134.66.2/PLTV/88888888/224/3221225814/index.m3u8
+#EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="4MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-7国防军事
+http://39.135.138.58:18890/PLTV/88888888/224/3221225644/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225624/index.m3u8#http://39.134.66.110/PLTV/88888888/224/3221225671/index.m3u8
+#EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-8电视剧
+http://183.207.248.12/PLTV/3/224/3221227204/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225635/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225565/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225592/index.m3u8#http://111.40.196.31/PLTV/88888888/224/3221225592/index.m3u8
+#EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-9纪录
+http://39.134.66.110/PLTV/88888888/224/3221225676/index.m3u8#http://111.40.196.35/PLTV/88888888/224/3221225502/index.m3u8#http://111.40.196.34/PLTV/88888888/224/3221225502/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225626/index.m3u8
+#EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="7MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-10科教
+http://39.135.138.58:18890/PLTV/88888888/224/3221225627/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225636/index.m3u8#http://39.134.66.66/PLTV/88888888/224/3221225677/index.m3u8#http://39.134.65.142/PLTV/88888888/224/3221225677/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225567/index.m3u8
+#EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-11戏曲
+http://39.135.138.58:18890/PLTV/88888888/224/3221225628/index.m3u8#http://39.134.65.142/PLTV/88888888/224/3221225517/index.m3u8
+#EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="4MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-12社会与法
+http://39.135.138.58:18890/PLTV/88888888/224/3221225637/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225629/index.m3u8#http://39.134.65.208/PLTV/88888888/224/3221225669/index.m3u8
+#EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-13新闻
+http://39.135.138.58:18890/PLTV/88888888/224/3221225638/index.m3u8#http://111.40.196.30/PLTV/88888888/224/3221225504/index.m3u8#http://39.134.67.99/PLTV/88888888/224/3221225812/index.m3u8#http://39.134.65.141/PLTV/88888888/224/3221225812/1.m3u8
+#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="7MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-14少儿
+http://39.135.138.58:18890/PLTV/88888888/224/3221225639/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225640/index.m3u8#http://39.134.66.66/PLTV/88888888/224/3221225674/index.m3u8#http://111.40.196.30/PLTV/88888888/224/3221225573/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225573/index.m3u8
+#EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-15音乐
+http://39.135.138.58:18890/PLTV/88888888/224/3221225641/index.m3u8#http://111.40.196.31/PLTV/88888888/224/3221225500/index.m3u8
+#EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",CCTV-17农村农业
+http://39.135.138.58:18890/PLTV/88888888/224/3221225908/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225907/index.m3u8
+#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="37MB/s" tvg-rez="3840x2160" group-title="🇨🇳| Kênh Trung Quốc",CCTV奥林匹克频道
+http://39.135.138.58:18890/TVOD/88888888/224/3221226230/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221226230/index.m3u8
+#EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="11MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",湖南卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225745/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225594/index.m3u8#http://111.40.196.28/PLTV/88888888/224/3221225519/index.m3u8
+#EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="10MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",浙江卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225744/index.m3u8#http://39.134.66.66/PLTV/88888888/224/3221225514/index.m3u8#http://111.40.196.25/PLTV/88888888/224/3221225510/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225510/index.m3u8#http://111.40.196.25/PLTV/88888888/224/3221225523/index.m3u8
+#EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="10MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",江苏卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225702/index.m3u8#http://39.134.66.110/PLTV/88888888/224/3221225503/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225578/index.m3u8#http://111.40.196.31/PLTV/88888888/224/3221225515/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225743/index.m3u8
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="15MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",北京卫视
+http://111.20.33.70/PLTV/88888893/224/3221226222/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225673/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225674/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225540/index.m3u8#http://111.40.196.25/PLTV/88888888/224/3221225540/index.m3u8
+#EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",东方卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225659/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225658/index.m3u8#http://39.134.66.110/PLTV/88888888/224/3221225672/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225509/index.m3u8#http://111.40.196.30/PLTV/88888888/224/3221225509/index.m3u8
+#EXTINF:-1 tvg-id="32" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="6MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",安徽卫视
+http://111.20.33.70/PLTV/88888893/224/3221226203/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225737/index.m3u8#http://111.40.196.25/PLTV/88888888/224/3221225551/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225551/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225691/index.m3u8
+#EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="15MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",广东卫视
+http://111.20.33.70/PLTV/88888893/224/3221226216/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225742/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225701/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225508/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225600/index.m3u8
+#EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",深圳卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225741/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225700/index.m3u8#http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225700/index.m3u8#http://39.134.66.110/PLTV/88888888/224/3221225668/index.m3u8
+#EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="6MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",辽宁卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225735/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225696/index.m3u8#http://111.40.196.34/PLTV/88888888/224/3221225593/index.m3u8
+#EXTINF:-1 tvg-id="37" tvg-name="旅游卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="2MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",海南卫视
+http://183.207.248.11/PLTV/4/224/3221225810/index.m3u8
+#EXTINF:-1 tvg-id="38" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="15MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",山东卫视
+http://111.20.33.70/PLTV/88888893/224/3221226209/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225738/index.m3u8#http://111.40.196.36/PLTV/88888888/224/3221225545/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225546/index.m3u8
+#EXTINF:-1 tvg-id="39" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="15MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",天津卫视
+http://111.20.33.70/PLTV/88888893/224/3221226204/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225698/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225739/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225556/index.m3u8#http://111.40.196.32/PLTV/88888888/224/3221225597/index.m3u8
+#EXTINF:-1 tvg-id="40" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",重庆卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225734/index.m3u8#http://111.20.33.70/PLTV/88888893/224/3221226202/index.m3u8#http://111.40.196.31/PLTV/88888888/224/3221225514/index.m3u8
+#EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="5MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",东南卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225657/index.m3u8
+#EXTINF:-1 tvg-id="42" tvg-name="甘肃卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="4MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",甘肃卫视
+http://111.40.196.28/PLTV/88888888/224/3221225639/index.m3u8
+#EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="10MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",黑龙江卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225736/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225690/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225544/index.m3u8#http://111.40.196.38/PLTV/88888888/224/3221225544/index.m3u8
+#EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="15MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",湖北卫视
+http://111.20.33.70/PLTV/88888893/224/3221226194/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225699/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225740/index.m3u8#http://111.40.196.27/PLTV/88888888/224/3221225654/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225549/index.m3u8
+#EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="6MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",江西卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225705/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225591/index.m3u8#http://111.40.196.30/PLTV/88888888/224/3221225560/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225560/index.m3u8
+#EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="9MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",吉林卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225680/index.m3u8
+#EXTINF:-1 tvg-id="52" tvg-name="内蒙古卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",内蒙古卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225667/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225574/index.m3u8
+#EXTINF:-1 tvg-id="53" tvg-name="宁夏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/ningxia.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",宁夏卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225726/index.m3u8#http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225530/index.m3u8#http://111.40.196.29/PLTV/88888888/224/3221225641/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225641/index.m3u8
+#EXTINF:-1 tvg-id="54" tvg-name="山西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi_.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",山西卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225730/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225649/index.m3u8
+#EXTINF:-1 tvg-id="55" tvg-name="陕西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanxi.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",陕西卫视
+http://111.20.33.70/PLTV/88888893/224/3221225821/index.m3u8
+#EXTINF:-1 tvg-id="57" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="4MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",新疆卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225725/index.m3u8
+#EXTINF:-1 tvg-id="58" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="2MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",云南卫视
+http://111.40.196.29/PLTV/88888888/224/3221225644/index.m3u8
+#EXTINF:-1 tvg-id="59" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",青海卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225727/index.m3u8#http://111.40.196.9/PLTV/88888888/224/3221225625/index.m3u8
+#EXTINF:-1 tvg-id="61" tvg-name="兵团卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/bingtuan.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="1920x1080" group-title="🇨🇳| Kênh Trung Quốc",兵团卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221226200/index.m3u8
+#EXTINF:-1 tvg-id="63" tvg-name="延边卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/YANBIAN1.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="800KB/s" tvg-rez="1280x720" group-title="🇨🇳| Kênh Trung Quốc",延边卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221226201/index.m3u8
+#EXTINF:-1 tvg-id="70" tvg-name="康巴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/kangba.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="4MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",康巴卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221226207/index.m3u8
+#EXTINF:-1 tvg-id="71" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-speed="3MB/s" tvg-rez="720x576" group-title="🇨🇳| Kênh Trung Quốc",西藏卫视
+http://39.135.138.58:18890/PLTV/88888888/224/3221225723/index.m3u8
 
 #EXTINF:-1 tvg-id="141" tvg-logo="https://nettvpro.live/uploads/18/1-1Q123210631396.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Chinese Channel
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227222/index.m3u8
