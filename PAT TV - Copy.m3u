@@ -671,19 +671,23 @@ https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="BBCOne.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png", BBC One
 #EXTVLCOPT:http-user-agent=VThanhTivi
-http://live-eu.cvacetv.ga:8080/stream/channelid/1738038987?profile=ace
+http://live-sg.cvacetv.ga:8080/stream/channelid/291261982
 #EXTINF:-1 tvg-id="BBCTwo.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png", BBC Two
-http://live-eu.cvacetv.ga:8080/stream/channelid/1139232619?profile=ace
-#EXTINF:-1 tvg-id="BBCRedButton.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/260px-BBC_Red_Button_2021.svg.png", BBC Red Button
-http://live-eu.cvacetv.ga:8080/stream/channelid/1606897522?profile=ace
+http://live-sg.cvacetv.ga:8080/stream/channelid/247454318
+#EXTINF:-1 tvg-id="BBCTwo.uk" group-title="🚽| BBC" tvg-logo="https://vodzilla.co/wp-content/uploads/2022/02/bbc-three-logo-2022.jpeg", BBC Three/CBBC
+http://live-sg.cvacetv.ga/CBBC
+#EXTINF:-1 tvg-id="BBCTwo.uk" group-title="🚽| BBC" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/BBC_Four_%282021%29.svg/revision/latest/scale-to-width-down/250?cb=20211029193029", BBC Four/CBeebies UK Feed
+http://mains.services:2086/A.Jones01/1904550/104614?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="BBCRedButton.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BBC_RB%2B_Primary_ONE_COLOUR2.svg/1280px-BBC_RB%2B_Primary_ONE_COLOUR2.svg.png", BBC Red Button
+http://live-sg.cvacetv.ga:8080/stream/channelid/429607131
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/150px-BBC_News_2022_%28Alt%29.svg.png", BBC News
-http://myott.top/stream/DT6QU63K5VX/85.m3u8
+http://mains.services:2086/A.Jones01/1904550/90878?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="BBCParliament.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/1200px-BBC_Parliament_Logo.svg.png", BBC Parliament
+http://live-sg.cvacetv.ga:8080/stream/channelid/429607131
 #EXTINF:-1 tvg-id="france24eng" group-title="🚽| BBC" tvg-logo="https://static.wikia.nocookie.net/bbc/images/6/6e/BBC_Entertainment_channel.png/revision/latest?cb=20220213220202",BBC Entertainment
-http://he11o.akadatel.com/iptv/5NNE9G44FKFB6G/19180/index.m3u8
+http://red.ipfox.org:8080/osama2022/osama2023/49241?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🚽| BBC" tvg-logo="https://bbcfirst.ca/wp-content/uploads/2021/02/BBC-First-WhiteBoxLogo-copy.png",BBC First HD
-http://he11o.akadatel.com/iptv/5NNE9G44FKFB6G/19181/index.m3u8
-#EXTINF:-1 tvg-id="BBCParliament.uk" group-title="🚽| BBC" tvg-logo="https://static.wikia.nocookie.net/bbc/images/7/73/BBCP.png/revision/latest?cb=20220509123529",BBC Parliament
-http://he11o.akadatel.com/iptv/5NNE9G44FKFB6G/19182/index.m3u8
+http://mains.services:2086/A.Jones01/1904550/92896?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="bbcearth" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BBC Earth
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
@@ -1284,6 +1288,8 @@ http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73741?checkedby:iptvcat.com
 http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73738?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TVP2_2021_box-1.svg/70px-TVP2_2021_box-1.svg.png", TVP2 HD
 http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73739?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TVP3_logo_2016.png/250px-TVP3_logo_2016.png", TVP3 HD
+http://live-sg.cvacetv.ga/TVP3
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://s2.tvp.pl/images/b/c/3/uid_bc337ce8f24a5496ed394a9ff8b114e21412249630300_width_300_height_150_play_0_pos_0_gs_0.png", TVP Info
 http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpinfo
 #EXTINF:-1 group-title="🇪🇺| Châu Âu",TV3 HD 
