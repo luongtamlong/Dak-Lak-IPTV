@@ -854,7 +854,7 @@ http://50.7.220.74:8278/discoverysc_twn/playlist.m3u8?tid=mc6599c2e8abf17200438&
 #KODIPROP:inputstream.adaptive.license_key=https://code.television4you.xyz/key.php?kid=6765ea7b7cc54c1c86551d6b3440b39b&key=1613f6b40465bbe91740f78571ac79fa
 https://vstv.broadpeak-aas.com/bpk-tv/prod_history/default/i.mpd
 #EXTINF:-1 group-title="🌿| Khám phá" tvg-logo="https://streamdiag.com/wp-content/uploads/Vice-TV.jpg",VICE
-https://d2do1g43aq7264.cloudfront.net/playlist1080p-l.m3u8
+https://d2do1g43aq7264.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="🌿| Khám phá" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ab/Viasat_Explore.png",Viasat Explorer
 http://live-sg.cvacetv.ga/ViaEx
 #EXTINF:-1 group-title="🌿| Khám phá" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/Viasat_Nature-2014.png",Viasat Nature
@@ -901,6 +901,9 @@ https://stitcher-ipv4.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/maste
 #EXTINF:-1 tvg-id="fashionhd" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/232.png", Fashion TV
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="" group-title="🎬| Giải trí" tvg-logo="https://play-lh.googleusercontent.com/Ed_G7knDRnqz4edKTWNcfwdzehwP2uX4Hb_Pr9vkjnuSaQQuKybeyBxHXJZw_23fTdjZ", Sony Channel
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://edge-live17-hr.cvattv.com.ar/live/c7eds/SonyHD/SA_Live_dash_enc/SonyHD.mpd
 #EXTINF:-1 tvg-id="hits" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/233.png", HITS
 https://api.vthanhtivii.xyz/v1/getlink/tv360/107/2
 #EXTINF:-1 tvg-id="hgtv" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/234.png", HGTV
@@ -2161,6 +2164,14 @@ http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1200px-Indosiar_2015.svg.png", Indosiar
 http://playlist.urfan.web.id/qwr9ew/s/s04/01.m3u8
+#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.postimg.cc/zXLh0rWm/RCTI.png",RCTI 
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
+https://liveanevia.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
+#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/MNCTV_MNC-Group.png",MNC TV HD
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YWY0OTBlZjEtODAyNC0zZTA0LWFhYzMtY2ZmMGE4NjVjZjU1
+https://liveanevia.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
 
 #EXTINF:0 group-title="🔴| Livestream" tvg-logo="https://i.ibb.co/qknnJN1/BEARTVLIVE.png", PAT Live 1 ⚽ [Chọn HW]
 #EXTVLCOPT:http-user-agent="BearTV"
