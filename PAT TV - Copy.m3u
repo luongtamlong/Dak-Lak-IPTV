@@ -703,7 +703,7 @@ https://liveanevia.mncnow.id/live/eds/BBCWorldNews/sa_dash_vmx/BBCWorldNews.mpd
 https://vips-livecdn.fptplay.net/hda3/bbcnews_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="arirang" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch/master.m3u8
 #EXTINF:-1 tvg-id="abcaustralia" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/215.png", ABC Australia
 #EXTVLCOPT:http-user-agent=VThanhTivi
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -787,9 +787,9 @@ https://liveanevia.mncnow.id/live/eds/AnhuiTV/sa_dash_vmx/AnhuiTV.mpd
 #EXTINF:-1 tvg-ID="CHN" group-title="🌏| Quốc tế" tvg-logo="https://i.ibb.co/K7tm2ZW/human-tv.png",HUNAN TV WORLD
 https://liveanevia.mncnow.id/live/eds/HunanTV/sa_dash_vmx/HunanTV.mpd
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/224.png", NHK World
-https://nhkwlive-ojp.webcdn.stream.ne.jp/hls/live/2003459/nhkwlive-ojp/index_1M.m3u8
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp" group-title="🌏| Quốc tế" tvg-logo="https://nhkworldpremium.com/img/common/logo.png", NHK World Premium
-http://112.72.4.108/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+https://nhkwlive-pre-in.webcdn.stream.ne.jp/hls/live/nhkwlive-pre/index_1M.m3u8
 #EXTINF:-1 tvg-id="kbsworld" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/223.png", KBS World
 https://wms4-kortv.akamaized.net/a_live/63719963/20ch011.smil/.m3u8
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/225.png", TV5Monde Asie
@@ -1694,30 +1694,16 @@ http://111.20.33.80/TVOD/88888893/224/3221226462/index.m3u8
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227222/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="https://nettvpro.live/uploads/18/1-1PH92041345D.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Infonews Channel
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227226/index.m3u8
+#EXTINF:-1 tvg-id="126" tvg-logo="https://nettvpro.live/uploads/18/1-1P322210400B3.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade Southeast Asia
+http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20653
 #EXTINF:-1 tvg-id="130" tvg-logo="https://nettvpro.live/uploads/18/1-1P40ZG925S9.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News Channel
 http://9.zhxinda.xyz/newss.php?id=1
+#EXTINF:-1 tvg-id="126" tvg-logo="https://www.nettvpro.live/uploads/allimg/18/1-1P5101J4250-L.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Classic
+http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c21061
+#EXTINF:-1 tvg-id="126" tvg-logo="https://www.nettvpro.live/uploads/18/1-1P50923500OB.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Xing He
+http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20114 
 #EXTINF:-1 tvg-id="133" tvg-logo="https://nettvpro.live/uploads/19/1-1ZFQ03HV33.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Finance & Information Channel
 http://9.zhxinda.xyz/newss.php?id=2
-#EXTINF:-1 tvg-id="126" tvg-logo="https://nettvpro.live/uploads/18/1-1P322210400B3.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade
-http://113.64.147.52:808/hls/67/index.m3u8
-#EXTINF:-1 tvg-id="416" tvg-logo="http://nettvpro.live/uploads/18/1-1P40ZG422936.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB J2
-https://j3.lhlh.app/mv.m3u8
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=9481ab597f06bb7fa40cb2364c126210&key=f2b4b15da2544303c44d3ca0b16d3de8
-#EXTINF:-1 tvg-id="305" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVB_Classic_v1.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB CLASSIC
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5016/default_ott.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=1cd3bd6eb6c49675dc616b30dcf1db10&key=13017770bc552725d1a0ba20fa1a2ddd
-#EXTINF:-1 tvg-id="317" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBE_v1.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB ENTERTAINMENT NEWS
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5015/default_ott.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=428c1a9941e2570c3e7e5b4973f55010&key=d354bf92d1de1297e92fc2bf14568719
-#EXTINF:-1 tvg-id="TVBJadeMalaysia.my" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVB_Jade_v3.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB JADE SOUTHEAST ASIA
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2600/default_ott.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=3dd2a2632a196215cc1833487b25b810&key=c3ebe66b4783f3ea4017b63f6b7efe92
-#EXTINF:-1 tvg-id="319" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVB_XingHe_v1.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB XING HE
-http://linearjitp-playback.astro.com.my/dash-wv/linear/401/default_ott.mpd
 #EXTINF:-1 tvg-logo="https://nettvpro.live/uploads/18/1-1P409155110630.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK31
 http://livetv.dnsfor.me/channel.1.m3u8
 #EXTINF:-1 tvg-logo="https://nettvpro.live/uploads/18/1-1P41QA234925.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK32
@@ -2041,6 +2027,8 @@ https://raw.githubusercontent.com/samleong123/tonton_dailymotion_php/main/m3u8/8
 #EXTINF:-1 tvg-id="TV9.my" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://playtv.unifi.com.my:7048/CPS/images/universal/film/logo/202202/20220217/20220217003547137q8t.png",TV9
 https://raw.githubusercontent.com/samleong123/tonton_dailymotion_php/main/m3u8/TV9.m3u8
 # https://aqfadtv.astradamy.com/stream/TV9.php
+#EXTINF:-1 tvg-id="AstroAOD311.my" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://www.nettvpro.live/uploads/allimg/20/1-2005021643320-L.jpg",Astro AOD HD
+http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20633 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=607b7d22565c4bc3b95ff6c33ce65425&key=28cc5367df666c44be4382e64af64d57
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-id="Channel5.sg" tvg-logo="https://www.appcreator24.com/srv/imgs/seccs/9428076_ico.png",Channel 5 
