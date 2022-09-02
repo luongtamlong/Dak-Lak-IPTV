@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="http://onetv.click/schedule/epg.xml,https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,http://live-vn.cvacetv.ga:9981/xmltv/channels,http://live-eu.cvacetv.ga:8080/xmltv/channels,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz"
+#EXTM3U x-tvg-url="http://onetv.click/schedule/epg.xml,https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,http://live-vn.cvacetv.ga:9981/xmltv/channels,http://live-eu.cvacetv.ga:8080/xmltv/channels,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz"
 
 
 
@@ -820,8 +820,16 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8|user-age
 https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yNi8yMDIyIDI6MjU6NDkgQU0maGFzaF92YWx1ZT1KejFWT0V5aHdwVFp0VmpsRmlMbFdBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDMxYmE5NzUtNjczMS00YmEzLTg5ZTctYjYzODVmNDE5Mjlj/
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 http://210.210.155.35/uq2663/h/h158/index2.m3u8
+#EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="ANC.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/220px-ABS-CBN_News_Channel_%282015%29.svg.png",ANC
+https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-anc-global/CDN/playlist.m3u8
 #EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="TheFilipinoChannelAsia.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/220px-The_Filipino_Channel_2011_logo.svg.png",TFC Asia
 https://tfcguam-abscbn-ono.amagi.tv/index_6.m3u8
+#EXTINF:0 tvg-id="GMALifeTV.ph" tvg-logo="https://i.imgur.com/JSLsN7L.jpg" group-title="🌏| Quốc tế",GMA LIFE TV
+http://user.scalecdn.co:8080/live/Alfred/Alfred/546783.m3u8
+#EXTINF:-1 tvg-id="GMAPinoyTVUSACanada.ph" tvg-logo="https://i.imgur.com/2QkjBUo.jpg" group-title="🌏| Quốc tế",GMA PINOY TV
+http://user.scalecdn.co:8080/live/Alfred/Alfred/546784.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/u0gp2fH.jpg" group-title="FEITAN: NEWS AND INFORMATION",GMA NEWS TV
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension=ts&play_token=wY4LMv3TMk
 #EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="france24eng" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/Unnamed_%281%29.jpg/revision/latest/scale-to-width-down/250?cb=20200726112039",NBT World
 https://thainews.prd.go.th/lv/live/ch1_L_L.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
@@ -1750,13 +1758,13 @@ http://111.20.33.80/TVOD/88888893/224/3221226462/index.m3u8
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227222/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="https://nettvpro.live/uploads/18/1-1PH92041345D.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Infonews Channel
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227226/index.m3u8
-#EXTINF:-1 tvg-id="126" tvg-logo="https://nettvpro.live/uploads/18/1-1P322210400B3.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade Southeast Asia
+#EXTINF:-1 tvg-id="TVBJadeMalaysia.my" tvg-logo="https://nettvpro.live/uploads/18/1-1P322210400B3.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade Southeast Asia
 http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20653
 #EXTINF:-1 tvg-id="130" tvg-logo="https://nettvpro.live/uploads/18/1-1P40ZG925S9.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News Channel
 http://9.zhxinda.xyz/newss.php?id=1
-#EXTINF:-1 tvg-id="126" tvg-logo="https://www.nettvpro.live/uploads/allimg/18/1-1P5101J4250-L.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Classic
+#EXTINF:-1 tvg-id="TVBClassic.hk" tvg-logo="https://www.nettvpro.live/uploads/allimg/18/1-1P5101J4250-L.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Classic
 http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c21061
-#EXTINF:-1 tvg-id="126" tvg-logo="https://www.nettvpro.live/uploads/18/1-1P50923500OB.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Xing He
+#EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-logo="https://www.nettvpro.live/uploads/18/1-1P50923500OB.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Xing He
 http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20114 
 #EXTINF:-1 tvg-id="133" tvg-logo="https://nettvpro.live/uploads/19/1-1ZFQ03HV33.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Finance & Information Channel
 http://9.zhxinda.xyz/newss.php?id=2
@@ -2116,58 +2124,30 @@ https://livefta.malimarcdn.com/tvkedge/tvkhd.stream/chunklist.m3u8
 https://livefta.malimarcdn.com/tvkedge/tvk2.stream/chunklist.m3u8
 #EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/zG1DTmj/BTVNews-BEARTV.png", BTV News
 https://livefta.malimarcdn.com/tvkedge/btv.stream/chunklist.m3u8
-#EXTINF:-1 group-title="ASIAN TV" tvg-id="ANC.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/220px-ABS-CBN_News_Channel_%282015%29.svg.png",ANC
-https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-anc-global/CDN/playlist.m3u8
 #EXTINF:0 tvg-id="A2ZChannel11.ph" tvg-logo="https://i.imgur.com/hhd8QjJ.jpg" group-title="ASIAN TV", A2Z
 https://bit.ly/FEITAN-A2Z
-
-#EXTINF:0 tvg-id="KapamilyaChannel.ph" tvg-logo="https://i.imgur.com/K5eEqKz.jpg" group-title="ASIAN TV", KAPAMILYA CHANNEL
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=11
-
+#EXTINF:0 tvg-id="KapamilyaChannel.ph" tvg-logo="https://i.imgur.com/K5eEqKz.jpg" group-title="ASIAN TV", KAPAMILYA CHANNEL ONLINE
+https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-kapcha/CDN/playlist.m3u8
 #EXTINF:0 tvg-id="TV5.ph" tvg-logo="https://i.imgur.com/F9u7gsQ.jpg" group-title="ASIAN TV",IBA SA 5
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=8
-
+http://103.105.213.251:8443/live/RX5KlkfmIvgPs3YnbTPDcw/1661926854/8.m3u8
 #EXTINF:-1 tvg-id="GMATV.ph"  tvg-logo="https://i.imgur.com/orZGgot.jpg" group-title="ASIAN TV",GMA 7
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=5
-
+http://dmtn.tv:8080/play/_2QOr27LB-QLALpzQgGGZGwmLnaC1JFygdnYJ4RK6U-WADQew3hecSZ-wn-iMmQqa_oZLNtM36mNf-l0nubMECT1nlMd1CT_idbmuYrkK1jMmiQqLHmoo7Nuj1U3urpp_XGsiR7rFRbq4roDe-PMwsAYziZLmqsA_GsOy5cM_ls
 #EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-logo="https://i.imgur.com/8d2CJkg.jpg" group-title="ASIAN TV",KAPATID 5
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:AD:7A:B6&stream=31052&extension=ts
-
 #EXTINF:-1, tvg-id="Net25.ph" tvg-logo="https://i.imgur.com/HZQABuh.jpg" group-title="ASIAN TV", NET 25
 http://user.scalecdn.co:8080/live/Alfred/Alfred/567730.m3u8
-
 #EXTINF:-1, tvg-id="IBC13.ph" tvg-logo="https://i.imgur.com/R7GtAsh.jpg" group-title="ASIAN TV", IBC 13
 http://user.scalecdn.co:8080/live/Alfred/Alfred/567719.m3u8
-
 #EXTINF:-1, tvg-id="CCTN47.ph" tvg-logo="https://i.imgur.com/P0iQIp8.jpg" group-title="ASIAN TV", CCTN 47
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=4
-
+http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8
 #EXTINF:-1, tvg-id="PilipinasHD.ph" tvg-logo="https://i.imgur.com/k7sbIa1.jpg" group-title="ASIAN TV", PILIPINAS HD
 https://d3cbe0gidjd4k2.cloudfront.net/channel_5/smil:channel_5.smil/chunklist_w612733615_b300000_sleng.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/z9ZTaTB.jpg" group-title="ASIAN TV",GTV
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=7
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/u0gp2fH.jpg" group-title="ASIAN TV",GMA NEWS TV
-http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension=ts&play_token=wY4LMv3TMk
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m5S895p.jpg" group-title="ASIAN TV",CNN PHILIPPINES
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=10
-
+http://103.105.213.251:8443/live/RX5KlkfmIvgPs3YnbTPDcw/1661926854/7.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gXI3ma7.jpg" group-title="ASIAN TV",ONE PH
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=42
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/489UArk.jpg" group-title="ASIAN TV",PTV
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/PTVPhilippines/live
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JaCCD65.jpg" group-title="ASIAN TV",TELERADYO
-https://iptv-sniper.herokuapp.com/player/filproductstv.php?channel=41
-
+http://103.105.213.251:8443/live/RX5KlkfmIvgPs3YnbTPDcw/1661926854/42.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/I106q2t.jpg" group-title="ASIAN TV",SUPER RADYO DZBB
 http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/S0GdOES.jpg" group-title="ASIAN TV",CLTV 36
-http://210.213.69.20:5080/LiveApp/streams/cltvmcr.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/k4WZXFv/TVRI-BEARTV.png", TVRI
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)/Stream(04)/index.m3u8
 #EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/WWrSQT9/TVRI-Sport-HD-BEARTV.png", TVRI SPORT
