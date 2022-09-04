@@ -582,17 +582,6 @@ https://livecdn.fptplay.net/sdc/vinhphuc_hls.smil/chunklist_b2500000.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://yenbaitv.org.vn/hls/livestream.m3u8
 
-#EXTINF:-1 group-title="BA QUE XỎ LÁ", SET
-https://5dcab9aed5331.streamlock.net/SET1/livestream/chunklist_w848886703.m3u8
-#EXTINF:-1 group-title="BA QUE XỎ LÁ", SET2
-https://5dcabf026b188.streamlock.net/SET22/livestream/chunklist_w1017303506.m3u8
-#EXTINF:-1 group-title="BA QUE XỎ LÁ", LSTV
-https://media.streambrothers.com:1936/8228/8228/chunklist_w1571223397.m3u8
-#EXTINF:-1 group-title="BA QUE XỎ LÁ", VBS
-https://uni6rtmp.tulix.tv/vbstv/vbsabr.smil/chunklist_w1511031572_b1228800.m3u8
-#EXTINF:-1 group-title="BA QUE XỎ LÁ", IBC
-https://59d39900ebfb8.streamlock.net/ibctv/ibctv/chunklist_w650072595.m3u8
-
 #EXTINF:-1 group-title="📰|Thiết yếu" tvg-id="antvhd" tvg-logo="https://i.ibb.co/FqNKSYq/antv.png"catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",ANTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
@@ -731,7 +720,7 @@ https://liveanevia.mncnow.id/live/eds/BBCWorldNews/sa_dash_vmx/BBCWorldNews.mpd
 https://vips-livecdn.fptplay.net/hda3/bbcnews_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="arirang" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch/master.m3u8
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/arirang_1ch.smil/.m3u8
 #EXTINF:-1 tvg-id="abcaustralia" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/215.png", ABC Australia
 #EXTVLCOPT:http-user-agent=VThanhTivi
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -798,6 +787,8 @@ http://he11o.akadatel.com/iptv/5NNE9G44FKFB6G/15229/index.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8|Referer=https://teveo.cu/
+#EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 
+http://210.210.155.37/qwr9ew/s/s19/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTINF:-1 tvg-ID="CHN" group-title="🌏| Quốc tế" tvg-logo="https://www.tvchinese.net/uploads/tv/jszy.jpg",JIANGSU TV INTL
@@ -832,8 +823,12 @@ https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live1.presstv.ir/live/presstv.m3u8
+#EXTINF:-1 tvg-id="" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/WION_news_Logo.svg/140px-WION_news_Logo.svg.png", WION
+https://d1tdkdc0esjoxj.cloudfront.net/out/v1/f2054baeb8e94043bfc9c8cca2a0013d/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://media.glassdoor.com/sqll/1026196/telesur-squarelogo-1584646341590.png", Telesur English
 https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
+http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1962,19 +1957,23 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/PTVHo
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://ptv.com.pk/user/assets/images/ptvnews2021rev.png", PTV News
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/PTVNewsOfficial/live
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/WION_news_Logo.svg/140px-WION_news_Logo.svg.png", WION India
-https://bravo.kugo.id/wion/udp.stream/chunklist.m3u8
+http://tv.googledrivelinks.com/live.php?c=Wion&q=1200&e=.m3u8
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/India_Today_TV_Channel_logo.jpg", India Today
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Republic_TV.svg/200px-Republic_TV.svg.png", Republic TV
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/RepublicWorld/live
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/DD_India_logo.jpg/180px-DD_India_logo.jpg", DD India
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/DDIndia/live
+http://tv.googledrivelinks.com/live.php?c=DD_India&q=1200&e=.m3u8
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/26/DD_National_new_logo.png", DD National
-http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8
+http://tv.googledrivelinks.com/live.php?c=DD_National&q=1200&e=.m3u8
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/DD_News.png", DD News
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCKwucPzHZ7zCUIf7If-Wo1g/live
+http://tv.googledrivelinks.com/live.php?c=DD_News&q=1200&e=.m3u8
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/India_tv.png/250px-India_tv.png", India TV
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=Xmm3Kr5P1Uw
+http://tv.googledrivelinks.com/live.php?c=India_TV&q=1200&e=.m3u8
+#EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/NDTV_India.png/240px-NDTV_India.png", NDTV India
+http://tv.googledrivelinks.com/live.php?c=NDTV_India&q=1200&e=.m3u8
+#EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://www.ethnicchannels.com/images/channels/ndtv.jpg", NDTV 24x7
+http://tv.googledrivelinks.com/live.php?c=NDTV_24x7&q=1200&e=.m3u8
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Rupavahini_2022_Logo.png/200px-Rupavahini_2022_Logo.png", Rupavahini
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/TVRupavahini/live
 #EXTINF:-1 tvg-id="" group-title="Kênh Nam Á" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/Independent_Television_Network_%28Sri_Lanka%29_Logo.png", ITN
@@ -2333,125 +2332,6 @@ http://live1.streamk.co:8080/sportsbox_preview/live46/playlist.m3u8?site=gaktv&c
 #EXTINF:-1 group-title="THỂ THAO HÀN QUỐC" tvg-logo="https://www.spotvon.co.kr/P/images/main/title_channel2.png" ,SPOTV·ON2
 http://live1.streamk.co:8080/sportsbox_preview/live47/playlist.m3u8?site=gaktv&ch=live47
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=e2a4758854ddf83f1e8f465a3d3d8910&key=a464e1f2f904d40f3235a57304e72d78
-#EXTINF:-1 tvg-id="800" tvg-logo="http://linear-poster.astro.com.my/prod/logo/eGG_v1.png" group-title="THỂ THAO ĐÔNG NAM Á",eGG NETWORK
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2602/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=40c958ab268862f44ca7169a0a634710&key=d83ccdb2a5a66a9653009dab9490e617
-#EXTINF:-1 tvg-id="801" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Arena_v1.png" group-title="THỂ THAO ĐÔNG NAM Á",ASTRO ARENA
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=a35c43ff90d667ba1285ad0ae34ae810&key=99191e99138dc6aca5ed5febe3a817a4
-#EXTINF:-1 tvg-id="802" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroArena2.png" group-title="THỂ THAO ĐÔNG NAM Á",ASTRO ARENA 2
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5057/default_ott.mpd
-
-
-#EXTINF:-1 tvg-id="AstroSupersport" group-title="THỂ THAO ĐÔNG NAM Á" ch-number="811" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/71_144.png",811 Astro SuperSport HD 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=6d2d84310d3fb9230404a1fbf5b33d10&key=8be93a0a6b41efad87096080bc55211a
-https://staging-linearjitp-playback.astro.com.my/dash-wv/linear/601/default_primary.mpd
-
-
-#EXTINF:-1 tvg-id="AstroSupersport2" group-title="THỂ THAO ĐÔNG NAM Á" ch-number="812" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/10_144.png",812 Astro SuperSport 2 
-http://139.99.96.163:2095/live/User39281/UDnAlgqObgx/148.ts
-
-#EXTINF:-1 tvg-id="AstroSupersport3" group-title="THỂ THAO ĐÔNG NAM Á" ch-number="813" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/69_144.png",813 Astro SuperSport 3 HD 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://linearjitp-playback-astro.astradamy.com/dash-ck/linear/2701
-#http://139.99.96.163:2095/live/User38282/DNAkVhCwwu/108.ts
-#https://linearjitp-playback.astro.com.my/dash-wv/linear/2701/manifest.mpd
-#https://aqfadtv.xyz/supersport3.m3u8
-http://139.99.96.163:2095/live/User39281/UDnAlgqObgx/147.ts
-
-
-#EXTINF:-1 tvg-id="AstroSupersport4" group-title="THỂ THAO ĐÔNG NAM Á" ch-number="814" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/163_144.png",814 Astro SuperSport 4 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://linearjitp-playback-astro.astradamy.com/dash-ck/linear/2506
-#http://139.99.96.163:2095/live/User38282/DNAkVhCwwu/109.ts
-#https://linearjitp-playback.astro.com.my/dash-wv/linear/2506/manifest.mpd
-#https://aqfadtv.xyz/supersport4.m3u8
-http://139.99.96.163:2095/live/User39281/UDnAlgqObgx/146.ts
-
-#EXTINF: -1 tvg-id="AstroSupersport5" group-title="THỂ THAO ĐÔNG NAM Á" ch-number="815" tvg-logo="https://aqfadtv.astradamy.com/logos/AstroSupersport5.png",815 Astro SuperSport 5 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=113d6e58ea7e223e3fb4a9af3e927010&key=dc86f5d82e5dfaa0fbb22d220e023b7c
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5059/default_primary.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d96d4ec1a73623b5789d78a48b829d10&key=1ca8dd93af16c84fa1ef5f1b761a03e3
-#EXTINF:-1 tvg-id="818" tvg-logo="http://linear-poster.astro.com.my/prod/logo/beIN_Sports_v1.png" group-title="THỂ THAO ĐÔNG NAM Á",BEIN SPORTS
-http://linearjitp-playback.astro.com.my/dash-wv/linear/408/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZWQ0NjNlZDctNzI1Yy0zY2JlLTg3N2UtOGQ0MTU5MTc0Y2Nh
-#EXTINF:-1 tvg-id="BeInSports1Indonesia.qa" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d3/BeINSports1.png" group-title="THỂ THAO ĐÔNG NAM Á",BEIN SPORTS 1
-https://liveanevia.mncnow.id/live/eds/MrBein1/sa_dash_vmx/MrBein1.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7d2ba38cc488e535fa42059493357c10&key=c48de9b1683be561fa63ab547391975d
-#EXTINF:-1 tvg-id="817" tvg-logo="http://linear-poster.astro.com.my/prod/logo/beINSPORTS2.png" group-title="THỂ THAO ĐÔNG NAM Á",BEIN SPORTS 2
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5013/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=ec837724b4265d2e127e65c542aee410&key=0ce930620687ab1df1cf6544f2dc0013
-#EXTINF:-1 tvg-id="819" tvg-logo="http://linear-poster.astro.com.my/prod/logo/beIN_SPORTS3_V2.png" group-title="THỂ THAO ĐÔNG NAM Á",BEIN SPORTS 3
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=0a5ce785d63f164f5be079a0aa9b6210&key=d388cbf715f1bb08901a55a7db7f26c0
-#EXTINF:-1 tvg-id="824" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Cricket_v1.png" group-title="THỂ THAO ĐÔNG NAM Á",ASTRO CRICKET
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7299bdb9de13b235cda94cd5063ab810&key=247ed97854d185349998873672294cad
-#EXTINF:-1 tvg-id="820" tvg-logo="http://linear-poster.astro.com.my/prod/logo/logo_1701_v3.png" group-title="THỂ THAO ĐÔNG NAM Á",EUROSPORT
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2100/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZWQ0NjNlZDctNzI1Yy0zY2JlLTg3N2UtOGQ0MTU5MTc0Y2Nh
-#EXTINF:-1 tvg-id="FightSports.us" tvg-logo="http://dusktill.masuk.web.id/img/fightsport.png" group-title="THỂ THAO ĐÔNG NAM Á",FIGHT SPORTS
-https://liveanevia.mncnow.id/live/eds/FightSports/sa_dash_vmx/FightSports.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=bef29d5caac3628eb1efae8a215fae10&key=645a0014ea459a86cfa72cf8137bb4a7
-#EXTINF:-1 tvg-id="822" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Golf_v1.png" group-title="THỂ THAO ĐÔNG NAM Á",GOLF CHANNEL
-http://linearjitp-playback.astro.com.my/dash-wv/linear/1003/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZWQ0NjNlZDctNzI1Yy0zY2JlLTg3N2UtOGQ0MTU5MTc0Y2Nh
-#EXTINF:-1 tvg-id="MNCSports.id" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c9/New_mnc_sports_logo_2020.png" group-title="THỂ THAO ĐÔNG NAM Á",MNC SPORTS
-https://liveanevia.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=cfc32f4dc3dac49b34708ded20364610&key=025dcec778861dd1e40cce4dd35e73a4
-#EXTINF:-1 tvg-id="823" tvg-logo="http://linear-poster.astro.com.my/prod/logo/PremierSports.png" group-title="THỂ THAO ĐÔNG NAM Á",PREMIER SPORTS
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2601/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZGFkZmZkZjItYzQ1Mi0zM2RiLTk0OWQtM2M2YmY1YzZjMDNi
-#EXTINF:-1 tvg-id="SoccerChannel.id" tvg-logo="http://dusktill.masuk.web.id/img/soccerchannel.png" group-title="THỂ THAO ĐÔNG NAM Á",SOCCER CHANNEL
-https://liveanevia.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=01cde7c31b1a3ea2aa7a6f579a0f4610&key=710f5ebe6bb2d50978ef0e5aa5fc69d4
-#EXTINF:-1 tvg-id="816" tvg-logo="http://linear-poster.astro.com.my/prod/logo/SPOTV.png" group-title="THỂ THAO ĐÔNG NAM Á",SPOTV
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5058/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZWQ0NjNlZDctNzI1Yy0zY2JlLTg3N2UtOGQ0MTU5MTc0Y2Nh
-#EXTINF:-1 tvg-id="" tvg-logo="https://playtv.unifi.com.my:7046/CPS/images/universal/film/logo/202109/20210930/20210930184626019h4r.png" group-title="THỂ THAO ĐÔNG NAM Á",SPOTV2
-https://liveanevia.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/Sukan_RTM_1_April.png" group-title="THỂ THAO ĐÔNG NAM Á",SUKAN RTM
-https://rtmlive06tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=782f32d9501ac50dfd783671ade95210&key=9690dcf2368b1664680a8099125ccca9
-#EXTINF:-1 tvg-id="821" tvg-logo="http://linear-poster.astro.com.my/prod/logo/WWE_v1.png" group-title="THỂ THAO ĐÔNG NAM Á",WWE NETWORK
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2603/default_ott.mpd
 
 #EXTINF:-1 tvg-id="no_epg_sport" group-title="SKY SPORTS - ANH" tvg-logo="https://i.ibb.co/sCN7q6G/download.png",Sky Sports PL FHD
 http://stariptv.org:8080/hamza2022/123456/55384
