@@ -710,14 +710,8 @@ https://livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="cbeebies" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/212.png", BBC Cbeebies
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="bbc" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News (Intl feed)
+#EXTINF:-1 tvg-id="bbc" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News
 http://live-sg.cvacetv.ga/BBCWN
-#EXTINF:-1 tvg-id="BBCWorldNewsAsiaPacific.uk" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News (Asia feed)
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-https://liveanevia.mncnow.id/live/eds/BBCWorldNews/sa_dash_vmx/BBCWorldNews.mpd
-#EXTINF:-1 tvg-id="bbcworldnews" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News (VN timeshift feed)
-https://vips-livecdn.fptplay.net/hda3/bbcnews_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="arirang" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/arirang_1ch.smil/.m3u8
@@ -756,9 +750,9 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://static.epg.best/au/CGTN.au.png" group-title="🌏| Quốc tế", CGTN
-http://[2409:8087:5c0b:10:2::85]:6610/000000001001/7745129417417101820/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7745129417417101820
+http://111.12.110.95:6610/000000001001/7745129417417101820/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7745129417417101820
 #EXTINF:-1 tvg-id="891" tvg-name="CGTNDocumentary" tvg-logo="http://static.epg.best/au/CGTNDocu.au.png" group-title="🌏| Quốc tế", CGTN Documentary
-http://[2409:8087:5c0b:10:2::85]:6610/000000001001/7114647837765104058/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7114647837765104058
+http://111.12.110.95:6610/000000001001/7114647837765104058/1.m3u8?stbId=3&livemode=1&channel-id=hnbblive&Contentid=7114647837765104058
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German
 https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8?ern=0
 #EXTINF:-1 tvg-id="DWDeutsch.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW German+
@@ -766,9 +760,9 @@ https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/index.m3u8?ern
 #EXTINF:-1 tvg-id="DWEnglish.de" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?ern=0
 #EXTINF:-1 tvg-id="france24-en" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 English
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
+http://live-sg.cvacetv.ga/F24En
 #EXTINF:-1 tvg-id="france24-fr" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 French
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24/live
+http://live-sg.cvacetv.ga/F24Fre
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="🌏| Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="rt-doc" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/RTD-TV-logo.png/220px-RTD-TV-logo.png", RT Documentary English
@@ -1146,7 +1140,7 @@ http://live-vn.cvacetv.ga:9981/stream/channelid/57280988?profile=ace
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/1920px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png", OPT1 HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://iptv.apka.net.ua:8087/pervyy-hdbe
+http://live-sg.cvacetv.ga/OPT1
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/1920px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png", OPT1 (MSK+4)
 https://cdn9.1internet.tv/dash-live12/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b6/Russia_1_2012.svg/revision/latest/scale-to-width-down/250?cb=20210123160619", Russia 1 HD
@@ -1309,11 +1303,11 @@ http://platin4k.eu:80/kralkerim/8TKLyJivVEA/115458?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/230px-%C4%8CT24_logo.png", ČT24 HD
 http://platin4k.eu:80/kralkerim/8TKLyJivVEA/115459?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/250px-TVP_HD_logo.svg.png", TVP HD
-http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73741?checkedby:iptvcat.com
+http://live-sg.cvacetv.ga/TVPHD
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TVP1_2021_box-1.svg/70px-TVP1_2021_box-1.svg.png", TVP1 HD
-http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73738?checkedby:iptvcat.com
+http://live-sg.cvacetv.ga/TVP1
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TVP2_2021_box-1.svg/70px-TVP2_2021_box-1.svg.png", TVP2 HD
-http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73739?checkedby:iptvcat.com
+http://live-sg.cvacetv.ga/TVP2
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TVP3_logo_2016.png/250px-TVP3_logo_2016.png", TVP3 HD
 http://live-sg.cvacetv.ga/TVP3
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://s2.tvp.pl/images/b/c/3/uid_bc337ce8f24a5496ed394a9ff8b114e21412249630300_width_300_height_150_play_0_pos_0_gs_0.png", TVP Info
@@ -1772,7 +1766,11 @@ http://111.20.33.80/TVOD/88888893/224/3221226462/index.m3u8
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227222/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-logo="https://nettvpro.live/uploads/18/1-1PH92041345D.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Infonews Channel
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227226/index.m3u8
-#EXTINF:-1 tvg-id="TVBJadeMalaysia.my" tvg-logo="https://nettvpro.live/uploads/18/1-1P322210400B3.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade Southeast Asia
+#EXTINF:-1 tvg-id="126" tvg-logo="http://nettvpro.live/uploads/18/1-1P322210400B3.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade
+http://jyjxy.7766.org:808/hls/36/index.m3u8
+#EXTINF:-1 tvg-id="127" tvg-logo="http://nettvpro.live/uploads/allimg/18/1-1P3111915460-L.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl
+http://jyjxy.7766.org:808/hls/37/index.m3u8
+#EXTINF:-1 tvg-id="TVBJadeMalaysia.my" tvg-logo="https://i.ibb.co/h1Z7s0f/image.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade Southeast Asia
 http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20653
 #EXTINF:-1 tvg-id="130" tvg-logo="https://nettvpro.live/uploads/18/1-1P40ZG925S9.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News Channel
 http://9.zhxinda.xyz/newss.php?id=1
