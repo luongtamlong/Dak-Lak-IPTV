@@ -687,20 +687,20 @@ https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
 http://live-sg.cvacetv.ga:8080/stream/channelid/291261982
 #EXTINF:-1 tvg-id="BBCTwo.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png", BBC Two
 http://live-sg.cvacetv.ga:8080/stream/channelid/247454318
-#EXTINF:-1 tvg-id="BBCThree.uk" group-title="🚽| BBC" tvg-logo="https://vodzilla.co/wp-content/uploads/2022/02/bbc-three-logo-2022.jpeg", BBC Three/CBBC
-http://live-sg.cvacetv.ga/CBBC
 #EXTINF:-1 tvg-id="BBCFour.uk" group-title="🚽| BBC" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/BBC_Four_%282021%29.svg/revision/latest/scale-to-width-down/250?cb=20211029193029", BBC Four/CBeebies UK Feed
 http://mains.services:2086/A.Jones01/1904550/104614?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="BBCRedButton.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BBC_RB%2B_Primary_ONE_COLOUR2.svg/1280px-BBC_RB%2B_Primary_ONE_COLOUR2.svg.png", BBC Red Button
 http://live-sg.cvacetv.ga:8080/stream/channelid/429607131
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/150px-BBC_News_2022_%28Alt%29.svg.png", BBC News
-http://mains.services:2086/A.Jones01/1904550/90878?checkedby:iptvcat.com
+http://myott.top/stream/DT6QU63K5VX/85.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="BBCParliament.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/1200px-BBC_Parliament_Logo.svg.png", BBC Parliament
 http://live-sg.cvacetv.ga:8080/stream/channelid/429607131
+#EXTINF:-1 tvg-id="BBCThree.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CBBC_%282022%29.svg/400px-CBBC_%282022%29.svg.png", CBBC
+http://live-sg.cvacetv.ga/CBBC
 #EXTINF:-1 tvg-id="france24eng" group-title="🚽| BBC" tvg-logo="https://static.wikia.nocookie.net/bbc/images/6/6e/BBC_Entertainment_channel.png/revision/latest?cb=20220213220202",BBC Entertainment
-http://red.ipfox.org:8080/osama2022/osama2023/49241?checkedby:iptvcat.com
+http://red.ipfox.org:8080/osama2022/osama2023/49141?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🚽| BBC" tvg-logo="https://bbcfirst.ca/wp-content/uploads/2021/02/BBC-First-WhiteBoxLogo-copy.png",BBC First HD
-http://mains.services:2086/A.Jones01/1904550/92896?checkedby:iptvcat.com
+http://red.ipfox.org:8080/osama2022/osama2023/49142?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="bbcearth" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BBC Earth
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
@@ -712,6 +712,8 @@ https://livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist.m3u8
 https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="bbc" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News
 http://live-sg.cvacetv.ga/BBCWN
+#EXTINF:-1 tvg-id="bbc" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News (VN feed)
+https://vips-livecdn.fptplay.net/hda3/bbcnews_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="arirang" group-title="🌏| Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/arirang_1ch.smil/.m3u8
