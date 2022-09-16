@@ -246,6 +246,14 @@ https://s8213.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
 #KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZjcyZmRiYjAtMTcxMy0zYWYwLWFkZTUtOTMxNzI1Njc5OTI5
 http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
 
+#EXTINF:-1 tvg-id="kkidshd" group-title="📺|K+" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kkids-hd.png",K+KIDS HD MyK+
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d36f3ca0ceb44a0881a34876a7bd2e68&key=94b553e8ddc197ac29e87a65559703cb
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/index.mpd
+
 #EXTINF:-1 group-title="📺|SCTV" tvg-id="sctv1hd" tvg-logo="https://i.ibb.co/bg3VGsW/SCTV1.png", SCTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv1/s2/index.m3u8?|Referer=http://sctvonline.vn/
