@@ -811,7 +811,7 @@ https://live1.presstv.ir/live/presstv.m3u8
 https://d1tdkdc0esjoxj.cloudfront.net/out/v1/f2054baeb8e94043bfc9c8cca2a0013d/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://media.glassdoor.com/sqll/1026196/telesur-squarelogo-1584646341590.png", Telesur English
 https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
+#EXTINF:-1 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/200px-Rai_Italia_-_Logo_2017.svg.png" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
 http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1808,6 +1808,10 @@ http://livetv.dnsfor.me/channel.3.m3u8
 http://livetv.dnsfor.me/channel.4.m3u8
 #EXTINF:-1 tvg-id="NowBusinessNewsChannel.hk" tvg-logo="https://www.nettvpro.live/uploads/19/1-1Z91G24944Z2.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Now Business News
 http://livetv.dnsfor.me/channel.8.m3u8
+#EXTINF:-1 group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-id="NowJelli.hk" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/hong-kong/now-jelli-hk.png",Now Jelli (test)
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=NOW_JELLI_KEY
+http://1.9.62.158/PLTV/88888888/224/3221227559/3221227559.mpd
 #EXTINF:-1 tvg-id="7117" tvg-logo="http://nettvpro.live/uploads/18/1-1Q21521053R62.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Hong Kong Intl Business Channel
 http://uc6.i-cable.com/live_freedirect/opentvhd002_h.live/playlist.m3u8
 #EXTINF:-1 tvg-id="7118" tvg-logo="https://nettvpro.live/uploads/18/1-1Q1052133164b.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Hong Kong Open TV
