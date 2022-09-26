@@ -586,24 +586,43 @@ https://livecdn.fptplay.net/sdc/vinhphuc_hls.smil/chunklist_b2500000.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://yenbaitv.org.vn/hls/livestream.m3u8
 
-#EXTINF:-1 group-title="📰|Thiết yếu" tvg-id="antvhd" tvg-logo="https://i.ibb.co/FqNKSYq/antv.png"catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",ANTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
-https://vips-livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="📰|Thiết yếu" tvg-id="nhandan" tvg-logo="https://i.ibb.co/7JJ3WQP/ndtv.png",Nhân Dân TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
-https://vips-livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 group-title="📰|Thiết yếu" tvg-id="quochoi" tvg-logo="https://i.ibb.co/hcSjDRm/qhtv.png",QUỐC HỘI TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
-https://vips-livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="📰|Thiết yếu" tvg-id="qpvnhd" tvg-logo="https://i.ibb.co/xHF5BVf/qpvn.png"catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/quocphongvnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",Quốc Phòng PVN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
-https://vips-livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="📰|Thiết yếu" tvg-id="ttxvnhd" tvg-logo="https://i.ibb.co/xSZygFq/VNEWS.png",VNEWS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
-https://livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="📰|Thiết yếu" tvg-id="" tvg-logo="https://i.ibb.co/6yBdmNj/vovhd.png", VOVTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
-http://103.90.220.236/vovlive/tv1live.m3u8
+#EXTINF:-1 tvg-id="vovtv" group-title="📰|Thiết yếu" tvg-logo="https://i.imgur.com/133s2Sc.png",VOV TV | Đài Tiếng nói Việt Nam
+https://livecdn.fptplay.net/sdc/vovtvsd_hls.smil/chunklist_b2500000.m3u8
+#http://103.90.220.236/vovlive/tv1live.m3u8
+#http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
+#http://mediatech.vncdn.vn/vovlive/tv1live.m3u8
+#https://live.truyenhinhdulich.vn/vovlive/tv1live.m3u8
+#https://livecdn.fptplay.net/sdc/vovtvsd_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="antvhd" group-title="📰|Thiết yếu" tvg-logo="https://i.imgur.com/kHZtzZw.png",ANTV | Truyền hình Công an Nhân Dân
+https://livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
+#http://liverestream2obj.5b1df984.cdnviet.com/hls/ANTV/03.m3u8
+#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/ANTV-SD-ABR/HTV-ABR/ANTV-SD-720p/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="quochoi" group-title="📰|Thiết yếu" tvg-logo="https://i.imgur.com/G154n6j.png",Truyền hình Quốc Hội
+https://livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
+#http://113.164.225.140:1935/live/quochoitvlive.stream/playlist.m3u8
+#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/QUOCHOI-SD-ABR/HTV-ABR/QUOCHOI-SD-720p/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="qpvnhd" group-title="📰|Thiết yếu" tvg-logo="https://i.imgur.com/xtA4AlV.png",QPVN HD | Quốc Phòng Việt Nam
+https://livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
+#http://liverestream2obj.5b1df984.cdnviet.com/hls/QPVN/03.m3u8
+#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/QPTV-SD-ABR/HTV-ABR/QPTV-SD-720p/playlist.m3u8
+#https://livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="ttxvnhd" group-title="📰|Thiết yếu" tvg-logo="https://i.imgur.com/AAWIPHz.png",VNews | Thông Tấn Xã Việt Nam
+http://livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
+#http://liverestream2obj.5b1df984.cdnviet.com/hls/TTXVN_HD/03.m3u8
+#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/TTXVN-SD-ABR/HTV-ABR/TTXVN-SD-720p/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="nhandan" group-title="📰|Thiết yếu" tvg-logo="https://vthanh.xyz/ic/91.png",Nhân Dân TV
+https://livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8
+#http://27.118.16.98:1935/live/truyenhinhnhandan720/chunklist_w2006762604.m3u8
+#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NHANDAN-SD-ABR/HTV-ABR/NHANDAN-SD-720p/playlist.m3u8
+#https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
 https://code.television4you.xyz/getlink/nethubtv?id=9328&itb=1
