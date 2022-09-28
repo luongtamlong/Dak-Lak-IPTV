@@ -646,6 +646,18 @@ https://livecdn.fptplay.net/hda1/babyfirst_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="babytvhd" group-title="👶| Thiếu nhi" tvg-logo="https://cdn.hqth.me/logo/thumbs/201.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/babytvhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BabyTV HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://vips-livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="👶| Thiếu nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Disney_Channel_logo.svg/800px-2019_Disney_Channel_logo.svg.png",Disney Channel
+http://live-sg.cvacetv.ga/Disney
+#EXTINF:-1 group-title="👶| Thiếu nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/7/77/Disney-Junior.png",Disney Junior
+http://live-sg.cvacetv.ga/DisneyJR
+#EXTINF:-1 group-title="👶| Thiếu nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nick.svg/1200px-Nick.svg.png",Nick
+http://live-sg.cvacetv.ga/Nick
+#EXTINF:-1 group-title="👶| Thiếu nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons
+http://live-sg.cvacetv.ga/NickToons
+#EXTINF:-1 group-title="👶| Thiếu nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/1280px-TRT_%C3%87ocuk_logo_%282021%29.svg.png",TRT Cocuk
+http://live-sg.cvacetv.ga/TRT_Cocuk
+#EXTINF:-1 group-title="👶| Thiếu nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Logo_TVP_ABC.svg/1200px-Logo_TVP_ABC.svg.png",TVP ABC
+http://live-sg.cvacetv.ga/TVP_ABC
 
 #EXTINF:-1 tvg-id="davincihd" group-title="⚗| Khoa học" tvg-logo="https://cdn.hqth.me/logo/thumbs/202.png", Da Vinci HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
@@ -653,21 +665,17 @@ https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="BBCOne.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png", BBC One
 #EXTVLCOPT:http-user-agent=VThanhTivi
-http://live-sg.cvacetv.ga:8080/stream/channelid/291261982
+http://live-sg.cvacetv.ga:8080/stream/channelid/85918302
 #EXTINF:-1 tvg-id="BBCTwo.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png", BBC Two
-http://live-sg.cvacetv.ga:8080/stream/channelid/247454318
+http://live-sg.cvacetv.ga:8080/stream/channelid/483394653
 #EXTINF:-1 tvg-id="BBCRedButton1.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BBC_RB%2B_Primary_ONE_COLOUR2.svg/1280px-BBC_RB%2B_Primary_ONE_COLOUR2.svg.png", BBC Red Button
-http://live-sg.cvacetv.ga:8080/stream/channelid/429607131
+http://live-sg.cvacetv.ga:8080/stream/channelid/600364533
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/150px-BBC_News_2022_%28Alt%29.svg.png", BBC News
 http://live-sg.cvacetv.ga/bbcnews
 #EXTINF:-1 tvg-id="BBCParliament.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/1200px-BBC_Parliament_Logo.svg.png", BBC Parliament
 http://live-sg.cvacetv.ga/BBCPar
 #EXTINF:-1 tvg-id="BBCThree.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CBBC_%282022%29.svg/400px-CBBC_%282022%29.svg.png", CBBC
 http://live-sg.cvacetv.ga/CBBC
-#EXTINF:-1 tvg-id="france24eng" group-title="🚽| BBC" tvg-logo="https://static.wikia.nocookie.net/bbc/images/6/6e/BBC_Entertainment_channel.png/revision/latest?cb=20220213220202",BBC Entertainment
-http://red.ipfox.org:8080/osama2022/osama2023/49141?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="france24eng" group-title="🚽| BBC" tvg-logo="https://bbcfirst.ca/wp-content/uploads/2021/02/BBC-First-WhiteBoxLogo-copy.png",BBC First HD
-http://red.ipfox.org:8080/osama2022/osama2023/49142?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="bbcearth" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BBC Earth
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
@@ -947,7 +955,7 @@ https://liveanevia.mncnow.id/live/eds/CelestialMovie/sa_dash_vmx/CelestialMovie.
 https://liveanevia.mncnow.id/live/eds/XingKongTV/sa_dash_vmx/XingKongTV.mpd
 
 #EXTINF:-1 tvg-id="ITVLondon.uk" group-title="🇪🇺| Châu Âu" tvg-logo="https://tvadvertising.co.uk/wp-content/uploads/2020/04/TV-Advertising-ITV-Logo-1.png", ITV
-http://live-sg.cvacetv.ga:8080/stream/channelid/1589619535
+http://live-sg.cvacetv.ga:8080/stream/channelid/125030560
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
 http://live-sg.cvacetv.ga/channel4
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Channel_5_Logo_2016_SVG.svg/1200px-Channel_5_Logo_2016_SVG.svg.png",Channel 5
@@ -957,7 +965,7 @@ http://live-sg.cvacetv.ga/ITV2
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/ITV3_logo_2013.svg/1920px-ITV3_logo_2013.svg.png",ITV3
 http://live-sg.cvacetv.ga/ITV3
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/ITV4_logo_2013.svg/1200px-ITV4_logo_2013.svg.png",ITV4
-http://live-sg.cvacetv.ga/ITV4
+http://live-sg.cvacetv.ga:8080/stream/channelid/390713253
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/87/STV_logo_2014.png",STV
 http://live-sg.cvacetv.ga/STV
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://www.pngkey.com/png/full/364-3640865_ebs-the-european-unions-tv-information-service-was.png",EbS
@@ -1116,17 +1124,17 @@ https://c.mjh.nz/abc2
 #EXTINF:-1 tvg-id="tv.101002210224" group-title="🇦🇺 | ÚC" tvg-logo="https://i.mjh.nz/.images/tv.101002210224.png",ABC Me
 https://c.mjh.nz/101002210224
 #EXTINF:-1 tvg-id="tv.320203000301" group-title="🇦🇺 | ÚC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/SBS_Australia_Logo_%282019%29.svg/800px-SBS_Australia_Logo_%282019%29.svg.png",SBS One
-http://live-vn.cvacetv.ga:8880/stream/channelid/359386039
+http://live-vn.cvacetv.ga:9981/stream/channelid/779372179
 #EXTINF:-1 tvg-id="tv.101406020625" group-title="🇦🇺 | ÚC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Network_10_logo_2018.svg/1200px-Network_10_logo_2018.svg.png",10 (Network Ten)
-http://live-vn.cvacetv.ga:8880/stream/channelid/2121960186
+http://live-vn.cvacetv.ga:9981/stream/channelid/382592713
 #EXTINF:-1 tvg-id="tv.101406020627" group-title="🇦🇺 | ÚC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/10_Bold_2018.svg/1920px-10_Bold_2018.svg.png",10 Bold (Ten Bold)
-http://live-vn.cvacetv.ga:8880/stream/channelid/784572237
+http://live-vn.cvacetv.ga:9981/stream/channelid/283667476
 #EXTINF:-1 tvg-id="tv.101305020520" group-title="🇦🇺 | ÚC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/1200px-Seven_Network_logo.svg.png",7 (Network Seven)
-http://live-vn.cvacetv.ga:8880/stream/channelid/1244205183
+http://live-vn.cvacetv.ga:9981/stream/channelid/602775737
 #EXTINF:-1 tvg-id="tv.101204200421" group-title="🇦🇺 | ÚC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Nine2008.svg/1200px-Nine2008.svg.png",9 (Network Nine WWOS)
-http://live-vn.cvacetv.ga:8880/stream/channelid/206726896
+http://live-vn.cvacetv.ga:9981/stream/channelid/472821240
 #EXTINF:-1 tvg-id="tv.101204200427" group-title="🇦🇺 | ÚC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/9Gem_logo.png",9Gem (Network Nine WWOS)
-http://live-vn.cvacetv.ga:8880/stream/channelid/806399838
+http://live-vn.cvacetv.ga:9981/stream/channelid/1641481619
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/1920px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png", OPT1 HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
