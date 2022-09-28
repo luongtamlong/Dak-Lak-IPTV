@@ -754,6 +754,8 @@ http://he11o.akadatel.com/iptv/5NNE9G44FKFB6G/15229/index.m3u8
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8|Referer=https://teveo.cu/
 #EXTINF:-1 group-title="🌏| Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 
 http://210.210.155.37/qwr9ew/s/s19/index.m3u8
+#EXTINF:-1 tvg-id="TVBJadeMalaysia.my" tvg-logo="https://www.tvchinese.net/uploads/tv/jade.jpg" group-title="🌏| Quốc tế",TVB Jade Overseas Edition
+http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20653
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTINF:-1 tvg-ID="CHN" group-title="🌏| Quốc tế" tvg-logo="https://www.tvchinese.net/uploads/tv/jszy.jpg",JIANGSU TV INTL
@@ -1758,15 +1760,13 @@ http://111.20.33.80/TVOD/88888893/224/3221226462/index.m3u8
 
 
 #EXTINF:-1 tvg-id="141" tvg-logo="https://nettvpro.live/uploads/18/1-1Q123210631396.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Chinese Channel
-http://222.76.119.198:9901/tsfile/live/1013_1.m3u8
+http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227222/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 #EXTINF:-1 tvg-id="142" tvg-logo="https://nettvpro.live/uploads/18/1-1PH92041345D.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Infonews Channel
-http://222.76.119.198:9901/tsfile/live/1012_1.m3u8
+http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227226/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 #EXTINF:-1 tvg-id="143" tvg-logo="https://nettvpro.live/uploads/18/1-1Q12321004YL.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Hong Kong Channel
 http://jyjxy.7766.org:808/hls/34/index.m3u8
 #EXTINF:-1 tvg-id="126" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/hong-kong/tvb-jade-hk.png?raw=true" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade
 https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=1
-#EXTINF:-1 tvg-id="TVBJadeMalaysia.my" tvg-logo="https://www.tvchinese.net/uploads/tv/jade.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade Southeast Asia
-http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20653
 #EXTINF:-1 tvg-id="127" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/hong-kong/tvb-pearl-hk.png?raw=true" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl
 https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=7
 #EXTINF:-1 tvg-id="130" tvg-logo="https://nettvpro.live/uploads/18/1-1P40ZG925S9.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News Channel
