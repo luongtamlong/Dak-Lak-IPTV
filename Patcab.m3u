@@ -1,7 +1,6 @@
 #EXTM3U url-tvg="https://s.id/ccepg"
 
 #-*--VTV-*--#
-#-*--VTV-*--#
 #EXTINF:-1 tvg-id="vtv1hd" group-title="❤| VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/1.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV1 HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -633,7 +632,7 @@ https://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
 #EXTINF:0 tvg-id="france24eng" group-title="🌏| Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/220px-Phoenix_InfoNews.svg.png", Phượng Hoàng Tư Tấn
 https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
 #EXTINF:-1 tvg-name="france24eng" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/hong-kong/tvb-jade-hk.png" group-title="🌏| Quốc tế", TVB Jade
-http://iptv.weai.love/live?type=gdjy&ipdz=113.64.147,i&tvid=tvbfc
+http://120.84.96.78:808/hls/25/index.m3u8
 #EXTINF:-1 tvg-name="france24eng" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/hong-kong/tvb-pearl-hk.png" group-title="🌏| Quốc tế", TVB Pearl
 http://120.84.96.55:808/hls/26/index.m3u8
 #EXTINF:-1 tvg-name="france24eng" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/hong-kong/tvb-news-channel-hk.png?raw=true" group-title="🌏| Quốc tế", TVB News
