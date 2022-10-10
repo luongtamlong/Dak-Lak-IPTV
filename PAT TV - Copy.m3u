@@ -1,28 +1,4 @@
-#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=0
-#EXTM3U url-tvg="http://trada.info/epg.xml"tvg-shift=0 m3uautoload=0
-#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=0
-#EXTM3U url-tvg="http://megavie.live/schedule/epg.xml" deinterlace=0
-#EXTM3U url-tvg="http://gg.gg/guidevn" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
-#EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
-#EXTM3U url-tvg="http://gg.gg/epgmytv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=4
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=5
-#EXTM3U url-tvg="http://megavie.live/schedule/epg.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=6
-#EXTM3U url-tvg="http://gg.gg/coodertvepg" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=7
-#EXTM3U url-tvg="https://manhkendo.000webhostapp.com/epgvn/lichtv/homnay.xml" tvg-shift=0 m3uautoload=8
-#EXTM3U url-tvg="http://gg.gg/fptepg" tvg-shift=0 m3uautoload=9
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz" tvg-shift=0 m3uautoload=10
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz" tvg-shift=0 m3uautoload=11
-#EXTM3U url-tvg="https://iptvx.one/EPG" tvg-shift=0 m3uautoload=12
-#EXTM3U url-tvg="https://epg.hkanime.com.hk" tvg-shift=0 m3uautoload=13
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz" tvg-shift=0 m3uautoload=14
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz" tvg-shift=0 m3uautoload=15
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz" tvg-shift=0 m3uautoload=16
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz" tvg-shift=0 m3uautoload=17
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz" tvg-shift=0 m3uautoload=18
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz" tvg-shift=0 m3uautoload=19
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz" tvg-shift=0 m3uautoload=20
-#EXTM3U url-tvg="https://i.mjh.nz/au/Sydney/epg.xml.gz" tvg-shift=0 m3uautoload=21
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz" tvg-shift=0 m3uautoload=22
+EXTM3U x-tvg-url="http://trada.info/epg.xml,https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://epg.hkanime.com.hk/,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,http://live-sg.cvacetv.ga:8080/xmltv/channels,http://live-vn.cvacetv.ga:9981/xmltv/channels,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=0
 
 
 #-*--VTV-*--#
