@@ -1,16 +1,6 @@
 #EXTM3U url-tvg="https://tbtv.us/channel?epg,http://trada.info/epg.xml"
 #List build by TuBien | Zl Group: https://zalo.me/g/dobami226
 
-#EXTINF:-1 group-title="⚠️|Note!" tvg-logo="https://i.ibb.co/xHv4yJ2/tbientv-uplist.gif",↻20h38 - 10/10 | Làm mới list khi xem
-#EXTVLCOPT:http-user-agent=TuBienTV
-https://tbtv.us/channel?default
-#EXTINF:-1 group-title="⚠️|Note!" tvg-logo="https://i.ibb.co/BrgC5N1/tbientv-football-ball-gif.gif",🔗 https://sport.tbtv.us
-#EXTVLCOPT:http-user-agent=TuBienTV
-https://tbtv.us/channel?default
-#EXTINF:-1 group-title="⚠️|Note!" tvg-logo="https://tbtv.us/sport/group_zalo.jpg",🔗 https://zalo.me/g/dobami226
-#EXTVLCOPT:http-user-agent=TuBienTV
-https://tbtv.us/channel?default
-
 #EXTINF:-1 group-title="📺|VTV" tvg-id="vtv1hd" tvg-logo="https://i.ibb.co/M9v4ybW/VTV1.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -1942,6 +1932,112 @@ https://liveanevia.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YWY0OTBlZjEtODAyNC0zZTA0LWFhYzMtY2ZmMGE4NjVjZjU1
 https://liveanevia.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
+
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/k6Z62t1/3.png", PATTV Premier League 1
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://bb5iqwas4fliv.vcdn.cloud/m201nd/m201nd@456.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/k6Z62t1/3.png", PATTV Premier League 2
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://bb5iqwas4fliv.vcdn.cloud/m301nd/m301nd@456.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/k6Z62t1/3.png", PATTV Premier League 3
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://bb5iqwas4fliv.vcdn.cloud/m401nd/m401nd@456.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/k6Z62t1/3.png", PATTV Premier League 4
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://bb5iqwas4fliv.vcdn.cloud/m501nd/m501nd@456.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 1 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m201nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 2 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m202nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 3 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m301nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 4 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m302nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 5 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m304nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 6 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m401nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 7 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m402nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 8 ⚽
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m403nd/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 1 Full HD
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@cakhiahd1/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 2 Full HD
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@xachvuahd1/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 3 Full HD
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@luhd1/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 4 Full HD
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@cayhd1/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 5 Full HD
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@paohd1/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 6 Full HD
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@betonghd1/chunklist.m3u8|Referer=https://tructiep.rakhoi1.com/
+#EXTINF:0 group-title="PATTV Live SPORTS (HW)" tvg-logo="https://i.ibb.co/KFCmL24/2.png", PATTV Live 7 Full HD
+https://514644076.cloud.anycastapnic.com/xavi/293/chunklist.m3u8
+
+
+
+#EXTINF:-1 group-title="F EVENT" tvg-logo="https://fptplay.vn/images/logo-2.png", F Event 01
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="F EVENT" tvg-logo="https://fptplay.vn/images/logo-2.png", F Event 02
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livecdn.fptplay.net/schedule/sukien02_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="F EVENT" tvg-logo="https://fptplay.vn/images/logo-2.png", F Event 03
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livecdn.fptplay.net/schedule/sukien03_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="F EVENT" tvg-logo="https://fptplay.vn/images/logo-2.png", F Event 04
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://livecdn.fptplay.net/schedule/sukien04_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:0 group-title="F EVENT" tvg-logo="https://i.ibb.co/DRc2SNG/fpt-play-sport-PATTVTV.png",F Sport 01
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://vips-livecdn.fptplay.net/hdevent/fsport01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0 group-title="F EVENT" tvg-logo="https://i.ibb.co/DRc2SNG/fpt-play-sport-PATTVTV.png",F Sport 02
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://vips-livecdn.fptplay.net/hdevent/fsport02_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0 group-title="F EVENT" tvg-logo="https://i.ibb.co/DRc2SNG/fpt-play-sport-PATTVTV.png",F Sport 03
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://vips-livecdn.fptplay.net/hdevent/fsport03_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0 group-title="F EVENT" tvg-logo="https://i.ibb.co/DRc2SNG/fpt-play-sport-PATTVTV.png",F Sport 04
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://vips-livecdn.fptplay.net/hdevent/fsport04_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0 group-title="F EVENT" tvg-logo="https://i.ibb.co/DRc2SNG/fpt-play-sport-PATTVTV.png",F Sport 05
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://vips-livecdn.fptplay.net/hdevent/fsport05_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 group-title="F EVENT" tvg-logo="https://fptplay.vn/images/logo-2.png", WBC 01
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://vips-livecdn.fptplay.net/schedule/wbc01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="F EVENT" tvg-logo="https://fptplay.vn/images/logo-2.png", WBC 02
+#EXTVLCOPT:http-user-agent="PATTVTV"
+https://vips-livecdn.fptplay.net/schedule/wbc02_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:0 group-title="ON EVENT" tvg-logo="https://i.ibb.co/X85QMGt/onsportstv-PATTVTV.png",ON Sports TV 01
+https://s.id/liveon01
+#EXTINF:0 group-title="ON EVENT" tvg-logo="https://i.ibb.co/X85QMGt/onsportstv-PATTVTV.png",ON Sports TV 02
+https://s.id/liveon03
+#EXTINF:0 group-title="ON EVENT" tvg-logo="https://i.ibb.co/X85QMGt/onsportstv-PATTVTV.png",ON Sports TV 03
+https://s.id/liveon02
+#EXTINF:0 group-title="ON EVENT" tvg-logo="https://i.ibb.co/X85QMGt/onsportstv-PATTVTV.png",ON Sports TV 04
+https://s.id/liveon04
+#EXTINF:0 group-title="ON EVENT" tvg-logo="https://i.ibb.co/X85QMGt/onsportstv-PATTVTV.png",ON Sports TV 05
+https://s.id/liveon05
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
