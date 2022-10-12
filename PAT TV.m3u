@@ -686,6 +686,8 @@ https://livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist.m3u8
 https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News
 http://live-sg.cvacetv.ga/BBCWN
+#EXTINF:-1 tvg-id="bbcworldnews" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News HD
+http://s01.wsbof.com/bbc-world-news-hd/mpegts?token=675d7b52
 
 #EXTINF:-1 tvg-id="arirang" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/arirang_1ch.smil/.m3u8
@@ -709,9 +711,7 @@ https://euronews.alteox.app/hls/en_stream.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
 https://liveanevia.mncnow.id/live/eds/CNBC/sa_dash_vmx/CNBC.mpd
 #EXTINF:-1 tvg-id="cnn" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-https://liveanevia.mncnow.id/live/eds/CNNInternational/sa_dash_vmx/CNNInternational.mpd
+http://s01.wsbof.com/cnn-hd/mpegts?token=675d7b52
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aljazeera.svg/500px-Aljazeera.svg.png", Al Jazeera English
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
@@ -1133,7 +1133,7 @@ https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/VOA-TVMC06_1080/chunkli
 https://voa-ingest.akamaized.net/hls/live/2033868/tvmc03/VOA-TVMC03_1080/chunklist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌎| Châu Mỹ" tvg-logo="https://www.publicdiplomacycouncil.org/wp-content/uploads/2020/05/voa-logo.png",VOA (Pakistan)
 https://voa-ingest.akamaized.net/hls/live/2033781/tvmc02/VOA-TVMC02_1080/chunklist.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="🌎| Châu Mỹ" tvg-logo="https://www.publicdiplomacycouncil.org/wp-content/uploads/2020/05/voa-logo.png",VOA (Vietnam)
+#EXTINF:-1 tvg-id="france24eng" group-title="🌎| Châu Mỹ" tvg-logo="https://www.publicdiplomacycouncil.org/wp-content/uploads/2020/05/voa-logo.png" parent-code="0000",VOA (Vietnam)
 https://voa-ingest.akamaized.net/hls/live/2033866/tvmc01/VOA-TVMC01_1080/chunklist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌎| Châu Mỹ" tvg-logo="https://www.publicdiplomacycouncil.org/wp-content/uploads/2020/05/voa-logo.png",VOA China
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/VOA-TVMC08_1080/chunklist.m3u8
