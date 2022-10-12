@@ -671,8 +671,10 @@ http://live-sg.cvacetv.ga:8080/stream/channelid/600364533
 http://live-sg.cvacetv.ga/bbcnews
 #EXTINF:-1 tvg-id="BBCParliament.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/1200px-BBC_Parliament_Logo.svg.png", BBC Parliament
 http://live-sg.cvacetv.ga/BBCPar
-#EXTINF:-1 tvg-id="BBCThree.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CBBC_%282022%29.svg/400px-CBBC_%282022%29.svg.png", CBBC
-http://live-sg.cvacetv.ga/CBBC
+#EXTINF:-1 tvg-id="BBCThree.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CBBC_%282022%29.svg/400px-CBBC_%282022%29.svg.png", BBC 3/CBBC
+http://line.dino.ws:80/489a5197bb/08e296b692/577271
+#EXTINF:-1 tvg-id="BBCFour.uk" group-title="🚽| BBC" tvg-logo="http://logo.protv.cc/picons-dino/logos/bbc4cbeebies.png", BBC 4/CeeBeeBies UK Feed
+http://line.dino.ws:80/489a5197bb/08e296b692/577269
 #EXTINF:-1 tvg-id="bbcearth" group-title="🚽| BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BBC Earth
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
@@ -1073,6 +1075,8 @@ https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
 http://live-vn.cvacetv.ga:9981/stream/channelid/664608304
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ZDF_HD_Logo.svg/2560px-ZDF_HD_Logo.svg.png",ZDF
 http://live-vn.cvacetv.ga:9981/stream/channelid/1978213418
+#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/1200px-Phoenix-logo-2018.svg.png",Phoenix
+http://s01.wsbof.com/phoenix-hd-de/mpegts?token=675d7b52
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/RTL_DE_Logo_2021_blau_petrol_lila.png",RTL
 http://live-vn.cvacetv.ga:9981/stream/channelid/1164228462
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/800px-RTLZWEI_Logo_2019.svg.png",RTLII
