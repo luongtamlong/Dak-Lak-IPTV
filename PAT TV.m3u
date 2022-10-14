@@ -798,7 +798,7 @@ https://raw.githubusercontent.com/AzeemHadzrie/pesn-somestuff/main/m3u8/dens/rtp
 https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yNi8yMDIyIDI6MjU6NDkgQU0maGFzaF92YWx1ZT1KejFWT0V5aHdwVFp0VmpsRmlMbFdBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDMxYmE5NzUtNjczMS00YmEzLTg5ZTctYjYzODVmNDE5Mjlj/
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 http://210.210.155.37/uq2663/h/h158/index2.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.sat.tv/wp-content/uploads/2016/05/TVR-International.png", TVR International
+#EXTINF:-1 tvg-id="tvri" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.sat.tv/wp-content/uploads/2016/05/TVR-International.png", TVR International
 http://driptvs.com:8080/StevOsnTelegram/Vc9zE2PWHw/28893?checkedby:iptvcat.com
 #EXTINF:-1 group-title="🌏|Quốc Tế" tvg-id="ANC.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/220px-ABS-CBN_News_Channel_%282015%29.svg.png",ANC
 https://ancglobal-abscbn-ono.amagi.tv/playlist360_p.m3u8
@@ -812,7 +812,7 @@ http://user.scalecdn.co:8080/live/Alfred/Alfred/546784.m3u8
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension=ts&play_token=wY4LMv3TMk
 #EXTINF:-1 group-title="🌏|Quốc Tế" tvg-id="france24eng" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/Unnamed_%281%29.jpg/revision/latest/scale-to-width-down/250?cb=20200726112039",NBT World
 https://thainews.prd.go.th/lv/live/ch1_L_L.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
+#EXTINF:-1 tvg-id="tvp-polonia" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
 http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73745?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="1plus1-int" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
 https://1plus1-rakuten.amagi.tv/playlist.m3u8
@@ -906,7 +906,7 @@ http://live-sg.cvacetv.ga/Nick
 http://live-sg.cvacetv.ga/NickToons
 #EXTINF:-1 group-title="👼|Thiếu Nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/1280px-TRT_%C3%87ocuk_logo_%282021%29.svg.png",TRT Cocuk
 http://live-sg.cvacetv.ga/TRT_Cocuk
-#EXTINF:-1 group-title="👼|Thiếu Nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Logo_TVP_ABC.svg/1200px-Logo_TVP_ABC.svg.png",TVP ABC
+#EXTINF:-1 tvg-id="tvp-abc" group-title="👼|Thiếu Nhi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Logo_TVP_ABC.svg/1200px-Logo_TVP_ABC.svg.png",TVP ABC
 http://live-sg.cvacetv.ga/TVP_ABC
 
 #EXTINF:-1 tvg-id="axnhd" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/227.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
@@ -1087,9 +1087,9 @@ http://live-sg.cvacetv.ga/ProSieben
 http://live-sg.cvacetv.ga/Pro7
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tagesschau24HD.svg/1200px-Tagesschau24HD.svg.png",Tagesschau24
 http://live-sg.cvacetv.ga/Tag24
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rik-sat-cy.png", RIK Sat
+#EXTINF:-1 tvg-id="tvr1" group-title="🇪🇺| Châu Âu" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rik-sat-cy.png", RIK Sat
 http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3b/TVR1_2019.svg/revision/latest/scale-to-width-down/250?cb=20210412133345", TVR 1
+#EXTINF:-1 tvg-id="tvr2" group-title="🇪🇺| Châu Âu" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3b/TVR1_2019.svg/revision/latest/scale-to-width-down/250?cb=20210412133345", TVR 1
 http://red.ipfox.org:8080/osama2022/osama2023/48866?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/TVR2_Logo.svg/revision/latest/scale-to-width-down/250?cb=20210411142720", TVR 2
 http://red.ipfox.org:8080/osama2022/osama2023/48865?checkedby:iptvcat.com
@@ -1107,21 +1107,21 @@ http://213.151.233.20:8000/dna-5100-tv-pc.m3u8
 http://platin4k.eu:80/kralkerim/8TKLyJivVEA/115458?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/230px-%C4%8CT24_logo.png", ČT24 HD
 http://platin4k.eu:80/kralkerim/8TKLyJivVEA/115459?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/250px-TVP_HD_logo.svg.png", TVP HD
+#EXTINF:-1 tvg-id="tvp-hd" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/250px-TVP_HD_logo.svg.png", TVP HD
 http://live-sg.cvacetv.ga/TVPHD
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TVP1_2021_box-1.svg/70px-TVP1_2021_box-1.svg.png", TVP1 HD
+#EXTINF:-1 tvg-id="tvp1" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TVP1_2021_box-1.svg/70px-TVP1_2021_box-1.svg.png", TVP1 HD
 http://live-sg.cvacetv.ga/TVP1
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TVP2_2021_box-1.svg/70px-TVP2_2021_box-1.svg.png", TVP2 HD
+#EXTINF:-1 tvg-id="tvp2" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TVP2_2021_box-1.svg/70px-TVP2_2021_box-1.svg.png", TVP2 HD
 http://live-sg.cvacetv.ga/TVP2
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TVP3_logo_2016.png/250px-TVP3_logo_2016.png", TVP3 HD
 http://live-sg.cvacetv.ga/TVP3
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://s2.tvp.pl/images/b/c/3/uid_bc337ce8f24a5496ed394a9ff8b114e21412249630300_width_300_height_150_play_0_pos_0_gs_0.png", TVP Info
+#EXTINF:-1 tvg-id="tvp-info" group-title="🇪🇺| Châu Âu" tvg-logo="https://s2.tvp.pl/images/b/c/3/uid_bc337ce8f24a5496ed394a9ff8b114e21412249630300_width_300_height_150_play_0_pos_0_gs_0.png", TVP Info
 http://live-sg.cvacetv.ga/TVPInfo
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_2021_gradient.svg/640px-Polsat_2021_gradient.svg.png",Polsat
-http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73713?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/1200px-Polsat_2_2021_gradient.svg.png",Polsat 2
-http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73710?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Polsat_News_2021_gradient.svg/800px-Polsat_News_2021_gradient.svg.png",Polsat News
+#EXTINF:-1 tvg-id="polsat" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_2021_gradient.svg/640px-Polsat_2021_gradient.svg.png",Polsat
+http://driptvs.com:8080/StevOsnTelegram/Vc9zE2PWHw/15889?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="polsat2" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/1200px-Polsat_2_2021_gradient.svg.png",Polsat 2
+http://driptvs.com:8080/StevOsnTelegram/Vc9zE2PWHw/15888?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="polsat-news" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Polsat_News_2021_gradient.svg/800px-Polsat_News_2021_gradient.svg.png",Polsat News
 http://live-sg.cvacetv.ga/PolsatNews
 #EXTINF:-1 group-title="🇪🇺| Châu Âu",TV3 HD 
 #EXTGRP:🇪🇺| Châu Âu
