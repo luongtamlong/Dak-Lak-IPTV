@@ -586,7 +586,9 @@ http://red.ipfox.org:8080/osama2022/osama2023/49244?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="cnn" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
 http://red.ipfox.org:8080/osama2022/osama2023/49246?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aljazeera.svg/500px-Aljazeera.svg.png", Al Jazeera English
-https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+http://live-sg.cvacetv.ga/AlJaEng
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aljazeera.svg/500px-Aljazeera.svg.png", Al Jazeera Arabic
+http://live-sg.cvacetv.ga/AlJaArab
 #EXTINF:-1 tvg-id="CNA.sg" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" tvg-rez="1920x1080" group-title="🌏|Quốc Tế",CGTN
@@ -600,9 +602,9 @@ https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/index.m3u8?ern
 #EXTINF:-1 tvg-id="DWEnglish.de" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?ern=0
 #EXTINF:-1 tvg-id="france24-en" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 English
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
+http://live-sg.cvacetv.ga/F24En
 #EXTINF:-1 tvg-id="france24-fr" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 French
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24/live
+http://live-sg.cvacetv.ga/F24Fre
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="🌏|Quốc Tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="rt-doc" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/RTD-TV-logo.png/220px-RTD-TV-logo.png", RT Documentary English
@@ -692,7 +694,7 @@ http://myott.top/stream/MQC4SG6DIS/345.m3u8
 #EXTINF:-1 tvg-id="ictv-ukraine" group-title="🌏|Quốc Tế" tvg-logo="https://iptvxcdn.ml/ictv.png", ICTV Ukraine
 http://myott.top/stream/X254G9W4WC/368.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏|Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/226.png", TRT World
-https://tv-trtworld.live.trt.com.tr/master_720.m3u8
+http://live-sg.cvacetv.ga/TRTWorld
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏|Quốc Tế" tvg-logo="https://photos.live-tv-channels.org/tv-logo/us-un-web-tv-6932.jpg", UN Web TV
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🌏|Quốc Tế" tvg-logo="https://phando004.s.llnwi.net/images/movies/thumbnails/thumb_1649827181.jpg", TV BRICS
@@ -1632,24 +1634,26 @@ https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8
 http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="GugbangTV.kr" tvg-logo="https://i.imgur.com/f1tz5fg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",Gugbang TV (1080p) [Not 24/7]
 http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/640px-KBS_1_logo.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS1 HD
-http://kbss.love.sky-media.tk/?id=1
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/640px-KBS_2_logo.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS2 HD 
-http://kbss.love.sky-media.tk/?id=2
-#EXTINF:-1 tvg-logo="http://www.kbsn.co.kr/images/ch_joy.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Joy HD
-http://kbss.love.sky-media.tk/?id=6
-#EXTINF:-1 tvg-logo="http://www.kbsn.co.kr/images/ch_drama.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Drama HD 
-http://kbss.love.sky-media.tk/?id=5
-#EXTINF:-1 tvg-logo="http://www.kbsn.co.kr/images/ch_w.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Story HD 
-http://kbss.love.sky-media.tk/?id=8
-#EXTINF:-1 tvg-logo="https://news.kbs.co.kr/resources/images/v1/common/logo-txt-24news.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS 24 뉴스 
-http://kbss.love.sky-media.tk/?id=4
-#EXTINF:-1 tvg-logo="http://www.kbsn.co.kr/images/ch_kids.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên", KBS Kids HD
-http://kbss.love.sky-media.tk/?id=9
-#EXTINF:-1 tvg-logo="http://www.kbsn.co.kr/images/ch_life.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên", KBS Life HD 
-http://kbss.love.sky-media.tk/?id=7
+#EXTINF:-1 tvg-id="KBS1TV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS1 (720p)
+http://ye23.vip/z7z8/2021/kbs2020.php?id=1
+#EXTINF:-1 tvg-id="KBS2TV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS2 (720p) [Not 24/7]
+http://ye23.vip/z7z8/2021/kbs2020.php?id=2
+#EXTINF:-1 tvg-id="KBSDrama.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/512px-KBS_DRAMA.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Drama (480p)
+http://ye23.vip/z7z8/2021/kbs2020.php?id=5
+#EXTINF:-1 tvg-id="KBSJoy.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/512px-KBS_JOY.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Joy (480p)
+http://ye23.vip/z7z8/2021/kbs2020.php?id=6
+#EXTINF:-1 tvg-id="KBSKids.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/512px-KBS_kids.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Kids (480p)
+http://ye23.vip/z7z8/2021/kbs2020.php?id=9
+#EXTINF:-1 tvg-id="KBSKorea.kr" tvg-logo="https://i.imgur.com/Dy1xwEd.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Korea (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/kbsworldtv/live
+#EXTINF:-1 tvg-id="KBSLife.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/512px-KBS_Life.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Life (480p)
+http://ye23.vip/z7z8/2021/kbs2020.php?id=7
 #EXTINF:-1 tvg-id="KBSLiveCamDokDo.kr" tvg-logo="https://i.imgur.com/b7uMB9T.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS LiveCam DokDo (540p)
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="KBSNewsD.kr" tvg-logo="https://i.imgur.com/4qKgvHN.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS News D (720p)
+http://ye23.vip/z7z8/2021/kbs2020.php?id=4
+#EXTINF:-1 tvg-id="KBSStory.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/512px-KBS_Story.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KBS Story (480p)
+http://ye23.vip/z7z8/2021/kbs2020.php?id=8
 #EXTINF:-1 tvg-id="KCTV.kr" tvg-logo="https://i.imgur.com/IHkZpaI.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KCTV ê´‘ì£¼ CH05 (720p) [Not 24/7]
 http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
 #EXTINF:-1 tvg-id="KMTV.kr" tvg-logo="https://i.imgur.com/qSrdLWy.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KMTV
@@ -1719,9 +1723,7 @@ https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVWorkNet.kr" tvg-logo="https://i.imgur.com/9zYxRZW.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",TVWorkNet (480p)
 http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tving.com/upload/cms/caic/CAIC1600/C00551.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",tVN HD 
-http://gg.gg/tVN720p
-#EXTINF:-1 tvg-logo="https://image.tving.com/upload/cms/caic/CAIC1600/C01141.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",tvN SHOW HD 
-http://gg.gg/tvNSHOW720p
+http://mytv.dothome.co.kr/ch/catv/221.php
 #EXTINF:-1 tvg-id="YTN.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/512px-YTN_logo_2014.svg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",YTN (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UChlgI3UHCOnwUGzWzbJ3H5w/live
 #EXTINF:-1 tvg-id="YTNDMB.kr" tvg-logo="https://i.imgur.com/y8hgAUg.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",YTN DMB
