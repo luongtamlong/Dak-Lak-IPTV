@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz,https://raw.githubusercontent.com/iptv-org/epg/master/sites/beinsports.com/beinsports.com_qa-en.channels.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://epg.hkanime.com.hk,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz"
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz,http://epg.hklive.tv,https://raw.githubusercontent.com/iptv-org/epg/master/sites/beinsports.com/beinsports.com_qa-en.channels.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://epg.hkanime.com.hk,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz"
 
 #EXTINF:-1 group-title="📺|VTV" tvg-id="vtv1hd" tvg-logo="https://i.ibb.co/M9v4ybW/VTV1.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
@@ -114,36 +114,6 @@ https://livevlive.vtvcab.vn/hls/OS_ONGOLFTA/sc-gaFEAA/m30_index.m3u8
 https://livevlive.vtvcab.vn/hls/OS_ONVFFTV/sc-gaFEAA/m30_index.m3u8
 #EXTINF:-1 tvg-id="" group-title="📺| VTVcab" tvg-logo="https://imgonsport.vtvcab.vn/image-upload/720x405/19717a3c-6ae7-412d-8dc8-9a5b50a4f4dd.jpg", ON Volleyball
 https://livevlive.vtvcab.vn/hls/OS_ONVOLLEYBALL/sc-gaFEAA/m30_index.m3u8
-
-#EXTINF:-1 tvg-id="Kcinehd" group-title="🍭|K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+CINE HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=2a6dc5b7e9c24a7396fd6a8926e01b20&key=0048701f074e501648b6758eb254e8bd
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/index.mpd
-
-#EXTINF:-1 tvg-id="Klifehd" group-title="🍭|K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+LIFE HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7938d1baaf98461a9fbccfc173a3a96d&key=071e9075c543eb6b2fe18260fca282b0
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/index.mpd
-
-#EXTINF:-1 tvg-id="Ksport1hd" group-title="🍭|K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+SPORT1 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=906e9041a9a147bd82acfcf8ed79e223&key=4fc131916459580a4b74f77ff79c6911
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="Ksport2hd" group-title="🍭|K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+SPORT2 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=55f943b35444428090b5578789ebb813&key=a5219b6d6b8d0914ec6bf27cffd3bbaa
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="kkidshd" group-title="🍭|K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/89.png", K+ KIDS HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d36f3ca0ceb44a0881a34876a7bd2e68&key=94b553e8ddc197ac29e87a65559703cb
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 #-*--VTC-*--#
 
@@ -1436,30 +1406,36 @@ https://www.nettvpro.live/hls/itouch.php?id=1197
 #EXTINF:-1 tvg-id="60" tvg-logo="https://www.easyatm.com.tw/img/e/837/nBnauM3X2IjNwgTO2MzN2MTM1QTMwcTOykzMyQTNwAzMwIzLzczL2YzLt92YucmbvRWdo5Cd0FmLwE2LvoDc0RHa.jpg" group-title="🇨🇳| Kênh Trung Quốc",Quảng Đông Châu Giang
 http://wvwvw.qwl1965.top:8890/广东谷豆/gudousy.php?id=gdzhujiangHD_7500&/PLTV/hls.smil.m3u8
 
-#EXTINF:-1 tvg-id="9999" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/RTHK_TV_31_2020.svg/revision/latest/scale-to-width-down/260?cb=20200511232851" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK TV 31 
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=16
-#EXTINF:-1 tvg-id="9999" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest/scale-to-width-down/260?cb=20200511233323" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK TV 32 
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=17
-#EXTINF:-1 tvg-id="7117" tvg-logo="http://nettvpro.live/uploads/18/1-1Q21521053R62.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Hong Kong Intl Business Channel
-http://uc6.i-cable.com/live_freedirect/opentvhd002_h.live/playlist.m3u8
-#EXTINF:-1 tvg-id="7118" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/0/06/HOY_TV_LOGO.jpg/220px-HOY_TV_LOGO.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",HOY TV
-http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
-#EXTINF:-1 tvg-id="126" tvg-logo="https://poster.starhubgo.com/Linear_channels2/838_1920x1080_HTV.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=0
-#EXTINF:-1 tvg-id="416" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB J2
-http://43.139.33.114/汢妭癙/tbs.php?tid=gt&id=9
-#EXTINF:-1 tvg-id="130" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News (HK Edition)
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=7
-#EXTINF:-1 tvg-id="127" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl (ENGLISH)
-http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://50.7.220.74:8278/pearl_twn/playlist.m3u8
-#EXTINF:-1 tvg-id="127" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl (CANTONESE)
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=10
-#EXTINF:-1 tvg-id="133" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/tvbfinanceinformationchannel.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan", TVB Finance Sport Information Channel (HK Edition)
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=8
-#EXTINF:-1 tvg-id="ViuTVsix.hk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/800px-ViuTVsix-logo.svg.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTV6 (One Audio)
-http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://50.7.220.74:8278/viusix_twn/playlist.m3u8
-#EXTINF:-1 tvg-id="ViuTV.hk" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTV (One Audio)
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=6
+#EXTINF:-1 tvg-id="31" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/RTHK_TV_31_2020.svg/revision/latest/scale-to-width-down/260?cb=20200511232851" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK TV 31 
+https://hkanime:hkanime@cdn.hklive.tv/xxxx2/31/index.m3u8
+#EXTINF:-1 tvg-id="32" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest/scale-to-width-down/260?cb=20200511233323" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK TV 32 
+https://hkanime:hkanime@cdn.hklive.tv/xxxx2/32/index.m3u8
+#EXTINF:-1 tvg-id="33" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest/scale-to-width-down/260?cb=20200511233323" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK TV 33 (CCTV-1)
+https://hkanime:hkanime@cdn.hklive.tv/xxxx2/33/index.m3u8
+#EXTINF:-1 tvg-id="34" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest/scale-to-width-down/260?cb=20200511233323" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK TV 34 (CGTN DOC)
+https://hkanime:hkanime@cdn.hklive.tv/xxxx2/34/index.m3u8
+#EXTINF:-1 tvg-id="76" tvg-logo="http://nettvpro.live/uploads/18/1-1Q21521053R62.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Hong Kong Intl Business Channel
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/76/index.m3u8
+#EXTINF:-1 tvg-id="77" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/0/06/HOY_TV_LOGO.jpg/220px-HOY_TV_LOGO.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",HOY TV
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/77/index.m3u8
+#EXTINF:-1 tvg-id="81" tvg-logo="https://poster.starhubgo.com/Linear_channels2/838_1920x1080_HTV.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/81/index.m3u8
+#EXTINF:-1 tvg-id="81" tvg-logo="https://poster.starhubgo.com/Linear_channels2/838_1920x1080_HTV.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade (ENGSUB)
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/81b/index.m3u8
+#EXTINF:-1 tvg-id="82" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB J2
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/82/index.m3u8
+#EXTINF:-1 tvg-id="83" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News (HK Edition)
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/83/index.m3u8
+#EXTINF:-1 tvg-id="84" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl (ENGLISH)
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/84/index.m3u8
+#EXTINF:-1 tvg-id="84" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl (CANTONESE)
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/84b/index.m3u8
+#EXTINF:-1 tvg-id="85" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/tvbfinanceinformationchannel.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan", TVB Finance Sport Information Channel (HK Edition)
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/85/index.m3u8
+#EXTINF:-1 tvg-id="96" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/800px-ViuTVsix-logo.svg.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTV6 (One Audio)
+http://hkanime:hkanime@cdn.hklive.tv/xxxx/96/index.m3u8
+#EXTINF:-1 tvg-id="99" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTV (One Audio)
+http://hkanime:hkanime@cdn.hklive.tv/xxxx2/99/index.m3u8
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" tvg-rez="1920x1080" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Chinese Channel
 http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227222/index.m3u8
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" tvg-rez="1920x1080" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Infonews Channel
