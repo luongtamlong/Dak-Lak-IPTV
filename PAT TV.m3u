@@ -536,11 +536,11 @@ https://liveanevia.mncnow.id/live/eds/HBOHits/sa_dash_vmx/HBOHits.mpd
 
 #EXTINF:-1 tvg-id="BBCOne.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png", BBC One
 #EXTVLCOPT:http-user-agent=VThanhTivi
-http://live-sg.cvacetv.ga:8080/stream/channelid/85918302
+http://live-sg.cvacetv.ga/BBC1
 #EXTINF:-1 tvg-id="BBCTwo.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png", BBC Two
-http://live-sg.cvacetv.ga:8080/stream/channelid/483394653
+http://live-sg.cvacetv.ga/BBC2
 #EXTINF:-1 tvg-id="BBCRedButton1.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BBC_RB%2B_Primary_ONE_COLOUR2.svg/1280px-BBC_RB%2B_Primary_ONE_COLOUR2.svg.png", BBC Red Button
-http://live-sg.cvacetv.ga:8080/stream/channelid/600364533
+http://live-sg.cvacetv.ga/BBCRB1
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/150px-BBC_News_2022_%28Alt%29.svg.png", BBC News
 http://live-sg.cvacetv.ga/bbcnews
 #EXTINF:-1 tvg-id="BBCParliament.uk" group-title="🚽| BBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/1200px-BBC_Parliament_Logo.svg.png", BBC Parliament
@@ -872,7 +872,7 @@ http://206.221.176.47:64002
 http://206.221.176.47:64020
 
 #EXTINF:-1 tvg-id="ITVLondon.uk" group-title="🇪🇺| Châu Âu" tvg-logo="https://tvadvertising.co.uk/wp-content/uploads/2020/04/TV-Advertising-ITV-Logo-1.png", ITV
-http://live-sg.cvacetv.ga:8080/stream/channelid/125030560
+http://live-sg.cvacetv.ga/ITV
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
 http://live-sg.cvacetv.ga/channel4
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Channel_5_Logo_2016_SVG.svg/1200px-Channel_5_Logo_2016_SVG.svg.png",Channel 5
@@ -911,8 +911,6 @@ http://live-sg.cvacetv.ga/CNews
 https://rtvelivestream.akamaized.net/segments/la1/la1_main_dvr_720.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/150px-Logo_TVE-2.svg.png", TVE La Dos
 https://rtvelivestream.akamaized.net/segments/la2/la2_main_dvr.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antena_3_2017.svg/150px-Antena_3_2017.svg.png", Antena 3
-http://mateus.sportiumvip.xyz:8080/play/1v00RndvGvyonDUZqRY7EAm5tMOVeqeTizdNKWcXCiEd3Epib-XmDFVkTjFIiO4e
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/450px-Logo_TVE-24h.svg.png", TVE 24 Horas
 https://rtvelivestream.akamaized.net/segments/24h/24h_main_dvr.m3u8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
@@ -952,9 +950,9 @@ http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227238/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logo_RTL_Luxembourg.png/220px-Logo_RTL_Luxembourg.png", RTL Tele
 https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Das_Erste-Logo_klein.svg/1200px-Das_Erste-Logo_klein.svg.png",Das Erste
-http://live-vn.cvacetv.ga:9981/stream/channelid/6585554
+http://live-vn.cvacetv.ga:8880/stream/channelid/6585554
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ZDF_HD_Logo.svg/2560px-ZDF_HD_Logo.svg.png",ZDF
-http://live-vn.cvacetv.ga:9981/stream/channelid/1474320966
+http://live-vn.cvacetv.ga:8880/stream/channelid/1474320966
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/RTL_DE_Logo_2021_blau_petrol_lila.png",RTL
 http://live-vn.cvacetv.ga:9981/stream/channelid/1477644081
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/800px-RTLZWEI_Logo_2019.svg.png",RTLII
@@ -1471,17 +1469,21 @@ http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVBS NEWS
 http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/tvbs_n/playlist.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",FORMOSA TV
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=41
+http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/ftvhd_taiwan/playlist.m3u8
 #EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TTV
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=40
+http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/ttv_taiwan/playlist.m3u8
 #EXTINF:-1 tvg-id="6028" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/22/CTV_text.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTV
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=39
+http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/zhongshihd_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTS
-http://wxwxw.qwl1965.top:8890/汢妭癙/tbs.php?tid=gt&id=42
+http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/ctshd_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="6054" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/01/CTI_Official_Logo.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTI
 http://23.237.10.66:16372
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu8U-xT37GTF2pYeLleIgY7dP4NJKcIkzz2oz6Gsig=s900-c-k-c0x00ffffff-no-rj" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTI News
-http://50.7.220.74:8278/ctinews/playlist.m3u8?tid=MC3C3915550439155504&ct=19193&tsum=a8168b7967dda9bfebdd5b1403dc19b0
+http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/ctinews/playlist.m3u8
+#EXTINF:-1 tvg-id="6060" tvg-logo="https://www.nettvpro.live/uploads/18/1-1PZ41F151534.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",EBC
+http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/ettvzhonghe/playlist.m3u8
+#EXTINF:-1 tvg-id="6060" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",EBC News
+http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://198.16.100.90:8278/ettvnews/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/a/ac/Titv_logo.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ABORIGINAL TV
 http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 
