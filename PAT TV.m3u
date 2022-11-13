@@ -895,6 +895,10 @@ http://live3.cvacetv.ga/C8
 http://live3.cvacetv.ga/W9
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Canal_News_logo.svg/1920px-Canal_News_logo.svg.png",C News
 http://live3.cvacetv.ga/CNews
+#EXTINF:-1 tvg-id="" tvg-name="UK| RTE ONE HD" tvg-logo="http://logo.protv.cc/picons/logos/rteone.png" group-title="🇪🇺| Châu Âu",RTE 1 HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1014308
+#EXTINF:-1 tvg-id="" tvg-name="UK| RTE TWO HD" tvg-logo="http://logo.protv.cc/picons/logos/rtetwo.png" group-title="🇪🇺| Châu Âu",RTE 2 HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1014309
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/400px-Logo_TVE-1.svg.png", TVE La Uno
 http://appfactory.group:8080/1d6yJjzClb/szTHbHoovD/25933
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/150px-Logo_TVE-2.svg.png", TVE La Dos
@@ -1748,16 +1752,16 @@ http://50.7.220.74:8278/Channel5HD/playlist.m3u8?tid=MEBE3941597439415974&ct=192
 http://50.7.220.74:8278/Channel8HD/playlist.m3u8?tid=MCFC8998558189985581&ct=19254&tsum=a739b10e72ab016a8ec0a02af3d134c6
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-id="ChannelU.sg" tvg-logo="https://static.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%272261554%27&EntityType=%27Item%27&EntityId=%2797129%27&Width=150&Height=150&ImageUrl=%272261554.png%27&device=%27web_browser%27&subscriptions=%27Anonymous%27&segmentationTags=%27all%27&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Ch U
 http://50.7.220.74:8278/ChannelU/playlist.m3u8?tid=MD9D1087746110877461&ct=19254&tsum=d1ab4d7db7f152794b54e196fd732330
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZPa2Fva2hnTVVGX2ktSlR5VzBUeEFOSEVkc3IxMlJYQ2c1UnMzSnJTbTBTWU5TTzNIMTYyWTFrY3dLRmZKWjgyUC15cEM5Z1dtZmNCZzBObFNSODgtRVQ0cEtyRmMyV29jTGlxWVExcXJyRzUtUC13UXVfWHF4YThZMVRoWGY4UzkwcFpDcnJUU2NvQ2daUDNWdTA2MUNQRHNMNWVBb1NuaHhLeXA4OEpfS1kxYXBiQWhsNmZmaEp6SnZZaVl0cDJTS0FaSW5mZjJoVUNSWS00bDNGdVd6cFNCb2dkR2ZjVlBmQzhvdjVfRTRmWlBUVVFDSzRZUlR6a0VRbjA0WDllV3ZGb2Ezc1Y4ZFo0RHpvR3hNSFNRdkpuM2wxV1p6TmVuU3R5SXFlVmJ2MElOSktqQzkydC1KdkFWbERmMjBLNGVKQU5hQ2hzbWhJZXRBVUZRZ2FYN1k9JmNvbnRleHRUeXBlPW5vbmUmaWQ9NTc1NDA2NiIsImFjY291bnRfaWQiOjIwODIzMTEsImNvbnRlbnRfaWQiOiJmdGFfc3VyaWFfMjAyMl9kYXNoX3R2X2RybSIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVFEzZk9rYW9raGdNVUZfaS1KVHlXMFR4QU5IRWRzcjEyUlhDZzVSczNKclNtMFNZTlNPM0gxNjJZMWtjd0tGZkpaODJQLXlwQzlnV21mY0JnME5sU1I4OC1FVDRwS3JGYzJXb2NMaXFZUTFxcnJHNS1QLXdRdV9YcXhhOFkxVGhYZjhTOTBwWkNyclRTY29DZ1pQM1Z1MDYxQ1BEc0w1ZUFvU25oeEt5cDg4Sl9LWTFhcGJBaGw2ZmZoSnpKdllpWXRwMlNLQVpJbmZmMmhVQ1JZLTRsM0Z1V3pwU0JvZ2RHZmNWUGZDOG92NV9FNGZaUFRVUUNLNFlSVHprRVFuMDRYOWVXdkZvYTNzVjhkWjREem9HeE1IU1F2Sm4zbDFXWnpOZW5TdHlJcWVWYnYwSU5KS2pDOTJ0LUp2QVZsRGYyMEs0ZUpBTmFDaHNtaElldEFVRlFnYVg3WT0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxNDd9&signature=Nh85jITMDePX65QQZ%2bY411RLYTA%3d
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-id="Suria.sg" tvg-logo="https://static.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%27956267%27&EntityType=%27Item%27&EntityId=%2797084%27&Width=150&Height=150&ImageUrl=%27956267.png%27&device=%27web_browser%27&subscriptions=%27Registered%27&segmentationTags=%27all%27&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Suria
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/237652/assetType/media/assetFileId/5754066/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZFT2ItZ0U4RVlHdHBVWXJYN3pmVGlNb0FSZXpMU2lRYVpNdlVrRVBWeWV2ZVFLREJ2Ni1lMkZzbjJjcTFjUFdnVVpES0kzMWhWZUNDWFE0WlBIcmpIdm4xajAtQTQzeTJvVjFFTzUteXRpSkI4Z2RrNlZyaXo0d0ZKOFBldWtyaHU4LWdmSUt0MDlfVDFSbnZMcTZmS1hQeEI5bkhXYTBjVnB6QktyeWlxQ3BIcGJPeGJYdEQ2dnd0Y09ObjRpX3c2SnhJQTFNZzBSS2VMdUV4elpTdmRLT3JNTGhIc3kxSFBOMnNUMEVTYV9CQ1Eya3MyUkxTY1hHZHVaRWd4bkFpclY2bmZRczIxZ1NNR1pkM09WcE5xQ0NtVGNHa2NCMkpoWTVySUhPd2F4OCZjb250ZXh0VHlwZT1ub25lJmlkPTEzMjI5OTkwIiwiYWNjb3VudF9pZCI6MjA4MjMxMSwiY29udGVudF9pZCI6ImZ0YV92YXNhbnRoYW1fMjAyMl9kYXNoX3dlYl9kcm1fMSIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVFEzZkVPYi1nRThFWUd0cFVZclg3emZUaU1vQVJlekxTaVFhWk12VWtFUFZ5ZXZlUUtEQnY2LWUyRnNuMmNxMWNQV2dVWkRLSTMxaFZlQ0NYUTRaUEhyakh2bjFqMC1BNDN5Mm9WMUVPNS15dGlKQjhnZGs2VnJpejR3Rko4UGV1a3JodTgtZ2ZJS3QwOV9UMVJudkxxNmZLWFB4QjluSFdhMGNWcHpCS3J5aXFDcEhwYk94Ylh0RDZ2d3RjT05uNGlfdzZKeElBMU1nMFJLZUx1RXh6WlN2ZEtPck1MaEhzeTFIUE4yc1QwRVNhX0JDUTJrczJSTFNjWEdkdVpFZ3huQWlyVjZuZlFzMjFnU01HWmQzT1ZwTnFDQ21UY0drY0IySmhZNXJJSE93YXg4IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTQ3fQ%3d%3d&signature=WWS78iq7CYS090HvEgu8lCaTwCk%3d
+http://line.premiumpowers.net:80/Pittbull/pittbull/941575
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-chno="Vasantham.sg" tvg-logo="https://static.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%27956271%27&EntityType=%27Item%27&EntityId=%2797096%27&Width=150&Height=150&ImageUrl=%27956271.png%27&device=%27web_browser%27&subscriptions=%27Registered%27&segmentationTags=%27all%27&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Vasantham
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/237653/assetType/media/assetFileId/13229990/contextType/PLAYBACK/isAltUrl/False/a.mpd
+http://line.premiumpowers.net:80/Pittbull/pittbull/941588
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-id="CNA.sg" tvg-logo="https://static.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%27956283%27&EntityType=%27Item%27&EntityId=%2797072%27&Width=150&Height=150&ImageUrl=%27956283.png%27&device=%27web_browser%27&subscriptions=%27Registered%27&segmentationTags=%27all%27&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",CNA
 http://50.7.220.74:8278/cna/playlist.m3u8?tid=MFAF1272681512726815&ct=19225&tsum=4d6a781648283b1bb018bc5c098432d0
+#EXTINF:-1 tvg-id="HubVVDrama.sg" tvg-name="SG| HUB VVDRAMA HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-V.jpeg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",HUB VVDRAMA HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941651
+#EXTINF:-1 tvg-id="HubECity.sg" tvg-name="SG| HUB E CITY HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-V.jpeg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",HUB E CITY HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941650
 
 #EXTINF:0 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/TV_Kampuchea.jpg/revision/latest?cb=20170317174601", TVK
 https://livefta.malimarcdn.com/tvkedge/tvkhd.stream/chunklist.m3u8
@@ -1899,10 +1903,20 @@ https://s.id/liveon04
 #EXTINF:0 group-title="ON EVENT" tvg-logo="https://i.ibb.co/X85QMGt/onsportstv-PATTVTV.png",ON Sports TV 05
 https://s.id/liveon05
 
-#EXTINF:-1 group-title="THỂ THAO" tvg-logo="https://www.useetv.com/assets/images/channel/logo_bein1_small1.png?v=2.0.0.15",beIN Sports 1
-http://51.79.82.208:16064
-#EXTINF:-1 group-title="THỂ THAO" tvg-logo="https://www.useetv.com/assets/images/channel/logo_bein3_small1.png?v=2.0.0.15",beIN Sports 3
-http://51.79.82.208:16065
+#EXTINF:-1 tvg-id="HubSports1.sg" tvg-name="SG| HUB SPORTS 1 HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-SPORTS-1.png" group-title="THỂ THAO",HUB SPORTS 1 HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941573
+#EXTINF:-1 tvg-id="HubSports2.sg" tvg-name="SG| HUB SPORTS 2 HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-SPORTS-2.png" group-title="THỂ THAO",HUB SPORTS 2 HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941572
+#EXTINF:-1 tvg-id="HubSports3.sg" tvg-name="SG| HUB SPORTS 3 HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-SPORTS-3.png" group-title="THỂ THAO",HUB SPORTS 3 HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941571
+#EXTINF:-1 tvg-id="HubSports4.sg" tvg-name="SG| PREMIER SPORTS HD" tvg-logo="http://logo.protv.cc/picons/logos/premiersports.png" group-title="THỂ THAO",PREMIER SPORTS HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941570
+#EXTINF:-1 tvg-id="" tvg-name="SG| BEIN SPORTS HD" tvg-logo="http://logo.protv.cc/picons/logos/BEIN--SPORTS-SNGAPOR.png" group-title="THỂ THAO",BEIN SPORTS HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941569
+#EXTINF:-1 tvg-id="" tvg-name="SG| BEIN SPORTS 2 HD" tvg-logo="http://logo.protv.cc/picons/logos/BEIN-SPORT-2-NP.png" group-title="THỂ THAO",BEIN SPORTS 2 HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941568
+#EXTINF:-1 tvg-id="" tvg-name="SG| BEIN SPORTS 3 HD" tvg-logo="http://logo.protv.cc/picons/logos/BEIN-SPORT-3-NP.jpg" group-title="THỂ THAO",BEIN SPORTS 3 HD
+http://line.premiumpowers.net:80/Pittbull/pittbull/941567
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
 #EXTINF:-1 group-title="THỂ THAO" tvg-logo="https://www.useetv.com/pimages/logo_spotv_big.png?v=1",SPOTV
@@ -1941,6 +1955,28 @@ http://50.7.220.74:8278/Assp3/playlist.m3u8?tid=MC0C7920827879208278&ct=19225&ts
 http://50.7.220.74:8278/Assp4/playlist.m3u8?tid=MC3C8659251086592510&ct=19249&tsum=94b1b760d8384a41d62be6113bfc36a5
 #EXTINF: -1 tvg-id="AstroSupersport5" group-title="THỂ THAO" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroSuperSport5.png",Astro SuperSport 5 HD
 http://jeffrey.qwl1965.top/電信聅嗵/LeoTV.php?playurl=http://50.7.220.74:8278/go_aassp5/playlist.m3u8
+#EXTINF:-1 tvg-id="HubPremier1.sg" tvg-name="HUB PREMIER 1 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER1.png" group-title="THỂ THAO",HUB PREMIER 1 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032529
+#EXTINF:-1 tvg-id="HubPremier2.sg" tvg-name="HUB PREMIER 2 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER2.png" group-title="THỂ THAO",HUB PREMIER 2 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032528
+#EXTINF:-1 tvg-id="HubPremier3.sg" tvg-name="HUB PREMIER 3 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER3.png" group-title="THỂ THAO",HUB PREMIER 3 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032527
+#EXTINF:-1 tvg-id="HubPremier4.sg" tvg-name="HUB PREMIER 4 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER4.png" group-title="THỂ THAO",HUB PREMIER 4 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032526
+#EXTINF:-1 tvg-id="HubPremier5.sg" tvg-name="HUB PREMIER 5 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER.png" group-title="THỂ THAO",HUB PREMIER 5 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032525
+#EXTINF:-1 tvg-id="HubPremier6.sg" tvg-name="HUB PREMIER 6 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER.png" group-title="THỂ THAO",HUB PREMIER 6 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032524
+#EXTINF:-1 tvg-id="HubPremier7.sg" tvg-name="HUB PREMIER 7 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER.png" group-title="THỂ THAO",HUB PREMIER 7 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032523
+#EXTINF:-1 tvg-id="HubPremier8.sg" tvg-name="HUB PREMIER 8 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER.png" group-title="THỂ THAO",HUB PREMIER 8 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032522
+#EXTINF:-1 tvg-id="HubPremier9.sg" tvg-name="HUB PREMIER 9 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER.png" group-title="THỂ THAO",HUB PREMIER 9 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032521
+#EXTINF:-1 tvg-id="HubPremier10.sg" tvg-name="HUB PREMIER 10 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER.png" group-title="THỂ THAO",HUB PREMIER 10 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032520
+#EXTINF:-1 tvg-id="HubPremier11.sg" tvg-name="HUB PREMIER 11 FHD" tvg-logo="http://logo.protv.cc/picons/logos/UK/HUB-PREMIER.png" group-title="THỂ THAO",HUB PREMIER 11 FHD
+http://line.premiumpowers.net:80/Pittbull/pittbull/1032519
 
 #EXTINF:-1 tvg-id="beINSportsEnglish1.qa" tvg-logo="https://github.com/dlqvnt/dlqvnt/raw/main/logo/bein-eng1.png" group-title="THỂ THAO",beIN SPORTS ENGLISH 1
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1957,7 +1993,7 @@ http://appfactory.group:8080/1d6yJjzClb/szTHbHoovD/329
 #EXTINF:-1 tvg-id="beINSportsEnglish3.qa" tvg-logo="https://github.com/dlqvnt/dlqvnt/raw/main/logo/bein-eng3.png" group-title="THỂ THAO",beIN SPORTS ENGLISH 3
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://webudi.openhd.lol/lb/premium46/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+http://line.premiumpowers.net:80/Pittbull/pittbull/483919
 
 #EXTINF:-1 tvg-id="beINSportsPremium1.qa" tvg-logo="https://github.com/dlqvnt/dlqvnt/raw/main/logo/bein-1-pr.png" group-title="THỂ THAO",beIN Sports 1 Premium
 #KODIPROP:inputstream=inputstream.adaptive
