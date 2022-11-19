@@ -32,6 +32,15 @@ https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda1/vtvcantho_vhls.smil/chunklist_b5000000.m3u8
 
+#EXTINF:-1 tvg-id="vtv2hd" group-title="FIFA WORLD CUP 2022" tvg-logo="https://cdn.hqth.me/logo/thumbs/2.png", VTV2 World Cup
+http://vn2.cvacetv.ga/vtv2
+#EXTINF:-1 tvg-id="vtv3hd" group-title="FIFA WORLD CUP 2022" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3 World Cup
+http://vn2.cvacetv.ga/vtv3
+#EXTINF:-1 tvg-id="vtv5hd" group-title="FIFA WORLD CUP 2022" tvg-logo="https://cdn.hqth.me/logo/thumbs/5.png", VTV5 World Cup
+http://vn2.cvacetv.ga/vtv5
+#EXTINF:-1 tvg-id="vtv6hd" group-title="FIFA WORLD CUP 2022" tvg-logo="https://cdn.hqth.me/logo/thumbs/8.png", VTV Cần Thơ World Cup
+http://live.vthanhtivi.pw:8080/vtvct
+
 #-*--VTVCAB-*--#
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/12.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vie-giai-tri-hd/${start}/${offset}",  VTVcab 1 - Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -1888,6 +1897,18 @@ https://s.id/liveon02
 https://s.id/liveon04
 #EXTINF:0 group-title="ON EVENT" tvg-logo="https://i.ibb.co/X85QMGt/onsportstv-PATTVTV.png",ON Sports TV 05
 https://s.id/liveon05
+
+#EXTINF:-1 group-title="CHIVY LIVE" tvg-logo="https://cdn.hqth.me/cvmedia.png",CVmedia Live 4K
+http://vn1.cvacetv.ga/4KUHD
+#EXTINF:-1 group-title="CHIVY LIVE" tvg-logo="https://cdn.hqth.me/cvmedia.png",CVmedia Live 1
+http://vn1.cvacetv.ga/live1
+#EXTINF:-1 group-title="CHIVY LIVE" tvg-logo="https://cdn.hqth.me/cvmedia.png",CVmedia Live 2
+http://vn1.cvacetv.ga/live2
+
+#EXTINF:-1 group-title="FIFA WORLD CUP 2022" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/wc1.png",CVmedia Live World Cup 1
+http://vn2.cvacetv.ga/WC1
+#EXTINF:-1 group-title="FIFA WORLD CUP 2022" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/wc2.png",CVmedia Live World Cup 2
+http://vn2.cvacetv.ga/WC2
 
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/239.png", VOV1
 https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8
