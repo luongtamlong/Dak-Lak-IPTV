@@ -673,7 +673,7 @@ http://line.premiumpowers.net:80/Pittbull/pittbull/223025
 #EXTINF:-1 group-title="🌏|Quốc Tế" tvg-id="france24eng" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/Unnamed_%281%29.jpg/revision/latest/scale-to-width-down/250?cb=20200726112039",NBT World
 https://thainews.prd.go.th/lv/live/ch1_L_L.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="tvp-polonia" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
-http://platin4k.eu:80/kralkerim/8TKLyJivVEA/73745?checkedby:iptvcat.com
+http://5.254.16.186/TVPPolonia/index.m3u8
 #EXTINF:-1 tvg-id="1plus1-int" group-title="🌏|Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
 https://1plus1-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="inter-plus-ua" group-title="🌏|Quốc Tế" tvg-logo="https://iptvxcdn.ml/inter-plus-ua.png", INTER+
@@ -717,11 +717,11 @@ https://vips-livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3
 #EXTINF:-1 group-title="🔭|Khám Phá" tvg-logo="https://streamdiag.com/wp-content/uploads/Vice-TV.jpg",VICE
 https://d2do1g43aq7264.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="🔭|Khám Phá" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ab/Viasat_Explore.png",Viasat Explorer
-http://live-sg.cvacetv.ga/ViaEx
+http://sg.cvacetv.ga/ViaEx
 #EXTINF:-1 group-title="🔭|Khám Phá" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/Viasat_Nature-2014.png",Viasat Nature
-http://live-sg.cvacetv.ga/ViaNature
+http://sg.cvacetv.ga/ViaNature
 #EXTINF:-1 group-title="🔭|Khám Phá" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/Viasat_History-2014.png",Viasat History
-http://live-sg.cvacetv.ga/ViaHistory
+http://sg.cvacetv.ga/ViaHistory
 #EXTINF:-1 tvg-id="SmithsonianChannelAsia.us" group-title="🔭|Khám Phá" tvg-logo="https://play-lh.googleusercontent.com/-ivtIBkDDKUZLyi1hDauKgKFuD7tgbVwmByCYHS3IjUTbeWe4c4_w6y2pyL2JvigU9s", Smithsonian Channel HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://smithsonianaus-samsungau.amagi.tv/playlist1080p.m3u8?cc
@@ -849,33 +849,33 @@ http://206.221.176.47:64002
 #EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-logo="https://www.nettvpro.live/uploads/18/1-1P50923500OB.jpg" group-title="🎬| Giải trí", TVB Xing He
 http://206.221.176.47:64020
 
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="BBCOneLondon.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
-http://vn2.cvacetv.ga/BBC1
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="BBCTwoEngland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png",BBC Two
-http://vn2.cvacetv.ga/BBC2
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="ITV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1200px-ITV_logo_2013.svg.png",ITV
-http://vn2.cvacetv.ga/ITV
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="Channel4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="BBCOne.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
+http://vn2.cvacetv.ga/bbc1/mpegts
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="BBCTwo.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png",BBC Two
+http://vn2.cvacetv.ga/bbc2/mpegts
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="ITV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1200px-ITV_logo_2013.svg.png",ITV
+http://vn2.cvacetv.ga/itv/mpegts
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="Channel4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
 http://sg.cvacetv.ga/channel4
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="Channel5.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Channel_5_Logo_2016_SVG.svg/1200px-Channel_5_Logo_2016_SVG.svg.png",Channel 5
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="Channel5.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Channel_5_Logo_2016_SVG.svg/1200px-Channel_5_Logo_2016_SVG.svg.png",Channel 5
 http://sg.cvacetv.ga/channel5
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="CBBC.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CBBC_%282022%29.svg/1200px-CBBC_%282022%29.svg.png",CBBC
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="CBBC.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CBBC_%282022%29.svg/1200px-CBBC_%282022%29.svg.png",CBBC
 http://sg.cvacetv.ga/CBBC
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1200px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png",BBC News
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1200px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png",BBC News
 http://sg.cvacetv.ga/bbcnews
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="BBCRedButton1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BBC_RB%2B_Primary_ONE_COLOUR2.svg/1280px-BBC_RB%2B_Primary_ONE_COLOUR2.svg.png",BBC RB 1
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="BBCRedButton1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BBC_RB%2B_Primary_ONE_COLOUR2.svg/1280px-BBC_RB%2B_Primary_ONE_COLOUR2.svg.png",BBC RB 1
 http://sg.cvacetv.ga/BBCRB1
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="BBCParliament.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/1200px-BBC_Parliament_Logo.svg.png",BBC Parliament
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="BBCParliament.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/1200px-BBC_Parliament_Logo.svg.png",BBC Parliament
 http://sg.cvacetv.ga/BBCPar
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="ITV2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ITV2_logo_2015.svg/1920px-ITV2_logo_2015.svg.png",ITV2
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="ITV2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ITV2_logo_2015.svg/1920px-ITV2_logo_2015.svg.png",ITV2
 http://sg.cvacetv.ga/ITV2
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="ITV3.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/ITV3_logo_2013.svg/1920px-ITV3_logo_2013.svg.png",ITV3
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="ITV3.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/ITV3_logo_2013.svg/1920px-ITV3_logo_2013.svg.png",ITV3
 http://sg.cvacetv.ga/ITV3
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="ITV4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/ITV4_logo_2013.svg/1200px-ITV4_logo_2013.svg.png",ITV4
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="ITV4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/ITV4_logo_2013.svg/1200px-ITV4_logo_2013.svg.png",ITV4
 http://sg.cvacetv.ga/ITV4
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="STV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/87/STV_logo_2014.png",STV
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="STV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/87/STV_logo_2014.png",STV
 http://sg.cvacetv.ga/STV
-#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/1200px-Sky-news-logo.png",Sky News
+#EXTINF:-1 group-title="🇬🇧 | Kênh Anh Quốc" tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/1200px-Sky-news-logo.png",Sky News
 http://sg.cvacetv.ga/SkyNews
 
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://www.pngkey.com/png/full/364-3640865_ebs-the-european-unions-tv-information-service-was.png",EbS
@@ -964,33 +964,35 @@ http://sg.cvacetv.ga/RTLII
 http://sg.cvacetv.ga/ProSieben
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="ProSiebenMaxxGermany.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/1280px-ProSieben_MAXX_Logo.svg.png",Pro7 MAXX
 http://sg.cvacetv.ga/Pro7
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a3/SAT.1_logo_2016.png",SAT.1
+https://s6.hopslan.com/sat1q1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sat.1_Gold_HD_Logo_2019.svg/1200px-Sat.1_Gold_HD_Logo_2019.svg.png",SAT.1 Gold
+https://s6.hopslan.com/goldc/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tagesschau24HD.svg/1200px-Tagesschau24HD.svg.png",Tagesschau24
 http://sg.cvacetv.ga/Tag24
 #EXTINF:-1 tvg-id="tvr1" group-title="🇪🇺| Châu Âu" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rik-sat-cy.png", RIK Sat
 http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%C4%8CT1_HD_logo_2012.svg/512px-%C4%8CT1_HD_logo_2012.svg.png", ČT1 HD
 http://213.151.233.20:8000/dna-5100-tv-pc.m3u8
-#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TVP1_2021_box-1.svg/1920px-TVP1_2021_box-1.svg.png",TVP 1
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TVP1.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TVP1_2021_box-1.svg/1920px-TVP1_2021_box-1.svg.png",TVP 1
 http://vn2.cvacetv.ga/TVP1
-#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TVP2_2021_box-1.svg/800px-TVP2_2021_box-1.svg.png",TVP 2
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TVP2.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TVP2_2021_box-1.svg/800px-TVP2_2021_box-1.svg.png",TVP 2
 http://sg.cvacetv.ga/TVP2
-#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/TVP3_logo_2016.png",TVP 3
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TVP3Warszawa.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/TVP3_logo_2016.png",TVP 3
 http://sg.cvacetv.ga/TVP3
-#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/2560px-TVP_HD_logo.svg.png",TVP HD
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TVPHD.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/2560px-TVP_HD_logo.svg.png",TVP HD
 http://sg.cvacetv.ga/TVPHD
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/TVP_logo.svg/1280px-TVP_logo.svg.png",TVP Dokument
-
-#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/TVP_logo.svg/1280px-TVP_logo.svg.png",TVP Info
+http://195.189.62.148:8000/play/a06a
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TVPInfo.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/TVP_logo.svg/1280px-TVP_logo.svg.png",TVP Info
 http://sg.cvacetv.ga/TVPInfo
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/TVP_logo.svg/1280px-TVP_logo.svg.png",TVP Kultura
-
-#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/TVP_logo.svg/1280px-TVP_logo.svg.png",TVP Polonia
-
+http://195.189.62.148:8000/play/a012
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_2021_gradient.svg/640px-Polsat_2021_gradient.svg.png",Polsat
-
+http://195.189.62.148:8000/play/a04g
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/1200px-Polsat_2_2021_gradient.svg.png",Polsat 2
-
-#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Polsat_News_2021_gradient.svg/800px-Polsat_News_2021_gradient.svg.png",Polsat News
+http://195.189.62.148:8000/play/a04n
+#EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Polsat_News_2021_gradient.svg/800px-Polsat_News_2021_gradient.svg.png" tvg-id="PolsatNews.pl",Polsat News
 http://sg.cvacetv.ga/PolsatNews
 
 
