@@ -271,7 +271,6 @@ https://vtsstr4.tv24.vn/live/SCTV22_HD_new.smil/playlist.m3u8
 https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
 #EXTINF:-1 tvg-id="btv5hd" group-title="SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 HD
 https://vtsstr4.tv24.vn/live/btv5_HD_new.smil/playlist.m3u8
-#-*--K+-*--#
 
 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -747,6 +746,9 @@ http://vips-livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.
 #EXTINF:-1 group-title="🔭|Khám Phá" tvg-id="discoveryhd" tvg-logo="https://i.ibb.co/pzWLsxv/discovery-channel.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/discovery_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",Discovery Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
+http://sg.cvacetv.ga/DMAX
+#EXTINF:-1 group-title="🔭|Khám Phá" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/1200px-History_%282021%29.svg.png",History
+http://sg.cvacetv.ga/History
 #EXTINF:-1 group-title="🔭|Khám Phá" tvg-id="dmaxhd" tvg-logo="https://i.ibb.co/hRkjVnt/dmaxtv.png",Dmax
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://tbtv.us/channel/?dmax
@@ -898,11 +900,11 @@ http://206.221.176.47:64002
 http://206.221.176.47:64020
 
 #EXTINF:-1 group-title="🇬🇧| Kênh Anh Quốc" tvg-id="BBCOneLondon.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
-http://vn2.cvacetv.ga/BBC1
+http://sg.cvacetv.ga/BBC1
 #EXTINF:-1 group-title="🇬🇧| Kênh Anh Quốc" tvg-id="BBCTwoEngland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png",BBC Two
-http://vn2.cvacetv.ga/BBC2
+http://sg.cvacetv.ga/BBC2
 #EXTINF:-1 group-title="🇬🇧| Kênh Anh Quốc" tvg-id="ITV.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1200px-ITV_logo_2013.svg.png",ITV
-http://vn2.cvacetv.ga/ITV
+http://sg.cvacetv.ga/ITV
 #EXTINF:-1 group-title="🇬🇧| Kênh Anh Quốc" tvg-id="Channel4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
 http://sg.cvacetv.ga/channel4
 #EXTINF:-1 group-title="🇬🇧| Kênh Anh Quốc" tvg-id="Channel5.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Channel_5_Logo_2016_SVG.svg/1200px-Channel_5_Logo_2016_SVG.svg.png",Channel 5
@@ -931,7 +933,7 @@ https://euc-live.fl.freecaster.net/live/eucom/ebs.m3u8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://www.nettvpro.live/uploads/21/1-2104022202292E.jpg",EbS+
 https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TF1_logo_2013.png/800px-TF1_logo_2013.png",TF1
-http://vn2.cvacetv.ga/TF1
+http://sg.cvacetv.ga/TF1
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/1024px-France_2_2018.svg.png",France 2
 http://sg.cvacetv.ga/France2
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/1200px-France_3_2018.svg.png",France 3
@@ -971,13 +973,13 @@ https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/rtp_playlist.m3u8|user-agent=Opera
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="Rai1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1200px-Rai_1_-_Logo_2016.svg.png",Rai 1
-http://vn2.cvacetv.ga/Rai1
+http://sg.cvacetv.ga/Rai1
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="Rai2.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1200px-Rai_2_-_Logo_2016.svg.png",Rai 2
-http://vn2.cvacetv.ga/Rai2
+http://sg.cvacetv.ga/Rai2
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="Rai3.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1200px-Rai_3_-_Logo_2016.svg.png",Rai 3
 http://sg.cvacetv.ga/Rai3
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="RaiNews24.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1024px-Rai_News_24_logo_%282022%29.svg.png",Rai News 24
-http://eu.cvacetv.ga/RaiNews24
+http://eu2.cvacetv.ga/RaiNews24
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TRT1.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/640px-TRT_1_logo_%282021-%29.svg.png",TRT1
 http://sg.cvacetv.ga/TRT1
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TRT2.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/TRT_2_logo.svg/1200px-TRT_2_logo.svg.png",TRT2
@@ -991,25 +993,25 @@ http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227238/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logo_RTL_Luxembourg.png/220px-Logo_RTL_Luxembourg.png", RTL Tele
 https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NPO_1_logo_2014.svg/1200px-NPO_1_logo_2014.svg.png",NPO1
-http://vn2.cvacetv.ga/NPO1
+http://sg.cvacetv.ga/NPO1
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NPO_2_logo_2014.svg/1200px-NPO_2_logo_2014.svg.png",NPO2
-http://eu.cvacetv.ga/NPO2
+http://eu2.cvacetv.ga/NPO2
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/NPO_3_logo_2014.svg/1200px-NPO_3_logo_2014.svg.png",NPO3
-http://eu.cvacetv.ga/NPO3
+http://eu2.cvacetv.ga/NPO3
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/RTL4_Logo_2016.png",RTL4
-http://eu.cvacetv.ga/RTL4
+http://eu2.cvacetv.ga/RTL4
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/RTL_5_logo_2017.png",RTL5
-http://eu.cvacetv.ga/RTL5
+http://eu2.cvacetv.ga/RTL5
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/SBS6-logo-2018.png/800px-SBS6-logo-2018.png",SBS6
-http://eu.cvacetv.ga/SBS6
+http://eu2.cvacetv.ga/SBS6
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/RTL_7_Logo.svg/1920px-RTL_7_Logo.svg.png",RTL7
-http://eu.cvacetv.ga/RTL7
+http://eu2.cvacetv.ga/RTL7
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/92/RTL_8_logo_2017.png",RTL8
-http://eu.cvacetv.ga/RTL8
+http://eu2.cvacetv.ga/RTL8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Das_Erste-Logo_klein.svg/1200px-Das_Erste-Logo_klein.svg.png",Das Erste
-http://vn2.cvacetv.ga/DasErste
+http://sg.cvacetv.ga/DasErste
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="ZDF.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ZDF_HD_Logo.svg/2560px-ZDF_HD_Logo.svg.png",ZDF
-http://vn2.cvacetv.ga/ZDF
+http://sg.cvacetv.ga/ZDF
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="RTLGermany.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/RTL_DE_Logo_2021_blau_petrol_lila.png",RTL
 http://sg.cvacetv.ga/RTL
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="RTLZwei.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/800px-RTLZWEI_Logo_2019.svg.png",RTLII
@@ -1059,7 +1061,7 @@ http://0.tcp.ngrok.io:19970/CBS
 #EXTINF:-1 group-title="🇺🇸 | MỸ" tvg-id="ABCEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/ABC_%282013%29_Dark_Grey.svg/1200px-ABC_%282013%29_Dark_Grey.svg.png",ABC
 http://0.tcp.ngrok.io:19970/ABC
 #EXTINF:-1 group-title="🇺🇸 | MỸ" tvg-id="FoxEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FOX_wordmark-red_2.svg/1200px-FOX_wordmark-red_2.svg.png",FOX
-http://vn2.cvacetv.ga/FOX
+http://sg.cvacetv.ga/FOX
 
 #EXTINF:-1 tvg-id="mjh-abc-qld" group-title="🇦🇺 | ÚC" tvg-logo="https://i.mjh.nz/.images/abc-nsw.png",ABC TV
 http://58.96.43.228:9981/stream/channelid/1227792883?ticket=85318F3C070E8CB67FF33D92FDD836C3FDAAB9BD&profile=pass
@@ -1597,7 +1599,7 @@ http://123.30.146.168:21585/1506/video.m3u8
 #EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",Korean Central Television (KCTV) (576p)
 https://tv.nknews.org/tvdash/stream.mpd
 #EXTINF:-1 tvg-id="KBS1TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/440px-KBS_1_logo.svg.png", KBS 1
-http://sg.cvacetv.ga/SBS
+http://sg.cvacetv.ga/KBS1
 #EXTINF:-1 tvg-id="KBS2TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/1200px-KBS_2_logo.svg.png", KBS 2
 http://sg.cvacetv.ga/KBS2
 #EXTINF:-1 tvg-id="MBCTV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/2560px-Munhwa_Broadcasting_Company.svg.png", MBC
