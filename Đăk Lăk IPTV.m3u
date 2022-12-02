@@ -505,25 +505,25 @@ http://vinhphuctv.vn:8090/vinhphuclive/web.stream/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/184.png", YTV HD | TH Yên Bái
 https://yenbaitv.org.vn/hls/livestream.m3u8
 
-#EXTINF:-1 tvg-id="boxmovie1" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-http://code.television4you.xyz/cliptv.php?id=822
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-http://code.television4you.xyz/cliptv.php?id=825
-#EXTINF:-1 tvg-id="inthebox" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-http://code.television4you.xyz/cliptv.php?id=838
-#EXTINF:-1 tvg-id="boxhits" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
+#EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
+https://api.vthanhtivi.pw/v1/getlink/cliptv/822
+#EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
+https://api.vthanhtivi.pw/v1/getlink/cliptv/825
+#EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
+https://api.vthanhtivi.pw/v1/getlink/cliptv/838
+#EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
 https://api.vthanhtivi.pw/v1/getlink/mytv_web/105/hd
-#EXTINF:-1 tvg-id="man" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
-http://code.television4you.xyz/cliptv.php?id=837
-#EXTINF:-1 tvg-id="drfithd" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
-http://code.television4you.xyz/cliptv.php?id=823
-#EXTINF:-1 tvg-id="happykids" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
-http://code.television4you.xyz/cliptv.php?id=824
-#EXTINF:-1 tvg-id="musicbox" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
+#EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
+https://api.vthanhtivi.pw/v1/getlink/cliptv/837
+#EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
+https://api.vthanhtivi.pw/v1/getlink/cliptv/823
+#EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
+https://api.vthanhtivi.pw/v1/getlink/cliptv/824
+#EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
 https://api.vthanhtivi.pw/v1/getlink/mytv_web/69/hd
-#EXTINF:-1 tvg-id="planetearthhd" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
+#EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
 https://api.vthanhtivi.pw/v1/getlink/tv360_s2/135/2
-#EXTINF:-1 tvg-id="woman" group-title="📦|Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
+#EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
 http://api.vthanhtivi.pw/v1/getlink/tv360_s2/163/2
 
 #EXTINF:-1 tvg-id="hbohd" group-title="🎞| HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", HBO HD
