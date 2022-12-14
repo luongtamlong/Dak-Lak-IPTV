@@ -230,6 +230,57 @@ https://vips-livecdn.fptplay.net/hda1/vtc14_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent="DakLakIPTV"
 https://livecdn.fptplay.net/sdb/vtc16_hls.smil/chunklist_b2500000.m3u8
 
+#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Cine.png/revision/latest/scale-to-width-down/190?cb=20220127020318&path-prefix=vi", K+CINE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"EL5wMFnVeL0KScgn18prGA","kid":"k0O7wg8PTXiJBQ8KMHP/Aw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_cinehd/default/index.mpd
+#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Life_2021.png/revision/latest/scale-to-width-down/190?cb=20220127022006&path-prefix=vi", K+LIFE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"XreDdZgYpvhc/dfulzjZTg","kid":"Ky8x2P8lQuyomGWSwBXnig"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_lifehd/default/index.mpd
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/64/Kplus_Sport_1.png/revision/latest/scale-to-width-down/190?cb=20220127020325&path-prefix=vi", K+SPORT1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"+BGj6r7SVFLAKpIkjxhNrw","kid":"+faEc1hHTaSvGSqhj7MVTA"}],"type":"temporary"}
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/29/Kplus_Sport_2_2021.png/revision/latest/scale-to-width-down/190?cb=20220127022012&path-prefix=vi", K+SPORT2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"o4EAXmHfBVV883q6lNqjXw","kid":"KN7DHbJ8S32+U6YALgaxQg"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b4/Kplus_Kids.png/revision/latest/scale-to-width-down/190?cb=20220127020331&path-prefix=vi", K+KIDS
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"EAqdpgiYVB5ZlTAKZK4HAg","kid":"GTjWes++SR6kBAklGnrx/A"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#EXTINF:-1 tvg-id="klive1" group-title="K+" tvg-logo="", K+LIVE 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://longpt.net/clearkey/results.php?keyid=2aad0e26dc92499c8dee0e4e417de176&key=ab269ff07364322c8a69f41d14d63bee
+https://sglivevng.kplus.vn/bpk-tv/prod_klive1/default/i.mpd
+#EXTINF:-1 tvg-id="klive2" group-title="K+" tvg-logo="", K+LIVE 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://longpt.net/clearkey/results.php?keyid=fb53863f76fa47ffba8c0e2d3a2c9e09&key=66caecac92fd2a967e98e36a661907e1
+https://sglive.akamaized.net/bpk-tv/prod_klive2/default/i.mpd
+#EXTINF:-1 tvg-id="klive3" group-title="K+" tvg-logo="", K+LIVE 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://longpt.net/clearkey/results.php?keyid=7b0502a994574e5c8cc789e1d7f24fc5&key=f0fa5ed38424906e9c1298e47d6a6f72
+https://sglivevega.kplus.vn/bpk-tv/prod_klive3/default/i.mpd
+#EXTINF:-1 tvg-id="klive3" group-title="K+" tvg-logo="", K+LIVE 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://longpt.net/clearkey/results.php?keyid=93c4f382d2e247f8b32d9e7b060b225a&key=a62df8c1f9cb9d91ff50a671d4a75e5d
+https://sglivevng.kplus.vn/bpk-tv/prod_klive4/default/i.mpd
+#EXTINF:-1 tvg-id="klive3" group-title="K+" tvg-logo="", K+LIVE 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://longpt.net/clearkey/results.php?keyid=cc51bb623e2243aeb1647f7b48b85fdd&key=42c25f00230fb0eddf63d4d583f9839a
+https://sglivevng.kplus.vn/bpk-tv/prod_klive5/default/i.mpd
+
 #EXTINF:0 tvg-id="antvhd" group-title="Kênh thiết yếu" tvg-logo="https://i.ibb.co/9wxKmLH/ANTV-DakLakIPTV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", ANTV HD
 #EXTVLCOPT:http-user-agent="DakLakIPTV"
 https://vips-livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
