@@ -506,27 +506,32 @@ https://60acee235f4d5.streamlock.net/HGTV/d1/chunklist_w819569343.m3u8
 #EXTINF:0 tvg-id="vungtau" group-title="Kênh địa phương" tvg-logo="https://i.ibb.co/ZMVBv8X/BRT-DakLakIPTV.png", Bà Rịa – Vũng Tàu
 https://stream.brt.vn:8081/live/tv2.stream_record/chunklist_w419871790.m3u8
 
-#EXTINF:-1 tvg-id="boxmovie1" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-https://api.vthanhtivi.pw/v1/getlink/cliptv/822
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-https://api.vthanhtivi.pw/v1/getlink/cliptv/825
-#EXTINF:-1 tvg-id="inthebox" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-https://api.vthanhtivi.pw/v1/getlink/cliptv/838
-#EXTINF:-1 tvg-id="boxhits" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-https://api.vthanhtivi.pw/v1/getlink/mytv_web/105/hd
-#EXTINF:-1 tvg-id="man" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
-https://api.vthanhtivi.pw/v1/getlink/cliptv/837
-#EXTINF:-1 tvg-id="drfithd" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
-https://api.vthanhtivi.pw/v1/getlink/cliptv/823
-#EXTINF:-1 tvg-id="happykids" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
-https://api.vthanhtivi.pw/v1/getlink/cliptv/824
-#EXTINF:-1 tvg-id="musicbox" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
-https://api.vthanhtivi.pw/v1/getlink/mytv_web/69/hd
-#EXTINF:-1 tvg-id="planetearthhd" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
-https://api.vthanhtivi.pw/v1/getlink/tv360_s2/135/2
-#EXTINF:-1 tvg-id="woman" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
-http://api.vthanhtivi.pw/v1/getlink/tv360_s2/163/2
-
+#EXTINF:-1 tvg-id="boxmovie1" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/822/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="hollywoodclassics" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/825/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="inthebox" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/838/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="boxhits" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
+https://api.vthanhtivi.pw/v2/getlink/mytv/105/hd.m3u8
+#EXTINF:-1 tvg-id="man" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/837/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="drfithd" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/823/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="happykids" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/824/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="musicbox" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
+https://api.vthanhtivi.pw/v2/getlink/mytv/69/hd.m3u8
+#EXTINF:-1 tvg-id="planetearthhd" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
+https://api.vthanhtivi.pw/v2/getlink/tv360/135/2.m3u8
+#EXTINF:-1 tvg-id="woman" group-title="Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
+https://api.vthanhtivi.pw/v2/getlink/tv360/163/2.m3u8
 
 
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", HBO HD
@@ -602,7 +607,7 @@ https://vips-livecdn.fptplay.net/hda2/dwenglish_vhls.smil/chunklist_b5000000.m3u
 #EXTINF:-1 tvg-id="france24-en" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 English
 https://raw.githubusercontent.com/etag2000/IPTV/YTlive/france24.m3u8
 #EXTINF:-1 tvg-id="france24-en" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 English (Vietnam feed)
-https://api.vthanhtivi.pw/v1/getlink/vieon/france-24-english-hd
+https://livecdn.fptplay.net/sdb/france24_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="france24-fr" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 French
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24/live
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/224.png", NHK World
