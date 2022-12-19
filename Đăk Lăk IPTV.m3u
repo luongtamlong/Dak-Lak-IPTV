@@ -560,7 +560,7 @@ https://vips-livecdn.fptplay.net/hda3/bbclifestyle_vhls.smil/chunklist_b5000000.
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/bbcnews_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/bbcnews_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News (Vietnam feed)
 https://vips-livecdn.fptplay.net/hda3/bbcnews_vhls.smil/chunklist_b5000000.m3u8
 
@@ -581,11 +581,11 @@ https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://euronews.alteox.app/hls/en_stream.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/cnbc_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/cnbc_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC (Vietnam feed)
 https://livecdn.fptplay.net/sdb/cnbc_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/cnn_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/cnn_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN (Vietnam feed)
 https://vips-livecdn.fptplay.net/hda3/cnn_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Aljazeera.svg/500px-Aljazeera.svg.png", Al Jazeera English
@@ -634,8 +634,10 @@ https://d1tdkdc0esjoxj.cloudfront.net/out/v1/f2054baeb8e94043bfc9c8cca2a0013d/in
 https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/200px-Rai_Italia_-_Logo_2017.svg.png" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
 http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
-#EXTINF:-1 group-title="Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
-https://raw.githubusercontent.com/AzeemHadzrie/pesn-somestuff/main/m3u8/dens/rtpiasia.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8|user-agent="RTP-Play"
 #EXTINF:-1 group-title="Quốc tế" tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1518,39 +1520,39 @@ http://xtv:1292@23.142.200.188:9981/stream/channelid/1421257512?ticket=D8B4B8996
 #EXTINF:-1 tvg-id="b6093f56d0badd9532107ef180486a04" tvg-name="香港開電視" tvg-logo="https://i.ibb.co/WK1nydq/15.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",HOY Infotainment
 http://xtv:1292@23.142.200.188:9981/stream/channelid/1446971830?ticket=8433E9FF04F3B771F4A6DACCF125A0A0615756C5&profile=pass
 #EXTINF:-1 tvg-id="ca3a6bb9efbc83674f2ce30eecc60a12" tvg-name="翡翠台" tvg-logo="https://i.ibb.co/WnSkZ3L/1.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/jade_twn/playlist.m3u8
+http://116.205.130.205:66/6/807tv.php?tid=gt&id=0
 #EXTINF:-1 tvg-id="ca3a6bb9efbc83674f2ce30eecc60a12" tvg-name="翡翠台" tvg-logo="https://i.ibb.co/tMk1QBD/2.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade (Digital)
 http://xtv:1292@23.142.200.188:9981/stream/channelid/963328714?ticket=34BD5D1F580B74FCDDFF76B7932A77AAED7ABA82&profile=pass
 #EXTINF:-1 tvg-id="045cc83fc1b56cfa434b4496e2f2a989" tvg-name="J2台" tvg-logo="https://i.ibb.co/hHxS9M4/17.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB J2
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/j2_twn/playlist.m3u8
+http://116.205.130.205:66/6/807tv.php?tid=gt&id=10
 #EXTINF:-1 tvg-id="045cc83fc1b56cfa434b4496e2f2a989" tvg-name="J2台" tvg-logo="https://i.ibb.co/yRn59Fd/18.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB J2 (Digital)
 http://xtv:1292@23.142.200.188:9981/stream/channelid/1070095364?ticket=7C7578D9E1E0D1BD0007E376C212E97C3DEE8D62&profile=pass
 #EXTINF:-1 tvg-id="9570b90c1c7ef8ba2b3de97633915cc4" tvg-name="無綫新聞台" tvg-logo="https://i.ibb.co/Wf7dy7j/10.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News Channel
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/inews_twn/playlist.m3u8
+http://116.205.130.205:66/6/807tv.php?tid=gt&id=8
 #EXTINF:-1 tvg-id="9570b90c1c7ef8ba2b3de97633915cc4" tvg-name="無綫新聞台" tvg-logo="https://i.ibb.co/3Ws5HnH/9.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News Channel (Digital)
 http://xtv:1292@23.142.200.188:9981/stream/channelid/213479573?ticket=60F31E4C3C05F4629890BD9E8C6E6C4C437B5B44&profile=pass
 #EXTINF:-1 tvg-id="5fbaad46432563b8e79ce800cbf630c7" tvg-name="明珠台" tvg-logo="https://i.ibb.co/RYW1krP/4.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/pearl_twn/playlist.m3u8
+http://116.205.130.205:66/6/807tv.php?tid=gt&id=11
 #EXTINF:-1 tvg-id="5fbaad46432563b8e79ce800cbf630c7" tvg-name="明珠台" tvg-logo="https://i.ibb.co/rp3g7n1/5.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl (Digital)
 http://xtv:1292@23.142.200.188:9981/stream/channelid/1185790559?ticket=916B7F5CDC21B4BAE6E9C14757AECC9E285BF2EF&profile=pass
 #EXTINF:-1 tvg-id="9186a1cb3eceda50e270fee5f7b59a57" tvg-name="無綫財經·資訊台" tvg-logo="https://i.ibb.co/7VwzCL1/6.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Finance - Sports - Information Channel
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/j5_twn/playlist.m3u8
+http://116.205.130.205:66/6/807tv.php?tid=gt&id=9
 #EXTINF:-1 tvg-id="9186a1cb3eceda50e270fee5f7b59a57" tvg-name="無綫財經·資訊台" tvg-logo="https://i.ibb.co/mR7SZJC/7.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Finance - Sports - Information Channel (Digital)
 http://xtv:1292@23.142.200.188:9981/stream/channelid/1268876945?ticket=58D9FA9F9052920345E2BD02FF1992B0E38FAF0E&profile=pass
 #EXTINF:-1 tvg-id="7ca0f21854108ee2f511d6cd58604362" tvg-name="ViuTV Six" tvg-logo="https://i.ibb.co/pz8P2CG/19.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTVSix
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/viusix_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://198.16.64.10:8278/viusix_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="7ca0f21854108ee2f511d6cd58604362" tvg-name="ViuTV Six" tvg-logo="https://i.ibb.co/L9FZnPD/20.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTVSix (Digital)
 http://xtv:1292@23.142.200.188:9981/stream/channelid/418553980?ticket=995A4A48D23BF2CEA90C408D82397C5043D8AB67&profile=pass
 #EXTINF:-1 tvg-id="7e91c9c1ffc8ed5e7864b59a0add05ee" tvg-name="ViuTV" tvg-logo="https://i.ibb.co/Njk6QXX/21.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTV
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/viu_twn/playlist.m3u8
+http://116.205.130.205:66/6/807tv.php?tid=gt&id=7
 #EXTINF:-1 tvg-id="7e91c9c1ffc8ed5e7864b59a0add05ee" tvg-name="ViuTV" tvg-logo="https://i.ibb.co/Y0tmVfx/22.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTV (Digital)
 http://xtv:1292@23.142.200.188:9981/stream/channelid/1103729022?ticket=94031917509AE1CED76618DCB367AC1A68D5CA71&profile=pass
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" tvg-rez="1920x1080" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Chinese Channel
-http://315600.xyz/a/smart.php?playurl=http://198.16.64.10:8278/phoenixtv_hd/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.168.234:8278/phoenixtv_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" tvg-rez="1920x1080" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Infonews Channel
-http://315600.xyz/a/smart.php?playurl=http://198.16.64.10:8278/phoenixinfo_hd/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.168.234:8278/phoenixinfo_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="143" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Phoenix Hong Kong Channel
-http://315600.xyz/a/smart.php?playurl=http://198.16.64.10:8278/hkphoenix_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.168.234:8278/hkphoenix_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="NowDirect.hk" tvg-logo="https://nettvpro.live/uploads/18/1-1PG11I415a1.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Now Direct
 http://livetv.dnsfor.me:80/channel.3.m3u8
 #EXTINF:-1 tvg-id="NowNews.hk" tvg-logo="https://nettvpro.live/uploads/18/1-1PG11QQ2114.jpg" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Now News
@@ -1576,25 +1578,25 @@ http://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVBS ASIA
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="6074" tvg-logo="https://cdn.telummedia.com/uploads/cache/news_image_4x3/uploads/media/logos/crop/2014/04/5dbba2cd6dd04.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVBS
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/tvbs/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/tvbs/playlist.m3u8
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVBS ENTERTAINMENT
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/tvbshuanle_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/tvbshuanle_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVBS NEWS
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/tvbxinhe_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.168.234:8278/tvbs_n/playlist.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",FORMOSA TV
-http://315600.xyz/a/smart.php?playurl=http://50.7.168.234:8278/ftvhd_taiwan/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.168.234:8278/ftvhd_taiwan/playlist.m3u8
 #EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TTV
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/ttv_taiwan/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/ttv_taiwan/playlist.m3u8
 #EXTINF:-1 tvg-id="6028" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/22/CTV_text.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTV
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTS
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/ctshd_twn/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/ctshd_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="6054" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/01/CTI_Official_Logo.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTI
 http://23.237.10.66:16372
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu8U-xT37GTF2pYeLleIgY7dP4NJKcIkzz2oz6Gsig=s900-c-k-c0x00ffffff-no-rj" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",CTI News
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/ctinews/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/ctinews/playlist.m3u8
 #EXTINF:-1 tvg-id="6060" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",EBC News
-http://315600.xyz/a/smart.php?playurl=http://198.16.100.90:8278/ettvnews/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://198.16.100.90:8278/ettvnews/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/a/ac/Titv_logo.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ABORIGINAL TV
 http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 
@@ -1798,17 +1800,17 @@ https://github.com/l1007/-/raw/main/tv.m3u8
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://www.ikim.gov.my/wp-newest/wp-content/uploads/2016/12/loho-grade-smaller.png",IKIM
 http://edge.vediostream.com/abr/tvikim/playlist.m3u8
 #EXTINF:-1  tvg-id="Ch 5" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/o9WqoGe.png",CHANNEL 5 
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/Channel5HD/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/Channel5HD/playlist.m3u8
 #EXTINF:-1 tvg-id="Ch 8" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/yLNUK1u.png",CHANNEL 8 
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/Channel8HD/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/Channel8HD/playlist.m3u8
 #EXTINF:-1 tvg-id="Ch U" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/FLuHYkL.png",CHANNEL U 
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/ChannelU/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/ChannelU/playlist.m3u8
 #EXTINF:-1 tvg-id="Suria" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/uZwCfcn.png",SURIA 
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/Suria/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/Suria/playlist.m3u8
 #EXTINF:-1 tvg-id="Vasantham" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/vqVEcuT.png",VASANTHAM 
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/Vasantham/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/Vasantham/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CNA HD" tvg-logo="http://logo.protv.cc/picons/logos/CNA.jpg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",CNA HD
-http://315600.xyz/a/smart.php?playurl=http://50.7.220.74:8278/cna/playlist.m3u8
+http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/cna/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HUB VVDRAMA HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-V.jpeg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",HUB VVDRAMA HD
 http://line.premiumpowers.net:80/Manuel/1234567/941651
 #EXTINF:-1 tvg-id="" tvg-name="HUB E CITY HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-V.jpeg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",HUB E CITY HD
