@@ -506,32 +506,32 @@ https://60acee235f4d5.streamlock.net/HGTV/d1/chunklist_w819569343.m3u8
 #EXTINF:0 tvg-id="vungtau" group-title="Kênh địa phương" tvg-logo="https://i.ibb.co/ZMVBv8X/BRT-DakLakIPTV.png", Bà Rịa – Vũng Tàu
 https://stream.brt.vn:8081/live/tv2.stream_record/chunklist_w419871790.m3u8
 
-#EXTINF:-1 tvg-id="boxmovie1" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Box-Movie-1
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Hollywood-Classics
-#EXTINF:-1 tvg-id="inthebox" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=In-The-Box
-#EXTINF:-1 tvg-id="boxhits" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Box-Hits
-#EXTINF:-1 tvg-id="happykids" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Happy-Kids
-#EXTINF:-1 tvg-id="man" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Man
-#EXTINF:-1 tvg-id="woman" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Woman
-#EXTINF:-1 tvg-id="woman" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman 2
-http://pcriptv.duckdns.org:8002/live/tv360.php?id=163
-#EXTINF:-1 tvg-id="drfithd" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Dr.Fit
-#EXTINF:-1 tvg-id="musicbox" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Music-Box
-#EXTINF:-1 tvg-id="planetearthhd" group-title="INTHEBOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
-http://pcriptv.duckdns.org:8002/live/cliptv.php?id=Planet-Earth
-#EXTINF:-1 tvg-id="HISTORY" group-title="INTHEBOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/History_HD_Logo.svg/2560px-History_HD_Logo.svg.png",HISTORY HD
-http://pcriptv.duckdns.org:9981/stream/channelid/1845599115?
-#EXTINF:-1 tvg-id="hits" group-title="INTHEBOX" tvg-logo="http://img-zlr1.tv360.vn/image1/2020_09_23/1600822037594/91bf6d3a7d09.png", HITS
-#http://pcriptv.duckdns.org:8002/live/tv360.php?id=107
+#EXTINF:-1 tvg-id="boxmovie1" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/822/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="hollywoodclassics" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/825/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="inthebox" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/838/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="boxhits" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
+https://api.vthanhtivi.pw/v2/getlink/mytv/105/hd.m3u8
+#EXTINF:-1 tvg-id="man" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/837/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="drfithd" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/823/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="happykids" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/cliptv/824/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="musicbox" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
+https://api.vthanhtivi.pw/v2/getlink/mytv/69/hd.m3u8
+#EXTINF:-1 tvg-id="planetearthhd" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
+https://api.vthanhtivi.pw/v2/getlink/tv360/135/2.m3u8
+#EXTINF:-1 tvg-id="woman" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
+https://api.vthanhtivi.pw/v2/getlink/tv360/163/2.m3u8
 
 
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", HBO HD
