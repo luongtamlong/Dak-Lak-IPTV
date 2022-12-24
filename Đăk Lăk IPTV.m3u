@@ -6,7 +6,7 @@ http://vn2.cvacetv.ga/vtv1
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.ibb.co/1rGZzbN/VTV2-DakLakIPTV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv2_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8" ,VTV2
 #EXTVLCOPT:http-user-agent="DakLakIPTV"
 #https://nvzoftzsvflivcf.vcdn.com.vn/vtv2/vtv2@high.m3u8
-http://vn2.cvacetv.ga/vtv2
+http://pcriptv.duckdns.org:9981/stream/channelid/1783189452?
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.ibb.co/hKgN4RG/VTV3-DakLakIPTV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv3hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" ,VTV3      
 #EXTVLCOPT:http-user-agent="DakLakIPTV"
 #https://nvzoftzsvflivcf.vcdn.com.vn/vtv3/vtv3@high.m3u8
@@ -1042,13 +1042,19 @@ http://sg.cvacetv.ga/PolsatNews
 
 
 #EXTINF:-1 group-title="🇺🇸 | MỸ" tvg-id="NBCEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/800px-NBC_logo.svg.png",NBC
-http://0.tcp.ngrok.io:19970/NBC
+http://sg.cvacetv.ga/NBC
 #EXTINF:-1 group-title="🇺🇸 | MỸ" tvg-id="CBSEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/2560px-CBS_logo.svg.png",CBS
-http://0.tcp.ngrok.io:19970/CBS
+http://sg.cvacetv.ga/CBS
 #EXTINF:-1 group-title="🇺🇸 | MỸ" tvg-id="ABCEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/ABC_%282013%29_Dark_Grey.svg/1200px-ABC_%282013%29_Dark_Grey.svg.png",ABC
-http://0.tcp.ngrok.io:19970/ABC
+http://sg.cvacetv.ga/ABC
 #EXTINF:-1 group-title="🇺🇸 | MỸ" tvg-id="FoxEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FOX_wordmark-red_2.svg/1200px-FOX_wordmark-red_2.svg.png",FOX
 http://sg.cvacetv.ga/FOX
+#EXTINF:-1 tvg-id="CBC.ca" tvg-name="CA| CBC TORONTO HD" tvg-logo="http://logo.protv.cc/picons/logos/CBC-TORONTO-HD.png" group-title="🇺🇸 | MỸ", CBC
+http://line.premiumpowers.net:80/Manuel/1234567/177369
+#EXTINF:-1 tvg-id="Fairchild.ca" tvg-name="HK| FAIRCHILD EAST" tvg-logo="http://logo.protv.cc/picons/logos/FAIRCHILD-WEST.png" group-title="🇺🇸 | MỸ",FAIRCHILD
+http://line.premiumpowers.net:80/Manuel/1234567/90350
+#EXTINF:-1 tvg-id="fairchild2.ca" tvg-name="HK| FAIRCHILD 2 HD" tvg-logo="http://logo.protv.cc/picons/logos/FAIRCHILD-2-HD.png" group-title="🇺🇸 | MỸ",FAIRCHILD 2
+http://line.premiumpowers.net:80/Manuel/1234567/90352
 
 #EXTINF:-1 tvg-id="mjh-abc-qld" group-title="🇦🇺 | ÚC" tvg-logo="https://i.mjh.nz/.images/abc-nsw.png",ABC TV
 http://58.96.43.228:9981/stream/channelid/1227792883?ticket=85318F3C070E8CB67FF33D92FDD836C3FDAAB9BD&profile=pass
