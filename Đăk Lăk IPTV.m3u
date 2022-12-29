@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz,http://xtv:1292@23.142.200.188:9981/xmltv/channels/,https://raw.githubusercontent.com/iptv-org/epg/master/sites/beinsports.com/beinsports.com_qa-en.channels.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://epg.hkanime.com.hk,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://i.mjh.nz/au/Brisbane/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz"
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz,http://59.149.114.27:9981/xmltv/channels,https://raw.githubusercontent.com/iptv-org/epg/master/sites/beinsports.com/beinsports.com_qa-en.channels.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptvx.one/EPG,http://epg.51zmt.top:8000/e.xml,https://epg.hkanime.com.hk,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://i.mjh.nz/au/Brisbane/epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.ibb.co/mBHRZbg/VTV1-DakLakIPTV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" ,VTV1       
 #EXTVLCOPT:http-user-agent="DakLakIPTV"
@@ -249,42 +249,6 @@ https://vips-livecdn.fptplay.net/hda1/vtc14_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vtc16" group-title="VTC" tvg-logo="https://i.ibb.co/WfHrTR3/VTC16-DakLakIPTV.jpg" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtc16_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTC16 HD
 #EXTVLCOPT:http-user-agent="DakLakIPTV"
 https://livecdn.fptplay.net/sdb/vtc16_hls.smil/chunklist_b2500000.m3u8
-
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/64/Kplus_Sport_1.png/revision/latest/scale-to-width-down/190?cb=20220127020325&path-prefix=vi",K+SPORT1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://longpt.net/key.php?id=ksport1vieon
-https://longpt.net/vieon/ksport1.mpd|Referer=https://vieon.vn/truyen-hinh-truc-tuyen/
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/29/Kplus_Sport_2_2021.png/revision/latest/scale-to-width-down/190?cb=20220127022012&path-prefix=vi",K+SPORT2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://longpt.net/key.php?id=ksport2vieon
-https://longpt.net/vieon/ksport2.mpd|Referer=https://vieon.vn/truyen-hinh-truc-tuyen/
-#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Cine.png/revision/latest/scale-to-width-down/190?cb=20220127020318&path-prefix=vi",K+CINE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://longpt.net/key.php?id=kcinevieon
-https://longpt.net/vieon/kcine.mpd|Referer=https://vieon.vn/truyen-hinh-truc-tuyen/k-1-hd/
-#EXTINF:-1 group-title="K+" tvg-id="kslifehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Life_2021.png/revision/latest/scale-to-width-down/190?cb=20220127022006&path-prefix=vi",K+LIFE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://longpt.net/key.php?id=klifevieon
-https://longpt.net/vieon/klife.mpd|Referer=https://vieon.vn/truyen-hinh-truc-tuyen/
-#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b4/Kplus_Kids.png/revision/latest/scale-to-width-down/190?cb=20220127020331&path-prefix=vi",K+KIDS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://longpt.net/key.php?id=kkidsvieon
-https://longpt.net/vieon/kkids.mpd|Referer=https://vieon.vn/truyen-hinh-truc-tuyen/
 
 #EXTINF:0 tvg-id="antvhd" group-title="Kênh thiết yếu" tvg-logo="https://i.ibb.co/9wxKmLH/ANTV-DakLakIPTV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", ANTV HD
 #EXTVLCOPT:http-user-agent="DakLakIPTV"
@@ -899,29 +863,29 @@ https://euc-live.fl.freecaster.net/live/eucom/ebs.m3u8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://www.nettvpro.live/uploads/21/1-2104022202292E.jpg",EbS+
 https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TF1_logo_2013.png/800px-TF1_logo_2013.png",TF1
-http://line.premiumpowers.net:80/Manuel/1234567/506638
+https://free.one24tv.com/live/21891672267108/21891672267108/38406
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/1024px-France_2_2018.svg.png",France 2
-http://sg.cvacetv.ga/France2
+https://free.one24tv.com/live/21891672267108/21891672267108/38409
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/1200px-France_3_2018.svg.png",France 3
-http://line.premiumpowers.net:80/Manuel/1234567/506636
+https://free.one24tv.com/live/21891672267108/21891672267108/38410
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/1200px-France_4_2018.svg.png",France 4-Okoo
-http://line.premiumpowers.net:80/Manuel/1234567/506624
+https://free.one24tv.com/live/21891672267108/21891672267108/38411
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/1200px-France_5_2018.svg.png",France 5
-http://line.premiumpowers.net:80/Manuel/1234567/506634
+https://free.one24tv.com/live/21891672267108/21891672267108/38412
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/1200px-Logo_M6_%282020%2C_fond_clair%29.svg.png",M6
-http://line.premiumpowers.net:80/Manuel/1234567/506633
+https://free.one24tv.com/live/21891672267108/21891672267108/38408
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="C8.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/30px-Arte_Logo_2017.svg.png",ARTE French
-http://line.premiumpowers.net:80/Manuel/1234567/506632
+https://free.one24tv.com/live/21891672267108/21891672267108/38474
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="C8.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Logo_C8.svg/1200px-Logo_C8.svg.png",C8
-http://line.premiumpowers.net:80/Manuel/1234567/506630
+ https://free.one24tv.com/live/21891672267108/21891672267108/38413
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="W9.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/W9_2018.svg/1200px-W9_2018.svg.png",W9
-http://line.premiumpowers.net:80/Manuel/1234567/506629
+https://free.one24tv.com/live/21891672267108/21891672267108/38414
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="CNews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Canal%2B.svg/225px-Canal%2B.svg.png",Canal+
-http://line.premiumpowers.net:80/Manuel/1234567/506635
+https://free.one24tv.com/live/21891672267108/21891672267108/38452
 #EXTINF:-1 tvg-id="LCI.fr" tvg-name="FR| LCI FHD" tvg-logo="http://logo.protv.cc/picons/logos/lci.png" group-title="🇪🇺| Châu Âu", LCI HD
-http://line.premiumpowers.net:80/Manuel/1234567/506614
+https://free.one24tv.com/live/21891672267108/21891672267108/38446
 #EXTINF:-1 tvg-id="LCI.fr" tvg-name="FR| LCI FHD" tvg-logo="http://logo.protv.cc/picons/logos/lci.png" group-title="🇪🇺| Châu Âu", France Info HD
-http://line.premiumpowers.net:80/Manuel/1234567/506613
+https://free.one24tv.com/live/21891672267108/21891672267108/38457 
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="CNews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Canal_News_logo.svg/1920px-Canal_News_logo.svg.png",C News
 http://line.premiumpowers.net:80/Manuel/1234567/506622
 #EXTINF:-1 group-title="🇪🇺| Châu Âu" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
