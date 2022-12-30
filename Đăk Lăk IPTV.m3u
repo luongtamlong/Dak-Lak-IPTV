@@ -499,21 +499,27 @@ https://api.vthanhtivi.pw/v2/getlink/tv360/135/2.m3u8
 https://api.vthanhtivi.pw/v2/getlink/tv360/163/2.m3u8
 
 
-#EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", HBO HD
+#EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/36/HBO_white.png/revision/latest/scale-to-width-down/220?cb=20220417041358&path-prefix=vi", HBO HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemax_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", Cinemax HD
+https://tvkitaproject.my.id/hbo/index.m3u8?id=hbohd
+#EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/36/HBO_white.png/revision/latest/scale-to-width-down/220?cb=20220417041358&path-prefix=vi" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", HBO HD (Vietnamese feed)
 #EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="HBOFamilyAsia.sg" group-title="HBO" tvg-logo="http://vietanhtv.xyz/ic/hbofamily.png", HBO Family HD
+https://tvkitaproject.my.id/hbo/index.m3u8?id=hbohd
+#EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/80/Cinemax_Asia_2017.png/revision/latest/scale-to-width-down/210?cb=20220416140520&path-prefix=vi", Cinemax HD
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://tvkitaproject.my.id/hbo/index.m3u8?id=maxhd
+#EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/80/Cinemax_Asia_2017.png/revision/latest/scale-to-width-down/210?cb=20220416140520&path-prefix=vi" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemax_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8", Cinemax HD (Vietnamese feed)
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://tvkitaproject.my.id/hbo/index.m3u8?id=maxhd
+#EXTINF:-1 tvg-id="HBOFamilyAsia.sg" group-title="HBO" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9c/HBO_Family_Asia_logo.png/revision/latest/scale-to-width-down/180?cb=20220819042857&path-prefix=vi", HBO Family HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
-http://line.premiumpowers.net:80/Manuel/1234567/941646
-#EXTINF:-1 tvg-id="HBOSignatureAsia.sg" group-title="HBO" tvg-logo="http://vietanhtv.xyz/ic/hbosignature.png", HBO Signature HD
+https://tvkitaproject.my.id/hbo/index.m3u8?id=famhd
+#EXTINF:-1 tvg-id="HBOSignatureAsia.sg" group-title="HBO" tvg-logo="https://p.kindpng.com/picc/s/153-1531080_hbo-signature-hbo-signature-logo-hd-png-download.png", HBO Signature HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
-http://line.premiumpowers.net:80/Manuel/1234567/941645
-#EXTINF:-1 tvg-id="HBOHitsAsia.sg" group-title="HBO" tvg-logo="http://vietanhtv.xyz/ic/hbohits.png", HBO Hits HD
+https://tvkitaproject.my.id/hbo/index.m3u8?id=sighd
+#EXTINF:-1 tvg-id="HBOHitsAsia.sg" group-title="HBO" tvg-logo="https://www.kindpng.com/picc/m/34-340496_hbo-hits-hd-png-download.png", HBO Hits HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
-http://line.premiumpowers.net:80/Manuel/1234567/941647
+https://tvkitaproject.my.id/hbo/index.m3u8?id=hitshd
 
 #EXTINF:-1 tvg-id="bbcearth" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BBC Earth
 #EXTVLCOPT:http-user-agent=VThanhTivi
