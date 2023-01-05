@@ -1642,38 +1642,67 @@ https://cdn6.goprimetime.info/feed/202205171929/ch7hd/index.m3u8
 https://cdn6.goprimetime.info/feed/202205171929/chpptvhd3/index.m3u8
 
 
-#EXTINF:-1 tvg-id="101" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/101.png",TV1
-http://51.79.82.208:16001
-#EXTINF:-1 tvg-id="102" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/396_144.png",TV2
-http://51.79.82.208:16002
-#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/TV3_%28Malaysia%29.svg/1200px-TV3_%28Malaysia%29.svg.png",TV3
-https://stream.zeehanzgadget.com/tv3
-#EXTINF:-1 tvg-id="107" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://didik.tv/images/logotv2.png",NTV7-DIDIK
-http://51.79.82.208:16004
-#EXTINF:-1 tvg-id="108" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/148.png",8TV
-http://51.79.82.208:16005
-#EXTINF:-1 tvg-id="109" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/149.png",TV9
-http://51.79.82.208:16006
-#EXTINF:-1 tvg-id="CHN" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://baseimages.tonton.com.my/1580295767086_drama_sangat_new.jpg",Drama Sangat
-https://github.com/l1007/-/raw/main/tv.m3u8
-#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://www.ikim.gov.my/wp-newest/wp-content/uploads/2016/12/loho-grade-smaller.png",IKIM
-http://edge.vediostream.com/abr/tvikim/playlist.m3u8
+EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK01" tvg-chno="RTMK01" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/TV1.jpg",TV1
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK02" tvg-chno="RTMK02" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/TV2.jpg",TV2
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK03" tvg-chno="RTMK03" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/TV%20Okey.jpg",TV Okey
+https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK04" tvg-chno="RTMK04" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/Berita%20RTM.jpg",Berita RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK05" tvg-chno="RTMK05" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/Sukan%20RTM.jpg",Sukan RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8?id=4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK06" tvg-chno="RTMK06" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/TV6.jpg",TV6
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK07" tvg-chno="RTMK07" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/Dewan%20Rakyat.jpg",Dewan Rakyat
+https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+#EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/Dewan%20Negara.jpg",Dewan Negara
+https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
+#EXTINF:-1 tvg-id="103" tvg-name="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/103_300.png" group-title="BASIC",TV3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3afe30ee4ea24a67fe5a2ef06e83db0b:27a2f71d87bf5eb105af096fb6605d97
+https://unifi-live01.secureswiftcontent.com/UnifiHD/live03.mpd
+#EXTINF:-1 tvg-id="DIDIKTV" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/ca/DidikTV_KPM_%282021%29.svg/revision/latest/scale-to-width-down/250?cb=20210529054804",DIDIKTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/didiktvkpm/ 
+#EXTINF:-1 tvg-logo="https://didik.tv/images/logotv2.png",DidikTV KPM
+https://aqfadtv.xyz/live/didiktvkpm/index.mpd 
+#EXTINF:-1 tvg-id="TV8" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/8TV_%28Malaysia%29_logo_in_Chinese.svg/200px-8TV_%28Malaysia%29_logo_in_Chinese.svg.png",TV8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/8tv/
+https://aqfadtv.xyz/live/8tv/index.mpd
+#EXTINF:-1 tvg-name="TV9" tvg-logo="https://i.imgur.com/smKCnNj.png" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore", TV9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/tv9/
+https://unifi-live09.secureswiftcontent.com/UnifiHD/live09.mpd
 #EXTINF:-1  tvg-id="Ch 5" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/o9WqoGe.png",CHANNEL 5 
-http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/Channel5HD/playlist.m3u8
+http://315600.xyz/a/ssmt2023.php?playurl=http://50.7.220.74:8278/Channel5HD/playlist.m3u8
 #EXTINF:-1 tvg-id="Ch 8" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/yLNUK1u.png",CHANNEL 8 
-http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/Channel8HD/playlist.m3u8
+hhttp://315600.xyz/a/ssmt2023.php?playurl=http://50.7.220.74:8278/Channel8HD/playlist.m3u8
 #EXTINF:-1 tvg-id="Ch U" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/FLuHYkL.png",CHANNEL U 
-http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/ChannelU/playlist.m3u8
+http://315600.xyz/a/ssmt2023.php?playurl=http://50.7.220.74:8278/ChannelU/playlist.m3u8
 #EXTINF:-1 tvg-id="Suria" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/uZwCfcn.png",SURIA 
-http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/Suria/playlist.m3u8
+http://315600.xyz/a/ssmt2023.php?playurl=http://50.7.220.74:8278/Suria/playlist.m3u8
 #EXTINF:-1 tvg-id="Vasantham" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://i.imgur.com/vqVEcuT.png",VASANTHAM 
-http://315600.xyz/a/smt.php?playurl=http://50.7.220.74:8278/Vasantham/playlist.m3u8
+http://315600.xyz/a/ssmt2023.php?playurl=http://50.7.220.74:8278/Vasantham/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CNA HD" tvg-logo="http://logo.protv.cc/picons/logos/CNA.jpg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",CNA HD
-http://315600.xyz/a/ssmt.php?playurl=http://50.7.220.74:8278/cna/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="HUB VVDRAMA HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-V.jpeg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",HUB VVDRAMA HD
-http://line.premiumpowers.net:80/Manuel/1234567/941651
-#EXTINF:-1 tvg-id="" tvg-name="HUB E CITY HD" tvg-logo="http://logo.protv.cc/picons/logos/HUB-V.jpeg" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore",HUB E CITY HD
-http://line.premiumpowers.net:80/Manuel/1234567/941650
+http://315600.xyz/a/ssmt2023.php?playurl=http://50.7.220.74:8278/cna/playlist.m3u8
 
 #EXTINF:0 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/TV_Kampuchea.jpg/revision/latest?cb=20170317174601", TVK
 https://livefta.malimarcdn.com/tvkedge/tvkhd.stream/chunklist.m3u8
