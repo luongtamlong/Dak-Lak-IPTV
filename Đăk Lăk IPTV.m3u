@@ -1674,8 +1674,10 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/Dewan%20Negara.jpg",Dewan Negara
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
-#EXTINF:-1 tvg-id="103" tvg-name="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/103_300.png" group-title="BASIC",TV3
-http://iptvtree.net:8080/hotbot336/a47c51f37d50/158360
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/tv3/ 
+#EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore"  tvg-id="103" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/103.png",TV3 
+https://aqfadtv.xyz/live/tv3/index.mpd
 #EXTINF:-1 tvg-id="DIDIKTV" group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/ca/DidikTV_KPM_%282021%29.svg/revision/latest/scale-to-width-down/250?cb=20210529054804",DIDIKTV
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/didiktvkpm/ 
@@ -1752,7 +1754,11 @@ http://183.89.246.119:8881/play/a07q/index.m3u8
 http://183.89.246.119:8881/play/a07u/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://i.pinimg.com/236x/63/0b/81/630b814e80a6fdad1f020e1606590c27.jpg",MWD
 http://183.89.246.119:8881/play/a07z/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/RTB_Sukmaindera.png/220px-RTB_Sukmaindera.png", RTB Sukmaindera
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/RTB_Aneka.png" group-title="ASIAN TV",RTB ANEKA 
+https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://rtb-images.glueapi.io/300x0//////live/GoLiveNew.png" group-title="ASIAN TV",RTB GO 
+https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/RTB_Sukmaindera.png" group-title="ASIAN TV",RTB SUKMAINDERA 
 https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
 #EXTINF:0 tvg-id="A2ZChannel11.ph" tvg-logo="https://i.imgur.com/hhd8QjJ.jpg" group-title="ASIAN TV", A2Z
 http://tv.trexiptv.com:80/play/live.php?mac=00:1A:79:A3:20:CF&stream=926206&extension=ts&play_token=cXu7SxVrmW
