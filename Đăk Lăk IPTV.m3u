@@ -1700,7 +1700,7 @@ https://livecdn.fptplay.net/schedule/sukien03_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="Kênh trực tiếp" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", FPT Play Event 4
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/schedule/sukien04_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Kênh trực tiếp" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_pladio_163947930147.png", FPT Play Pladio
+#EXTINF:-1 group-title="Kênh trực tiếp" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_pladio_163947930147.png", FPT Play Pladio (Video)
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://vips-livecdn.fptplay.net/hda3/pladio_4000.stream/chunklist.m3u8
 
@@ -1771,9 +1771,9 @@ http://media.kythuatvov.vn:1936/live/VOV4_CT.sdp/chunklist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/242.png", VOV4 TPHCM
 http://media.kythuatvov.vn:1936/live/VOV4_HCM.sdp/chunklist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/243.png", VOV5
-https://api.vthanhtivi.pw/v1/getlink/radio/vov5/channel5
+https://str.vov.gov.vn/vovlive/vov5.sdp_aac/playlist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/243.png", VOV5 24/7
-https://api.vthanhtivi.pw/v1/getlink/radio/vov5/channel247
+https://stream.vovmedia.vn/vov247
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/244.png", VOV Giao thông Hà Nội
 https://str.vov.gov.vn/vovlive/vovGTHN.sdp_aac/chunklist_w601606653.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/244.png", VOV Giao thông Hồ Chí Minh
@@ -1792,12 +1792,10 @@ https://strm.voh.com.vn/radio/channel5/playlist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/250.png", VOH AM 610Khz
 https://strm.voh.com.vn/radio/channel2/playlist.m3u8
 
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/251.png", Xone FM
-https://mplaylist-zmp3.zmdcdn.me/99YFw722aFg/zhls/live/855a669d5ad8b386eac9/index.m3u8
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/251.png", FPT Pladio
+https://vnso-tt-2-tf-playlist-live-zmp3.zmdcdn.me/cXNfFcggpM4/zhls/live/standard-audio/50efc937f5721c2c4563/standard-audio.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/252.png", The One Radio
 https://vnno-pt-6-tf-playlist-live-zmp3.zadn.vn/C0ti9DKXaS4/zhls/live/standard-audio/5c0872cf4e8aa7d4fe9b/standard-audio.m3u8
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2022/4/1/1029812/Anh-Chup-Man-Hinh-20.jpg", ON365 FM
-http://onsportlive.vtvcab.vn/hls/ONRADIO_CL/04.m3u8
 
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/108.png", Bà Rịa Vũng Tàu
 http://113.163.216.23:1935/live/radio1.sdp_audio/playlist.m3u8
