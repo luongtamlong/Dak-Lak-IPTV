@@ -558,7 +558,7 @@ https://vips-livecdn.fptplay.net/hda3/bbclifestyle_vhls.smil/chunklist_b5000000.
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News
-http://0.vylc.name.vn/BBCWN
+http://portal.ott.pink/watch/93/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC World News (Vietnam feed)
 https://vips-livecdn.fptplay.net/hda3/bbcnews_vhls.smil/chunklist_b5000000.m3u8
 
@@ -572,7 +572,7 @@ https://siloh.pluto.tv/lilo/production/SkyNews/master.m3u8
 #EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/216.png", Bloomberg
 https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" group-title="Quốc tế" tvg-logo="https://www.bioguardlabs.com/wp-content/uploads/2020/07/euronews.jpg", Euronews
-https://rakuten-euronews-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+http://portal.ott.pink/watch/144/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
 http://91.224.190.66:4281/bysid/5088
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC (Vietnam feed)
@@ -644,9 +644,12 @@ http://ott-cdn.ucom.am/s17/04.m3u8
 #EXTINF:-1 tvg-id="tvci" group-title="Quốc tế" tvg-logo="https://i.imgur.com/fIkd01t.png",TV Tsentr International
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
 http://ott-cdn.ucom.am/s54/04.m3u8
-#EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/BdmmHS9.png",REN TV International
+#EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/BdmmHS9.png",REN TV Intl
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
-http://ott-cdn.ucom.am/s85/04.m3u8
+http://31.40.149.157:9981/stream/channelid/2090004621?ticket=AEFBE635C81264314DFEDDF7B185A063F6FDC9BE&profile=pass
+#EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/BdmmHS9.png",Channel 5 Russia Intl
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
+http://31.40.149.157:9981/stream/channelid/43410647?ticket=21981437B20706EC2E768B743BE0354360DE2885&profile=pass
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -913,11 +916,11 @@ http://58.96.43.228:9981/stream/channelid/56429291?ticket=C47838C49F67A19D870E81
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1 HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://31.210.208.167:80/1kanal/index.m3u8?%D1%82%D0%BE%D0%BA%D0%B5%D0%BD=%D1%82%D0%B5%D1%81%D1%82
+http://31.40.149.157:9981/stream/channelid/726569041?ticket=C71EFF4AD5D4C8A7B044BC6B0B677B10722FB25D&profile=pass
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/pervy-pl4.png", OPT1 (MSK+4)
 https://cdn9.1internet.tv/dash-live12/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rossia1.png", Russia 1 HD
-http://31.210.208.167:80/russia1/index.m3u8?token=test
+http://31.40.149.157:9981/stream/channelid/231024516?ticket=8BD31238CF7AEB450A24C8EDF50165BBD050FFB8&profile=pass
 #EXTINF:-1 tvg-id="rossia1-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rossia1-pl4.png", Russia 1 (MSK+4)
 https://radio-live-mg.rtr-vesti.ru/hls/russia1_plus4/playlist_5.m3u8
 #EXTINF:-1 tvg-id="kultura" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/kultura.png", Russia K
@@ -927,7 +930,7 @@ http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
 #EXTINF:-1 tvg-id="moskva-24" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/moskva-24.png", Moscow 24 
 http://188.191.160.238:9099/channel/Moskva_24.ts
 #EXTINF:-1 tvg-id="ntv" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ntv.png", NTV HD
-http://31.210.208.167:80/ntv/index.m3u8?%D1%82%D0%BE%D0%BA%D0%B5%D0%BD=%D1%82%D0%B5%D1%81%D1%82
+http://31.40.149.157:9981/stream/channelid/1199495908?ticket=EF933AA009DCB448647BCDA8A834EB81A6F8C1C5&profile=pass
 #EXTINF:-1 tvg-id="ntv-pl4" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ntv-pl4.png", NTV (MSK+4)
 http://ntv-hls-orig.cdnvideo.ru/ntv4/index.m3u8
 #EXTINF:-1 tvg-id="otr" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/OTR_2013_logo.svg/220px-OTR_2013_logo.svg.png", OTR
@@ -943,7 +946,7 @@ http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 http://78.25.155.47:1309/channel/TVC.ts
 #EXTINF:-1 tvg-id="5kanal-ru" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/5-tv.svg/150px-5-tv.svg.png", 5TV Russia
-http://188.191.160.238:9099/channel/5_Kanal.ts
+http://31.40.149.157:9981/stream/channelid/1338962850?ticket=57B15F09C1776D626E81774FC67FAEEECE2027BB&profile=pass
 #EXTINF:-1 tvg-id="rentv" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://i.imgur.com/18TAzYV.png",REN TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 http://194.113.234.110:4011
@@ -971,14 +974,7 @@ http://ntv-hls-orig.cdnvideo.ru/th_style/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-xit.png", NTV Hit
 http://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
 #EXTINF:-1 tvg-id="h1-am" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Armenian_Public_TV_logo_%282021%29_%282%29.svg/220px-Armenian_Public_TV_logo_%282021%29_%282%29.svg.png", Armenia 1
-http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5349
-#EXTINF:-1 tvg-id="aztv" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/Az%C9%99rbaycan_Televiziya_logo.png", AzTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.is_realtime_stream=true
-http://mfe.cliptv.az/dash/AzTV_SD.ism/playlist.mpd?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/6/63/ARB_24_%282018-h.h.%29.png/100px-ARB_24_%282018-h.h.%29.png", ARB24
-http://85.132.81.184:8080/arb/live/index.m3u8?checkedby:iptvcat.com
+https://amtv1.livestreamingcdn.com/am2abr/index.m3u8
 #EXTINF:-1 tvg-id="belarus1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Belarus-1.jpg/200px-Belarus-1.jpg", Belarus 1
 http://86.57.219.146:8000/play/a070
 #EXTINF:-1 tvg-id="belarus2" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://seeklogo.com/images/B/belarus-2-logo-703A54CF7F-seeklogo.com.png", Belarus 2
@@ -1069,13 +1065,13 @@ http://myott.top/stream/DEKA6YA5JRN/435.m3u8
 #EXTINF:-1 tvg-id="ua-kyiv" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/ua-kyiv.png", UA:Kyiv
 http://portal.ott.pink/watch/7592/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="1plus1" group-title="🇺🇦 Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/1%2B1_logo.svg/200px-1%2B1_logo.svg.png", 1+1
-http://portal.ott.pink/watch/7313/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+http://portal.ott.pink/watch/45/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="1plus1" group-title="🇺🇦 Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/1%2B1_logo.svg/200px-1%2B1_logo.svg.png", 1+1 Ukraina
 http://myott.top/stream/7D4XYB2WFN/219.m3u8
 #EXTINF:-1 tvg-id="2plus2" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/2plus2.png", 2+2 HD
 http://portal.ott.pink/watch/7314/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="ua-tv" group-title="🇺🇦 Ukraine" tvg-logo="https://live-ua-tv.cosmonova.net.ua/images/offline-images/stub_ua.png", UA TV
-https://cdnua03.hls.tv/178/hls/3ce9832c48b67915e9f2769b2dfbb005/91/stream.m3u8
+http://portal.ott.pink/watch/7431/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="rada-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://imi.org.ua/upload/news/2022/01/17/1761e58cabf2b27-61e58bbd0af8d-12_crop_700x350.jpg?v=1643636504", Rada
 http://portal.ott.pink/watch/7418/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="ictv-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/ICTV_logo_2017.jpg/800px-ICTV_logo_2017.jpg", ICTV HD
