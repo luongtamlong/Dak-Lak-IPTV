@@ -47,16 +47,16 @@ https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/8.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v2/dvr/mytv/212/hd/dvr-${start}-${end}.m3u8", VTV Cần Thơ
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda1/vtvcantho_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/1.png", VTV1 (Độ trễ thấp)
-http://live.vthanhtivi.pw/vtv1
-#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/2.png", VTV2 (Độ trễ thấp)
-
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3 (Độ trễ thấp)
-http://live.vthanhtivi.pw/vtv3
-#EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/5.png", VTV5 (Độ trễ thấp)
-http://live.vthanhtivi.pw/vtv5
-#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/8.png", VTV Cần Thơ (Độ trễ thấp)
-http://live.vthanhtivi.pw/vtvct
+#EXTINF:-1 tvg-id="vtv1hd" group-title=" VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/1.png", VTV1 (Độ trễ thấp)
+http://vn2.vietanhtv.pw:8081/vtv1
+#EXTINF:-1 tvg-id="vtv2hd" group-title=" VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/2.png", VTV2 (Độ trễ thấp)
+http://vn2.vietanhtv.pw:8081/vtv2
+#EXTINF:-1 tvg-id="vtv3hd" group-title=" VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3 (Độ trễ thấp)
+http://vn2.vietanhtv.pw:8081/vtv3
+#EXTINF:-1 tvg-id="vtv5hd" group-title=" VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/5.png", VTV5 (Độ trễ thấp)
+http://vn2.vietanhtv.pw:8081/vtv5
+#EXTINF:-1 tvg-id="vtv6hd" group-title=" VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/8.png", VTV Cần Thơ (Độ trễ thấp)
+http://vn2.vietanhtv.pw:8081/vtvcantho
 
 #-*--VTVCAB-*--#
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/12.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v2/dvr/vieon/vie-giai-tri-hd/${start}/${offset}",  VTVcab 1 - Vie Giải trí HD
@@ -1458,8 +1458,10 @@ https://playlist.vthanhtivi.pw/jptv/-uV8jOhgHBRuuEMBdU0Yig==/460ad11e7e83c325e84
 https://playlist.vthanhtivi.pw/jptv/thRBrsQy5LgM0YhR7EJudg==/460ad11e7e83c325e846862a08e1e1848a647311.m3u8
 
 
-#EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",Korean Central Television (KCTV) (576p)
+#EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KCTV SD
 https://tv.nknews.org/tvdash/stream.mpd
+#EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KCTV HD
+http://gg.gg/kcnatv
 #EXTINF:-1 tvg-id="KBS1TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/440px-KBS_1_logo.svg.png", KBS 1
 https://api.vthanhtivi.pw/qt/kbs.php?id=11
 #EXTINF:-1 tvg-id="KBS2TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/1200px-KBS_2_logo.svg.png", KBS 2
