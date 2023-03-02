@@ -1685,94 +1685,66 @@ https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.m
 #EXTINF:-1 group-title="🇲🇾🇸🇬| Kênh Malaysia và Singapore" tvg-id="1007"  tvg-logo="https://static.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3350553'&EntityType='Item'&EntityId='229212'&Width=237&Height=237&ImageUrl='3350553.jpg'&device='web_browser'&subscriptions='Registered'&segmentationTags='_en,all'&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",meWATCH LIVE 2
 https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
 
-#EXTINF:0 group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/TV_Kampuchea.jpg/revision/latest?cb=20170317174601", TVK
-https://livefta.malimarcdn.com/tvkedge/tvkhd.stream/chunklist.m3u8
-#EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/nCPKFtV/tvk2-BEARTV.jpg", TVK 2
+#EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/TV_Kampuchea.jpg/revision/latest?cb=20170317174601", TVK
+http://203.176.130.123:8989/live/tvk_480k.stream/chunklist_w821904710.m3u8
+#EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/nCPKFtV/tvk2-BEARTV.jpg", TVK 2
 https://livefta.malimarcdn.com/tvkedge/tvk2.stream/chunklist.m3u8
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/zG1DTmj/BTVNews-BEARTV.png", BTV News
-https://livefta.malimarcdn.com/tvkedge/btv.stream/chunklist.m3u8
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/84/Bayon_tv.png/revision/latest?cb=20191209085913", Bayon TV
-https://livefta.malimarcdn.com/tvkedge/bayonhd.stream/chunklist.m3u8
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/n1dGjWL/HMHDTV-BEARTV.png", Hangmeas TV
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/n1dGjWL/HMHDTV-BEARTV.png", Hangmeas TV
 http://167.99.72.244:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/chunklist_w998573077_b1800000_sleng.m3u8
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/n8097VD/RHM-HDTV-BEARTV.png", Rasmey Hang Meas HDTV
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/n8097VD/RHM-HDTV-BEARTV.png", Rasmey Hang Meas HDTV
 http://167.99.72.244:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/chunklist_w58865286_b1800000_sleng.m3u8
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/x5RHGWx/Town-HD-BEARTV.png", Town HD TV
-http://code.television4you.xyz/khmerpress.php?id=ទូរទស្សន៍ថោន
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="http://cambodia.mom-gmr.org/uploads/tx_lfrogmom/media/13-400_import.png", MY TV
-http://code.television4you.xyz/khmerpress.php?id=ម៉ាយធីវី
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://cambodia.mom-gmr.org/uploads/tx_lfrogmom/media/11-400_import.png", CTN
-http://code.television4you.xyz/khmerpress.php?id=ស៊ីធីអិន
-#EXTINF:0 group-title="ASIAN TV" tvg-logo="http://cnc.com.kh/img/logo.jpg", CNC
-http://code.television4you.xyz/khmerpress.php?id=ស៊ីអិនស៊ី
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/51/Lntv1logo.png/revision/latest/scale-to-width-down/250?cb=20170730160139", LNTV 1
-http://code.television4you.xyz/khmerpress.php?id=lao-national-tv-1
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f8/Lntv3.png/revision/latest?cb=20170730164812", LNTV 3
-http://code.television4you.xyz/khmerpress.php?id=lao-national-tv-3
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/Lao_star_channel.png/revision/latest?cb=20191209083043", Lao Star TV
-http://code.television4you.xyz/khmerpress.php?id=lao-star-tv
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://vte9.com/wp-content/uploads/2022/02/cropped-cropped-Logo_VTE92.png", VTE9
-http://code.television4you.xyz/khmerpress.php?id=vte9
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_MITV.png/220px-Logo_of_MITV.png",MITV
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_MITV.png/220px-Logo_of_MITV.png",MITV
 http://183.89.246.119:8881/play/a07r/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Myanmar_National_TV_Logo.jpg/220px-Myanmar_National_TV_Logo.jpg",MNTV
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Myanmar_National_TV_Logo.jpg/220px-Myanmar_National_TV_Logo.jpg",MNTV
 http://183.89.246.119:8881/play/a07x/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Entertainment
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Entertainment
 http://183.89.246.119:8881/play/a07t/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Farmer
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Farmer
 http://183.89.246.119:8881/play/a07p/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV HD 
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV HD 
 http://183.89.246.119:8881/play/a07l/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Hluttaw
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Hluttaw
 http://183.89.246.119:8881/play/a07n/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV NEWS HD
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV NEWS HD
 http://183.89.246.119:8881/play/a07m/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV NRC
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV NRC
 http://183.89.246.119:8881/play/a07o/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Sport
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Sport
 http://183.89.246.119:8881/play/a07q/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e1/MRTV-4.png/revision/latest/scale-to-width-down/414?cb=20220604135321",MRTV-4
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e1/MRTV-4.png/revision/latest/scale-to-width-down/414?cb=20220604135321",MRTV-4
 http://183.89.246.119:8881/play/a07u/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ASIAN TV" tvg-logo="https://i.pinimg.com/236x/63/0b/81/630b814e80a6fdad1f020e1606590c27.jpg",MWD
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.pinimg.com/236x/63/0b/81/630b814e80a6fdad1f020e1606590c27.jpg",MWD
 http://183.89.246.119:8881/play/a07z/index.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/RTB_Aneka.png" group-title="ASIAN TV",RTB ANEKA 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/RTB_Aneka.png" group-title="ĐÔNG NAM Á TV",RTB ANEKA 
 https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://rtb-images.glueapi.io/300x0//////live/GoLiveNew.png" group-title="ASIAN TV",RTB GO 
+#EXTINF:-1 tvg-logo="https://rtb-images.glueapi.io/300x0//////live/GoLiveNew.png" group-title="ĐÔNG NAM Á TV",RTB GO 
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/RTB_Sukmaindera.png" group-title="ASIAN TV",RTB SUKMAINDERA 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/RTB_Sukmaindera.png" group-title="ĐÔNG NAM Á TV",RTB SUKMAINDERA 
 https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
-#EXTINF:0 tvg-id="A2ZChannel11.ph" tvg-logo="https://i.imgur.com/hhd8QjJ.jpg" group-title="ASIAN TV", A2Z
+#EXTINF:0 tvg-id="A2ZChannel11.ph" tvg-logo="https://i.imgur.com/hhd8QjJ.jpg" group-title="ĐÔNG NAM Á TV", A2Z
 http://tv.trexiptv.com:80/play/live.php?mac=00:1A:79:A3:20:CF&stream=926206&extension=ts&play_token=cXu7SxVrmW
-#EXTINF:0 tvg-id="KapamilyaChannel.ph" tvg-logo="https://i.imgur.com/K5eEqKz.jpg" group-title="ASIAN TV", KAPAMILYA CHANNEL ONLINE
+#EXTINF:0 tvg-id="KapamilyaChannel.ph" tvg-logo="https://i.imgur.com/K5eEqKz.jpg" group-title="ĐÔNG NAM Á TV", KAPAMILYA CHANNEL ONLINE
 https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-kapcha/CDN/playlist.m3u8
-#EXTINF:0 tvg-id="TV5.ph" tvg-logo="https://i.imgur.com/F9u7gsQ.jpg" group-title="ASIAN TV",IBA SA 5
+#EXTINF:0 tvg-id="TV5.ph" tvg-logo="https://i.imgur.com/F9u7gsQ.jpg" group-title="ĐÔNG NAM Á TV",IBA SA 5
 http://103.105.213.251:8443/live/RX5KlkfmIvgPs3YnbTPDcw/1661926854/8.m3u8
-#EXTINF:-1 tvg-id="GMATV.ph"  tvg-logo="https://i.imgur.com/orZGgot.jpg" group-title="ASIAN TV",GMA 7
+#EXTINF:-1 tvg-id="GMATV.ph"  tvg-logo="https://i.imgur.com/orZGgot.jpg" group-title="ĐÔNG NAM Á TV",GMA 7
 http://103.152.216.26:8443/live/tqEVVXoPJJ2jH5AJnXi3WA/1669027013/101.m3u8
-#EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-logo="https://i.imgur.com/8d2CJkg.jpg" group-title="ASIAN TV",KAPATID 5
+#EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-logo="https://i.imgur.com/8d2CJkg.jpg" group-title="ĐÔNG NAM Á TV",KAPATID 5
 http://ss123.pro:80/play/live.php?mac=00:1A:79:A3:20:CF&stream=223020&extension=ts&play_token=aYo6dJ41Wp
-#EXTINF:-1, tvg-id="PilipinasHD.ph" tvg-logo="https://i.imgur.com/k7sbIa1.jpg" group-title="ASIAN TV", PILIPINAS HD
+#EXTINF:-1, tvg-id="PilipinasHD.ph" tvg-logo="https://i.imgur.com/k7sbIa1.jpg" group-title="ĐÔNG NAM Á TV", PILIPINAS HD
 https://d3cbe0gidjd4k2.cloudfront.net/channel_5/smil:channel_5.smil/chunklist_w612733615_b300000_sleng.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/z9ZTaTB.jpg" group-title="ASIAN TV",GTV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z9ZTaTB.jpg" group-title="ĐÔNG NAM Á TV",GTV
 http://ss123.pro:80/play/live.php?mac=00:1A:79:A3:20:CF&stream=223025&extension=ts&play_token=l3wPiGT8Dx
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gXI3ma7.jpg" group-title="ASIAN TV",ONE PH
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gXI3ma7.jpg" group-title="ĐÔNG NAM Á TV",ONE PH
 http://103.152.216.26:8443/live/tqEVVXoPJJ2jH5AJnXi3WA/1669027013/162.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/I106q2t.jpg" group-title="ASIAN TV",SUPER RADYO DZBB
+#EXTINF:-1 tvg-logo="https://i.imgur.com/I106q2t.jpg" group-title="ĐÔNG NAM Á TV",SUPER RADYO DZBB
 http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106
-#EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/k4WZXFv/TVRI-BEARTV.png", TVRI
+#EXTINF:0 group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/k4WZXFv/TVRI-BEARTV.png", TVRI
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)/Stream(04)/index.m3u8
-#EXTINF:0 group-title="ASIAN TV" tvg-logo="https://i.ibb.co/WWrSQT9/TVRI-Sport-HD-BEARTV.png", TVRI SPORT
+#EXTINF:0 group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/WWrSQT9/TVRI-Sport-HD-BEARTV.png", TVRI SPORT
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
-#EXTINF:0 group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1200px-Indosiar_2015.svg.png", Indosiar
+#EXTINF:0 group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1200px-Indosiar_2015.svg.png", Indosiar
 http://playlist.urfan.web.id/qwr9ew/s/s04/01.m3u8
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://i.postimg.cc/zXLh0rWm/RCTI.png",RCTI 
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-https://liveanevia.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
-#EXTINF:-1 group-title="ASIAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/MNCTV_MNC-Group.png",MNC TV HD
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YWY0OTBlZjEtODAyNC0zZTA0LWFhYzMtY2ZmMGE4NjVjZjU1
-https://liveanevia.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
 
 
 
