@@ -686,11 +686,11 @@ http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8|user-agent="RTP-Play"
+http://210.210.155.37/qwr9ew/s/s38/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 http://210.210.155.37/uq2663/h/h158/index2.m3u8
 #EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
-http://5.254.16.186/TVPPolonia/index.m3u8
+http://nowatv.stream2.link:8080/play/live.php?mac=00:1A:79:49:4f:5b&stream=19&extension=ts&play_token=hQn1bHZhnZ
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
 http://212.28.87.173:8000/play/a108/index.m3u8
 #EXTINF:-1 tvg-id="inter-plus-ua" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/TVR_i_2022_logo.png", TVR International
@@ -1048,26 +1048,28 @@ http://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
 #EXTINF:-1 tvg-id="h1-am" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Armenian_Public_TV_logo_%282021%29_%282%29.svg/220px-Armenian_Public_TV_logo_%282021%29_%282%29.svg.png", Armenia 1
 https://amtv1.livestreamingcdn.com/am2abr/index.m3u8
 #EXTINF:-1 tvg-id="belarus1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Belarus-1.jpg/200px-Belarus-1.jpg", Belarus 1
-http://37.17.12.124:8901/play/a003#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
+http://37.17.12.124:8901/play/a003
 #EXTINF:-1 tvg-id="belarus2" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://seeklogo.com/images/B/belarus-2-logo-703A54CF7F-seeklogo.com.png", Belarus 2
-http://37.17.12.124:8901/play/a004#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 tvg-id="belarus3" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/belarus3hd.png", Belarus 3
-http://37.17.12.124:8901/play/a005#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/belarus4.png", Belarus 4
+http://37.17.12.124:8901/play/a004
+#EXTINF:-1 tvg-id="belarus3" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus3.png", Belarus 3
+http://37.17.12.124:8901/play/a005
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 4
 https://flu.vtv.by/bt4-non-by/index.m3u8
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 5
+http://rn2yfxko.tvclub.xyz/iptv/ZWYUW9CXCYH4ZV/5060/index.m3u8
 #EXTINF:-1 tvg-id="belarus24" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Belarus_24.svg/revision/latest/scale-to-width-down/200?cb=20191008123534", Belarus 24
-http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
-#EXTINF:-1 tvg-id="stv-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/stv-by.png", STV
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/index.m3u8
+#EXTINF:-1 tvg-id="stv-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/stv-by4.png", STV
 http://80.94.225.126:8080/STV/mono.m3u8
-#EXTINF:-1 tvg-id="ont-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ont-by.png", ONT
+#EXTINF:-1 tvg-id="ont-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/nt-by.png", ONT
 http://37.17.12.124:8901/play/a006
-#EXTINF:-1 tvg-id="no_epg_news" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ont-by.png", ONT Internet
+#EXTINF:-1 tvg-id="no_epg_news" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ont-by.png", ONT Internet
 https://ont.dc.beltelecom.by/ont/ont/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-belarus.png", NTV-Belarus
+#EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ntv-belarus.png", NTV-Belarus
 http://37.17.12.124:8901/play/a007
-#EXTINF:-1 tvg-id="rtr-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/rtr-belarus.png", RTR-Belarus
+#EXTINF:-1 tvg-id="rtr-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus
 http://37.17.12.124:8901/play/a008
-#EXTINF:-1 tvg-id="tro" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/belros.png", BelRos
+#EXTINF:-1 tvg-id="tro" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belros.png", BelRos
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 tvg-id="kazakh-tv" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Kazakh_TV_Logo.png/220px-Kazakh_TV_Logo.png", Qazaq TV
 https://kzkhtv.ultraiptv.com/kzkhtv/master.m3u8
