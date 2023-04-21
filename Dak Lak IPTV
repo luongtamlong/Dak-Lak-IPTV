@@ -183,7 +183,7 @@ https://api.vthanhtivi.pw/v2/getlink/vieon/vtc16-hd/playlist.m3u8
 ##EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/49/HTV1_logo_2020.png/revision/latest/scale-to-width-down/200?cb=20220223030247&path-prefix=vi", HTV1 HD
 https://api.anttv.xyz/get/htv/2631/playlist.m3u8
 #EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://i.ibb.co/7rt7fRS/htv2.png", HTV2 HD
-https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/mytv/127/hd.m3u8
 #EXTINF:-1 tvg-id="htv3" group-title="HTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/7f/HTV3_logo_2018-nay.png/revision/latest?cb=20211211011348&path-prefix=vi", HTV3
 #EXTVLCOPT:http-user-agent=Thanhan
 https://code.vthanhtivi.pw/getlink/mytv/110/auto.m3u8
@@ -288,35 +288,7 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv22/s1/index.m3u8?kiptv|Referer
 https://s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v1/e1.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/s1/index.m3u8?kiptv|Referer=http://sctvonline.vn/
 
 #-*--Kẹo-*--#
-#EXTINF:-1 tvg-id="kcinehd" group-title="Bánh kẹo" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-kcine-hd.png",K+ Cine
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZmQ1ZDE0NzItNDJjZi0zNTY2LWE5NTgtNDZmNDY2MzQxNDgy
-http://vas-mobiletv1.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv339&offset=1&nodelay=1
 
-#EXTINF:-1 tvg-id="klifehd" group-title="Bánh kẹo" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-klife-hd.png",K+ Life
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZmQ1ZDE0NzItNDJjZi0zNTY2LWE5NTgtNDZmNDY2MzQxNDgy
-http://vas-mobiletv2.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv340&offset=1&nodelay=1
-
-#EXTINF:-1 tvg-id="ksport1hd" group-title="Bánh kẹo" logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport1-hd.png",K+ SPORT1
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZmQ1ZDE0NzItNDJjZi0zNTY2LWE5NTgtNDZmNDY2MzQxNDgy
-http://vas-mobiletv3.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
-
-#EXTINF:-1 tvg-id="ksport2hd" group-title="Bánh kẹo" tvg-logo="https://ad.kplus.vn/cdn/content/upload/1/root/logo-k-sport2-hd.png",K+ SPORT2
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZmQ1ZDE0NzItNDJjZi0zNTY2LWE5NTgtNDZmNDY2MzQxNDgy
-http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
 
 #-*--Thiết yếu-*--#
 #EXTINF:-1 tvg-id="antvhd" group-title="Kênh Thiết yếu" tvg-logo="https://cdn.hqth.me/logo/thumbs/90.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", ANTV HD
@@ -1398,20 +1370,18 @@ https://code.vthanhtivi.pw/getlink/jptv/xPyiMHfxozuDu6vNznDdXA==/playlist.m3u8
 https://code.vthanhtivi.pw/getlink/jptv/wZWk8tf5_mxogAG-EV6zIA==/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KCTV SD
+#EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KCTV
 https://tv.nknews.org/tvdash/stream.mpd
-#EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KCTV HD
-
 #EXTINF:-1 tvg-id="KBS1TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/440px-KBS_1_logo.svg.png", KBS 1
-https://api.vthanhtivi.pw/qt/kbs.php?id=11
+http://gg.gg/Ha_Noi_IPTV_Plus_3-KBS1_HD-Tong_hop_Quoc_gia
 #EXTINF:-1 tvg-id="KBS2TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/1200px-KBS_2_logo.svg.png", KBS 2
-https://api.vthanhtivi.pw/qt/kbs.php?id=12
+http://gg.gg/Ha_Noi_IPTV_1-KBS2_HD-Giai_tri_Quoc_gia
 #EXTINF:-1 tvg-id="MBCTV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/2560px-Munhwa_Broadcasting_Company.svg.png", MBC
-http://c11.kr/wc5u
+http://49.167.236.190:9981/stream/channelid/21?
 #EXTINF:-1 tvg-id="JTBC.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://6.vikiplatform.com/image/dd32095cfb9e46ab8358b31792e1e8f9.png?x=b&s=843x474&q=h&cb=1", JTBC
-http://221.167.205.241:9981/stream/channelid/71
+http://49.167.236.190:9981/stream/channelid/37
 #EXTINF:-1 tvg-id="SBSTV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/640px-SBS_Korea_Logo_%28Word_Only%29.svg.png", SBS
-https://api.vthanhtivi.pw/qt/sbs.php?id=S01
+http://gg.gg/Ha_Noi_IPTV_2-SBS_HD-Truyen_hinh_Thu_do
 #EXTINF:-1 tvg-id="EBS1TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/1200px-EBS_1TV_Logo.svg.png", EBS 1
 http://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBS2TV.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/EBS_2_logo.svg/2560px-EBS_2_logo.svg.png", EBS 2
@@ -1425,9 +1395,9 @@ http://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBSEnglish.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://obj-kr.thewiki.kr/data/4542535f456e676c6973682e706e67.png", EBS E
 http://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="Mnet.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/95/Mnet.png", MNet
-http://221.167.205.241:9981/stream/channelid/83
+http://49.167.236.190:9981/stream/channelid/49?ticket=239A5E3B967C4A6B4BE6A356256F8BAEACB9629A
 #EXTINF:-1 tvg-id="tvN.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1200px-Logo_tvN.svg.png", tvN
-http://221.167.205.241:9981/stream/channelid/78
+http://49.167.236.190:9981/stream/channelid/38?ticket=00E54AFB5DE58970EA39E8AB8C05C7E62C8CDCCD
 #EXTINF:-1 tvg-id="Aniplus.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Aniplus_logo.svg/800px-Aniplus_logo.svg.png", Aniplus
 https://sjva.soa1.duckdns.org/klive/api/url.m3u8?m=url&s=seezn&i=217&q=default
 #EXTINF:-1 tvg-id="Animax.kr" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên" tvg-logo="https://cdn.hqth.me/logo/198.png", Animax
