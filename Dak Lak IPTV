@@ -685,7 +685,7 @@ https://s7772.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
 #EXTINF:-1 tvg-id="cbeebies" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/212.png", BBC Cbeebies
 https://code.vthanhtivi.pw/getlink/mytv/525/hd.m3u8
 #EXTINF:-1 tvg-id="cbeebies" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/212.png", BBC Entertainment
-http://obsfullhd.tv:25461/@pabloiptv/VCwNMdgUK572/1384
+http://84.91.204.231:9981/stream/channelid/1208860177?profile=pass
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
 http://m3u8.ott.blue/watch/93/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News (Vietnam feed)
@@ -707,12 +707,12 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/abc/index.m3u8?kiptvkiptv|Referer=http
 https://s7768.cdn.mytvnet.vn/pkg20/live_dzones/bloomberg.smil/manifest.mpd
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
 #EXTVLCOPT:http-user-agent=VThanhTivi
-http://ott-cdn.ucom.am/s65/index.m3u8
+http://84.91.204.231:9981/stream/channelid/665722927?profile=pass
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC (Vietnam feed)
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://subs-livecdn.fptplay.net/sdb/cnbc_2000.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://obsfullhd.tv:25461/@pabloiptv/VCwNMdgUK572/1342
+http://84.91.204.231:9981/stream/channelid/1760441632?profile=pass
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN (Vietnam feed)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -766,6 +766,10 @@ https://live1.presstv.ir/live/presstv.m3u8
 http://91.224.190.66:4243/bysid/52119
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://media.glassdoor.com/sqll/1026196/telesur-squarelogo-1584646341590.png", Telesur English
 https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="http://gg.gg/telemundo_pattv", Telemundo
+http://190.119.178.46:8000/play/a095/index.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="http://gg.gg/14554e", Las Estrellas
+http://190.119.178.46:8000/play/a0eb/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/200px-Rai_Italia_-_Logo_2017.svg.png" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
 http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
