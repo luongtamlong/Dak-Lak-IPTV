@@ -2614,13 +2614,15 @@ https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/241.png", VOV3
 https://str.vov.gov.vn/vovlive/vov3.sdp_aac/playlist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/242.png", VOV4 Tây Bắc
-http://media.kythuatvov.vn:1936/live/VOV4_TB.sdp/chunklist.m3u8
+https://stream.vovmedia.vn/vov4tb
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/242.png", VOV4 Đông Bắc
+https://stream.vovmedia.vn/vov4db
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/242.png", VOV4 Tây Nguyên
-http://media.kythuatvov.vn:1936/live/VOV4_TN.sdp/chunklist.m3u8
+https://str.vov.gov.vn/vovlive/vov4.TayNguyen.sdp_aac/playlist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/242.png", VOV4 ĐBSCL
-http://media.kythuatvov.vn:1936/live/VOV4_CT.sdp/chunklist.m3u8
+https://stream.vovmedia.vn/vov4dbscl
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/242.png", VOV4 TPHCM
-http://media.kythuatvov.vn:1936/live/VOV4_HCM.sdp/chunklist.m3u8
+https://stream.vovmedia.vn/vov4hcm
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/243.png", VOV5
 https://str.vov.gov.vn/vovlive/vov5.sdp_aac/playlist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/243.png", VOV5 24/7
@@ -2632,7 +2634,7 @@ https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/chunklist_w1213978008.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/245.png", VOVGT Mekong
 https://str.vov.gov.vn/vovlive/vovgtMeKong.sdp_aac/chunklist_w1338501805.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/246.png", VOV Sức khỏe 89
-http://media.kythuatvov.vn:7021/;stream/
+https://stream.vovmedia.vn/fm89
 
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/247.png", VOH FM 99.9Mhz
 https://strm.voh.com.vn/radio/channel3/playlist.m3u8
@@ -2643,9 +2645,10 @@ https://strm.voh.com.vn/radio/channel5/playlist.m3u8
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/250.png", VOH AM 610Khz
 https://strm.voh.com.vn/radio/channel2/playlist.m3u8
 
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/252.png", The One Radio
-https://vnno-pt-6-tf-playlist-live-zmp3.zadn.vn/C0ti9DKXaS4/zhls/live/standard-audio/5c0872cf4e8aa7d4fe9b/standard-audio.m3u8
-
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://mixbox.live/assets/img/mixbox_white.ac549d2.png", Mixbox Live Jpop
+https://code.vthanhtivi.pw/getlink/radio/mixbox/playlist.m3u8
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/9/b/3/6/9b360620bb90cd4d5bb9ea4fda45d946.jpg", Xone Radio
+https://multi-playlist-zmp3.zmdcdn.me/Ce5_Z5JFx2c/zhls/playback-realtime/f9a40e7c3239db678228/index.m3u8
 
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/108.png", Bà Rịa Vũng Tàu
 http://113.163.216.23:1935/live/radio1.sdp_audio/playlist.m3u8
@@ -2823,8 +2826,24 @@ http://live-radio01.mediahubaustralia.com/PBW/aac/
 https://ais-nzme.streamguys1.com/nz_002_aac
 #EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CRI China Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Radio_China_International.svg/220px-Radio_China_International.svg.png" radio="true" group-title="📻| Radio",CRI China Plus
 http://sk.cri.cn/am846.m3u8
-#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR1" tvg-logo="https://pic.qtfm.cn/sso/198/1631523942979_3Kp24fIif.jpeg" radio="true" group-title="📻| Radio",CNR1
+#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR1 NEWS" tvg-logo="https://pic.qtfm.cn/sso/198/1631523942979_3Kp24fIif.jpeg" radio="true" group-title="📻| Radio",CNR-1 News Radio
 https://lhttp.qtfm.cn/live/20212428/64k.mp3
+#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR2 BUSINESS" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191227/1577439539975.png" radio="true" group-title="📻| Radio",CNR-2 Business Radio
+http://ngcdn002.cnr.cn/live/jjzs/index.m3u8
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191224/1577155745280.png",CNR-3 Music Radio
+http://ngcdn003.cnr.cn/live/yyzs/index.m3u8
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20200108/1578449381052.png",CNR-4 Golden Radio
+http://ngcdn004.cnr.cn/live/dszs/index.m3u8
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="http://www.radio.cn/img/default/2014/9/18/1411025614670.jpg",CNR-5 Cross-Strait Radio
+http://ngcdn005.cnr.cn/live/zhzs/index.m3u8
+#EXTINF:-1 group-title="📻| Radio" tvg-logo="http://www.radio.cn/img/default/2014/9/18/1411025635405.jpg",CNR-6 Shenzhou Easy Radio
+http://ngcdn006.cnr.cn/live/szzs/index.m3u8
+#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR7" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20190830/1567159925260.pngg" radio="true" group-title="📻| Radio",CNR-7 Radio The Greater Bay
+http://ngcdn007.cnr.cn/live/hxzs/index.m3u8
+#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR14" tvg-logo="https://pic.qtfm.cn/sso/198/1631523942979_3Kp24fIif.jpeg" radio="true" group-title="📻| Radio",CNR Hong Kong Service
+http://ngcdn008.cnr.cn/live/xgzs/index.m3u8
+#EXTINF:-1 1 tvg-chno="287" tvg-id="france24eng" group-title="📻| Radio" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/media/1100/20200528/1590662120265.jpg",CRI Voice of South China Sea
+http://sk.cri.cn/nhzs.m3u8
 #EXTINF:-1 tvg-chno="288" tvg-id="france24eng" tvg-name="RTHK Radio 1" tvg-logo="https://dpi4fupzvxbqq.cloudfront.net/rfm/uploads/rlogo/300/300_1472016960.png" radio="true" group-title="📻| Radio",RTHK Radio 1
 https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8
 #EXTINF:-1 tvg-chno="289" tvg-id="france24eng" tvg-name="RTHK Radio 2" tvg-logo="https://uk.radio.net/images/broadcasts/f7/1a/35978/1/c300.png" radio="true" group-title="📻| Radio",RTHK Radio 2
@@ -2839,3 +2858,4 @@ https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/index_56_a-p.m3u8
 https://rfahls-i.akamaihd.net/hls/live/226233/RFALive_2/index.m3u8
 #EXTINF:-1 tvg-chno="292" tvg-id="france24eng" tvg-name="RFI Tiếng Việt" tvg-logo="https://cdn-profiles.tunein.com/s209673/images/logod.png" radio="true" group-title="📻| Radio",RFI Tiếng Việt
 https://rfivietnamien96k.ice.infomaniak.ch/rfivietnamien-96k.mp3
+
