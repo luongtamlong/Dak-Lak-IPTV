@@ -1176,42 +1176,44 @@ http://live.aptvapp.com/sxg.php?id=zjwsH265_4000
 
 
 
-#EXTINF:-1 tvg-id="31" tvg-name="港台電視31" tvg-logo="https://www.hklive.tv/png_logo/31.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK 31
-http://stream.hkanime.live/raw/31.ts?token=MMVgK1fFP8TBYlP14ce3Kg&expires=1728374005
-#EXTINF:-1 tvg-id="32" tvg-name="港台電視32" tvg-logo="https://www.hklive.tv/png_logo/32.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK 32
-http://stream.hkanime.live/raw/32.ts?token=fuDwYVfYHnIwVR0X8G08Gg&expires=1728374005
-#EXTINF:-1 tvg-id="33" tvg-name="港台電視33" tvg-logo="https://www.hklive.tv/png_logo/33.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",RTHK 33
-http://stream.hkanime.live/raw/33.ts?token=1U9AGQkTcD-d8GT2rHxxDA&expires=1728374005
-#EXTINF:-1 tvg-id="34" tvg-name="CGTN紀錄頻道" tvg-logo="https://www.hklive.tv/png_logo/34.png" group-title="[RTHK] 香港電台",RTHK 34
-http://stream.hkanime.live/raw/34.ts?token=722xy8wh8I5Ey3KiXqKLdQ&expires=1728374005
-#EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://www.hklive.tv/png_logo/77.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",HOY TV
-http://stream.hkanime.live/raw/77.ts?token=vY_sVRT1J76HKyVdVlJDQQ&expires=1728374005
-#EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://www.hklive.tv/png_logo/78.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",HOY Infotainment
-http://stream.hkanime.live/raw/78.ts?token=O_cS_zrYCU6Eq7HcZSqsmA&expires=1728374005
-#EXTINF:-1 tvg-id="76" tvg-name="香港國際財經台" tvg-logo="https://www.hklive.tv/png_logo/76.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",HKIBC
-http://stream.hkanime.live/raw/76.ts?token=4mK8W62HQlZDZ3AFwvdF8A&expires=1728374005
-#EXTINF:-1 tvg-id="81" tvg-name="翡翠台" tvg-logo="https://www.hklive.tv/png_logo/81.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade
-http://stream.hkanime.live/raw/81.ts?token=T5wyJWGraAw3LWoQBhsT1Q&expires=1728374005
-#EXTINF:-1 tvg-id="82" tvg-name="J2台" tvg-logo="https://www.hklive.tv/png_logo/82.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB J2
-http://stream.hkanime.live/raw/82.ts?token=9cFRIK4mZGPv1jeAfbI6Ow&expires=1728374005
-#EXTINF:-1 tvg-id="83" tvg-name="無綫新聞台" tvg-logo="https://www.hklive.tv/png_logo/83.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News Channel
-http://stream.hkanime.live/raw/83.ts?token=HCBicLFcRAGk0AtJOrRhFA&expires=1728374005
-#EXTINF:-1 tvg-id="84" tvg-name="明珠台" tvg-logo="https://www.hklive.tv/png_logo/84.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl
-http://stream.hkanime.live/raw/84.ts?token=mZcA-2Y8_5UtLEu1KqFqfA&expires=1728374005
-#EXTINF:-1 tvg-id="85" tvg-name="無綫財經·資訊台" tvg-logo="https://www.hklive.tv/png_logo/85.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Finance-Sport-Info Channel
-http://stream.hkanime.live/raw/85.ts?token=qbdnAx4KNV4sezypPZ3QLA&expires=1728374005
+
+#EXTINF:-1 tvg-id="31" tvg-name="港台電視31" tvg-logo="https://www.hklive.tv/png_logo/31.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" ,RTHK 31
+http://stream.hkanime.live/hls/31/index.m3u8?token=xz6tD5gLWt-y_OKdi_Th6A&expires=1728374196
+#EXTINF:-1 tvg-id="32" tvg-name="港台電視32" tvg-logo="https://www.hklive.tv/png_logo/32.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" ,RTHK 32
+http://stream.hkanime.live/hls/32/index.m3u8?token=G24_uaniII54iQQJUvbeZA&expires=1728374196
+#EXTINF:-1 tvg-id="33" tvg-name="港台電視33" tvg-logo="https://www.hklive.tv/png_logo/33.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" ,RTHK 33
+http://stream.hkanime.live/hls/33/index.m3u8?token=hazVHzTmDN0TdiLDpclfRA&expires=1728374196
+#EXTINF:-1 tvg-id="34" tvg-name="CGTN紀錄頻道" tvg-logo="https://www.hklive.tv/png_logo/34.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" ,RTHK 34
+http://stream.hkanime.live/hls/34/index.m3u8?token=SGUk1Z-8m-RutGsaC1AfRw&expires=1728374196
+#EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://www.hklive.tv/png_logo/77.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" ,HOY TV
+http://stream.hkanime.live/hls/77/index.m3u8?token=VHDrbGkYfrx57n2vschaBA&expires=1728374196
+#EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://www.hklive.tv/png_logo/78.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" ,HOY TV INFO
+http://stream.hkanime.live/hls/78/index.m3u8?token=ZSpfbQoeLPpLF12ZO-0qrA&expires=1728374196
+#EXTINF:-1 tvg-id="76" tvg-name="香港國際財經台" tvg-logo="https://www.hklive.tv/png_logo/76.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" ,HKIBC
+http://stream.hkanime.live/hls/76/index.m3u8?token=zo4juKLhH-Wy0BlLkwbHMQ&expires=1728374196
+#EXTINF:-1 tvg-id="81" tvg-name="翡翠台" tvg-logo="https://www.hklive.tv/png_logo/81.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan", TVB Jade
+http://stream.hkanime.live/hls/81/index.m3u8?token=WyeXVrS8pQ5UzvkRzolxoQ&expires=1728374196
+#EXTINF:-1 tvg-id="82" tvg-name="J2台" tvg-logo="https://www.hklive.tv/png_logo/82.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan", TVB J2
+http://stream.hkanime.live/hls/82/index.m3u8?token=FKK81gICekPgkbpWUmxc6A&expires=1728374196
+#EXTINF:-1 tvg-id="83" tvg-name="無綫新聞台" tvg-logo="https://www.hklive.tv/png_logo/83.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan", TVB News
+http://stream.hkanime.live/hls/83/index.m3u8?token=8C3VGn6JGFwnT8vPJJuBdw&expires=1728374196
+#EXTINF:-1 tvg-id="84" tvg-name="明珠台" tvg-logo="https://www.hklive.tv/png_logo/84.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan", TVB Pearl
+http://stream.hkanime.live/hls/84/index.m3u8?token=QnoeoTAn3YHew26piqHDLQ&expires=1728374196
+#EXTINF:-1 tvg-id="85" tvg-name="無綫財經·資訊台" tvg-logo="https://www.hklive.tv/png_logo/85.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan", TVB FSI
+http://stream.hkanime.live/hls/85/index.m3u8?token=ZNPxgO_Gga-XthvNiyBIpg&expires=1728374196
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://www.hklive.tv/png_logo/99.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTV
-http://stream.hkanime.live/raw/99.ts?token=cvcaJgldAuv9KypmFPN6zQ&expires=1728374005
-#EXTINF:-1 tvg-id="96" tvg-name="ViuTVSix" tvg-logo="https://www.hklive.tv/png_logo/96.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTVSix
-http://stream.hkanime.live/raw/96.ts?token=aZcWiSlMMHFGFF37WUVnVg&expires=1728374005
-#EXTINF:-1 tvg-id="108" tvg-name="有線 財經資訊台" tvg-logo="https://www.hklive.tv/png_logo/108.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",i-Cable Finance News Channel
+http://stream.hkanime.live/hls/99/index.m3u8?token=Z5v1-_kLCYaZcVbWRXgCdw&expires=1728374196
+#EXTINF:-1 tvg-id="96" tvg-name="ViuTV" tvg-logo="https://www.hklive.tv/png_logo/96.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",ViuTVSix
+http://stream.hkanime.live/hls/96/index.m3u8?token=sWpoKMSKQCc7GVM-dbUjAQ&expires=1728374196
+#EXTINF:-1 tvg-id="108" tvg-name="有線 財經資訊台" tvg-logo="https://www.hklive.tv/png_logo/108.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",i-Cable Finance
 http://stream.hkanime.live/hls/108/index.m3u8?token=bgQmFs_BLSbPDGP7l0n_Bw&expires=1728374196
-#EXTINF:-1 tvg-id="109" tvg-name="有線 新聞台" tvg-logo="https://www.hklive.tv/png_logo/109.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",i-Cable News Channel
+#EXTINF:-1 tvg-id="109" tvg-name="有線 新聞台" tvg-logo="https://www.hklive.tv/png_logo/109.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",i-Cable News
 http://stream.hkanime.live/hls/109/index.m3u8?token=bRGryIX8Kywe7btAfONB9Q&expires=1728374196
-#EXTINF:-1 tvg-id="110" tvg-name="有線 直播新聞台" tvg-logo="https://www.hklive.tv/png_logo/110.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",i-Cable Live News Channel
+#EXTINF:-1 tvg-id="110" tvg-name="有線 直播新聞台" tvg-logo="https://www.hklive.tv/png_logo/110.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",i-Cable Live News
 http://stream.hkanime.live/hls/110/index.m3u8?token=MUDOhrlgWt0b-jZZXuHybQ&expires=1728374196
-#EXTINF:-1 tvg-id="332" tvg-name="Now 新聞台" tvg-logo="https://www.hklive.tv/png_logo/332.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Now News Channel
+#EXTINF:-1 tvg-id="332" tvg-name="Now 新聞台" tvg-logo="https://www.hklive.tv/png_logo/332.png" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",Now News
 http://stream.hkanime.live/hls/332/index.m3u8?token=89YJFib2BPPP4CSMG9s-tw&expires=1728374196
+
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/TDM_Ou_Mun.png/revision/latest?cb=20220124185106",Ou Mun Toi
 http://61.244.22.4/ch1/ch1.live/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/Canal_Macau.png/revision/latest?cb=20220124185233",Canal Macau
