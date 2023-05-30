@@ -650,12 +650,12 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/abc/index.m3u8?kiptvkiptv|Referer=http
 https://s7768.cdn.mytvnet.vn/pkg20/live_dzones/bloomberg.smil/manifest.mpd
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
 #EXTVLCOPT:http-user-agent=VThanhTivi
-http://84.91.204.231:9981/stream/channelid/665722927?profile=pass
+http://ott-cdn.ucom.am/s65/index.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC (Vietnam feed)
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://subs-livecdn.fptplay.net/sdb/cnbc_2000.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://84.91.204.231:9981/stream/channelid/1760441632?profile=pass
+http://83.228.75.166:8000/play/a0ch
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN (Vietnam feed)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -725,8 +725,10 @@ http://210.210.155.37/uq2663/h/h158/index2.m3u8
 http://nowatv.stream2.link:8080/play/live.php?mac=00:1A:79:49:4f:5b&stream=19&extension=ts&play_token=hQn1bHZhnZ
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
 http://myott.top/stream/KD8IR5FDPF/105.m3u8
-#EXTINF:-1 tvg-id="inter-plus-ua" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/TVR_i_2022_logo.png", TVR International
+#EXTINF:-1 tvg-id="tvri" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/TVR_i_2022_logo.png", TVR International
 https://mn-nl.mncdn.com/tvri_test/tvri_test.smil/.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_of_BNT_4_%282018-%29.svg/150px-Logo_of_BNT_4_%282018-%29.svg.png", BNT4
+http://83.228.75.166:8000/play/a0cd
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/220px-ChannelLogo-ERTWORLD1.png", ERT World
 https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/ert_world_main/main_1080/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
@@ -831,6 +833,12 @@ https://livedoc.cgtn.com/1000d/prog_index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://code.vthanhtivi.pw/keys/mytv/?id=590
 https://s7772.cdn.mytvnet.vn/pkg20/live_dzones/axn.smil/manifest.mpd
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/148gj2" group-title="Giải trí quốc tế",FOX
+http://83.228.75.166:8000/play/a05c
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/148gj4" group-title="Giải trí quốc tế",FOX Life
+http://83.228.75.166:8000/play/a04f
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/148gj6" group-title="Giải trí quốc tế",FOX Crime
+http://83.228.75.166:8000/play/a04h
 #EXTINF:-1 tvg-id="dmax" group-title="Giải trí quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/230.png", DMAX
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/cliptv/dmax/chunklist_b5128000.m3u8
@@ -1004,6 +1012,10 @@ http://194.158.222.36:6105
 http://194.158.222.36:6104
 #EXTINF:-1 tvg-id="tro" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belros.png", BelRos
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
+#EXTINF:-1 tvg-id="tro" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belros.png", 1TV Gruzia
+https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8?token=tva.org.ua
+#EXTINF:-1 tvg-id="tro" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belros.png", 2TV Gruzia
+https://tv.cdn.xsg.ge/gpb-2tv/tracks-v1a1/mono.m3u8?token=tva.org.ua
 #EXTINF:-1 tvg-id="kazakh-tv" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Kazakh_TV_Logo.png/220px-Kazakh_TV_Logo.png", Qazaq TV
 https://kzkhtv.ultraiptv.com/kzkhtv/master.m3u8
 #EXTINF:0 group-title="🇷🇺| Nga và khối SNG" tvg-id="kazakhstan" tvg-name="Qazaqstan" tvg-logo="https://iptvxcdn.ml/kazakhstan.png",Qazaqstan
