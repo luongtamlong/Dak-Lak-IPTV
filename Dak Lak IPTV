@@ -281,69 +281,65 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv22/s1/index.m3u8
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/s1/index.m3u8
 
 
-#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-cine-hd.png",K+ CINE MyTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"NyACsnBwuMz/0pwu0GlnXg", "kid":"WhwfA6cySzGfiSNImdSx/A" } ], "type":"temporary" }
-http://vas-mobiletv1.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv339&offset=1&nodelay=1
-#EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-life-hd.png",K+ LIFE MyTV
+#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2023/04/28/oj7f06wz_bannerdb2757bbbe3435e10bf50dce18cac0f9_296_168.webp",K+ CINE HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"W8PQavWcSrPT2sIwFf0C+Q", "kid":"+aYlIDb2TzazduT5++WDxw" } ], "type":"temporary" }
-http://vas-mobiletv2.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv340&offset=1&nodelay=1
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",K+ SPORT 1 MyTV
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluscinekey?key=20/2991888829/80keokeo
+https://hqth.me/kpluscine?id=kplus20/seasonid:2991|cine.mpd
+#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2023/04/28/f5ve48sm_banner1611a7c5bf816e61726c0b811d28293c_296_168.webp" group-title="K+", K+LIFE HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0373164f5d7043d483b72ed7d130337a:75ab5af9c01c8410f4a7b2577f9cfc13
-http://vas-mobiletv3.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",K+ SPORT 1 FPT
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluslifekey?key=28/199022112/80keokey
+https://hqth.me/kpluslife?id=20/seasonid:4763/live992/life.mpd
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/10/16/er71te0y_bannerksport151de005e201a92612de8218003a70bd0_296_168.webp",K+ SPORT1 HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"7ImnXtmtxOTHZwcHkBWXhg", "kid":"Kggglwkxt/hRN9o3+fYc2Q" } ], "type":"temporary" }
-https://bkm.fbox.fpt.vn/bpk-tv/KplusSport1/output/index.mpd
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-50fps.png",K+ SPORT 1 50FPS
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kplussports1key?key99/738829912/20sportskeokey
+https://hqth.me/kplussports1?id=klifesports291/seasonid:83112232211/sports.mpd
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/30/bwx6fdo1_sport2_296_168.webp",K+SPORT 2 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Uyr8B99kQvUrkQJ4S5/Png", "kid":"cYPHq5dKT+iMoA42fOyClg" } ], "type":"temporary" }	
-http://live-akm4.tv360.vn/manifest/K-PLUS-1-50FPS/masterdash.mpd?hdnts=exp=1679405479~acl=/*~hmac=ede08a28f01588514705d06a50200e65d52b78c7b432583437206d7cd381c30a&manifestfilter=video_bitrate:1-3600000&uid=16352080
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png",K+ SPORT 2 MyTV
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kplussports2key?key=66/728819923/32sportskeokey
+https://hqth.me/kplussports2?id=klifesports821/seasonid:1777288822/sports.mpd
+#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2023/03/03/dykk8tev_k-kida2ce6e01c94ebecbda9256d9514dc8aa_296_168.webp", K+ Kids HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b67b630e489c4f71aa237a71c1c73c38:2c2e34c2105f559d43c876291ebfcec5
-http://vas-mobiletv3.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png",K+ SPORT 2 FPT
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskidskey?key18/9000029912/12kidskeokey
+https://hqth.me/kpluskids?id=kids10/seasonid:5552666172/kids.mpd
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/10/16/er71te0y_bannerksport151de005e201a92612de8218003a70bd0_296_168.webp",K+ SPORT1 50fps TV360
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"VrpY4xpQUsA0LUXy6YHHjQ", "kid":"OrVrSdqvOn6baGtrLPv75Q" } ], "type":"temporary"}
-https://smarttv-drm.fptplay.net/drmlive/k1sport2_4000.stream/manifest.mpd
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-50fps.png", K+ SPORT 2 50FPS
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kplussports1v?key99/738829912/20sportskeokey
+https://hqth.me/kplussports1v?id=klifesports476/seasonid:64537772881/sports.mpd
+
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/30/bwx6fdo1_sport2_296_168.webp", K+ SPORT2 50fps
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"6rnP9BYWzW+cIUZmo1tNaA", "kid":"576aG5DUTnuBlmh+8EtdZw" } ], "type":"temporary" }
-http://live-akm4.tv360.vn/manifest/K-PLUS-2-50FPS/masterdash.mpd?hdnts=exp=1679419471~acl=/*~hmac=44bf1a2876bf4661978dbdd76f28b5932c8160499b6c2e208144f7a238d0caae
-#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-kids-hd.png",K+ KIDS
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"xEAD1IIyW/Mqe4ce3BYsDg", "kid":"Ivwk+BfzNPWy174JZSU75w" } ], "type":"temporary"}
-https://smarttv-drm.fptplay.net/drmlive/k1kids_4000.stream/manifest.mpd
-#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-kids-hd.png",K+ KIDS
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kplussports2v?key=66/728819923/32sportskeokey
+https://hqth.me/kplussports2v?id=klifesports432/seasonid:74883999201/sports.mpd	 ㅤ
+#EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png",K+ LIVE 1
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"xEAD1IIyW/Mqe4ce3BYsDg", "kid":"Ivwk+BfzNPWy174JZSU75w" } ], "type":"temporary" }
-https:///kplus-livecdn.fptplay.net/drmlive/k1kids_4000.stream/manifest.mpd
-#EXTINF:-1 group-title="K+" tvg-logo="https://tchiphuong.github.io/iptv/images/k-live-1.png",K+ LIVE 1
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluslivekey1?key=29978812211/livekplus1
+https://cocc.me/kpluslive1hd?id=kplus01/seasonid=21/i.mpd
+#EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png",K+ LIVE 2
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dmp6prmr4QliOzzggkupjQ", "kid":"lyUbdnxAQ3GgzwzyX//fNg" } ], "type":"temporary" }
-https://vstv.broadpeak-aas.com/bpk-tv/prod_klive1/default/i.mpd
-#EXTINF:-1 group-title="K+" tvg-logo="https://tchiphuong.github.io/iptv/images/k-live-1.png",K+ LIVE 1
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeylive2?code=2998811223/livekplus2
+https://cocc.me/kpluslive2hd?id=kplus02/seasonid=32/i.mpd
+#EXTINF:-1  tvg-id="klive3hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_3.png",K+ LIVE 3
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=97251b767c404371a0cf0cf25fffdf36:766a7aa6b9abe109623b3ce0824ba98d
-https://sglive.akamaized.net/bpk-tv/prod_klive1/default/index.mpd
-#EXTINF:-1 group-title="K+" tvg-logo="https://tchiphuong.github.io/iptv/images/k-live-2.png",K+ LIVE 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dDne6KZ62B+Zto18e/p50g", "kid":"QXSdPAX5TOyqmN8rMVrTCQ" } ], "type":"temporary" }
-https://vstv.broadpeak-aas.com/bpk-tv/prod_klive2/default/i.mpd
-#EXTINF:-1 group-title="K+" tvg-logo="https://tchiphuong.github.io/iptv/images/k-live-2.png",K+ LIVE 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=41749d3c05f94cecaa98df2b315ad309:7439dee8a67ad81f99b68d7c7bfa79d2
-https://sglivecdn.kplus.vn/bpk-tv/prod_klive2/default/index.mpd
-#EXTINF:-1 group-title="K+" tvg-logo="https://tchiphuong.github.io/iptv/images/k-live-3.png",K+ LIVE 3
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jhwqqk/xL0jngyEDMeCguQ", "kid":"jcHanGFdRuGVteyGkVB4hw" } ], "type":"temporary" }
-https://vstv.broadpeak-aas.com/bpk-tv/prod_klive3/default/i.mpd
-#EXTINF:-1 group-title="K+" tvg-logo="https://tchiphuong.github.io/iptv/images/k-live-3.png",K+ LIVE 3
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8dc1da9c615d46e195b5ec8691507887:8e1c2aaa4ff12f48e783210331e0a0b9
-https://sglivecdn.kplus.vn/bpk-tv/prod_klive3/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/livekpluskey3?code=1627739223/live03kplushd
+https://cocc.me/kpluslive3hd?id=kplus03/seasonid=46/i.mpd
+
 
 #-*--Thiết yếu-*--#
 #EXTINF:-1 tvg-id="antvhd" group-title="Kênh Thiết yếu" tvg-logo="https://cdn.hqth.me/logo/thumbs/90.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/anninhtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", ANTV HD
@@ -1771,821 +1767,186 @@ https://vips-livecdn.fptplay.net/schedule/wbc01_vhls.smil/chunklist_b5000000.m3u
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://vips-livecdn.fptplay.net/schedule/wbc02_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/astrocricket.webp" group-title="Astro Sports",Astro Cricket
-https://webuit.salamus1.lol/lb/premium370/index.m3u8
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/HR/HR001.png" group-title="SPORTS",Arena Sport 1 Uzivo HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/46257
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/HR/HR001.png" group-title="SPORTS",Arena Sport 1 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/49322
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/HR/HR002.png" group-title="SPORTS",Arena Sport 2 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/46256
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/HR/HR003.png" group-title="SPORTS",Arena Sport 3 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/46255
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/HR/HR004.png" group-title="SPORTS",Arena Sport 4 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/46254
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/HR/HR005.png" group-title="SPORTS",Arena Sport 5 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/46253
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/HR/HR006.png" group-title="SPORTS",Arena Sport 6 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/46252
+
+
+#EXTINF:-1 tvg-id="TrueSports1.th" tvg-name="TrueSports 1" tvg-logo="https://dl.dropboxusercontent.com/s/3ypeowly0e6zqdb/truesports1.png" group-title="SPORTS",TrueSports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://www.livedoomovies.com:4431/02_2sporthd1_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TrueSports2.th" tvg-name="TrueSports 2" tvg-logo="https://dl.dropboxusercontent.com/s/fv8l24cb1ihz689/truesports2.png" group-title="SPORTS",TrueSports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://sport.livedoomovies.com:4431/02_2sporthd2_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TrueSports3.th" tvg-name="TrueSports 3" tvg-logo="https://dl.dropboxusercontent.com/s/r46cvbq6oia3dea/truesports3.png" group-title="SPORTS",TrueSports 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://www.livedoomovies.com:4431/02_2sporthd3_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TrueSports4.th" tvg-name="TrueSports 4" tvg-logo="https://dl.dropboxusercontent.com/s/iq30brv2ntkmmqn/truesports4.png" group-title="SPORTS",TrueSports 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://www.livedoomovies.com:4431/02_2sporthd4_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TrueSports5.th" tvg-name="TrueSports 5" tvg-logo="https://dl.dropboxusercontent.com/s/nhkjohmfw98e0bq/truesports5.png" group-title="SPORTS",TrueSports 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://youdooball.livedoomovies.com:4432/02_sport5_480p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TruePremierFootball1.th" tvg-name="True Premier Football 1" tvg-logo="https://dl.dropboxusercontent.com/s/b5jnn0j8lk9lo9w/truepremierfootball1.png" group-title="SPORTS",True Premier Football 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://sport.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TruePremierFootball2.th" tvg-name="True Premier Football 2" tvg-logo="https://dl.dropboxusercontent.com/s/3fh3h16lgp0835m/truepremierfootball2.png" group-title="SPORTS",True Premier Football 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://sport.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TruePremierFootball3.th" tvg-name="True Premier Football 3" tvg-logo="https://dl.dropboxusercontent.com/s/r83u0ga13f4ajpa/truepremierfootball3.png" group-title="SPORTS",True Premier Football 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TruePremierFootball4.th" tvg-name="True Premier Football 4" tvg-logo="https://dl.dropboxusercontent.com/s/j4qaqxhnqwijf63/truepremierfootball4.png" group-title="SPORTS",True Premier Football 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TruePremierFootball5.th" tvg-name="True Premier Football 5" tvg-logo="https://dl.dropboxusercontent.com/s/pcqvszx59tu0xg9/truepremierfootball5.png" group-title="SPORTS",True Premier Football 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+#EXTVLCOPT:http-referrer=https://www.youdooball.com/
+https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8
+
+#EXTINF:-1,group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Astro_ASSP1_HD.png",Astro Supersports 1 FHD
+http://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=38186&extension=ts&play_token=dAdxkwYjMp
+#EXTINF:-1,group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Astro_ASSP1_HD.png",Astro Supersports 2 FHD
+http://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=38187&extension=ts&play_token=R9ODy8D8B8
+#EXTINF:-1,group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Astro_ASSP1_HD.png",Astro Supersports 3 FHD
+http://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=38189&extension=ts&play_token=MhUYplPWKt
+#EXTINF:-1,group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Astro_ASSP1_HD.png",Astro Supersports 4 FHD
+http://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=38191&extension=ts&play_token=OR5DOWotC8
+#EXTINF:-1,group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Astro_ASSP1_HD.png",Astro Supersports 5 FHD
+http://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=1117031&extension=ts&play_token=eOaVsReUY3
+
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport News
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2141
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport 1 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2140
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport 2 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2139
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport 3 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2138
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport 4 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2137
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport 5 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2136
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport 6 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2135
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport 7 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2134
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport ENG 1
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2130
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport ENG 2
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2129
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",BeIN Sport ENG 3
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2123
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",Bein Sports Premium 1
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2120
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",Bein Sports Premium 2
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2119
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032015/bein_sport_0.png" group-title="SPORTS",Bein Sports Premium 3
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2117
+
+#EXTINF:-1 tvg-logo="https://www.pngkit.com/png/detail/598-5982970_bt-sport-1-1080p-sky-and-bt-sports.png" group-title="SPORTS",BT Sport 1 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2943
+#EXTINF:-1 tvg-logo="https://www.pngkey.com/png/detail/967-9676257_bt-sport-2-logo.png" group-title="SPORTS",BT Sport 2 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2942
+#EXTINF:-1 tvg-logo="https://static.tvmaze.com/uploads/images/large_landscape/128/320387.jpg" group-title="SPORTS",BT Sport 3 HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2941
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-Ftrkw0odAWU/XIcUPbFb9QI/AAAAAAAAL6s/ocHeQ0iWTTgShOqGjDLJgL8OaK2F22SGACLcBGAs/w0/1491.1436396789.png" group-title="SPORTS",BT Sport ESPN FHD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2940
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/eleven-sports-1.png" group-title="SPORTS",ELEVEN SPORTS 1
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/30679
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/eleven-sports-2.png" group-title="SPORTS",ELEVEN SPORTS 2
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/30678
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/eleven-sports-3.png" group-title="SPORTS",ELEVEN SPORTS 3
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/30677
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/eurosport-1.png" group-title="SPORTS",Eurosport 1
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2816
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/eurosport-2.png" group-title="SPORTS",Eurosport 2
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2815
+
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/USA/US038FOX-Sports1.png" group-title="SPORTS",Fox Sports 1 US
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/3130
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/USA/US039FOX-Sports2.png" group-title="SPORTS",Fox Sports 2 US
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/3129
+#EXTINF:-1 tvg-logo="http://51.222.43.170:8001/images/fb13c77db78f745a60cdc612f79a7ea3.png" group-title="SPORTS",Fox Sports 1
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/57999
+#EXTINF:-1 tvg-logo="http://51.222.43.170:36995/images/c17468d8adc62c6c061fcd4d31e54a0a.png" group-title="SPORTS",Fox Sports 2
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/57998
+#EXTINF:-1 tvg-logo="http://51.222.43.170:36995/images/b038eac2a97032ca255e8f5638bf07e5.png" group-title="SPORTS",Fox Sports 3
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/57997
+
+#EXTINF:-1 tvg-logo="http://51.222.43.170:36995/images/43c36900b0aa86ded24077870df74926.jpg" group-title="SPORTS",Sportv 1 FHD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/65793
+#EXTINF:-1 tvg-logo="http://51.222.43.170:8001/images/43c36900b0aa86ded24077870df74926.jpg" group-title="SPORTS",Sportv 2 FHD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/65789
+#EXTINF:-1 tvg-logo="http://51.222.43.170:8001/images/43c36900b0aa86ded24077870df74926.jpg" group-title="SPORTS",Sportv 3 FHD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/65791
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/sky-sports-main-event.png" group-title="SPORTS",Sky Sports Main Event
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2881
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/sky-sports-football.png" group-title="SPORTS",Sky Sports Football
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2870
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/sky-sports-premier-league.png" group-title="SPORTS",Sky Sports Premier League
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2877
+#EXTINF:-1 tvg-logo="https://img2.sport-tv-guide.live/images/stations/a353.png" group-title="SPORTS",Sky Sport Uno
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2698
+#EXTINF:-1 tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/2020/09/Sky-Sports-Mix-2020-logo-250.png" group-title="SPORTS",Sky Sports Mix
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2882
+#EXTINF:-1 tvg-logo="https://archive.org/download/SkySportsAction_201708/sky%20sports%20action.png" group-title="SPORTS",Sky Sports Action
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2880
+#EXTINF:-1 tvg-logo="https://i0.wp.com/gdplayer.tv/assets/img/logo/sky-sports-cricket.png" group-title="SPORTS",Sky Sports Cricket
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2879
+#EXTINF:-1 tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/2020/09/Sky-Sports-Golf-2020-logo-250.png" group-title="SPORTS",Sky Sports Golf
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2878
+#EXTINF:-1 tvg-logo="https://www.cable.co.uk/images/content/sky_sport_f1_logo_header_landscape_min.jpg" group-title="SPORTS",Sky Sports F1
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2876
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqMPtogaaLwRUybAcsdRK30EYilNXjadqAnqrAsjvw=s900-c-k-c0x00ffffff-no-rj" group-title="SPORTS",Sky Sports News
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/2875
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Diema_Sport_HD_logo.png" group-title="SPORTS",Diema Sport 1
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/30809
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/47/DS2_logo.png" group-title="SPORTS",Diema Sport 2
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/30808
+
+#EXTINF:-1 tvg-logo="https://mediasat.pl/assets/img/logo/channel_logo_240_large.png" group-title="SPORTS",Polsat Sport HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/33431
+#EXTINF:-1 tvg-logo="https://mediasat.pl/assets/img/logo/channel_logo_200_large.png" group-title="SPORTS",Polsat Sport News HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/33430
+#EXTINF:-1 tvg-logo="https://mediasat.pl/assets/img/logo/channel_logo_241_large.png" group-title="SPORTS",Polsat Sport Extra FHD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/33433
+#EXTINF:-1 tvg-logo="https://mediasat.pl/assets/img/logo/channel_logo_199_large.png" group-title="SPORTS",Polsat Sport Fight HD
+http://kmkus.wanicelife.com:8880/1mmk080198/48271181/33333
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="AstroSuperSport.my" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/astrosupersports.webp" group-title="Astro Sports",Astro SuperSport
-https://webuit.salamus1.lol/lb/premium123/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="AstroSuperSport2.my" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/astrosupersports2.webp" group-title="Astro Sports",Astro SuperSport 2
-https://webuit.salamus1.lol/lb/premium124/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="AstroSuperSport3.my" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/astrosupersports3.webp" group-title="Astro Sports",Astro SuperSport 3
-https://webuit.salamus1.lol/lb/premium125/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="AstroSuperSport4.my" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/astrosupersports4.webp" group-title="Astro Sports",Astro SuperSport 4
-https://webuit.salamus1.lol/lb/premium126/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="AstroSuperSport4.my" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/astrosupersports5.webp" group-title="Astro Sports",Astro SuperSport 5
-https://webuit.salamus1.lol/lb/premium43/index.m3u8
-
-//Bein Sports
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSportsEnglish1.qa" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports1en.webp" group-title="beIN Sports",beIN Sports 1 English
-https://webuit.salamus1.lol/lb/premium61/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSportsEnglish2.qa" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports2en.webp" group-title="beIN Sports",beIN Sports 2 English
-https://webuit.salamus1.lol/lb/premium90/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSportsEnglish3.qa" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports3en.webp" group-title="beIN Sports",beIN Sports 3 English
-https://webuit.salamus1.lol/lb/premium46/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports4.qa" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports4en.webp" group-title="beIN Sports",beIN Sports 4 English
-https://webuit.salamus1.lol/lb/premium94/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSportsPremium1.qa" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports1premium.webp" group-title="beIN Sports",beIN Sports 1 Premium
-https://webuit.salamus1.lol/lb/premium98/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSportsPremium2.qa" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports2premium.webp" group-title="beIN Sports",beIN Sports 2 Premium
-https://webuit.salamus1.lol/lb/premium99/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSportsPremium3.qa" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports3premium.webp" group-title="beIN Sports",beIN Sports 3 Premium
-https://webuit.salamus1.lol/lb/premium100/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports1turkey.webp" group-title="beIN Sports",beIN Sports 1 Turkey
-https://webuit.salamus1.lol/lb/premium62/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports2turkey.webp" group-title="beIN Sports",beIN Sports 2 Turkey
-https://webuit.salamus1.lol/lb/premium63/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports3turkey.webp" group-title="beIN Sports",beIN Sports 3 Turkey
-https://webuit.salamus1.lol/lb/premium64/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports4turkey.webp" group-title="beIN Sports",beIN Sports 4 Turkey
-https://webuit.salamus1.lol/lb/premium67/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports1qatar.webp" group-title="beIN Sports",beIN Sports 1 Qatar
-https://webuit.salamus1.lol/lb/premium91/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports2qatar.webp" group-title="beIN Sports",beIN Sports 2 Qatar
-https://webuit.salamus1.lol/lb/premium92/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports3qatar.webp" group-title="beIN Sports",beIN Sports 3 Qatar
-https://webuit.salamus1.lol/lb/premium93/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports4qatar.webp" group-title="beIN Sports",beIN Sports 4 Qatar
-https://webuit.salamus1.lol/lb/premium94/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports5qatar.webp" group-title="beIN Sports",beIN Sports 5 Qatar
-https://webuit.salamus1.lol/lb/premium95/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports6qatar.webp" group-title="beIN Sports",beIN Sports 6 Qatar
-https://webuit.salamus1.lol/lb/premium96/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports7qatar.webp" group-title="beIN Sports",beIN Sports 7 Qatar
-https://webuit.salamus1.lol/lb/premium97/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports4maxfr.webp" group-title="beIN Sports",beIN Sports MAX 4 France
-https://webuit.salamus1.lol/lb/premium494/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports5maxfr.webp" group-title="beIN Sports",beIN Sports MAX 5 France
-https://webuit.salamus1.lol/lb/premium495/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports6maxfr.webp" group-title="beIN Sports",beIN Sports MAX 6 France
-https://webuit.salamus1.lol/lb/premium496/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports7maxfr.webp" group-title="beIN Sports",beIN Sports MAX 7 France
-https://webuit.salamus1.lol/lb/premium497/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports8maxfr.webp" group-title="beIN Sports",beIN Sports MAX 8 France
-https://webuit.salamus1.lol/lb/premium498/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports9maxfr.webp" group-title="beIN Sports",beIN Sports MAX 9 France
-https://webuit.salamus1.lol/lb/premium499/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/beinsports10maxfr.webp" group-title="beIN Sports",beIN Sports MAX 10 France
-https://webuit.salamus1.lol/lb/premium500/index.m3u8
-
-//Sport Klub
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sportklub1.webp" group-title="Sportklub",Sportklub 1 Serbia
-https://webuit.salamus1.lol/lb/premium101/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sportklub2.webp" group-title="Sportklub",Sportklub 2 Serbia
-https://webuit.salamus1.lol/lb/premium102/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sportklub3.webp" group-title="Sportklub",Sportklub 3 Serbia
-https://webuit.salamus1.lol/lb/premium103/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sportklub4.webp" group-title="Sportklub",Sportklub 4 Serbia
-https://webuit.salamus1.lol/lb/premium104/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="beINSports" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sportklubhd.webp" group-title="Sportklub",Sportklub HD Serbia
-https://webuit.salamus1.lol/lb/premium453/index.m3u8
-
-//Sky Sports
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportsFootball.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportsfootball.webp" group-title="Sky Sports",Sky Sports Football
-https://webuit.salamus1.lol/lb/premium35/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportsarena.webp" group-title="Sky Sports",Sky Sports Arena
-https://webuit.salamus1.lol/lb/premium36/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportsNFL.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportsnfl.webp" group-title="Sky Sports",Sky Sports NFL
-https://webuit.salamus1.lol/lb/premium37/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportsmainevent.webp" group-title="Sky Sports",Sky Sports Main Event
-https://webuit.salamus1.lol/lb/premium38/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportBundesliga.de" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportsbundesliga.webp" group-title="Sky Sports",Sky Sports Bundesliga
-https://webuit.salamus1.lol/lb/premium558/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportsPremierLeague.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportspremierleague.webp" group-title="Sky Sports",Sky Sports Premier League
-https://webuit.salamus1.lol/lb/premium130/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportsracing.webp" group-title="Sky Sports",Sky Sports Racing
-https://webuit.salamus1.lol/lb/premium554/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/skysportsmix.webp" group-title="Sky Sports",Sky Sports Mix
-https://webuit.salamus1.lol/lb/premium449/index.m3u8
-
-//SuperSports
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportGrandstand.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsgrandstand.webp" group-title="SuperSports",SuperSports Grandstand
-https://webuit.salamus1.lol/lb/premium412/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportPSL.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportspsl.webp" group-title="SuperSports",SuperSports PSL
-https://webuit.salamus1.lol/lb/premium413/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportPremierLeague.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportspremierleague.webp" group-title="SuperSports",SuperSports Premier League
-https://webuit.salamus1.lol/lb/premium414/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportAction.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsaction.webp" group-title="SuperSports",SuperSports Action
-https://webuit.salamus1.lol/lb/premium420/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportRugby.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsrugby.webp" group-title="SuperSports",SuperSports Rugby
-https://webuit.salamus1.lol/lb/premium421/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportGolf.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsgolf.webp" group-title="SuperSports",SuperSports Golf
-https://webuit.salamus1.lol/lb/premium422/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportMotorsport.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsmotorsport.webp" group-title="SuperSports",SuperSports Motorsport
-https://webuit.salamus1.lol/lb/premium424/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportVariety1.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsvariety1.webp" group-title="SuperSports",SuperSports Variety 1
-https://webuit.salamus1.lol/lb/premium416/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportVariety2.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsvariety2.webp" group-title="SuperSports",SuperSports Variety 2
-https://webuit.salamus1.lol/lb/premium417/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportVariety3.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsvariety3.webp" group-title="SuperSports",SuperSports Variety 3
-https://webuit.salamus1.lol/lb/premium418/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportVariety4.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsvariety4.webp" group-title="SuperSports",SuperSports Variety 4
-https://webuit.salamus1.lol/lb/premium419/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportCricket.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportscricket.webp" group-title="SuperSports",SuperSports Cricket
-https://webuit.salamus1.lol/lb/premium368/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://streamservicehd.click/
-#EXTINF:-1 tvg-id="SuperSportTennis.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportstennis.webp" group-title="SuperSports",SuperSports Tennis
-https://bno1.onlinewebtv.lol/cdn/wikiten01/playlist.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SuperSportMaximo1.za" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/supersportsmaximo1.webp" group-title="SuperSports",SuperSports Máximo 1
-https://webuit.salamus1.lol/lb/premium572/index.m3u8
-
-//BT SPORT
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="BTSport1.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/btsport1.webp" group-title="BT Sport",BT Sport 1
-https://webuit.salamus1.lol/lb/premium31/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="BTSport2.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/btsport2.webp" group-title="BT Sport",BT Sport 2
-https://webuit.salamus1.lol/lb/premium32/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="BTSport3.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/btsport3.webp" group-title="BT Sport",BT Sport 3
-https://webuit.salamus1.lol/lb/premium33/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="BTSport4.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/btsport4.webp" group-title="BT Sport",BT Sport 4
-https://webuit.salamus1.lol/lb/premium34/index.m3u8
-
-//Eleven Sports
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ElevenSports1Portugal.pt" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/elevensport1.webp" group-title="Eleven Sports",Eleven Sports 1
-https://webuit.salamus1.lol/lb/premium71/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ElevenSports1Portugal.pt" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/elevensport2.webp" group-title="Eleven Sports",Eleven Sports 2
-https://webuit.salamus1.lol/lb/premium72/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ElevenSports3Portugal.pt" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/elevensport3.webp" group-title="Eleven Sports",Eleven Sports 3
-https://webuit.salamus1.lol/lb/premium428/index.m3u8
-
-//Arena Sport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport1Serbia.rs" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenasport1.webp" group-title="Arena Sport",Arena Sport 1 Serbia
-https://webuit.salamus1.lol/lb/premium429/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport1Serbia.rs" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenasport2.webp" group-title="Arena Sport",Arena Sport 2 Serbia
-#https://webuit.salamus1.lol/lb/premium430/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport1Serbia.rs" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenasport3.webp" group-title="Arena Sport",Arena Sport 3 Serbia
-https://webuit.salamus1.lol/lb/premium431/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport1Serbia.rs" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenasport4.webp" group-title="Arena Sport",Arena Sport 4 Serbia
-https://webuit.salamus1.lol/lb/xEaWptXd0e/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport1" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenasport1croatia.webp" group-title="Arena Sport",Arena Sport 1 Croatia
-https://webuit.salamus1.lol/lb/premium432/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport2" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenasport2croatia.webp" group-title="Arena Sport",Arena Sport 2 Croatia
-https://webuit.salamus1.lol/lb/premium433/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport3" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenasport3croatia.webp" group-title="Arena Sport",Arena Sport 3 Croatia
-https://webuit.salamus1.lol/lb/premium434/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport1PremiumSerbia.rs" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenapremium1.webp" group-title="Arena Sport",Arena Sport Premium 1
-https://webuit.salamus1.lol/lb/premium134/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport2PremiumSerbia.rs" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenapremium2.webp" group-title="Arena Sport",Arena Sport Premium 2
-https://webuit.salamus1.lol/lb/premium135/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ArenaSport3PremiumSerbia.rs" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/arenapremium3.webp" group-title="Arena Sport",Arena Sport Premium 3
-https://webuit.salamus1.lol/lb/premium139/index.m3u8
-
-//Viaplay
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ViaplaySports1.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/viaplaysports1.webp" group-title="Viaplay Sports",Viaplay Sports 1
-https://webuit.salamus1.lol/lb/premium451/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="ViaplaySports2.uk" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/viaplaysports2.webp" group-title="Viaplay Sports",Viaplay Sports 2
-https://webuit.salamus1.lol/lb/premium550/index.m3u8
-
-//DAZN
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="DAZN1Spain.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/dazn1es.webp" group-title="DAZN",DAZN 1
-https://webuit.salamus1.lol/lb/premium445/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="DAZN2Spain.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/dazn2es.webp" group-title="DAZN",DAZN 2
-https://webuit.salamus1.lol/lb/premium446/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="DAZN3Spain.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/dazn3es.webp" group-title="DAZN",DAZN 3
-https://webuit.salamus1.lol/lb/premium447/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="DAZN4Spain.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/dazn4es.webp" group-title="DAZN",DAZN 4
-https://webuit.salamus1.lol/lb/premium448/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="DAZNF1.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/daznf1es.webp" group-title="DAZN",DAZN F1
-https://webuit.salamus1.lol/lb/premium537/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="DAZNLaLiga.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/daznlaligaes.webp" group-title="DAZN",DAZN LaLiga
-https://webuit.salamus1.lol/lb/premium538/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/dazn1de.webp" group-title="DAZN",DAZN 1 Bar DE
-https://webuit.salamus1.lol/lb/premium426/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/dazn2de.webp" group-title="DAZN",DAZN 2 Bar DE
-https://webuit.salamus1.lol/lb/premium427/index.m3u8
-
-//Movistar
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="MovistarDeportes.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistardeportes.webp" group-title="Movistar",Movistar Deportes
-https://webuit.salamus1.lol/lb/premium436/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="MovistarDeportes1.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistardeportes1.webp" group-title="Movistar",Movistar Deportes 1
-https://webuit.salamus1.lol/lb/premium437/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="MovistarDeportes2.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistardeportes2.webp" group-title="Movistar",Movistar Deportes 2
-https://webuit.salamus1.lol/lb/premium438/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="MovistarDeportes3.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistardeportes3.webp" group-title="Movistar",Movistar Deportes 3
-https://webuit.salamus1.lol/lb/premium526/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="MovistarDeportes3.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistardeportes4.webp" group-title="Movistar",Movistar Deportes 4
-#https://webuit.salamus1.lol/lb/premium527/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="MovistarDeportes3.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistargolf.webp" group-title="Movistar",Movistar Golf
-https://webuit.salamus1.lol/lb/premium528/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="MovistarDeportes3.es" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistarlaliga1.webp" group-title="Movistar",Movistar La Liga 1
-https://webuit.salamus1.lol/lb/premium538/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="CanalPlusSport1.cz" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistarlaliga2.webp" group-title="Movistar",Movistar La Liga 2
-https://webuit.salamus1.lol/lb/premium539/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="CanalPlusSport1.cz" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistarlaliga3.webp" group-title="Movistar",Movistar La Liga 3
-https://webuit.salamus1.lol/lb/premium540/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="CanalPlusSport1.cz" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/movistarligadecampiones.webp" group-title="Movistar",Movistar Liga De Campeones
-https://webuit.salamus1.lol/lb/premium435/index.m3u8
-
-//TSN
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="TSN1.ca" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/tsn1.webp" group-title="TSN",TSN 1
-https://webuit.salamus1.lol/lb/premium111/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="TSN2.ca" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/tsn2.webp" group-title="TSN",TSN 2
-https://webuit.salamus1.lol/lb/premium112/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="TSN3.ca" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/tsn3.webp" group-title="TSN",TSN 3
-https://webuit.salamus1.lol/lb/premium113/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="TSN4.ca" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/tsn4.webp" group-title="TSN",TSN 4
-https://webuit.salamus1.lol/lb/premium114/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="TSN5.ca" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/tsn5.webp" group-title="TSN",TSN 5
-https://webuit.salamus1.lol/lb/premium115/index.m3u8
-
-//Sport TV
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SportTV1.pt" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sporttv1.webp" group-title="Sport TV",Sport TV 1
-https://webuit.salamus1.lol/lb/premium49/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SportTV2.pt" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sporttv2.webp" group-title="Sport TV",Sport TV 2
-https://webuit.salamus1.lol/lb/premium74/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="SportTV3.pt" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sporttv3.webp" group-title="Sport TV",Sport TV 3
-https://webuit.onlinewebtv.lol/lb/eplayerSPORTTV3/index.m3u8
-
-//Eurosport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/eurosport1spain.webp" group-title="Eurosport",Eurosport 1 Spain
-https://webuit.salamus1.lol/lb/premium524/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/eurosport2spain.webp" group-title="Eurosport",Eurosport 2 Spain
-https://webuit.salamus1.lol/lb/premium525/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/eurosports1.webp" group-title="Eurosport",Eurosport 1 UK
-https://webuit.salamus1.lol/lb/premium41/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/eurosports2.webp" group-title="Eurosport",Eurosport 2 UK
-https://webuit.salamus1.lol/lb/premium42/index.m3u8
-
-//Match!
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/matchfootball1.webp" group-title="Match!",Match Football 1
-https://webuit.salamus1.lol/lb/premium136/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/matchfootball2.webp" group-title="Match!",Match Football 2
-https://webuit.salamus1.lol/lb/premium137index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/matchfootball3.webp" group-title="Match!",Match Football 3
-https://webuit.salamus1.lol/lb/premium138/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/matchpremier.webp" group-title="Match!",Match Premier
-https://webuit.salamus1.lol/lb/premium127/index.m3u8
-
-//ITV UK
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/itv.webp" group-title="ITV",ITV 1 UK
-https://webuit.salamus1.lol/lb/premium350/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/itv2.webp" group-title="ITV",ITV 2 UK
-https://webuit.salamus1.lol/lb/premium351/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/itv3.webp" group-title="ITV",ITV 3 UK
-https://webuit.salamus1.lol/lb/premium352/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/itv4.webp" group-title="ITV",ITV 4 UK
-https://webuit.salamus1.lol/lb/premium353/index.m3u8
-
-//Fox Sports
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/foxsports1usa.webp" group-title="Fox Sports",Fox Sports 1 USA
-https://webuit.salamus1.lol/lb/premium39/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/foxsports2usa.webp" group-title="Fox Sports",Fox Sports 2 USA
-https://webuit.salamus1.lol/lb/premium758/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/foxcricket.webp" group-title="Fox Sports",FOX Cricket 501
-https://webuit.salamus1.lol/lb/premium369/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/fox502.webp" group-title="Fox Sports",Fox 502
-https://webuit.salamus1.lol/lb/premium820/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/fox504.webp" group-title="Fox Sports",Fox 504
-https://webuit.salamus1.lol/lb/premium822/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/fox505.webp" group-title="Fox Sports",Fox 505
-https://webuit.salamus1.lol/lb/premium823/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/fox506.webp" group-title="Fox Sports",Fox 506
-https://webuit.salamus1.lol/lb/premium824/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/fox507.webp" group-title="Fox Sports",Fox 507
-https://webuit.salamus1.lol/lb/premium825/index.m3u8
-
-// Digi Sport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/digisport1romania.webp" group-title="Digi Sport",Digi Sport 1 Romania
-https://webuit.salamus1.lol/lb/premium400/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/digisport2romania.webp" group-title="Digi Sport",Digi Sport 2 Romania
-https://webuit.salamus1.lol/lb/premium401/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/digisport3romania.webp" group-title="Digi Sport",Digi Sport 3 Romania
-https://webuit.salamus1.lol/lb/premium402/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/digisport4romania.webp" group-title="Digi Sport",Digi Sport 4 Romania
-https://webuit.salamus1.lol/lb/premium403/index.m3u8
-
-//Orange Sport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/orangesport1.webp" group-title="Orange Sport",Orange Sport 1 Romania
-https://webuit.salamus1.lol/lb/premium439/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/orangesport2.webp" group-title="Orange Sport",Orange Sport 2 Romania
-https://webuit.salamus1.lol/lb/premium440/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/orangesport3.webp" group-title="Orange Sport",Orange Sport 3 Romania
-https://webuit.salamus1.lol/lb/premium441/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/orangesport4.webp" group-title="Orange Sport",Orange Sport 4 Romania
-https://webuit.salamus1.lol/lb/premium442/index.m3u8
-
-//ESPN
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/espnusa.webp" group-title="ESPN",ESPN USA
-https://webuit.salamus1.lol/lb/premium44/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/espn2usa.webp" group-title="ESPN",ESPN 2 USA
-https://webuit.salamus1.lol/lb/premium45/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/espnbr.webp" group-title="ESPN",ESPN BR
-https://webuit.salamus1.lol/lb/premium81/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/espn2br.webp" group-title="ESPN",ESPN 2 BR
-https://webuit.salamus1.lol/lb/premium82/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/espn3br.webp" group-title="ESPN",ESPN 3 BR
-#https://webuit.salamus1.lol/lb/premium83/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/espndeportes.webp" group-title="ESPN",ESPN Deportes
-https://webuit.salamus1.lol/lb/premium375/index.m3u8
-
-//Diema Sport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/diemasport.webp" group-title="Diema Sport",Diema Sport
-https://webuit.salamus1.lol/lb/premium465/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/diemasport2.webp" group-title="Diema Sport",Diema Sport 2
-https://webuit.salamus1.lol/lb/premium466/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/diemasport3.webp" group-title="Diema Sport",Diema Sport 3
-https://webuit.salamus1.lol/lb/premium467/index.m3u8
-
-//MAX Sport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/maxsport1.webp" group-title="MAX Sport",MAX Sport 1
-https://webuit.salamus1.lol/lb/premium472/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/maxsport2.webp" group-title="MAX Sport",MAX Sport 2
-https://webuit.salamus1.lol/lb/premium473/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/maxsport3.webp" group-title="MAX Sport",MAX Sport 3
-https://webuit.salamus1.lol/lb/premium474/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/maxsport4.webp" group-title="MAX Sport",MAX Sport 4
-https://webuit.salamus1.lol/lb/premium475/index.m3u8
-
-//Prima Sport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/primasport1.webp" group-title="Prima Sport",Prima Sport 1
-https://webuit.salamus1.lol/lb/premium583/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/primasport2.webp" group-title="Prima Sport",Prima Sport 2
-https://webuit.salamus1.lol/lb/premium584/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/primasport3.webp" group-title="Prima Sport",Prima Sport 3
-https://webuit.salamus1.lol/lb/premium585/index.m3u8
-
-//Sport
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sport1israel.webp" group-title="Sports Channel",Sport 1 Israel
-https://webuit.salamus1.lol/lb/premium140/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sport2israel.webp" group-title="Sports Channel",Sport 2 Israel
-https://webuit.salamus1.lol/lb/premium141/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sport3israel.webp" group-title="Sports Channel",Sport 3 Israel
-https://webuit.salamus1.lol/lb/premium142/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sport4israel.webp" group-title="Sports Channel",Sport 4 Israel
-https://webuit.salamus1.lol/lb/premium143/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sport5israel.webp" group-title="Sports Channel",Sport 5 Israel
-https://webuit.salamus1.lol/lb/premium144/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sport5plusisrael.webp" group-title="Sports Channel",Sport 5 Plus Israel
-https://webuit.salamus1.lol/lb/premium145/index.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ntuplay.xyz/
-#EXTINF:-1 tvg-id="" tvg-logo="https://sports.sstp.cloudns.pro/img/sports/sport5liveisrael.webp" group-title="Sports Channel",Sport 5 Live Israel
-https://webuit.salamus1.lol/lb/premium146/index.m3u8
 
 
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/239.png", VOV1
