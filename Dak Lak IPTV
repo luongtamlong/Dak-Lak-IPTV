@@ -1700,6 +1700,31 @@ https://livecdn.fptplay.net/schedule/sukien04_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://vips-livecdn.fptplay.net/hda3/pladio_4000.stream/chunklist.m3u8
 
+#EXTINF:-1 tvg-id="sktt1" group-title="Livestream Sự Kiện" tvg-logo="http://cdn.hqth.me/logo/thumbs/267.png", FPT Thể Thao 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/fptkeyhd1
+https://hqth.me/fptsports1hd?bpk-tv/prod_ucl1/default/index.mpd
+#EXTINF:-1 tvg-id="sktt2" group-title="Livestream Sự Kiện" tvg-logo="http://cdn.hqth.me/logo/thumbs/268.png", FPT Thể Thao 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/fptkeyhd2
+https://hqth.me/fptsports2hd?bpk-tv/prod_ucl2/default/index.mpd
+#EXTINF:-1 tvg-id="sktt3" group-title="Livestream Sự Kiện" tvg-logo="http://cdn.hqth.me/logo/thumbs/269.png", FPT Thể Thao 3
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/fptkeyhd3
+https://hqth.me/fptsports3hd?bpk-tv/prod_ucl3/default/index.mpd
+#EXTINF:-1 tvg-id="sktt4" group-title="Livestream Sự Kiện" tvg-logo="https://img.kplus.vn/images?filename=Media/HDVN/EPG_thumbnail/UCL%202.jpg&06042023&w=1280&h=720&orientation=landscape", FPT Thể Thao 4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/fptkeyhd4
+https://hqth.me/fptsports4hd?bpk-tv/prod_ucl4/default/index.mpd
+
 #EXTINF:-1 group-title="Livestream Sự Kiện" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", F Sports 1
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://vips-livecdn.fptplay.net/epzsport/thethao01_vhls.smil/chunklist_b5500000.m3u8
