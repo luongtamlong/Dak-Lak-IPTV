@@ -571,6 +571,20 @@ https://code.vthanhtivi.pw/getlink/cliptv/planet-earth-hd/chunklist_b5128000.m3u
 #EXTINF:-1 tvg-id="woman" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
 https://code.vthanhtivi.pw/getlink/tv360/163/2.m3u8
 
+#EXTINF:-1 tvg-id="boxmovie1" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1 SCTV
+https://vtsstr7.tv24.vn/live/smil:BOX_MOVIE_HD.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="hollywoodclassics" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics SCTV
+https://vtsstr7.tv24.vn/live/smil:Hollywood.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="drfithd" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit SCTV
+#EXTVLCOPT:http-referer=http://sctvonline.vn
+https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#EXTINF:-1 tvg-id="happykids" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids SCTV
+https://vtsstr7.tv24.vn/live/smil:Happy_Kids.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="planetearthhd" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth SCTV
+https://vtsstr7.tv24.vn/live/smil:Planet_Earth.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="woman" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman SCTV
+https://vtsstr7.tv24.vn/live/smil:Woman.smil/chunklist.m3u8
+
 
 
 #EXTINF:-1 tvg-id="" group-title="Hoạt hình" tvg-logo="https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2018/08/Aniplus-Logo-News-Black_RE.jpg", Aniplus
@@ -584,7 +598,7 @@ http://sg.tinchuanchuaanh.com:8080/CARTOON_NETWORK_HD/index.m3u8
 #EXTINF:-1 tvg-id="dreamworks" group-title="Hoạt hình" tvg-logo="https://cdn.hqth.me/logo/thumbs/199.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/dreamworks_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Dreamworks
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://code.vthanhtivi.pw/keys/cliptv/?id=dreamworks
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaZ9raZSnmsKZnaKZnKidlKNmXmFmaw==&time=1687496287&cliptv&id=dreamworks
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dreamwork.smil/manifest.mpd
 
 #EXTINF:-1 tvg-id="babytvhd" group-title="Thiếu nhi" tvg-logo="https://cdn.hqth.me/logo/thumbs/201.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/babytvhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BabyTV HD
@@ -594,17 +608,19 @@ https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dreamwork.smil/manifest.mpd
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
 
+
+
 #EXTINF:-1 tvg-id="bbcearth" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png", BBC Earth
 http://sg.tinchuanchuaanh.com:8080/BBC_EARTH_HD/index.m3u8
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/211.png", BBC Lifestyle
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaZ9raZSnmsKZnaKZnKidlKNmXmFmaw==&time=1687496287&mytv_msky&id=519
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaaFpaZKnmMKZnaKZnKidlKNmXmFmaw==&time=1687676085&mytv_msky&id=519
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
 #EXTINF:-1 tvg-id="cbeebies" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/212.png", BBC Cbeebies
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaZ9raZSnmsKZnaKZnKidlKNmXmFmaw==&time=1687496287&mytv_msky&id=525
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaaFpaZKnmMKZnaKZnKidlKNmXmFmaw==&time=1687676085&mytv_msky&id=525
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cbb.smil/manifest.mpd
 #EXTINF:0 group-title="BBC" tvg-id=\"6595\" tvg-logo=\"http://epg.it999.ru/img/6595.png\" tvg-rec=\"0\",BBC Entertainment
 http://czrb8vng.ottclub.xyz/iptv/E74M9PWBVPGBBG/19180/index.m3u8
@@ -615,7 +631,7 @@ http://83.228.75.166:8000/play/a0e0
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="BBC" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News (Vietnam feed)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaZ9raZSnmsKZnaKZnKidlKNmXmFmaw==&time=1687496287&mytv_msky&id=521
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaaFpaZKnmMKZnaKZnKidlKNmXmFmaw==&time=1687676085&mytv_msky&id=521
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd
 
 
@@ -623,7 +639,7 @@ https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
 #EXTVLCOPT:http-user-agent=VThanhTivi
-http://ott-cdn.ucom.am/s65/index.m3u8
+http://37.189.31.207:9001/play/a07y/index.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
 http://83.228.75.166:8000/play/a0ch
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
