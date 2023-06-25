@@ -997,33 +997,40 @@ http://ntv-hls-orig.cdnvideo.ru/th_style/tracks-v1a1/mono.m3u8
 http://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
 #EXTINF:-1 tvg-id="h1-am" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Armenian_Public_TV_logo_%282021%29_%282%29.svg/220px-Armenian_Public_TV_logo_%282021%29_%282%29.svg.png", Armenia 1
 https://amtv1.livestreamingcdn.com/am2abr/index.m3u8
-#EXTINF:0 group-title="Belarus\" tvg-id=\"belarus1-by-hd\" tvg-logo="https://af-play.com/storage/images/channel_logos/belarus1-by-hd.png" catchup-source=\"http://tchaikovsky.af-stream.com/belarus1-by-hd/video-${start}-${duration}.m3u8?token=phyx6kwk\" tvg-rec=\"7\" catchup-days=\"7\",Belarus 1 HD
-#EXTGRP:Беларус
-http://tchaikovsky.af-stream.com:1600/s/phyx6kwk/belarus1-by-hd/video.m3u8
-#EXTINF:0 group-title="🇷🇺| Nga và khối SNG" tvg-id=\"belarus2-by-hd\" tvg-logo="https://af-play.com/storage/images/pack_logos/f13bbe8f3057fb14b90917900ac55d23.png\" catchup-source=\"http://tchaikovsky.af-stream.com/belarus2-by-hd/video-${start}-${duration}.m3u8?token=phyx6kwk\" tvg-rec=\"7\" catchup-days=\"7\",Belarus 2 HD
-#EXTGRP:Belarus
-http://tchaikovsky.af-stream.com:1600/s/phyx6kwk/belarus2-by-hd/video.m3u8
-#EXTINF:0 group-title="🇷🇺| Nga và khối SNG" tvg-id=\"belarus3-by-hd\" tvg-logo="https://af-play.com/storage/images/pack_logos/5d0303afbac3b0fd8d603e240567a53f.png\" catchup-source=\"http://tchaikovsky.af-stream.com/belarus3-by-hd/video-${start}-${duration}.m3u8?token=phyx6kwk\" tvg-rec=\"7\" catchup-days=\"7\",Belarus 3 HD
-#EXTGRP:Belarus
-http://tchaikovsky.af-stream.com:1600/s/phyx6kwk/belarus3-by-hd/video.m3u8
-#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 4
+#EXTINF:-1 tvg-id="belarus1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Belarus-1.jpg/200px-Belarus-1.jpg", Belarus 1
+http://194.158.222.36:6101
+#EXTINF:-1 tvg-id="belarus1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Belarus-1.jpg/200px-Belarus-1.jpg", Belarus 1 HD
+http://f2u5ntiy.megogo.xyz/iptv/N5U4GHRQQ5WAL9/2178/index.m3u8
+#EXTINF:-1 tvg-id="belarus2" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://seeklogo.com/images/B/belarus-2-logo-703A54CF7F-seeklogo.com.png", Belarus 2
+http://194.158.222.36:6107
+#EXTINF:-1 tvg-id="belarus2" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://seeklogo.com/images/B/belarus-2-logo-703A54CF7F-seeklogo.com.png", Belarus 2 HD
+http://f2u5ntiy.megogo.xyz/iptv/N5U4GHRQQ5WAL9/2179/index.m3u8
+#EXTINF:-1 tvg-id="belarus3" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus3.png", Belarus 3
+http://194.158.222.36:6108
+#EXTINF:-1 tvg-id="belarus3" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus3.png", Belarus 3 HD
+http://f2u5ntiy.megogo.xyz/iptv/N5U4GHRQQ5WAL9/2180/index.m3u8
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 4 HD
 http://dmi3y-tv.ru/hls/blrus/CH_BELARUS4HD720_VIT.m3u8
-#EXTINF:0 group-title="🇷🇺| Nga và khối SNG" tvg-id=\"belarus5-by-hd\" tvg-logo="https://af-play.com/storage/images/channel_logos/belarus5-by-hd.png\" catchup-source=\"http://tchaikovsky.af-stream.com/belarus5-by-hd/video-${start}-${duration}.m3u8?token=phyx6kwk\" tvg-rec=\"7\" catchup-days=\"7\",Belarus 5 HD
-#EXTGRP:Belarus
-http://tchaikovsky.af-stream.com:1600/s/phyx6kwk/belarus5-by-hd/video.m3u8
-#EXTINF:0 group-title="🇷🇺| Nga và khối SNG" tvg-id=\"belarus-24-hd\" tvg-logo="https://af-play.com/storage/images/channel_logos/belarus-24.png\" catchup-source=\"http://tchaikovsky.af-stream.com/belarus-24-hd/video-${start}-${duration}.m3u8?token=phyx6kwk\" tvg-rec=\"0\" catchup-days=\"0\",Belarus 24 HD
-#EXTGRP:Belarus
-http://tchaikovsky.af-stream.com:1600/s/phyx6kwk/belarus-24-hd/video.m3u8
-#EXTINF:0 group-title="🇷🇺| Nga và khối SNG" tvg-id=\"ont-by-hd\" tvg-logo="https://af-play.com/storage/images/pack_logos/e92463a2df8a2571da8a491199940b29.png\" catchup-source=\"http://tchaikovsky.af-stream.com/ont-by-hd/video-${start}-${duration}.m3u8?token=phyx6kwk\" tvg-rec=\"7\" catchup-days=\"7\",ОNТ BY HD
-#EXTGRP:Belarus
-http://tchaikovsky.af-stream.com:1600/s/phyx6kwk/ont-by-hd/video.m3u8
-#EXTINF:0 group-title="🇷🇺| Nga và khối SNG" tvg-id=\"stv-by-hd\" tvg-logo="https://af-play.com/storage/images/channel_logos/8bce7aff7f694b4c28862f7d6c110a13.png\" catchup-source=\"http://tchaikovsky.af-stream.com/stv-by-hd/video-${start}-${duration}.m3u8?token=phyx6kwk\" tvg-rec=\"7\" catchup-days=\"7\",СТВ Belarus HD
-#EXTGRP:Belarus
-http://tchaikovsky.af-stream.com:1600/s/phyx6kwk/stv-by-hd/video.m3u8
+#EXTINF:-1 tvg-id="belarus5" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 5
+http://194.158.222.36:6109
+#EXTINF:-1 tvg-id="belarus5" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 5 HD
+http://f2u5ntiy.megogo.xyz/iptv/N5U4GHRQQ5WAL9/2177/index.m3u8
+#EXTINF:-1 tvg-id="belarus24" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Belarus_24.svg/revision/latest/scale-to-width-down/200?cb=20191008123534", Belarus 24
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/index.m3u8
+#EXTINF:-1 tvg-id="stv-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/stv-by4.png", STV HD
+http://80.94.225.126:8080/STV/mono.m3u8
+#EXTINF:-1 tvg-id="ont-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ont-by.png", ONT
+http://194.158.222.36:6102
+#EXTINF:-1 tvg-id="ont-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ont-by.png", ONT HD
+http://nstreamportal.ru/iptv/iptv_api.php?type=voka&id=aHR0cHM6Ly9hcGkudm9rYS50di92MS9jaGFubmVscy83YTk3NWYzYi0wNDIzLTQ2ZmMtYmNlNC0wZWZhNTM2NjExNGUvc3RyZWFtLmpzb24%2FY2xpZW50X3ZlcnNpb249MS43LjAuMjQ2JnRpbWV6b25lPTEwODAwJmxvY2FsZT1ydS1SVSZwcm90b2NvbD1obHMmdmlkZW9fY29kZWM9aDI2NCZhdWRpb19jb2RlYz1tcDRhJmRybT1zcGJ0dmNhcyZzY3JlZW5fd2lkdGg9Mzg0MCZzY3JlZW5faGVpZ2h0PTIxNjAmZGV2aWNlX3Rva2VuPTA5MTRkMzAzLWU1YmQtNDY0ZS1iYTVmLTIxYzEzOWFkYWIxYSZjbGllbnRfaWQ9NjljMjk0OWYtZDU2OC00ZDdmLTgwNjgtNWNmMmY2Mjk1ZTU2&.m3u8
 #EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ntv-belarus.png", NTV-Belarus
 http://194.158.222.36:6106
-#EXTINF:-1 tvg-id="rtr-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus
+#EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ntv-belarus.png", NTV-Belarus HD
+http://nstreamportal.ru/iptv/iptv_api.php?type=voka&id=aHR0cHM6Ly9hcGkudm9rYS50di92MS9jaGFubmVscy9lYmIwNGQ1YS1lZDAwLTQ3ZDgtOWRhNi05YTY1MGE3NDBmMDcvc3RyZWFtLmpzb24%2FY2xpZW50X3ZlcnNpb249MS43LjAuMjQ2JnRpbWV6b25lPTEwODAwJmxvY2FsZT1ydS1SVSZwcm90b2NvbD1obHMmdmlkZW9fY29kZWM9aDI2NCZhdWRpb19jb2RlYz1tcDRhJmRybT1zcGJ0dmNhcyZzY3JlZW5fd2lkdGg9Mzg0MCZzY3JlZW5faGVpZ2h0PTIxNjAmZGV2aWNlX3Rva2VuPTA5MTRkMzAzLWU1YmQtNDY0ZS1iYTVmLTIxYzEzOWFkYWIxYSZjbGllbnRfaWQ9NjljMjk0OWYtZDU2OC00ZDdmLTgwNjgtNWNmMmY2Mjk1ZTU2&.m3u8#EXTINF:-1 tvg-id="rtr-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus
+#EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus 
 http://194.158.222.36:6105
+#EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus HD
+http://nstreamportal.ru/iptv/iptv_api.php?type=voka&id=aHR0cHM6Ly9hcGkudm9rYS50di92MS9jaGFubmVscy9iMDBlNjhhMC0wMzkxLTQ3NTYtYTE4OC1kNzE2ZDQ4Y2RhZmEvc3RyZWFtLmpzb24%2FY2xpZW50X3ZlcnNpb249MS43LjAuMjQ2JnRpbWV6b25lPTEwODAwJmxvY2FsZT1ydS1SVSZwcm90b2NvbD1obHMmdmlkZW9fY29kZWM9aDI2NCZhdWRpb19jb2RlYz1tcDRhJmRybT1zcGJ0dmNhcyZzY3JlZW5fd2lkdGg9Mzg0MCZzY3JlZW5faGVpZ2h0PTIxNjAmZGV2aWNlX3Rva2VuPTA5MTRkMzAzLWU1YmQtNDY0ZS1iYTVmLTIxYzEzOWFkYWIxYSZjbGllbnRfaWQ9NjljMjk0OWYtZDU2OC00ZDdmLTgwNjgtNWNmMmY2Mjk1ZTU2&.m3u8
 #EXTINF:-1 group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://www.mtis.by/i/tv_a/mir.png",Mir Belarus
 http://194.158.222.36:6104
 #EXTINF:-1 tvg-id="tro" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belros.png", BelRos
