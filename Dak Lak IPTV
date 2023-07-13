@@ -662,6 +662,8 @@ https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd
 
 #EXTINF:-1 tvg-id="arirang" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
+#EXTINF:-1 tvg-id="abcaustralia" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/215.png", ABC Australia
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/157526
 #EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Arirang
 http://stream.cvmtv.site/Bloomberg?token=live
 #EXTINF:-1 group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/1200px-Sky-news-logo.png",Sky News
@@ -751,6 +753,10 @@ http://192.162.64.222:4000/play/a05f/index.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
+#EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/71/Syrian_TV_Logo.png",Syrian Satellite TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/201145
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 Asia 
 https://github.com/ChiSheng9/iptv/raw/master/TV20.m3u8
 #EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://nettvpro.live/uploads/18/1-1P51220053V91.jpg", Hồ Nam Quốc Tế
@@ -772,9 +778,9 @@ http://lttv.ddqq.fun:8085/tvb.php?id=0&hq
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/XzRJxcj/8.png" group-title="Quốc tế",TVB Satellite Finance-Sport-Info Channel
 http://lttv.ddqq.fun:8085/tvb.php?id=2&hq
 #EXTINF:-1 group-title="Quốc tế" tvg-id="ANC.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ABS-CBN_News_Channel_%282015%29.svg/220px-ABS-CBN_News_Channel_%282015%29.svg.png",ANC
-
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144833
 #EXTINF:-1 group-title="Quốc tế" tvg-id="TheFilipinoChannelAsia.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/220px-The_Filipino_Channel_2011_logo.svg.png",TFC Asia
-
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/121795
 #EXTINF:0 tvg-id="GMALifeTV.ph" tvg-logo="https://i.imgur.com/JSLsN7L.jpg" group-title="Quốc tế",GMA LIFE TV
 http://line.gofast-tv.me:80/play/live.php?mac=00:1A:79:6F:5A:5D&stream=941579&extension=ts&play_token=hKPKt78qJq
 #EXTINF:-1 tvg-id="GMAPinoyTVAsiaPacific.ph" tvg-logo="https://i.imgur.com/2QkjBUo.jpg" group-title="Quốc tế",GMA PINOY TV
@@ -904,271 +910,145 @@ http://83.228.75.166:8000/play/a04f
 http://83.228.75.166:8000/play/a04h
 
 
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" BBC ONE \" tvg-logo=\"\" group-title="🇬🇧 | ANH", BBC ONE 
-http://fireott.biz:2052/870175411887/427250059688/301424
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" BBC TWO \" tvg-logo=\"\" group-title="🇬🇧 | ANH", BBC TWO 
-http://fireott.biz:2052/870175411887/427250059688/301425
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" BBC THREE \" tvg-logo=\"\" group-title="🇬🇧 | ANH", BBC THREE 
-http://fireott.biz:2052/870175411887/427250059688/301426
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" BBC NEWS \" tvg-logo=\"\" group-title="🇬🇧 | ANH", BBC NEWS 
-http://fireott.biz:2052/870175411887/427250059688/301427
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" BBC SCOTLAND\" tvg-logo=\"\" group-title="🇬🇧 | ANH", BBC SCOTLAND
-http://fireott.biz:2052/870175411887/427250059688/301428
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" BBC ONE PLU \" tvg-logo=\"\" group-title="🇬🇧 | ANH", BBC ONE PLU 
-http://fireott.biz:2052/870175411887/427250059688/301429
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" BBC WORLD NEWS \" tvg-logo=\"\" group-title="🇬🇧 | ANH", BBC WORLD NEWS 
-http://fireott.biz:2052/870175411887/427250059688/301430
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" ITV 1\" tvg-logo=\"\" group-title="🇬🇧 | ANH", ITV 1
-http://fireott.biz:2052/870175411887/427250059688/301431
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD ITV 2 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD ITV 2 
-http://fireott.biz:2052/870175411887/427250059688/301432
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" ITV 2 \" tvg-logo=\"\" group-title="🇬🇧 | ANH", ITV 2 
-http://fireott.biz:2052/870175411887/427250059688/301433
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" ITV 3\" tvg-logo=\"\" group-title="🇬🇧 | ANH", ITV 3
-http://fireott.biz:2052/870175411887/427250059688/301434
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD ITV 3 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD ITV 3 
-http://fireott.biz:2052/870175411887/427250059688/301435
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" ITV 4 \" tvg-logo=\"\" group-title="🇬🇧 | ANH", ITV 4 
-http://fireott.biz:2052/870175411887/427250059688/301436
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD ITV 4 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD ITV 4 
-http://fireott.biz:2052/870175411887/427250059688/301437
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" ITV BE\" tvg-logo=\"\" group-title="🇬🇧 | ANH", ITV BE
-http://fireott.biz:2052/870175411887/427250059688/301438
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD RTE NEWS\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD RTE NEWS
-http://fireott.biz:2052/870175411887/427250059688/301439
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" RTE NEWS\" tvg-logo=\"\" group-title="🇬🇧 | ANH", RTE NEWS
-http://fireott.biz:2052/870175411887/427250059688/301440
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD SKY NEWS \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD SKY NEWS 
-http://fireott.biz:2052/870175411887/427250059688/301441
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD GREAT TV \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD GREAT TV 
-http://fireott.biz:2052/870175411887/427250059688/301442
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD GREAT ACTION  \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD GREAT ACTION  
-http://fireott.biz:2052/870175411887/427250059688/301443
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" DISCOVERY SHED  \" tvg-logo=\"\" group-title="🇬🇧 | ANH", DISCOVERY SHED  
-http://fireott.biz:2052/870175411887/427250059688/301444
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD BLAZE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD BLAZE 
-http://fireott.biz:2052/870175411887/427250059688/301445
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD E4 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD E4 
-http://fireott.biz:2052/870175411887/427250059688/301446
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD SKY TWO \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD SKY TWO 
-http://fireott.biz:2052/870175411887/427250059688/301447
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD 5 USA\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD 5 USA
-http://fireott.biz:2052/870175411887/427250059688/301448
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD ALIBI \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD ALIBI 
-http://fireott.biz:2052/870175411887/427250059688/301449
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD LOVE NATURE\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD LOVE NATURE
-http://fireott.biz:2052/870175411887/427250059688/301450
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD AMC \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD AMC 
-http://fireott.biz:2052/870175411887/427250059688/301451
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD QUEST \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD QUEST 
-http://fireott.biz:2052/870175411887/427250059688/301452
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CBS JUSTICE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CBS JUSTICE 
-http://fireott.biz:2052/870175411887/427250059688/301453
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD 4SEVEN \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD 4SEVEN 
-http://fireott.biz:2052/870175411887/427250059688/301454
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CBS DRAMA\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CBS DRAMA
-http://fireott.biz:2052/870175411887/427250059688/301455
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CHANNEL 5 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CHANNEL 5 
-http://fireott.biz:2052/870175411887/427250059688/301456
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD BLOOMBERG\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD BLOOMBERG
-http://fireott.biz:2052/870175411887/427250059688/301457
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD AT THE RACES\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD AT THE RACES
-http://fireott.biz:2052/870175411887/427250059688/301458
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD SKY MOVIES SHOWCASE\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD SKY MOVIES SHOWCASE
-http://fireott.biz:2052/870175411887/427250059688/301459
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD BBC ALBA \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD BBC ALBA 
-http://fireott.biz:2052/870175411887/427250059688/301460
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD BBC ENTERTAINEMENT\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD BBC ENTERTAINEMENT
-http://fireott.biz:2052/870175411887/427250059688/301461
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD BABY TV \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD BABY TV 
-http://fireott.biz:2052/870175411887/427250059688/301462
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CARTOONNITO\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CARTOONNITO
-http://fireott.biz:2052/870175411887/427250059688/301463
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CARTOON NETWORK\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CARTOON NETWORK
-http://fireott.biz:2052/870175411887/427250059688/301464
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CB REALITY\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CB REALITY
-http://fireott.biz:2052/870175411887/427250059688/301465
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" DISNEY CHANNEL\" tvg-logo=\"\" group-title="🇬🇧 | ANH", DISNEY CHANNEL
-http://fireott.biz:2052/870175411887/427250059688/301466
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" DISNEY JR\" tvg-logo=\"\" group-title="🇬🇧 | ANH", DISNEY JR
-http://fireott.biz:2052/870175411887/427250059688/301467
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" DISNEY XD \" tvg-logo=\"\" group-title="🇬🇧 | ANH", DISNEY XD 
-http://fireott.biz:2052/870175411887/427250059688/301468
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD NICK JR \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD NICK JR 
-http://fireott.biz:2052/870175411887/427250059688/301469
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD NICK JUNIOR TOO \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD NICK JUNIOR TOO 
-http://fireott.biz:2052/870175411887/427250059688/301470
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD NICKELODEON \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD NICKELODEON 
-http://fireott.biz:2052/870175411887/427250059688/301471
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD NICK TOONS\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD NICK TOONS
-http://fireott.biz:2052/870175411887/427250059688/301472
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" RTE TWO\" tvg-logo=\"\" group-title="🇬🇧 | ANH", RTE TWO
-http://fireott.biz:2052/870175411887/427250059688/301473
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CNN INTERNATIONAL\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CNN INTERNATIONAL
-http://fireott.biz:2052/870175411887/427250059688/301474
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" CNN INT\" tvg-logo=\"\" group-title="🇬🇧 | ANH", CNN INT
-http://fireott.biz:2052/870175411887/427250059688/301475
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD COMEDY CENTRAL\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD COMEDY CENTRAL
-http://fireott.biz:2052/870175411887/427250059688/301476
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD DAVE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD DAVE 
-http://fireott.biz:2052/870175411887/427250059688/301477
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD NOW 90S \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD NOW 90S 
-http://fireott.biz:2052/870175411887/427250059688/301478
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD TINY POP\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD TINY POP
-http://fireott.biz:2052/870175411887/427250059688/301479
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD TLC \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD TLC 
-http://fireott.biz:2052/870175411887/427250059688/301480
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD TRAVEL CHANNEL\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD TRAVEL CHANNEL
-http://fireott.biz:2052/870175411887/427250059688/301481
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD YESTERDAY\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD YESTERDAY
-http://fireott.biz:2052/870175411887/427250059688/301482
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD CBS REALITY \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD CBS REALITY 
-http://fireott.biz:2052/870175411887/427250059688/301483
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD  DMAX \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD  DMAX 
-http://fireott.biz:2052/870175411887/427250059688/301484
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD DRAMA CHANNEL \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD DRAMA CHANNEL 
-http://fireott.biz:2052/870175411887/427250059688/301485
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" E!  \" tvg-logo=\"\" group-title="🇬🇧 | ANH", E!  
-http://fireott.biz:2052/870175411887/427250059688/301486
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD EUROSPORT 1\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD EUROSPORT 1
-http://fireott.biz:2052/870175411887/427250059688/301487
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD EUROSPORT 2\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD EUROSPORT 2
-http://fireott.biz:2052/870175411887/427250059688/301488
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD FILM 4 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD FILM 4 
-http://fireott.biz:2052/870175411887/427250059688/301489
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD 5 Star ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD 5 Star ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301490
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD FOX NEWS\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD FOX NEWS
-http://fireott.biz:2052/870175411887/427250059688/301491
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD 4K GOLD  \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD 4K GOLD  
-http://fireott.biz:2052/870175411887/427250059688/301492
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD MORE 4\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD MORE 4
-http://fireott.biz:2052/870175411887/427250059688/301493
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD RTE ONE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD RTE ONE 
-http://fireott.biz:2052/870175411887/427250059688/301494
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD RTE TWO\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD RTE TWO
-http://fireott.biz:2052/870175411887/427250059688/301495
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD TRAVEL XP \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD TRAVEL XP 
-http://fireott.biz:2052/870175411887/427250059688/301496
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD SKY ATLANTIC \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD SKY ATLANTIC 
-http://fireott.biz:2052/870175411887/427250059688/301497
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD SKY CINEMA \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD SKY CINEMA 
-http://fireott.biz:2052/870175411887/427250059688/301498
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" SKY CINEMA HITS \" tvg-logo=\"\" group-title="🇬🇧 | ANH", SKY CINEMA HITS 
-http://fireott.biz:2052/870175411887/427250059688/301499
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD BBC ENTRE\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD BBC ENTRE
-http://fireott.biz:2052/870175411887/427250059688/301500
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD SKY LIVING \" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD SKY LIVING 
-http://fireott.biz:2052/870175411887/427250059688/301501
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" SKY CINEMA ACTION ADVENTURE \" tvg-logo=\"\" group-title="🇬🇧 | ANH", SKY CINEMA ACTION ADVENTURE 
-http://fireott.biz:2052/870175411887/427250059688/301502
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" S4C\" tvg-logo=\"\" group-title="🇬🇧 | ANH", S4C
-http://fireott.biz:2052/870175411887/427250059688/301503
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"HD SKY CINEMA COMEDY\" tvg-logo=\"\" group-title="🇬🇧 | ANH",HD SKY CINEMA COMEDY
-http://fireott.biz:2052/870175411887/427250059688/301504
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" SKY DRAMA ROMANCE \" tvg-logo=\"\" group-title="🇬🇧 | ANH", SKY DRAMA ROMANCE 
-http://fireott.biz:2052/870175411887/427250059688/301505
-#EXTINF:-1 tvg-id=\"\" tvg-name=\" SKY CINEMA FAMILY\" tvg-logo=\"\" group-title="🇬🇧 | ANH", SKY CINEMA FAMILY
-http://fireott.biz:2052/870175411887/427250059688/301506
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY CINEMA ANIMATION \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY CINEMA ANIMATION 
-http://fireott.biz:2052/870175411887/427250059688/301507
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY CINEMA PREMIERE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY CINEMA PREMIERE 
-http://fireott.biz:2052/870175411887/427250059688/301508
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD HORROR\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD HORROR
-http://fireott.biz:2052/870175411887/427250059688/301509
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD NAT GEO WILD\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD NAT GEO WILD
-http://fireott.biz:2052/870175411887/427250059688/301510
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD QUEST RED\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD QUEST RED
-http://fireott.biz:2052/870175411887/427250059688/301511
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY SPORTS ACTION \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY SPORTS ACTION 
-http://fireott.biz:2052/870175411887/427250059688/301512
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: Sky Sports Cricket ᶠᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: Sky Sports Cricket ᶠᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301513
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: Sky Sports Football ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: Sky Sports Football ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301514
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD SKY SPORTS GOLF \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD SKY SPORTS GOLF 
-http://fireott.biz:2052/870175411887/427250059688/301515
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY SPORTS GOLF  \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY SPORTS GOLF  
-http://fireott.biz:2052/870175411887/427250059688/301516
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY SPORTS MIX  \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY SPORTS MIX  
-http://fireott.biz:2052/870175411887/427250059688/301517
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY SPORTS MAIN EVENT 1\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY SPORTS MAIN EVENT 1
-http://fireott.biz:2052/870175411887/427250059688/301518
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY SPORTS ARENA \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY SPORTS ARENA 
-http://fireott.biz:2052/870175411887/427250059688/301519
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : SKY SPORTS NEWS \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : SKY SPORTS NEWS 
-http://fireott.biz:2052/870175411887/427250059688/301520
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD SKY PREMIER LEAGUE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD SKY PREMIER LEAGUE 
-http://fireott.biz:2052/870175411887/427250059688/301521
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY PREMIER LEAGUE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY PREMIER LEAGUE 
-http://fireott.biz:2052/870175411887/427250059688/301522
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: Sky Sports Racing ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: Sky Sports Racing ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301523
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K SKY F1 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K SKY F1 
-http://fireott.biz:2052/870175411887/427250059688/301524
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: Sky Sport Box Office\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: Sky Sport Box Office
-http://fireott.biz:2052/870175411887/427250059688/301525
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD BT SPORT 1\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD BT SPORT 1
-http://fireott.biz:2052/870175411887/427250059688/301526
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD BT SPORT 2 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD BT SPORT 2 
-http://fireott.biz:2052/870175411887/427250059688/301527
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD BT SPORT 3\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD BT SPORT 3
-http://fireott.biz:2052/870175411887/427250059688/301528
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: Box Nation UK\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: Box Nation UK
-http://fireott.biz:2052/870175411887/427250059688/301529
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: Premiere Sport\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: Premiere Sport
-http://fireott.biz:2052/870175411887/427250059688/301530
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: premiere sports 1\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: premiere sports 1
-http://fireott.biz:2052/870175411887/427250059688/301531
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K EUROSORT 1 \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K EUROSORT 1 
-http://fireott.biz:2052/870175411887/427250059688/301532
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K EUROSPORT 2\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K EUROSPORT 2
-http://fireott.biz:2052/870175411887/427250059688/301533
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: BT Sport 4 ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: BT Sport 4 ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301534
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: LiverpooL FC HD\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: LiverpooL FC HD
-http://fireott.biz:2052/870175411887/427250059688/301535
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: MUTV\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: MUTV
-http://fireott.biz:2052/870175411887/427250059688/301536
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: History Channel ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: History Channel ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301537
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: HISTORY 2\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: HISTORY 2
-http://fireott.biz:2052/870175411887/427250059688/301538
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K DISCOVEREY \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K DISCOVEREY 
-http://fireott.biz:2052/870175411887/427250059688/301539
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K DISCOVERY SCIENCE \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K DISCOVERY SCIENCE 
-http://fireott.biz:2052/870175411887/427250059688/301540
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K DISCOVERY TURBO \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K DISCOVERY TURBO 
-http://fireott.biz:2052/870175411887/427250059688/301541
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: Animal Planet ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: Animal Planet ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301542
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: France 24 Eng ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: France 24 Eng ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301543
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: S4C ᴴᴰ\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: S4C ᴴᴰ
-http://fireott.biz:2052/870175411887/427250059688/301544
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"Uk: PARAMOUNT HD\" tvg-logo=\"\" group-title="🇬🇧 | ANH",Uk: PARAMOUNT HD
-http://fireott.biz:2052/870175411887/427250059688/301545
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : AT THE RACE\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : AT THE RACE
-http://fireott.biz:2052/870175411887/427250059688/301546
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD MTV HITS\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD MTV HITS
-http://fireott.biz:2052/870175411887/427250059688/301547
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD MTV ROCK \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD MTV ROCK 
-http://fireott.biz:2052/870175411887/427250059688/301548
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K MTV ROCK\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K MTV ROCK
-http://fireott.biz:2052/870175411887/427250059688/301549
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K  MTV HITS \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K  MTV HITS 
-http://fireott.biz:2052/870175411887/427250059688/301550
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : 4K  MTV\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : 4K  MTV
-http://fireott.biz:2052/870175411887/427250059688/301551
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD MTV \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD MTV 
-http://fireott.biz:2052/870175411887/427250059688/301552
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD MTV\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD MTV
-http://fireott.biz:2052/870175411887/427250059688/301553
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : HD HOME \" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : HD HOME 
-http://fireott.biz:2052/870175411887/427250059688/301554
-#EXTINF:-1 tvg-id=\"\" tvg-name=\"UK : SD DAVE JA VU\" tvg-logo=\"\" group-title="🇬🇧 | ANH",UK : SD DAVE JA VU
-http://fireott.biz:2052/870175411887/427250059688/301555
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
+http://stream.cvmtv.site/BBC1?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png",BBC Two
+http://stream.cvmtv.site/BBC2?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1920px-ITV1_logo_%282022%29.svg.png",ITV1
+http://stream.cvmtv.site/ITV?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
+http://stream.cvmtv.site/Channel4?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1920px-ITV2_logo_2022.svg.png",ITV2
+http://stream.cvmtv.site/ITV2?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ITV3_logo_2022.svg/1200px-ITV3_logo_2022.svg.png",ITV3
+http://stream.cvmtv.site/ITV3?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1920px-ITV4_logo_%282022%29.svg.png",ITV4
+http://stream.cvmtv.site/ITV4?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/CBBC_%282023%29.svg/1920px-CBBC_%282023%29.svg.png",CBBC
+http://stream.cvmtv.site/CBBC?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S4C_logo_2014.svg/1200px-S4C_logo_2014.svg.png",S4C
+http://stream.cvmtv.site/S4C?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://static.wikia.nocookie.net/bbc/images/7/73/BBCP.png",BBC Parliament
+http://stream.cvmtv.site/BBC_Par?token=live
+#EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/2560px-BBC_Red_Button_2021.svg.png",BBC RB 1
+http://stream.cvmtv.site/BBC_RB?token=live
 
+#EXTINF:-1,group-title=🇦🇺|ÚC, (New Zealand) Firstlight TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/296571
+#EXTINF:-1,group-title=🇦🇺|ÚC, 7 Flix
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144773
+#EXTINF:-1,group-title=🇦🇺|ÚC, 7 mate
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144774
+#EXTINF:-1,group-title=🇦🇺|ÚC, 7 Two
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144760
+#EXTINF:-1,group-title=🇦🇺|ÚC, 9 GEM
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81783
+#EXTINF:-1,group-title=🇦🇺|ÚC, 9 Go!
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81798
+#EXTINF:-1,group-title=🇦🇺|ÚC, 9 Life
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81807
+#EXTINF:-1,group-title=🇦🇺|ÚC, 9 Rush Brisbane
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/182411
+#EXTINF:-1,group-title=🇦🇺|ÚC, 9 Rush Perth
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/166443
+#EXTINF:-1,group-title=🇦🇺|ÚC, 10 Bold
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81782
+#EXTINF:-1,group-title=🇦🇺|ÚC, 10 Peach Sydney
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144803
+#EXTINF:-1,group-title=🇦🇺|ÚC, 10 Sydney
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81796
+#EXTINF:-1,group-title=🇦🇺|ÚC, ABC Kids NT
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/152369
+#EXTINF:-1,group-title=🇦🇺|ÚC, ABC Me NT
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/186985
+#EXTINF:-1,group-title=🇦🇺|ÚC, ABC News
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/146815
+#EXTINF:-1,group-title=🇦🇺|ÚC, ABC TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/173559
+#EXTINF:-1,group-title=🇦🇺|ÚC, ABC TV Plus South East
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/186983
+#EXTINF:-1,group-title=🇦🇺|ÚC, ACCTV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/146818
+#EXTINF:-1,group-title=🇦🇺|ÚC, ausbiz TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/166436
+#EXTINF:-1,group-title=🇦🇺|ÚC, beIN Sports 1
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/35347
+#EXTINF:-1,group-title=🇦🇺|ÚC, beIN Sports 2
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/35338
+#EXTINF:-1,group-title=🇦🇺|ÚC, beIN Sports 3
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/35340
+#EXTINF:-1,group-title=🇦🇺|ÚC, Bloomberg TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/146817
+#EXTINF:-1,group-title=🇦🇺|ÚC, Channel Nine Sydney
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/166445
+#EXTINF:-1,group-title=🇦🇺|ÚC, ESPN
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/294449
+#EXTINF:-1,group-title=🇦🇺|ÚC, ESPN 2
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/35326
+#EXTINF:-1,group-title=🇦🇺|ÚC, Expo Channel
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/54325
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports 501
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/279034
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports 502
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81784
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports 503
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/280192
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports 504
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/280193
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports 505
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144772
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports 506
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/279033
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports 507
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/280194
+#EXTINF:-1,group-title=🇦🇺|ÚC, Fox Sports News
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/76006
+#EXTINF:-1,group-title=🇦🇺|ÚC, Gusto TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/279771
+#EXTINF:-1,group-title=🇦🇺|ÚC, Insight
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/279773
+#EXTINF:-1,group-title=🇦🇺|ÚC, Juice TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/285948
+#EXTINF:-1,group-title=🇦🇺|ÚC, M4 TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/294899
+#EXTINF:-1,group-title=🇦🇺|ÚC, NITV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81777
+#EXTINF:-1,group-title=🇦🇺|ÚC, Parl TV
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/54326
+#EXTINF:-1,group-title=🇦🇺|ÚC, Racing
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144781
+#EXTINF:-1,group-title=🇦🇺|ÚC, Real Stories
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/279776
+#EXTINF:-1,group-title=🇦🇺|ÚC, SBS
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/295039
+#EXTINF:-1,group-title=🇦🇺|ÚC, SBS Food Network
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/144778
+#EXTINF:-1,group-title=🇦🇺|ÚC, SBS Viceland
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/146812
+#EXTINF:-1,group-title=🇦🇺|ÚC, SBS World Movies
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/186984
+#EXTINF:-1,group-title=🇦🇺|ÚC, Seven Network
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/295037
+#EXTINF:-1,group-title=🇦🇺|ÚC, Sky News
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/81732
+#EXTINF:-1,group-title=🇦🇺|ÚC, Sky News Extra 1
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/283834
+#EXTINF:-1,group-title=🇦🇺|ÚC, Sky News Extra 3
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/283836
+#EXTINF:-1,group-title=🇦🇺|ÚC, Sky Racing 1
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/201085
+#EXTINF:-1,group-title=🇦🇺|ÚC, Sky Racing 2
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/201086
+#EXTINF:-1,group-title=🇦🇺|ÚC, Smithsonian Channel
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/279779
+#EXTINF:-1,group-title=🇦🇺|ÚC, Time Line Australia
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/285941
+#EXTINF:-1,group-title=🇦🇺|ÚC, TVSN
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/54329
+#EXTINF:-1,group-title=🇦🇺|ÚC, VENN
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/285943
+#EXTINF:-1,group-title=🇦🇺|ÚC, Wonder
+http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/285944
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
