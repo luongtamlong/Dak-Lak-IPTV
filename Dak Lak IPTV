@@ -143,53 +143,56 @@ https://live1onsport.vtvcab.vn/secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/ONVFFTV/manif
 https://live1onsport.vtvcab.vn/secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/ONVOLLEYBALL/manifest.mpd
 
 #--*.*--K+--*.*--#
-#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2023/04/28/oj7f06wz_bannerdb2757bbbe3435e10bf50dce18cac0f9_296_168.webp",$ K+CINE HD
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeycinehd
+https://hqth.me/kpluscinehd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeylifehd
+https://hqth.me/kpluslifehd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeycinehd?key=20/2991888829/80keokeo
-https://hqth.me/kpluscinehd?id=kplus20/seasonid:2991/cine.mpd
-#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2023/04/28/f5ve48sm_banner1611a7c5bf816e61726c0b811d28293c_296_168.webp" group-title="K+",$ K+LIFE HD
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeysports1hd
+https://hqth.me/kplussports1hd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeylifehd?key=28/199022112/80keokey
-https://hqth.me/kpluslifehd?id=20/seasonid:4763/live992/life.mpd
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/10/16/er71te0y_bannerksport151de005e201a92612de8218003a70bd0_296_168.webp",$ K+ SPORT1 HD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeysports2hd
+https://hqth.me/kplussports2hd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS
+EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeysports1hd?key99/738829912/20sportskeokey
-https://hqth.me/kplussports1hd?id=klifesports291/seasonid:83112232211/sports.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2021/09/30/bwx6fdo1_sport2_296_168.webp",$ K+SPORT 2 HD
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeykidshd
+https://hqth.me/kpluskidshd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-1.png",K+ LIVE 1
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.ifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeysports2hd?key=66/728819923/32sportskeokey
-https://hqth.me/kplussports2hd?id=klifesports821/seasonid:1777288822/sports.mpd
-#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2023/03/03/dykk8tev_k-kida2ce6e01c94ebecbda9256d9514dc8aa_296_168.webp",$ K+ Kids HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeykidshd?key18/9000029912/12kidskeokey
-https://hqth.me/kpluskidshd?id=kids10/seasonid:5552666172/kids.mpd
-#EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png",$ K+ LIVE 1
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluslivekey1
+https://cocc.me/kpluslive1hd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-2.png",K+ LIVE 2
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluslivekey1?key=29978812211/livekplus1
-https://cocc.me/kpluslive1hd?id=kplus01/seasonid=21/i.mpd
-#EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png",$ K+ LIVE 2
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeylive2
+https://cocc.me/kpluslive2hd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-3.png",K+ LIVE 3
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeylive2?code=2998811223/livekplus2
-https://cocc.me/kpluslive2hd?id=kplus02/seasonid=32/i.mpd
-#EXTINF:-1  tvg-id="klive3hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_3.png",$ K+ LIVE 3
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/livekpluskey3?code=1627739223/live03kplushd
-https://cocc.me/kpluslive3hd?id=kplus03/seasonid=46/i.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/livekpluskey3
+https://cocc.me/kpluslive3hd
 
 
 
@@ -770,9 +773,9 @@ http://live.cooltv.top/tv/tide.php?id=szgj
 #EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://www.ntdtv.com.tw/staticelement/img/aboutus/ntd_logo.png", NTD Asia
 https://github.com/ChiSheng9/iptv/raw/master/TV23.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Satellite Jade
-http://60.208.16.27:1505/gudou.php?id=364&id=1350_4500
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153505
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/fkrGk30/image.png" group-title="Quốc tế",TVB Satellite Pearl
-http://60.208.16.27:1505/gudou.php?id=364&id=1351_4500
+http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB Satellite News Channel
 http://lttv.ddqq.fun:8085/tvb.php?id=0&hq
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/XzRJxcj/8.png" group-title="Quốc tế",TVB Satellite Finance-Sport-Info Channel
@@ -908,6 +911,35 @@ http://83.228.75.166:8000/play/a05c
 http://83.228.75.166:8000/play/a04f
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/148gj6" group-title="Giải trí quốc tế",FOX Crime
 http://83.228.75.166:8000/play/a04h
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:0 tvg-id="Galaxy.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/dddbae34f8fafd015e5221a02075ad19.png" group-title="Giải trí quốc tế",Galaxy
+https://anevia114.mncnow.id/live/eds/Galaxy-HD/sa_dash_vmx/Galaxy-HD.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:0 tvg-id="GalaxyPremium.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/3a174e88de5f3dad328641d7d7524b25.png" group-title="Giải trí quốc tế",Galaxy Premium
+https://anevia114.mncnow.id/live/eds/GalaxyPremium-HD/sa_dash_vmx/GalaxyPremium-HD.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:0 tvg-id="Thrill.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2022-04/9397a211ee5003fca0d125a8c2232edd.png" group-title="Giải trí quốc tế",Thrill
+https://anevia114.mncnow.id/live/eds/Thrill/sa_dash_vmx/Thrill.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:0 tvg-id="CelestialMovies.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/03722835968ebf5a812fcb4ad2d041dc.png" group-title="Giải trí quốc tế",Thiên Ánh
+https://anevia114.mncnow.id/live/eds/CelestialMovie/sa_dash_vmx/CelestialMovie.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:0 tvg-id="CelestialClassicMovie.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/03722835968ebf5a812fcb4ad2d041dc.png" group-title="Giải trí quốc tế",Thiên Ánh Classic
+https://anevia114.mncnow.id/live/eds/CelestialClassic/sa_dash_vmx/CelestialClassic.mpd
+
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/d/d2/TVB_Classic.png" group-title="Giải trí quốc tế",TVB Classic
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571197&extension=ts
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/e5/TVB_Entertainment_News_2017_logo.png" group-title="Giải trí quốc tế",TVB E News
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571188&extension=ts
 
 
 #EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
@@ -1490,36 +1522,111 @@ http://seb.sason.top/sc/slinews_fhd.m3u8
 #EXTINF:-1 group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/setlivenews.png",三立Live新聞
 http://seb.sason.top/sc/sllive_fhd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QNpg3xc/TV-Asahi.png" group-title="🇯🇵| Kênh Nhật Bản", TV Asahi
-http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/qRdGbVC/NIPPONTV.png" group-title="🇯🇵| Kênh Nhật Bản", Nippon TV
-http://redlabmcdn.s.llnwi.net/nv02/ryowa3hd/index.m3u8
-#https://ntv3.mov3.co/hls/ntv.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MpzYqxS/TBS.png" group-title="🇯🇵| Kênh Nhật Bản", TBS TV
-http://redlabmcdn.s.llnwi.net/nv02/ryowa5hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/0qXMPvG/atx.png" group-title="🇯🇵| Kênh Nhật Bản", AT-X
-https://code.vthanhtivi.pw/getlink/jptv2/107/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/1sjP7F3/1200px-Fuji-TV-logo-svg.png" group-title="🇯🇵| Kênh Nhật Bản", FUJI TV
-http://redlabmcdn.s.llnwi.net/nv02/ryowa7hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/rHqrQSM/weathernewjapan.jpg" group-title="🇯🇵| Kênh Nhật Bản", WEATHER NEWS JAPAN
-http://movie.mcas.jp/mcas/smil:wn1.smil/chunklist_b1800000.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ZMtFPHZ/jp-shop-channe-5122.jpg" group-title="🇯🇵| Kênh Nhật Bản", SHOP CHANNEL JAPAN
-http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/s1D82Bq/TV-Tokyo.png" group-title="🇯🇵| Kênh Nhật Bản",TV Tokyo
-https://cdn-us-186.cloudrsst.com/live/kanto_tv_tokyo_1080/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RhJVKbM/NHK-BS1.png" group-title="🇯🇵| Kênh Nhật Bản",NHK BS1
-http://redlabmcdn.s.llnwi.net/nv02/bs01hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PMXCLsP/1200px-NHK-General-TV-logo-svg.png" group-title="🇯🇵| Kênh Nhật Bản",NHK G
-http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CWVVV89/1-200-GGP3023-W.png" group-title="🇯🇵| Kênh Nhật Bản",NHK E
-http://redlabmcdn.s.llnwi.net/nv02/ryowa1hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MDQKZGR/E4c594f6-3687-40d8-b8b7-af85a0378c97-removebg.png" group-title="🇯🇵| Kênh Nhật Bản", WOW WOW Cinema
-https://cdn-us-186.cloudrsst.com/live/cinefil_wowow_720/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MhJQL0c/kisspng-logo-nhk-bs-premium-nhk-bs-2-nhk-bs1-bs-logo-www-galleryhip-com-the-hippest-pics-5bfac98cb7a.jpg" group-title="🇯🇵| Kênh Nhật Bản",NHK BSP
-#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/zpi6mQ3.png" group-title="🇯🇵| Kênh Nhật Bản",Animax
-http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.wowowplus.jp/parts/common/img/logo_sp.png?1130" group-title="🇯🇵| Kênh Nhật Bản", Wowow Plus
-https://cdn-us-186.cloudrsst.com/live/cinefil_wowow_720/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhkg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png", NHK G HD
+http://code.hqth.xyz/getlink/jptv2/213/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhkg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png", NHK G 
+http://code.hqth.xyz/getlink/jptv2/1/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhke" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/NHKE%E3%83%86%E3%83%AC%E3%83%AD%E3%82%B42020-.png", NHK E HD
+http://code.hqth.xyz/getlink/jptv2/214/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhke" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/NHKE%E3%83%86%E3%83%AC%E3%83%AD%E3%82%B42020-.png", NHK E 
+http://code.hqth.xyz/getlink/jptv2/2/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="ntv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/2560px-Nippon_TV_logo_2014.svg.png", NTV HD
+http://code.hqth.xyz/getlink/jptv2/202/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="ntv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/2560px-Nippon_TV_logo_2014.svg.png", NTV 
+http://code.hqth.xyz/getlink/jptv2/4/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tbs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2560px-Tokyo_Broadcasting_System_logo_2020.svg.png", TBS HD
+http://code.hqth.xyz/getlink/jptv2/203/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tbs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2560px-Tokyo_Broadcasting_System_logo_2020.svg.png", TBS 
+http://code.hqth.xyz/getlink/jptv2/13/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="fujitv" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Fuji_TV_Logo.svg/1049px-Fuji_TV_Logo.svg.png", Fuji TV HD
+http://code.hqth.xyz/getlink/jptv2/204/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="fujitv" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Fuji_TV_Logo.svg/1049px-Fuji_TV_Logo.svg.png", Fuji TV  
+http://code.hqth.xyz/getlink/jptv2/14/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tvasahi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/2560px-TV_Asahi_Logo.svg.png", TV Asahi HD
+http://code.hqth.xyz/getlink/jptv2/205/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tvasahi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/2560px-TV_Asahi_Logo.svg.png", TV Asahi  
+http://code.hqth.xyz/getlink/jptv2/15/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tvtokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/TV_Tokyo_logo_20110629.svg/2560px-TV_Tokyo_logo_20110629.svg.png", TV Tokyo HD
+http://code.hqth.xyz/getlink/jptv2/276/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tvtokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/TV_Tokyo_logo_20110629.svg/2560px-TV_Tokyo_logo_20110629.svg.png", TV Tokyo 
+http://code.hqth.xyz/getlink/jptv2/16/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tokyomx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png", TOKYO MX1 HD
+http://code.hqth.xyz/getlink/jptv2/277/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="tokyomx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png", TOKYO MX1
+http://code.hqth.xyz/getlink/jptv2/70/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhkbs1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/NHKBS1%E3%83%AD%E3%82%B42020-.png", NHK BS1 HD
+https://code.hqth.xyz/getlink/jptv2/215/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhkbs1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/NHKBS1%E3%83%AD%E3%82%B42020-.png", NHK BS1  
+https://code.hqth.xyz/getlink/jptv2/23/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhkbsp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BS%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0_%E6%96%B0%E3%83%AD%E3%82%B4.png", NHK BS Premium HD
+https://code.hqth.xyz/getlink/jptv2/216/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nhkbsp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BS%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0_%E6%96%B0%E3%83%AD%E3%82%B4.png", NHK BS Premium  
+https://code.hqth.xyz/getlink/jptv2/24/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bsntv" tvg-logo="https://i.postimg.cc/wvCmCc2p/t-i-xu-ng.png", BS NTV HD
+https://code.hqth.xyz/getlink/jptv2/217/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bsntv" tvg-logo="https://i.postimg.cc/wvCmCc2p/t-i-xu-ng.png", BS NTV
+https://code.hqth.xyz/getlink/jptv2/25/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bsasahi" tvg-logo="https://company.tv-asahi.co.jp/saiyo/group/img/company/logo-bsasahi.png", BS Asahi HD
+https://code.hqth.xyz/getlink/jptv2/218/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bsasahi" tvg-logo="https://company.tv-asahi.co.jp/saiyo/group/img/company/logo-bsasahi.png", BS Asahi  
+https://code.hqth.xyz/getlink/jptv2/26/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bstbs" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bs-tbs-jp.png", BS TBS HD
+https://code.hqth.xyz/getlink/jptv2/219/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bstbs" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bs-tbs-jp.png", BS TBS  
+https://code.hqth.xyz/getlink/jptv2/27/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bstvtokyo" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bs-tokyo-jp.png", BS TV Tokyo HD
+https://code.hqth.xyz/getlink/jptv2/220/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bstvtokyo" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bs-tokyo-jp.png", BS TV Tokyo
+https://code.hqth.xyz/getlink/jptv2/28/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bsfuji" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg", BS Fuji HD
+https://code.hqth.xyz/getlink/jptv2/221/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="bsfuji" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg", BS Fuji  
+https://code.hqth.xyz/getlink/jptv2/29/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="wowowprime" tvg-logo="http://www.lyngsat-logo.com/logo/tv/ww/wowow_prime.png", WOWOW Prime HD
+https://code.hqth.xyz/getlink/jptv2/222/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="wowowprime" tvg-logo="http://www.lyngsat-logo.com/logo/tv/ww/wowow_prime.png", WOWOW Prime 
+https://code.hqth.xyz/getlink/jptv2/30/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="wowowlive" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ww/wowow_live.png", WOWOW Live HD
+https://code.hqth.xyz/getlink/jptv2/223/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="wowowlive" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ww/wowow_live.png", WOWOW Live  
+https://code.hqth.xyz/getlink/jptv2/31/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="wowowcinema" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ww/wowow_cinema.png", WOWOW Cinema HD
+https://code.hqth.xyz/getlink/jptv2/224/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="wowowcinema" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ww/wowow_cinema.png", WOWOW Cinema
+https://code.hqth.xyz/getlink/jptv2/32/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="starch1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/star_channel_jp_1.png", Star Channel 1 HD
+https://code.hqth.xyz/getlink/jptv2/225/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="starch1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/star_channel_jp_1.png", Star Channel 1  
+https://code.hqth.xyz/getlink/jptv2/33/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="starch2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/star_channel_jp_2.png", Star Channel 2 HD
+https://code.hqth.xyz/getlink/jptv2/227/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="starch2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/star_channel_jp_2.png", Star Channel 2  
+https://code.hqth.xyz/getlink/jptv2/34/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="starch3" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/star_channel_jp_3.png", Star Channel 3 HD
+https://code.hqth.xyz/getlink/jptv2/226/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="starch3" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/star_channel_jp_3.png", Star Channel 3  
+https://code.hqth.xyz/getlink/jptv2/35/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="greench" tvg-logo="https://www.lyngsat-logo.com/logo/tv/gg/green_channel_jp.png", Green Channel  
+https://code.hqth.xyz/getlink/jptv2/41/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="animax" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/animax_asia.png", BS Animax  
+https://code.hqth.xyz/getlink/jptv2/37/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="js1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/jj/j_sports_jp.png", J SPORTS 1  
+https://code.hqth.xyz/getlink/jptv2/43/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="js2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/jj/j_sports_jp.png", J SPORTS 2  
+https://code.hqth.xyz/getlink/jptv2/44/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="js3" tvg-logo="https://www.lyngsat-logo.com/logo/tv/jj/j_sports_jp.png", J SPORTS 3  
+https://code.hqth.xyz/getlink/jptv2/45/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="js4" tvg-logo="https://www.lyngsat-logo.com/logo/tv/jj/j_sports_jp.png", J SPORTS 4  
+https://code.hqth.xyz/getlink/jptv2/46/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="fishing" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tsuri_vision.png", BS Fishing Vision  
+https://code.hqth.xyz/getlink/jptv2/40/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="wowowplus" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ww/wowow-plus-jp.png", WOWOW Plus
+https://code.hqth.xyz/getlink/jptv2/36/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="nihoneiga" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nihon_eiga_senmon.png", BS Japan Movie Channel  
+https://code.hqth.xyz/getlink/jptv2/38/playlist.m3u8
+#EXTINF:-1 group-title="🇯🇵| Kênh Nhật Bản" tvg-id="disneych" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/disney-channel-us.svg", Disney Channel
+https://code.hqth.xyz/getlink/jptv2/39/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="🇰🇵🇰🇷 | Bán đảo Triều Tiên",KCTV
