@@ -708,12 +708,12 @@ http://nowatv.stream2.link:8080/play/live.php?mac=00:1A:79:49:4f:5b&stream=19&ex
 http://myott.top/stream/KD8IR5FDPF/105.m3u8
 #EXTINF:-1 tvg-id="tvri" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/TVR_i_2022_logo.png", TVR International
 http://83.228.75.166:8000/play/a0dw
-#EXTINF:-1 tvg-id="tvri" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Logo_of_BNT_1_%282018-%29.svg/1920px-Logo_of_BNT_1_%282018-%29.svg.png", BNT-1
-http://83.228.88.114:8000/play/a03m
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_of_BNT_4_%282018-%29.svg/150px-Logo_of_BNT_4_%282018-%29.svg.png", BNT 4
 http://83.228.75.166:8000/play/a0cd
-#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Bulgariaonair.png", Bulgaria On Air
-http://83.228.88.114:8000/play/a046
+#EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duna_World_HD_2012.svg/2880px-Duna_World_HD_2012.svg.png",Duna World
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://146.59.85.40:89/dunaworld/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/220px-ChannelLogo-ERTWORLD1.png", ERT World
 https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/ert_world_main/main_1080/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
@@ -741,10 +741,6 @@ http://192.162.64.222:4000/play/a05f/index.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
-#EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/71/Syrian_TV_Logo.png",Syrian Satellite TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/201145
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 Asia 
 https://github.com/ChiSheng9/iptv/raw/master/TV20.m3u8
 #EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://nettvpro.live/uploads/18/1-1P51220053V91.jpg", Hồ Nam Quốc Tế
