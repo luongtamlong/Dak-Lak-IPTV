@@ -727,7 +727,7 @@ https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd
 #EXTINF:-1 tvg-id="arirang" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
 #EXTINF:-1 tvg-id="abcaustralia" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/215.png", ABC Australia
-http://kuchini.site:8080/Giobox2/aPnVqQVT6GXhu92E/157526
+http://103.112.191.9:880/LAOSAT1093.m3u8
 #EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg
 https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg Asia Event
@@ -821,20 +821,16 @@ http://192.162.64.222:4000/play/a05f/index.m3u8
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 Asia 
 https://github.com/ChiSheng9/iptv/raw/master/TV20.m3u8
-#EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://nettvpro.live/uploads/18/1-1P51220053V91.jpg", Hồ Nam Quốc Tế
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000045/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://nettvpro.live/uploads/19/1-1Z4191H52V22.jpg", Quảng Đông Quốc Tế
-http://v2.91kds.cn/b9/itouchv3.m3u8?id=gdgj&auth=rinimabi
-#EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://bkimg.cdn.bcebos.com/pic/d50735fae6cd7b899e51938f206855a7d933c895a021?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg", Chiết Giang Quốc Tế
-http://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png", Thâm Quyến Quốc Tế
-http://live.cooltv.top/tv/tide.php?id=szgj
 #EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://www.ntdtv.com.tw/staticelement/img/aboutus/ntd_logo.png", NTD Asia
 https://github.com/ChiSheng9/iptv/raw/master/TV23.m3u8
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png" group-title="🇨🇳| Kênh Trung Quốc",Hồ Nam Quốc Tế
+http://103.112.191.9:880/LAOSAT1064.m3u8
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="🇨🇳| Kênh Trung Quốc",Phượng Hoàng Trung Văn
+http://103.112.191.9:880/LAOSAT1015.m3u8
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="🇨🇳| Kênh Trung Quốc",Phượng Hoàng Tư Tấn
+http://103.112.191.9:880/LAOSAT1068.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Satellite Jade
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153505
-#EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/fkrGk30/image.png" group-title="Quốc tế",TVB Satellite Pearl
-http://r.jdshipin.com/ZQ4kN
+http://66.181.39.224/ml.php?id=Wlt
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB Satellite News Channel
 http://lttv.ddqq.fun:8085/tvb.php?id=0&hq
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/XzRJxcj/8.png" group-title="Quốc tế",TVB Satellite Finance-Sport-Info Channel
@@ -1001,6 +997,10 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571197&extension=
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571188&extension=ts
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15v6gj" group-title="Giải trí quốc tế",TVB Xing He
 https://sc2022.stream-link.org/tv2306.php?id=c02
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15v6gj" group-title="Giải trí quốc tế",Star Chinese Channel
+http://103.112.191.9:880/LAOSAT1085.m3u8
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15v6gj" group-title="Giải trí quốc tế",Star Chinese Channel
+http://103.112.191.9:880/LAOSAT1016.m3u8
 
 
 
@@ -1393,9 +1393,9 @@ http://txycetvbl.centv.cn/cetv2/2020tsytk.m3u8
 http://txycetvbl.centv.cn/cetv3/bjdm.m3u8
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/YueChan/Live/main/CETV.png" group-title="🇨🇳| Kênh Trung Quốc",CETV-04
 http://txycetvbl.centv.cn/cetv4/zjpd.m3u8
-#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="🇨🇳| Kênh Trung Quốc",Phượng Hoàng Trung Văn
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="🇨🇳| Kênh Trung Quốc",Phượng Hoàng Trung Văn IPV6
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8?icpid=3&RTS=1668336354&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="🇨🇳| Kênh Trung Quốc",Phượng Hoàng Tư Tấn
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="🇨🇳| Kênh Trung Quốc",Phượng Hoàng Tư Tấn IPV6
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1668336154&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="🇨🇳| Kênh Trung Quốc",Bắc Kinh
 http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw2687876293_-1703018199/ott.mobaibox.com/PLTV/3/224/3221227508/index.m3u8?icpid=3&RTS=1668597482&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
@@ -1482,7 +1482,7 @@ https://sc2022.stream-link.org/tv2306.php?id=h16
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-id="jade" tvg-logo="http://gg.gg/15nn93",TVB Jade
 http://stream.cvmtv.site/Jade?token=live
 #EXTINF:-1 tvg-id="81" tvg-name="翡翠台" tvg-logo="http://gg.gg/15noti" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Jade Guangdong
-http://60.208.16.27:1505/gudou.php?id=1350_4500
+http://r.jdshipin.com/qrfbg
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-id="j2" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/j2.png",TVB J2
 http://stream.cvmtv.site/J2?token=live
 #EXTINF:-1 tvg-id="83" tvg-name="無綫新聞台" tvg-logo="http://gg.gg/15nn2h" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB News
@@ -1490,7 +1490,7 @@ https://sc2022.stream-link.org/tv2306.php?id=h04
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-id="pearl" tvg-logo="http://gg.gg/15nn57",TVB Pearl
 http://stream.cvmtv.site/Pearl?token=live
 #EXTINF:-1 tvg-id="84" tvg-name="明珠台" tvg-logo="http://gg.gg/15nowl" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB Pearl Guangdong
-http://60.208.16.27:1505/gudou.php?id=1351_4500
+http://qwas.eatuo.com:9901/tsfile/live/1014_1.m3u8
 #EXTINF:-1 tvg-id="85" tvg-name="無綫財經·資訊台" tvg-logo="http://gg.gg/15nn7" group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan",TVB FSI
 https://sc2022.stream-link.org/tv2306.php?id=h05
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼| Kênh Hong Kong-Macao-Đài Loan" tvg-id="viu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/1920px-ViuTV_logo.svg.png",ViuTV
@@ -1915,6 +1915,14 @@ http://203.176.130.123:8989/live/apsaratv_480k.stream/playlist.m3u8
 http://167.99.72.244:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/chunklist_w998573077_b1800000_sleng.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/n8097VD/RHM-HDTV-BEARTV.png", Rasmey Hang Meas HDTV
 http://167.99.72.244:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/chunklist_w58865286_b1800000_sleng.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/15vxka", LNTV1
+http://103.112.191.9:880/LAOSAT1038.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/15vxko", LNTV3
+http://103.112.191.9:880/LAOSAT1039.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/15vxm2", Công An Lào
+http://103.112.191.9:880/LAOSAT1039.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/15vxm6", Lào Star TV
+http://103.112.191.9:880/LAOSAT1041.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_MITV.png/220px-Logo_of_MITV.png",MITV
 http://183.89.246.119:8881/play/a07r/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Myanmar_National_TV_Logo.jpg/220px-Myanmar_National_TV_Logo.jpg",MNTV
