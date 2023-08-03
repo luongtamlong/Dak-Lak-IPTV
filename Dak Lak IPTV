@@ -1241,23 +1241,29 @@ http://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
 #EXTINF:-1 tvg-id="h1-am" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Armenian_Public_TV_logo_%282021%29_%282%29.svg/220px-Armenian_Public_TV_logo_%282021%29_%282%29.svg.png", Armenia 1
 https://amtv1.livestreamingcdn.com/am2abr/index.m3u8
 #EXTINF:-1 tvg-id="belarus1" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Belarus-1.jpg/200px-Belarus-1.jpg", Belarus 1
-rtmp://5.182.231.251//2178
+http://194.158.222.36:6101
 #EXTINF:-1 tvg-id="belarus2" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://seeklogo.com/images/B/belarus-2-logo-703A54CF7F-seeklogo.com.png", Belarus 2
-rtmp://5.182.231.251//2179
+http://194.158.222.36:6107
 #EXTINF:-1 tvg-id="belarus3" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus3.png", Belarus 3
-rtmp://5.182.231.251//2180
+http://194.158.222.36:6108
 #EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 4
-http://dmi3y-tv.ru/hls/blrus/CH_BELARUS4HD720_VIT.m3u8
-#EXTINF:-1 tvg-id="belarus5" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus5.png", Belarus 5
-rtmp://5.182.231.251//2177
-#EXTINF:-1 tvg-id="belarus5" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus5.png", Belarus 5 (SD 50fps)
-http://86.57.225.245:7002/play/a00k
+https://flu.vtv.by/bt4-non-by/index.m3u8
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 5
+http://194.158.222.36:6109
 #EXTINF:-1 tvg-id="belarus24" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Belarus_24.svg/revision/latest/scale-to-width-down/200?cb=20191008123534", Belarus 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/index.m3u8
 #EXTINF:-1 tvg-id="stv-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/stv-by4.png", STV
-rtmp://5.182.231.251//2184
+http://194.158.222.36:6103
 #EXTINF:-1 tvg-id="ont-by" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/nt-by.png", ONT
-rtmp://5.182.231.251//2182
+http://194.158.222.36:6102
+#EXTINF:-1 tvg-id="no_epg_news" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ont-by.png", ONT Internet
+https://ont.dc.beltelecom.by/ont/ont/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ntv-belarus.png", NTV-Belarus
+http://194.158.222.36:6106
+#EXTINF:-1 tvg-id="rtr-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus
+http://194.158.222.36:6105
+#EXTINF:-1 group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://www.mtis.by/i/tv_a/mir.png",Mir Belarus
+http://194.158.222.36:6104
 #EXTINF:-1 tvg-id="no_epg_news" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ont-by.png", ONT Internet
 https://ont.dc.beltelecom.by/ont/ont/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺| Nga và khối SNG" tvg-logo="https://picon.ml/ntv-belarus.png", NTV-Belarus
