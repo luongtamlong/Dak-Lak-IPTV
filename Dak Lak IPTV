@@ -605,16 +605,45 @@ https://uni6rtmp.tulix.tv/vbstv/vbsabr.smil/playlist.m3u8
 #EXTINF:-1 group-title="Hải ngoại" tvg-logo="https://hqth.me/vftvlogo", VFTV
 https://stream.bozztv.com/vnvnsys/vnvnsys/chunklist_w1375891137.m3u8
 
-#EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD
-http://live.vthanhtivi.pw/hbo
-#EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD Dự phòng
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-https://code.vthanhtivi.pw/getlink/tvfree/hbo/playlist.m3u8
-#EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png", Cinemax HD
-http://live.vthanhtivi.pw/cinemax
-#EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png", Cinemax HD Dự phòng
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-https://code.vthanhtivi.pw/getlink/tvfree/cinemax/playlist.m3u8
+#EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://khanggne.github.io/logo/MSky_TV/hbohd.png" group-title="HBO",$ HBO HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/hbo/6908602487/mykplus/17rxkyhsj8a7hbo5sezjqg4h2qlpqddlimov7ftl86hjbdr9g479f36izkv/92rqutb5344a.key
+http://hbo-livecdn.khanggtivi.duckdns.org/live_dzones/hbo_1080p/manifest.mpd
+#EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://khanggne.github.io/logo/MSky_TV/hbohd.png" group-title="HBO",HBO HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://livecdn.khanggtivi.duckdns.org/getplay/vthanhtivi_getlink/tvmienphi/hbo-no-drm/playlist.m3u8
+#EXTINF:-1 tvg-id="HBOFamily" group-title="HBO" tvg-logo="https://img.vnmedia.xyz/logo/hbofamilyhd-asia.png",$ HBO Family HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gausahcopybesokilang.satvb.workers.dev/
+http://hbo-livecdn.khanggtivi.duckdns.org/live_dzones/family_1080p/manifest.mpd
+#EXTINF:-1 tvg-id="HBOHits" group-title="HBO" tvg-logo="https://img.vnmedia.xyz/logo/hbohitshd-asia.png",$ HBO Hits HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gausahcopybesokilang.satvb.workers.dev/
+http://hbo-livecdn.khanggtivi.duckdns.org/live_dzones/hits_1080p/manifest.mpd
+#EXTINF:-1 tvg-id="hbosignaturehd-asia" group-title="HBO" tvg-logo="https://img.vnmedia.xyz/logo/hbosignaturehd-asia.png",$ HBO Signature
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gausahcopybesokilang.satvb.workers.dev/
+http://hbo-livecdn.khanggtivi.duckdns.org/live_dzones/signature_1080p/manifest.mpd
+#EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://khanggne.github.io/logo/MSky_TV/cinemaxhd.png" group-title="HBO",$ CINEMAX HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/max/ibpjjz2y7iz5fohsj9aw5c512rvy7v8sd8yoxria867rv0rw3pszr4c/time=9746653243/vstv/2173853757.key?token=HkRYayLPfdmvMYtrWpmJbHFafdSfjH&9296578775
+http://hbo-livecdn.khanggtivi.duckdns.org/live_dzones/max_1080p/manifest.mpd
+#EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://khanggne.github.io/logo/MSky_TV/cinemaxhd.png" group-title="HBO",CINEMAX HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://livecdn.khanggtivi.duckdns.org/getplay/vthanhtivi_getlink/tvmienphi/max-no-drm/playlist.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
 http://live-vnp.vthanhtivi.pw:18001/BOX_MOVIE_1/index.m3u8
