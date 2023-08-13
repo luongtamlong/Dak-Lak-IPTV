@@ -171,31 +171,46 @@ http://b4tv.live/b4tv/b4tv/4.m3u8
 
 #--*.*--K+--*.*--#
 
-#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+ CINE - MyK+
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6BoZZOlk8KZnaKamqKdlKJqXmJoZQ==&time=1691562160&mykplus&id=kcine
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
-#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+ LIFE - MyK+
+#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://khanggne.github.io/logo/vstv/vstv-image1.jpg",K+CINE
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://vip-livecdn.khanggtivi.duckdns.org/play/qY-5duz9En-Qw9WFPlz4z171tS5bGJ5RzOVzD5dNSB_YxOb-YWbp2MBETw5SdeVr7inZsre24qxgPYuwXkBD9A/m3u8
+#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+ LIFE
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6BoZZOlk8KZnaKamqKdlKJqXmJoZQ==&time=1691562160&mykplus&id=klife
 https://akavnpt.kplus.vn/bpk-tv/prod_kplus_lifehd/default/index.mpd
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+ SPORT1 - MyK+
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+ SPORT1
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6BoZZOlk8KZnaKamqKdlKJqXmJoZQ==&time=1691562160&mykplus&id=ksport1
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+ SPORT2 - MyK+
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+ SPORT2
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6BoZZOlk8KZnaKamqKdlKJqXmJoZQ==&time=1691562160&mykplus&id=ksport2
 https://akavnpt.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
-#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/89.png", K+ KIDS - MyK+
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://khanggne.github.io/logo/vstv/vstv-image5.jpg",K+ KIDS
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://vip-livecdn.khanggtivi.duckdns.org/play/rPEJy2Vz2ynvl1iWmkPcW6NbJVDRb35bwVgCSF2RuRtIzMtYdoav1HR5OfJ-f0VBaJwNrituHqZxtfKJIEE9KQ/m3u8
+#EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://logo.anttv.xyz/101.png",K+ LIVE 1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6BoZZOlk8KZnaKamqKdlKJqXmJoZQ==&time=1691562160&mykplus&id=kkids
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/klive1/key.php
+http://vip-livecdn.khanggtivi.duckdns.org/bpk-tv/prod_klive1/default/i.mpd
+#EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://logo.anttv.xyz/102.png",K+ LIVE 2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/klive2/key.php
+http://vip-livecdn.khanggtivi.duckdns.org/bpk-tv/prod_klive2/default/i.mpd
+#EXTINF:-1  tvg-id="klive3hd" group-title="K+" tvg-logo="https://logo.anttv.xyz/103.png",K+ LIVE 3
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/klive3/key.php
+http://vip-livecdn.khanggtivi.duckdns.org/bpk-tv/prod_klive3/default/i.mpd
+
 
 
 
