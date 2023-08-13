@@ -851,24 +851,31 @@ http://line.gofast-tv.me:80/play/live.php?mac=00:1A:79:6F:5A:5D&stream=941636&ex
 vecdn.fptplay.net/MjgxMzcwMDB8dHY1X2hscy5zbWlsfHZpZXR0ZWx8MTY4NzczOTY5N3wxMjUuMjEyLjE5Mi4yMzN8M2NiMjE3OWExMTM5ODRlZWRkODQ3ZWQyNzFkMzg1MjU/fnxhd2/tv5_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="afnhd" group-title="Ẩm thực" tvg-logo="https://cdn.hqth.me/logo/thumbs/263.png", Asian Food Network
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
+https://code.vthanhtivi.pw/getlink/mytv/298/hd.m3u8
 
 #EXTINF:-1 tvg-id="animalhd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/203.png", Animal Planet
-http://sg.tinchuanchuaanh.com:8080/ANIMAL_PLANET_HD/index.m3u8
-#EXTINF:-1 tvg-id="discoveryhd" group-title="??- Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/204.png", Discovery
-http://sg.tinchuanchuaanh.com:8080/DISCOVERY_HD/index.m3u8
+http://live-vnp.vthanhtivi.pw:18001/ANIMAL_PLANET_HD/index.m3u8
+#EXTINF:-1 tvg-id="discoveryhd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/204.png", Discovery
+http://live-vnp.vthanhtivi.pw:18001/DISCOVERY_HD/index.m3u8
+#EXTINF:-1 tvg-id="discoveryhd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/204.png", Discovery Dự phòng
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+https://code.vthanhtivi.pw/getlink/tvfree/discovery/playlist.m3u8
 #EXTINF:-1 tvg-id="discoveryasiahd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/205.png", Discovery Asia
-http://sg.tinchuanchuaanh.com:8080/DISCOVERY_ASIA_HD/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6RiZpOgmMKZnaKamqKdlKJqXmJoZQ==&time=1691903115&mytv_msky&id=527
+https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dscasia.smil/manifest.mpd
 #EXTINF:-1 tvg-id="historyhd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/209.png", History HD
-http://sg.tinchuanchuaanh.com:8080/HISTORY_HD/index.m3u8
+http://live-vnp.vthanhtivi.pw:18001/HISTORY_HD/index.m3u8
 #EXTINF:-1 tvg-id="ngchd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/206.png", National Geographic HD
 http://live.vthanhtivi.pw/natgeo
+#EXTINF:-1 tvg-id="ngchd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/206.png", National Geographic HD Dự phòng
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+https://code.vthanhtivi.pw/getlink/tvfree/natgeo/playlist.m3u8
 #EXTINF:-1 tvg-id="ngwhd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/206.png", Nat Geo Wild HD
 http://live.vthanhtivi.pw/ngw
 #EXTINF:-1 tvg-id="outdoorfhd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/208.png", Outdoor Channel HD
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
+https://code.vthanhtivi.pw/getlink/mytv/191/hd.m3u8
 #EXTINF:-1 group-title="Khám phá" tvg-logo="https://streamdiag.com/wp-content/uploads/Vice-TV.jpg",VICE
 https://d2do1g43aq7264.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannelAsia.us" group-title="Khám phá" tvg-logo="https://play-lh.googleusercontent.com/-ivtIBkDDKUZLyi1hDauKgKFuD7tgbVwmByCYHS3IjUTbeWe4c4_w6y2pyL2JvigU9s", Smithsonian Channel HD
