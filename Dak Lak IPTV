@@ -24,7 +24,8 @@
 http://stream.cvmtv.site/vtv1?token=live
 #EXTINF:0 tvg-id="vtv2hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv2hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/377/hd/dvr-${start}-${offset}.m3u8" ch-number="2",VTV2 HD
 #EXTVLCOPT:http-user-agent="Khanggne"
-http://stream.cvmtv.site/vtv2?token=live
+#http://stream.cvmtv.site/vtv2?token=live
+https://livecdn.khanggtivi.xyz/mpegts/vtv2hd
 #EXTINF:0 tvg-id="vtv3hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv3hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/211/hd/dvr-${start}-${offset}.m3u8" ch-number="3",VTV3 HD
 #EXTVLCOPT:http-user-agent="Khanggne"
 http://stream.cvmtv.site/vtv3?token=live
@@ -36,7 +37,44 @@ https://code.vthanhtivi.pw/getlink/tv360/108/2.m3u8
 http://stream.cvmtv.site/vtv5?token=live
 #EXTINF:0 tvg-id="vtv6hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv6hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/212/hd/dvr-${start}-${offset}.m3u8" ch-number="6",VTV Cần Thơ
 #EXTVLCOPT:http-user-agent="Khanggne"
-http://stream.cvmtv.site/vtvct?token=live
+#http://stream.cvmtv.site/vtvct?token=live
+<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">
+#EXTM3U url-tvg="https://khanggtivi.xyz/schedule/khanggtivi_epg.xml" tvg-shift=0 m3uautoload=1
+#Tham gia group: https://zalo.me/g/jiktms369
+#COPPYRIGHT BY KHANGGTIVI
+
+#-*-- B4TV -*--#
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/6c30cdc8aa40aa5776c7d8ebd78a93d4.png", B4MEN
+http://b4tv.live/b4tv/b4tv/1.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/f48921dd0505305aff871882567eeca9.png", B4BOX
+http://b4tv.live/b4tv/b4tv/2.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/5150b363cf6c9192ebe147a113dea625.png", B4TUBE
+http://b4tv.live/b4tv/b4tv/4.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 1
+http://b4tv.live/b4tv/b4tv/3.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 2
+http://b4tv.live/b4tv/b4tv/47.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 3
+http://b4tv.live/b4tv/b4tv/48.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/0ef23e2c33c966c5c76e2b5cca9428f8.png", B4CONNECT
+http://b4tv.live/b4tv/b4tv/76.m3u8
+
+#-*-- VTV FPT -*--#
+#EXTINF:0 tvg-id="vtv1hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv1hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/210/hd/dvr-${start}-${offset}.m3u8" ch-number="1",VTV1 HD Độ trễ thấp
+#EXTVLCOPT:http-user-agent="Khanggne"
+https://livecdn.khanggtivi.xyz/mpegts/vtv1hd
+#EXTINF:0 tvg-id="vtv2hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv2hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/377/hd/dvr-${start}-${offset}.m3u8" ch-number="2",VTV2 HD Độ trễ thấp
+#EXTVLCOPT:http-user-agent="Khanggne"
+https://livecdn.khanggtivi.xyz/mpegts/vtv2hd
+#EXTINF:0 tvg-id="vtv3hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv3hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/211/hd/dvr-${start}-${offset}.m3u8" ch-number="3",VTV3 HD Độ trễ thấp
+#EXTVLCOPT:http-user-agent="Khanggne"
+https://livecdn.khanggtivi.xyz/mpegts/vtv3hd
+#EXTINF:0 tvg-id="vtv5hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv5hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/379/hd/dvr-${start}-${offset}.m3u8" ch-number="5",VTV5 HD Độ trễ thấp
+#EXTVLCOPT:http-user-agent="Khanggne"
+https://livecdn.khanggtivi.xyz/mpegts/vtv5hd
+#EXTINF:0 tvg-id="vtv6hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv6hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/212/hd/dvr-${start}-${offset}.m3u8" ch-number="6",VTV Cần Thơ Độ trễ thấp
+#EXTVLCOPT:http-user-agent="Khanggne"
+https://livecdn.khanggtivi.xyz/mpegts/vtv6hd
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV"  tvg-logo="https://cdn.hqth.me/logo/thumbs/9.png", VTV7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
@@ -50,7 +88,7 @@ https://code.vthanhtivi.pw/getlink/vieon/vtv9-hd/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Khanggne"
 http://stream.cvmtv.site/vtv5tnb?token=live
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/7.png", VTV5 Tây Nguyên
-https://code.vthanhtivi.pw/getlink/tv360/207/2.m3u8
+https://livecdn.khanggtivi.xyz/mpegts/vtv5tn
 
 
 #--*.*--VTVCAB--*.*--#
@@ -2470,23 +2508,23 @@ http://139.185.32.17:9981/stream/channelid/1709394049?profile=pass
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://www.hklive.tv/png_logo/78.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",HOY Info
 http://139.185.32.17:9981/stream/channelid/1118169694?profile=pass
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="jade" tvg-logo="http://gg.gg/15nn93",TVB Jade
-http://223.17.115.122:9981/stream/channelid/2?ticket=ACE5A68CA3023703D95D223E6E8B19ABD3A3BBCC
+http://stream.cvmtv.site/Jade?token=live
 #EXTINF:-1 tvg-id="81" tvg-name="翡翠台" tvg-logo="http://gg.gg/15noti" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB Jade Guangdong
 http://r.jdshipin.com/qClQf
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="j2" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/j2.png",TVB J2
-http://223.17.115.122:9981/stream/channelid/11?ticket=15F195D8D9B41B7134068E0377611C8058FDE75D
+http://stream.cvmtv.site/J2?token=live
 #EXTINF:-1 tvg-id="83" tvg-name="無綫新聞台" tvg-logo="http://gg.gg/15nn2h" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB News
 http://223.17.122.142:9981/stream/channelid/2051586642?ticket=c66bf5280abaf1b78cfd51e91642e3d9529b621e&profile=pass
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="pearl" tvg-logo="http://gg.gg/15nn57",TVB Pearl
-http://223.17.115.122:9981/stream/channelid/9?ticket=23336F98FF0573D02E94AEBAC75FEF848ADE791F
+http://stream.cvmtv.site/Pearl?token=live
 #EXTINF:-1 tvg-id="84" tvg-name="明珠台" tvg-logo="http://gg.gg/15nowl" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB Pearl Guangdong
 http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 tvg-id="85" tvg-name="無綫財經·資訊台" tvg-logo="http://gg.gg/15nn7" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB FSI
 http://223.17.122.142:9981/stream/channelid/1781676223?ticket=ffb5413c293ef149b44f4515354318e28d32b4fb&profile=pass
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="viu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/1920px-ViuTV_logo.svg.png",ViuTV
-http://223.17.115.122:9981/stream/channelid/1?ticket=EC9129D8A7CB8DC7828B5B4F45656028AACBE077
+http://stream.cvmtv.site/Viu?token=live
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="viu6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/1024px-ViuTVsix-logo.svg.png",ViuTVsix
-http://223.17.115.122:9981/stream/channelid/3?ticket=1C888AB8EE00698BA7913FCC8D4DEC07210F5247
+http://stream.cvmtv.site/Viu6?token=live
 
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/TDM_Ou_Mun.png/revision/latest?cb=20220124185106",Ou Mun Toi
 https://sc2022.stream-link.org/tv2306.php?id=h08
