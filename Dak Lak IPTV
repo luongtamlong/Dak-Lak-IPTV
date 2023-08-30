@@ -25,7 +25,7 @@ http://stream.cvmtv.site/vtv1?token=live
 #EXTINF:0 tvg-id="vtv2hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv2hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/377/hd/dvr-${start}-${offset}.m3u8" ch-number="2",VTV2 HD
 #EXTVLCOPT:http-user-agent="Khanggne"
 #http://stream.cvmtv.site/vtv2?token=live
-https://livecdn.khanggtivi.xyz/mpegts/vtv2hd
+https://live-zlr1.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
 #EXTINF:0 tvg-id="vtv3hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv3hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/211/hd/dvr-${start}-${offset}.m3u8" ch-number="3",VTV3 HD
 #EXTVLCOPT:http-user-agent="Khanggne"
 http://stream.cvmtv.site/vtv3?token=live
@@ -38,43 +38,7 @@ http://stream.cvmtv.site/vtv5?token=live
 #EXTINF:0 tvg-id="vtv6hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv6hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/212/hd/dvr-${start}-${offset}.m3u8" ch-number="6",VTV Cần Thơ
 #EXTVLCOPT:http-user-agent="Khanggne"
 #http://stream.cvmtv.site/vtvct?token=live
-<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">
-#EXTM3U url-tvg="https://khanggtivi.xyz/schedule/khanggtivi_epg.xml" tvg-shift=0 m3uautoload=1
-#Tham gia group: https://zalo.me/g/jiktms369
-#COPPYRIGHT BY KHANGGTIVI
-
-#-*-- B4TV -*--#
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/6c30cdc8aa40aa5776c7d8ebd78a93d4.png", B4MEN
-http://b4tv.live/b4tv/b4tv/1.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/f48921dd0505305aff871882567eeca9.png", B4BOX
-http://b4tv.live/b4tv/b4tv/2.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/5150b363cf6c9192ebe147a113dea625.png", B4TUBE
-http://b4tv.live/b4tv/b4tv/4.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 1
-http://b4tv.live/b4tv/b4tv/3.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 2
-http://b4tv.live/b4tv/b4tv/47.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 3
-http://b4tv.live/b4tv/b4tv/48.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/0ef23e2c33c966c5c76e2b5cca9428f8.png", B4CONNECT
-http://b4tv.live/b4tv/b4tv/76.m3u8
-
-#-*-- VTV FPT -*--#
-#EXTINF:0 tvg-id="vtv1hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv1hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/210/hd/dvr-${start}-${offset}.m3u8" ch-number="1",VTV1 HD Độ trễ thấp
-#EXTVLCOPT:http-user-agent="Khanggne"
-https://livecdn.khanggtivi.xyz/mpegts/vtv1hd
-#EXTINF:0 tvg-id="vtv2hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv2hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/377/hd/dvr-${start}-${offset}.m3u8" ch-number="2",VTV2 HD Độ trễ thấp
-#EXTVLCOPT:http-user-agent="Khanggne"
-https://livecdn.khanggtivi.xyz/mpegts/vtv2hd
-#EXTINF:0 tvg-id="vtv3hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv3hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/211/hd/dvr-${start}-${offset}.m3u8" ch-number="3",VTV3 HD Độ trễ thấp
-#EXTVLCOPT:http-user-agent="Khanggne"
-https://livecdn.khanggtivi.xyz/mpegts/vtv3hd
-#EXTINF:0 tvg-id="vtv5hd"group-title="VTV FPT" tvg-logo="https://khanggne.github.io/logo/vtv/vtv5hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/379/hd/dvr-${start}-${offset}.m3u8" ch-number="5",VTV5 HD Độ trễ thấp
-#EXTVLCOPT:http-user-agent="Khanggne"
-https://livecdn.khanggtivi.xyz/mpegts/vtv5hd
-#EXTINF:0 tvg-id="vtv6hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv6hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/212/hd/dvr-${start}-${offset}.m3u8" ch-number="6",VTV Cần Thơ Độ trễ thấp
-#EXTVLCOPT:http-user-agent="Khanggne"
-https://livecdn.khanggtivi.xyz/mpegts/vtv6hd
+https://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV"  tvg-logo="https://cdn.hqth.me/logo/thumbs/9.png", VTV7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
@@ -88,7 +52,7 @@ https://code.vthanhtivi.pw/getlink/vieon/vtv9-hd/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Khanggne"
 http://stream.cvmtv.site/vtv5tnb?token=live
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/7.png", VTV5 Tây Nguyên
-https://livecdn.khanggtivi.xyz/mpegts/vtv5tn
+https://code.vthanhtivi.pw/getlink/tv360/207/2.m3u8
 
 
 #--*.*--VTVCAB--*.*--#
@@ -781,9 +745,9 @@ http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://210.210.155.37/qwr9ew/s/s38/index.m3u8
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b1290000_slpt.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
-http://210.210.155.37/uq2663/h/h158/index2.m3u8
+http://94.61.176.66:9981/stream/channelid/662438074?profile=pass
 #EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
 http://nowatv.stream2.link:8080/play/live.php?mac=00:1A:79:49:4f:5b&stream=19&extension=ts&play_token=hQn1bHZhnZ
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
@@ -986,27 +950,37 @@ http://103.112.191.9:880/LAOSAT1018.m3u8
 
 
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
-http://stream2.cvmtv.site:8080/BBC1?token=live
+http://stream.cvmtv.site/BBC1?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png",BBC Two
-http://stream2.cvmtv.site:8080/BBC2?token=live
+http://stream.cvmtv.site/BBC2?token=live
+#EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/430px-BBC_Three_2022.svg.png",BBC Three
+http://188.31.9.247:9981/stream/channelid/677874350?profile=pass
+#EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/440px-BBC_Four_logo_2021.svg.png",BBC Four
+http://188.31.9.247:9981/stream/channelid/1436230139?profile=pass
+#EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1200px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png",BBC News
+http://stream.cvmtv.site/BBCN?token=live
+#EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/BBC_Parliament_2022.svg/2880px-BBC_Parliament_2022.svg.png",BBC Parliament
+http://188.31.9.247:9981/stream/channelid/136198183?profile=pass
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1920px-ITV1_logo_%282022%29.svg.png",ITV1
-http://stream2.cvmtv.site:8080/ITV?token=live
+http://stream.cvmtv.site/ITV?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
-http://stream2.cvmtv.site:8080/Channel4?token=live
+http://stream.cvmtv.site/Channel4?token=live
+#EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="hhttps://static.wikia.nocookie.net/logopedia/images/9/9d/Channel_5_2016.svg/revision/latest/scale-to-width-down/150?cb=20160211232158",Channel 5
+http://188.31.10.2:9981/stream/channelid/1957271417?profile=pass
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1920px-ITV2_logo_2022.svg.png",ITV2
-http://stream2.cvmtv.site:8080/ITV2?token=live
+http://stream.cvmtv.site/ITV2?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ITV3_logo_2022.svg/1200px-ITV3_logo_2022.svg.png",ITV3
-http://stream2.cvmtv.site:8080/ITV3?token=live
+http://stream.cvmtv.site/ITV3?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1920px-ITV4_logo_%282022%29.svg.png",ITV4
-http://stream2.cvmtv.site:8080/ITV4?token=live
+http://stream.cvmtv.site/ITV4?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/CBBC_%282023%29.svg/1920px-CBBC_%282023%29.svg.png",CBBC
-http://stream2.cvmtv.site:8080/CBBC?token=live
+http://stream.cvmtv.site/CBBC?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S4C_logo_2014.svg/1200px-S4C_logo_2014.svg.png",S4C
-http://stream2.cvmtv.site:8080/S4C?token=live
+http://stream.cvmtv.site/S4C?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/2560px-BBC_Red_Button_2021.svg.png",BBC RB 1
-http://stream2.cvmtv.site:8080/BBC_RB?token=live
-#EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3c/Viaplay_logo.png",ViaplayXtra
-http://stream2.cvmtv.site:8080/ViaXtra?token=live
+http://stream.cvmtv.site/BBC_RB?token=live
+#EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/1200px-Sky-news-logo.png",Sky News
+http://stream.cvmtv.site/SkyN?token=live
 
 
 #EXTINF:0 tvg-rec=\"0\",Sport 5 4K IL
@@ -1495,174 +1469,137 @@ http://104.244.73.237:8080/hrdxman/QPaj8xX59Yfa/72634
 #EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\\\"\\\" tvg-name=\\\"PL: ATM Rozrywka TV\\\" tvg-logo=\\\"\\\" ,PL: ATM Rozrywka TV 
 #EXTGRP:CHÂU ÂU
 http://104.244.73.237:8080/hrdxman/QPaj8xX59Yfa/72635
-#EXTINF:0 tvg-id=\"hlsproxy-6098\" tvg-name=\"TRT 1\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-1-hd.png\",TRT 1
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n187605d6/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-8351\" tvg-name=\"TRT AVAZ TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-avaz.png\",TRT AVAZ TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3ab1f017/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52155\" tvg-name=\"TRT BELGESEL\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-belgesel.png\",TRT BELGESEL
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n252a7846/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-8333\" tvg-name=\"TRT COCUK\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-cocuk.png\",TRT COCUK
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3e90945a/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-9358\" tvg-name=\"TRT HABER\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-haber.png\",TRT HABER
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3e5081b1/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52153\" tvg-name=\"TRT KURDI\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-kurdi.png\",TRT KURDI
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3e1ce7da/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52152\" tvg-name=\"TRT Muzik\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-muzik.png\",TRT Muzik
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3df19233/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-8353\" tvg-name=\"TRT TURK\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-turk.png\",TRT TURK
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/71a00fe1/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52158\" tvg-name=\"TRT 2\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-2.png\",TRT 2
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n187605d5/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52150\" tvg-name=\"TV100\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/tv100-tr.png\",TV100
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n1874b5ce/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-8291\" tvg-name=\"SINEMA AILE TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/viasat-history.png\",SINEMA AILE TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n55956385/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-51830\" tvg-name=\"Love Nature TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/love-nature-tr.png\",Love Nature TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n7d04893a/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-100022\" tvg-name=\"Discovery Channel TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/discovery.png\",Discovery Channel TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n9252cf8/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-62\" tvg-name=\"Discovery Science TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/discovery-science.png\",Discovery Science TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n471251f9/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-1143\" tvg-name=\"Disney Junior TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/disney-junior.png\",Disney Junior TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/3a53a0a6/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-572\" tvg-name=\"Docubox TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/docubox.png\",Docubox TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n2ef4aa93/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-6096\" tvg-name=\"Dream Turk TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/dreamturk.png\",Dream Turk TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/53ddbb8a/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-1478\" tvg-name=\"Filmbox TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/filmbox.png\",Filmbox TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/3fbc5774/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-55336\" tvg-name=\"SINEMA 1001 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/cartoon-network-tr.png\",SINEMA 1001 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/2fca175c/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-55337\" tvg-name=\"SINEMA 1002 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/boomerang.png\",SINEMA 1002 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/2fca8bbb/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-51288\" tvg-name=\"CNN TURK\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/cnn-turk.png\",CNN TURK
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n5229ebac/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-50447\" tvg-name=\"BEIN SPORTS 1 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/fastfun.png\",BEIN SPORTS 1 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n41543c8d/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-50026\" tvg-name=\"FightBox TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/fightbox.png\",FightBox TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/36210cc6/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-50450\" tvg-name=\"BEIN SPORTS 4 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/yeni.png\",BEIN SPORTS 4 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n4152df70/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-55169\" tvg-name=\"minika COCUK TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/cocuk-smart.png\",minika COCUK TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n20fd8599/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"turksat\" tvg-name=\"Turksat\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/turksat.jpg\",Turksat
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/6a77924f/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-50449\" tvg-name=\"BEIN SPORTS 3 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/akilli.png\",BEIN SPORTS 3 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n415353cf/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-50448\" tvg-name=\"BEIN SPORTS 2 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/flashtv-son.jpg\",BEIN SPORTS 2 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n4153c82e/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-8483\" tvg-name=\"ATV HD TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/atv-hd-tr.png\",ATV HD TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n5d50f38/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-26\" tvg-name=\"A2 Turkey HD TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/eurod.png\",A2 Turkey HD TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/503d0e42/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-51907\" tvg-name=\"Kanal D TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/kanal-d-hd.png\",Kanal D TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3b60c62c/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-51762\" tvg-name=\"TRT WORLD TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt3-spor.png\",TRT WORLD TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/7bceddd3/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52156\" tvg-name=\"TRT ARABI TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-arabi.png\",TRT ARABI TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/f9aacae/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-54331\" tvg-name=\"BEYAZ TV HD TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-spor-y.png\",BEYAZ TV HD TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/670c5432/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-8354\" tvg-name=\"TRT SPOR HD TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/trt-spor.png\",TRT SPOR HD TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/512c7b29/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-53122\" tvg-name=\"A SPOR TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/aspor.png\",A SPOR TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n6bf33ebe/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-727\" tvg-name=\"NR1 Turk TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/ahaber.png\",NR1 Turk TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/274d8d54/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-732\" tvg-name=\"SPORTS TV TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/sportstv.png\",SPORTS TV TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3ea1b268/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-53882\" tvg-name=\"TIVIBU SPOR 1 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/eurosport-1-tr.png\",TIVIBU SPOR 1 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n5539559b/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-53883\" tvg-name=\"TIVIBU SPOR 2 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/eurosport-2-tr.png\",TIVIBU SPOR 2 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n5538e13c/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-1420\" tvg-name=\"STAR TV TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/star-tv.png\",STAR TV TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/493696b/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-81\" tvg-name=\"FOX TV TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/fox-tv-tr.png\",FOX TV TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/4298faae/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52368\" tvg-name=\"FOX CRIME TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/fox-crime-tr.png\",FOX CRIME TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n6ba26286/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-53557\" tvg-name=\"TEVE 2 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/teve-2-tr.png\",TEVE 2 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/21f500ef/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-55295\" tvg-name=\"KANAL 7 AVRUPA TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/kanal-7.png\",KANAL 7 AVRUPA TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n1fa7870e/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-8169\" tvg-name=\"TV8 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/tv8.png\",TV8 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/9e0f345/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-52269\" tvg-name=\"Power Turk TR\" group-title=\"Turkey (TR)\" tvg-logo=\" \",Power Turk TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n66826574/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-55378\" tvg-name=\"Dizi SmartMax TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://135.125.234.195:8089/proxy/https://www.lyngsat-logo.com/logo/tv/dd/dizismart-max-tr.png\",Dizi SmartMax TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/33758454/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-130\" tvg-name=\"National Geographic TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/natgeo.png\",National Geographic TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/9f3e336/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-128\" tvg-name=\"NatGeoWild TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/natgeowild.png\",NatGeoWild TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/25b2ce7/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-53884\" tvg-name=\"TIVIBU SPOR 3 TR\" group-title=\"Turkey (TR)\" tvg-logo=\" \",TIVIBU SPOR 3 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n55386cdd/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"no_epg\" tvg-name=\"Movie Turk TR\" group-title=\"Turkey (TR)\" tvg-logo=\"https://picon.pp.ua/iptvxone.png\",Movie Turk TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n7d440a49/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-20638\" tvg-name=\"NBA TV TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/nbatv.png\",NBA TV TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n22622774/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-55380\" tvg-name=\"S SPORT 1 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/s-sport-1-tr.png\",S SPORT 1 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n6764035d/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-55380\" tvg-name=\"S SPORT 2 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://streaming-elbrus.su/img/logos/turk/s-sport-1-tr.png\",S SPORT 2 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n67638efe/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
-#EXTINF:0 tvg-id=\"hlsproxy-53882\" tvg-name=\"Tivibu Sport 1 TR\" group-title=\"Turkey (TR)\" tvg-logo=\"http://135.125.234.195:8089/proxy/https://www.lyngsat-logo.com/logo/tv/tt/tivibu_tr_spor.png\",Tivibu Sport 1 TR
-#EXTGRP:CHÂU ÂU
-http://135.125.234.195:8089/channel/n3210497f/index.m3u8?q=e1f65a2bc32bac2743817ebf7685cbef
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/494\" tvg-id=\"5d63b1f58e9035e1029da9d51e968679\",RTP 1 HD
+http://85.240.234.19:9981/stream/channelid/1974559581?ticket=EC783F667F845F9E16AFD8C2582CF29DE29A5AB7&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/395\" tvg-id=\"3f5b858d584a74f55cf549cd24bfbea5\",RTP 2 HD
+http://85.240.234.19:9981/stream/channelid/226843455?ticket=0762C2001BC1D1C24B15038084A259205C037325&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/422\" tvg-id=\"53e6e74846c2c891b33022d4976be371\",SIC HD
+http://85.240.234.19:9981/stream/channelid/1223157331?ticket=ACBE3931E1AF115391F25781CF933EBD05499981&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/337\" tvg-id=\"05c2e67426ffae66e61ed3597db4b46c\",TVI HD
+http://85.240.234.19:9981/stream/channelid/1961280005?ticket=59DB4500664E0D23DEAE7B8660D6E5C40B89308A&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/322\" tvg-id=\"84cd3233309b7925294be2498421834c\",SIC Notícias
+http://85.240.234.19:9981/stream/channelid/858967428?ticket=CC6F8AC7F779D764F41D287CCB8EC66B8679A46E&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/311\" tvg-id=\"069d7aee786c6f1856121e322e3a2423\",SIC Mulher
+http://85.240.234.19:9981/stream/channelid/1853529350?ticket=199A3A32029D9014AAB2087464C4C181C8F7F631&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/544\" tvg-id=\"a007e0b7dacd538a2d7cb28cfe98cd6c\",SIC Caras
+http://85.240.234.19:9981/stream/channelid/937428896?ticket=04306E363E9FCB4F978D5ED2F73E11A4FD077B9D&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/368\" tvg-id=\"e410c0de2a2a0b1361a10e24309a22d7\",Canal 11 HD
+http://85.240.234.19:9981/stream/channelid/1589645540?ticket=CC6136C8A453F93FFB33E2ED9A61065D11BB15B4&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/400\" tvg-id=\"2dde972142e6c4e88625158c17274ef8\",CMTV
+http://85.240.234.19:9981/stream/channelid/563600941?ticket=5BAA74DB736763D38C3EC172C3025008C5B6B2FB&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/292\" tvg-id=\"eee6d877a5cd4663552be8926662d822\",CNN Portugal
+http://85.240.234.19:9981/stream/channelid/2010703598?ticket=84974BE43A3CED545B7B5EF3CB7F15EF3B760028&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/420\" tvg-id=\"0cb11522622afca770ee02a09889634a\",RTP 3
+http://85.240.234.19:9981/stream/channelid/571846924?ticket=1483D825EA382F3B54D0BFBFC6FC52198603F562&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/282\" tvg-id=\"4f1ac8afccd839e0abea0d579a7bacca\",TVI Reality
+http://85.240.234.19:9981/stream/channelid/801643087?ticket=F370C1E270431D9CF262C51B6C97B4BFEE27D875&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/442\" tvg-id=\"f7fd2ab4cca43b7c6459376b512ff7a5\",TVI Ficção
+http://85.240.234.19:9981/stream/channelid/875232759?ticket=DCF558CE466C4C4A930DFE35F31BD3CE8C315AD7&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/525\" tvg-id=\"fee501d5014c2b99abd934405f71ebdc\",SIC Radical
+http://85.240.234.19:9981/stream/channelid/1426187774?ticket=150070F502AE86D1EDF489E488C31AB830EB8ADD&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/414\" tvg-id=\"fd68cb9ce82eea5c2dcfb8a7ba4fb9d0\",Globo
+http://85.240.234.19:9981/stream/channelid/483092733?ticket=1F85A43CC6078752BF4439FF1147366BFA55405F&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/373\" tvg-id=\"e88fef1926c6e3a9d623e65817bc0486\",RTP Memória
+http://85.240.234.19:9981/stream/channelid/435130344?ticket=4DA0FDC41688F15D47F820FBB9092617A6E3DEBA&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/500\" tvg-id=\"567ebaed783d745645876d2962f41602\",RTP Madeira
+http://85.240.234.19:9981/stream/channelid/1840938582?ticket=4D3B19FF352F63EFE6ADA48E1465DAAD1FF08C85&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/522\" tvg-id=\"4569840e568978a2d86e526ffb63ed33\",RTP Açores
+http://85.240.234.19:9981/stream/channelid/243558725?ticket=ADF3F781D7E6324E973B381642F81451554B5B50&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/485\" tvg-id=\"94cc558e88ffd7760b0a79723d5a04d9\",Porto Canal
+http://85.240.234.19:9981/stream/channelid/240503956?ticket=32B346A38094FD7AED1B741EAB4C9B469560073E&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/542\" tvg-id=\"9f2da784cc01f38622e5f85b68c22bb1\",Canal Q
+http://85.240.234.19:9981/stream/channelid/78065055?ticket=83D1529A4DF4323227249F3BC421F2E0EE8E83F8&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/361\" tvg-id=\"0ad7d3757b20696715d66b246b108d0e\",SPORT TV+
+http://85.240.234.19:9981/stream/channelid/1976817418?ticket=6BDBDC0F7F4F05B7D4347AF7D8E460AC7BAD2BC9&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/553\" tvg-id=\"13605804295aec48b00f9586e1ed84e7\",Sport TV 1 HD
+http://85.240.234.19:9981/stream/channelid/72900627?ticket=BCDE542E67C77561F0DC5F2B3B803EE403B592CA&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/556\" tvg-id=\"b61d56bdb867e8afbf0ed6e66c162867\",Sport TV 2 HD
+http://85.240.234.19:9981/stream/channelid/1029053878?ticket=FB8771260B2868F1F5757A353FD25084638BCE6D&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/557\" tvg-id=\"e98e860e1f2fe5b04ff33b87d7e2c81f\",Sport TV 3 HD
+http://85.240.234.19:9981/stream/channelid/243699433?ticket=65EA093D7B1D7DF0BB4FAAC2EA0389C6B55A8290&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/490\" tvg-id=\"0dacba379a06fa210ab04e93a69f8f96\",Sport TV 4 HD
+http://85.240.234.19:9981/stream/channelid/934980621?ticket=F7FE65A614EA7E8A8312056BF5916505BC70D407&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/473\" tvg-id=\"a56a4b9821898cff32eb2664427f5c5f\",Sport TV 5 HD
+http://85.240.234.19:9981/stream/channelid/407595685?ticket=B6E0453B09191E132BABA8D9B55AE6EA531533E9&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/364\" tvg-id=\"49157cf41a7ebb7b33ab9ccaa53d8fbf\",Sport TV 6 HD
+http://85.240.234.19:9981/stream/channelid/1954288969?ticket=68655E2EAD25643A6208D4DA8E6FCCFA32334E4F&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/258\" tvg-id=\"830b01b949b8c43559c51ab489ae488a\",Sport TV NBA
+http://85.240.234.19:9981/stream/channelid/956369795?ticket=0D7BF855479655F5028E508852B05F7AD9509491&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/229\" tvg-id=\"fb1e7cdde7038b2e319b1d7d6a194d97\",Eleven Sports 1
+http://85.240.234.19:9981/stream/channelid/1568415483?ticket=8EEEEBF90B842C62E572DC7AE9B389E3130A2A7C&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/117\" tvg-id=\"32415ac4b2def1fed6b1575d984ac692\",Eleven Sports 2
+http://85.240.234.19:9981/stream/channelid/1146765618?ticket=6962DE656BEB40F761E233C04A0CA6DF6713934F&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/106\" tvg-id=\"03a49bcb017bf8040e43b53435c78aba\",Eleven Sports 3
+http://85.240.234.19:9981/stream/channelid/1268491267?ticket=8F1A7115635D39DAD45E311E5861654CE0964DA5&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/244\" tvg-id=\"7f99639e484a651e89da574726c065de\",Eleven Sports 4
+http://85.240.234.19:9981/stream/channelid/509843839?ticket=F3AB7645ECC462A2F1FED2B5553B5E8A868AAB8B&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/271\" tvg-id=\"0fa46f9ac869844f8982fc348e90bf7a\",Eleven Sports 5
+http://85.240.234.19:9981/stream/channelid/443524111?ticket=6CBA017E7CD23C939489C4A95A5920FA06966FE2&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/570\" tvg-id=\"2eaf796e2e2cb045ff6dead237a984b8\",Panda Kids
+http://85.240.234.19:9981/stream/channelid/1853468462?ticket=F7F458BDDA416D1192D95704F2CD512241CECEA5&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/53\" tvg-id=\"ef4c7b2e0e4d895d7be756166b19ca0e\",Eleven Sports 6
+http://85.240.234.19:9981/stream/channelid/779832559?ticket=2741792E4CB3AF45D3D1E4D2009162C0CF5B26FF&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/552\" tvg-id=\"87ef772aa9e2e21f1441ae69457cf867\",BTV 1 HD
+http://85.240.234.19:9981/stream/channelid/712503175?ticket=ADFDB80A257DD9E0C91581823A211F764A9C9F03&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://85.240.234.19:9981/imagecache/475\" tvg-id=\"e8e901f5ed738bb328f328271b067f9a\",Sporting TV
+http://85.240.234.19:9981/stream/channelid/1963059688?ticket=15AEC09FF41C96FB5E80785C0E8790C5AC83F588&profile=pass
+
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"08c59414fa8fcd11040a6f6eccdcfc4e\",TF1
+http://185.178.185.253:9981/stream/channelid/345294088?ticket=85AF491B1C52AFEA9B0269334BA4CF55F9776A2D&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"a4d92533ff04dac8e2264511d90e59ee\",France 2
+http://185.178.185.253:9981/stream/channelid/858118564?ticket=19A97EAF71A3C8EFD69CF20AAE7591C340FB28D7&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"9cf46c17c6ceed34222b08576aff0b5b\",F3 Auvergne
+http://185.178.185.253:9981/stream/channelid/393016476?ticket=1FD8AB62F8DD3E0A91367B950CA64C989B72CD0F&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"ac96cb11e1c073350bd77c82d3928cbd\",CANAL+
+http://185.178.185.253:9981/stream/channelid/298555052?ticket=4470BD7EA141B6BB5AF33E4A87E3F356EA59C615&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"ea02683d26e568551ae8a8f32e6b7aa1\",France 5
+http://185.178.185.253:9981/stream/channelid/1030226666?ticket=1101F50471DD29D6C36A2304BDF387C9AABA4A89&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"1eb7797d1465a01e53845f13589a1502\",M6
+http://185.178.185.253:9981/stream/channelid/2105128734?ticket=1AFBF1B021369E13C4CF3826CAFD2DF93DCEEC17&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"f6b600f35a1e80f802b956e27fb575b8\",Arte
+http://185.178.185.253:9981/stream/channelid/1929426678?ticket=ABE82AFDEAC198DF3CBB1A147DF784D84C664F47&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"22d1d4307e27dece06b351a2bafe200b\",C8
+http://185.178.185.253:9981/stream/channelid/819253538?ticket=C968E374D411E51D0292EFDFCC36919356766671&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"1d99c5d36a7051dd08bb8809ea592486\",W9
+http://185.178.185.253:9981/stream/channelid/1405458717?ticket=DDD96B7033B0AC9EF657D89DA1264BFC69F18B7B&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"c4f5e02da5b4b9fbf0053aa013dfb02a\",TMC
+http://185.178.185.253:9981/stream/channelid/769717700?ticket=BF4DC13A66D81C7291779DC9C0B6DF8E560FD1AC&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"a8a78c97bb04abdeace9456f710dd326\",TFX
+http://185.178.185.253:9981/stream/channelid/395093928?ticket=2A9E028F97789558A70CF4C4CA9495B5E2355E77&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"eb6d078976155bdec9885814bdc677a6\",NRJ12
+http://185.178.185.253:9981/stream/channelid/151481835?ticket=0EF78FBE01D31CCB9B7640D30B8235A9ECECE672&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"a161626533a7fd314f58692c5c687a42\",LCP
+http://185.178.185.253:9981/stream/channelid/1700946337?ticket=2FF56A4602CDFC7B627CE7012E9E65FE2A3107F1&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"ad90fd5e9fede970e52a1c7f091faa45\",France 4
+http://185.178.185.253:9981/stream/channelid/1593675949?ticket=E0529BFDB682E31F3569CA2823960D1B3FFED421&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"319d768730228ff5ac45a55d48f4a0a8\",BFM TV
+http://185.178.185.253:9981/stream/channelid/125214001?ticket=53189380AF697027DAEA1B4D98E3BCB16DA22A96&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"25c20b794c264e1b5b94d8b79a152922\",CNEWS
+http://185.178.185.253:9981/stream/channelid/2030813733?ticket=65FDBAC4B338DED670734259639358AAA800FF72&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"a2bf067f9414abdee2e519015f731672\",CSTAR
+http://185.178.185.253:9981/stream/channelid/2131148706?ticket=766B3FB0AB584F1990B44FC51B84132D7CC06FD1&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"7274c626d23703671aedea3984c6596f\",Gulli
+http://185.178.185.253:9981/stream/channelid/650540146?ticket=0D1728A9B03973C50033B54FE0CC01BDCE21F496&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"d852124f912b6c2f269d329ae021988e\",TF1 Séries Films
+http://185.178.185.253:9981/stream/channelid/1326600920?ticket=FB34BE24AFAB4CE87E6B5CDEE0653834FDBEB08D&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"8f5f5266174e79749c1c13bc0906ebfd\",L\'Equipe
+http://185.178.185.253:9981/stream/channelid/1716674447?ticket=568132416CBD566416AEB69F48C31F835E147B3F&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"10f4b585109614f299840226f6006872\",6ter
+http://185.178.185.253:9981/stream/channelid/95810576?ticket=D81EE8966D12679C5074C55E86518787D92511FA&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"9617e5a794e483a54545efc19af93414\",RMC STORY
+http://185.178.185.253:9981/stream/channelid/669325206?ticket=C085B4A0099D9ED40A3A4E3B30989C32284B1658&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"8208b3e268670a3389a30d47bb2d8679\",RMC Découverte
+http://185.178.185.253:9981/stream/channelid/1655900290?ticket=8CCC93809A542C4D3B8A7DCF55159E095F7FDF8B&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"b080506ccdfe88361d10fd11ecf8a0b5\",Chérie 25
+http://185.178.185.253:9981/stream/channelid/1817215152?ticket=0AE0D500F230676EF4ACC1AA615738DA8BD8C9B8&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"b6c864ce9466517336aeed7d44076e81\",LCI
+http://185.178.185.253:9981/stream/channelid/1315227830?ticket=B98B31E2C7080164386FF190C21EE3113D7758BF&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"920f349a021dcb87f1dc24176453795e\",franceinfo:
+http://185.178.185.253:9981/stream/channelid/439619474?ticket=AE342BA6EEA861BFA0FF433C4193841B88457E11&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"a57e904fdc0fa880e38c46c398ccba40\",PARIS PREMIERE
+http://185.178.185.253:9981/stream/channelid/1334869669?ticket=18ABAF85330FC31B21B86EC8306BAF47BD45663D&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"7275998305e898b1d9dd7f5f23441a95\",Arte.Tv
+http://185.178.185.253:9981/stream/channelid/60388722?ticket=11F6A4EA1B9253F029C118A6DDD07555E6E0F004&profile=pass
 #EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://93.212.252.136:9981/imagecache/4\" tvg-id=\"e7ebbb44d0e4370c740c3ee42ce97944\",3sat HD
 http://93.212.252.136:9981/stream/channelid/1153166311?ticket=C60A5B952B433369BCED7D39193F1DAD85B60450&profile=pass
 #EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://93.212.252.136:9981/imagecache/2\" tvg-id=\"3bbbfdb7d1496f9bd78c54c2673fa19e\",ARD alpha HD
@@ -1743,250 +1680,264 @@ http://93.212.252.136:9981/stream/channelid/1506261538?ticket=6F5F976BE33994EA85
 http://93.212.252.136:9981/stream/channelid/141938755?ticket=48CC29927CF00D7D972B5C9567FA7ADAD4F341AF&profile=pass
 #EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://93.212.252.136:9981/imagecache/30\" tvg-id=\"a70dba42e128ed665ba4024b75643c89\",ZDFinfo HD
 http://93.212.252.136:9981/stream/channelid/1119489447?ticket=C6CDCBDD8CA66B0D4BE89D02231BACBE50098EA5&profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" ,LIUKS 
-http://78.57.234.245:8080/LIUKS/index.m3u8 
-#EXTINF:-1  group-title="CHÂU ÂU" ,LNK 
-http://78.57.234.245:8080/LNK/index.m3u8 
-#EXTINF:-1  group-title="CHÂU ÂU" ,TV1 
-http://78.57.234.245:8080/TV1/index.m3u8 
-#EXTINF:-1  group-title="CHÂU ÂU" ,TV3 
-http://78.57.234.245:8080/TV3/index.m3u8 
-#EXTINF:-1  group-title="CHÂU ÂU" ,BTV 
-http://78.57.234.245:8080/BTV/index.m3u8 
-#EXTINF:-1  group-title="CHÂU ÂU" ,TV8 
-http://78.57.234.245:8080/TV8/index.m3u8 
-#EXTINF:-1  group-title="CHÂU ÂU" ,TV6 
-http://78.57.234.245:8080/TV6/index.m3u8
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/59\" tvg-id=\"237e326fe3565bb1f1aa0d5faf88d26e\",HTV1 HD
+http://88.207.49.54:9981/stream/channelid/1865580067?ticket=F7AA2D6C49FCA6A9025BCB96A90691622F44E402&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/60\" tvg-id=\"caa30cc4a6758bfaa447c3d101f58afa\",HTV2 HD
+http://88.207.49.54:9981/stream/channelid/1141679050?ticket=0F6547E0A15D59ECFF0CB359ED1B90B67261CF9A&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/61\" tvg-id=\"bf2484d071c01ca833b4929f308dde06\",RTL HD
+http://88.207.49.54:9981/stream/channelid/1350837439?ticket=C696767457AECD803BA8DA4D7F07A9ED660363AC&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/62\" tvg-id=\"5d9cdcb78a6964207d991c6a1b57a298\",NOVA TV HD
+http://88.207.49.54:9981/stream/channelid/937204829?ticket=BF0F828EA8E9F17D60DDEBF93D51AD57068F9006&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/63\" tvg-id=\"49613491fba2fc4759435ed1d2f7689c\",HRT3 HD
+http://88.207.49.54:9981/stream/channelid/288645449?ticket=50699BBBBE2D944C51D2A3F38AE773D2A8BAFC9B&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/64\" tvg-id=\"62ef4cba3f01bb1945ebe03e8fe0e21b\",HRT4 HD
+http://88.207.49.54:9981/stream/channelid/978120546?ticket=AF3531BA9C6F8DFF23FCDCB82C405E25A5FBE803&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/65\" tvg-id=\"66ceddde0e4e44fa43ee9a3a7e97dbeb\",RTL 2  HD
+http://88.207.49.54:9981/stream/channelid/1591594598?ticket=3112EA4D6D081932288558A5782B398588E7AD85&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/66\" tvg-id=\"ebed8cba6be090e27bd44dcc7e0a5b5f\",Doma TV HD
+http://88.207.49.54:9981/stream/channelid/982314475?ticket=FD409FA40E12BAE67C86FF58B2A7DB4261E90AA4&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/67\" tvg-id=\"4034466e43b7a3210101672d2e4a9e69\",Sportska televizija HD
+http://88.207.49.54:9981/stream/channelid/1850094656?ticket=A95DCFD840B832365A6942AECB805C1CFB5B2426&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/71\" tvg-id=\"919c79564039ec176a423d5a83c808e1\",RTL KOCKICA HD
+http://88.207.49.54:9981/stream/channelid/1450810513?ticket=7E63A3C830DE8D6AFF8502ACFD942EB444165098&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/72\" tvg-id=\"78a0c6e10939d671b34cfe73c53cff47\",CMC HD
+http://88.207.49.54:9981/stream/channelid/1640407160?ticket=C0B77FAB2B8773304B893BC35CC8931FB25D8922&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/70\" tvg-id=\"31d2ad6c9609d82e0e0e36b0d0010a0f\",OTV HD
+http://88.207.49.54:9981/stream/channelid/1823330865?ticket=ACA69047982D0FB67DE0B98F1CAB0DDBFA96C33B&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/69\" tvg-id=\"550aadbe437e7e5672796cab34aebda3\",MrezaZG HD
+http://88.207.49.54:9981/stream/channelid/1051527765?ticket=5B459A88E1589190250579AE323242910D109CDD&profile=pass
+#EXTINF:-1  group-title="CHÂU ÂU" logo=\"http://88.207.49.54:9981/imagecache/68\" tvg-id=\"2eef246bb46841fb83d318816715d8c1\",Z1 HD
+http://88.207.49.54:9981/stream/channelid/1797582638?ticket=E01AE2CA8D93BEEEAF821D2184B0162CE0E00775&profile=pass
 #EXTINF:0 tvg-rec=\"3\",C More Sport HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/2515/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",Kanal 11 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7357/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",SVT1 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7350/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",SVT2 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7351/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",SVTB/SVT24 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7352/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV12 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7353/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",V Sport Football FHD
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/11110/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",V Sport Vinter FHD
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/11111/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE FOOTBALL HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12032/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE GOLF HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12033/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE HITS HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12034/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE HOKEY HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12035/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE LIVE 1 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12036/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE LIVE 2 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12037/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE LIVE 3 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12038/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE LIVE 4 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12039/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE LIVE 5 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12040/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE SERIES HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12041/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE STARTS HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12042/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",CARTOON NETWORK SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12043/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",DISCOVERY SCIENCE SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12044/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",DISNEY JUNIOR SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12045/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",DISNEY XD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12046/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",EUROSPORT 1 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12047/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",EUROSPORT 2 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12048/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",HORSE & COUNTRY HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12050/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",ID DISCOVERY SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12051/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",KANAL 5 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12052/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",KANAL 9 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12053/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",KUNSKAPSKANALEN HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12054/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",MTV SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12055/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",NATIONAL GEOGRAPHICS HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12056/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",NICK JUNIOR SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12057/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",NICKELODEON SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12058/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",NICKTOONS SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12059/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",Paramount Network HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12060/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",SF-KANALEN SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12061/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",SJUAN HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12062/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",SVT 1 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12063/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",SVTB  SVT 24 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12064/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TLC HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12065/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV 3 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12066/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV 4 GULD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12067/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV 6 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12068/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV 4 FILM SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12069/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV 4 FAKTA SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12070/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV 4 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12071/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT FILM HITS HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12072/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT SERIES HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12073/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT SPORT EXTRA HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12074/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT SPORT HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12075/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT SPORT FOOTBAL HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12076/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT SPORT GOLF HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12077/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",V Sport Vinter HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12078/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT SPORT PREMIUM HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12079/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT FILM ACTION HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12081/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT FILM PREMIER HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12082/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT FILM FAMILY SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12083/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT NATURE HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12084/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT EXPLORE HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12085/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",ATG LIVE SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12086/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",C MORE FIRST HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12087/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",DI TV HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12088/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",EXPRESSEN TV HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12089/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",HIMLEN SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12090/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",KANAL 10 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12091/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VÄSTMANLANDS TV HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12093/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",HISTORY 2 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12095/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",HISTORY HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12096/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",BOOMERANG SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12097/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",BBC EARTH HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12098/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",National Geographic SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12099/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV3 SPORT SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12100/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT HISTORY HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12101/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV8 SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12102/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",TV10 HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12103/index.m3u8
 #EXTINF:0 tvg-rec=\"0\",VIASAT MOTOR HD SE
-#EXTGRP:Швеция | Sweden
+#EXTGRP:CHÂU ÂU
 http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12104/index.m3u8
 #EXTINF:-1 group-title="CHÂU ÂU",101_BNT 1
 http://46.10.218.219:8000/play/a046
@@ -2319,44 +2270,128 @@ https://euronews.alteox.app/hls/ru_stream.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 
-#EXTINF:-1 tvg-id="ua-pershy" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/ua-pershy.png", Pershyi
-http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="kultura-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/kultura-ua.png", Kultura
-http://91.146.94.234:10001/play/a04j
-#EXTINF:-1 tvg-id="ua-kyiv" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/ua-kyiv.png", Suspilne Kyiv
-http://portal.ott.pink/watch/7592/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="ua-kyiv" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/ua-kyiv.png", Suspilne News
-http://m3u8.ott.blue/watch/7654/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="1plus1" group-title="🇺🇦 Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/1%2B1_logo.svg/200px-1%2B1_logo.svg.png", 1+1
-http://portal.ott.pink/watch/45/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="1plus1-ukraina" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/1plus1-ukraina.png", 1+1 Ukraine
-http://myott.top/stream/KD8IR5FDPF/219.m3u8
-#EXTINF:-1 tvg-id="2plus2" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/2plus2.png", 2+2 HD
-http://portal.ott.pink/watch/7314/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="ua-tv" group-title="🇺🇦 Ukraine" tvg-logo="https://live-ua-tv.cosmonova.net.ua/images/offline-images/stub_ua.png", UA TV
-http://portal.ott.pink/watch/7431/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="rada-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://imi.org.ua/upload/news/2022/01/17/1761e58cabf2b27-61e58bbd0af8d-12_crop_700x350.jpg?v=1643636504", Rada
-http://portal.ott.pink/watch/7418/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="ictv-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/ICTV_logo_2017.jpg/800px-ICTV_logo_2017.jpg", ICTV HD
-http://portal.ott.pink/watch/13/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="ictv-ukraine" group-title="🇺🇦 Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ICTV_2_%282022%29.svg/232px-ICTV_2_%282022%29.svg.png", ICTV 2 HD
-http://myott.top/stream/KD8IR5FDPF/368.m3u8
-#EXTINF:-1 tvg-id="inter-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/%D0%86%D0%BD%D1%82%D0%B5%D1%80_TV_Channel_logo.svg/440px-%D0%86%D0%BD%D1%82%D0%B5%D1%80_TV_Channel_logo.svg.png", INTER
-http://portal.ott.pink/watch/7316/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="inter-plus-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/inter-plus-ua.png", INTER Plus
-http://212.28.87.173:8000/play/a114/index.m3u8
-#EXTINF:-1 tvg-id="unian-tv" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/unian.png", UNIAN
-http://portal.ott.pink/watch/236/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="priamyj" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/priamyj.png", Priamyj
-http://95.67.21.100/hls/prm_ua_hi/index.m3u8?cur=tva.org.ua&key=3i277
-#EXTINF:-1 tvg-id="novy-kanal-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/priamyj.png", Noviy Kanal
-http://portal.ott.pink/watch/9/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="	my-ukraina" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/my-ukraina.png", My-Ukraina
-http://m3u8.ott.blue/watch/7655/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="tet-ua" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/tet.png", TET
-http://91.146.94.234:10001/play/a04p
-#EXTINF:-1 tvg-id="kvartal-tv" group-title="🇺🇦 Ukraine" tvg-logo="https://picon.ml/kvartal-tv.png", Kvartal
-http://portal.ott.pink/watch/123/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 tvg-id="X1plus1" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/1plus1.png" tvg-name="1+1" timeshift="5" group-title="🇺🇦 Ukraina",1+1
+http://ua.kinoshka.net/play/400/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X1plus1" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/1plus1hd.png" tvg-name="1+1 HD" timeshift="5" group-title="🇺🇦 Ukraina",1+1 HD
+http://ua.kinoshka.net/play/9971/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X1plus1-ukraina" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/1plus1.png" tvg-name="1+1 Україна" timeshift="5" group-title="🇺🇦 Ukraina",1+1 Ukraina
+http://ua.kinoshka.net/play/398/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X1plus1-ukraina" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/1plus1.png" tvg-name="1+1 Україна HD" timeshift="5" group-title="🇺🇦 Ukraina",1+1 Ukraina HD
+http://ua.kinoshka.net/play/403/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X1plus1-int" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/1plus1int.png" tvg-name="1+1 International HD" timeshift="5" group-title="🇺🇦 Ukraina",1+1 International HD
+http://ua.kinoshka.net/play/8798/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X2plus2" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/2plus2.png" tvg-name="2+2" timeshift="5" group-title="🇺🇦 Ukraina",2+2
+http://ua.kinoshka.net/play/656/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X2plus2" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/2plus2hd.png" tvg-name="2+2 HD" timeshift="5" group-title="🇺🇦 Ukraina",2+2 HD
+http://ua.kinoshka.net/play/9953/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xictv-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/ictv.png" tvg-name="ICTV" timeshift="5" group-title="🇺🇦 Ukraina",ICTV
+http://ua.kinoshka.net/play/647/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xictv-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/ictvhd.png" tvg-name="ICTV HD" timeshift="5" group-title="🇺🇦 Ukraina",ICTV HD
+http://ua.kinoshka.net/play/9973/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xictv-ukraine" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/ictv2.png" tvg-name="ICTV2" timeshift="5" group-title="🇺🇦 Ukraina",ICTV2
+http://ua.kinoshka.net/play/6205/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xmy-ukraina" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/my-ukraina.png" tvg-name="Ми - Україна" timeshift="5" group-title="🇺🇦 Ukraina",Мy-Ukraina
+http://ua.kinoshka.net/play/908/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xukraine1" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/ukr1.png" tvg-name="Ukraine 1" timeshift="5" group-title="🇺🇦 Ukraina",Ukraine 1
+http://ua.kinoshka.net/play/6153/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xukraine2" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/ukr2.png" tvg-name="Ukraine 2" timeshift="5" group-title="🇺🇦 Ukraina",Ukraine 2
+http://ua.kinoshka.net/play/6154/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xnovy-kanal-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/novy.png" tvg-name="Новий канал" timeshift="5" group-title="🇺🇦 Ukraina",Novy
+http://ua.kinoshka.net/play/651/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xnovy-kanal-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/novy.png" tvg-name="Новий канал HD" timeshift="5" group-title="🇺🇦 Ukraina",Novy HD
+http://ua.kinoshka.net/play/9974/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xua-pershy" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/pershiy-hd.png" tvg-name="UA:Перший" timeshift="5" group-title="🇺🇦 Ukraina",UA:Pershyi
+http://ua.kinoshka.net/play/646/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xua-kyiv" tvg-logo="https://ip-tv.dev/images/ico/kiiv.png" tvg-name="UA: Київ" group-title="🇺🇦 Ukraina",UA:Kyiv
+http://ua.kinoshka.net/play/5498/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xstb-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/stb.png" tvg-name="СТБ" timeshift="5" group-title="🇺🇦 Ukraina",STB
+http://ua.kinoshka.net/play/401/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xstb-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/stb.png" tvg-name="СТБ HD" timeshift="5" group-title="🇺🇦 Ukraina",STB HD
+http://ua.kinoshka.net/play/9975/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xntn-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/ntn.png" tvg-name="НТН" timeshift="5" group-title="🇺🇦 Ukraina",NTN
+http://ua.kinoshka.net/play/402/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xntn-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/ntn.png" tvg-name="НТН HD" timeshift="5" group-title="🇺🇦 Ukraina",NTN HD
+http://ua.kinoshka.net/play/8834/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xinter-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/inter-ua.png" tvg-name="Интер" timeshift="5" group-title="🇺🇦 Ukraina",Inter
+http://ua.kinoshka.net/play/404/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xinter-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/inter-ua.png" tvg-name="Интер HD" timeshift="5" group-title="🇺🇦 Ukraina",Inter HD
+http://ua.kinoshka.net/play/8833/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xinter-plus-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/inter-plus-ua.png" tvg-name="Интер+" timeshift="5" group-title="🇺🇦 Ukraina",Inter Plus
+http://ua.kinoshka.net/play/302/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xinter-plus-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/inter-plus-ua.png" tvg-name="Интер+ HD" timeshift="5" group-title="🇺🇦 Ukraina",Inter Plus HD
+http://ua.kinoshka.net/play/8830/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xtet-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/tet.png" tvg-name="ТЕТ" timeshift="5" group-title="🇺🇦 Ukraina",ТЕТ
+http://ua.kinoshka.net/play/405/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xtet-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/tet.png" tvg-name="ТЕТ HD" timeshift="5" group-title="🇺🇦 Ukraina",ТЕТ HD
+http://ua.kinoshka.net/play/9954/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xunian-tv" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/unian.png" tvg-name="Униан ТВ" timeshift="5" group-title="🇺🇦 Ukraina",Unian
+http://ua.kinoshka.net/play/9949/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xk1-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/k1-ua.png" tvg-name="К1" timeshift="5" group-title="🇺🇦 Ukraina",К1
+http://ua.kinoshka.net/play/645/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xk1-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/k1-ua.png" tvg-name="К1 HD" timeshift="5" group-title="🇺🇦 Ukraina",К1 HD
+http://ua.kinoshka.net/play/8836/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xk2-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/k2-ua.png" tvg-name="К2" timeshift="5" group-title="🇺🇦 Ukraina",К2
+http://ua.kinoshka.net/play/652/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xk2-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/k2-ua.png" tvg-name="К2 HD" timeshift="5" group-title="🇺🇦 Ukraina",К2 HD
+http://ua.kinoshka.net/play/8835/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="24news-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/24news-ua.png" tvg-name="24 Украина HD" timeshift="5" group-title="🇺🇦 Ukraina",24 Ukraina HD
+http://ua.kinoshka.net/play/9955/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-logo="https://ip-tv.dev/images/ico/4tv.png" tvg-name="TV-4" group-title="🇺🇦 Ukraina",TV-4
+http://ua.kinoshka.net/play/8804/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X5kanal-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/5ua.png" tvg-name="5 канал UA" timeshift="5" group-title="🇺🇦 Ukraina", Channel 5 Ukraine
+http://ua.kinoshka.net/play/406/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xespreso-tv" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/espreso.png" tvg-name="Eспресо TV" timeshift="5" group-title="🇺🇦 Ukraina",Espreso TV
+http://ua.kinoshka.net/play/408/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xpriamyj" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/priamyj.png" tvg-name="Прямий HD" timeshift="5" group-title="🇺🇦 Ukraina",Priyamiy HD
+http://ua.kinoshka.net/play/2605/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xuwn" tvg-logo="https://ip-tv.dev/images/ico/uwn.png" tvg-name="UWN" group-title="🇺🇦 Ukraina",UWN
+http://ua.kinoshka.net/play/343/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xua-tv" tvg-logo="https://ip-tv.dev/images/ico/ua-tv.png" tvg-name="FreeДОМ" group-title="🇺🇦 Ukraina",FreeDOM
+http://ua.kinoshka.net/play/350/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xpravdatyt" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/pravda.png" tvg-name="Правда ТУТ HD" timeshift="5" group-title="🇺🇦 Ukraina",Pravda TUT HD
+http://ua.kinoshka.net/play/6204/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xatr-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/atr-ua.png" tvg-name="ATR" timeshift="5" group-title="🇺🇦 Ukraina",ATR
+http://ua.kinoshka.net/play/9945/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xkvartal-tv" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/kvartal-tv.png" tvg-name="Квартал ТВ" timeshift="5" group-title="🇺🇦 Ukraina",Rạp Xiếc Elensky
+http://ua.kinoshka.net/play/2627/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xmega-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/mega-ua.png" tvg-name="Мега HD" timeshift="5" group-title="🇺🇦 Ukraina",Mega HD
+http://ua.kinoshka.net/play/8832/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xmega-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/mega-ua.png" tvg-name="Мега" timeshift="5" group-title="🇺🇦 Ukraina",Мega
+http://ua.kinoshka.net/play/654/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xenter-film" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/enter-film.png" tvg-name="Enter-фільм" timeshift="5" group-title="🇺🇦 Ukraina",Enter-Film
+http://ua.kinoshka.net/play/648/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xenter-film" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/enter-film.png" tvg-name="Enter-фільм HD" timeshift="5" group-title="🇺🇦 Ukraina",Enter-Film HD
+http://ua.kinoshka.net/play/8837/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xotse" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/oce.png" tvg-name="Оце HD" timeshift="5" group-title="🇺🇦 Ukraina",Otse HD
+http://ua.kinoshka.net/play/9905/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xrada-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/rada.png" tvg-name="Рада" timeshift="5" group-title="🇺🇦 Ukraina",Quốc hội U Cà
+http://ua.kinoshka.net/play/9956/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xbigudi" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/bigudi.png" tvg-name="Бігуді" timeshift="5" group-title="🇺🇦 Ukraina",Bihudi
+http://ua.kinoshka.net/play/2625/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="X1auto" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/1auto.png" tvg-name="Первый Автомобильный" timeshift="5" group-title="🇺🇦 Ukraina",Perviy Avtomobilnyy
+http://ua.kinoshka.net/play/8869/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xislandiya" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/islandiya.png" tvg-name="Исландия" timeshift="5" group-title="🇺🇦 Ukraina",Islandiya
+http://ua.kinoshka.net/play/8796/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xnlo-tv2" tvg-logo="https://ip-tv.dev/images/ico/nlo2.png" tvg-name="NLO TV 2" group-title="🇺🇦 Ukraina",NLO TV 2
+http://ua.kinoshka.net/play/6152/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xsonce-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/sonce.png" tvg-name="Сонце" timeshift="5" group-title="🇺🇦 Ukraina",Sontse
+http://ua.kinoshka.net/play/9913/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xkus-kus" tvg-logo="https://ip-tv.dev/images/ico/kus-kus.png" tvg-name="Кус-кус" group-title="🇺🇦 Ukraina",Кus-Kus
+http://ua.kinoshka.net/play/5112/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xzoom-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/zoom.png" tvg-name="Zoom HD" timeshift="5" group-title="🇺🇦 Ukraina",Zoom HD
+http://ua.kinoshka.net/play/8841/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xzoom-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/zoom.png" tvg-name="Zoom" timeshift="5" group-title="🇺🇦 Ukraina",Zoom
+http://ua.kinoshka.net/play/653/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xkyiv-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/images/ico/kyiv-ua.png" tvg-name="ТРК Киев" timeshift="5" group-title="🇺🇦 Ukraina",TRK Kiev
+http://ua.kinoshka.net/play/9908/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xdom" tvg-logo="https://ip-tv.dev/images/ico/dom.png" tvg-name="Дом" group-title="🇺🇦 Ukraina",Dom
+http://ua.kinoshka.net/play/347/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xkultura-ua" tvg-rec="5" tvg-logo="https://ip-tv.dev/epg/icon/uakult.png" tvg-name="UA:Культура" timeshift="5" group-title="🇺🇦 Ukraina",UA:Kultura
+http://ua.kinoshka.net/play/9909/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xua-odesa" tvg-logo="https://ip-tv.dev/images/ico/ua-odesa.png" tvg-name="UA:Одесcа" group-title="🇺🇦 Ukraina",UA:Odessa
+http://ua.kinoshka.net/play/6220/kIUfy81B8SK/video.m3u8
+#EXTINF:-1 tvg-id="Xua-xerson" tvg-logo="https://ip-tv.dev/images/ico/ua-xerson.png" tvg-name="UA: Херсон" group-title="🇺🇦 Ukraina",UA:Kherson
+http://ua.kinoshka.net/play/8805/kIUfy81B8SK/video.m3u8
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="🇨🇳- Kênh Trung Quốc",CCTV-1
 https://cntv.sbs/tv/ipv6.php?id=022
