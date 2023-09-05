@@ -694,10 +694,16 @@ https://s7773.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd
 
 #EXTINF:-1 tvg-id="arirang" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#EXTINF:-1 tvg-id="abcaustralia" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/215.png", ABC Australia
-http://103.112.191.9:880/LAOSAT1093.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTFmNDAwZWEtZjI5OC0zNTAzLWE0NzktZWI2NGIxMjRmMGFm
+#EXTINF:-1 group-title="Quốc tế" tvg-id="abcaustralia.au" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_350.png",ABC Australia
+https://nyanv-live-cdn.mncnow.id/live/eds/AustraliaPlus/sa_dash_vmx/AustraliaPlus.mpd
 #EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg
 https://www.bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg (MPD)
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTFmNDAwZWEtZjI5OC0zNTAzLWE0NzktZWI2NGIxMjRmMGFm
+https://nyanv-live-cdn.mncnow.id/live/eds/Bloomberg/sa_dash_vmx/Bloomberg.mpd
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg Asia Event
 https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/1200px-Sky-news-logo.png",Sky News
@@ -2820,37 +2826,35 @@ https://sc2022.stream-link.org/tv2306.php?id=h22
 #EXTINF:-1 tvg-id="11" tvg-name="DAKLAK TV HONG KONG CHANNEL" tvg-logo="https://i.ibb.co/n8mcxTQ/3.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",Dak Lak IPTV News Channel
 https://sc2022.stream-link.org/tv2306.php?id=c01
 #EXTINF:-1 tvg-id="31" tvg-name="RTHK31" tvg-logo="https://www.hklive.tv/png_logo/31.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",RTHK31
-http://223.17.115.122:9981/stream/channelid/4?ticket=6EBDFEF6BD783C51F91936A9567ACB0FF315C0A0
+https://sc2022.stream-link.org/tv2306.php?id=h08
 #EXTINF:-1 tvg-id="32" tvg-name="RTHK32" tvg-logo="https://www.hklive.tv/png_logo/32.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",RTHK32
-http://223.17.115.122:9981/stream/channelid/7?ticket=9D39BE1DB4494F96B18B8EDDB8AA12DFC21A1D82
+https://sc2022.stream-link.org/tv2306.php?id=h09
 #EXTINF:-1 tvg-id="33" tvg-name="RTHK33" tvg-logo="https://www.hklive.tv/png_logo/33.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",RTHK33
-http://223.17.115.122:9981/stream/channelid/5?ticket=2B9EB615ADB4CFE0B88C403BB4CAF34C2D01597E
-#EXTINF:-1 tvg-id="33" tvg-name="RTHK33" tvg-logo="https://www.hklive.tv/png_logo/34.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",RTHK34
-http://223.17.115.122:9981/stream/channelid/6?ticket=084A7A1CB1E6CFA7BAEC4CBD5242288B267808CE
+https://sc2022.stream-link.org/tv2306.php?id=h11
 #EXTINF:-1 tvg-id="76" tvg-name="香港國際財經台" tvg-logo="https://www.hklive.tv/png_logo/76.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",HKIBC
-http://223.17.115.122:9981/stream/channelid/13?ticket=C3A8EDA1E892C92B651DAC4D10923423850B7E7E
+https://sc2022.stream-link.org/tv2306.php?id=h13
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://www.hklive.tv/png_logo/77.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",HOY TV
-http://223.17.115.122:9981/stream/channelid/14?ticket=1746439619F8B0526D81F4D8780E735E5945A992
+https://sc2022.stream-link.org/tv2306.php?id=h15
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://www.hklive.tv/png_logo/78.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",HOY Info
-http://223.17.115.122:9981/stream/channelid/12?ticket=E685E57E8F6190701BACCFCF09D87A73A3AAE7C1
+https://sc2022.stream-link.org/tv2306.php?id=h17
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="jade" tvg-logo="http://gg.gg/15nn93",TVB Jade
-http://223.17.115.122:9981/stream/channelid/2?ticket=ACE5A68CA3023703D95D223E6E8B19ABD3A3BBCC
+http://stream.cvmtv.site/Jade?token=live
 #EXTINF:-1 tvg-id="81" tvg-name="翡翠台" tvg-logo="http://gg.gg/15noti" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB Jade Guangdong
 http://r.jdshipin.com/qClQf
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="j2" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/j2.png",TVB J2
-http://223.17.115.122:9981/stream/channelid/11?ticket=15F195D8D9B41B7134068E0377611C8058FDE75D
+http://stream.cvmtv.site/J2?token=live
 #EXTINF:-1 tvg-id="83" tvg-name="無綫新聞台" tvg-logo="http://gg.gg/15nn2h" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB News
-http://223.17.122.142:9981/stream/channelid/2051586642?ticket=c66bf5280abaf1b78cfd51e91642e3d9529b621e&profile=pass
+https://sc2022.stream-link.org/tv2306.php?id=h04
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="pearl" tvg-logo="http://gg.gg/15nn57",TVB Pearl
-http://223.17.115.122:9981/stream/channelid/9?ticket=23336F98FF0573D02E94AEBAC75FEF848ADE791F
+http://stream.cvmtv.site/Pearl?token=live
 #EXTINF:-1 tvg-id="84" tvg-name="明珠台" tvg-logo="http://gg.gg/15nowl" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB Pearl Guangdong
 http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 tvg-id="85" tvg-name="無綫財經·資訊台" tvg-logo="http://gg.gg/15nn7" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB FSI
-http://223.17.122.142:9981/stream/channelid/1781676223?ticket=ffb5413c293ef149b44f4515354318e28d32b4fb&profile=pass
+https://sc2022.stream-link.org/tv2306.php?id=h05
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="viu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/1920px-ViuTV_logo.svg.png",ViuTV
-http://223.17.115.122:9981/stream/channelid/1?ticket=EC9129D8A7CB8DC7828B5B4F45656028AACBE077
+http://stream.cvmtv.site/Viu?token=live
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="viu6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/1024px-ViuTVsix-logo.svg.png",ViuTVsix
-http://223.17.115.122:9981/stream/channelid/3?ticket=1C888AB8EE00698BA7913FCC8D4DEC07210F5247
+http://stream.cvmtv.site/Viu6?token=live
 
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/TDM_Ou_Mun.png/revision/latest?cb=20220124185106",Ou Mun Toi
 https://sc2022.stream-link.org/tv2306.php?id=h08
@@ -3367,6 +3371,7 @@ https://webudit.cdnhks.lol/lb/premium126/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=43
 https://webudit.cdnhks.lol/lb/premium43/index.m3u8
+
 #EXTINF:-1 group-title="🇲🇾🇸🇬- Kênh Malaysia và Singapore" tvg-logo="https://www.appcreator24.com/srv/imgs/seccs/9428076_ico.png",Channel 5
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/mewatch/channel5
