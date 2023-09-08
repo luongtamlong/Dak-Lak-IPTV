@@ -21,14 +21,14 @@
 #--*.*--VTV--*.*--#
 #EXTINF:0 tvg-id="vtv1hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv1hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/210/hd/dvr-${start}-${offset}.m3u8" ch-number="1",VTV1 HD 
 #EXTVLCOPT:http-user-agent="Khanggne"
-http://stream.cvmtv.site:1001/VTV1HD?token=live
+http://stream.cvmtv.site:1000/VTV1HD?token=live
 #EXTINF:0 tvg-id="vtv2hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv2hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/377/hd/dvr-${start}-${offset}.m3u8" ch-number="2",VTV2 HD
 #EXTVLCOPT:http-user-agent="Khanggne"
 #http://stream.cvmtv.site/vtv2?token=live
 https://live-zlr1.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
 #EXTINF:0 tvg-id="vtv3hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv3hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/211/hd/dvr-${start}-${offset}.m3u8" ch-number="3",VTV3 HD
 #EXTVLCOPT:http-user-agent="Khanggne"
-http://stream.cvmtv.site:1003/VTV3HD?token=live
+http://stream.cvmtv.site:1000/VTV3HD?token=live
 #EXTINF:0 tvg-id="vtv4hd"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/vtv4hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/378/hd/dvr-${start}-${offset}.m3u8" ch-number="4",VTV4 HD
 #EXTVLCOPT:http-user-agent="Khanggne"
 https://code.vthanhtivi.pw/getlink/tv360/108/2.m3u8
@@ -50,7 +50,7 @@ https://code.vthanhtivi.pw/getlink/vieon/vtv8-hd/playlist.m3u8
 https://code.vthanhtivi.pw/getlink/vieon/vtv9-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv5hdtnb"group-title="VTV" tvg-logo="https://khanggne.github.io/logo/vtv/icon_channel_vtv5-tay-nam-bo_168048836001.jpg" ch-number="10", $ VTV5 Tây Nam Bộ
 #EXTVLCOPT:http-user-agent="Khanggne"
-http://stream.cvmtv.site/vtv5tnb?token=live
+https://live-zlr1.tv360.vn/manifest/VTV5-TNB/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/7.png", VTV5 Tây Nguyên
 https://code.vthanhtivi.pw/getlink/tv360/207/2.m3u8
 
@@ -65,11 +65,6 @@ https://code.vthanhtivi.pw/getlink/vieon2/vtvcab2-on-phim-viet/playlist.m3u8
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/14.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab3-on-sports/dvr-${start}-${offset}.m3u8", ON Sports HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/vtvcab3-on-sports/playlist.m3u8
-#EXTINF:-1 tvg-id="vtvcab3hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/14.png", ON Sports HD | 50fps
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mytv&id=onsports
-https://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv264&offset=1&nodelay=1
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/15.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab4-phim-dac-sac/dvr-${start}-${offset}.m3u8", ON Movies
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/vtvcab4-phim-dac-sac/playlist.m3u8
@@ -100,22 +95,12 @@ https://code.vthanhtivi.pw/getlink/vieon/vtvcab15/playlist.m3u8
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/24.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab16-on-football/dvr-${start}-${offset}.m3u8", ON Football HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/vtvcab16-on-football/playlist.m3u8
-#EXTINF:-1 tvg-id="vtvcab16hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/24.png", ON Football HD | 50fps
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mytv&id=onfootball
-https://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv265&offset=1&nodelay=1
 #EXTINF:-1 tvg-id="vtvcab17hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/25.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab17-yeah1-tv/dvr-${start}-${offset}.m3u8", ON Trending TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/vtvcab17-yeah1-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/26.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab18-on-sports-news/dvr-${start}-${offset}.m3u8", ON Sports News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/vtvcab18-on-sports-news/playlist.m3u8
-#EXTINF:-1 tvg-id="vtvcab18hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/26.png", ON Sports News | 50fps
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mytv&id=onsportsnews
-https://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv496&offset=1&nodelay=1
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="Vê Cặc" tvg-logo="https://cdn.hqth.me/logo/thumbs/27.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon/vie-dramas-hd/dvr-${start}-${offset}.m3u8", VTVcab 19 - Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/vie-dramas-hd/playlist.m3u8
@@ -144,12 +129,12 @@ https://code.vthanhtivi.pw/getlink/tv360/2380/2.m3u8
 #EXTINF:-1 tvg-id="" group-title="Vê Cặc" tvg-logo="https://stvinaprod.vtvcab.vn/720X405/71581b3f-c347-448a-b813-1a2cb25c4a25.jpg", Bóng đá Việt
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZtnZZOhk8KZnaKZnKadlKRnXmFrZg==&time=1693052120&onplus&id=s2-onvff
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZpxnZZejl8KZnaKZm6edlZ1jXmE=&time=1694152544&onplus&id=s2-onvff
 https://live1onsport.vtvcab.vn/secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/ONVFFTV/manifest.mpd
 #EXTINF:-1 tvg-id="" group-title="Vê Cặc" tvg-logo="https://stvinaprod.vtvcab.vn/720X405/72ac05ac-1ac3-4570-bb0b-ee698b251f0a.jpg", Thể thao Việt
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZtnZZOhk8KZnaKZnKadlKRnXmFrZg==&time=1693052120&onplus&id=s2-onvolley
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZpxnZZejl8KZnaKZm6edlZ1jXmE=&time=1694152544&onplus&id=s2-onvolley
 https://live1onsport.vtvcab.vn/secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/ONVOLLEYBALL/manifest.mpd
 
 #--*.*--B4TV--*.*--#
@@ -173,31 +158,36 @@ http://b4tv.live/b4tv/b4tv/76.m3u8
 
 #--*.*--K+--*.*--#
 
-#EXTINF:-1 tvg-id="kcinehd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+ CINE - MyK+
+#EXTINF:-1 tvg-id="kcinehd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+ CINE 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mykplus&id=kcine
-https://akavnpt.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
-#EXTINF:-1 tvg-id="klifehd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+ LIFE - MyK+
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZpxnZZejl8KZnaKZm6edlZ1jXmE=&time=1694152544&mykplus&id=kcine
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_cinehd/default/index.mpd
+#EXTINF:-1 tvg-id="klifehd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+ LIFE 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mykplus&id=klife
-https://akavnpt.kplus.vn/bpk-tv/prod_kplus_lifehd/default/index.mpd
-#EXTINF:-1 tvg-id="ksport1hd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+ SPORT1 - MyK+
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZpxnZZejl8KZnaKZm6edlZ1jXmE=&time=1694152544&mykplus&id=klife
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_lifehd/default/index.mpd
+#EXTINF:-1 tvg-id="ksport1hd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+ SPORT1 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mykplus&id=ksport1
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+ SPORT2 - MyK+
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZpxnZZejl8KZnaKZm6edlZ1jXmE=&time=1694152544&mykplus&id=ksport1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+#EXTINF:-1 tvg-id="ksport2hd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+ SPORT2 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mykplus&id=ksport2
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
-#EXTINF:-1 tvg-id="kkidshd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/89.png", K+ KIDS - MyK+
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZpxnZZejl8KZnaKZm6edlZ1jXmE=&time=1694152544&mykplus&id=ksport2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+#EXTINF:-1 tvg-id="kkidshd" group-title="Kẹo" tvg-logo="https://cdn.hqth.me/logo/thumbs/89.png", K+ KIDS 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ5iaZeok8KZnaKZnKidlaBnXmFqYw==&time=1693306590&mykplus&id=kkids
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZpxnZZejl8KZnaKZm6edlZ1jXmE=&time=1694152544&mykplus&id=kkids
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 
 
@@ -396,170 +386,175 @@ http://live.tv360.vn/manifest/VinhLong4_HD/playlist_1080p.m3u8
 #-*--Địa phương-*--#
 
 
-#EXTINF:-1 tvg-id="angiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/107.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/34/auto/dvr-${start}-${offset}.m3u8", ATV - TH An Giang
+#EXTINF:-1 tvg-id="angiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/107.png", ATV | TH An Giang
 https://code.vthanhtivi.pw/getlink/tv360/35/2.m3u8
-#EXTINF:-1 tvg-id="baria" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/108.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/tonghop/brt/dvr-${start}-${offset}.m3u8", BRT HD - TH Bà Rịa Vũng Tàu
+#EXTINF:-1 tvg-id="baria" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/108.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/tonghop/brt/dvr-${start}-${offset}.m3u8", BRT HD | TH Bà Rịa Vũng Tàu
 https://stream.brt.vn:8081/live/tv2.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="bacgiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/109.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/183/auto/dvr-${start}-${offset}.m3u8", BGTV HD - TH Bắc Giang
+#EXTINF:-1 tvg-id="bacgiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/109.png", BGTV HD | TH Bắc Giang
 https://stream.bacgiangtv.vn/live/285f5f227e988ab4445a2138091d3d62e8d/chunklist.m3u8
-#EXTINF:-1 tvg-id="bacninh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/110.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/360/auto/dvr-${start}-${offset}.m3u8", BTV HD - TH Bắc Ninh
-https://code.vthanhtivi.pw/getlink/mytv/360/hd.m3u8
-#EXTINF:-1 tvg-id="baccan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/111.png", TBK HD - TH Bắc Kạn
+#EXTINF:-1 tvg-id="bacninh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/110.png", BTV HD | TH Bắc Ninh
+https://code.vthanhtivi.pw/getlink/tv360/39/2.m3u8
+#EXTINF:-1 tvg-id="baccan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/111.png", TBK HD | TH Bắc Kạn
 https://code.vthanhtivi.pw/getlink/tv360/37/2.m3u8
-#EXTINF:-1 tvg-id="baclieu" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/112.png" catchup="append" catchup-days="2" catchup-source="https://tv.thbl.vn/replay/index.php/tv/${start}_${end}.m3u8", BLTV HD - TH Bạc Liêu
+#EXTINF:-1 tvg-id="baclieu" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/112.png" catchup="append" catchup-days="2" catchup-source="https://tv.thbl.vn/replay/index.php/tv/${start}_${end}.m3u8", BLTV HD | TH Bạc Liêu
 https://tv.thbl.vn/live/tv/tv.m3u8
-#EXTINF:-1 tvg-id="bentre" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/113.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/tonghop/thbt/dvr-${start}-${offset}.m3u8", THBT HD - TH Bến Tre
-https://code.vthanhtivi.pw/getlink/mytv/167/hd.m3u8
-#EXTINF:-1 tvg-id="binhdinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/114.png", BTV HD - TH Bình Định
+#EXTINF:-1 tvg-id="bentre" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/113.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/tonghop/thbt/dvr-${start}-${offset}.m3u8", THBT HD | TH Bến Tre
+https://code.vthanhtivi.pw/getlink/tv360/40/2.m3u8
+#EXTINF:-1 tvg-id="binhdinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/114.png", BTV HD | TH Bình Định
 http://truyenhinhbinhdinhonline.dynns.com:8086/live.m3u8
-#EXTINF:-1 tvg-id="binhduong1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/115.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/402/auto/dvr-${start}-${offset}.m3u8", BTV1 HD - TH Bình Dương
-https://code.vthanhtivi.pw/getlink/mytv/402/hd.m3u8
-#EXTINF:-1 tvg-id="binhduong2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/116.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/38/auto/dvr-${start}-${offset}.m3u8", BTV2 HD - TH Bình Dương
+#EXTINF:-1 tvg-id="binhduong1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/115.png", BTV1 HD | TH Bình Dương
+https://code.vthanhtivi.pw/getlink/tv360/42/2.m3u8
+#EXTINF:-1 tvg-id="binhduong2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/116.png", BTV2 HD | TH Bình Dương
 https://code.vthanhtivi.pw/getlink/tv360/43/2.m3u8
-#EXTINF:-1 group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/117.png", BTV3 HD - TH Bình Dương
+#EXTINF:-1 group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/117.png", BTV3 HD | TH Bình Dương
 https://code.vthanhtivi.pw/getlink/nethubtv/9371/1.m3u8
-#EXTINF:-1 tvg-id="binhduong4" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/118.png", BTV4 HD - TH Bình Dương
+#EXTINF:-1 tvg-id="binhduong4" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/118.png", BTV4 HD | TH Bình Dương
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/binh-duong-4/playlist.m3u8
-#EXTINF:-1 tvg-id="binhduong6" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/120.png", BTV6 - TH Bình Dương
+#EXTINF:-1 tvg-id="binhduong6" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/120.png", BTV6 | TH Bình Dương
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/btv6/playlist.m3u8
-#EXTINF:-1 tvg-id="binhduong11" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/121.png", BTV11 - TH Bình Dương
+#EXTINF:-1 tvg-id="anvienhd" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/96.png", BTV9 | An Viên TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://code.vthanhtivi.pw/getlink/vieon/an-vien-hd/playlist.m3u8
+#EXTINF:-1 tvg-id="binhduong11" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/121.png", BTV11 | TH Bình Dương
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/btv11/playlist.m3u8
-#EXTINF:-1 tvg-id="binhphuoc1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/122.png", BPTV1 HD - TH Bình Phước
+#EXTINF:-1 tvg-id="binhphuoc1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/122.png", BPTV1 HD | TH Bình Phước
 http://103.90.220.236/bptvlive/tv1live.m3u8
-#EXTINF:-1 tvg-id="hometvbptv2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/123.png", BPTV2 HD - TH Bình Phước
+#EXTINF:-1 tvg-id="hometvbptv2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/123.png", BPTV2 HD | TH Bình Phước
 http://103.90.220.236/bptvlive/tv2live.m3u8
-#EXTINF:-1 tvg-id="binhthuan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/124.png", BTV HD - TH Bình Thuận
+#EXTINF:-1 tvg-id="binhthuan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/124.png", BTV HD | TH Bình Thuận
 https://64d0d74b76158.streamlock.net/BTVTV/binhthuantv/chunklist.m3u8
-#EXTINF:-1 tvg-id="camau" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/125.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/123/auto/dvr-${start}-${offset}.m3u8", CTV HD - TH Cà Mau
+#EXTINF:-1 tvg-id="camau" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/125.png", CTV HD | TH Cà Mau
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/ca-mau-1/playlist.m3u8
-#EXTINF:-1 tvg-id="cantho" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/126.png", THTPCT HD - TH Cần Thơ
+#EXTINF:-1 tvg-id="cantho" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/126.png", THTPCT HD | TH Cần Thơ
 https://tv.tchgroup.vn/live/tv/chunklist.m3u8
-#EXTINF:-1 tvg-id="caobang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/127.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/141/auto/dvr-${start}-${offset}.m3u8", CRTV HD - TH Cao Bằng
-https://code.vthanhtivi.pw/getlink/mytv/141/hd.m3u8
-#EXTINF:-1 tvg-id="danang1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/128.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/90/auto/dvr-${start}-${offset}.m3u8", DaNangTV1 HD
+#EXTINF:-1 tvg-id="caobang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/127.png", CRTV HD | TH Cao Bằng
+http://118.107.85.4:1935/live/smil:CRTV.smil/chunklist_b1384000.m3u8
+#EXTINF:-1 tvg-id="danang1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/128.png", DaNangTV1 HD
 http://drtdnglive.e49a7c38.cdnviet.com/livedrt1/chunklist.m3u8
-#EXTINF:-1 tvg-id="danang2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/129.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/60/auto/dvr-${start}-${offset}.m3u8", DaNangTV2 HD
+#EXTINF:-1 tvg-id="danang2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/129.png", DaNangTV2 HD
 http://drtdnglive.e49a7c38.cdnviet.com/livestream/chunklist.m3u8
-#EXTINF:-1 tvg-id="daklak" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/130.png", DRT HD - TH Đắk Lắk
+#EXTINF:-1 tvg-id="daklak" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/130.png", DRT HD | TH Đắk Lắk
 https://cdn.drt.vn/live/285a27750861b964c27af22091662a74f2f/playlist.m3u8
-#EXTINF:-1 tvg-id="daknong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/131.png", PTD HD - TH Đắk Nông
+#EXTINF:-1 tvg-id="daknong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/131.png", PTD HD | TH Đắk Nông
 https://ngvauezm51liv.vcdn.cloud/live/smil:daknong.smil/chunklist_b3128000_sleng.m3u8
-#EXTINF:-1 tvg-id="dienbien" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/132.png", ĐTV HD - TH Điện Biên
+#EXTINF:-1 tvg-id="dienbien" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/132.png", ĐTV HD | TH Điện Biên
 https://code.vthanhtivi.pw/getlink/nethubtv/9351/2.m3u8
-#EXTINF:-1 tvg-id="dongnai1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/133.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/404/auto/dvr-${start}-${offset}.m3u8", ĐNRTV1 HD - TH Đồng Nai
-https://code.vthanhtivi.pw/getlink/mytv/404/hd.m3u8
-#EXTINF:-1 tvg-id="dongnai2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/134.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/95/auto/dvr-${start}-${offset}.m3u8", ĐNRTV2 HD - TH Đồng Nai
+#EXTINF:-1 tvg-id="dongnai1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/133.png", ĐNRTV1 HD | TH Đồng Nai
+http://118.107.85.4:1935/live/smil:DNTV1.smil/chunklist_b1384000.m3u8
+#EXTINF:-1 tvg-id="dongnai2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/134.png", ĐNRTV2 HD | TH Đồng Nai
 https://code.vthanhtivi.pw/getlink/tv360/255/3.m3u8
-#EXTINF:-1 tvg-id="dongnai3" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/135.png", ĐNRTV3 - TH Đồng Nai
+#EXTINF:-1 tvg-id="dongnai3" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/135.png", ĐNRTV3 | TH Đồng Nai
 https://code.vthanhtivi.pw/getlink/dnlive/dnrtv3/playlist.m3u8
-#EXTINF:-1 tvg-id="dongthap" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/136.png", THĐT1 HD - TH Đồng Tháp
-http://118.69.169.41:1935/THDT/thdttv/chunklist.m3u8
-#EXTINF:-1 tvg-id="dongthap2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/137.png", THĐT2 - TH Đồng Tháp
-http://202.43.109.145:1935/thdt2/thdt2/chunklist.m3u8
-#EXTINF:-1 tvg-id="gialai" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/138.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/172/auto/dvr-${start}-${offset}.m3u8", THGL HD - TH Gia Lai
+#EXTINF:-1 tvg-id="dongthap" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/136.png", THĐT1 HD | TH Đồng Tháp
+#http://118.69.169.41:1935/THDT/thdttv/chunklist.m3u8
+https://code.vthanhtivi.pw/getlink/fptplay/dong-thap/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="dongthap2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/137.png", THĐT2 | TH Đồng Tháp
+#http://202.43.109.145:1935/thdt2/thdt2/chunklist.m3u8
+https://code.vthanhtivi.pw/getlink/fptplay/mien-tay-thdt2/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="gialai" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/138.png", THGL HD | TH Gia Lai
 https://code.vthanhtivi.pw/getlink/tv360/55/2.m3u8
-#EXTINF:-1 tvg-id="hagiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/139.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/155/auto/dvr-${start}-${offset}.m3u8", HGTV HD - TH Hà Giang
+#EXTINF:-1 tvg-id="hagiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/139.png", HGTV HD | TH Hà Giang
 https://code.vthanhtivi.pw/getlink/nethubtv/9349/2.m3u8
-#EXTINF:-1 tvg-id="hanam" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/140.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/40/auto/dvr-${start}-${offset}.m3u8", THHN HD - TH Hà Nam
+#EXTINF:-1 tvg-id="hanam" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/140.png", THHN HD | TH Hà Nam
 https://cdn.hanamtv.vn/live/285361fcafcd0ec47bba2fa3f5870f8dc72/chunklist.m3u8
-#EXTINF:-1 tvg-id="hanoi1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/141.png" catchup="append" catchup-days="2" catchup-source="https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_720p/chunks_dvr_range-${start}-${offset}.m3u8", HanoiTV1 HD
+#EXTINF:-1 tvg-id="hanoi1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/141.png", HanoiTV1 HD
 https://cecex9g5cpliv.vcdn.cloud/capture/smil:HN1.smil/chunklist_b3128000_slen.m3u8
-#EXTINF:-1 tvg-id="hanoi2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/142.png" catchup="append" catchup-days="2" catchup-source="https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_720p/chunks_dvr_range-${start}-${offset}.m3u8", HanoiTV2 HD
+#EXTINF:-1 tvg-id="hanoi2" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/142.png", HanoiTV2 HD
 https://cecex9g5cpliv.vcdn.cloud/live/smil:HN2.smil/chunklist_b3128000_slen.m3u8
-#EXTINF:-1 tvg-id="hatinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/143.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/405/auto/dvr-${start}-${offset}.m3u8", HTTV HD - TH Hà Tĩnh
-https://code.vthanhtivi.pw/getlink/mytv/405/hd.m3u8
-#EXTINF:-1 tvg-id="haiduong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/144.png", THD HD - TH Hải Dương
+#EXTINF:-1 tvg-id="hatinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/143.png", HTTV HD | TH Hà Tĩnh
+https://wse.hatinhtv.net/live/httv1/playlist.m3u8
+#EXTINF:-1 tvg-id="haiduong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/144.png", THD HD | TH Hải Dương
 https://code.vthanhtivi.pw/getlink/tv360/59/2.m3u8
-#EXTINF:-1 tvg-id="haiphong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/145.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/407/auto/dvr-${start}-${offset}.m3u8", THP HD - TH Hải Phòng
+#EXTINF:-1 tvg-id="haiphong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/145.png", THP HD | TH Hải Phòng
 https://cdn.thhp.vn/live/285a4c99665fdf84e94956c66bc7dc7eb5d/chunklist.m3u8
-#EXTINF:-1 tvg-id="haiphongplus" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/146.png" catchup="append" catchup-days="2" catchup-source="https://live.thhp.vn/vod/index.m3u8?st=${start}000&et=${end}000&c=thpplus", THP+ HD - TH Hải Phòng
+#EXTINF:-1 tvg-id="haiphongplus" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/146.png", THP+ HD | TH Hải Phòng
 https://cdn.thhp.vn/live/28548ca35823d41426d8b3da7ed82bdab13/chunklist.m3u8
-#EXTINF:-1 tvg-id="haugiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/147.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/181/auto/dvr-${start}-${offset}.m3u8", HGTV HD - TH Hậu Giang
+#EXTINF:-1 tvg-id="haugiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/147.png", HGTV HD | TH Hậu Giang
 https://60acee235f4d5.streamlock.net/HGTV/d1/chunklist_w1285809548.m3u8
-#EXTINF:-1 tvg-id="hoabinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/148.png", HBTV HD - TH Hòa Bình
-https://code.vthanhtivi.pw/getlink/mytv/159/hd.m3u8
-#EXTINF:-1 tvg-id="hungyen" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/149.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/408/auto/dvr-${start}-${offset}.m3u8", HY HD - TH Hưng Yên
+#EXTINF:-1 tvg-id="hoabinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/148.png", HBTV HD | TH Hòa Bình
+https://hbtvlive.3ssoft.vn/hoabinhtv/playlist.m3u8
+#EXTINF:-1 tvg-id="hungyen" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/149.png", HY HD | TH Hưng Yên
 https://cdn.hungyentv.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8
-#EXTINF:-1 tvg-id="khanhhoa" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/150.png", KTV HD - TH Khánh Hòa
+#EXTINF:-1 tvg-id="khanhhoa" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/150.png", KTV HD | TH Khánh Hòa
 https://code.vthanhtivi.pw/getlink/tv360/65/2.m3u8
-#EXTINF:-1 tvg-id="kiengiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/151.png" catchup="append" catchup-days="2" catchup-source="https://tv.kgtv.vn/replay/index2.php/kgtv/${start}_${end}.m3u8", KG HD - TH Kiên Giang
+#EXTINF:-1 tvg-id="kiengiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/151.png" catchup="append" catchup-days="2" catchup-source="https://tv.kgtv.vn/replay/index2.php/kgtv/${start}_${end}.m3u8", KG HD | TH Kiên Giang
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://tv.kgtv.vn/live/kgtv/kgtv.m3u8
-#EXTINF:-1 tvg-id="kiengiang1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/152.png" catchup="append" catchup-days="2" catchup-source="https://tv.kgtv.vn/replay/index2.php/kgtv1/${start}_${end}.m3u8", KG1 HD - TH Kiên Giang
+#EXTINF:-1 tvg-id="kiengiang1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/152.png" catchup="append" catchup-days="2" catchup-source="https://tv.kgtv.vn/replay/index2.php/kgtv1/${start}_${end}.m3u8", KG1 HD | TH Kiên Giang
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://tv.kgtv.vn/live/kgtv1/kgtv1.m3u8
-#EXTINF:-1 tvg-id="kontum" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/153.png" catchup="append" catchup-days="2" catchup-source="https://tv.kontumtv.vn/replay/index.php/kontumtv/${start}_${end}.m3u8", KRT HD - TH Kon Tum
+#EXTINF:-1 tvg-id="kontum" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/153.png" catchup="append" catchup-days="2" catchup-source="https://tv.kontumtv.vn/replay/index.php/kontumtv/${start}_${end}.m3u8", KRT HD | TH Kon Tum
 #EXTVLCOPT:http-user-agent=VThanhTivi
-https://code.vthanhtivi.pw/getlink/mytv/173/hd.m3u8
-#EXTINF:-1 tvg-id="laichau" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/154.png", LTV HD - TH Lai Châu
-https://code.vthanhtivi.pw/getlink/nethubtv/9355/2.m3u8
-#EXTINF:-1 tvg-id="lamdong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/155.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/164/auto/dvr-${start}-${offset}.m3u8", LTV HD - TH Lâm Đồng
+https://tv.kontumtv.vn/live/kontumtv/kontumtv.m3u8
+#EXTINF:-1 tvg-id="laichau" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/154.png", LTV HD | TH Lai Châu
+https://code.vthanhtivi.pw/getlink/fptplay/lai-chau/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="lamdong" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/155.png", LTV HD | TH Lâm Đồng
 http://118.107.85.5:1935/live/smil:LTV.smil/chunklist_b1384000.m3u8
-#EXTINF:-1 tvg-id="langson" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/156.png", LSTV HD - TH Lạng Sơn
+#EXTINF:-1 tvg-id="langson" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/156.png", LSTV HD | TH Lạng Sơn
 https://stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/chunklist.m3u8
-#EXTINF:-1 tvg-id="laocai" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/157.png", THLC HD - TH Lào Cai
+#EXTINF:-1 tvg-id="laocai" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/157.png", THLC HD | TH Lào Cai
 https://cdn.3ssoft.vn/livetv/laocaitv/laocaitv/index.m3u8
-#EXTINF:-1 tvg-id="longan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/158.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/47/auto/dvr-${start}-${offset}.m3u8", LA34 HD - TH Long An
+#EXTINF:-1 tvg-id="longan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/158.png", LA34 HD | TH Long An
 https://cdn.la34.com.vn/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8
-#EXTINF:-1 tvg-id="namdinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/159.png", NTV - TH Nam Định
+#EXTINF:-1 tvg-id="namdinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/159.png", NTV | TH Nam Định
 https://code.vthanhtivi.pw/getlink/tv360/73/0.m3u8
-#EXTINF:-1 tvg-id="nghean" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/160.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/453/auto/dvr-${start}-${offset}.m3u8", NTV HD - TH Nghệ An
+#EXTINF:-1 tvg-id="nghean" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/160.png" catchup="append" catchup-days="2" catchup-source="https://live.truyenhinhnghean.vn/vod/index.vod?c=na1&st=${start}000&et=${end}000", NTV HD | TH Nghệ An
 https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8
-#EXTINF:-1 tvg-id="ninhbinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/161.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/160/auto/dvr-${start}-${offset}.m3u8", NTV HD - TH Ninh Bình
-http://103.90.220.236/nbtvlive/tv1live.m3u8
-#EXTINF:-1 tvg-id="ninhthuan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/162.png", NTV HD - TH Ninh Thuận
+#EXTINF:-1 tvg-id="ninhbinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/161.png", NTV HD | TH Ninh Bình
+https://live.mediatech.vn/live/28597f8fd7ea5064d0f84ab00b3699dfd86/playlist.m3u8
+#EXTINF:-1 tvg-id="ninhthuan" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/162.png", NTV HD | TH Ninh Thuận
 https://60acee235f4d5.streamlock.net/live/mystream/chunklist.m3u8
-#EXTINF:-1 tvg-id="phutho" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/163.png", PTV HD - TH Phú Thọ
-https://code.vthanhtivi.pw/getlink/mytv/410/hd.m3u8
-#EXTINF:-1 tvg-id="phuyen" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/164.png", PTP - TH Phú Yên
-https://code.vthanhtivi.pw/getlink/tv360/78/2.m3u8
-#EXTINF:-1 tvg-id="quangbinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/165.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/120/auto/dvr-${start}-${offset}.m3u8", QBTV - TH Quảng Bình
+#EXTINF:-1 tvg-id="phutho" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/163.png", PTV HD | TH Phú Thọ
+https://code.vthanhtivi.pw/getlink/tv360/77/2.m3u8
+#EXTINF:-1 tvg-id="phuyen" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/164.png", PTP | TH Phú Yên
+https://code.vthanhtivi.pw/getlink/fptplay/phu-yen/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="quangbinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/165.png", QBTV | TH Quảng Bình
 https://code.vthanhtivi.pw/getlink/nethubtv/9359/1.m3u8
-#EXTINF:-1 tvg-id="quangnam" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/166.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/179/auto/dvr-${start}-${offset}.m3u8", QRT - TH Quảng Nam
+#EXTINF:-1 tvg-id="quangnam" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/166.png", QRT | TH Quảng Nam
 https://beta.qrt.vn/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
-#EXTINF:-1 tvg-id="quangngai" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/167.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/409/auto/dvr-${start}-${offset}.m3u8", PTQ HD - TH Quảng Ngãi
-https://code.vthanhtivi.pw/getlink/mytv/409/hd.m3u8
-#EXTINF:-1 tvg-id="quangninh1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/168.png", QTV1 HD - TH Quảng Ninh
+#EXTINF:-1 tvg-id="quangngai" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/167.png", PTQ HD | TH Quảng Ngãi
+http://118.107.85.4:1935/live/smil:PTQ.smil/chunklist_b584000.m3u8
+#EXTINF:-1 tvg-id="quangninh1" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/168.png", QTV1 HD | TH Quảng Ninh
 http://103.90.220.236/qtvlive/tv1live.m3u8
-#EXTINF:-1 tvg-id="quangninh3" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/169.png", QTV3 HD - TH Quảng Ninh
+#EXTINF:-1 tvg-id="quangninh3" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/169.png", QTV3 HD | TH Quảng Ninh
 http://103.90.220.236/qtvlive/tv3live.m3u8
-#EXTINF:-1 tvg-id="quangtri" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/170.png", QRTV HD - TH Quảng Trị
+#EXTINF:-1 tvg-id="quangtri" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/170.png", QRTV HD | TH Quảng Trị
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/quang-tri-1/playlist.m3u8
-#EXTINF:-1 tvg-id="soctrang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/171.png", STV1 HD - TH Sóc Trăng
-https://code.vthanhtivi.pw/getlink/mytv/52/hd.m3u8
-#EXTINF:-1 tvg-id="soctrang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/172.png", STV2 HD - TH Sóc Trăng
-#http://live.vthanhtivi.pw/stv2
-#EXTINF:-1 tvg-id="sonla" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/173.png", STV HD - TH Sơn La
+#EXTINF:-1 tvg-id="soctrang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/171.png", STV1 HD | TH Sóc Trăng
+http://live.vthanhtivi.pw/stv1/index.m3u8
+#EXTINF:-1 tvg-id="soctrang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/172.png", STV2 HD | TH Sóc Trăng
+http://live.vthanhtivi.pw/stv2/index.m3u8
+#EXTINF:-1 tvg-id="sonla" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/173.png", STV HD | TH Sơn La
 https://cdn.sonlatv.vn/live/28595222e707a364251b8724717894baa46/chunklist.m3u8
-#EXTINF:-1 tvg-id="tayninh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/174.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/53/auto/dvr-${start}-${offset}.m3u8", TTV11 HD - TH Tây Ninh
+#EXTINF:-1 tvg-id="tayninh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/174.png", TTV11 HD | TH Tây Ninh
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/tay-ninh-3/playlist.m3u8
-#EXTINF:-1 tvg-id="thaibinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/175.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/122/auto/dvr-${start}-${offset}.m3u8", TBTV HD - TH Thái Bình
+#EXTINF:-1 tvg-id="thaibinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/175.png", TBTV HD | TH Thái Bình
 https://stream.thaibinhtv.vn/live/285fe61ba73072f428d8a626d764222e744/chunklist.m3u8
-#EXTINF:-1 tvg-id="thainguyen" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/176.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/406/auto/dvr-${start}-${offset}.m3u8", TN1 HD - TH Thái Nguyên
-https://code.vthanhtivi.pw/getlink/mytv/406/hd.m3u8
-#EXTINF:-1 tvg-id="thanhhoa" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/178.png", TTV HD - TH Thanh Hóa
-https://code.vthanhtivi.pw/getlink/mytv/477/hd.m3u8
-#EXTINF:-1 tvg-id="hue" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/179.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/168/auto/dvr-${start}-${offset}.m3u8", TRT - TH Thừa Thiên Huế
+#EXTINF:-1 tvg-id="thainguyen" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/176.png", TN1 HD | TH Thái Nguyên
+https://streaming.thainguyentv.vn/hls/livestream.m3u8
+#EXTINF:-1 tvg-id="thanhhoa" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/178.png", TTV HD | TH Thanh Hóa
+https://code.vthanhtivi.pw/getlink/dp/ttv/playlist.m3u8
+#EXTINF:-1 tvg-id="hue" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/179.png", TRT | TH Thừa Thiên Huế
 https://code.vthanhtivi.pw/getlink/tv360/63/2.m3u8
-#EXTINF:-1 tvg-id="tiengiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/180.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/54/auto/dvr-${start}-${offset}.m3u8", THTG HD - TH Tiền Giang
+#EXTINF:-1 tvg-id="tiengiang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/180.png", THTG HD | TH Tiền Giang
 http://123.25.238.45:1935/live/thtg/chunklist.m3u8
-#EXTINF:-1 tvg-id="travinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/181.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/175/auto/dvr-${start}-${offset}.m3u8", THTV HD - TH Trà Vinh
+#EXTINF:-1 tvg-id="travinh" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/181.png", THTV HD | TH Trà Vinh
 https://60acee235f4d5.streamlock.net:443/THTV/travinhtv/chunklist.m3u8
-#EXTINF:-1 group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/97.png", THTV2 HD - TH Trà Vinh
+#EXTINF:-1 group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/97.png", THTV2 HD | TH Trà Vinh
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/tra-vinh-2/playlist.m3u8
-#EXTINF:-1 tvg-id="tuyenquang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/182.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/154/auto/dvr-${start}-${offset}.m3u8", TTV HD - TH Tuyên Quang
+#EXTINF:-1 tvg-id="tuyenquang" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/182.png", TTV HD | TH Tuyên Quang
 https://code.vthanhtivi.pw/getlink/tv360/92/2.m3u8
-#EXTINF:-1 tvg-id="vinhphuc" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/183.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/57/auto/dvr-${start}-${offset}.m3u8", VP HD - TH Vĩnh Phúc
+#EXTINF:-1 tvg-id="vinhphuc" group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/183.png", VP HD | TH Vĩnh Phúc
 http://vinhphuctv.vn:8090/vinhphuclive/web.stream/playlist.m3u8
-#EXTINF:-1 group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/184.png", YTV HD - TH Yên Bái
-https://yenbaitv.org.vn/hls/livestream.m3u8
+#EXTINF:-1 group-title="Kênh địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/184.png", YTV HD | TH Yên Bái
+https://code.vthanhtivi.pw/getlink/tv360/95/2.m3u8
 
 
 #-*--Hải ngoại-*--#
@@ -579,12 +574,12 @@ https://uni6rtmp.tulix.tv/vbstv/vbsabr.smil/playlist.m3u8
 https://stream.bozztv.com/vnvnsys/vnvnsys/chunklist_w1375891137.m3u8
 
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD
-http://live.vthanhtivi.pw/hbo
+http://live-vnp.vthanhtivi.pw:18001/HBO/index.m3u8
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD Dự phòng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 https://code.vthanhtivi.pw/getlink/tvfree/hbo/playlist.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png", Cinemax HD
-http://live.vthanhtivi.pw/cinemax
+http://live-vnp.vthanhtivi.pw:18001/CINEMAX/index.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png", Cinemax HD Dự phòng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 https://code.vthanhtivi.pw/getlink/tvfree/cinemax/playlist.m3u8
@@ -1397,7 +1392,7 @@ http://104.244.73.237:8080/hrdxman/QPaj8xX59Yfa/72608
 #EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\\\"\\\" tvg-name=\\\"PL: TV PULS HD\\\" tvg-logo=\\\"\\\" ,PL: TV PULS HD 
 #EXTGRP:CHÂU ÂU
 http://104.244.73.237:8080/hrdxman/QPaj8xX59Yfa/72609 
-#EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\\\"\\\" tvg-name=\\\"PL: TV Republika\\\" tvg-logo=\\\"\\\" ,PL: TV Republika 
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\\\"\\\" tvg-name=\\\"PL: TV Republika\\\" tvg-logo=\\\"\\\" ,PL: TV Republika 
 #EXTGRP:CHÂU ÂU
 http://104.244.73.237:8080/hrdxman/QPaj8xX59Yfa/72610 
 #EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\\\"\\\" tvg-name=\\\"PL: TV4 HD\\\" tvg-logo=\\\"\\\" ,PL: TV4 HD 
@@ -1668,204 +1663,409 @@ http://185.178.185.253:9981/stream/channelid/1334869669?ticket=18ABAF85330FC31B2
 #EXTINF:-1  group-title="CHÂU ÂU" tvg-id=\"7275998305e898b1d9dd7f5f23441a95\",Arte.Tv
 http://185.178.185.253:9981/stream/channelid/60388722?ticket=11F6A4EA1B9253F029C118A6DDD07555E6E0F004&profile=pass
 
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6337" tvg-id="c42d27085d01e3f1b77f6a46bd59bfc2",4mediathek
-http://87.123.51.20:9981/stream/channelid/136785348?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/9164" tvg-id="53fc7e386aaa3d8b21be2028eb5e2371",DW English
-http://87.123.51.20:9981/stream/channelid/947846227?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7213" tvg-id="235af6fd15c743329bf41cfa1e9d76b2",FOLX MUSIC TELEVISION
-http://87.123.51.20:9981/stream/channelid/2113296931?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7246" tvg-id="6a107f2b80dffbdafea75fae3d754ff3",LALIGA TV BAR 7
-http://87.123.51.20:9981/stream/channelid/729747562?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7245" tvg-id="55a4a6b3710359d42794b22a767a1cbd",M+ LALIGA TV 3
-http://87.123.51.20:9981/stream/channelid/866559061?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6720" tvg-id="adc138b7e3003835460cc678ad2eb3c0",sixx AUSTRIA
-http://87.123.51.20:9981/stream/channelid/926466477?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7101" tvg-id="faf80eee1e57282e39c713371f318bf3",Telesur
-http://87.123.51.20:9981/stream/channelid/1846475002?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7247" tvg-id="530516beb4d505f319f998ce3008d403",WDR HD Aachen
-http://87.123.51.20:9981/stream/channelid/1041630547?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7247" tvg-id="dbb1b37b727440764f5ccd123064f576",WDR HD Aachen
-http://87.123.51.20:9981/stream/channelid/2075374043?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7248" tvg-id="4f1c5ca44ba12ed79a7742feb1671343",WDR HD Bielefeld
-http://87.123.51.20:9981/stream/channelid/610016335?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7248" tvg-id="81c8a0cc8bf6c2ae3352112c40c6c8ab",WDR HD Bielefeld
-http://87.123.51.20:9981/stream/channelid/1285605505?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7249" tvg-id="c4431c0a094c0658bddc1812904a1d00",WDR HD Bonn
-http://87.123.51.20:9981/stream/channelid/169624516?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7249" tvg-id="602e21411573ec50e001dfcea4b29d02",WDR HD Bonn
-http://87.123.51.20:9981/stream/channelid/1092693600?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7250" tvg-id="dc7be923b25b85a3356e8290b71e72ee",WDR HD Dortmund
-http://87.123.51.20:9981/stream/channelid/602504156?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7251" tvg-id="a1ba0e111c2309c7cb555d470a90ff6d",WDR HD Duisburg
-http://87.123.51.20:9981/stream/channelid/286177953?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7251" tvg-id="c0da685ae79a3f76f340c0798f8fa844",WDR HD Duisburg
-http://87.123.51.20:9981/stream/channelid/1516821184?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7252" tvg-id="2f62b40f1d9f750f4b26830ddd9c3deb",WDR HD Düsseldorf
-http://87.123.51.20:9981/stream/channelid/263479855?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7252" tvg-id="bed57def6cdcda8e1a329b55f5448f26",WDR HD Düsseldorf
-http://87.123.51.20:9981/stream/channelid/1870517694?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7253" tvg-id="6d3d8611bd8ff7f005d3de85c5e78b84",WDR HD Essen
-http://87.123.51.20:9981/stream/channelid/294010221?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7253" tvg-id="a99270da79476fac815d3533450b4c37",WDR HD Essen
-http://87.123.51.20:9981/stream/channelid/1517327017?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7254" tvg-id="70fbf880282583fc718b7df635dda572",WDR HD Köln
-http://87.123.51.20:9981/stream/channelid/16317296?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7254" tvg-id="9b7331bfc3eacafff7ac78df7a994d15",WDR HD Köln
-http://87.123.51.20:9981/stream/channelid/1060205467?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7255" tvg-id="b0d9f95503839cb666db5615aa788deb",WDR HD Münster
-http://87.123.51.20:9981/stream/channelid/1442437552?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7255" tvg-id="ffcded5e4a01edc5a8264d4f23c801a6",WDR HD Münster
-http://87.123.51.20:9981/stream/channelid/1592643071?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7256" tvg-id="1ad97a5d1d5d9cb3fc5ff32ca3e4cdc1",WDR HD Siegen
-http://87.123.51.20:9981/stream/channelid/1568332058?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7256" tvg-id="bf4d76623ffafacc7ded7f27a0aa5d12",WDR HD Siegen
-http://87.123.51.20:9981/stream/channelid/1651920319?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7257" tvg-id="4e570b0d2e418c32264a9d92b1b46e47",WDR HD Wuppertal
-http://87.123.51.20:9981/stream/channelid/218847054?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7257" tvg-id="6c6cc27f91f5c5c301f359a696387653",WDR HD Wuppertal
-http://87.123.51.20:9981/stream/channelid/2143448172?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7258" tvg-id="378fba9c6b9c4709adf9a2b9f48138ba",WDR Mediathek (Internet)
-http://87.123.51.20:9981/stream/channelid/481988407?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7258" tvg-id="be42cd26f9362508ef08e12d637b4363",WDR Mediathek (Internet)
-http://87.123.51.20:9981/stream/channelid/650986174?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6267" tvg-id="e4023d97bb7c63b12f8784a04d4dfcfc" tvg-chno="1",Das Erste
-http://87.123.51.20:9981/stream/channelid/389874404?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6199" tvg-id="df8ede56b56caeab151e248bd7ace99f" tvg-chno="2",ZDF
-http://87.123.51.20:9981/stream/channelid/1457426143?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6266" tvg-id="c2c30d46a127e362eb7995b1085a6ecc" tvg-chno="3",SWR Fernsehen BW
-http://87.123.51.20:9981/stream/channelid/1175307202?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6265" tvg-id="64427220ab0b6192f9146a068aaae08c" tvg-chno="4",KiKA
-http://87.123.51.20:9981/stream/channelid/544359012?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6264" tvg-id="e6334718bba84de9dbc2ebf57a293c05" tvg-chno="5",Disney Channel
-http://87.123.51.20:9981/stream/channelid/407319526?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6263" tvg-id="ef183bf70184457430ce9dd15e3f82e3" tvg-chno="6",SUPER RTL
-http://87.123.51.20:9981/stream/channelid/2000361711?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/7227" tvg-id="80ed43e0e84bca0109972873a6dd1cc2" tvg-chno="7",Nick/Comedy Central+1
-http://87.123.51.20:9981/stream/channelid/1615064448?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6261" tvg-id="dc868c68427b0c56b1497296f12839cd" tvg-chno="8",BR Fernsehen Süd
-http://87.123.51.20:9981/stream/channelid/1754040028?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6260" tvg-id="329b8ed3919e506710b07778e0ba0f6a" tvg-chno="9",WDR Köln
-http://87.123.51.20:9981/stream/channelid/1401854770?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6259" tvg-id="bbb3513d73d99ad6c0b2ff4d3cc3301b" tvg-chno="10",NDR FS HH
-http://87.123.51.20:9981/stream/channelid/1028764603?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6258" tvg-id="92aea056b47e1009b52f0d2e0c261d3c" tvg-chno="11",RTL Television
-http://87.123.51.20:9981/stream/channelid/1453371026?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6257" tvg-id="4d2c3ec405cdad3611cf1492d1ce81d6" tvg-chno="12",SAT.1
-http://87.123.51.20:9981/stream/channelid/1144925261?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6256" tvg-id="45138112fe3040a02f32d01de3fbf7c3" tvg-chno="13",ProSieben
-http://87.123.51.20:9981/stream/channelid/310448965?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6255" tvg-id="6698e282275a23f11de88caedbbb2a2a" tvg-chno="14",VOX
-http://87.123.51.20:9981/stream/channelid/48404582?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6254" tvg-id="1cc97d2214cd791a8c403f5f63548c26" tvg-chno="15",RTLZWEI
-http://87.123.51.20:9981/stream/channelid/578668828?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6253" tvg-id="f8cca07688bb5b2d1464530305eabee1" tvg-chno="16",kabel eins
-http://87.123.51.20:9981/stream/channelid/1990249720?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6252" tvg-id="c36eabd2c7790f4e0e163a649324c1a5" tvg-chno="17",Radio Bremen TV
-http://87.123.51.20:9981/stream/channelid/1386966723?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/9165" tvg-id="b0291d0b42f3d65809dc7b56a85d3342" tvg-chno="18",SR FS (bis 14.12.2021)
-http://87.123.51.20:9981/stream/channelid/186460592?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6250" tvg-id="025e1704fbe36f9021f1b6d898c7be89" tvg-chno="19",kabel eins classics
-http://87.123.51.20:9981/stream/channelid/68640258?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6249" tvg-id="a5075e5eb09d008088e9ecffe94ec9bd" tvg-chno="20",SAT.1 Gold
-http://87.123.51.20:9981/stream/channelid/1583220645?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6248" tvg-id="6ebddf8005c12ff9c3092dae640e3374" tvg-chno="21",RTLup
-http://87.123.51.20:9981/stream/channelid/14663022?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6247" tvg-id="341395a8270aa3774bfad8a04bbddd54" tvg-chno="22",TELE 5
-http://87.123.51.20:9981/stream/channelid/680858420?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6246" tvg-id="6faf2005cbe7930670647d762763f7af" tvg-chno="23",SIXX
-http://87.123.51.20:9981/stream/channelid/86028143?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6245" tvg-id="3c74a80971bafc5f33100ef50add662a" tvg-chno="24",Pro7 MAXX
-http://87.123.51.20:9981/stream/channelid/162034748?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6244" tvg-id="e1a3b8ba40bd2596d4db4e28a67bf230" tvg-chno="25",hr-fernsehen
-http://87.123.51.20:9981/stream/channelid/985179105?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6243" tvg-id="273a5d47182c2d025327d7118a889402" tvg-chno="26",rbb Brandenburg
-http://87.123.51.20:9981/stream/channelid/1197292071?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6242" tvg-id="c73cd54fd06f199b578dda7c5f959fff" tvg-chno="27",MDR Thüringen
-http://87.123.51.20:9981/stream/channelid/1339374791?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6241" tvg-id="223481c34762a7d5b27467c42150b8ef" tvg-chno="28",phoenix
-http://87.123.51.20:9981/stream/channelid/1132540962?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6240" tvg-id="c3bca1421be2d7d9689a46342c1b0069" tvg-chno="29",3sat
-http://87.123.51.20:9981/stream/channelid/1117895875?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6239" tvg-id="f6589521ece90b868c64ad60638e4165" tvg-chno="30",arte
-http://87.123.51.20:9981/stream/channelid/563435766?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/9166" tvg-id="50c3ba139e73a0797ba74fdd2b7c29fb" tvg-chno="31",ARD-alpha bis 14.12.2021 zu HD wechseln
-http://87.123.51.20:9981/stream/channelid/331006800?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6237" tvg-id="01a412cd572963526d8a8d5bd212db95" tvg-chno="32",tagesschau24
-http://87.123.51.20:9981/stream/channelid/1293067265?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6236" tvg-id="c185df525e5c5eb8caef5aba12d0999b" tvg-chno="33",ONE
-http://87.123.51.20:9981/stream/channelid/1390380481?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6235" tvg-id="a32fdb23351814a5d8dba1552d93ec7b" tvg-chno="34",ZDFinfo
-http://87.123.51.20:9981/stream/channelid/601567139?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6234" tvg-id="53567f03fe4c5e98db3a03567800bd7e" tvg-chno="35",zdf_neo
-http://87.123.51.20:9981/stream/channelid/58676819?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6233" tvg-id="17db872f6543913590d39bc322917580" tvg-chno="36",kabel eins Doku
-http://87.123.51.20:9981/stream/channelid/797432599?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6232" tvg-id="cf0acabd60e933540860ec0c0e937dce" tvg-chno="37",NITRO
-http://87.123.51.20:9981/stream/channelid/1036651215?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6231" tvg-id="98f95780efd1df86c8ee8c183ec113bd" tvg-chno="38",DMAX
-http://87.123.51.20:9981/stream/channelid/5765528?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6230" tvg-id="550155a4a2fdcf6c5b4c6f1e43147a6b" tvg-chno="39",SPORT1
-http://87.123.51.20:9981/stream/channelid/609550677?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6229" tvg-id="1eb0a6660ec503617944eda2ed5b54ec" tvg-chno="40",Eurosport 1 Deutschland
-http://87.123.51.20:9981/stream/channelid/1722200094?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6228" tvg-id="00e9b732fd81b3b017330c15822732de" tvg-chno="42",VOXup
-http://87.123.51.20:9981/stream/channelid/850913536?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6227" tvg-id="cb9c9df2d54e042f486a3a574339d99d" tvg-chno="43",ServusTV Deutschland
-http://87.123.51.20:9981/stream/channelid/1922931915?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6226" tvg-id="c5c3fafebb6d33f7ebfc22890a8e3941" tvg-chno="50",ntv
-http://87.123.51.20:9981/stream/channelid/2130363333?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/9167" tvg-id="204b7b885ce90e3ac4124792b92ebb0d" tvg-chno="51",N24/WELT Interimskanal
-http://87.123.51.20:9981/stream/channelid/142297888?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/9168" tvg-id="afc2c20d759aa591ed85dd9d691e96e1" tvg-chno="52",EURONEWS GERMAN SD
-http://87.123.51.20:9981/stream/channelid/230867631?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6223" tvg-id="cdd59ce3f2c3755cec3d0fe633dde646" tvg-chno="56",MTV
-http://87.123.51.20:9981/stream/channelid/1671222733?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6222" tvg-id="6ff0a871183481f456793c872312324f" tvg-chno="57",MTV 80s
-http://87.123.51.20:9981/stream/channelid/1906897007?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6221" tvg-id="fdef0ffdfcea3ded83f18fb379182886" tvg-chno="61",N24 DOKU
-http://87.123.51.20:9981/stream/channelid/2098196477?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6220" tvg-id="88ee93be2e73635bb20089af3a1102ab" tvg-chno="101",Das Erste HD
-http://87.123.51.20:9981/stream/channelid/1049882248?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6219" tvg-id="d11ac459ce66b834c89d485a833345d1" tvg-chno="102",ZDF HD
-http://87.123.51.20:9981/stream/channelid/1506024145?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6218" tvg-id="aba65ed02dfa7c295f1b942ebe965272" tvg-chno="103",SWR BW HD
-http://87.123.51.20:9981/stream/channelid/1348380331?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6217" tvg-id="aa6e1f531fb04bb94c085ce73a6742c5" tvg-chno="104",KiKA HD
-http://87.123.51.20:9981/stream/channelid/1394568874?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6216" tvg-id="9bb994349ac7d901fc8b0d380a6a30c9" tvg-chno="108",BR Fernsehen Süd HD
-http://87.123.51.20:9981/stream/channelid/882162075?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/9169" tvg-id="ac08470698c342771849893955a30dd2" tvg-chno="109",alt_WDR HD Köln
-http://87.123.51.20:9981/stream/channelid/105318572?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6214" tvg-id="a7d9e1108cfb750bab8760730c62d766" tvg-chno="110",NDR FS HH HD
-http://87.123.51.20:9981/stream/channelid/283236775?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6213" tvg-id="2fba93c4c41febb074b667c75f4591a3" tvg-chno="117",Radio Bremen HD
-http://87.123.51.20:9981/stream/channelid/1150532143?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6212" tvg-id="08dd6ecec8e807a75a860e12ac706a1e" tvg-chno="118",SR Fernsehen HD
-http://87.123.51.20:9981/stream/channelid/1315888392?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6211" tvg-id="982c491a5bb755900d16a2da84e9d401" tvg-chno="125",hr-fernsehen HD
-http://87.123.51.20:9981/stream/channelid/441003160?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6210" tvg-id="0c69e4ee4e0de3ab52370de011376303" tvg-chno="126",rbb Brandenburg HD
-http://87.123.51.20:9981/stream/channelid/1860462860?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6209" tvg-id="90e96e64351902c341fc8e15043ffa1c" tvg-chno="127",MDR Thüringen HD
-http://87.123.51.20:9981/stream/channelid/1684990352?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6208" tvg-id="4323e7daca154223f7e1cb2a3ccd0395" tvg-chno="128",phoenix HD
-http://87.123.51.20:9981/stream/channelid/1525097283?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6207" tvg-id="792ca067c2e0cd169f6cc5e4a08108b0" tvg-chno="129",3sat HD
-http://87.123.51.20:9981/stream/channelid/1738550393?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6206" tvg-id="4b156c608eaf48dd116a3e341acdf821" tvg-chno="130",arte HD
-http://87.123.51.20:9981/stream/channelid/1617696075?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6205" tvg-id="b0eed52f0959e64d9de794223ef5cf74" tvg-chno="131",ARD alpha HD
-http://87.123.51.20:9981/stream/channelid/802549424?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6204" tvg-id="8b0012d2a30a15378f943c4209ec5d25" tvg-chno="132",tagesschau24 HD
-http://87.123.51.20:9981/stream/channelid/1376911499?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6203" tvg-id="dd1364c860b3eb499ab791f94ff19b25" tvg-chno="133",ONE HD
-http://87.123.51.20:9981/stream/channelid/1214518237?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6202" tvg-id="720158a29be0583f4b29c54aff31de82" tvg-chno="134",ZDFinfo HD
-http://87.123.51.20:9981/stream/channelid/576192882?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6201" tvg-id="7e28bceddfe56119e677500a859d552a" tvg-chno="135",zdf_neo HD
-http://87.123.51.20:9981/stream/channelid/1841047678?profile=pass
-#EXTINF:-1  group-title="CHÂU ÂU" logo="http://87.123.51.20:9981/imagecache/6200" tvg-id="447b87f4bde7948cc145bda686538eb3" tvg-chno="143",ServusTV HD Deutschland
-http://87.123.51.20:9981/stream/channelid/1955035972?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"03275129e602656bfa1e8ea1757fdf68\",WDR Dortmund
+http://92.116.1.118:9981/stream/channelid/693184259?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a23fb9b03a27651c924b3971e12860a3\",WDR Essen
+http://92.116.1.118:9981/stream/channelid/817446818?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a4ff18a3c5d5dd724691678830234aa9\" tvg-chno=\"1\",1LIVE
+http://92.116.1.118:9981/stream/channelid/588840868?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c11caad75f068026d083a1a1aed25f21\" tvg-chno=\"1\",Das Erste HD
+http://92.116.1.118:9981/stream/channelid/1470766273?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"396edd46733684a073fa956adda6e706\" tvg-chno=\"2\",1LIVE diGGi
+http://92.116.1.118:9981/stream/channelid/1188916793?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c5856f1871825edb4ca218eeac05121d\" tvg-chno=\"2\",ZDF HD
+http://92.116.1.118:9981/stream/channelid/409961925?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"bc37c6b025fe53cd273c591ea68235b5\" tvg-chno=\"3\",COSMO
+http://92.116.1.118:9981/stream/channelid/818296764?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"2333979935813ec289cc7f4b10fa6b17\" tvg-chno=\"4\",Die Maus
+http://92.116.1.118:9981/stream/channelid/429339427?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"9dab5acd1bf2dc5b6888f4edb45d42b8\" tvg-chno=\"5\",WDR 2
+http://92.116.1.118:9981/stream/channelid/1297787805?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d7095baa03ac7b8f88e39695383a4024\" tvg-chno=\"6\",WDR 3
+http://92.116.1.118:9981/stream/channelid/710609367?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"dbffdb7cb3c971c9bd10997e90c82f32\" tvg-chno=\"7\",WDR 4
+http://92.116.1.118:9981/stream/channelid/2094792667?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"2656755a3fb02cf6453fdb6f808c63da\" tvg-chno=\"8\",WDR 5
+http://92.116.1.118:9981/stream/channelid/1517639206?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"87980ad42936d4acd1661d63d3f498e4\" tvg-chno=\"9\",3sat HD
+http://92.116.1.118:9981/stream/channelid/1409980551?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"0e325a5856a9f3f0317ffc07a1bbc320\" tvg-chno=\"9\",WDR Event
+http://92.116.1.118:9981/stream/channelid/1482306062?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"4017257ba64478db37cff44a4e318b72\" tvg-chno=\"10\",arte
+http://92.116.1.118:9981/stream/channelid/2066028352?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c94fba40ef3a4c3b87407fd475fb232a\" tvg-chno=\"10\",DASDING
+http://92.116.1.118:9981/stream/channelid/1085951945?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d38852d269938f412dbbd3266b4ddc9a\" tvg-chno=\"11\",ServusTV HD
+http://92.116.1.118:9981/stream/channelid/1381140691?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"727767868f90beeefa344763be57d876\" tvg-chno=\"11\",WDR 2 Rhein und Ruhr
+http://92.116.1.118:9981/stream/channelid/107444082?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"cc19053d7df8b211b20302900daf8dbb\" tvg-chno=\"12\",BILD
+http://92.116.1.118:9981/stream/channelid/1023744460?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"02be5462606aa37731328fcc59c1f57f\" tvg-chno=\"12\",SWR Aktuell
+http://92.116.1.118:9981/stream/channelid/1649720834?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f5ce4b49faffa4c33d7aafd66dbdf764\" tvg-chno=\"13\",SWR1 BW
+http://92.116.1.118:9981/stream/channelid/1229704949?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"977c0f2cd4f484f72bd4cc39e59542b4\" tvg-chno=\"14\",SWR1 RP
+http://92.116.1.118:9981/stream/channelid/739212439?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"cbc667b3cd02f195dba89e17de6c47da\" tvg-chno=\"15\",SWR2
+http://92.116.1.118:9981/stream/channelid/862439115?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c0e50a5235dd761c40507ff2497a1960\" tvg-chno=\"16\",SWR3
+http://92.116.1.118:9981/stream/channelid/1376445888?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"36c5f89d098a58a14ecfa5e10d6270f4\" tvg-chno=\"17\",SWR4 BW
+http://92.116.1.118:9981/stream/channelid/502842678?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"3cb67e9a8d54b7105cfda2dde8f750d0\" tvg-chno=\"18\",SWR4 RP
+http://92.116.1.118:9981/stream/channelid/444511804?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"9fd6b452403ce3702525100b8c36086f\" tvg-chno=\"19\",hr1
+http://92.116.1.118:9981/stream/channelid/1387583135?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"bafb56e2f82ecbbf5874dd3043d2ebb2\" tvg-chno=\"20\",hr2
+http://92.116.1.118:9981/stream/channelid/1649867706?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b0c8232ac5506d65298a480d56d76dc7\" tvg-chno=\"20\",WDR Köln
+http://92.116.1.118:9981/stream/channelid/706988208?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"9435ef6bc5cf285cf580c94d5ee61cc5\" tvg-chno=\"21\",hr3
+http://92.116.1.118:9981/stream/channelid/1810838932?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"211a84e92a2a99d22f2023c7ec011066\" tvg-chno=\"22\",hr4
+http://92.116.1.118:9981/stream/channelid/1770265121?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"54ea37ad8277314b37413c810858d345\" tvg-chno=\"23\",hr-iNFO
+http://92.116.1.118:9981/stream/channelid/758639188?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6dbb3bf625a42a3e952529d86e1f02fc\" tvg-chno=\"24\",YOU FM
+http://92.116.1.118:9981/stream/channelid/1983626093?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"363ab4ec08ee733255cd571a92019b13\" tvg-chno=\"25\",BR24
+http://92.116.1.118:9981/stream/channelid/1823750710?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"777b391795466a05f047210c465ac43a\" tvg-chno=\"26\",BR24live
+http://92.116.1.118:9981/stream/channelid/389643127?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"9ef6d7c2993409f1cbd5f00c8eae89c0\" tvg-chno=\"27\",Bayern 1
+http://92.116.1.118:9981/stream/channelid/1121449630?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"946bbb1351163a2b844151efb5a70d2e\" tvg-chno=\"28\",Bayern 2
+http://92.116.1.118:9981/stream/channelid/331049876?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d3cdee97238f9278315d11cd9fb437ed\" tvg-chno=\"29\",BAYERN 3
+http://92.116.1.118:9981/stream/channelid/401526227?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"deb92af0a6c7f63341a6fbd99515e456\" tvg-chno=\"30\",BR Schlager
+http://92.116.1.118:9981/stream/channelid/1881848286?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"77029d4577ddd0a6a34f52fd006f8528\" tvg-chno=\"31\",BR-KLASSIK
+http://92.116.1.118:9981/stream/channelid/1167917687?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"860beb91c017292225ee4622259bb678\" tvg-chno=\"31\",hr-fernsehen
+http://92.116.1.118:9981/stream/channelid/300616582?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d3d4b29686fd9c070117ded805632511\" tvg-chno=\"32\",BR Fernsehen Süd
+http://92.116.1.118:9981/stream/channelid/380818643?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"aceb091675bf3f3f52442334a2301936\" tvg-chno=\"32\",PULS
+http://92.116.1.118:9981/stream/channelid/369748908?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"ee7d75f8dcf40c9656eed78fa07e616e\" tvg-chno=\"33\",MDR AKTUELL
+http://92.116.1.118:9981/stream/channelid/2020965870?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a2c3bdd9613a2ffa05b0d57afc0999fa\" tvg-chno=\"34\",MDR JUMP
+http://92.116.1.118:9981/stream/channelid/1505608610?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d56d8dce917c870d86dff4f8fbd93f24\" tvg-chno=\"34\",MDR Thüringen
+http://92.116.1.118:9981/stream/channelid/1317891541?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"fa54a9e94c64de0f7a08c0530342fb9f\" tvg-chno=\"35\",MDR KLASSIK
+http://92.116.1.118:9981/stream/channelid/1772705018?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c9d77dd4099f383c2fb661b09a87683c\" tvg-chno=\"36\",MDR KULTUR
+http://92.116.1.118:9981/stream/channelid/1417533385?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a30c6655cb87a1a5697c31633c386cb3\" tvg-chno=\"37\",MDR S-ANHALT MD
+http://92.116.1.118:9981/stream/channelid/1432751267?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a3b6e752bf6220ee6879dc8ee3731bae\" tvg-chno=\"37\",NDR Niedersachsen
+http://92.116.1.118:9981/stream/channelid/1390917283?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"50482277be51b23e39ed5bf6a51d7b59\" tvg-chno=\"39\",MDR SPUTNIK
+http://92.116.1.118:9981/stream/channelid/1998735440?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"28736dc8b875c88a4f4223b49c070612\" tvg-chno=\"40\",MDR THÜR Mitte-W
+http://92.116.1.118:9981/stream/channelid/1215132456?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"8a51adbbbdb4dfd29ef49cd7aad67bf6\" tvg-chno=\"41\",MDR SACHSEN DD
+http://92.116.1.118:9981/stream/channelid/1001214346?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"47faf5a2f807aa066fe987e73c027cae\" tvg-chno=\"42\",NDR 1 Nieders. HAN
+http://92.116.1.118:9981/stream/channelid/586545735?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d01670bbddab90419b2014941fe6d66c\" tvg-chno=\"42\",rbb Berlin
+http://92.116.1.118:9981/stream/channelid/997201616?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"367bacba96d3731b0a7fe8936f4ee2d0\" tvg-chno=\"43\",NDR 1 Radio MV SN
+http://92.116.1.118:9981/stream/channelid/984382262?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"fce4c875932f8d5e572b40b225325489\" tvg-chno=\"43\",SR Fernsehen
+http://92.116.1.118:9981/stream/channelid/1976100092?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b3081abb1acc6fdb1914304239edb9dc\" tvg-chno=\"44\",NDR 2 NDS
+http://92.116.1.118:9981/stream/channelid/991561907?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a93c7a4b2504898e046bd456f4ce861a\" tvg-chno=\"44\",Radio Bremen TV HD
+http://92.116.1.118:9981/stream/channelid/1266302121?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b4072b2ba708103651606d0d1a9824b7\" tvg-chno=\"45\",NDR 90,3
+http://92.116.1.118:9981/stream/channelid/724240308?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"2d70d33073874278f9d493e96e1490c8\" tvg-chno=\"46\",NDR Blue
+http://92.116.1.118:9981/stream/channelid/819163181?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"98eebdeb8e52eb050b1370d18c1f4058\" tvg-chno=\"46\",SWR BW HD
+http://92.116.1.118:9981/stream/channelid/1807609496?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"ba3f24f7704e83e73aa9046a84ec5cdd\" tvg-chno=\"47\",NDR Info NDS
+http://92.116.1.118:9981/stream/channelid/1998864314?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d609dbd6a9552b0fe51b4525484fe8d9\" tvg-chno=\"48\",NDR Info Spezial
+http://92.116.1.118:9981/stream/channelid/1457195478?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"27356727a95575f0cd8a71be611cfa20\" tvg-chno=\"49\",NDR Kultur
+http://92.116.1.118:9981/stream/channelid/661075239?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"bec17b3c5621cd43882bb29b36eb6c73\" tvg-chno=\"50\",NDR Schlager
+http://92.116.1.118:9981/stream/channelid/1014743486?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a55a15810bf77c331eded898868ea76e\" tvg-chno=\"51\",NDR1 Welle Nord KI
+http://92.116.1.118:9981/stream/channelid/18176677?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"7335a0dec17db8a117c8de1e4784144c\" tvg-chno=\"52\",N-JOY
+http://92.116.1.118:9981/stream/channelid/1587557747?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"14602e6b78301c0583363bb5d1f75f4f\" tvg-chno=\"53\",Bremen Eins
+http://92.116.1.118:9981/stream/channelid/1798201364?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d4a3df5c714b3988361f02257f7fbd44\" tvg-chno=\"54\",Bremen Vier
+http://92.116.1.118:9981/stream/channelid/1558160340?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"8e6ce52289eec39cfef98c7fa3e420c5\" tvg-chno=\"55\",Bremen Zwei
+http://92.116.1.118:9981/stream/channelid/585460878?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"bb6147b456fc429a64bd0bf29275d7fd\" tvg-chno=\"56\",Antenne Brbg.
+http://92.116.1.118:9981/stream/channelid/877093307?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"66aadec03e38da093ac9b11dc127715d\" tvg-chno=\"57\",Fritz
+http://92.116.1.118:9981/stream/channelid/1088334438?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"419289e566857527a0941250fc53b653\" tvg-chno=\"58\",rbb24 Inforadio
+http://92.116.1.118:9981/stream/channelid/1703514689?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"fc4123134fb2cb191b30c1c12c84be46\" tvg-chno=\"59\",rbbKultur
+http://92.116.1.118:9981/stream/channelid/321077756?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"0e68447e0ddfdba3d5474d55f090861a\" tvg-chno=\"60\",rbb 88.8
+http://92.116.1.118:9981/stream/channelid/2118412302?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"744afa2434be60f4e507feeccd9d7c45\" tvg-chno=\"61\",radioeins
+http://92.116.1.118:9981/stream/channelid/620382836?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"429879a1b76c84f3f223c5a97d0e1b4b\" tvg-chno=\"62\",AntenneSaar
+http://92.116.1.118:9981/stream/channelid/561616962?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6b25b67403aa895c9a274c45b8f92998\" tvg-chno=\"63\",SR 1 Europawelle
+http://92.116.1.118:9981/stream/channelid/1958094187?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"ca394b4c2652f287590ab2068ae15c6b\" tvg-chno=\"64\",SR 2 KulturRadio
+http://92.116.1.118:9981/stream/channelid/1279998410?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"59881f9e0a09768ec6e1deecb4eb236f\" tvg-chno=\"65\",SR 3 Saarlandwelle
+http://92.116.1.118:9981/stream/channelid/505383001?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"60f965d397cbdad09fbc00169cec22b6\" tvg-chno=\"66\",UNSERDING
+http://92.116.1.118:9981/stream/channelid/1399191904?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"db446dd56aed737c41b429249644c39f\" tvg-chno=\"69\",NRW1
+http://92.116.1.118:9981/stream/channelid/1433224411?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"195f2091ead7fdb75cb38ace61e2b632\" tvg-chno=\"70\",80s80s
+http://92.116.1.118:9981/stream/channelid/287334169?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"925f35672f65e5a1e7972dbd22a41411\" tvg-chno=\"71\",ERF Plus
+http://92.116.1.118:9981/stream/channelid/1731551122?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f5ce4506184125687133d6f9e355df3f\" tvg-chno=\"72\",JAM FM
+http://92.116.1.118:9981/stream/channelid/105238261?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b1701436a528c42e4eeeed906bb7333a\" tvg-chno=\"73\",Klassik Radio
+http://92.116.1.118:9981/stream/channelid/907309233?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"9271268020460fee35b7571decbace28\" tvg-chno=\"74\",Schlager Radio
+http://92.116.1.118:9981/stream/channelid/2519442?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"784ebd55c9f61622af2b8bd27652e986\" tvg-chno=\"75\",RADIO BOB!
+http://92.116.1.118:9981/stream/channelid/1438469752?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"edec4572b811d7ffc981c23a929f1523\" tvg-chno=\"76\",Radio Horeb
+http://92.116.1.118:9981/stream/channelid/1917185261?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"16ae6beddef661c260641fc26a7000ac\" tvg-chno=\"77\",Radio Paloma
+http://92.116.1.118:9981/stream/channelid/1835773462?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"2a87f3ebc348a56d32d73e63303302eb\" tvg-chno=\"78\",Radio Sunshine Live
+http://92.116.1.118:9981/stream/channelid/1811121962?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"920fd695c9dfdae6a00886574b9f4e16\" tvg-chno=\"79\",WDR 2 Ruhrgebiet
+http://92.116.1.118:9981/stream/channelid/366350226?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"77c7f02e8d9ad1ceb07987938636b1ca\" tvg-chno=\"80\",ROCK ANTENNE
+http://92.116.1.118:9981/stream/channelid/787531639?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"84f33f7c0db60c8ef1666db3cd05636b\" tvg-chno=\"81\",BR-Heimat
+http://92.116.1.118:9981/stream/channelid/2084565892?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d8ea214d563eb3de7ab69a68f64753cf\" tvg-chno=\"82\",Bremen Next
+http://92.116.1.118:9981/stream/channelid/1294068440?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d8c071ac22133b708a911285920936a7\" tvg-chno=\"83\",Radio 21
+http://92.116.1.118:9981/stream/channelid/745652440?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"03a363834e1bb2b445124976f31123af\" tvg-chno=\"84\",Dlf
+http://92.116.1.118:9981/stream/channelid/56861443?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"80582bafac77636069f2db03ea2dad7f\" tvg-chno=\"84\",NRWision
+http://92.116.1.118:9981/stream/channelid/791369856?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b14312fdb73e08ba15be59b8313edc02\" tvg-chno=\"85\",Dlf Kultur
+http://92.116.1.118:9981/stream/channelid/2098348977?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f98b23599b5492f6b448b826b147dc60\" tvg-chno=\"86\",Dlf Nova
+http://92.116.1.118:9981/stream/channelid/1495501817?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"5a5bf7857aa47432721fcb17d5e42912\" tvg-chno=\"87\",DRadio DokDeb
+http://92.116.1.118:9981/stream/channelid/100096858?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6cf55d000af1b79c7b940034ca43ed54\" tvg-chno=\"88\",Antenne NRW
+http://92.116.1.118:9981/stream/channelid/6157676?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"527605ffb1a0b9f18ecbc15fb429502d\" tvg-chno=\"89\",Beats Radio
+http://92.116.1.118:9981/stream/channelid/2131064402?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"5cc88c0bc58f506686ddc0c44ecbe9b4\" tvg-chno=\"97\",Kulthit Radio NRW
+http://92.116.1.118:9981/stream/channelid/193775708?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a1ed249d200f44f9e3d26f70c0743ada\" tvg-chno=\"100\",Vodafone TV
+http://92.116.1.118:9981/stream/channelid/488959393?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"0692feb0b8d6266197b1b21b6ec480e6\" tvg-chno=\"102\",QVC HD
+http://92.116.1.118:9981/stream/channelid/821989894?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"dce14c57face285b2740b7701747cc71\" tvg-chno=\"103\",HSE
+http://92.116.1.118:9981/stream/channelid/1464656348?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d57cd767ce1d016dde71fb06ac2b414b\" tvg-chno=\"104\",Sonnenklar TV
+http://92.116.1.118:9981/stream/channelid/1742175445?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"188641af5be5474437381ff503143bb2\" tvg-chno=\"105\",1-2-3.TV
+http://92.116.1.118:9981/stream/channelid/792823320?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"7160864ac01b980decec5879ad690633\" tvg-chno=\"109\",QVC ZWEI HD
+http://92.116.1.118:9981/stream/channelid/1250320497?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"956c268e6fc80deb8ccd4d1b155feeb3\" tvg-chno=\"110\",HSE Extra
+http://92.116.1.118:9981/stream/channelid/237399189?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d84d3753ddeb0c818814cf5b1746f5b1\" tvg-chno=\"111\",QVC Style
+http://92.116.1.118:9981/stream/channelid/1396133336?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"36643b3801cd69d827d2c9d5cdce63a8\" tvg-chno=\"111\",Schwarzwaldradio
+http://92.116.1.118:9981/stream/channelid/943416374?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"e446ceb12f08b5364915e97dc915e7e3\" tvg-chno=\"121\",ZDFinfo
+http://92.116.1.118:9981/stream/channelid/835602148?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"24c0ed88bb88d24aa5c90ae4b2f37a71\" tvg-chno=\"125\",ARD alpha HD
+http://92.116.1.118:9981/stream/channelid/149798948?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d4b382eee4296fc6391f352524510c0e\" tvg-chno=\"126\",Bibel TV HD
+http://92.116.1.118:9981/stream/channelid/1854059476?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"010597d457ad9247812b5fd4f8dd9875\" tvg-chno=\"168\",NL-Radio 1
+http://92.116.1.118:9981/stream/channelid/1419183361?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"29a0a5d575fccec837b9ac1b7255f447\" tvg-chno=\"169\",NL-Radio 5
+http://92.116.1.118:9981/stream/channelid/1436917801?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"9982354300610e24fdd9df20fda988f8\" tvg-chno=\"181\",KiKA
+http://92.116.1.118:9981/stream/channelid/1127580313?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"82b6d30158cf8cb18140cb2637e9c601\" tvg-chno=\"200\",ZDF_neo
+http://92.116.1.118:9981/stream/channelid/30652034?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"2cee6120f453c01d678bb684eb9716c1\" tvg-chno=\"208\",ONE HD
+http://92.116.1.118:9981/stream/channelid/543288876?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"4b83dc453fbb85e53b774e7737caeec8\" tvg-chno=\"261\",phoenix
+http://92.116.1.118:9981/stream/channelid/1172079435?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"57655fb2cc493d21b5f8f3a4e0fab783\" tvg-chno=\"264\",tagesschau24
+http://92.116.1.118:9981/stream/channelid/845112663?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b356963f64d163a236d2aa5fc39df4c1\" tvg-chno=\"301\",Das Erste
+http://92.116.1.118:9981/stream/channelid/1066817203?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"9d7f3867275da3df4d2f786bdd5f21cc\" tvg-chno=\"302\",ZDF
+http://92.116.1.118:9981/stream/channelid/1731755933?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"ece3778a4ee008e0a6a59ac55ef301b4\" tvg-chno=\"303\",RTL
+http://92.116.1.118:9981/stream/channelid/175629292?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"4c11e92383a15a5c06c95301ee9360e2\" tvg-chno=\"304\",SAT.1
+http://92.116.1.118:9981/stream/channelid/602476876?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"21e2bdd5906ca7101db55fb4934e8904\" tvg-chno=\"305\",ProSieben
+http://92.116.1.118:9981/stream/channelid/1438507553?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"29ad0f665cd681fd7d922e460063d575\" tvg-chno=\"306\",VOX
+http://92.116.1.118:9981/stream/channelid/1712303401?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"ce395e6d7c239fff1b15a95f3e5af836\" tvg-chno=\"307\",kabel eins
+http://92.116.1.118:9981/stream/channelid/1834891726?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d8c279e2d0625de2fa268baff2cde5e3\" tvg-chno=\"308\",RTLZWEI
+http://92.116.1.118:9981/stream/channelid/1652146904?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"28c39e7f4a4c1bb9dc2b69a327e8b76f\" tvg-chno=\"309\",3sat
+http://92.116.1.118:9981/stream/channelid/2141111080?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6fb83e793a8c104edac2b44414426d32\" tvg-chno=\"311\",ServusTV
+http://92.116.1.118:9981/stream/channelid/2034153583?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"3e1b03fb6ff3d8f3e7f282edf4324c5e\" tvg-chno=\"320\",WDR Köln
+http://92.116.1.118:9981/stream/channelid/2063801150?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"145fda7bdcf5b6bd3729c36e130fc828\" tvg-chno=\"321\",WDR Dortmund
+http://92.116.1.118:9981/stream/channelid/2077908756?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"1e21815ebe8685767c12272c83060374\" tvg-chno=\"322\",WDR Essen
+http://92.116.1.118:9981/stream/channelid/1585520926?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b723fd283668bf30350017f664732b0b\" tvg-chno=\"331\",hr-fernsehen
+http://92.116.1.118:9981/stream/channelid/687678391?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"72ea47e7b0a8fa56ed984972c7ae3796\" tvg-chno=\"332\",BR Fernsehen Süd
+http://92.116.1.118:9981/stream/channelid/1732766322?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"e7e8d3b31832ce5c493ce2aa4c871fca\" tvg-chno=\"333\",BR Fernsehen Nord
+http://92.116.1.118:9981/stream/channelid/869525735?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f0d990415fe25134fdbfbf9444e40919\" tvg-chno=\"334\",MDR Sachsen
+http://92.116.1.118:9981/stream/channelid/1100012016?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"2dca440e16f89db0fab960927a479e22\" tvg-chno=\"335\",MDR S-Anhalt
+http://92.116.1.118:9981/stream/channelid/239389229?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"142c07ad4e216d7d66e0c72d8e29fc54\" tvg-chno=\"336\",MDR Thüringen
+http://92.116.1.118:9981/stream/channelid/755444756?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6deb6970616b04e0524157ff9f56730d\" tvg-chno=\"337\",NDR FS NDS
+http://92.116.1.118:9981/stream/channelid/1885989741?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"ad92de4d32042ea2b2f235027a69536c\" tvg-chno=\"338\",NDR FS HH
+http://92.116.1.118:9981/stream/channelid/1306432173?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d6f5b3a9bc7ff0d1bbf3fe5f60fa52bf\" tvg-chno=\"339\",NDR FS SH
+http://92.116.1.118:9981/stream/channelid/699659734?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d71cb80d0268b97f87550297beffdfda\" tvg-chno=\"340\",NDR FS MV
+http://92.116.1.118:9981/stream/channelid/230169815?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b033a7e79f57eabb5190df2b172dfebc\" tvg-chno=\"341\",rbb Brandenburg
+http://92.116.1.118:9981/stream/channelid/1739010992?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"272f91c52ea1d2b9827eeecff606b40d\" tvg-chno=\"342\",rbb Berlin
+http://92.116.1.118:9981/stream/channelid/1167142695?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6e872cd4ee41ae8f79a287100fcf5811\" tvg-chno=\"343\",SR Fernsehen
+http://92.116.1.118:9981/stream/channelid/1412204398?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b69e9c51bf0198f3d8a22855d34a848a\" tvg-chno=\"344\",Radio Bremen TV
+http://92.116.1.118:9981/stream/channelid/1369218742?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a1077f33f24f240007e081652549fa7e\" tvg-chno=\"345\",SWR Fernsehen RP
+http://92.116.1.118:9981/stream/channelid/863963041?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c340e2d96768c83835a7839d0ec851ff\" tvg-chno=\"346\",SWR Fernsehen BW
+http://92.116.1.118:9981/stream/channelid/1507999939?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c5c7a54bf16a70b9d0c90ada9e7aa53b\" tvg-chno=\"402\",QVC
+http://92.116.1.118:9981/stream/channelid/1269155781?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"5335630158e86e3f58c7d092f6503b10\" tvg-chno=\"403\",HSE
+http://92.116.1.118:9981/stream/channelid/23278931?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"12b1d215d24a39aa631bb8c90663e165\" tvg-chno=\"404\",sonnenklar.TV
+http://92.116.1.118:9981/stream/channelid/366129426?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"609fa6326b6c7204f7fdeaa66eba79a5\" tvg-chno=\"405\",1-2-3.tv
+http://92.116.1.118:9981/stream/channelid/849780576?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f91a8fefe159b509b3d9d64d6cb7922c\" tvg-chno=\"406\",Juwelo
+http://92.116.1.118:9981/stream/channelid/1871649529?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"c0a2e6f0301ea1ebe5f49be56f61924e\" tvg-chno=\"407\",Channel21
+http://92.116.1.118:9981/stream/channelid/1894163136?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"470703b89720e405d145138eff9a7575\" tvg-chno=\"408\",Handystar
+http://92.116.1.118:9981/stream/channelid/939722567?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"534c9adc8059516d38e31ba8f4973ac3\" tvg-chno=\"409\",QVC ZWEI
+http://92.116.1.118:9981/stream/channelid/1553615955?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"4c9a5b982616b46ab5897677f9f9c87c\" tvg-chno=\"410\",HSE Extra
+http://92.116.1.118:9981/stream/channelid/408656460?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d47eb4c9e893bc40c1880b7a6336612a\" tvg-chno=\"412\",HSE Trend
+http://92.116.1.118:9981/stream/channelid/1236565716?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"e7fea50666eaf5cf320648aab77ee148\" tvg-chno=\"413\",Shop LC
+http://92.116.1.118:9981/stream/channelid/111541991?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"deb68e1547a15b2364a942917655d38b\" tvg-chno=\"414\",Astro TV
+http://92.116.1.118:9981/stream/channelid/361674462?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"5f3dd41f7f4194a0e0390cddbf413e44\" tvg-chno=\"420\",DMAX
+http://92.116.1.118:9981/stream/channelid/534003039?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"bd5eb543038dd947839c23737d55c0e4\" tvg-chno=\"421\",ZDFinfo
+http://92.116.1.118:9981/stream/channelid/1135959741?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"e9a2e5695edd0878562017115cff875a\" tvg-chno=\"422\",TLC
+http://92.116.1.118:9981/stream/channelid/1776657129?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f4d8f0b7de135fd5225796d9dd26ae82\" tvg-chno=\"423\",kabel eins Doku
+http://92.116.1.118:9981/stream/channelid/938531060?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"43d5b7bda3bae70cc5d73e263c35be7a\" tvg-chno=\"424\",N24 Doku
+http://92.116.1.118:9981/stream/channelid/1035457859?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"e45842e64cb7e7c8d1c31c1a8793ab2f\" tvg-chno=\"426\",Bibel TV
+http://92.116.1.118:9981/stream/channelid/1715624164?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"42796c70db592b362b9c6dccbbe059ba\" tvg-chno=\"427\",DIE NEUE ZEIT TV
+http://92.116.1.118:9981/stream/channelid/1886157122?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"939f4ce8cc413f8321406a6608ad5382\" tvg-chno=\"428\",Home & Garden TV
+http://92.116.1.118:9981/stream/channelid/1749852051?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d9e1932be561799367cf3ecc9268150e\" tvg-chno=\"429\",k-tv
+http://92.116.1.118:9981/stream/channelid/731111897?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6baa4abf9b78962c78fbfeb1a35e33aa\" tvg-chno=\"430\",SonLife
+http://92.116.1.118:9981/stream/channelid/1061857899?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"943289b10aebfcebe96f733ef70e6aea\" tvg-chno=\"434\",HopeTV
+http://92.116.1.118:9981/stream/channelid/831074964?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"e50779771ec70e1a0800144251b62093\" tvg-chno=\"460\",COMEDY CENTRAL
+http://92.116.1.118:9981/stream/channelid/2004420581?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d64660ae2dae2b8f7865cc5c2e0e02f7\" tvg-chno=\"461\",DELUXE MUSIC
+http://92.116.1.118:9981/stream/channelid/778061526?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"b28c8ba47c82ebbddc7282aea449f2ef\" tvg-chno=\"462\",Deutsches Musik Fernsehen
+http://92.116.1.118:9981/stream/channelid/613125298?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"de123f4e111887a3cb6c35e0f009957d\" tvg-chno=\"463\",MTV
+http://92.116.1.118:9981/stream/channelid/1312756446?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"51de0863f9e3d7cc5c95d996865b4f90\" tvg-chno=\"464\",SCHLAGER DELUXE
+http://92.116.1.118:9981/stream/channelid/1661525585?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"cfb59cb8b6210bf66f744ab49ec00101\" tvg-chno=\"480\",Super RTL
+http://92.116.1.118:9981/stream/channelid/949794255?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"464186f31adc048c49468e965b5a3387\" tvg-chno=\"481\",KiKA
+http://92.116.1.118:9981/stream/channelid/1938178374?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a3f0077339352ddab0a8521de19e4479\" tvg-chno=\"482\",Nick
+http://92.116.1.118:9981/stream/channelid/1929900195?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"171fd03714395cfc462a3280a80b86d0\" tvg-chno=\"483\",TOGGO plus
+http://92.116.1.118:9981/stream/channelid/936386327?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"3ab3f84b58229ae00b216dd5ec2b23b7\" tvg-chno=\"484\",RiC
+http://92.116.1.118:9981/stream/channelid/1274590010?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"373bf70d070d062472496d7d2972b0a8\" tvg-chno=\"490\",Disney Junior
+http://92.116.1.118:9981/stream/channelid/234306359?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"11e162308cb7d40d75028790bfc393c9\" tvg-chno=\"500\",zdf_neo
+http://92.116.1.118:9981/stream/channelid/811786513?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"6a2afb9e0607cc7d41951a34862feada\" tvg-chno=\"501\",Nitro
+http://92.116.1.118:9981/stream/channelid/519776874?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"625f9b39ce09d063a85537b8250dc2cb\" tvg-chno=\"502\",SAT.1 GOLD
+http://92.116.1.118:9981/stream/channelid/966483810?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"7a39c63380db7e25c01b20a689f98aa4\" tvg-chno=\"503\",Tele 5
+http://92.116.1.118:9981/stream/channelid/868628858?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"a5779fc29177f766e2ed4a597fef811a\" tvg-chno=\"504\",Disney SD
+http://92.116.1.118:9981/stream/channelid/1117747109?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"75fb99ccddd713643e92d522cd978eb4\" tvg-chno=\"505\",SIXX
+http://92.116.1.118:9981/stream/channelid/1285159797?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"da1400cbb144dd895388eb08f8f96020\" tvg-chno=\"506\",ProSieben MAXX
+http://92.116.1.118:9981/stream/channelid/1258296538?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"db0c246d00aa081250d00845f4275363\" tvg-chno=\"507\",RTLup
+http://92.116.1.118:9981/stream/channelid/1831079131?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"664bbad307022a175922a05d1a5c738d\" tvg-chno=\"510\",VOXup
+http://92.116.1.118:9981/stream/channelid/1404717926?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f0494bfb4e625503af62640bc9c6ff84\" tvg-chno=\"540\",SPORT1
+http://92.116.1.118:9981/stream/channelid/2068531696?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"d79ea45ca29a1a7334b29a9836425b65\" tvg-chno=\"541\",EUROSPORT 1
+http://92.116.1.118:9981/stream/channelid/1554292439?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"f629cf12c44dc184ef6811391477f8fc\" tvg-chno=\"560\",WELT
+http://92.116.1.118:9981/stream/channelid/315566582?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"84b6db8d905dcf0763beb3cd433ec95d\" tvg-chno=\"562\",ntv
+http://92.116.1.118:9981/stream/channelid/232502916?profile=pass
+#EXTINF:-1 group-title="CHÂU ÂU" tvg-id=\"13c47282ac20796ba706599f9c407261\" tvg-chno=\"563\",euronews (D)
+http://92.116.1.118:9981/stream/channelid/41075731?profile=pass
+
 #EXTINF:0 tvg-id="AMC.hu" group-title="CHÂU ÂU",AMC HU
 http://194.76.186.33:8000/play/a02u/index.m3u8
 #EXTINF:0 tvg-id="MagyarATV.hu" group-title="CHÂU ÂU",ATV
