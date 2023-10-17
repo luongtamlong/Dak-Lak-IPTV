@@ -27,6 +27,7 @@ http://stream.cvmtv.site:1000/VTV1HD?token=live
 https://code.vthanhtivi.pw/getlink/vieon/vtv2-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#https://code.vthanhtivi.pw/getlink/vieon/vtv3-hd/playlist.m3u8
 http://stream.cvmtv.site:1000/VTV3HD?token=live
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/4.png", VTV4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -36,7 +37,7 @@ http://stream.cvmtv.site/vtv5?token=live
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/6.png", VTV5 Tây Nam Bộ
 https://liveh12.vtvcab.vn/hls/ONVTV5TNB_CL/04.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/7.png", VTV5 Tây Nguyên
-https://code.vthanhtivi.pw/getlink/fptplay/FQDIxWpGzE7-MnKMnWF5VA/1697246838/vtv5-tay-nguyen/chunklist_b5000000.m3u8
+https://code.vthanhtivi.pw/getlink/fptplay/v1V0PosUUSCAv8-jHucHXw/1697519563/vtv5-tay-nguyen/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/9.png", VTV7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
@@ -48,7 +49,8 @@ https://code.vthanhtivi.pw/getlink/vieon/vtv8-hd/playlist.m3u8
 https://code.vthanhtivi.pw/getlink/vieon/vtv9-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/8.png", VTV Cần Thơ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://code.vthanhtivi.pw/getlink/vieon/vtv-can-tho/playlist.m3u8
+#https://code.vthanhtivi.pw/getlink/vieon/vtv-can-tho/playlist.m3u8
+https://live2onsport.vtvcab.vn/hls/VTV6_HD/sc-gaFEAA/m30_index.m3u8
 
 #--*.*--VTV--*.*--#
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV RTP" tvg-logo="https://khanggne.github.io/logo/vtv/vtv1hd.jpg" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/210/hd/dvr-${start}-${offset}.m3u8" ch-number="1",VTV1 (HD 8.5Mbps) 
