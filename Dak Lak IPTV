@@ -600,16 +600,12 @@ https://s7773.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd
 
 #EXTINF:-1 tvg-id="arirang" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/214.png", Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTFmNDAwZWEtZjI5OC0zNTAzLWE0NzktZWI2NGIxMjRmMGFm
 #EXTINF:-1 group-title="Quốc tế" tvg-id="abcaustralia.au" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_350.png",ABC Australia
-https://nyanv-live-cdn.mncnow.id/live/eds/AustraliaPlus/sa_dash_vmx/AustraliaPlus.mpd
+https://live.khanggtivi.xyz/rtp/?dash=232.84.2.244:10482
+#EXTINF:-1 group-title="Quốc tế" tvg-id="abcaustralia.au" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_350.png",ABC Australia (Analog)
+https://ctrl.laotv.la/live/ABCA/index.m3u8
 #EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg
-https://www.bloomberg.com/media-manifest/streams/asia.m3u8
-#EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg (MPD)
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTFmNDAwZWEtZjI5OC0zNTAzLWE0NzktZWI2NGIxMjRmMGFm
-https://nyanv-live-cdn.mncnow.id/live/eds/Bloomberg/sa_dash_vmx/Bloomberg.mpd
+https://live.khanggtivi.xyz/rtp/?dash=232.84.3.157:10696
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png", Bloomberg Asia Event
 https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/1200px-Sky-news-logo.png",Sky News
@@ -659,7 +655,7 @@ http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b1290000_slpt.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
-http://94.61.176.66:9981/stream/channelid/662438074?profile=pass
+https://live.khanggtivi.xyz/rtp/?dash=232.84.3.205:11152
 #EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
 http://nowatv.stream2.link:8080/play/live.php?mac=00:1A:79:49:4f:5b&stream=19&extension=ts&play_token=hQn1bHZhnZ
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
@@ -847,10 +843,10 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571197&extension=
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571188&extension=ts
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15v6gj" group-title="Giải trí quốc tế",TVB Xing He
 https://sc2022.stream-link.org/tv2306.php?id=c02
-#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15wdvk" group-title="Giải trí quốc tế",Star Chinese Channel
-http://103.112.191.9:880/LAOSAT1085.m3u8
+#EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15v6gj" group-title="Giải trí quốc tế",TVB Xing He
+https://sc2022.stream-link.org/tv2306.php?id=c02
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15wdw9" group-title="Giải trí quốc tế",Xing Kong
-http://103.112.191.9:880/LAOSAT1016.m3u8
+https://live.khanggtivi.xyz/rtp/?dash=232.84.3.189:11056
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" group-title="Giải trí quốc tế",EBC Movies
 http://103.112.191.9:880/LAOSAT1017.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" group-title="Giải trí quốc tế",EBC Foreign Movies
