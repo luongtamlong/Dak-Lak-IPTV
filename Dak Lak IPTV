@@ -619,6 +619,8 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 https://cdn2.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 #EXTINF:-1 tvg-id="tv5monde" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/225.png", TV5Monde
 https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
+#EXTINF:-1 tvg-id="tv5monde" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/225.png", TV5Monde Analog
+http://183.89.246.119:8881/play/a08r/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/226.png", TRT World
 https://tv-trtworld.live.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/524px-VOA_logo.svg.png", VOA
@@ -640,7 +642,7 @@ http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b1290000_slpt.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
-https://live.khanggtivi.xyz/rtp/?dash=232.84.3.205:11152
+http://183.89.246.119:8881/play/a0am/index.m3u8
 #EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
 http://nowatv.stream2.link:8080/play/live.php?mac=00:1A:79:49:4f:5b&stream=19&extension=ts&play_token=hQn1bHZhnZ
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
@@ -658,23 +660,17 @@ https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/maina
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/live/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="Quốc tế" tvg-logo="https://picon.ml/pervy-kanal-eu.png", OPT1
-http://45.159.74.13:80/PerviyKanal/tracks-v1a1/mono.m3u8
+https://tbs01-edge11.itdc.ge/ort/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="Quốc tế" tvg-logo="https://picon.ml/rtr-planeta.png", RTR Planeta
-http://45.159.74.13:80/RTRPlaneta/tracks-v1a1/mono.m3u8
+http://radio-live-mg.rtr-vesti.ru/hls/planeta_rtr_asia/playlist_3.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/NTV_MIR.svg/1200px-NTV_MIR.svg.png", NTV Mir
-http://45.159.74.13:80/HTB/tracks-v1a1/mono.m3u8
+https://ucdn.beetv.kz/btv/live/hls/000000079.m3u8
 #EXTINF:-1 tvg-id="tvci" group-title="Quốc tế" tvg-logo="https://i.imgur.com/fIkd01t.png",TV Tsentr International
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
-http://192.162.64.222:4000/play/a00z/index.m3u8
-#EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/BdmmHS9.png",TNT TV Intl
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
-http://192.162.64.222:4000/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="piaty-int" group-title="Quốc tế" tvg-logo="https://picon.ml/piaty-int.png",STS Intl
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
-https://sc.id-tv.kz/STS_36_37.m3u8
+http://edge02.odtv.az/o2/tvc/playlist.m3u8
 #EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/BdmmHS9.png",REN TV Intl
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
-http://192.162.64.222:4000/play/a05f/index.m3u8
+https://tbs01-edge11.itdc.ge/rentv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -785,6 +781,12 @@ http://83.228.75.166:8000/play/a05c
 http://83.228.75.166:8000/play/a04f
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/148gj6" group-title="Giải trí quốc tế",FOX Crime
 http://83.228.75.166:8000/play/a04h
+#EXTINF:-1 tvg-id="rentv-int" group-title="Giải trí quốc tế" tvg-logo="https://i.imgur.com/BdmmHS9.png",TNT TV Intl
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
+http://edge02.odtv.az/o8/tnt/playlist.m3u8
+#EXTINF:-1 tvg-id="piaty-int" group-title="Giải trí quốc tế" tvg-logo="https://picon.ml/piaty-int.png",STS Intl
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Mobile; rv:26.0)"
+https://tbs01-edge11.itdc.ge/ctctv/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTINF:0 tvg-id="Galaxy.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/dddbae34f8fafd015e5221a02075ad19.png" group-title="Giải trí quốc tế",Galaxy
@@ -5438,6 +5440,10 @@ http://183.89.246.119:8881/play/a07q/index.m3u8
 http://183.89.246.119:8881/play/a07u/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.pinimg.com/236x/63/0b/81/630b814e80a6fdad1f020e1606590c27.jpg",MWD
 http://183.89.246.119:8881/play/a07z/index.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/FortuneTV_Logo.png/200px-FortuneTV_Logo.png",Fortune TV
+http://183.89.246.119:8881/play/a082/index.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/68/YTV_Logo.png",Y-TV
+http://183.89.246.119:8881/play/a081/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/RTB_Aneka.png" group-title="ĐÔNG NAM Á TV",PTV 4
 https://ythls.onrender.com/channel/UCJCUbMaY593_4SN1QPG7NFQ.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/RTB_Aneka.png" group-title="ĐÔNG NAM Á TV",RTB ANEKA 
