@@ -662,15 +662,15 @@ http://nowatv.stream2.link:8080/play/live.php?mac=00:1A:79:49:4f:5b&stream=19&ex
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
 http://149.5.17.34:20041/play/a06d
 #EXTINF:-1 tvg-id="tvri" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/TVR_i_2022_logo.png", TVR International
-http://83.228.75.166:8000/play/a0dw
-#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_of_BNT_4_%282018-%29.svg/150px-Logo_of_BNT_4_%282018-%29.svg.png", BNT 4
-http://83.228.75.166:8000/play/a0cd
+https://mn-nl.mncdn.com/tvri_test/tvri_test.smil/chunklist_b6096000.m3u8
+#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/2880px-Das_Erste_2014.svg.png", Das Erste International
+https://mcdn.daserste.de/daserste/de/master.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duna_World_HD_2012.svg/2880px-Duna_World_HD_2012.svg.png",Duna World
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://146.59.85.40:89/dunaworld/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/220px-ChannelLogo-ERTWORLD1.png", ERT World
-https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/ert_world_main/main_1080/chunks_dvr.m3u8
+https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/live/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="Quốc tế" tvg-logo="https://picon.ml/pervy-kanal-eu.png", OPT1
@@ -822,7 +822,7 @@ https://anevia114.mncnow.id/live/eds/Thrill/sa_dash_vmx/Thrill.mpd
 https://anevia114.mncnow.id/live/eds/CelestialMovie/sa_dash_vmx/CelestialMovie.mpd
 
 #EXTINF:0 tvg-id="CelestialMovies.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/03722835968ebf5a812fcb4ad2d041dc.png" group-title="Giải trí quốc tế",Thiên Ánh (Quảng Đông)
-http://103.112.191.9:880/LAOSAT1029.m3u8
+https://ctrl.laotv.la/live/CHCA/index.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
@@ -838,9 +838,9 @@ https://sc2022.stream-link.org/tv2306.php?id=h22
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="http://gg.gg/15wdw9" group-title="Giải trí quốc tế",Xing Kong
 http://210.210.155.37/x6bnqe/s/s94/index2.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" group-title="Giải trí quốc tế",EBC Movies
-http://103.112.191.9:880/LAOSAT1017.m3u8
+https://ctrl.laotv.la/live/DongsenMovie/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" group-title="Giải trí quốc tế",EBC Foreign Movies
-http://103.112.191.9:880/LAOSAT1018.m3u8
+https://ctrl.laotv.la/live/DongsenForeignMovie/index.m3u8
 
 
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
@@ -4913,7 +4913,7 @@ https://sc2022.stream-link.org/tv2306.php?id=h09
 #http://stream.cvmtv.site/Viu6?token=live
 
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/TDM_Ou_Mun.png/revision/latest?cb=20220124185106",Ou Mun Toi
-https://sc2022.stream-link.org/tv2306.php?id=h08
+https://live4.tdm.com.mo/ch1/ch1.live/chunklist_w1940801518.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/Canal_Macau.png/revision/latest?cb=20220124185233",Canal Macau
 https://live4.tdm.com.mo/ch2/ch2.live/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9d/TDM_Informa%C3%A7%C3%A3o.jpg",TDM Informação
