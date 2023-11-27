@@ -22,17 +22,17 @@
 #--*.*--VTV--*.*--#
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/1.png", VTV1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-http://stream.cvmtv.site/VTV1HD?token=live
+http://vtv.cvmtv.site/VTV1HD?token=live
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/2.png", VTV2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/vtv2-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
-http://stream.cvmtv.site/VTV3HD?token=live
+http://vtv.cvmtv.site/VTV3HD?token=live
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/4.png", VTV4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/vtv4-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/5.png", VTV5
-http://stream.cvmtv.site/vtv5?token=live
+http://vtv.cvmtv.site/VTV5HD?token=live
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/6.png", VTV5 Tây Nam Bộ
 https://code.vthanhtivi.pw/getlink/mi/yAcEBF22zdkeTCrol0mVsA/1700392480/615/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/7.png", VTV5 Tây Nguyên
@@ -214,7 +214,7 @@ https://code.vthanhtivi.pw/getlink/vieon/htv9-hd/playlist.m3u8
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/chunks.m3u8
 #EXTINF:-1 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/53.png", HTV Thể Thao
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-http://stream.cvmtv.site/htvtt?token=live
+http://vtv.cvmtv.site/HTVTT?token=live
 
 #EXTINF:-1 tvg-id="htvcthuanviet" group-title="HTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/54.png", HTVC Thuần Việt
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-THUANVIET-HD-1080p/playlist.m3u8
@@ -603,9 +603,9 @@ http://149.62.177.107/BBC_World_News_HD/index.m3u8?token=test
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News (SD)
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/Stream(01)/index.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
-http://stream.cvmtv.site/CNBC?token=live
+http://free.cvmtv.site/CNBC?token=live
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://stream.cvmtv.site/CNN?token=live
+http://free.cvmtv.site/CNN?token=live
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
@@ -937,530 +937,51 @@ http://evolved.host:8080/carlton.b.williams1@gmail.com/wmjSiWUXd4/496603
 
 
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/800px-BBC_One_logo_2021.svg.png",BBC One
-http://stream.cvmtv.site/BBC1?token=live
+http://free.cvmtv.site/BBC1?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/640px-BBC_Two_logo_2021.svg.png",BBC Two
-http://stream.cvmtv.site/BBC2?token=live
+http://free.cvmtv.site/BBC2?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/430px-BBC_Three_2022.svg.png",BBC Three
 http://obsfullhd.tv:25461/Dominique/B8DsYJKBk6jY/3003
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/440px-BBC_Four_logo_2021.svg.png",BBC Four
 http://obsfullhd.tv:25461/Dominique/B8DsYJKBk6jY/2087
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1200px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png",BBC News
-http://stream.cvmtv.site/BBCN?token=live
+http://free.cvmtv.site/BBCN?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/BBC_Parliament_2022.svg/2880px-BBC_Parliament_2022.svg.png",BBC Parliament
 http://92.114.85.81:8000/play/a02n/index.m3u8
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1920px-ITV1_logo_%282022%29.svg.png",ITV1
-http://stream.cvmtv.site/ITV?token=live
+http://free.cvmtv.site/ITV?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channel_4_logo_2015.svg/1200px-Channel_4_logo_2015.svg.png",Channel 4
-http://stream.cvmtv.site/Channel4?token=live
+http://free.cvmtv.site/Channel4?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="hhttps://static.wikia.nocookie.net/logopedia/images/9/9d/Channel_5_2016.svg/revision/latest/scale-to-width-down/150?cb=20160211232158",Channel 5
 http://92.114.85.81:8000/play/a019/index.m3u8
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1920px-ITV2_logo_2022.svg.png",ITV2
-http://stream.cvmtv.site/ITV2?token=live
+http://free.cvmtv.site/ITV2?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ITV3_logo_2022.svg/1200px-ITV3_logo_2022.svg.png",ITV3
-http://stream.cvmtv.site/ITV3?token=live
+http://free.cvmtv.site/ITV3?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1920px-ITV4_logo_%282022%29.svg.png",ITV4
-http://stream.cvmtv.site/ITV4?token=live
+http://free.cvmtv.site/ITV4?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/CBBC_%282023%29.svg/1920px-CBBC_%282023%29.svg.png",CBBC
-http://stream.cvmtv.site/CBBC?token=live
+http://free.cvmtv.site/CBBC?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S4C_logo_2014.svg/1200px-S4C_logo_2014.svg.png",S4C
-http://stream.cvmtv.site/S4C?token=live
+http://free.cvmtv.site/S4C?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/2560px-BBC_Red_Button_2021.svg.png",BBC RB 1
-http://stream.cvmtv.site/BBC_RB?token=live
+http://free.cvmtv.site/BBC_RB?token=live
 #EXTINF:-1 group-title="🇬🇧 - ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky-news-logo.png/1200px-Sky-news-logo.png",Sky News
-http://stream.cvmtv.site/SkyN?token=live
+http://free.cvmtv.site/SkyN?token=live
 
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",1-2-3.tv
-http://154.58.202.194:8000/play/a0lz/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",1-2-3.tv HD
-http://154.58.202.194:8000/play/a043/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",3sat HD
-http://154.58.202.194:8000/play/a0c3/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ALQUILER
-http://154.58.202.194:8000/play/a04x/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ALQUILER
-http://154.58.202.194:8000/play/a04y/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ANIXE HD
-http://154.58.202.194:8000/play/a036/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ANIXE+
-http://154.58.202.194:8000/play/a0m0/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ANTENNE BAYERN
-http://154.58.202.194:8000/play/a0n8/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ARD alpha HD
-http://154.58.202.194:8000/play/a07j/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ARD-Test-R
-http://154.58.202.194:8000/play/a07m/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ATV
-http://154.58.202.194:8000/play/a0dw/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ATV HD
-http://154.58.202.194:8000/play/a0an/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ATV2 HD
-http://154.58.202.194:8000/play/a0ai/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Al Jazeera English HD
-http://154.58.202.194:8000/play/a0ad/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Algerie 3
-http://154.58.202.194:8000/play/a0kz/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",AstroTV
-http://154.58.202.194:8000/play/a0lp/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",BAJO DEMANDA
-http://154.58.202.194:8000/play/a04v/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",BBC News
-http://154.58.202.194:8000/play/a0a9/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",BILD HD
-http://154.58.202.194:8000/play/a06s/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Baden TV
-http://154.58.202.194:8000/play/a0ln/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Bibel TV
-http://154.58.202.194:8000/play/a0kx/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Bibel TV HD
-http://154.58.202.194:8000/play/a0aj/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Bloomberg Europe TV
-http://154.58.202.194:8000/play/a0ko/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",CONTRATO
-http://154.58.202.194:8000/play/a053/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Canal Algerie
-http://154.58.202.194:8000/play/a0ky/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Channel21
-http://154.58.202.194:8000/play/a0nb/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Channel21 HD
-http://154.58.202.194:8000/play/a06v/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ClipMyHorse.TV
-http://154.58.202.194:8000/play/a0a2/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Crime Time
-http://154.58.202.194:8000/play/a0jw/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",DELUXE MUSIC
-http://154.58.202.194:8000/play/a0n3/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",DMAX
-http://154.58.202.194:8000/play/a0lm/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",DMAX Austria
-http://154.58.202.194:8000/play/a0n5/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Das Erste HD
-http://154.58.202.194:8000/play/a0gm/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Deluxe Dance by Kontor
-http://154.58.202.194:8000/play/a0js/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Deluxe Flashback
-http://154.58.202.194:8000/play/a0jt/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Deluxe Music HD
-http://154.58.202.194:8000/play/a044/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Deluxe Rap
-http://154.58.202.194:8000/play/a0jr/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Deluxe Rock
-http://154.58.202.194:8000/play/a0jq/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Disney Channel
-http://154.58.202.194:8000/play/a0m3/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Disney Channel HD
-http://154.58.202.194:8000/play/a041/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",EDGEsport
-http://154.58.202.194:8000/play/a0a0/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",group-title="VTVcab" GERMAN SD
-http://154.58.202.194:8000/play/a0cc/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",EWTN katholisches TV
-http://154.58.202.194:8000/play/a0lw/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",EXTREMADURA SAT
-http://154.58.202.194:8000/play/a0ca/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Eurosport 1 Deutschland
-http://154.58.202.194:8000/play/a0ml/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Eurosport 1 HD
-http://154.58.202.194:8000/play/a094/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",FOLX MUSIC TELEVISION
-http://154.58.202.194:8000/play/a0nc/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Flimmit
-http://154.58.202.194:8000/play/a0b8/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",GU.A F.CIL
-http://154.58.202.194:8000/play/a05h/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Genius Plus
-http://154.58.202.194:8000/play/a03c/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Genius Trend
-http://154.58.202.194:8000/play/a0lq/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Genius exklusiv
-http://154.58.202.194:8000/play/a0n1/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Genius family
-http://154.58.202.194:8000/play/a06e/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",HGTV
-http://154.58.202.194:8000/play/a06g/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",HITRADIO OE3
-http://154.58.202.194:8000/play/a0jx/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",HSE Extra
-http://154.58.202.194:8000/play/a0mm/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",HSE Extra HD
-http://154.58.202.194:8000/play/a042/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",HSE HD
-http://154.58.202.194:8000/play/a038/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",HSE SD
-http://154.58.202.194:8000/play/a0li/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",HSE Trend SD
-http://154.58.202.194:8000/play/a0lo/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Handystar TV
-http://154.58.202.194:8000/play/a0ly/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Handystar TV 2
-http://154.58.202.194:8000/play/a0lj/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Handystar TV HD
-http://154.58.202.194:8000/play/a06t/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Hip Trips
-http://154.58.202.194:8000/play/a0jo/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Hope TV
-http://154.58.202.194:8000/play/a0am/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",I24 Francis
-http://154.58.202.194:8000/play/a07r/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",INSIGHT TV HD
-http://154.58.202.194:8000/play/a0aa/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Immer etwas Neues TV
-http://154.58.202.194:8000/play/a0n9/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Just Cooking
-http://154.58.202.194:8000/play/a0ju/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Just Fishing
-http://154.58.202.194:8000/play/a0jv/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",KURIER TV
-http://154.58.202.194:8000/play/a0ak/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Kabel 1 Austria
-http://154.58.202.194:8000/play/a0g1/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Kabel 1 Doku HD Austria
-http://154.58.202.194:8000/play/a0d0/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Kabel 1 Schweiz
-http://154.58.202.194:8000/play/a0g0/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Kabel Eins Doku HD
-http://154.58.202.194:8000/play/a0fq/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",KiKA HD
-http://154.58.202.194:8000/play/a0c4/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",MDR S-Anhalt HD
-http://154.58.202.194:8000/play/a061/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",MDR Sachsen HD
-http://154.58.202.194:8000/play/a060/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",MDR Thüringen HD
-http://154.58.202.194:8000/play/a062/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",MTV HD
-http://154.58.202.194:8000/play/a06u/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",MediaShop- Meine Einkaufswelt
-http://154.58.202.194:8000/play/a0nd/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",MediaShop- Neuheiten
-http://154.58.202.194:8000/play/a0lr/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Mei Musi 
-http://154.58.202.194:8000/play/a0jy/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Melodie TV NEU
-http://154.58.202.194:8000/play/a0bd/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",N24 DOKU
-http://154.58.202.194:8000/play/a0lv/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",NHK WORLD-JPN
-http://154.58.202.194:8000/play/a0ac/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",NITRO
-http://154.58.202.194:8000/play/a0mx/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",NITRO HD
-http://154.58.202.194:8000/play/a07y/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Nicer Dicer TV
-http://154.58.202.194:8000/play/a03b/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Nick/Comedy Central Austria
-http://154.58.202.194:8000/play/a0n2/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ONE HD
-http://154.58.202.194:8000/play/a07i/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF III HD
-http://154.58.202.194:8000/play/a0b6/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF SPORT+
-http://154.58.202.194:8000/play/a0ag/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF SPORT+ HD
-http://154.58.202.194:8000/play/a0b7/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF1
-http://154.58.202.194:8000/play/a0dl/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF1 HD
-http://154.58.202.194:8000/play/a0bi/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2
-http://154.58.202.194:8000/play/a0dm/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 B
-http://154.58.202.194:8000/play/a0dp/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 K
-http://154.58.202.194:8000/play/a0dv/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 N
-http://154.58.202.194:8000/play/a0do/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 O
-http://154.58.202.194:8000/play/a0dq/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 S
-http://154.58.202.194:8000/play/a0dr/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 St
-http://154.58.202.194:8000/play/a0du/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 T
-http://154.58.202.194:8000/play/a0ds/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 V
-http://154.58.202.194:8000/play/a0dt/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2 W
-http://154.58.202.194:8000/play/a0dn/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2B HD
-http://154.58.202.194:8000/play/a0b1/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2E
-http://154.58.202.194:8000/play/a0dx/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2K HD
-http://154.58.202.194:8000/play/a0b0/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2N HD
-http://154.58.202.194:8000/play/a0bm/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2O HD
-http://154.58.202.194:8000/play/a0b2/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2S HD
-http://154.58.202.194:8000/play/a0b3/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2St HD
-http://154.58.202.194:8000/play/a0az/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2T HD
-http://154.58.202.194:8000/play/a0b4/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2V HD
-http://154.58.202.194:8000/play/a0b5/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ORF2W HD
-http://154.58.202.194:8000/play/a0bj/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",One Terra
-http://154.58.202.194:8000/play/a0jp/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",PORTADA
-http://154.58.202.194:8000/play/a04u/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",PORTADA
-http://154.58.202.194:8000/play/a04z/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Pro7 MAXX
-http://154.58.202.194:8000/play/a0lb/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Pro7 MAXX HD
-http://154.58.202.194:8000/play/a0cv/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ProSieben
-http://154.58.202.194:8000/play/a0l7/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ProSieben Austria
-http://154.58.202.194:8000/play/a0fz/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ProSieben HD
-http://154.58.202.194:8000/play/a0cs/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ProSieben Schweiz
-http://154.58.202.194:8000/play/a0fy/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Promo TSA
-http://154.58.202.194:8000/play/a07o/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",QVC
-http://154.58.202.194:8000/play/a0m4/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",QVC Deutschland
-http://154.58.202.194:8000/play/a0kw/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",QVC HD
-http://154.58.202.194:8000/play/a037/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",QVC STYLE HD
-http://154.58.202.194:8000/play/a06w/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",QVC UHD
-http://154.58.202.194:8000/play/a0bf/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",QVC ZWEI HD
-http://154.58.202.194:8000/play/a045/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",QVC2
-http://154.58.202.194:8000/play/a0kv/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",R9 Oesterreich HD
-http://154.58.202.194:8000/play/a0b9/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",REGIO TV
-http://154.58.202.194:8000/play/a0lk/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ROCK ANTENNE
-http://154.58.202.194:8000/play/a0n6/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL Austria
-http://154.58.202.194:8000/play/a0mg/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL Bayern
-http://154.58.202.194:8000/play/a0mr/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL HB NDS
-http://154.58.202.194:8000/play/a0mq/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL HD
-http://154.58.202.194:8000/play/a04k/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL HH SH
-http://154.58.202.194:8000/play/a0ms/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL Regional NRW
-http://154.58.202.194:8000/play/a0mp/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL Television
-http://154.58.202.194:8000/play/a0mo/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTL UHD
-http://154.58.202.194:8000/play/a0cg/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTLZWEI
-http://154.58.202.194:8000/play/a0mt/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTLZWEI Austria
-http://154.58.202.194:8000/play/a0mi/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTLZWEI HD
-http://154.58.202.194:8000/play/a04n/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTLup
-http://154.58.202.194:8000/play/a0my/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTLup Austria
-http://154.58.202.194:8000/play/a0ao/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RTLup HD
-http://154.58.202.194:8000/play/a04o/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Radio Bremen HD
-http://154.58.202.194:8000/play/a07l/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Rai News 24
-http://154.58.202.194:8000/play/a0cd/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",RiC
-http://154.58.202.194:8000/play/a0k0/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SACHSEN EINS
-http://154.58.202.194:8000/play/a07s/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1
-http://154.58.202.194:8000/play/a0l6/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 A
-http://154.58.202.194:8000/play/a0g2/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 Bayern
-http://154.58.202.194:8000/play/a0ld/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 CH
-http://154.58.202.194:8000/play/a0g3/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 Gold
-http://154.58.202.194:8000/play/a0la/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 Gold HD
-http://154.58.202.194:8000/play/a093/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 HD
-http://154.58.202.194:8000/play/a0cr/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 HH/SH
-http://154.58.202.194:8000/play/a0g5/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 NRW
-http://154.58.202.194:8000/play/a0le/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 NS/Bremen
-http://154.58.202.194:8000/play/a0g6/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SAT.1 RhlPf/Hessen
-http://154.58.202.194:8000/play/a0g7/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SBN International
-http://154.58.202.194:8000/play/a0l4/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SENDER NEU JERUSALEM
-http://154.58.202.194:8000/play/a07q/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SIXX
-http://154.58.202.194:8000/play/a0m2/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SIXX HD
-http://154.58.202.194:8000/play/a0cu/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SPORT1
-http://154.58.202.194:8000/play/a0lt/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SPORT1 HD
-http://154.58.202.194:8000/play/a046/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SPORT1+
-http://154.58.202.194:8000/play/a09y/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SPORTDIGITAL FUSSBALL HD
-http://154.58.202.194:8000/play/a09x/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SR Fernsehen
-http://154.58.202.194:8000/play/a0mc/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SR Fernsehen HD
-http://154.58.202.194:8000/play/a07k/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SUPER RTL
-http://154.58.202.194:8000/play/a0mv/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SUPER RTL A
-http://154.58.202.194:8000/play/a0mj/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SUPER RTL HD
-http://154.58.202.194:8000/play/a07w/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SWR BW HD
-http://154.58.202.194:8000/play/a0go/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",SWR RP HD
-http://154.58.202.194:8000/play/a0gp/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Schlager Deluxe
-http://154.58.202.194:8000/play/a06f/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ServusTV HD Deutschland
-http://154.58.202.194:8000/play/a0bl/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ServusTV HD Oesterreich
-http://154.58.202.194:8000/play/a0bk/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ShopLC HD
-http://154.58.202.194:8000/play/a039/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Sky News Intl
-http://154.58.202.194:8000/play/a0kp/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Sonnenklar TV
-http://154.58.202.194:8000/play/a0lh/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",StarParadies AT
-http://154.58.202.194:8000/play/a0al/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",StarParadies D
-http://154.58.202.194:8000/play/a0ah/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Stimmungsgarten TV
-http://154.58.202.194:8000/play/a0bc/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TELE 5
-http://154.58.202.194:8000/play/a0ll/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TJ
-http://154.58.202.194:8000/play/a059/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TLC
-http://154.58.202.194:8000/play/a0m1/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TLC Austria
-http://154.58.202.194:8000/play/a0n4/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TLC HD
-http://154.58.202.194:8000/play/a06r/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TLC HD Austria
-http://154.58.202.194:8000/play/a06x/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TOGGO plus
-http://154.58.202.194:8000/play/a0mu/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TV Trwam
-http://154.58.202.194:8000/play/a0bg/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TV1 OOE NEU
-http://154.58.202.194:8000/play/a0k3/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TVGA HD EUROPA
-http://154.58.202.194:8000/play/a0cb/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",TVRI WORLD
-http://154.58.202.194:8000/play/a0ae/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Telesur English
-http://154.58.202.194:8000/play/a0ce/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Telesur HD
-http://154.58.202.194:8000/play/a07p/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",VOX
-http://154.58.202.194:8000/play/a0mw/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",VOX Austria
-http://154.58.202.194:8000/play/a0mh/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",VOX HD
-http://154.58.202.194:8000/play/a04l/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",VOXup
-http://154.58.202.194:8000/play/a0mk/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",VOXup HD
-http://154.58.202.194:8000/play/a04p/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Volksmusik.TV
-http://154.58.202.194:8000/play/a0jz/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WAIDWERK
-http://154.58.202.194:8000/play/a0a1/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Aachen
-http://154.58.202.194:8000/play/a0kq/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Bielefeld
-http://154.58.202.194:8000/play/a0m6/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Bonn
-http://154.58.202.194:8000/play/a0ks/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Dortmund
-http://154.58.202.194:8000/play/a0m7/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Duisburg
-http://154.58.202.194:8000/play/a0kt/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Düsseldorf
-http://154.58.202.194:8000/play/a0m8/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Essen
-http://154.58.202.194:8000/play/a0m9/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Münster
-http://154.58.202.194:8000/play/a0ma/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Siegen
-http://154.58.202.194:8000/play/a0mb/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Test A
-http://154.58.202.194:8000/play/a0md/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WDR Wuppertal
-http://154.58.202.194:8000/play/a0kr/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WELT
-http://154.58.202.194:8000/play/a0l9/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",WELT HD
-http://154.58.202.194:8000/play/a03a/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Wir24TV
-http://154.58.202.194:8000/play/a0k2/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",Xplore
-http://154.58.202.194:8000/play/a0jn/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ZDF HD
-http://154.58.202.194:8000/play/a0c7/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ZDFinfo HD
-http://154.58.202.194:8000/play/a0c5/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",arte HD
-http://154.58.202.194:8000/play/a0gn/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",eSPORTS1
-http://154.58.202.194:8000/play/a09z/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",egoFM
-http://154.58.202.194:8000/play/a0lx/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",hr-fernsehen HD
-http://154.58.202.194:8000/play/a063/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",kabel eins
-http://154.58.202.194:8000/play/a0l8/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",kabel eins Doku
-http://154.58.202.194:8000/play/a0lf/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",kabel eins HD
-http://154.58.202.194:8000/play/a0fp/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",krone.tv
-http://154.58.202.194:8000/play/a0ba/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",meinTVshop
-http://154.58.202.194:8000/play/a0ls/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ntv
-http://154.58.202.194:8000/play/a0mz/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ntv Austria
-http://154.58.202.194:8000/play/a0k1/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",ntv HD
-http://154.58.202.194:8000/play/a04m/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",oe24.TV HD
-http://154.58.202.194:8000/play/a0bb/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",pearl.tv Shop
-http://154.58.202.194:8000/play/a0na/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",rbb Berlin HD
-http://154.58.202.194:8000/play/a05z/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",rbb Brandenburg HD
-http://154.58.202.194:8000/play/a05y/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",sixx
-http://154.58.202.194:8000/play/a0lc/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",sunshine live
-http://154.58.202.194:8000/play/a0n7/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",tagesschau24 HD
-http://154.58.202.194:8000/play/a07h/index.m3u8
-#EXTINF:-1 group-title="🇩🇪 - ĐỨC",zdf_neo HD
-http://154.58.202.194:8000/play/a0c8/index.m3u8
+#EXTINF:-1 group-title="🇦🇺 ÚC" tvg-id="10hd" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Network_10_logo_2018.svg/1200px-Network_10_logo_2018.svg.png",10 HD
+http://free.cvmtv.site/10HD?token=live
+#EXTINF:-1 group-title="🇦🇺 ÚC" tvg-id="10bold" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/10_Bold_2018.svg/1200px-10_Bold_2018.svg.png",10 Bold
+http://free.cvmtv.site/10B?token=live
+#EXTINF:-1 group-title="🇦🇺 ÚC" tvg-id="7hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/1200px-Seven_Network_logo.svg.png",7HD
+http://free.cvmtv.site/7HD?token=live
+#EXTINF:-1 group-title="🇦🇺 ÚC" tvg-id="9hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Nine_Network_logo_%282008%29.svg/1000px-Nine_Network_logo_%282008%29.svg.png",9HD
+http://free.cvmtv.site/9HD?token=live
+#EXTINF:-1 group-title="🇦🇺 ÚC" tvg-id="9gem" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d8/9Gem_logo.png",9Gem
+http://free.cvmtv.site/9G?token=live
+#EXTINF:-1 group-title="🇦🇺 ÚC" tvg-id="sbsone" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/SBS_Australia_Logo_%282019%29.svg/1200px-SBS_Australia_Logo_%282019%29.svg.png",SBS One
+http://free.cvmtv.site/SBSA?token=live
+
 
 #EXTINF:-1 group-title="ITALIA", Premium Action
 http://pro-solut-xi.eu:5436/bossna/testiptvvv/10072
@@ -1711,6 +1232,277 @@ http://lemon.catchmeifyo.com:8000/11000982890/13215492908/16648
 http://lemon.catchmeifyo.com:8000/11000982890/13215492908/16806
 #EXTINF:-1 tvg-id="SchlagerTV.nl" tvg-name=" SCHLAGER TV ⁵⁷⁶ᵖ" tvg-logo="https://www.schlagertv.com/resources/logo.png" group-title="HÀ LAN", SCHLAGER TV ⁵⁷⁶ᵖ
 http://lemon.catchmeifyo.com:8000/11000982890/13215492908/16981
+
+#EXTINF:-1 group-title="ĐỨC", Das Erste HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96370
+#EXTINF:-1 group-title="ĐỨC", ZDF HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96371
+#EXTINF:-1 group-title="ĐỨC", WDR HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96379
+#EXTINF:-1 group-title="ĐỨC", RTL HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96391
+#EXTINF:-1 group-title="ĐỨC", RTL HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96392
+#EXTINF:-1 group-title="ĐỨC", RTL 2 HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96394
+#EXTINF:-1 group-title="ĐỨC", RTL 2 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96395
+#EXTINF:-1,|DE| RTL UP
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/233864
+#EXTINF:-1 group-title="ĐỨC", Pro 7 HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96383
+#EXTINF:-1 group-title="ĐỨC", Pro 7 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96384
+#EXTINF:-1 group-title="ĐỨC", Pro 7 Maxx HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96386
+#EXTINF:-1 group-title="ĐỨC", Pro 7 Maxx HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96387
+#EXTINF:-1 group-title="ĐỨC", Pro 7 Fun HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96389
+#EXTINF:-1 group-title="ĐỨC", Pro 7 Fun HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96390
+#EXTINF:-1 group-title="ĐỨC", Sat 1 HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96398
+#EXTINF:-1 group-title="ĐỨC", Sat 1 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96399
+#EXTINF:-1 group-title="ĐỨC", SAT 1 Gold HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96401
+#EXTINF:-1 group-title="ĐỨC", SAT 1 Gold HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96402
+#EXTINF:-1 group-title="ĐỨC", SAT 1 Emotions
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96404
+#EXTINF:-1 group-title="ĐỨC", Kabel 1 HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96412
+#EXTINF:-1 group-title="ĐỨC", Kabel 1 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96413
+#EXTINF:-1 group-title="ĐỨC", Kabel 1 Classics
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96415
+#EXTINF:-1 group-title="ĐỨC", VOX HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96408
+#EXTINF:-1 group-title="ĐỨC", VOX HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96409
+#EXTINF:-1 group-title="ĐỨC", ZDFinfo HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96372
+#EXTINF:-1 group-title="ĐỨC", ZDFneo HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96373
+#EXTINF:-1 group-title="ĐỨC", BR
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96375
+#EXTINF:-1 group-title="ĐỨC", HR
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96376
+#EXTINF:-1 group-title="ĐỨC", NDR HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96377
+#EXTINF:-1 group-title="ĐỨC", rbb HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96378
+#EXTINF:-1 group-title="ĐỨC", ONE HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96380
+#EXTINF:-1 group-title="ĐỨC", 3 sat HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96381
+#EXTINF:-1 group-title="ĐỨC", Tagesschau 24
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96382
+#EXTINF:-1 group-title="ĐỨC", Sixx HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96405
+#EXTINF:-1 group-title="ĐỨC", Sixx HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96406
+#EXTINF:-1 group-title="ĐỨC", VOXup
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96411
+#EXTINF:-1 group-title="ĐỨC", NITRO HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96416
+#EXTINF:-1 group-title="ĐỨC", NITRO HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96417
+#EXTINF:-1 group-title="ĐỨC", ServusTv Deutschland HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96431
+#EXTINF:-1 group-title="ĐỨC", ServusTv Oesterreich HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96432
+#EXTINF:-1 group-title="ĐỨC", Anixe FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96433
+#EXTINF:-1 group-title="ĐỨC", Anixe HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96434
+#EXTINF:-1 group-title="ĐỨC", arte HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96435
+#EXTINF:-1 group-title="ĐỨC", Classica
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96436
+#EXTINF:-1 group-title="ĐỨC", Euronews Germany HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96438
+#EXTINF:-1 group-title="ĐỨC", Heimatkanal
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96439
+#EXTINF:-1 group-title="ĐỨC", pearl tv Shop HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96440
+#EXTINF:-1 group-title="ĐỨC", Phoenix
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96441
+#EXTINF:-1 group-title="ĐỨC", Romance TV
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96443
+#EXTINF:-1 group-title="ĐỨC", Sonnenklar TV
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96444
+#EXTINF:-1 group-title="ĐỨC", SWR BW HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96445
+#EXTINF:-1 group-title="ĐỨC", TELE 5 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96446
+#EXTINF:-1 group-title="ĐỨC",Medellin DE 4K (2023)
+http://iomedia.pro:8080/movie/TeslaVision@Gulatv/tRqg9AuEE6/390196.mkv
+#EXTINF:-1 group-title="ĐỨC", RTL LIVING HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/415341
+#EXTINF:-1,✪✪✪✪✪ DE HEVC ✪✪✪✪✪
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/97775
+#EXTINF:-1 group-title="ĐỨC", RTL HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96324
+#EXTINF:-1 group-title="ĐỨC", Das Erste HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413533
+#EXTINF:-1 group-title="ĐỨC", ZDF HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413534
+#EXTINF:-1 group-title="ĐỨC", WDR HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413535
+#EXTINF:-1 group-title="ĐỨC", RTL 2 HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413537
+#EXTINF:-1 group-title="ĐỨC", RTL UP
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413538
+#EXTINF:-1 group-title="ĐỨC", Pro 7 HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413539
+#EXTINF:-1 group-title="ĐỨC", Pro 7 Maxx HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413540
+#EXTINF:-1 group-title="ĐỨC", Pro 7 Fun HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413541
+#EXTINF:-1 group-title="ĐỨC", Sat 1 HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413542
+#EXTINF:-1 group-title="ĐỨC", SAT 1 Gold HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413543
+#EXTINF:-1 group-title="ĐỨC", SAT 1 Emotions
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413544
+#EXTINF:-1 group-title="ĐỨC", Kabel 1 HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413545
+#EXTINF:-1 group-title="ĐỨC", Kabel 1 Classics
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413546
+#EXTINF:-1 group-title="ĐỨC", VOX HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413547
+#EXTINF:-1 group-title="ĐỨC", ZDFinfo HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413548
+#EXTINF:-1 group-title="ĐỨC", ZDFneo HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413549
+#EXTINF:-1 group-title="ĐỨC", BR
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413550
+#EXTINF:-1 group-title="ĐỨC", HR
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413551
+#EXTINF:-1 group-title="ĐỨC", NDR HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413552
+#EXTINF:-1 group-title="ĐỨC", rbb HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413553
+#EXTINF:-1 group-title="ĐỨC", ONE HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413554
+#EXTINF:-1 group-title="ĐỨC", 3 sat HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413555
+#EXTINF:-1 group-title="ĐỨC", Tagesschau 24
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413556
+#EXTINF:-1 group-title="ĐỨC", Sixx HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413557
+#EXTINF:-1 group-title="ĐỨC", VOXup
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413558
+#EXTINF:-1 group-title="ĐỨC", NITRO HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413559
+#EXTINF:-1 group-title="ĐỨC", ServusTv Deutschland HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413560
+#EXTINF:-1 group-title="ĐỨC", ServusTv Oesterreich HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413561
+#EXTINF:-1 group-title="ĐỨC", Anixe HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413562
+#EXTINF:-1 group-title="ĐỨC", arte HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413563
+#EXTINF:-1 group-title="ĐỨC", Classica
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413564
+#EXTINF:-1 group-title="ĐỨC", Euronews Germany HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413565
+#EXTINF:-1 group-title="ĐỨC", Heimatkanal
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413566
+#EXTINF:-1 group-title="ĐỨC", pearl tv Shop HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413567
+#EXTINF:-1 group-title="ĐỨC", Phoenix
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413568
+#EXTINF:-1 group-title="ĐỨC", Romance TV
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413569
+#EXTINF:-1 group-title="ĐỨC", Sonnenklar TV
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413570
+#EXTINF:-1 group-title="ĐỨC", SWR BW HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413571
+#EXTINF:-1 group-title="ĐỨC", TELE 5 HEVC
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/413572
+#EXTINF:-1,✪✪✪✪✪ DE DOKU & MUSIC  ✪✪✪✪✪
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/97778
+#EXTINF:-1 group-title="ĐỨC", Nat Geo FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96495
+#EXTINF:-1 group-title="ĐỨC", Nat Geo HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96496
+#EXTINF:-1 group-title="ĐỨC", Nat Geo Wild FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96497
+#EXTINF:-1 group-title="ĐỨC", Nat Geo Wild HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96498
+#EXTINF:-1 group-title="ĐỨC", Discovery FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96499
+#EXTINF:-1 group-title="ĐỨC", Discovery HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96500
+#EXTINF:-1 group-title="ĐỨC", History FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96501
+#EXTINF:-1 group-title="ĐỨC", History HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96502
+#EXTINF:-1 group-title="ĐỨC", Dmax HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96503
+#EXTINF:-1 group-title="ĐỨC", Dmax HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96504
+#EXTINF:-1 group-title="ĐỨC", Kabel Eins Doku FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96505
+#EXTINF:-1 group-title="ĐỨC", HGTV
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96507
+#EXTINF:-1 group-title="ĐỨC", Welt FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96510
+#EXTINF:-1 group-title="ĐỨC", N24 DOKU
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96511
+#EXTINF:-1 group-title="ĐỨC", N-tv FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96513
+#EXTINF:-1 group-title="ĐỨC", Crime Investigation
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96514
+#EXTINF:-1 group-title="ĐỨC", Welt der Wunder
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96516
+#EXTINF:-1 group-title="ĐỨC", Spiegel Geschichte HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96517
+#EXTINF:-1 group-title="ĐỨC", Spiegel TV Wissen
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96518
+#EXTINF:-1 group-title="ĐỨC", Auto Motor Sport HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96732
+#EXTINF:-1 group-title="ĐỨC", Eurosport 1 FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96733
+#EXTINF:-1 group-title="ĐỨC", Eurosport 1 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96734
+#EXTINF:-1 group-title="ĐỨC", Eurosport 2 FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96735
+#EXTINF:-1 group-title="ĐỨC", Eurosport 2 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96736
+#EXTINF:-1 group-title="ĐỨC", Eurosport 2 Xtra HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96738
+#EXTINF:-1 group-title="ĐỨC", Motorvision TV
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96740
+#EXTINF:-1 group-title="ĐỨC", SPORT1+ HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96742
+#EXTINF:-1 group-title="ĐỨC", Sport1 HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96743
+#EXTINF:-1 group-title="ĐỨC", Sport1 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96744
+#EXTINF:-1 group-title="ĐỨC", Sportdigital Fussball HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96745
+#EXTINF:-1 group-title="ĐỨC", Sportdigital Fusball HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96746
+#EXTINF:-1 group-title="ĐỨC", eSPORTS1 FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96747
+#EXTINF:-1 group-title="ĐỨC", EDGEsport HD+
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96748
+#EXTINF:-1 group-title="ĐỨC", Sky Sport News HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/96749
+#EXTINF:-1 group-title="ĐỨC", Amazon Prime Sport
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/284458
+#EXTINF:-1 group-title="ĐỨC", DYN Sport 1 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/402790
+#EXTINF:-1 group-title="ĐỨC", DYN Sport 2 HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/402791
+#EXTINF:-1 group-title="ĐỨC", SKY SPORT NEWS FHD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/384761
+#EXTINF:-1 group-title="ĐỨC", SKY SPORT NEWS HD
+http://iomedia.pro:8080/TeslaVision@Gulatv/tRqg9AuEE6/384762
 
 
 #EXTINF:-1 group-title="🇨🇿 - CỘNG HOÀ SÉC" logo=\"http://90.178.86.156:9981/imagecache/205\" tvg-id=\"60f639a2024cc229ea5cf7f47c8e38c1\",CT 1 HD T2
@@ -3143,13 +2935,13 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 http://s18209.cdn.ngenix.net/hls/CH_R02_STS/playlist.m3u8
 #EXTINF:-1 group-title="🇷🇺- Nga và khối SNG" tvg-id="match-tv" tvg-logo="https://ntvplus.tv/files/image/10/60/28/3d1.png",Маtch ТV
-http://stream.cvmtv.site/Match?token=live
+http://free.cvmtv.site/Match?token=live
 #EXTINF:-1 group-title="🇷🇺- Nga và khối SNG" tvg-id="match-football1" tvg-logo="https://ntvplus.tv/files/image/01/17/29/mqs.png",Маtch Futbol 1
-http://stream.cvmtv.site/MF1?token=live
+http://free.cvmtv.site/MF1?token=live
 #EXTINF:-1 group-title="🇷🇺- Nga và khối SNG" tvg-id="match-football2" tvg-logo="https://ntvplus.tv/files/image/01/17/30/olz.png",Маtch Futbol 2
-http://stream.cvmtv.site/MF2?token=live
+http://free.cvmtv.site/MF2?token=live
 #EXTINF:-1 group-title="🇷🇺- Nga và khối SNG" tvg-id="match-football3" tvg-logo="https://ntvplus.tv/files/image/01/17/31/u02.png",Маtch Futbol 3
-http://stream.cvmtv.site/MF3?token=live
+http://free.cvmtv.site/MF3?token=live
 #EXTINF:-1 group-title="🇷🇺- Nga và khối SNG" tvg-id="match-football3" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/b/b2/%D0%9C%D0%B0%D1%82%D1%87%21_%D0%90%D1%80%D0%B5%D0%BD%D0%B0.png",Маtch Arena
 http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1 group-title="🇷🇺- Nga và khối SNG" tvg-id="match-football3" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/b/b2/%D0%9C%D0%B0%D1%82%D1%87%21_%D0%90%D1%80%D0%B5%D0%BD%D0%B0.png",Маtch Strana
@@ -3475,7 +3267,7 @@ https:\\sc2022.stream-link.org\tv2306.php?id=h16
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://www.hklive.tv/png_logo/78.png" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",HOY Info
 https://sc2022.stream-link.org/tv2306.php?id=h17
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="jade" tvg-logo="http://gg.gg/15nn93",TVB Jade
-http://stream.cvmtv.site/Jade?token=live
+http://free.cvmtv.site/Jade?token=live
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="j2" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/j2.png",TVB J2
 http://1.65.195.85:9981/stream/channelid/2082072924?profile=pass
 #EXTINF:-1 tvg-id="83" tvg-name="無綫新聞台" tvg-logo="http://gg.gg/15nn2h" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan",TVB News
@@ -3487,7 +3279,7 @@ http://1.65.195.85:9981/stream/channelid/1781676223?profile=pass
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="viu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/1920px-ViuTV_logo.svg.png",ViuTV
 https://sc2022.stream-link.org/tv2306.php?id=h09
 #EXTINF:-1  group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-id="viu6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/1024px-ViuTVsix-logo.svg.png",ViuTVsix
-#http://stream.cvmtv.site/Viu6?token=live
+#http://free.cvmtv.site/Viu6?token=live
 
 #EXTINF:-1 tvg-id="france24eng" group-title="🇭🇰🇲🇴🇹🇼- Kênh Hong Kong-Macao-Đài Loan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/TDM_Ou_Mun.png/revision/latest?cb=20220124185106",Ou Mun Toi
 https://live4.tdm.com.mo/ch1/ch1.live/chunklist_w1940801518.m3u8
