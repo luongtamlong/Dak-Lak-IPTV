@@ -115,25 +115,19 @@ https://code.vthanhtivi.pw/getlink/vieon/vtvcab22-life-tv/playlist.m3u8
 #EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/6c30cdc8aa40aa5776c7d8ebd78a93d4.png", B4MEN
 http://b4tv.live/b4tv/b4tv/1.m3u8
 #EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/f48921dd0505305aff871882567eeca9.png", B4BOX
-http://b4tv.live/b4tv/b4tv/84.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://103.172.78.47/b4boxplus.png", B4BOX PLUS
-http://b4tv.live/b4tv/b4tv/120.m3u8
+http://b4tv.live/b4tv/b4tv/2.m3u8
 #EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/5150b363cf6c9192ebe147a113dea625.png", B4TUBE
-http://b4tv.live/b4tv/b4tv/85.m3u8
+http://b4tv.live/b4tv/b4tv/4.m3u8
 #EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 1
 http://b4tv.live/b4tv/b4tv/3.m3u8
 #EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 2
 http://b4tv.live/b4tv/b4tv/47.m3u8
 #EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 3
 http://b4tv.live/b4tv/b4tv/48.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/0ef23e2c33c966c5c76e2b5cca9428f8.png", B4CONNECT
-http://b4tv.live/b4tv/b4tv/86.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://103.172.78.47/b4sport.png", B4SPORT+ 1
-http://b4tv.live/b4tv/b4tv/19.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://103.172.78.47/b4sport.png", B4SPORT+ 2
-http://b4tv.live/b4tv/b4tv/20.m3u8
-#EXTINF:-1 group-title="B4TV" tvg-logo="http://103.172.78.47/b4sport.png", B4SPORT+ 3
-http://b4tv.live/b4tv/b4tv/21.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/0ef23e2c33c966c5c76e2b5cca9428f8.png", B4CONNECT 1
+http://103.195.238.135:8080/hls/0/stream.m3u8
+#EXTINF:-1 group-title="B4TV" tvg-logo="http://b4tv.live/images/0ef23e2c33c966c5c76e2b5cca9428f8.png", B4CONNECT 2
+http://b4tv.live/b4tv/b4tv/76.m3u8
 
 #EXTINF:-1 group-title="VThanh TV" group-logo="https://cdn.hqth.me/vthanhnetwork.png" tvg-logo="https://cdn.hqth.me/vthanhevent.png", VThanh Event 1
 http://stream2.vthanhtivi.pw:1935/live/vthanhevent1.smil/playlist.m3u8
@@ -157,6 +151,35 @@ http://stream3.vthanhtivi.pw:1935/live/vthanhmovies.smil/playlist.m3u8
 http://stream2.vthanhtivi.pw:1935/live/vthanhxtra.smil/playlist.m3u8
 #EXTINF:-1 group-title="VThanh TV" tvg-logo="https://cdn.hqth.me/vthanhxtra.png", VThanh Xtra (Server 2)
 http://stream3.vthanhtivi.pw:1935/live/vthanhxtra.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" group-logo="https://cdn.hqth.me/logo/category/kplus.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+ CINE - MyK+
+http://d343f8ab.vthanhtivi.pw/K_CINE/index.m3u8
+#EXTINF:-1 tvg-id="kaction" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+ ACTION - MyK+
+http://d343f8ab.vthanhtivi.pw/K_ACTION/index.m3u8
+#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+ SPORT1 - MyK+
+http://d343f8ab.vthanhtivi.pw/K_SPORT1/index.m3u8
+#EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+ SPORT2 - MyK+
+http://d343f8ab.vthanhtivi.pw/K_SPORT2/index.m3u8
+#EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/89.png", K+ KIDS - MyK+
+http://d343f8ab.vthanhtivi.pw/K_KIDS/index.m3u8
+#EXTINF:-1 tvg-id="klive1" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/046_K_LIVE1_landscape.jpg", K+ LIVE 1
+http://d343f8ab.vthanhtivi.pw/K_LIVE1/index.m3u8
+#EXTINF:-1 tvg-id="klive2" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/043_K_LIVE2_landscape.jpg", K+ LIVE 2
+http://d343f8ab.vthanhtivi.pw/K_LIVE2/index.m3u8
+#EXTINF:-1 tvg-id="klive3" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/044_K_LIVE3_landscape.jpg", K+ LIVE 3
+http://d343f8ab.vthanhtivi.pw/K_LIVE3/index.m3u8
+#EXTINF:-1 tvg-id="ksktt1" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/SPORT1.jpg", SỰ KIỆN THỂ THAO 1
+http://d343f8ab.vthanhtivi.pw/SKTT1/index.m3u8
+#EXTINF:-1 tvg-id="ksktt2" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/SPORT1.jpg", SỰ KIỆN THỂ THAO 2
+http://d343f8ab.vthanhtivi.pw/SKTT2/index.m3u8
+#EXTINF:-1 tvg-id="ksktt3" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/SPORT1.jpg", SỰ KIỆN THỂ THAO 3
+http://d343f8ab.vthanhtivi.pw/SKTT3/index.m3u8
+#EXTINF:-1 tvg-id="ksktt4" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/SPORT1.jpg", SỰ KIỆN THỂ THAO 4
+http://d343f8ab.vthanhtivi.pw/SKTT4/index.m3u8
+#EXTINF:-1 tvg-id="ksktt5" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/SPORT1.jpg", SỰ KIỆN THỂ THAO 5
+http://d343f8ab.vthanhtivi.pw/SKTT5/index.m3u8
+#EXTINF:-1 tvg-id="ksktt6" group-title="🍭| K+" tvg-logo="https://img.kplus.vn/Media/HDVN/EPG_thumbnail/SPORT1.jpg", SỰ KIỆN THỂ THAO 6
+
 
 #-*--VTC-*--#
 
