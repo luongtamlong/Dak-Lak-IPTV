@@ -640,15 +640,15 @@ http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklis
 #KODIPROP:inputstream.adaptive.license_key=https://thetivi.gleeze.com/key/keyy/abcaustralia.php
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/aplus.smil/manifest.mpd
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cia.lk/wp-content/uploads/2021/09/logo_aje_social.png", Al Jazeera English
-http://free.cvmtv.site/AlJa?token=live
+https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
 #EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/216.png", Bloomberg
 http://fpt.vthanhtivi.pw/Bloomberg/mpegts
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
-http://free.cvmtv.site/BBCN?token=live
+http://45.153.35.210:8000/play/NEWS_bbc_news_HD/index.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
 http://free.cvmtv.site/CNBC?token=live
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-https://d30x5vsa85tvmd.cloudfront.net/index_5.m3u8
+http://free.cvmtv.site/CNN?token=live
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
@@ -658,7 +658,9 @@ http://103.130.141.67:81/live/4/playlist.m3u8
 #EXTINF:-1 tvg-id="dw" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24
-https://d4de59d01af447a498cb0565ad005588.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/viewmedia-7/live_091/HD/playlist.m3u8
+http://free.cvmtv.site/F24?token=live
+#EXTINF:-1 tvg-id="france24fr" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 French
+https://ythls.armelin.one/channel/UCCCPCZNChQdGa9EkATeye4g.m3u8
 #EXTINF:-1 tvg-id="kbsworld" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/223.png", KBS World
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/kbs-world/playlist.m3u8
@@ -2552,17 +2554,17 @@ http://121.74.94.198:9151/stream/channelid/143452519?profile=pass
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://178.163.91.1:4022/udp/234.0.0.172:2000
+http://free.cvmtv.site/OPT1?token=live
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/pervy-pl4.png", OPT1 (MSK+4)
 https://cdn11.1internet.tv/dash-live2/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/rossia1.png", Russia 1
-http://178.163.105.211:4022/udp/234.0.0.112:2000
+http://free.cvmtv.site/R1?token=live
 #EXTINF:-1 tvg-id="rossia1-pl4" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/rossia1-pl4.png", Russia 1 (MSK+4)
 https://radio-live-mg.rtr-vesti.ru/hls/russia1_plus4/playlist_5.m3u8
 #EXTINF:-1 tvg-id="kultura" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/kultura.png", Russia K
 http://s18209.cdn.ngenix.net/hls/CH_R02_ROSSIAK/playlist.m3u8
 #EXTINF:-1 tvg-id="rossia-24" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/rossia-24.png", Russia 24 
-http://188.143.128.24:30001/play/a7
+http://free.cvmtv.site/R24?token=live
 #EXTINF:-1 tvg-id="moskva-24" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/moskva-24.png", Moscow 24 
 http://streamer1.ruslanatv.ru/russia/moskva24_2023/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv" group-title="🇷🇺- Nga và khối SNG" tvg-logo="https://picon.ml/ntv.png", NTV HD
