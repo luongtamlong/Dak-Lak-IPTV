@@ -3,15 +3,9 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz" tvg-shift=0 m3uautoload=0
 #EXTM3U url-tvg="https://iptvx.one/EPG" deinterlace=0
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
-#EXTM3U url-tvg="https://epg.hklive.tv" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
+#EXTM3U url-tvg="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=4
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=5
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=6
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=7
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz" tvg-shift=0 m3uautoload=8
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz" tvg-shift=0 m3uautoload=9
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz" tvg-shift=0 m3uautoload=10
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz" tvg-shift=0 m3uautoload=11
 #EXTM3U url-tvg="https://i.mjh.nz/au/Brisbane/epg.xml.gz" tvg-shift=0 m3uautoload=12
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz" tvg-shift=0 m3uautoload=13
 
@@ -1845,31 +1839,31 @@ http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.
 #EXTINF:-1 tvg-id="58" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/云南卫视.png" group-title="🇨🇳 Trung Quốc",云南卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001223/index.m3u8
 
-#EXTINF:-1 tvg-id="31" tvg-name="RTHK31" tvg-logo="https://www.hklive.tv/png_logo/31.png" group-title="🇭🇰 Hong Kong",RTHK31
-https://sc2024.stream-link.org/live/14243206253.php?id=h41pf
-#EXTINF:-1 tvg-id="32" tvg-name="RTHK32" tvg-logo="https://www.hklive.tv/png_logo/32.png" group-title="🇭🇰 Hong Kong",RTHK32
-https://sc2024.stream-link.org/live/14243206253.php?id=h91kd
-#EXTINF:-1 tvg-id="33" tvg-name="RTHK33" tvg-logo="https://www.hklive.tv/png_logo/33.png" group-title="🇭🇰 Hong Kong",RTHK33
-https://sc2024.stream-link.org/live/14243206253.php?id=h67fc
+#EXTINF:-1 tvg-id="RTHKTV31" tvg-name="RTHK31" tvg-logo="https://www.hklive.tv/png_logo/31.png" group-title="🇭🇰 Hong Kong",RTHK31
+https://sc2024.stream-link.org/live/14243206253.php?id=h65nq
+#EXTINF:-1 tvg-id="RTHKTV32" tvg-name="RTHK32" tvg-logo="https://www.hklive.tv/png_logo/32.png" group-title="🇭🇰 Hong Kong",RTHK32
+https://sc2024.stream-link.org/live/14243206253.php?id=h35dk
+#EXTINF:-1 tvg-id="RTHKTV33" tvg-name="RTHK33" tvg-logo="https://www.hklive.tv/png_logo/33.png" group-title="🇭🇰 Hong Kong",RTHK33
+https://sc2024.stream-link.org/live/14243206253.php?id=h83gn
 #EXTINF:-1 tvg-id="76" tvg-name="香港國際財經台" tvg-logo="https://www.hklive.tv/png_logo/76.png" group-title="🇭🇰 Hong Kong",HKIBC
 http://afc.cvmtv.site/HOY76?token=live
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://www.hklive.tv/png_logo/77.png" group-title="🇭🇰 Hong Kong",HOY TV
 http://afc.cvmtv.site/HOY?token=live
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://www.hklive.tv/png_logo/78.png" group-title="🇭🇰 Hong Kong",HOY Info
-https://sc2024.stream-link.org/live/14243206253.php?id=h88pq
-#EXTINF:-1  group-title="🇭🇰 Hong Kong" tvg-id="jade" tvg-logo="http://gg.gg/15nn93",TVB Jade
+https://sc2024.stream-link.org/live/14243206253.php?id=h54te
+#EXTINF:-1  group-title="🇭🇰 Hong Kong" tvg-id="81" tvg-logo="http://gg.gg/15nn93",TVB Jade
 http://free.cvmtv.site/Jade?token=live
-#EXTINF:-1  group-title="🇭🇰 Hong Kong" tvg-id="j2" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/j2.png",TVB J2
+#EXTINF:-1  group-title="🇭🇰 Hong Kong" tvg-id="82" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/j2.png",TVB J2
 http://1.65.195.85:9981/stream/channelid/2082072924?profile=pass
 #EXTINF:-1 tvg-id="83" tvg-name="無綫新聞台" tvg-logo="http://gg.gg/15nn2h" group-title="🇭🇰 Hong Kong",TVB News
 http://1.65.195.85:9981/stream/channelid/2051586642?profile=pass
-#EXTINF:-1  group-title="🇭🇰 Hong Kong" tvg-id="pearl" tvg-logo="http://gg.gg/15nn57",TVB Pearl
+#EXTINF:-1  group-title="🇭🇰 Hong Kong" tvg-id="84" tvg-logo="http://gg.gg/15nn57",TVB Pearl
 http://1.65.195.85:9981/stream/channelid/1803382046?profile=pass
 #EXTINF:-1 tvg-id="85" tvg-name="無綫財經·資訊台" tvg-logo="http://gg.gg/15nn7" group-title="🇭🇰 Hong Kong",TVB FSI
 http://1.65.195.85:9981/stream/channelid/1781676223?profile=pass
-#EXTINF:-1 tvg-id="96" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/1024px-ViuTVsix-logo.svg.png" group-title="🇭🇰 Hong Kong",ViuTV6
+#EXTINF:-1 tvg-id="ViuTVsix" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/1024px-ViuTVsix-logo.svg.png" group-title="🇭🇰 Hong Kong",ViuTV6
 http://free.cvmtv.site/Viu6?token=live
-#EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/1280px-ViuTV_logo.svg.png" group-title="🇭🇰 Hong Kong",ViuTV
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/1280px-ViuTV_logo.svg.png" group-title="🇭🇰 Hong Kong",ViuTV
 http://free.cvmtv.site/Viu?token=live
 
 
