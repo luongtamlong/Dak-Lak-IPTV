@@ -1836,11 +1836,9 @@ http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001223/index.m3u8
 
 #EXTINF:-1 tvg-id="RTHKTV31" tvg-name="RTHK31" tvg-logo="https://www.hklive.tv/png_logo/31.png" group-title="🇭🇰 Hong Kong",RTHK31
-https://sc2024.stream-link.org/live/14243206253.php?id=h01aj
+http://198.16.100.90:8278/rhk31_twn/playlist.m3u8?tid=m46bfc2f9ab63&ct=18336&tsum=608dc3ebc82e03253ba562a9a81f0094
 #EXTINF:-1 tvg-id="RTHKTV32" tvg-name="RTHK32" tvg-logo="https://www.hklive.tv/png_logo/32.png" group-title="🇭🇰 Hong Kong",RTHK32
-https://sc2024.stream-link.org/live/14243206253.php?id=h97bw
-#EXTINF:-1 tvg-id="RTHKTV33" tvg-name="RTHK33" tvg-logo="https://www.hklive.tv/png_logo/33.png" group-title="🇭🇰 Hong Kong",RTHK33
-https://sc2024.stream-link.org/live/14243206253.php?id=h24hc
+http://198.16.100.90:8278/rhk32_twn/playlist.m3u8?tid=m941409fa5c86&ct=18336&tsum=af847919dbe19ba95dbe614c6cfe2a10
 #EXTINF:-1 tvg-id="76" tvg-name="香港國際財經台" tvg-logo="https://www.hklive.tv/png_logo/76.png" group-title="🇭🇰 Hong Kong",HKIBC
 http://afc.cvmtv.site/HOY76?token=live
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://www.hklive.tv/png_logo/77.png" group-title="🇭🇰 Hong Kong",HOY TV
@@ -2223,18 +2221,22 @@ https://live.kh.malimarcdn.com/live/tvk.stream/chunklist.m3u8
 https://live.kh.malimarcdn.com/live/tvk2.stream/chunklist.m3u8
 #EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/TV5-Logo", TV5 Campuchia
 http://203.176.130.123:8989/live/tv5_480k.stream/playlist.m3u8
+#EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.imgur.com/Ji0fjKO.png", CTV8
+http://203.80.165.14/stream/channelid/1245718249?profile=pass
 #EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/CTV9-Logo", CTV9
 http://203.176.130.123:8989/live/ctv9hd.stream/playlist.m3u8
 #EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/13vwaz", SEATV
 https://seatv.netlinkbroadcaster.com/hls/test.m3u8
-#EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/13vwb2", Bayon TV
+#EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/13vwb2", Bayon TV SD
 http://203.176.130.123:8989/live/bayontv_480k.stream/playlist.m3u8
+#EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/13vwb2", Bayon TV HD
+http://203.80.165.14/stream/channelid/1935146454?profile=pass
 #EXTINF:0 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="http://gg.gg/13vwb5", Apsara TV
 http://203.176.130.123:8989/live/apsaratv_480k.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/n1dGjWL/HMHDTV-BEARTV.png", Hangmeas TV
-http://167.99.72.244:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/chunklist_w998573077_b1800000_sleng.m3u8
+http://203.80.165.14/stream/channelid/1448884111?profile=pass
 #EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/n8097VD/RHM-HDTV-BEARTV.png", Rasmey Hang Meas HDTV
-http://167.99.72.244:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/chunklist_w58865286_b1800000_sleng.m3u8
+http://203.80.165.14/stream/channelid/899409507?profile=pass
 #EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://poc-cdn-google.sdmc.tv/xmediatv/public/upload/100036087499/20230609/video/47acb94e-a2a5-4fde-bd9f-a0ec148cdf86.png", LNTV3
 https://ctrl.laotv.la/live/LNTV3/index.m3u8
 #EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://poc-cdn-google.sdmc.tv/xmediatv/public/upload/100036087499/20230609/video/57c9c7ba-bcc7-4c30-8ad4-d4fab611a2b7.png", LNTV1
@@ -2249,32 +2251,6 @@ https://ctrl.laotv.la/live/LATV/index.m3u8
 https://ctrl.laotv.la/live/PSTV/index.m3u8
 #EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://poc-cdn-google.sdmc.tv/xmediatv/public/upload/100036087499/20230802/video/23dd1aba-312f-41fe-ab8d-6b928455af0a.png", Lao ESTV
 https://ctrl.laotv.la/live/LaoESTV/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_MITV.png/220px-Logo_of_MITV.png",MITV
-http://183.89.246.119:8881/play/a07r/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Myanmar_National_TV_Logo.jpg/220px-Myanmar_National_TV_Logo.jpg",MNTV
-http://183.89.246.119:8881/play/a07x/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Entertainment
-http://183.89.246.119:8881/play/a07t/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Farmer
-http://183.89.246.119:8881/play/a07p/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV HD 
-http://183.89.246.119:8881/play/a07l/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Hluttaw
-http://183.89.246.119:8881/play/a07n/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV NEWS HD
-http://183.89.246.119:8881/play/a07m/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV NRC
-http://183.89.246.119:8881/play/a07o/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/MRTV_logo.png",MRTV Sport
-http://183.89.246.119:8881/play/a07q/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e1/MRTV-4.png/revision/latest/scale-to-width-down/414?cb=20220604135321",MRTV-4
-http://183.89.246.119:8881/play/a07u/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.pinimg.com/236x/63/0b/81/630b814e80a6fdad1f020e1606590c27.jpg",MWD
-http://183.89.246.119:8881/play/a07z/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/FortuneTV_Logo.png/200px-FortuneTV_Logo.png",Fortune TV
-http://183.89.246.119:8881/play/a082/index.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="ĐÔNG NAM Á TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/68/YTV_Logo.png",Y-TV
-http://183.89.246.119:8881/play/a081/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/RTB_Aneka.png" group-title="ĐÔNG NAM Á TV",PTV 4
 https://ythls.onrender.com/channel/UCJCUbMaY593_4SN1QPG7NFQ.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/RTB_Aneka.png" group-title="ĐÔNG NAM Á TV",RTB ANEKA 
@@ -2283,109 +2259,85 @@ https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/RTB_Sukmaindera.png" group-title="ĐÔNG NAM Á TV",RTB SUKMAINDERA 
 https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_rcti.png",RCTI
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://i.ibb.co/pdx8Gz4/hjmg.png",MNC TV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_80.png",RCTI
+https://av-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
+
+
+#EXTINF:-1  tvg-name="ANTV 2" tvg-id="" tvg-logo="https://i.imgur.com/4B6BECK.jpg" group-title="ĐÔNG NAM Á TV" :http-referrer="",ANTV 2
+http://210.210.155.35:80/qwr9ew/s/s07/01.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_81.png",GTV
+https://av-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
+
+
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png",MNC TV
 https://av-live-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
 
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_trans7.png",TRANS 7
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://av-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_transtv.png",TRANS TV
+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_83.png",iNews
+https://av-live-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd
+
+
+
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.useetv.com/assets/images/channel/logo_indosiar_small1.png?v=2.0.0.15",INDOSIAR Dens
+http://210.210.155.35/qwr9ew/s/s04/02.m3u8
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.useetv.com/assets/images/channel/logo_indosiar_small1.png?v=2.0.0.15",INDOSIAR
+https://etslive-2-vidio-com.akamaized.net/exp=1670769169~acl=/vp9/205_stream.mpd!/vp9/205/*!/vp9/*/205_stream.mpd!/vp9/*/205/*~hmac=ac86251fd7af3c2e23224a929847caf293f9b9ea63fc5a66581404aa080e0dd6/vp9/205_stream.mpd
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.useetv.com/assets/images/channel/logo_sctv_small1.png?v=2.0.0.15",SCTV Dens
+http://210.210.155.35/qwr9ew/s/s03/01.m3u8
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.useetv.com/assets/images/channel/logo_sctv_small1.png?v=2.0.0.15",SCTV
+https://etslive-2-vidio-com.akamaized.net/exp=1670768731~acl=/vp9/204_stream.mpd!/vp9/204/*!/vp9/*/204_stream.mpd!/vp9/*/204/*~hmac=e85da792be9e3982d5bce53236f40184bd3be99c56e9350a59572ce54ab0e0ff/vp9/204_stream.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_87.png",Trans TV
 https://av-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://images.useetv.com/logo_tvri_small1.png?v=2.0.0.13",TVRI
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_87.png",Trans TV Dtk
+https://video.detik.com/transtv/smil:transtv.smil/chunklist_w988572694_b744100_sleng.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://images.useetv.com/logo_antv_big1.png",ANTV
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_110.png",Trans 7
+https://av-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gtv-id.png",GTV
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/tvone.png",TVOne
+https://av-live-cdn.mncnow.id/live/eds/TVOne/sa_dash_vmx/TVOne.mpd
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",Metro TV
+https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(bd164a95-722d-40db-a596-687c8123f197)/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="http://www.transvision.co.id/images/channel/rajawali.png",RTV
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",Metro TV 2
+https://av-live-cdn.mncnow.id/live/eds/Metro-TV2/sa_dash_vmx/Metro-TV2.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://images.useetv.com/logo_net_small1.png?v=2.0.0.13",NET
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rajawali_tv_id.png",RTV
+https://av-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="http://www.transvision.co.id/images/channel/tv_one.png",tvOne
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/TVOne-2/sa_dash_vmx/TVOne-2.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://images.useetv.com/logo_kompastv_small.png?v=2.0.0.13",KOMPAS TV
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_106.png",Kompas TV
 https://anevia114.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jtv_id.png",JTV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/JTV/sa_dash/JTV.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.lyngsat.com/logo/tv/ii/inews-id.png",iNews
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_118.jpg",TVRI Nasional
+https://av-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
+#EXTINF:-1 tvg-ID="" tvg-name="TVRI SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/1200px-TVRILogo2019.svg.png" group-title="ĐÔNG NAM Á TV",TVRI SPORT
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://images.useetv.com/logo_metrotv_big1.png?v=2.0.0.13",Metro TV
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/Metro-TV2/sa_dash_vmx/Metro-TV2.mpd
-
-#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://aqfadtv.xyz/logos/MNCNews_v2.png",MNC News
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NGEwMjViMzEtMGQ2MS0zMTIyLTg0MTMtN2VhYzRlYzEyZGE5
-https://anevia114.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:0 tvg-id="Infotainment.Id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-moFBlCkhVJgNAhB48P0d3votPQ-rsOrVhg&usqp=CAU" group-title="ĐÔNG NAM Á TV",Infotainment
-https://anevia114.mncnow.id/live/eds/MNCInfotainment/sa_dash_vmx/MNCInfotainment.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:0 tvg-id="VisionPrime.Id" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/aace6b866a640045edacb67fe95b4435.png" group-title="ĐÔNG NAM Á TV",Vision Prime
-https://anevia114.mncnow.id/live/eds/VisionPrime/sa_dash_vmx/VisionPrime.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:0 tvg-id="Entertainment.Id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBWS08NE0KOwFa3OxOSWL69HepIXuTEEpwzg&usqp=CAU" group-title="ĐÔNG NAM Á TV",MNC Entertainment
-https://anevia114.mncnow.id/live/eds/MNCEntertainment/sa_dash_vmx/MNCEntertainment.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTFmNDAwZWEtZjI5OC0zNTAzLWE0NzktZWI2NGIxMjRmMGFm
-#EXTINF:0 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_102.jpg",MNC Sports 1
-https://newanv-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTFmNDAwZWEtZjI5OC0zNTAzLWE0NzktZWI2NGIxMjRmMGFm
-#EXTINF:0 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_98.png",MNC Sports 2
-https://newanv-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTFmNDAwZWEtZjI5OC0zNTAzLWE0NzktZWI2NGIxMjRmMGFm
-#EXTINF:0 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_99.png",MNC Sports 3
-https://newanv-live-cdn.mncnow.id/live/eds/Soccer-2/sa_dash_vmx/Soccer-2.mpd
-
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTINF:-1 group-title="ĐÔNG NAM Á TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_116.jpg",NET
+https://av-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_cnnindonesia_small1.png?v=2.0.0.13" group-title="ĐÔNG NAM Á TV",CNN INDONESIA
+http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w2069650134_b280000_sleng.m3u8
 
 
 
