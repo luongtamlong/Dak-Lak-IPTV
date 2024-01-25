@@ -555,15 +555,13 @@ https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/22e25f0b-ff48-4517-9faa-35f78c10f563/0.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
-http://45.153.35.210:8000/play/NEWS_bbc_news_HD/index.m3u8
-#EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News Asia
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
+http://198.16.100.90:8278/bbcnews_twn/playlist.m3u8?tid=ME2E9411781394117813&ct=19225&tsum=ffaa2caa60183eec89d730ed80b336d1
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
-http://free.cvmtv.site/CNBC?token=live
+http://198.16.100.90:8278/cnbc_twn/playlist.m3u8?tid=MA5A9732497897324978&ct=19225&tsum=268e38e98d745f914c001c83d98b4b60
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://free.cvmtv.site/CNN?token=live
+http://198.16.100.90:8278/cnn_twn/playlist.m3u8?tid=ME9E1590756115907561&ct=19225&tsum=adf5db9504938a69e07bad07c9d6f7d6
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+http://198.16.100.90:8278/cna/playlist.m3u8?tid=MFAF1272681512726815&ct=19225&tsum=4d6a781648283b1bb018bc5c098432d0
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
 http://103.130.141.67:81/live/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN Documentary
