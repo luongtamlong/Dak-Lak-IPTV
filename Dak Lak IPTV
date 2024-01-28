@@ -1467,17 +1467,17 @@ http://90.178.86.156:9981/stream/channelid/2093422258?ticket=17D5E487B4B0E2FE50F
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://str1.cvmtv.site/OPT1?token=live
+http://str2.cvmtv.site/OPT1?token=live
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy-pl4.png", OPT1 (MSK+4)
 https://cdn11.1internet.tv/dash-live2/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1.png", Russia 1
-http://str1.cvmtv.site/R1?token=live
+http://str2.cvmtv.site/R1?token=live
 #EXTINF:-1 tvg-id="rossia1-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1-pl4.png", Russia 1 (MSK+4)
 https://radio-live-mg.rtr-vesti.ru/hls/russia1_plus4/playlist_5.m3u8
 #EXTINF:-1 tvg-id="kultura" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/kultura.png", Russia K
 http://s18209.cdn.ngenix.net/hls/CH_R02_ROSSIAK/playlist.m3u8
 #EXTINF:-1 tvg-id="rossia-24" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia-24.png", Russia 24 
-http://str1.cvmtv.site/R24?token=live
+http://str2.cvmtv.site/R24?token=live
 #EXTINF:-1 tvg-id="moskva-24" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/moskva-24.png", Moscow 24 
 http://streamer1.ruslanatv.ru/russia/moskva24_2023/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/ntv.png", NTV HD
@@ -1638,98 +1638,261 @@ https://group-title="VTVcab".alteox.app/hls/ru_stream.m3u8
 https://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 
 
-#EXTINF:-1 tvg-id="196" tvg-logo="http://iptv-content.rv77.pw/logos/196.png" group-title="🇺🇦 Ukraina", UA:Перший
-https://fr01.spr24.net/196/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="151" tvg-logo="http://iptv-content.rv77.pw/logos/151.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", 1+1
-https://fr01.spr24.net/151/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="151" tvg-logo="https://picon.ml/1plus1-ukraina" tvrec-depth=144h group-title="🇺🇦 Ukraina", 1+1 Ukraina
+#EXTINF:-1 group-title="🇺🇦 U Cà",1+1 Марафон 
+http://185.235.187.10:8888/play/1plus1/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",ІНТЕР FUL HD
+http://185.235.187.10:8888/play/a00m/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",1+1 Ukraine HD
 http://185.235.187.10:8888/play/a034/index.m3u8
-#EXTINF:-1 tvg-id="195" tvg-logo="http://iptv-content.rv77.pw/logos/195.png" group-title="🇺🇦 Ukraina", BOLT
-https://fr01.spr24.net/195/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="1160" tvg-logo="http://iptv-content.rv77.pw/logos/1160.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", СТБ HD
-https://fr01.spr24.net/1160/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="160" tvg-logo="http://iptv-content.rv77.pw/logos/160.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", СТБ
-https://fr01.spr24.net/160/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="153" tvg-logo="http://iptv-content.rv77.pw/logos/153.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", Интер
-https://fr01.spr24.net/153/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="153" tvg-logo="http://iptv-content.rv77.pw/logos/153.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", Интер+
-http://212.0.213.132:5000/Inter+/index.m3u8
-#EXTINF:-1 tvg-id="152" tvg-logo="http://iptv-content.rv77.pw/logos/152.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", 2+2
-https://fr01.spr24.net/152/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="164" tvg-logo="http://iptv-content.rv77.pw/logos/164.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", ТЕТ
-https://fr01.spr24.net/164/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="1159" tvg-logo="http://iptv-content.rv77.pw/logos/1159.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", ICTV HD
-https://fr01.spr24.net/1159/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="159" tvg-logo="http://iptv-content.rv77.pw/logos/159.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", ICTV2
+#EXTINF:-1 group-title="🇺🇦 U Cà",1+1 Україна
+http://149.5.17.52:20041/play/a06e
+#EXTINF:-1 group-title="🇺🇦 U Cà",2+2 
+http://149.5.17.34:20041/play/a06i
+#EXTINF:-1 group-title="🇺🇦 U Cà",2плюс2
+http://149.5.17.34:20041/play/a00n
+#EXTINF:-1 group-title="🇺🇦 U Cà",2+2 sd
+http://185.235.187.10:8888/play/2plus2/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",2+2 576p
+http://lb.homeiptv.org/lb0/2plus2/video.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,STB
+http://lb.homeiptv.org/lb0/STB/video.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ICTV
+http://185.235.187.10:8888/play/a037/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ICTV 2
+http://lb.homeiptv.org/lb0/ICTV2/video.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ICTV 2 HD
 http://194.33.181.28:9010/udp/238.255.51.42:1234
-#EXTINF:-1 tvg-id="159" tvg-logo="https://picon.ml/armia-tv-ua" tvrec-depth=144h group-title="🇺🇦 Ukraina", Армія ТВ HD
-http://portal.ott.pink/watch/7572/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 tvg-id="1194" tvg-logo="http://iptv-content.rv77.pw/logos/1194.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", Новий канал HD
-https://fr01.spr24.net/1194/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="194" tvg-logo="http://iptv-content.rv77.pw/logos/194.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", Новий канал
-https://fr01.spr24.net/194/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="171" tvg-logo="http://iptv-content.rv77.pw/logos/171.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", Мега
-https://fr01.spr24.net/171/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="158" tvg-logo="http://iptv-content.rv77.pw/logos/158.png" group-title="🇺🇦 Ukraina", К1
-https://fr01.spr24.net/158/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="169" tvg-logo="http://iptv-content.rv77.pw/logos/169.png" group-title="🇺🇦 Ukraina", К2
-https://fr01.spr24.net/169/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="157" tvg-logo="http://iptv-content.rv77.pw/logos/157.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", НТН
-https://fr01.spr24.net/157/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="17441" tvg-logo="http://iptv-content.rv77.pw/logos/17441.png" group-title="🇺🇦 Ukraina", Оце
-https://fr01.spr24.net/17441/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="17447" tvg-logo="http://iptv-content.rv77.pw/logos/17447.png" group-title="🇺🇦 Ukraina", Апостроф TV
-https://fr01.spr24.net/17447/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="175" tvg-logo="http://iptv-content.rv77.pw/logos/175.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", M1
-https://fr01.spr24.net/175/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="176" tvg-logo="http://iptv-content.rv77.pw/logos/176.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", M2-Эстрада
-https://fr01.spr24.net/176/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="17448" tvg-logo="http://iptv-content.rv77.pw/logos/17448.png" group-title="🇺🇦 Ukraina", Суспильне Культура
-https://fr01.spr24.net/17448/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="ua-kyiv" tvg-logo="https://picon.ml/ua-kyiv.png" group-title="🇺🇦 Ukraina", Суспільне Київ
+#EXTINF:-1 group-title="🇺🇦 U Cà",Inter HD
+http://149.5.17.34:20041/play/a05g
+#EXTINF:-1 group-title="🇺🇦 U Cà",ТЕТ SD
+http://185.235.187.10:8888/play/a004/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",iptv&org&ua&ТЕТ 
+http://149.5.17.34:20041/play/a06f
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,НТН  HD
+http://149.5.17.34:20041/play/a05i
+#EXTINF:-1 group-title="🇺🇦 U Cà",НТН FUL HD
+http://185.235.187.10:8888/play/ntn/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Enter Film FUL HD
+http://185.235.187.10:8888/play/a03h/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Enter Film SD
+http://149.5.17.34:20041/play/a078
+#EXTINF:-1 group-title="🇺🇦 U Cà",К1 HD
+http://185.235.187.10:8888/play/k1/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",iptv*org*ua K1 
+http://149.5.17.34:20041/play/a05m
+#EXTINF:-1 group-title="🇺🇦 U Cà",К2
+http://185.235.187.10:8888/play/k2/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",D1
+https://m3u8.ott.blue/watch/7494/video.m3u8?geo=auto&token=94450098895765784220366841698509
+#EXTINF:-1 group-title="🇺🇦 U Cà",Чорноморська ТРК
+https://m3u8.ott.blue/watch/7735/index.m3u8?geo=auto&token=94450098895765784220366841698509
+#EXTINF:-1 group-title="🇺🇦 U Cà",Bigudi
+http://149.5.17.34:20041/play/a06h
+#EXTINF:-1 group-title="🇺🇦 U Cà",БІГУДІ SD
+http://185.235.187.10:8888/play/bigudi/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Star Family TVA.IN.UA
+http://194.33.181.28:9010/udp/238.255.51.36:1234
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Hollywood HD
+http://213.172.73.171:8081/nimble_live/1179__MGM_HD/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,БЛОКБАСТЕР HD
+http://65.21.196.155/russia/blokbaster/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Comedy Central Україна
+http://185.235.187.10:8888/play/a060/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Еврокино
+http://213.172.73.170:8081/nimble_live/1139__EvroKino/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",TV XXI
+http://213.172.73.171:8081/nimble_live/1169__TV_21M/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",НСТ
+http://213.172.73.170:8081/nimble_live/1051__NST/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",ОСТРОСЮЖЕТНОЕ HD
+http://213.172.73.132:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",ПРЕМИАЛЬНОЕ HD
+http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Индийское кино
+http://185.235.187.10:8888/play/indiyskoe_kino/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Белсат HD
+https://m3u8.ott.blue/watch/149/video.m3u8?geo=auto&token=94450098895765784220366841698509
+#EXTINF:-1 group-title="🇺🇦 U Cà",Cinema 
+http://109.248.236.21:4433/udp/238.1.1.140:1234
+#EXTINF:-1 group-title="🇺🇦 U Cà",Cinema sd
+http://213.172.73.170:8081/nimble_live/1142__Sinema/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",black
+https://stream01.vnet.am/Kinosemya/mono.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,X-Files
+https://tv.2222.one/ch4.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Kino 1 HD
+http://88.135.128.20:7272/i0yRlKi4YlfGtF6
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,7 Baltic
+http://88.135.128.20:7272/OidghvyF6N7KlSd
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,TV Extra
+http://88.135.128.20:7272/IurtgdVgs6Tfa8J
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Super+
+http://88.135.128.20:7272/JkfGhb36Cvs7Fgz
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,3 Plus
+http://88.135.128.20:7272/qx4hiIaBoQlLK7f
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Перший Західний
+http://185.235.187.10:8888/play/1_zahid/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Мега FUL HD
+http://185.235.187.10:8888/play/mega/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",MEGA 
+http://149.5.17.34:20041/play/a05k
+#EXTINF:-1 group-title="🇺🇦 U Cà",Trofey
+http://149.5.17.34:20041/play/a06n
+#EXTINF:-1 group-title="🇺🇦 U Cà",Трофей
+http://lb.homeiptv.org/lb0/Trofey/video.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Рибалка
+http://iptv.prosto.tv:7000/ch344/video.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Sweet
+http://95.67.12.82:9085
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ID DISCOVERY
+http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Перший автомобільний
+http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Еко ТВ
+http://185.235.187.10:8888/play/eko_tv/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Ізмаіл ТВ
+http://cdn10.live-tv.od.ua:8081/izod/izod/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Ми-Україна HD
+https://ythls.armelin.one/channel/UCEduOt4TK8TtOaznB45TrhA.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Сонце UA
+http://185.235.187.10:8888/play/a05p/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Орбiта tva.org.ua
+http://ftp.orbita.dn.ua/hls/orbita.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",SONCE 
+http://149.5.17.34:20041/play/a015
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Ukraine World News 
+https://ythls.armelin.one/channel/UCGRhTiknVzrL-Rfy4N1tPTA.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Еспресо TV
+http://185.235.187.10:8888/play/expreso_tv/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Суспільне Крим HD
+http://185.235.187.10:8888/play/a06o/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Культура
+http://185.235.187.10:8888/play/kultura/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Суспільне Київ HD 
 http://185.235.187.10:8888/play/a018/index.m3u8
-#EXTINF:-1 tvg-id="163" tvg-logo="http://iptv-content.rv77.pw/logos/163.png" group-title="🇺🇦 Ukraina", ПлюсПлюс
-https://fr01.spr24.net/163/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="193" tvg-logo="http://iptv-content.rv77.pw/logos/193.png" group-title="🇺🇦 Ukraina", NIKI Kids
-https://fr01.spr24.net/193/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="192" tvg-logo="http://iptv-content.rv77.pw/logos/192.png" group-title="🇺🇦 Ukraina", NIKI Junior
-https://fr01.spr24.net/192/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="191" tvg-logo="http://iptv-content.rv77.pw/logos/191.png" group-title="🇺🇦 Ukraina", EU Music
-https://fr01.spr24.net/191/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="166" tvg-logo="http://iptv-content.rv77.pw/logos/166.png" group-title="🇺🇦 Ukraina", Піксель
-https://fr01.spr24.net/166/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="189" tvg-logo="http://iptv-content.rv77.pw/logos/189.png" group-title="🇺🇦 Ukraina", LALE
-https://fr01.spr24.net/189/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="187" tvg-logo="http://iptv-content.rv77.pw/logos/187.png" group-title="🇺🇦 Ukraina", ATR
-https://fr01.spr24.net/187/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="170" tvg-logo="http://iptv-content.rv77.pw/logos/170.png" group-title="🇺🇦 Ukraina", ZOOM [UA]
-https://fr01.spr24.net/170/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="186" tvg-logo="http://iptv-content.rv77.pw/logos/186.png" group-title="🇺🇦 Ukraina", Винтаж
-https://fr01.spr24.net/186/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="183" tvg-logo="http://iptv-content.rv77.pw/logos/183.png" group-title="🇺🇦 Ukraina", Сонце
-https://fr01.spr24.net/183/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="188" tvg-logo="http://iptv-content.rv77.pw/logos/188.png" group-title="🇺🇦 Ukraina", Дача
-https://fr01.spr24.net/188/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="167" tvg-logo="http://iptv-content.rv77.pw/logos/167.png" group-title="🇺🇦 Ukraina", Enter-фільм
-https://fr01.spr24.net/167/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="182" tvg-logo="http://iptv-content.rv77.pw/logos/182.png" group-title="🇺🇦 Ukraina", Надежда
-https://fr01.spr24.net/182/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="179" tvg-logo="http://iptv-content.rv77.pw/logos/179.png" tvrec-depth=144h group-title="🇺🇦 Ukraina", 24 канал
-https://fr01.spr24.net/179/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="178" tvg-logo="http://iptv-content.rv77.pw/logos/178.png" group-title="🇺🇦 Ukraina", ПравдаТУТ [UA]
-https://fr01.spr24.net/178/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="165" tvg-logo="http://iptv-content.rv77.pw/logos/165.png" group-title="🇺🇦 Ukraina", 5 канал [UA]
-https://fr01.spr24.net/165/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="190" tvg-logo="http://iptv-content.rv77.pw/logos/190.png" group-title="🇺🇦 Ukraina", English Club TV [UA]
-https://fr01.spr24.net/190/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="154" tvg-logo="http://iptv-content.rv77.pw/logos/154.png" group-title="🇺🇦 Ukraina", Eспресо TV
-https://fr01.spr24.net/154/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="180" tvg-logo="http://iptv-content.rv77.pw/logos/180.png" group-title="🇺🇦 Ukraina", Рыбалка HD
-https://fr01.spr24.net/180/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="199" tvg-logo="http://iptv-content.rv77.pw/logos/199.png" group-title="🇺🇦 Ukraina", Прямий HD
-https://fr01.spr24.net/199/mpegts?token=brm93nV8tUcCAN
-#EXTINF:-1 tvg-id="17444" tvg-logo="http://iptv-content.rv77.pw/logos/17444.png" group-title="🇺🇦 Ukraina", Кус-Кус
-https://fr01.spr24.net/17444/mpegts?token=brm93nV8tUcCAN
+#EXTINF:-1 group-title="🇺🇦 U Cà",Київ
+http://185.235.187.10:8888/play/kiev_tv/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,РЕПОРТЕР
+http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ІТ3
+http://cdn10.live-tv.od.ua:8081/it3od/720p/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Круг (Одеса)
+http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,УНІАН
+https://m3u8.ott.blue/watch/236/index.m3u8?geo=auto&token=94450098895765784220366841698509
+#EXTINF:-1 group-title="🇺🇦 U Cà",УНІАН SD
+http://185.235.187.10:8888/play/a00u/index.m3u8?key=iptv*org*ua
+#EXTINF:-1 group-title="🇺🇦 U Cà",Армія ТВ HD
+https://m3u8.ott.blue/watch/7572/index.m3u8?geo=auto&token=94450098895765784220366841698509 
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,5 Канал
+https://m3u8.ott.blue/watch/7/video.m3u8?geo=auto&token=94450098895765784220366841698509
+#EXTINF:-1 group-title="🇺🇦 U Cà",24 HD
+http://185.235.187.10:8888/play/a00n/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,24 Канал
+http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,24 Канал hd
+http://149.5.17.34:20041/play/a06j
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,СK 1 
+http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt720p/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,FREEDOM
+https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",FREEDOM sd
+http://185.235.187.10:8888/play/2x2/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Нове тв 
+https://novoe.top/nove_tv.m3u8.jpg?m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Рада
+http://185.235.187.10:8888/play/a026/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Renome 
+http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Первый Городской (Одесса)
+http://cdn1.live-tv.od.ua:8081/1tvod/1tvod/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Правда ТУТ HD (Київ)
+http://pravdatytkievshina-hls2.cosmonova.net.ua/hls/pravdatytkievshina_ua_hi/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Прямий 
+http://185.235.187.10:8888/play/a00l/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,TVA
+https://iptv.org.ua/wp-content/uploads/2022/01/Moyo-slayd33-shou.mp4
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Надія/N.K.
+http://nadiya.home-net.com.ua/mob/mystream.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Полтавское ТВ
+http://cdn10.live-tv.od.ua:8081/hrpl/720p/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,PTV Полтавское TV
+https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Ужгород 21
+http://91.216.173.35:10120/play/a004
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Тернопіль 1
+http://185.53.79.12/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Тернопiль 1 HD
+http://ott.columbus.te.ua/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,НТК Коломия
+https://stream.ntktv.ua/s/ntk/ntk.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ТВС
+http://185.235.187.10:8888/play/a063/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",ГІТ (Волинь)
+http://stream.uagit.tv/gittv.m3u8?key=iptv.org.ua
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ГРОМАДСЬКЕ ІНТЕРАКТИВНЕ ТЕЛЕБАЧЕННЯ (Луцьк)
+https://stream.uagit.tv/gittv.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="🇺🇦 U Cà",33 канал (Хмельницький)
+https://33news.org/33chanel/live/chunklist_w459617257.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,МТМ Запоріжжя
+https://stream.ztv.zp.ua/hls/live.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,7 канал tva.org.ua
+http://cdn10.live-tv.od.ua:8081/7tvod/7tvod/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,1 Городский Одеса HD
+http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",ОЦЕ ТБ
+http://185.235.187.10:8888/play/a039/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Чорноморське ТВ
+http://185.235.187.10:8888/play/a045/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Чорноморська ТРК
+https://m3u8.ott.blue/watch/7735/index.m3u8?geo=auto&token=94450098895765784220366841698509
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Аверс (Луцьк)
+https://avers.pp.ua/hls/efir.m3u8?key=iptv*org*ua
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Аверс tva.org.ua
+https://m3u8.ott.blue/watch/356/video.m3u8?geo=auto&token=94450098895765784220366841698509
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ATR
+http://185.235.187.10:8888/play/a05s/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Bambarbia TV
+http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-720p/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Дніпро TV HD
+http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Балта ТВ HD
+http://194.50.51.34/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Telekanal RAI 
+https://stream.rai.ua/rai/stream.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Глас
+http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ТРК Надія - Новий Канал (Первомайский)
+http://178.217.215.57/mob/mystream.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Ditinets 24h Дитинець Чернігів
+http://185.235.187.10:8888/play/ditinec/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Чернівецький Промінь HD
+http://langate.tv/promin/live_720/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,СК1 (Житомир)
+http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,НТК
+http://stream.ntktv.ua/s/ntk/ntk.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ITV (Рівне)
+http://cdn10.live-tv.od.ua:8081/itvrv/abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ITV HD
+http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,ITV 
+http://cdn10.live-tv.od.ua:8081/itvrv/720p/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà" ,Сфера ТВ
+http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Relaxon
+http://176.122.99.7:7000/ch317/video.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà", футбол 1
+http://91.216.173.35:10120/play/a001
+#EXTINF:-1 group-title="🇺🇦 U Cà", Футбол 2
+http://91.216.173.35:10120/play/a002
+#EXTINF:-1 group-title="🇺🇦 U Cà",Суспільне СПОРТ
+http://185.235.187.10:8888/play/a01n/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Setanta Sports Ukraine Plus HD
+http://146.59.85.40:89/setantaplus/mono.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Setanta Ukraine + HD
+http://194.33.181.28:9010/udp/238.255.51.33:1234
+
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="🇨🇳 Trung Quốc",CCTV-1 综合
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226231/1.m3u8
