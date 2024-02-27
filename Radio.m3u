@@ -192,7 +192,13 @@ https://multi-playlist-zmp3.zmdcdn.me/RckDo1XPsU4/zhls/playback-realtime/111c87d
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC World Service" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png" group-title="QUỐC TẾ" radio="true",BBC World Service
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio=320000.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 1" tvg-logo="https://ichef.bbci.co.uk/images/ic/1920x1080/p0cbj45j.jpg" group-title="QUỐC TẾ" radio="true",BBC Radio 1
-http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
+http://lstn.lv/bbc.m3u8?station=bbc_radio_one&bitrate=320000
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 1" tvg-logo="https://sounds.files.bbci.co.uk/3.5.0/services/bbc_1xtra/blocks-colour-black_1920x1080.png" group-title="QUỐC TẾ" radio="true",BBC Radio 1Xtra
+http://lstn.lv/bbc.m3u8?station=bbc_1xtra&bitrate=320000
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 1" tvg-logo="https://ukradiolive.com/public/uploads/radio_img/bbc-radio-1-dance/fb_cover.jpg" group-title="QUỐC TẾ" radio="true",BBC Radio 1 Dance
+http://lstn.lv/bbc.m3u8?station=bbc_radio_one_dance&bitrate=320000
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 1" tvg-logo="https://radioplayer.ukradiolive.com/public/uploads/radio_img/bbc-radio-1-relax/fb_cover.jpg" group-title="QUỐC TẾ" radio="true",BBC Radio 1 Relax
+http://lstn.lv/bbc.m3u8?station=bbc_radio_one_relax&bitrate=320000
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 2" tvg-logo="https://ichef.bbci.co.uk/images/ic/1200x675/p0cbjbk8.jpg" group-title="QUỐC TẾ" radio="true",BBC Radio 2
 http://lstn.lv/bbc.m3u8?station=bbc_radio_two&bitrate=320000
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 3" tvg-logo="https://ichef.bbci.co.uk/images/ic/464x261/p041cg2r.jpg" group-title="QUỐC TẾ" radio="true",BBC Radio 3
