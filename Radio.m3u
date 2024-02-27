@@ -267,6 +267,18 @@ http://live-radio01.mediahubaustralia.com/PBW/aac/
 https://live-radio01.mediahubaustralia.com/RAEW/mp3/
 #EXTINF:-1 tvg-chno="286" tvg-id="france24eng" tvg-name="NewsTalk ZB" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/2SWB5WJXHx.png" group-title="QUỐC TẾ" radio="true",NewsTalk ZB
 https://ais-nzme.streamguys1.com/nz_002_aac
+#EXTINF:-1 channel-id="mjh-radio-ih-6998" tvg-id="mjh-radio-ih-6998" tvg-logo="https://i.iheart.com/v3/re/new_assets/f90a1970-15fe-42bd-9340-6449fd56f33f" group-title="QUỐC TẾ" radio="true" , SBS Radio 1
+https://i.mjh.nz/radio-ih-6998
+#EXTINF:-1 channel-id="mjh-radio-ih-7025" tvg-id="mjh-radio-ih-7025" tvg-logo="https://i.iheart.com/v3/re/new_assets/94379826-2819-4381-a6e8-50266b8b4044" group-title="QUỐC TẾ" radio="true" , SBS Radio 2
+https://i.mjh.nz/radio-ih-7025
+#EXTINF:-1 channel-id="mjh-radio-ih-7030" tvg-id="mjh-radio-ih-7030" tvg-logo="https://i.iheart.com/v3/re/new_assets/96eb69da-3455-435a-92b0-74421f1f2a2b" group-title="QUỐC TẾ" radio="true" , SBS Arabic24
+https://i.mjh.nz/radio-ih-7030
+#EXTINF:-1 channel-id="mjh-radio-ih-7029" tvg-id="mjh-radio-ih-7029" tvg-logo="https://i.iheart.com/v3/re/new_assets/6281c8f1ef3f5a7456d95f1c" group-title="QUỐC TẾ" radio="true" , SBS Chill
+https://i.mjh.nz/radio-ih-7029
+#EXTINF:-1 channel-id="mjh-radio-ih-7031" tvg-id="mjh-radio-ih-7031" tvg-logo="https://i.iheart.com/v3/re/new_assets/0dc5ccff-b82e-4be1-b448-8463059ec708" group-title="QUỐC TẾ" radio="true" , SBS PopDesi
+https://i.mjh.nz/radio-ih-7031
+#EXTINF:-1 channel-id="mjh-radio-ih-7028" tvg-id="mjh-radio-ih-7028" tvg-logo="https://i.iheart.com/v3/re/new_assets/6dad816f-550c-4f2f-8ebd-008188bf3ddc" group-title="QUỐC TẾ" radio="true" , SBS PopAsia
+https://i.mjh.nz/radio-ih-7028
 #EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CRI China Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Radio_China_International.svg/220px-Radio_China_International.svg.png" group-title="QUỐC TẾ" radio="true",CRI China Plus
 http://sk.cri.cn/am846.m3u8
 #EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR1 NEWS" tvg-logo="https://pic.qtfm.cn/sso/198/1631523942979_3Kp24fIif.jpeg" group-title="QUỐC TẾ" radio="true",CNR-1 News Radio
@@ -293,8 +305,6 @@ http://satellitepull.cnr.cn/live/wxhitfm/playlist.m3u8
 http://sk.cri.cn/hyhq.m3u8
 #EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/hqzx.png" group-title="QUỐC TẾ" radio="true",CRI News Radio
 http://sk.cri.cn/905.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/cgtnradio.png" group-title="QUỐC TẾ" radio="true",CGTN Radio
-http://sk.cri.cn/am846.m3u8
 #EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/sjhs.png" group-title="QUỐC TẾ" radio="true",CRI Overseas Radio
 http://sk.cri.cn/hxfh.m3u8
 #EXTINF:-1 1 tvg-chno="287" tvg-id="france24eng" group-title="QUỐC TẾ" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/media/1100/20200528/1590662120265.jpg" radio="true",CRI Voice of South China Sea
@@ -317,13 +327,45 @@ https://1295896862.rsc.cdn77.org/1295896862/index.m3u8
 https://1931121536.rsc.cdn77.org/1931121536/index.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio 5" tvg-logo="https://www.metroradio.com.hk/superhome/2022/images/icon/img_logo_am1044-white_lg.svg" group-title="QUỐC TẾ" radio="true",Metro Plus 1044
 https://1435271937.rsc.cdn77.org/1435271937/index.m3u8
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio 5" tvg-logo="http://gg.gg/1984rk" group-title="QUỐC TẾ" radio="true",RNK Campuchia
+#EXTINF:-1 tvg-logo="http://gg.gg/1985wg" group-title="QUỐC TẾ" radio="true" , Mediacorp Ria 897
+https://playerservices.streamtheworld.com/api/livestream-redirect/RIA897FMAAC.aac
+#EXTINF:-1 tvg-logo="http://gg.gg/1985wz" group-title="QUỐC TẾ" radio="true" , Mediacorp GOLD 905
+https://playerservices.streamtheworld.com/api/livestream-redirect/GOLD905AAC.aac
+#EXTINF:-1 tvg-logo="http://gg.gg/1985xs" group-title="QUỐC TẾ" radio="true" , Mediacorp Symphony 924
+https://playerservices.streamtheworld.com/api/livestream-redirect/SYMPHONY924AAC.aac
+#EXTINF:-1 tvg-logo="http://gg.gg/1985yc" group-title="QUỐC TẾ" radio="true" , Mediacorp YES 933
+https://playerservices.streamtheworld.com/api/livestream-redirect/YES933AAC.aac
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/CNA938_logo.png" group-title="QUỐC TẾ" radio="true" , CNA 938
+https://playerservices.streamtheworld.com/api/livestream-redirect/938NOWAAC.aac 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Warna_94.2FM.svg/2880px-Warna_94.2FM.svg.png" group-title="QUỐC TẾ" radio="true" , Mediacorp Warna 942
+https://22903.live.streamtheworld.com/WARNA942FMAAC.aac
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Class_95_%28radio_station%29.svg/2880px-Class_95_%28radio_station%29.svg.png" group-title="QUỐC TẾ" radio="true" , Mediacorp CLASS 95
+https://playerservices.streamtheworld.com/api/livestream-redirect/CLASS95AAC.aac
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Capital_95.8FM.svg/2880px-Capital_95.8FM.svg.png" group-title="QUỐC TẾ" radio="true" , Mediacorp CAPITAL 958
+https://playerservices.streamtheworld.com/api/livestream-redirect/CAPITAL958FMAAC.aac
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Oli968.svg/2880px-Oli968.svg.png" group-title="QUỐC TẾ" radio="true" , Mediacorp Oli 968
+https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Love_972.svg/2880px-Love_972.svg.png" group-title="QUỐC TẾ" radio="true" , Mediacorp LOVE 972
+https://playerservices.streamtheworld.com/api/livestream-redirect/LOVE972FMAAC.aac
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/987FM.svg/2880px-987FM.svg.png" group-title="QUỐC TẾ" radio="true" , Mediacorp 987FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/987FMAAC.aac
+#EXTINF:-1 tvg-logo="https://www.kiss92.sg/wp-content/assets/4/img/NAV_01_Logo_920.svg" group-title="QUỐC TẾ" radio="true", SPH KISS FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/KISS_92.mp3
+#EXTINF:-1  tvg-logo="http://gg.gg/1985uj" group-title="QUỐC TẾ" radio="true" , SPH ONE FM 91.3
+https://playerservices.streamtheworld.com/api/livestream-redirect/ONE_FM_913.mp3
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s304217/images/logod.png?t=161616" group-title="QUỐC TẾ" radio="true" , SPH Money FM 89.3
+https://playerservices.streamtheworld.com/api/livestream-redirect/MONEY_893.mp3
+#EXTINF:-1  tvg-logo="http://gg.gg/1985uo" group-title="QUỐC TẾ" radio="true" , SPH Hao FM 96.3
+https://playerservices.streamtheworld.com/api/livestream-redirect/HAO_963.mp3 
+#EXTINF:-1 tvg-logo="http://gg.gg/1985vl" group-title="QUỐC TẾ" radio="true" , SPH UFM 100.3
+https://playerservices.streamtheworld.com/api/livestream-redirect/UFM_1003.mp3
+#EXTINF:-1 tvg-chno="291" tvg-id="france24eng"  tvg-logo="http://gg.gg/1984rk" group-title="QUỐC TẾ" radio="true",RNK Campuchia
 http://119.82.252.6:8080/broadwave.mp3
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio 5" tvg-logo="http://gg.gg/1984rt" group-title="QUỐC TẾ" radio="true",Radio Love Phnom Penh
+#EXTINF:-1 tvg-chno="291" tvg-id="france24eng"  tvg-logo="http://gg.gg/1984rt" group-title="QUỐC TẾ" radio="true",Radio Love Phnom Penh
 http://s8.voscast.com:8064/; 
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio 5" tvg-logo="https://www.metroradio.com.hk/superhome/2022/images/icon/img_logo_am1044-white_lg.svg" group-title="QUỐC TẾ" radio="true",Sweet FN Siem Reap
+#EXTINF:-1 tvg-chno="291" tvg-id="france24eng"  tvg-logo="https://www.metroradio.com.hk/superhome/2022/images/icon/img_logo_am1044-white_lg.svg" group-title="QUỐC TẾ" radio="true",Sweet FN Siem Reap
 http://radio99.servradio.com:9308/; 
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio 5" tvg-logo="https://vayofm.com/images/vayofm.png" group-title="QUỐC TẾ" radio="true",Vayo FM
+#EXTINF:-1 tvg-chno="291" tvg-id="france24eng"  tvg-logo="https://vayofm.com/images/vayofm.png" group-title="QUỐC TẾ" radio="true",Vayo FM
 http://50.21.176.38:8010/vayofm
 #EXTINF:-1 tvg-chno="292" tvg-id="france24eng" tvg-name="RFA Tiếng Việt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Radio_str1_Asia_Logo_2021.png/220px-Radio_str1_Asia_Logo_2021.png" group-title="QUỐC TẾ" radio="true",RFA Tiếng Việt
 https://rfahls-i.akamaihd.net/hls/live/226233/RFALive_2/index.m3u8
