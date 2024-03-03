@@ -250,6 +250,8 @@ https://ep128.hostingradio.ru:8030/ep128
 http://ic7.101.ru:8000/v3_1
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i.imgur.com/ViOHdFW.png" group-title="QUỐC TẾ" radio="true",Radio Orfey
 https://orfeyfm.hostingradio.ru:8034/orfeyfm128.mp3
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i.imgur.com/ViOHdFW.png" group-title="QUỐC TẾ" radio="true",RFE/RL Radio Svoboda Rossiya
+https://rfe04.akacast.akamaistream.net/7/509/437762/v1/ibb.akacast.akamaistream.net/rfe04
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/be/f/f9/%D0%9F%D0%9D%D0%9A%D0%91%D0%A0_%28%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D1%8B%D0%BF%29.jpeg" group-title="QUỐC TẾ" radio="true",BR Pershy Kanal
 http://stream2.datacenter.by:8005/1kanal 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/be/1/18/%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0_%28%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D1%8B%D0%BF%29.png" group-title="QUỐC TẾ" radio="true",BR Kanal Kultura
@@ -396,12 +398,7 @@ https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
 https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/index_56_a-p.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://cdn-radiotime-logos.tunein.com/s14481d.png" group-title="QUỐC TẾ" radio="true",RTHK Radio Putonghua
 http://stm.rthk.hk/radioptha
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="METRO FINANCE" tvg-logo="https://www.metroradio.com.hk/superhome/2022/images/icon/img_logo_mf-white.svg" group-title="QUỐC TẾ" radio="true",Metro Finance
-https://1964171372.rsc.cdn77.org/1964171372/tracks-a1/mono.m3u8
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="METRO INFO" tvg-logo="https://www.metroradio.com.hk/superhome/2022/images/icon/img_logo_mi-white_lg.svg" group-title="QUỐC TẾ" radio="true",Metro Info
-https://1561247963.rsc.cdn77.org/1561247963/tracks-a1/mono.m3u8
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="METRO PLUS" tvg-logo="https://www.metroradio.com.hk/superhome/2022/images/icon/img_logo_am1044-white_lg.svg" group-title="QUỐC TẾ" radio="true",Metro Plus 1044
-https://1185548114.rsc.cdn77.org/1185548114/tracks-a1/mono.m3u8
+
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="DRHK" tvg-logo="https://cdn-radiotime-logos.tunein.com/s189322d.png" group-title="QUỐC TẾ" radio="true",Digital Radio Hong Kong
 http://ice.digitalradiohk.net:8000/drhk
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="DRHK" tvg-logo="https://www.d100.net/wp-content/uploads/2013/12/D100.png" group-title="QUỐC TẾ" radio="true",D100 Channel 1
@@ -412,6 +409,34 @@ http://live.d100.net:8000/Channel2-128AAC-Backup
 http://live.d100.net:8000/Channel3-128AAC-Backup
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="DRHK" tvg-logo="https://www.d100.net/wp-content/uploads/2013/12/D100.png" group-title="QUỐC TẾ" radio="true",D100 Channel 4
 http://live.d100.net:8000/Channel4-128AAC-Backup 
+#EXTINF:-1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-06/55e035ae8e46ed9a38ae9245ca84c8e1.png_origin" group-title="QUỐC TẾ" ,TDM Radio Cantonese
+https://live4.tdm.com.mo/live/_definst_/rch2.live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-09/f07735614d6ae85453c50b6e22329756.png_origin" group-title="QUỐC TẾ" ,TDM Radio Portuguese
+https://live4.tdm.com.mo/live/_definst_/rch1.live/playlist.m3u8
+#EXTINF:-1 group-title="QUỐC TẾ" tvg-logo="https://vn-static.rti.org.tw/img/fb-rti-logo.png" radio="true",RTI Radio
+https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti3/chunklist.m3u8
+#EXTINF:-1 group-title="QUỐC TẾ" tvg-logo="https://vn-static.rti.org.tw/img/fb-rti-logo.png" radio="true",RTI Asian Radio
+https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti5/chunklist.m3u8
+#EXTINF:-1 group-title="QUỐC TẾ" tvg-logo="https://vn-static.rti.org.tw/img/fb-rti-logo.png" radio="true",RTI International
+https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti6/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/inews.png" group-title="QUỐC TẾ" ,BCC News Network
+http://n12.rcs.revma.com/78fm9wyy2tzuv
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s91545q.png" group-title="QUỐC TẾ" ,BCC Country Network
+https://stream.rcs.revma.com/p2e3rfg3qtzuv
+#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/ipop.png" group-title="QUỐC TẾ" ,BCC Pop Network
+http://n14.rcs.revma.com/aw9uqyxy2tzuv
+#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/iradio.png" group-title="QUỐC TẾ" ,BCC Music Network
+http://n07.rcs.revma.com/ks4vsmg3qtzuv
+#EXTINF:-1 tvg-logo="https://www.radio.net/images/broadcasts/7d/d9/35166/c300.png" group-title="QUỐC TẾ" ,ICRT FM
+http://live.leanstream.co/ICRTFM?args=tunein_aac
+#EXTINF:-1 tvg-logo="https://foxxradio.com/upload/tw/1620527368.jpg" group-title="QUỐC TẾ" ,Asia FM 92.7
+https://stream.rcs.revma.com/xpgtqc74hv8uv
+#EXTINF:-1 tvg-logo="https://www.radio.net/images/broadcasts/56/1a/36882/c300.png" group-title="QUỐC TẾ" ,Asia FM 92.3
+https://stream.rcs.revma.com/kydend74hv8uv 
+#EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/jQtjCpfsPQ.jpg" group-title="QUỐC TẾ" ,Radio Taipei
+https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/cityfmtw.png" group-title="QUỐC TẾ" ,City FM 90.1
+https://fm901.cityfm.com.tw:8083/901
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/2880px-DZBB594.svg.png" group-title="QUỐC TẾ" radio="true" , Super Radyo DZBB
 http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s301502/images/logod.png?t=636499912539200000" group-title="QUỐC TẾ" radio="true" , Republika FM1
