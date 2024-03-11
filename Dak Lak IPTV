@@ -547,9 +547,11 @@ https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/maina
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/live/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="Quốc tế" tvg-logo="https://picon.ml/pervy-kanal-eu.png", OPT1
-http://202.21.104.6:88/ort-tv/mono.m3u8
+http://otv.wotom.net:4433/udp/238.1.1.170:1234
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="Quốc tế" tvg-logo="https://picon.ml/rtr-planeta.png", RTR Planeta
 http://45.159.74.13:80/RTRPlaneta/tracks-v1a1/mpegts
+#EXTINF:-1 tvg-id="ntv-mir" group-title="Quốc tế" tvg-logo="https://i.imgur.com/DtQX5P2.png",NTV Mir
+http://45.159.74.13:80/HTB/tracks-v1a1/mpegts
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
