@@ -388,9 +388,9 @@ http://vinhphuctv.vn:8090/vinhphuclive/web.stream/playlist.m3u8
 https://live.yenbaitv.org.vn/hls/livestream.m3u8
 
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" group-logo="https://cdn.hqth.me/logo/category/hbo.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD
-http://fpt.vthanhtivi.pw/hbo/index.m3u8
+http://viettel.nekocdn.xyz/HBO/index.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" group-title="HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png", Cinemax HD
-http://fpt.vthanhtivi.pw/cinemax/index.m3u8
+http://viettel.nekocdn.xyz/Cinemax/index.m3u8
 #EXTINF:-1 tvg-id="hbosignaturehd" group-title="HBO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/HBO_Signature_Asia.svg/revision/latest?cb=20100511073847", HBO Signature
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 http://198.16.100.90:8278/hbosignature_twn/playlist.m3u8?tid=m48ee99a5dacb15948906&ct=17874&tsum=3d127801d49fa098b4118400117b4fbb
@@ -402,29 +402,25 @@ http://50.7.238.114:8278/hbohead_twn/playlist.m3u8?tid=MCDC6663932966639329&ct=1
 http://198.16.100.90:8278/fyi_twn/playlist.m3u8?tid=18186902&ct=17988&&tsum=7a21abab0a5912afb0ebc01db111e59f
 
 
-#EXTINF:-1 tvg-id="boxmovie1" group-title="BOX" group-logo="https://cdn.hqth.me/logo/category/itb.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-http://fpt.vthanhtivi.pw/Box_Movie_1/mpegts
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-http://fpt.vthanhtivi.pw/Hollywood_Classics/mpegts
-#EXTINF:-1 tvg-id="inthebox" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-http://fpt.vthanhtivi.pw/In_The_Box/mpegts
-#EXTINF:-1 tvg-id="boxhits" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-http://fpt.vthanhtivi.pw/Box_Hits/mpegts
-#EXTINF:-1 tvg-id="man" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
-https://code.vthanhtivi.pw/getlink/tv360/5mRuURJH_f0FFiOVLxgdPQ/1704950011/237/playlist.m3u8
-#EXTINF:-1 tvg-id="drfithd" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
+#EXTINF:-1 group-title="BOX" tvg-id="boxmovie1" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-box-movie.png",Box Movie 1
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8
+#EXTINF:-1 group-title="BOX" tvg-id="drfithd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-dr-fit.png",Dr.Fit
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/index.m3u8
-#EXTINF:-1 tvg-id="happykids" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
+#EXTINF:-1 group-title="BOX" tvg-id="happykids" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-happy-kids.png",Happy KIDS
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/index.m3u8
-#EXTINF:-1 tvg-id="musicbox" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
+#EXTINF:-1 group-title="BOX" tvg-id="hollywoodclassics" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-hollywood-classics.png",Hollywood Classics
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8
+#EXTINF:-1 group-title="BOX" tvg-id="musicbox" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-music-box.png",Music Box
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/index.m3u8
-#EXTINF:-1 tvg-id="planetearthhd" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
+#EXTINF:-1 group-title="BOX" tvg-id="planetearthhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-planet-earth.png",Planet Earth
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/index.m3u8
-#EXTINF:-1 tvg-id="woman" group-title="BOX" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
+#EXTINF:-1 group-title="BOX" tvg-id="woman" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-woman.png",Woman
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e4.endpoint.cdn.sctvonline.vn/hls/woman/index.m3u8
 
@@ -492,7 +488,7 @@ http://str1.cvtv.xyz/CNBC?token=live
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
 http://str1.cvtv.xyz/CNN?token=live
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
-http://203.80.165.14/stream/channelid/1155800167?profile=pass
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
 http://103.130.141.67:81/live/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN Documentary
@@ -502,7 +498,7 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/strea
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24
 http://str1.cvtv.xyz/F24?token=live
 #EXTINF:-1 tvg-id="france24fr" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 French
-http://203.80.165.14/stream/channelid/1854529623?profile=pass
+https://code.vthanhtivi.pw/ytlive/get2.php?id=France24
 #EXTINF:-1 tvg-id="kbsworld" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/223.png", KBS World
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/kbs-world/playlist.m3u8
