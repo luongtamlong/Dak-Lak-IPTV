@@ -1,9 +1,9 @@
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/3sH7jmx.png" radio="true", VOV-1
-http://media.kythuatvov.vn:8001/;stream/
+https://stream.vovmedia.vn/vov1
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/AnN6A0D.png" radio="true", VOV-2
-http://media.kythuatvov.vn:8003/;stream/
+https://stream.vovmedia.vn/vov2
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/qKwHWjE.png" radio="true", VOV-3
-http://media.kythuatvov.vn:8005/;stream/
+https://stream.vovmedia.vn/vov3
 #EXTINF:-1 roup-title="VIỆT NAM" tvg-logo="https://i.imgur.com/64ZucRJ.png", VOV MINORITIES SERVICE NORTH
 https://stream.vovmedia.vn/vov4tb
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/64ZucRJ.png" radio="true", VOV MINORITIES SERVICE HIGHLANDS
@@ -17,9 +17,9 @@ https://stream.vovmedia.vn/vov5
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/jjfSOYm.png" radio="true", VOV ENGLISH SERVICE
 https://stream.vovmedia.vn/vov247
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/rllXbD6.png" radio="true", VOV TRAFFIC SERVICE HANOI
-http://media.kythuatvov.vn:7025/;stream/
+https://stream.vovmedia.vn/vovgthn
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/SyQBB9I.png" radio="true", VOV TRAFFIC SERVICE SAIGON
-http://media.kythuatvov.vn:7023/;stream/
+https://stream.vovmedia.vn/vovgthcm
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://i.imgur.com/2uTCy6B.png" radio="true", VOV TRAFFIC SERVICE MEKONG
 https://stream.vovmedia.vn/vovmekong
 
@@ -194,8 +194,10 @@ https://multi-playlist-zmp3.zmdcdn.me/94rxZ-Dfzro/zhls/playback-realtime/ff294de
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://photo-zmp3.zmdcdn.me/cover_rect/3/1/0/d/310df4f53c1026d4cb2844dc96cc01d3.jpg" radio="true", Zing MP3 - USUK
 https://multi-playlist-zmp3.zmdcdn.me/RckDo1XPsU4/zhls/playback-realtime/111c87d8bb9d52c30b8c/index.m3u8
 
-#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC World Service" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png" group-title="QUỐC TẾ" radio="true",BBC World Service
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC World Service" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png" group-title="QUỐC TẾ" radio="true",BBC World Service (Intl. Online)
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio=320000.m3u8
+#EXTINF:-1 tvg-id="france24eng" tvg-name="BBC World Service" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png" group-title="QUỐC TẾ" radio="true",BBC World Service (East Asia)
+http://lstn.lv/bbc.m3u8?station=bbc_world_service_east_asia&bitrate=320000
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 1" tvg-logo="https://ichef.bbci.co.uk/images/ic/1920x1080/p0cbj45j.jpg" group-title="QUỐC TẾ" radio="true",BBC Radio 1
 http://lstn.lv/bbc.m3u8?station=bbc_radio_one&bitrate=320000
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC Radio 1" tvg-logo="https://sounds.files.bbci.co.uk/3.5.0/services/bbc_1xtra/blocks-colour-black_1920x1080.png" group-title="QUỐC TẾ" radio="true",BBC Radio 1Xtra
