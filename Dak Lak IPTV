@@ -542,11 +542,11 @@ https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/maina
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/live/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="Quốc tế" tvg-logo="https://picon.ml/pervy-kanal-eu.png", OPT1
-http://otv.wotom.net:4433/udp/238.1.1.170:1234
+https://bkm.beetv.kz/btv/live/hls/000001227.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="Quốc tế" tvg-logo="https://picon.ml/rtr-planeta.png", RTR Planeta
-http://45.159.74.13:80/RTRPlaneta/tracks-v1a1/mpegts
+https://bkm.beetv.kz/btv/live/hls/000000812.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Quốc tế" tvg-logo="https://i.imgur.com/DtQX5P2.png",NTV Mir
-http://45.159.74.13:80/HTB/tracks-v1a1/mpegts
+https://bkm.beetv.kz/btv/live/hls/000000079.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -557,7 +557,7 @@ https://github.com/ChiSheng9/iptv/raw/master/TV20.m3u8
 #EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://www.ntdtv.com.tw/staticelement/img/aboutus/ntd_logo.png", NTD Asia
 https://github.com/ChiSheng9/iptv/raw/master/TV23.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Satellite Jade
-https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
+http://qwas.eatuo.com:9901/tsfile/live/1013_1.m3u8
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB Satellite News Channel
 http://live.cooltv.top/tv/tvb.php?id=0
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/XzRJxcj/8.png" group-title="Quốc tế",TVB Satellite Finance-Sport-Info Channel
@@ -741,130 +741,96 @@ http://str1.cvtv.xyz/FI?token=live
 http://str1.cvtv.xyz/CNews?token=live
 
 
-#EXTINF:-1 group-title="ĐỨC",RTL Television
-http://92.114.85.53:8000/play/a02f/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL ZWEI
-http://92.114.85.53:8000/play/a02k/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL ZWEI HD
-http://92.114.85.53:8000/play/a006/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL Bayern
-http://92.114.85.53:8000/play/a02i/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL HB NDS
-http://92.114.85.53:8000/play/a02h/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL HD
-http://92.114.85.53:8000/play/a003/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL HH SH
-http://92.114.85.53:8000/play/a02j/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL Regional NRW
-http://92.114.85.53:8000/play/a02g/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTLup
-http://92.114.85.53:8000/play/a02p/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTLup HD
-http://92.114.85.53:8000/play/a007/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Pro7 MAXX
-http://92.114.85.53:8000/play/a02x/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Pro7 MAXX HD
-http://92.114.85.53:8000/play/a00r/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ProSieben
-http://92.114.85.53:8000/play/a02t/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ProSieben HD
-http://92.114.85.53:8000/play/a00o/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1
-http://92.114.85.53:8000/play/a02s/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1 Bayern
-http://92.114.85.53:8000/play/a02z/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1 Gold
-http://92.114.85.53:8000/play/a02w/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1 Gold HD
-http://92.114.85.53:8000/play/a00d/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1 HD
-http://92.114.85.53:8000/play/a00n/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1 NRW
-http://92.114.85.53:8000/play/a030/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",3sat
-http://92.114.85.53:8000/play/a014/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Crime Time HD
-http://92.114.85.53:8000/play/a02a/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Das Erste
+#EXTM3U
+#EXTINF:-1 group-title="ĐỨC",3+ HD
+http://176.10.117.3:5000/play/a009/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",3sat HD
+http://176.10.117.3:5000/play/a005/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",4+ HD
+http://176.10.117.3:5000/play/a00a/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",5+ HD
+http://176.10.117.3:5000/play/a00b/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",6+ HD
+http://176.10.117.3:5000/play/a00c/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",7+ / Nick HD
+http://176.10.117.3:5000/play/a00x/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ARD-alpha HD
+http://176.10.117.3:5000/play/a01g/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ComedyCentral HD
+http://176.10.117.3:5000/play/a00z/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",DMAX HD
+http://176.10.117.3:5000/play/a00e/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",Das Erste HD
 http://str1.cvtv.xyz/DasErste?token=live
-#EXTINF:-1 group-title="ĐỨC",Deluxe Lounge HD
-http://92.114.85.53:8000/play/a02c/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Dlf
-http://92.114.85.53:8000/play/a018/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Dlf Kultur
-http://92.114.85.53:8000/play/a017/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Dlf Nova
-http://92.114.85.53:8000/play/a01a/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Just Fishing HD
-http://92.114.85.53:8000/play/a029/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Kabel Eins Doku HD
-http://92.114.85.53:8000/play/a00s/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",KiKA
-http://92.114.85.53:8000/play/a015/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",Disney Channel
+http://176.10.117.3:5000/play/a00w/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",Eurosport 1
+http://176.10.117.3:5000/play/a00g/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",Kanal 9 HD
+http://176.10.117.3:5000/play/a016/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",KiKA HD
+http://176.10.117.3:5000/play/a00v/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",MTV HD
+http://176.10.117.3:5000/play/a00y/index.m3u8
 #EXTINF:-1 group-title="ĐỨC",NITRO
-http://92.114.85.53:8000/play/a02o/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",NITRO HD
-http://92.114.85.53:8000/play/a011/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Red Adventure HD
-http://92.114.85.53:8000/play/a02d/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SERIEN + HD
-http://92.114.85.53:8000/play/a02b/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SIXX HD
-http://92.114.85.53:8000/play/a00q/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SUPER RTL
-http://92.114.85.53:8000/play/a02m/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SUPER RTL HD
-http://92.114.85.53:8000/play/a010/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SWR Fernsehen BW
-http://92.114.85.53:8000/play/a038/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SWR Fernsehen BW
-http://92.114.85.53:8000/play/a01h/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",TOGGO plus
-http://92.114.85.53:8000/play/a02l/index.m3u8
+http://176.10.117.3:5000/play/a00p/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ONE HD
+http://176.10.117.3:5000/play/a01d/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ORF 1 HD
+http://176.10.117.3:5000/play/a013/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ORF 2 HD
+http://176.10.117.3:5000/play/a014/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ORF III HD
+http://176.10.117.3:5000/play/a01f/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ProSieben
+http://176.10.117.3:5000/play/a00l/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ProSieben MAXX
+http://176.10.117.3:5000/play/a00q/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",RTL
+http://str1.cvtv.xyz/RTL?token=live
+#EXTINF:-1 group-title="ĐỨC",RTLZWEI
+http://176.10.117.3:5000/play/a00o/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",SAT.1
+http://176.10.117.3:5000/play/a00k/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",SAT.1 Gold
+http://176.10.117.3:5000/play/a00s/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",SIXX
+http://176.10.117.3:5000/play/a00r/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",SRF 1 HD
+http://176.10.117.3:5000/play/a011/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",SRF info HD
+http://176.10.117.3:5000/play/a008/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",SRF zwei HD
+http://176.10.117.3:5000/play/a012/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ServusTV HD
+http://176.10.117.3:5000/play/a004/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",Super RTL
+http://176.10.117.3:5000/play/a00t/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",Tele 1 HD
+http://176.10.117.3:5000/play/a019/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",TeleBärn HD
+http://176.10.117.3:5000/play/a017/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",TeleZüri HD
+http://176.10.117.3:5000/play/a01a/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",Telebasel HD
+http://176.10.117.3:5000/play/a018/index.m3u8
 #EXTINF:-1 group-title="ĐỨC",VOX
-http://92.114.85.53:8000/play/a02n/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",VOX HD
-http://92.114.85.53:8000/play/a004/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",VOXup HD
-http://92.114.85.53:8000/play/a008/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",WAIDWERK
-http://92.114.85.53:8000/play/a01o/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",WDR Köln
-http://92.114.85.53:8000/play/a037/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",WDR Köln
-http://92.114.85.53:8000/play/a01g/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",WELT
-http://92.114.85.53:8000/play/a02v/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ZDF
+http://176.10.117.3:5000/play/a00m/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",ZDF HD
 http://str1.cvtv.xyz/ZDF?token=live
-#EXTINF:-1 group-title="ĐỨC",ZDF neo
-http://92.114.85.53:8000/play/a019/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ZDF info
-http://92.114.85.53:8000/play/a016/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",hr-fernsehen
-http://92.114.85.53:8000/play/a035/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",hr-fernsehen
-http://92.114.85.53:8000/play/a01e/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",arte HD
+http://176.10.117.3:5000/play/a006/index.m3u8
 #EXTINF:-1 group-title="ĐỨC",kabel eins
-http://92.114.85.53:8000/play/a02u/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",kabel eins Doku
-http://92.114.85.53:8000/play/a031/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",kabel eins HD
-http://92.114.85.53:8000/play/a00p/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ntv
-http://92.114.85.53:8000/play/a02q/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ntv HD
-http://92.114.85.53:8000/play/a01i/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",sixx
-http://92.114.85.53:8000/play/a02y/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",BR Fernsehen Nord
-http://92.114.85.53:8000/play/a036/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",BR Fernsehen Nord
-http://92.114.85.53:8000/play/a01f/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",BR Fernsehen Süd
-http://92.114.85.53:8000/play/a034/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",BR Fernsehen Süd
-http://92.114.85.53:8000/play/a01d/index.m3u8
+http://176.10.117.3:5000/play/a00n/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",phoenix HD
+http://176.10.117.3:5000/play/a01h/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",sport1 HD
+http://176.10.117.3:5000/play/a00f/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",tagesschau24 HD
+http://176.10.117.3:5000/play/a01c/index.m3u8
+#EXTINF:-1 group-title="ĐỨC",zdf_neo HD
+http://176.10.117.3:5000/play/a01e/index.m3u8
+
 
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1
