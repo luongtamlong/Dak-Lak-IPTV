@@ -433,12 +433,27 @@ https://live.yenbaitv.org.vn/hls/livestream.m3u8
 http://ip168.homeip.net:8086/hbo.m3u8
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" group-logo="https://cdn.hqth.me/logo/category/hbo.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png", Cinemax HD
 http://ip168.homeip.net:8086/cinemax.m3u8
-#EXTINF:-1 tvg-id="HBOSignature.th" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0149.png" group-title="HBO",HBO Signature
-https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/origin/live/eds/D0117/HLS/D0117.m3u8
-#EXTINF:-1 tvg-id="HBOHits.th" tvg-logo="https://i.imgur.com/CTjmocc.png" group-title="HBO",HBO Hits
-https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/origin/live/eds/D0116/HLS/D0116.m3u8
-#EXTINF:-1 tvg-id="HBOFamily.th" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0150.png" group-title="HBO",HBO Family
-https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/origin/live/eds/D0115/HLS/D0115.m3u8
+#EXTINF:-1 tvg-id="HBO HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo.png" group-title="Nước ngoài",HBO (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a407479f074d43d798478c1212d95876:3afb53a2643939cd7128fa7ceded533a
+https://tglmp01.akamaized.net/out/v1/29687feb8f96427ca7348cd59c2338d9/manifest.mpd
+#EXTINF:-1 tvg-id="Cinemax HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-cinemax.png" group-title="Nước ngoài",Cinemax (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=32bc2ee6869144b88bee3babf202f88e:50d3b9ec49e1570621d45822923607f7
+https://tglmp04.akamaized.net/out/v1/0f439c1d8a1a47fca9ae1fa92144306e/manifest.mpd
+#EXTINF:-1 tvg-id="HBO Hits HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-hits.png" group-title="Nước ngoài",HBO Hits (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=473fabdc05ac4d9b94fd34f33f73394f:1072b1e61206c3859607984f872e549c
+https://tglmp02.akamaized.net/out/v1/0fdcb3b643af40ceb3a5b7efa39f7b72/manifest.mpd
+#EXTINF:-1 tvg-id="HBO Family HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-family.png" group-title="Nước ngoài",HBO Family (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=363b551913124d6b80074ca295b25129:a6c6efcab0076d572e5732fb6451d19c
+https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd
+#EXTINF:-1 tvg-id="HBO Signature HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-signature.png" group-title="Nước ngoài",HBO Signature (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=90480f571f5d410891d7add7103c1e84:b64f887d2480bcaea992c2f0826449a9
+https://tglmp02.akamaized.net/out/v1/b37a81eb3585471cb9c639c78edcdefa/manifest.mpd
+
 
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="In The Box" group-logo="https://cdn.hqth.me/logo/category/itb.png" tvg-logo="https://i.imgur.com/leWw1zz.png",Box Movie 1
@@ -477,8 +492,7 @@ https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/63144
 #EXTINF:-1 tvg-id="animaxhd" group-title="Hoạt hình" tvg-logo="https://cdn.hqth.me/logo/thumbs/196.png", Animax HD
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
 #EXTINF:-1 tvg-id="boomerang" group-title="Hoạt hình" tvg-logo="https://cdn.hqth.me/logo/thumbs/197.png", Cartoonito HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chboomberang/index.m3u8
+https://cdn1.skygo.mn/live/disk1/Boomerang/HLS-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-id="cartoonhd" group-title="Hoạt hình" tvg-logo="https://cdn.hqth.me/logo/thumbs/198.png", Cartoon Network HD
 https://cdn1.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8
 
