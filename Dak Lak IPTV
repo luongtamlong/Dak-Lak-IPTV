@@ -510,11 +510,11 @@ http://ip168.homeip.net:8086/hbo.m3u8
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" group-logo="https://cdn.hqth.me/logo/category/hbo.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png", Cinemax HD
 http://ip168.homeip.net:8086/cinemax.m3u8
 #EXTINF:-1 tvg-id="HBO Hits HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-hits.png" group-title="HBO",HBO Hits 
-https://z88.ubtvfans.com/live/rx4/2991/273a7fe8625fa0c90e023c22b85b0121/index.m3u8
+http://bsex.serv00.net/Smart.php?id=hbohead_twn
 #EXTINF:-1 tvg-id="HBO Family HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-family.png" group-title="HBO",HBO Family 
-https://z88.ubtvfans.com/live/rx4/3001/df04117a24423ab3d054dac48998068e/index.m3u8
+http://bsex.serv00.net/Smart.php?id=fyi_twn
 #EXTINF:-1 tvg-id="HBO Signature HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-signature.png" group-title="HBO",HBO Signature 
-https://z88.ubtvfans.com/live/rx4/2987/c9b5f67ff1d9d4ee11ba50f3dc6153aa/index.m3u8
+http://bsex.serv00.net/Smart.php?id=hbosignature_twn
 
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="In The Box" group-logo="https://cdn.hqth.me/logo/category/itb.png" tvg-logo="https://i.imgur.com/leWw1zz.png",Box Movie 1
@@ -562,9 +562,9 @@ https://i.mjh.nz/al-jazeera.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="BloombergTVEurope.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg
 https://i.mjh.nz/bloomberg-tv.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
-https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8
+http://bsex.serv00.net/Smart.php?id=bbcnews_twn
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
-https://z88.ubtvfans.com/live/rx3/1414/02e8be704b6fea1a0b884dc17d982500/index.m3u8
+http://bsex.serv00.net/Smart.php?id=cnbc_twn
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
@@ -1559,21 +1559,13 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 #EXTINF:-1 tvg-id="TV3" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/106_144.png",TV3
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"J6L3HYe/XrEFrwlvtmBdlw", "kid":"Ov4w7k6iSmf+Wi7wboPbCw" } ], "type":"temporary" }
-https://unifi-live03.secureswiftcontent.com/UnifiHD/live03.mpd
+http://bsex.serv00.net/Smart.php?id=TV3
 #EXTINF:-1 tvg-id="DidikTVKPM" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/93_144.png",NTV7
-#KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"4EDKKqQm33ibo4S6VhiRtA", "kid":"R6Ega0SCLIkyDnCRbPV7DA" } ], "type":"temporary" }
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live06.mpd
+http://bsex.serv00.net/Smart.php?id=Rtmntv7
 #EXTINF:-1 tvg-id="8TV" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/115_144.png",8TV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"BW4eSVc9LK7ly0/nj4xPPQ", "kid":"qcYZB07TjCDiWtNsPFfBDA" } ], "type":"temporary" }
-https://unifi-live08.secureswiftcontent.com/UnifiHD/live08.mpd
+http://bsex.serv00.net/Smart.php?id=TV8
 #EXTINF:-1 tvg-id="TV9" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/48_144.png",TV9
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Zfavh1DSSyMNkbmEI3rB5A", "kid":"HfqKZFr0HoPFIL3fkTk0yg" } ], "type":"temporary" }
-https://unifi-live09.secureswiftcontent.com/UnifiHD/live09.mpd
+http://bsex.serv00.net/Smart.php?id=TV9
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK03" tvg-chno="RTMK03" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/TV%20Okey.jpg",TV Okey
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
@@ -1596,6 +1588,9 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/Dewan%20Negara.jpg",Dewan Negara
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
+#EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cb/Astro_AOD.jpeg",Astro AOD
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=aod
+
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
