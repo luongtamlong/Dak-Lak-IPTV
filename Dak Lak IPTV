@@ -1314,11 +1314,16 @@ http://123.202.245.120:8009/bysid/78
 http://123.202.245.120:8009/bysid/76
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://info.hkanimal.com/png_logo/81.png" group-title="🇭🇰 Hong Kong", TVB Jade
 https://live.hkdvb.com/hls/live/81.m3u8?token=680446446337491
+#EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://info.hkanimal.com/png_logo/81.png" group-title="🇭🇰 Hong Kong", TVB Jade MPD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0958b9c657622c465a6205eb2252b8ed:2d2fd7b1661b1e28de38268872b48480
+http://edgeware-live.edgeware.tvb.com/__cl/slocalr43/__c/ott_J_hevc/__op/cenc_m/__f/index.mpd?sig=85d1ced19ec0fc82de1d36a478d12f2d&ext_start_limit=1716643735&int_start_limit=1716643735&ts=1716643735&c=850464580
 #EXTINF:-1 tvg-id="JUHD" group-title="🇭🇰 Hong Kong" tvg-logo="https://info.hkanimal.com/png_logo/81.png",TVB Jade 4K
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2c045f5adb26d391cc41cd01f00416fa:fc146771a9b096fc4cb57ffe769861be
-http://edgeware-live.edgeware.tvb.com/__cl/slocalr43/__c/ott_JUHD_hevc/__op/cenc_m/__f/index.mpd?sig=ff586d196aeab6c354d4041ceaa0a7e1&ext_start_limit=1716641633&int_start_limit=1716641633&ts=1716641633&c=850464580
+http://edgeware-live.edgeware.tvb.com/__cl/slocalr21/__c/ott_JUHD_hevc/__op/cenc_m/__f/index.mpd?sig=024a57ce68f58cf31f7acd370c0d8feb&ext_start_limit=1716643735&int_start_limit=1716643735&ts=1716643735&c=850464580
 #EXTINF:-1 tvg-id="82" tvg-name="TVB PLUS" tvg-logo="https://info.hkanimal.com/png_logo/82.png" group-title="🇭🇰 Hong Kong", TVB PLUS
 http://123.202.245.120:8008/bysid/82
 #EXTINF:-1 tvg-id="83" tvg-name="News 新聞台" tvg-logo="https://info.hkanimal.com/png_logo/83.png" group-title="🇭🇰 Hong Kong", TVB News
