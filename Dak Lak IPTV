@@ -723,37 +723,34 @@ https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC13/index.m3u8
 
 
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC1 
-http://192.168.200.245:15000/bysid/4164
+http://195.181.175.69:5080/311/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC2
-http://192.168.200.245:15000/bysid/4287
+http://195.181.175.69:2080/312/index.m3u8
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC3 
-http://192.168.200.245:15000/bysid/4288
+http://195.181.175.69:5080/349/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC4 
-http://192.168.200.245:15000/bysid/4352
-#EXTINF:-1 group-title="🇬🇧 ANH",CBBC
-http://192.168.200.245:15000/bysid/4352
-#EXTINF:-1 group-title="🇬🇧 ANH",CBeeBies 
-http://192.168.200.245:15000/bysid/4672
-#EXTINF:-1 group-title="🇬🇧 ANH",BBC Red Button
-http://192.168.200.245:15000/bysid/4416
+http://195.181.175.69:5080/21/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC News English 
-http://192.168.200.245:15000/bysid/4352
-#EXTINF:-1 group-title="🇬🇧 ANH",BBC Parliament
-http://192.168.200.245:15000/bysid/4736
+http://195.181.175.69:5080/67/mpegts
+#EXTINF:-1 group-title="🇬🇧 ANH",BBC LONDON 
+http://195.181.175.69:5080/15/mpegts
+#EXTINF:-1 group-title="🇬🇧 ANH",BBC Scotland 
+http://195.181.175.69:5080/920/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",Channel 4 
 http://195.181.175.69:5080/547/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",Channel 5 
 http://195.181.175.69:5080/19/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV1 
-http://81.137.213.119:4201/bysid/8261
+http://195.181.175.69:5080/1198/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV2 
-http://81.137.213.119:4201/bysid/8294
+http://195.181.175.69:5080/22/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV3 
-http://81.137.213.119:4201/bysid/8325
+http://195.181.175.69:5080/23/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV4 
-http://81.137.213.119:4201/bysid/8330
+http://195.181.175.69:5080/24/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",Sky News English 
 http://195.181.175.69:5080/66/mpegts
+
 
 
 #EXTINF:-1 group-title="ITALIA", Premium Action
@@ -798,6 +795,15 @@ http://pro-solut-xi.eu:5436/bossna/testiptvvv/10096
 http://pro-solut-xi.eu:5436/bossna/testiptvvv/10097
 #EXTINF:-1 group-title="ITALIA", LA 5
 http://pro-solut-xi.eu:5436/bossna/testiptvvv/10098
+
+#EXTINF:-1 group-title="🇺🇸 MẼO" tvg-id="10hd" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Network_10_logo_2018.svg/1200px-Network_10_logo_2018.svg.png",CBS
+http://69.138.132.100:9981/stream/channelid/137675104?profile=pass
+#EXTINF:-1 group-title="🇺🇸 MẼO" tvg-id="10hd" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Network_10_logo_2018.svg/1200px-Network_10_logo_2018.svg.png",NBC
+http://69.138.132.100:9981/stream/channelid/427288994?profile=pass
+#EXTINF:-1 group-title="🇺🇸 MẼO" tvg-id="10hd" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Network_10_logo_2018.svg/1200px-Network_10_logo_2018.svg.png",ABC
+http://69.138.132.100:9981/stream/channelid/137675104?profile=pass
+#EXTINF:-1 group-title="🇺🇸 MẼO" tvg-id="10hd" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Network_10_logo_2018.svg/1200px-Network_10_logo_2018.svg.png",FOX
+http://69.138.132.100:9981/stream/channelid/289113195?profile=pass
 
 #EXTINF:-1 group-title="🇦🇺 ÚC" tvg-id="10hd" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Network_10_logo_2018.svg/1200px-Network_10_logo_2018.svg.png",10 HD
 http://49.188.112.53:9981/stream/channelid/1286021296?profile=pass
