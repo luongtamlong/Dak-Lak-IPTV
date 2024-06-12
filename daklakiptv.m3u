@@ -130,12 +130,11 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/htv3/index.m3u8
 #EXTINF:-1 tvg-id="htv4" group-title="HTV" tvg-logo="https://i.imgur.com/13jHqoG.png",HTV Key
 https://1011154949.vnns.net/htvc/htv4.720p.nimble.adm.tms/playlist.m3u8
 #EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/PPFu7pv.png",HTV7
-https://vc.101vn.com/htv/htvcmb.php?id=256
+https://api.wintv.me/htv7/index.m3u8
 #EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/1SgC1yo.png",HTV9
 http://203.162.123.188:8080/htv9/index.m3u8
 #EXTINF:0 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://i.imgur.com/ZkUUWWN.png",HTV Thể Thao
-#EXTVLCOPT:http-user-agent=teohdtv
-http://171.238.180.25:18080/304.m3u8?AdaptiveType=HLS
+http://api.wintv.me/360/195/index.m3u8
 
 #EXTINF:0 tvg-id="htvcdulichhd" group-title="HTV" tvg-logo="https://i.imgur.com/XxIO0E0.png",HTVC Du Lịch và Cuộc Sống
 http://8b00087781d2.sn.mynetname.net:8888/udp/225.1.4.67:30120
@@ -220,11 +219,6 @@ http://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/n
 #EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/91XkT2M.png",SCTV Phim Tổng Hợp
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4
 http://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/hls/sctvphimtonghop/index.m3u8
-
-#EXTINF:0 tvg-id="youtv" group-title="HCATV" group-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Emblem_of_Hanoi.svg/800px-Emblem_of_Hanoi.svg.png" tvg-logo="https://i.imgur.com/jUl8zK4.png",YouTV
-http://home1.tranducanh.com:4444/udp/225.1.4.222:30120
-#EXTINF:0 tvg-id="" group-title="HCATV" tvg-logo="https://i.imgur.com/KKhrAXP.png",HCATV5
-http://home1.tranducanh.com:4444/udp/225.1.4.40:30120
 
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="Địa phương" group-logo="https://i.imgur.com/ZCB4rmF.png" tvg-logo="https://i.imgur.com/pTVybK6.png",THVL1
 http://171.238.180.25:18080/252.m3u8
@@ -1154,7 +1148,7 @@ https://live.hkdvb.com/hls/live/77.m3u8?token=680446446310897
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://info.hkanimal.com/png_logo/78.png" group-title="🇭🇰 Hong Kong", HOY TV 78
 https://live.hkdvb.com/hls/live/78.m3u8?token=680446446310897
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade
-http://221.127.62.64:9981/stream/channelid/2?
+http://60.246.171.122:8889/bysid/1
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade (Dự Phòng)
 https://live.hkdvb.com/hls/live/81.m3u8?token=680446446310897
 #EXTINF:-1 tvg-id="82" tvg-name="TVB PLUS" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/TVBPlus.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Plus
@@ -1168,11 +1162,11 @@ https://live.hkdvb.com/hls/live/84.m3u8?token=680446446310897
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
 http://60.246.171.122:8892/bysid/85
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
-http://221.127.62.64:9981/stream/channelid/3?
+http://60.246.171.122:8889/bysid/96
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six (Dự Phòng)
 https://live.hkdvb.com/hls/live/96.m3u8?token=680446446310897
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
-http://221.127.62.64:9981/stream/channelid/1?
+http://60.246.171.122:8889/bysid/99
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV (Dự Phòng)
 https://live.hkdvb.com/hls/live/99.m3u8?token=680446446310897
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/NOW%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="🇭🇰 Hong Kong", NOW News
@@ -1181,7 +1175,7 @@ https://live.hkdvb.com/hls/live/332.m3u8?token=680446446310897
 http://60.246.171.122:8891/bysid/91
 #EXTINF:0 group-title="🇭🇰 Hong Kong" tvg-name="澳視葡文CANALMACAU" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/4e/Canal_Macau.png",TDM Canal Macau
 http://60.246.171.122:8891/bysid/92
-#EXTINF:0 group-title="🇭🇰 Hong Kong" tvg-name="澳門資訊INFORMACAO" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9d/TDM_Informa%C3%A7%C3%A3o.jpg",TDM Informação
+#EXTINF:0 group-title="🇭🇰 Hong Kong" tvg-name="澳門資訊INFORMACÃO" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9d/TDM_Informa%C3%A7%C3%A3o.jpg",TDM Informação
 http://60.246.171.122:8891/bysid/94
 
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
