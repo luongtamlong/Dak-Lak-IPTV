@@ -8,14 +8,18 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml" tvg-shift=0 m3uautoload=13
 
 
-#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
-http://171.238.181.52:18080/154.m3u8
+#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
+https://api.wintv.me/vtv1/index.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2
-http://171.238.180.25:18080/192.m3u8
+https://api.wintv.me/vtv2/index.m3u8
+#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2 EURO
+http://171.227.65.31:8889/rtp/239.12.251.226:5000
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3
-http://171.238.180.25:18080/155.m3u8
+https://api.wintv.me/vtv2/index.m3u8
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3 EURO
+http://171.227.65.31:8889/rtp/239.12.251.206:5000
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
-https://api.wintv.me/360/108/index.m3u8
+https://api.wintv.me/vtv4/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
 http://171.238.181.52:18080/194.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ
@@ -91,14 +95,14 @@ https://api.wintv.me/vtvcab22/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
 https://api.wintv.me/vtvcab23/index.m3u8
 
-#EXTINF:-1 group-title="TV360 EURO" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686793977173/462bf48b67aa_640_360.png",TV360+ EURO 1
-https://tth.vn/tv360plus1
-#EXTINF:-1 group-title="TV360 EURO" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686794009990/d06c292dfa18_640_360.png",TV360+ EURO 2
-https://tth.vn/tv360plus2
-#EXTINF:-1 group-title="TV360 EURO" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png",TV360+ EURO 3
-https://tth.vn/tv360plus3
-#EXTINF:-1 group-title="TV360 EURO" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png",TV360+ EURO 4
-https://tth.vn/tv360plus4
+#EXTINF:-1 group-title="Euro 2024" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686793977173/462bf48b67aa_640_360.png", TV360+1 EURO
+https://api.wintv.me/360/2554/index.m3u8
+#EXTINF:-1 group-title="Euro 2024" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686794009990/d06c292dfa18_640_360.png", TV360+2 EURO
+https://api.wintv.me/360/1/index.m3u8
+#EXTINF:-1 group-title="Euro 2024" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png", TV360+3 EURO
+https://api.wintv.me/360/148/index.m3u8
+#EXTINF:-1 group-title="Euro 2024" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png", TV360+4 EURO
+https://api.wintv.me/360/2458/index.m3u8
 
 #EXTINF:-1 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://i.imgur.com/7HD60aD.png",VTC1
 https://api.wintv.me/360/16/index.m3u8
@@ -153,6 +157,8 @@ https://api.wintv.me/360/193/index.m3u8
 https://api.wintv.me/360/194/index.m3u8
 #EXTINF:0 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://i.imgur.com/ZkUUWWN.png",HTV Thể Thao
 http://api.wintv.me/360/195/index.m3u8
+#EXTINF:0 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://i.imgur.com/ZkUUWWN.png",HTV Thể Thao EURO
+http://171.227.65.31:8889/rtp/239.12.251.23:5000
 
 #EXTINF:0 tvg-id="htvcdulichhd" group-title="HTV" tvg-logo="https://i.imgur.com/XxIO0E0.png",HTVC Du Lịch và Cuộc Sống
 http://8b00087781d2.sn.mynetname.net:8888/udp/225.1.4.67:30120
@@ -303,9 +309,9 @@ https://tv.gialaitv.vn:8134/hls/gialaitv/gialaitv.m3u8
 https://truyenhinh.vnptvas.vn/live.m3u8?c=vstv365&q=high&pkg=pkg11.hni
 #EXTINF:-1 tvg-id="hanam" tvg-logo="https://i.imgur.com/NgcSFah.png" group-title="Địa phương",Hà Nam
 https://cdn.hanamtv.vn/live/285361fcafcd0ec47bba2fa3f5870f8dc72/playlist.m3u8
-#EXTINF:-1 tvg-id="hanoi1" group-title="Địa phương" tvg-logo="https://i.imgur.com/cx7FZnS.png",Hà Nội 1
+#EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/Je3K25E.png",HanoiTV1 HD
 https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="hanoi2" group-title="Địa phương" tvg-logo="https://i.imgur.com/Xv5g6xi.png",Hà Nội 2
+#EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/szivqh2.png",HanoiTV2 HD
 https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="hatinh" tvg-logo="https://i.imgur.com/4yIgKKx.png" group-title="Địa phương",Hà Tĩnh
 https://wse.hatinhtv.net/live/httv1/chunklist_w271915096.m3u8
