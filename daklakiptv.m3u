@@ -17,7 +17,7 @@ http://103.124.94.248/vtv3?token=live
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
 https://api.wintv.me/360/108/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
-https://api.wintv.me/360/110/index.m3u8
+http://103.124.94.248/vtv1?token=live
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ
 https://api.wintv.me/360/157/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.imgur.com/R8c2swd.png",VTV5 Tây Nguyên
@@ -162,7 +162,7 @@ https://api.wintv.me/360/13/index.m3u8
 #EXTINF:0 tvg-id="htvcplushd" group-title="HTVC" tvg-logo="https://i.imgur.com/SQ9cLJj.png",HTVC+
 https://api.wintv.me/360/132/index.m3u8
 
-#EXTINF:-1 group-title="SCTV" group-logo="https://teohdtv.github.io/thumbs/Groups/SCTV.png" tvg-logo="https://github.com/luongtamlong/Dak-Lak-IPTV/blob/main/sctv-hai-daklak.png?raw=true",SCTV Hài Đắk Lắk HD
+#EXTINF:-1 group-title="SCTV" group-logo="https://teohdtv.github.io/thumbs/Groups/SCTV.png" tvg-logo="https://github.com/luongtamlong/Dak-Lak-IPTV/blob/main/sctv-hai-daklak.png?raw=true",SCTV Hài Phụ Nữ Đắk Lắk
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4
 http://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/hls/sctv1/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/sa5Ix86.png",SCTV2
@@ -608,9 +608,9 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 
 
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC1 
-http://1042249441e.vws.vegacdn.vn/live/stream_9_114826b3.flv
+http://103.124.94.248/bbc1?token=live
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC2
-http://195.181.175.69:2080/312/index.m3u8
+http://103.124.94.248/bbc2?token=live
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC3 
 http://195.181.175.69:5080/349/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",BBC4 
@@ -626,13 +626,13 @@ http://195.181.175.69:5080/547/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",Channel 5 
 http://195.181.175.69:5080/19/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV1 
-http://104228cef22.vws.vegacdn.vn/live/stream_9_fdd655e7.flv
+http://103.124.94.248/itv1?token=live
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV2 
 http://195.181.175.69:5080/22/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV3 
 http://195.181.175.69:5080/23/mpegts
 #EXTINF:-1 group-title="🇬🇧 ANH",ITV4 
-http://195.181.175.69:5080/24/mpegts
+http://103.124.94.248/itv4?token=live
 #EXTINF:-1 group-title="🇬🇧 ANH",Sky News English 
 http://195.181.175.69:5080/66/mpegts
 
