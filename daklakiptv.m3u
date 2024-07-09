@@ -475,9 +475,9 @@ https://i.mjh.nz/al-jazeera.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="BloombergTVEurope.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg
 https://i.mjh.nz/bloomberg-tv.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
-http://bsex.serv00.net/Smart.php?id=bbcnews_twn
+http://php.jdshipin.com:8880/smt.php?id=bbcnews_twn
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
-http://bsex.serv00.net/Smart.php?id=cnbc_twn
+http://php.jdshipin.com:8880/smt.php?id=cnbc_twn
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
@@ -578,7 +578,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-id="animalhd" group-title="Khám phá" group-logo="https://cdn.hqth.me/logo/category/discovery.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/203.png", Animal Planet
 https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8
 #EXTINF:-1 tvg-id="bbcearth" group-title="Khám phá" group-logo="https://cdn.hqth.me/logo/category/discovery.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png", BBC Earth
-http://bsex.serv00.net/Smart.php?id=bbcearth_twn
+http://php.jdshipin.com:8880/smt.php?id=bbcearth_twn
 #EXTINF:-1 tvg-id="discoveryhd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/204.png", Discovery
 https://denver1769.pages.dev/Discovery/discovery_hd_english.m3u8
 #EXTINF:-1 tvg-id="discoveryasiahd" group-title="Khám phá" tvg-logo="https://cdn.hqth.me/logo/thumbs/205.png", Discovery Asia
@@ -999,7 +999,7 @@ https://ext.cdn.nashnet.tv/228.0.2.45/index.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",1+1 Марафон HD 
 https://m3u8.ott.blue/watch/45/index.m3u8?geo=auto&token=94450098895765784220366841698509
 #EXTINF: -1 group-title="🇺🇦 U Cà", 1+1 Україна
-https://m3u-editor.com/serve/cf5e4ea0-210c-11ef-891c-1b9696b4c25a/1176714938
+http://iptv.prosto.tv:7000/id553/video.m3u8?secret=4hhbmi16
 #EXTINF:-1 group-title="🇺🇦 U Cà",1+1 International 
 http://ott.watch/stream/4LMG17SVYT/105.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",2+2
@@ -1019,7 +1019,7 @@ http://ott.watch/stream/4LMG17SVYT/345.m3u8
 #EXTINF: -1 group-title="🇺🇦 U Cà", ICTV
 https://m3u-editor.com/serve/cf5e4ea0-210c-11ef-891c-1b9696b4c25a/1176714935
 #EXTINF:-1 group-title="🇺🇦 U Cà",ICTV 2 HD
-http://ott.watch/stream/4LMG17SVYT/368.m3u8
+http://iptv.prosto.tv:7000/id552/video.m3u8?secret=4hhbmi16
 #EXTINF:-1 group-title="🇺🇦 U Cà",UA: Новини HD
 http://ott.watch/stream/4LMG17SVYT/438.m3u8
 
@@ -1194,49 +1194,45 @@ https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
 http://php.jdshipin.com:8880/amlh.php
 
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
-http://bsex.serv00.net/Smart.php?id=tvbs
+http://php.jdshipin.com:8880/smt.php?id=tvbs
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS ENTERTAINMENT
-http://bsex.serv00.net/Smart.php?id=tvbshuanle_twn
+http://php.jdshipin.com:8880/smt.php?id=tvbshuanle_twn
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS NEWS
 http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="🇹🇼 Đài Loan",FORMOSA TV
-http://bsex.serv00.net/Smart.php?id=ftvhd_taiwan
+http://php.jdshipin.com:8880/smt.php?id=ftvhd_taiwan
 #EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="🇹🇼 Đài Loan",TTV
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-id="6028" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/22/CTV_text.png" group-title="🇹🇼 Đài Loan",CTV
-http://bsex.serv00.net/Smart.php?id=zhongshihd_twn
+http://php.jdshipin.com:8880/smt.php?id=zhongshihd_twn
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="🇹🇼 Đài Loan",CTS
-http://bsex.serv00.net/Smart.php?id=ctshd_twn
+http://php.jdshipin.com:8880/smt.php?id=ctshd_twn
 #EXTINF:-1 tvg-id="6054" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/01/CTI_Official_Logo.png" group-title="🇹🇼 Đài Loan",CTI
-http://bsex.serv00.net/Smart.php?id=ctizhonghe
+http://php.jdshipin.com:8880/smt.php?id=ctizhonghe
 #EXTINF:-1 tvg-id="6054" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/01/CTI_Official_Logo.png" group-title="🇹🇼 Đài Loan",CTI News
-http://bsex.serv00.net/Smart.php?id=ctinews
+http://php.jdshipin.com:8880/smt.php?id=ctinews
 #EXTINF:-1 tvg-id="6054" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c8/Public_Television_Service_%28logo%29.png" group-title="🇹🇼 Đài Loan",PTS
-http://bsex.serv00.net/Smart.php?id=ctv_taiwan
+http://php.jdshipin.com:8880/smt.php?id=ctv_taiwan
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/a/ac/Titv_logo.png" group-title="🇹🇼 Đài Loan",ABORIGINAL TV
 http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 
 
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="nhkg_tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png", NHK G 
-https://vnpt.nekocdn.xyz/hls/NHK_G/index.m3u8
+https://vnpt.nekocdn.xyz/b783a989-9e73-4bce-bfa3-9996a9eaa455.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="nhke_tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/NHKE%E3%83%86%E3%83%AC%E3%83%AD%E3%82%B42020-.png", NHK E
-https://vnpt.nekocdn.xyz/hls/NHK_E/index.m3u8
+https://vnpt.nekocdn.xyz/d074504f-ca7a-467e-a67c-a91e69461775.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="ntv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/2560px-Nippon_TV_logo_2014.svg.png", NTV
-https://vnpt.nekocdn.xyz/hls/Nippon_TV/index.m3u8
+https://vnpt.nekocdn.xyz/427b3914-a2b4-401b-b5ed-706158d73908.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="tbs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2560px-Tokyo_Broadcasting_System_logo_2020.svg.png", TBS 
-https://vnpt.nekocdn.xyz/hls/TBS/index.m3u8
+https://vnpt.nekocdn.xyz/d90fa53e-51d2-4364-aa9b-480a883a2bfb.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="fuji_tv" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Fuji_TV_Logo.svg/1049px-Fuji_TV_Logo.svg.png", Fuji TV
-https://vnpt.nekocdn.xyz/hls/Fuji_TV/index.m3u8
+https://vnpt.nekocdn.xyz/5417ea42-1305-40d2-b318-bcc9552fe3fb.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="tv_asahi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/2560px-TV_Asahi_Logo.svg.png", TV Asahi
-https://vnpt.nekocdn.xyz/hls/TV_Asahi/index.m3u8
+https://vnpt.nekocdn.xyz/0fc25793-9d0a-459d-b645-46254bd89616.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="tv_tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/TV_Tokyo_logo_2023.svg/2560px-TV_Tokyo_logo_2023.svg.png", TV Tokyo 
-https://vnpt.nekocdn.xyz/hls/TV_Tokyo/index.m3u8
+https://vnpt.nekocdn.xyz/202bea4f-c55a-4dbc-a5f3-66343cc98b0b.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="tokyo_mx1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png", TOKYO MX1
-https://vnpt.nekocdn.xyz/hls/Tokyo_MX1/index.m3u8
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="bs11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/BS11_logo.svg/2560px-BS11_logo.svg.pngion_logo_%28rainbow%29.svg.png", BS11
-http://pipe.ra1n.lol/bs11/index.m3u8
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="at-x" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2560px-AT-X_logo.svg.png", AT-X
-https://vnpt.nekocdn.xyz/hls/AT-X/index.m3u8
+https://vnpt.nekocdn.xyz/b9925493-fc55-40fe-b813-07ead8974f3f.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="nhkg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png", NHK G Osaka
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="mbs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mainichi_Broadcasting_System_logo.svg/2560px-Mainichi_Broadcasting_System_logo.svg.png", MBS
@@ -1248,7 +1244,7 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
 #EXTINF:-1 tvg-id="nhkbs1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/NHK_BS.png" group-title="🇯🇵 Nhật Bản",NHK BS 
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS101&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 #EXTINF:-1 tvg-id="nhkbs4k" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/77/NHK_BSP4K.png" group-title="🇯🇵 Nhật Bản",NHK BSP4K 
-http://60.101.47.247:9981/stream/channelid/1070215229?profile=pass
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
 #EXTINF:-1 tvg-id="bsntv" tvg-logo="https://i.postimg.cc/wvCmCc2p/t-i-xu-ng.png" group-title="🇯🇵 Nhật Bản",BS日テレ 
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS141&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 #EXTINF:-1 tvg-id="bsasahi" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bs_asahi.png" group-title="🇯🇵 Nhật Bản",BS朝日 
@@ -1414,13 +1410,13 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 #EXTINF:-1 tvg-id="TV3" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/106_144.png",TV3
-http://bsex.serv00.net/Smart.php?id=TV3
+http://php.jdshipin.com:8880/smt.php?id=TV3
 #EXTINF:-1 tvg-id="DidikTVKPM" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/93_144.png",NTV7
 https://z88.ubtvfans.com/live/rx3/439/6b72e5cc931e378d31f285f8e8ee2231/index.m3u8
 #EXTINF:-1 tvg-id="8TV" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/115_144.png",8TV
-http://bsex.serv00.net/Smart.php?id=TV8
+http://php.jdshipin.com:8880/smt.php?id=TV8
 #EXTINF:-1 tvg-id="TV9" group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/48_144.png",TV9
-http://bsex.serv00.net/Smart.php?id=TV9
+http://php.jdshipin.com:8880/smt.php?id=TV9
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK03" tvg-chno="RTMK03" tvg-logo="http://rtm.samsam123.tk/Channel%20Logo/TV%20Okey.jpg",TV Okey
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
@@ -1448,9 +1444,9 @@ https://z88.ubtvfans.com/live/rx3/440/64d347731b3e31ee397bf94ec5fc2f49/index.m3u
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/182_144.png",Astro AEC
 https://z88.ubtvfans.com/live/rx3/2745/9e39f15f04e377d91b58e759bca6be30/index.m3u8
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/158_144.png,Astro QJ
-http://bsex.serv00.net/Smart.php?id=Quanjia
+http://php.jdshipin.com:8880/smt.php?id=Quanjia
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/162_144.png",Astro Hua Hee Dai
-http://bsex.serv00.net/Smart.php?id=Huahee
+http://php.jdshipin.com:8880/smt.php?id=Huahee
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore"  tvg-id="RTMK08" tvg-chno="RTMK08" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cb/Astro_AOD.jpeg",Astro AOD
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=aod
 
