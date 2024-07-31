@@ -508,9 +508,7 @@ https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 #EXTVLCOPT:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 Asia 
-https://github.com/ChiSheng9/iptv/raw/master/TV20.m3u8
-#EXTINF:0 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://www.ntdtv.com.tw/staticelement/img/aboutus/ntd_logo.png", NTD Asia
-https://github.com/ChiSheng9/iptv/raw/master/TV23.m3u8
+http://p1.cvtv.xyz:81/c4?token=live
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Jade Sat
 http://185.243.4.229:80/live/7921751389/6097373662/5230.m3u8
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB News Sat
@@ -1095,11 +1093,11 @@ https://live.hkdvb.com/hls/live/84.m3u8?token=680446446310697
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
 https://live.hkdvb.com/hls/live/85.m3u8?token=680446446310697
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
-http://60.246.171.122:8889/bysid/96
+http://221.127.18.221:9981/stream/channelid/2134513294?ticket=b574a2f234ef6f22c7c624852d8dbf289aed1dfb&profile=pass
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six (TIẾNG QUẢNG ĐÔNG)
 https://live.hkdvb.com/hls/live/96.m3u8?token=680446446310697
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
-http://60.246.171.122:8889/bysid/99
+http://221.127.18.221:9981/stream/channelid/2134513294?ticket=b574a2f234ef6f22c7c624852d8dbf289aed1dfb&profile=pass
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV (dự phòng)
 https://live.hkdvb.com/hls/live/99.m3u8?token=680446446310697
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/NOW%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="🇭🇰 Hong Kong", NOW News
@@ -1600,22 +1598,28 @@ https://7pal.short.gy/nhlnw
 #EXTINF:-1 tvg-id="UFC.Fight.Pass.Dummy.us" tvg-logo="https://www.sportsvideo.org/wp-content/uploads/2016/01/ufc-logo-new-red.png" group-title="Sports", USA:UFC_24/7
 https://7pal.short.gy/ufc247
 
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_La_1_UHD_2024.svg/1200px-Logo_La_1_UHD_2024.svg.png",La 1 UHD
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_La_1_UHD_2024.svg/1200px-Logo_La_1_UHD_2024.svg.png",La 1 UHD
 http://p1.cvtv.xyz/la1?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://ia902703.us.archive.org/34/items/eurosport-4-k/Eurosport_4K.png",Eurosport 4K
-http://p1.cvtv.xyz/es4k?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/1200px-Eurosport_1_Logo_2015.svg.png",Eurosport 1
-http://p1.cvtv.xyz/es1?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eurosport_2_Logo_2015.svg/1200px-Eurosport_2_Logo_2015.svg.png",Eurosport 2
-http://p1.cvtv.xyz/es2?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 3
-http://p1.cvtv.xyz/es3?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 4
-http://p1.cvtv.xyz/es4?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 5
-http://p1.cvtv.xyz/es5?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 6
-http://p1.cvtv.xyz/es6?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://ia902703.us.archive.org/34/items/eurosport-4-k/Eurosport_4K.png",Eurosport 4K
+http://de.cvtv.xyz:8080/es4k?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/1200px-Eurosport_1_Logo_2015.svg.png",Eurosport 1
+http://de.cvtv.xyz:8080/es1?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eurosport_2_Logo_2015.svg/1200px-Eurosport_2_Logo_2015.svg.png",Eurosport 2
+http://de.cvtv.xyz:8080/es2?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 3
+http://de.cvtv.xyz:8080/es3?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 4
+http://de.cvtv.xyz:8080/es4?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 5
+http://de.cvtv.xyz:8080/es5?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 6
+http://de.cvtv.xyz:8080/es6?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/1200px-BBC_One_logo_2021.svg.png",BBC One
+http://de.cvtv.xyz:8080/bbc1?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/1200px-BBC_Red_Button_2021.svg.png",BBC RB 1
+http://de.cvtv.xyz:8080/bbcrb?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | KÊNH CHÍNH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/1200px-NBC_logo.svg.png",NBC
+http://p1.cvtv.xyz/nbc?token=live
 #EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live1.png",Paris Live 1
 http://p2.cvtv.xyz:82/olym1?token=live
 #EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live2.png",Paris Live 2
@@ -1650,3 +1654,8 @@ http://p2.cvtv.xyz:82/olym15?token=live
 http://p2.cvtv.xyz:82/olym16?token=live
 #EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live17.png",Paris Live 17
 http://p2.cvtv.xyz:82/olym17?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | SỰ KIỆN" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live18.png",Paris Live 18
+http://p2.cvtv.xyz:82/olym18?token=live
+#EXTINF:-1 group-title="OLYMPIC 2024 | SỰ KIỆN" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live19.png",Paris Live 19
+http://p2.cvtv.xyz:82/olym19?token=live
+
