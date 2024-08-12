@@ -14,15 +14,9 @@ http://p1.cvtv.xyz/vtv1?token=live
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/qWWpYRR.png",VTV2
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv2?token=live
-#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2 OLYMPIC
-#EXTVLCOPT:http-referrer=http://sctvonline.vn/
-https://s2.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s2.edge.cdn.sctvonline.vn/hls/vtv2/index.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv3?token=live
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3 OLYMPIC
-#EXTVLCOPT:http-referrer=http://sctvonline.vn/
-https://s12.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s12.edge.cdn.sctvonline.vn/hls/vtv3/index.m3u8
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/WsLLmR2.png",VTV4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://api.wintv.me/360/108/index.m3u8
@@ -464,19 +458,19 @@ http://49.0.64.96:8007/ABC
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cia.lk/wp-content/uploads/2021/09/logo_aje_social.png", Al Jazeera English
 https://i.mjh.nz/al-jazeera.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="BloombergTVEurope.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg
-http://p1.cvtv.xyz:81/bb?token=live
+http://p2.cvtv.xyz:81/bb?token=live
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/217.png", CNBC
-http://p1.cvtv.xyz:81/cnbc?token=live
+http://p2.cvtv.xyz:81/cnbc?token=live
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 https://jmp2.uk/SamsungTVPlus/USBB52000022Q.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://p1.cvtv.xyz:81/cnn?token=live
+http://p2.cvtv.xyz:81/cnn?token=live
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
-http://p1.cvtv.xyz:81/cna?token=live
+http://p2.cvtv.xyz:81/cna?token=live
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
-http://p1.cvtv.xyz:81/cgtn?token=live
+http://p2.cvtv.xyz:81/cgtn?token=live
 #EXTINF:-1 tvg-id="dw" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24
@@ -486,15 +480,15 @@ https://cdn1.skygo.mn/live/disk1/KBS_World_24/HLS-FTA/KBS_World_24.m3u8
 #EXTINF:-1 tvg-id="kbsworld" group-title="Quốc tế" tvg-logo="https://i.imgur.com/vylHBC8.png",KBS World
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/224.png", NHK World
-http://p1.cvtv.xyz:81/nhkw?token=live
+http://p2.cvtv.xyz:81/nhkw?token=live
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/224.png", NHK World Premium
-http://p1.cvtv.xyz:81/nhkp?token=live
+http://p2.cvtv.xyz:81/nhkp?token=live
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/225.png", TV5Monde
 https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/225.png", TV5Monde SD
 http://103.110.110.11:8081/live/TV5/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/226.png", TRT World
-http://p1.cvtv.xyz:81/trtw?token=live
+http://p2.cvtv.xyz:81/trtw?token=live
 #EXTINF:-1 group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/524px-VOA_logo.svg.png", VOA
 https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/524px-VOA_logo.svg.png", PALESTINE SAT TV
@@ -542,7 +536,7 @@ https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 #EXTVLCOPT:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 Asia 
-http://p1.cvtv.xyz:81/c4?token=live
+http://p2.cvtv.xyz:81/c4?token=live
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Jade Sat
 http://185.243.4.229:80/live/7921751389/6097373662/5230.m3u8
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB News Sat
@@ -550,9 +544,9 @@ https://tvb.860775.xyz/I-NEWS
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-09/931a1b83173c0557b46f6b7343e7e9f2.png_w250" group-title="Quốc tế",TDM Macau
 https://live5.tdm.com.mo/ch3/ch3.live/chunklist_w183583391.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="Quốc tế",Phượng Hoàng Trung Văn
-http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
+http://223.19.212.121:20131/bysid/258
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="Quốc tế",Phượng Hoàng Tin Tức
-http://p1.cvtv.xyz:81/phx?token=live
+http://p2.cvtv.xyz:81/phx?token=live
 
 #EXTINF:-1 tvg-id="animalhd" group-title="Khám phá" group-logo="https://cdn.hqth.me/logo/category/discovery.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/203.png", Animal Planet
 https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8
@@ -1055,15 +1049,15 @@ http://221.127.18.221:9981/stream/channelid/1425740866?ticket=37673dd665bda3c180
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade (DỰ PHÒNG)
 https://live.hkdvb.com/hls/live/81.m3u8?token=680446446396170
 #EXTINF:-1 tvg-id="82" tvg-name="TVB PLUS" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/TVBPlus.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Plus
-http://p1.cvtv.xyz/tvbp?token=live
+http://124.244.149.194:65531/bysid/82
 #EXTINF:-1 tvg-id="83" tvg-name="News 新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB News
-http://116.48.76.206:9981/stream/channelid/779545484?profile=pass
+http://124.244.149.194:65531/bysid/83
 #EXTINF:-1 tvg-id="84" tvg-name="Pearl 明珠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Pearl
-http://116.48.76.206:9981/stream/channelid/891527895?profile=pass
+http://124.244.149.194:65531/bysid/2
 #EXTINF:-1 tvg-id="84" tvg-name="Pearl 明珠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Pearl (TIẾNG QUẢNG ĐÔNG)
 https://live.hkdvb.com/hls/live/84.m3u8?token=680446446396170
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
-http://116.48.76.206:9981/stream/channelid/1509677341?profile=pass
+http://124.244.149.194:65531/bysid/85
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
 http://221.127.18.221:9981/stream/channelid/2134513294?ticket=b574a2f234ef6f22c7c624852d8dbf289aed1dfb&profile=pass
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six (TIẾNG QUẢNG ĐÔNG)
@@ -1629,71 +1623,3 @@ https://7pal.short.gy/mlbnw
 https://7pal.short.gy/nhlnw
 #EXTINF:-1 tvg-id="UFC.Fight.Pass.Dummy.us" tvg-logo="https://www.sportsvideo.org/wp-content/uploads/2016/01/ufc-logo-new-red.png" group-title="Sports", USA:UFC_24/7
 https://7pal.short.gy/ufc247
-
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_La_1_UHD_2024.svg/1200px-Logo_La_1_UHD_2024.svg.png",La 1 UHD
-http://p1.cvtv.xyz/1uhd?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://ia902703.us.archive.org/34/items/eurosport-4-k/Eurosport_4K.png",Eurosport 4K
-http://p2.cvtv.xyz/es4k?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/1200px-Eurosport_1_Logo_2015.svg.png",Eurosport 1
-http://p2.cvtv.xyz/es1?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eurosport_2_Logo_2015.svg/1200px-Eurosport_2_Logo_2015.svg.png",Eurosport 2
-http://p2.cvtv.xyz/es2?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 3
-http://p2.cvtv.xyz/es3?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 4
-http://p2.cvtv.xyz/es4?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 5
-http://p2.cvtv.xyz/es5?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1200px-Eurosport_Logo_2015.svg.png",Eurosport 6
-http://p2.cvtv.xyz/es6?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/1200px-BBC_One_logo_2021.svg.png",BBC One
-http://p1.cvtv.xyz/bbc1?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/1200px-BBC_Red_Button_2021.svg.png",BBC RB 1
-http://p1.cvtv.xyz/bbcrb?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/1200px-NBC_logo.svg.png",NBC
-http://p1.cvtv.xyz/nbc?token=live
-#EXTINF:-1 tvg-id="SKY.Sport.Popup.1.nz" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e2/SkySportLogo2019.png/revision/latest?cb=20210619015201" group-title="2024 PARIS OLYMPIC GAMES", SkySport_PopUp1_NZ
-https://7pal.short.gy/skypu1nz
-#EXTINF:-1 tvg-id="SKY.Sport.3.nz" tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_3_logo_stack_rgb.png" group-title="2024 PARIS OLYMPIC GAMES", SkySport3_NZ
-https://7pal.short.gy/skyspt3nz
-#EXTINF:-1 tvg-id="CBC.Calgary.HDTV.(CBRTHD).ca" tvg-logo="https://i.cbc.ca/1.4066392.1541713557!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/cbc-logo-horizontal.jpg" group-title="2024 PARIS OLYMPIC GAMES", CBC_CA
-https://7pal.short.gy/cbcca
-
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live1.png",Paris Live 1
-http://p2.cvtv.xyz:82/olym1?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live2.png",Paris Live 2
-http://p2.cvtv.xyz:82/olym2?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live3.png",Paris Live 3
-http://p2.cvtv.xyz:82/olym3?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live4.png",Paris Live 4
-http://p2.cvtv.xyz:82/olym4?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live5.png",Paris Live 5
-http://p2.cvtv.xyz:82/olym5?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live6.png",Paris Live 6
-http://p2.cvtv.xyz:82/olym6?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live7.png",Paris Live 7
-http://p2.cvtv.xyz:82/olym7?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live8.png",Paris Live 8
-http://p2.cvtv.xyz:82/olym8?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live9.png",Paris Live 9
-http://p2.cvtv.xyz:82/olym9?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live10.png",Paris Live 10
-http://p2.cvtv.xyz:82/olym10?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live11.png",Paris Live 11
-http://p2.cvtv.xyz:82/olym11?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live12.png",Paris Live 12
-http://p2.cvtv.xyz:82/olym12?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live13.png",Paris Live 13
-http://p2.cvtv.xyz:82/olym13?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live14.png",Paris Live 14
-http://p2.cvtv.xyz:82/olym14?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live15.png",Paris Live 15
-http://p2.cvtv.xyz:82/olym15?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live16.png",Paris Live 16
-http://p2.cvtv.xyz:82/olym16?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live17.png",Paris Live 17
-http://p2.cvtv.xyz:82/olym17?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live18.png",Paris Live 18
-http://p2.cvtv.xyz:82/olym18?token=live
-#EXTINF:-1 group-title="2024 PARIS OLYMPIC GAMES" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/2024/live19.png",Paris Live 19
-http://p2.cvtv.xyz:82/olym19?token=live
