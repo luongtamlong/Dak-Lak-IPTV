@@ -131,7 +131,8 @@ http://api.wintv.me/360/192/index.m3u8?htv3
 #EXTINF:-1 tvg-id="htv4" group-title="HTV" tvg-logo="https://i.imgur.com/13jHqoG.png",HTV Key
 http://api.wintv.me/360/9/index.m3u8?htvkey
 #EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/PPFu7pv.png",HTV7
-http://api.wintv.me/360/193/index.m3u8?htv7
+#EXTVLCOPT:http-user-agent=cvmedia/1.0.0
+http://p1.cvtv.xyz/htv7?token=live
 #EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/1SgC1yo.png",HTV9
 http://api.wintv.me/360/194/index.m3u8?htv9
 #EXTINF:0 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://i.imgur.com/z7NOxJ3.png",HTV Thể Thao
@@ -1550,7 +1551,9 @@ https://7pal.short.gy/tntspts4
 #EXTINF:-1 tvg-id="SkySpMainEvHD.uk" tvg-logo="https://i.imgur.com/mnAYZiQ.png" group-title="Sports", SkySports_MainEvent-FHD
 https://7pal.short.gy/SkSpMainE
 #EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-logo="https://i.imgur.com/dUAIbXN.png" group-title="Sports", SkySports_PremierLeague-FHD
-https://7pal.short.gy/ssportspl
+http://p1.cvtv.xyz/pl?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sky_Sport_Bundesliga_1_DE_Logo_2020.svg/1200px-Sky_Sport_Bundesliga_1_DE_Logo_2020.svg.png",SkySports_Bundesliga-FHD
+http://p1.cvtv.xyz/bun?token=live
 #EXTINF:-1 tvg-id="SkySp.Fball.HD.uk" tvg-logo="https://i.imgur.com/TRX5fQr.png" group-title="Sports", SkySports_Football-FHD
 https://7pal.short.gy/ssportsfb
 #EXTINF:-1 tvg-id="SkySp.F1.HD.uk" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-sports-f1-vector-logo-2021.png" group-title="Sports", SkySports_F1-FHD
@@ -1566,13 +1569,21 @@ https://7pal.short.gy/ssportsat
 #EXTINF:-1 tvg-id="SkySpBoxOff.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sky_Sports_Box_Office.png/798px-Sky_Sports_Box_Office.png" group-title="Sports", SkySports_BoxOffice
 https://7pal.short.gy/ssportsbo
 #EXTINF:-1 tvg-id="Eurosport.1.HD.uk" tvg-logo="https://media.info/i/lf/300/1447433721/1065.png" group-title="Sports", Eurosport1_UK
-https://7pal.short.gy/eusport1
+http://p1.cvtv.xyz/es1?token=live
 #EXTINF:-1 tvg-id="Eurosport.2.HD.uk" tvg-logo="https://media.info/i/lf/300/1447433758/1150.png" group-title="Sports", Eurosport2_UK
-https://7pal.short.gy/eusport2
+http://p1.cvtv.xyz/es2?token=live
 #EXTINF:-1 tvg-id="Premier.Sports.1.HD.ie" tvg-logo="https://i.imgur.com/YqTCkGk.png" group-title="Sports", PremierSports1-FHD
 https://7pal.short.gy/prsport1
 #EXTINF:-1 tvg-id="Premier.Sports.2.HD.ie" tvg-logo="https://i.imgur.com/RenHhOi.png" group-title="Sports", PremierSports2-FHD
 https://7pal.short.gy/prsport2
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png",M+LC-FHD
+http://p1.cvtv.xyz/lc?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+_Sport-FHD
+http://p1.cvtv.xyz/cp1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391293.png",Eleven_Sports1-FHD
+http://p1.cvtv.xyz/E1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391296.png",Eleven_Sports2-FHD
+http://p1.cvtv.xyz/E2?token=live
 #EXTINF:-1 tvg-id="HubPremier.1.sg" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png" group-title="Sports", HubPremier1-FHD
 https://7pal.short.gy/HPremier1
 #EXTINF:-1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png" group-title="Sports", HubPremier2-FHD
