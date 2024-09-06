@@ -519,13 +519,13 @@ https://ertflix.s.llnwi.net/ertlive/ertworld/default/index.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="Quốc tế" tvg-logo="https://picon.ml/pervy-kanal-eu.png", OPT1
-https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
+https://streaming.thestream.cyou/live/210.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="Quốc tế" tvg-logo="https://picon.ml/rtr-planeta.png", RTR Planeta
-https://streaming.thestream.cyou/live/211-req_offset_28000000-req_window_0-1k_v5.m3u8
+https://streaming.thestream.cyou/live/211.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://i.imgur.com/tpqsFzm.png",Russia 24 International
-https://streaming.thestream.cyou/live/30-req_offset_28000000-req_window_0-1k_v5.m3u8
+https://streaming.thestream.cyou/live/30.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Quốc tế" tvg-logo="https://i.imgur.com/DtQX5P2.png",NTV Mir
-https://streaming.thestream.cyou/live/213-req_offset_28000000-req_window_0-1k_v5.m3u8
+https://streaming.thestream.cyou/live/213.m3u8
 #EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/0Tu5lte.png",РЕН ТВ International
 https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
@@ -743,11 +743,11 @@ http://176.10.117.3:5000/play/a01e/index.m3u8
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://15.204.218.179:8080/channel/1e6dfe64/index.m3u8?q=57ff178edc3611b013434698a166fd54
+http://s18209.cdn.ngenix.net/hls/CH_R03_1TV/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy-pl4.png", OPT1 (MSK+4)
 http://15.204.218.179:8080/channel/1e6dfad1/index.m3u8?q=57ff178edc3611b013434698a166fd54
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1.png", Russia 1
-http://15.204.218.179:8080/channel/4f6527d7/index.m3u8?q=57ff178edc3611b013434698a166fd54
+http://s18209.cdn.ngenix.net/hls/CH_R03_1TV/playlist.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1-pl4.png", Russia 1 (MSK+4)
 http://15.204.218.179:8080/channel/b66c960/index.m3u8?q=57ff178edc3611b013434698a166fd54
 #EXTINF:-1 tvg-id="kultura" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/kultura.png", Russia K
@@ -899,9 +899,9 @@ http://f1.stream.devkom.pro:1063/ramowka/video.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",ПЕРШИЙ
 https://ext.cdn.nashnet.tv/228.0.2.45/index.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",1+1 Марафон HD 
-https://m3u8.ott.blue/watch/45/index.m3u8?geo=auto&token=94450098895765784220366841698509
+http://45.153.35.237:8000/play/a00y
 #EXTINF: -1 group-title="🇺🇦 U Cà", 1+1 Україна
-http://iptv.prosto.tv:7000/id553/video.m3u8?secret=4hhbmi16
+http://195.211.27.149:8887/8116/index.m3u8?token=test
 #EXTINF:-1 group-title="🇺🇦 U Cà",1+1 International 
 http://ott.watch/stream/4LMG17SVYT/105.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",2+2
@@ -1093,6 +1093,12 @@ http://221.127.18.221:9981/stream/channelid/1190160288?ticket=11d0a67a8a6d3ba4bd
 https://live.hkdvb.com/hls/live/332.m3u8?token=680446446332408
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/s-logo/630_e.png" group-title="🇭🇰 Hong Kong", NOW Sports Prime
 https://live.hkdvb.com/hls/live/630.m3u8?token=680446446332408
+#EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/s-logo/630_e.png" group-title="🇭🇰 Hong Kong", TDM Ou Mun
+http://60.246.171.122:8891/bysid/91
+#EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/s-logo/630_e.png" group-title="🇭🇰 Hong Kong", TDM Macau
+http://60.246.171.122:8891/bysid/92
+#EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/s-logo/630_e.png" group-title="🇭🇰 Hong Kong", TDM Informacao
+http://60.246.171.122:8891/bysid/94
 
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
 http://37.27.111.214:8080/live/23/hls.m3u8
