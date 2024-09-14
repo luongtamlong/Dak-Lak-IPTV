@@ -15,28 +15,27 @@ http://p1.cvtv.xyz/vtv2?token=live
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv1?token=live
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/qWWpYRR.png",VTV2
-http://thvip.site/vtv2/index.m3u8
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1478248429?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv3?token=live
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
-http://thvip.site/360/108/index.m3u8
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1215538992?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv5?token=live
-#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ
-http://thvip.site/360/157/index.m3u8
-#EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.imgur.com/R8c2swd.png",VTV5 Tây Nguyên
-http://thvip.site/360/207/index.m3u8
-#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.imgur.com/HCpqatZ.png",VTV Cần Thơ
-http://thvip.site/360/98/index.m3u8
-#EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.imgur.com/AgamSNe.png",VTV7
-http://thvip.site/360/6/index.m3u8
-#EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://i.imgur.com/lpcltL9.png",VTV8
-http://thvip.site/360/115/index.m3u8
-#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
-http://thvip.site/360/8/index.m3u8
-
+#EXTINF:-1 group-title="VTV HD 8.5Mbps" logo="https://i.imgur.com/mIUWkDx.png" tvg-id="vtv5hdtnb",VTV5 Tây Nam Bộ
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/5778605?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+#EXTINF:-1 group-title="VTV HD 8.5Mbps" logo="https://i.imgur.com/R8c2swd.png" tvg-id="vtv5hdtn",VTV5 Tây Nguyên
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/987931107?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+#EXTINF:-1 group-title="VTV HD 8.5Mbps" logo="https://i.imgur.com/HCpqatZ.png" tvg-id="vtv6hd",VTV Cần Thơ
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1753427862?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+#EXTINF:-1 group-title="VTV HD 8.5Mbps" logo="https://i.imgur.com/AgamSNe.png" tvg-id="vtv7hd",VTV7
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1385618848?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+#EXTINF:-1 group-title="VTV HD 8.5Mbps" logo="https://i.imgur.com/lpcltL9.png" tvg-id="vtv8hd",VTV8
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/435035386?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+#EXTINF:-1 group-title="VTV HD 8.5Mbps" logo="https://i.imgur.com/Ex1VkGQ.png" tvg-id="vtv9hd",VTV9
+http://homelab.nguyenvinh.id.vn:9981/stream/channelid/443589001?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/7GSKm46.png",ON Vie Giải Trí
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
@@ -100,7 +99,7 @@ https://liveh12.vtvcab.vn/hls/ONBTV5/04.m3u8
 
 
 #EXTINF:-1 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://i.imgur.com/7HD60aD.png",VTC1
-http://thvip.site/360/16/index.m3u8?vtc1
+http://p1.cvtv.xyz/vtc1?token=live
 #EXTINF:-1 tvg-id="vtc2hd" group-title="VTC" tvg-logo="https://i.imgur.com/WUUXS6T.png",VTC2
 http://thvip.site/360/196/index.m3u8?vtc2
 #EXTINF:-1 tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://i.imgur.com/hS4bgHe.png",VTC3
