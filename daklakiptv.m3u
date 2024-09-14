@@ -1470,14 +1470,26 @@ https://edge6a.v2h-cdn.com//boom_anime/boom_anime.stream/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/intro.mp4
 
-#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://www.myanmartvchannels.com/assets/images/channeliconb/mrtv.jpg",MRTV
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Mrtvchannellogo.png",MRTV
 https://lb-as.cdn-perfprod.com/live/livestreamingmrtv
 #EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Mrtvnews.png",MRTV News
 https://lb-as.cdn-perfprod.com/live/mrtvnewslive
-#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://www.myanmartvchannels.com/assets/images/channeliconb/mitv.jpg",MITV
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://www.myanmaritv.com/sites/all/themes/zino_theme/logo.png",MITV
 https://5a13fe32ef748.streamlock.net/mmplay/mitv/playlist.m3u8
-#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://www.myanmartvchannels.com/assets/images/channeliconb/mntv.jpg",MNTV
-https://5a13fe32ef748.streamlock.net/mmplay/mntv/playlist.m3u8
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://www.myanmaritv.com/sites/all/themes/zino_theme/logo.png",MITV HD
+https://lb-as.cdn-perfprod.com/live/mitvlivestream
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Myanmar_National_TV_Logo.jpg/440px-Myanmar_National_TV_Logo.jpg",MNTV
+https://l1-xl1.myanmarnet.com/relay/mntv/ch1/stream.m3u8
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://d8i23n05v6d5f.cloudfront.net/channels/1678162895qy6GQu.png",MRTV-4
+https://5a13fe32ef748.streamlock.net/mmplay/mrtv-4/playlist.m3u8
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://d8i23n05v6d5f.cloudfront.net/channels/1678162895qy6GQu.png",Channel 5Plus
+https://5a13fe32ef748.streamlock.net/mmplay/5plus/playlist.m3u8
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://d8i23n05v6d5f.cloudfront.net/channels/1709015344NIHZWL.png",Channel 7
+https://5a13fe32ef748.streamlock.net/mmplay/channel7/playlist.m3u8
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Channelk.png/1200px-Channelk.png",Channel K
+https://l1-xl1.myanmarnet.com/relay/channelk/ch1/stream_hi/index.m3u8
+#EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://burmese.dvb.no/logo-with-letters.png",DVB (MYANMAR CHAMPIONS LEAGUE)
+https://live-stream.dvb.no/hls/stream_src/index.m3u8
 
 EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
