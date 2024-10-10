@@ -11,27 +11,27 @@
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv1?token=live
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/qWWpYRR.png",VTV2
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1478248429?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+http://thvip.site/360/3/index.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv3?token=live
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1215538992?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+http://thvip.site/360/108/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv5?token=live
-#EXTINF:-1 group-title="VTV" logo="https://i.imgur.com/mIUWkDx.png" tvg-id="vtv5hdtnb",VTV5 Tây Nam Bộ
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/5778605?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
-#EXTINF:-1 group-title="VTV" logo="https://i.imgur.com/R8c2swd.png" tvg-id="vtv5hdtn",VTV5 Tây Nguyên
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/987931107?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
-#EXTINF:-1 group-title="VTV" logo="https://i.imgur.com/HCpqatZ.png" tvg-id="vtv6hd",VTV Cần Thơ
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1753427862?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
-#EXTINF:-1 group-title="VTV" logo="https://i.imgur.com/AgamSNe.png" tvg-id="vtv7hd",VTV7
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/1385618848?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
-#EXTINF:-1 group-title="VTV" logo="https://i.imgur.com/lpcltL9.png" tvg-id="vtv8hd",VTV8
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/435035386?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
-#EXTINF:-1 group-title="VTV" logo="https://i.imgur.com/Ex1VkGQ.png" tvg-id="vtv9hd",VTV9
-http://homelab.nguyenvinh.id.vn:9981/stream/channelid/443589001?auth=PcetW49VQ.Gr1Glc9TGqaQpoMhag&profile=pass
+#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ
+http://thvip.site/360/157/index.m3u8
+#EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.imgur.com/R8c2swd.png",VTV5 Tây Nguyên
+http://thvip.site/360/207/index.m3u8
+#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.imgur.com/HCpqatZ.png",VTV Cần Thơ
+http://thvip.site/360/98/index.m3u8
+#EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.imgur.com/AgamSNe.png",VTV7
+http://thvip.site/360/6/index.m3u8
+#EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://i.imgur.com/lpcltL9.png",VTV8
+http://thvip.site/360/115/index.m3u8
+#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
+http://thvip.site/360/8/index.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/7GSKm46.png",ON Vie Giải Trí
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
@@ -234,8 +234,10 @@ https://media.quochoitv.vn/live/quochoitv_1080p/stream.m3u8
 #EXTINF:-1 group-title="Thiết yếu" tvg-logo="https://i.imgur.com/AAWIPHz.png",VNews
 https://thvip.site/360/24/index.m3u8?vnews
 
-#EXTINF:-1 group-title="Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/98.png",HCATV1
+#EXTINF:-1 group-title="Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/98.png",HCATV1 - HiTV
 http://thvip.site/360/32/index.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/eb/Hanoicab_4_logo.png/revision/latest/scale-to-width-down/1000?cb=20230421135408&path-prefix=vi",HCATV4 - MOV HD
+https://ythls.kekikakademi.org/youtube/video/QsjmlEVL-Mc.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/Je3K25E.png",HanoiTV1 HD
 https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/szivqh2.png",HanoiTV2 HD
@@ -1048,25 +1050,25 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8
 
 #EXTINF:-1 tvg-id="31" tvg-name="港台電視 31" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/RTHK_TV_31A.svg/revision/latest?cb=20210325175806" group-title="🇭🇰 Hong Kong", RTHK 31
-https://live.hkdvb.com/hls/live/31.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/31.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="32" tvg-name="港台電視 32" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest?cb=20200511233323" group-title="🇭🇰 Hong Kong", RTHK 32
-https://live.hkdvb.com/hls/live/32.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/32.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="33" tvg-name="CCTV-1  港澳版" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a7/RTHK_TV_33.svg/revision/latest?cb=20200511233655" group-title="🇭🇰 Hong Kong", RTHK 33
-https://live.hkdvb.com/hls/live/33.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/33.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="34" tvg-name="CGTN Documentary" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/RTHK_TV_34.png/revision/latest?cb=20220815031856" group-title="🇭🇰 Hong Kong", RTHK 34
-https://live.hkdvb.com/hls/live/34.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/34.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="35" tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/85/RTHK_TV_35.svg/1024px-RTHK_TV_35.svg.png" group-title="🇭🇰 Hong Kong", RTHK 35
-https://live.hkdvb.com/hls/live/35.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/35.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="76" tvg-name="HOY 國際財經台" tvg-logo="https://info.hkanimal.com/png_logo/76.png" group-title="🇭🇰 Hong Kong", HOY TV 76
-https://live.hkdvb.com/hls/live/76.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/76.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://info.hkanimal.com/png_logo/77.png" group-title="🇭🇰 Hong Kong", HOY TV
-https://live.hkdvb.com/hls/live/77.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/77.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://info.hkanimal.com/png_logo/78.png" group-title="🇭🇰 Hong Kong", HOY TV 78
-https://live.hkdvb.com/hls/live/78.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/78.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade
-http://1.36.224.224:9981/stream/channelid/1014712634?profile=pass
+http://221.127.18.221:9981/stream/channelid/673201136?ticket=9f9defc988e5bdc983865ebd634b381ee94b8f44&profile=pass
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade UHD
-https://live.hkdvb.com/hls/live/800.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/800.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="82" tvg-name="TVB PLUS" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/TVBPlus.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Plus
 http://124.244.149.194:65531/bysid/82
 #EXTINF:-1 tvg-id="83" tvg-name="News 新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB News
@@ -1076,17 +1078,17 @@ http://124.244.149.194:65531/bysid/2
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
 http://124.244.149.194:65531/bysid/85
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
-http://1.36.224.224:9981/stream/channelid/1504751343?profile=pass
+http://221.127.18.221:9981/stream/channelid/427079922?ticket=d9ea3392a368169bd97651c14e529c1d84a9e7c7&profile=pass
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
-http://1.36.224.224:9981/stream/channelid/1531311901?profile=pass
+http://221.127.18.221:9981/stream/channelid/1985567523?ticket=1795c2c13001b3a54cf4515f6ffd1a4a8ca7d6c2&profile=pass
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/NOW%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="🇭🇰 Hong Kong", NOW News
-https://live.hkdvb.com/hls/live/332.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/332.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/s-logo/630_e.png" group-title="🇭🇰 Hong Kong", NOW Sports Prime
-https://live.hkdvb.com/hls/live/630.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/630.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/logo/621-wbg-e.png" group-title="🇭🇰 Hong Kong", NOW Sports Premier League
-https://live.hkdvb.com/hls/live/621.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/621.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/logo/632-dbg-e.png" group-title="🇭🇰 Hong Kong", NOW Sports 632 (La Liga)
-https://live.hkdvb.com/hls/live/632.m3u8?token=680446446336548
+https://live.hkdvb.com/hls/live/632.m3u8?token=680446446398457
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" group-title="🇭🇰 Hong Kong", TDM Ou Mun
 http://60.246.171.122:8891/bysid/91
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/4e/Canal_Macau.png" group-title="🇭🇰 Hong Kong", TDM Macau
