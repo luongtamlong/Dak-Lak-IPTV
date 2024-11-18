@@ -368,6 +368,8 @@ https://live.truyenhinhnghean.vn/hls/na1/index.m3u8
 https://live.mediatech.vn/live/28597f8fd7ea5064d0f84ab00b3699dfd86/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/LXuRwJY.png",PTV HD | TH Phú Thọ
 http://cdn.3ssoft.vn/livetv/phuthotv/phuthotv/index.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-logo="https://static.wikia.nocookie.net/logos/images/0/07/VTV_Ph%C3%BA_Y%C3%AAn_2012.png/revision/latest/scale-to-width-down/200?cb=20240914100101&path-prefix=vi",VTV Phú Yên | Trung tâm THVN tại Phú Yên
+http://113.161.4.48:8080/phuyen/tv/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/KVia0uU.png",Quảng Ninh Trung dăng tiên sử tài 1
 https://live.baoquangninh.vn/qtvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/ci6kzgL.png",Quảng Ninh Trung dăng tiên sử tài 3
@@ -1482,31 +1484,24 @@ https://n-edge-1-th.v2h-cdn.com/vtv_m/vtv/playlist.m3u8
 #EXTINF:-1 tvg-chno="10" ch-number="10" tvg-id="TPTV.th" tvg-name="TPTV" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/120_y_qTpbeRJvL4Nfist0A2IoES7KrD8HXgP5.png",TPTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://lb-mvtv-live.v2h-cdn.com/redirect/tptv/tptv.stream?type=m3u8
-
 #EXTINF:-1 tvg-chno="11" ch-number="11" tvg-id="MVMall Healthy" tvg-name="MVMall Healthy" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/36_y_dXKD7lFMvczOB32q4wJ1GjHbLtySYk9R.png",MVMall Healthy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://n-edge-1-th.v2h-cdn.com/mixmajor_m/mixmajor/playlist.m3u8
-
 #EXTINF:-1 tvg-chno="12" ch-number="12" tvg-id="MVMall ดี๊ดี" tvg-name="MVMall ดี๊ดี" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/40_y_9k5RXQiJ1TLVPYZsNoCez3UlADt40whb.png",MVMall ดี๊ดี
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://n-edge-1-th.v2h-cdn.com/rama_m/rama/playlist.m3u8
-
 #EXTINF:-1 tvg-chno="13" ch-number="13" tvg-id="MVMall Home" tvg-name="MVMall Home" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/112_y_15JWUfg6Psv0yKEuY7a9DmMNHz23ZlrF.jpg",MVMall Home
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://n-edge-1-th.v2h-cdn.com/mvnews/mvnews/playlist.m3u8
-
 #EXTINF:-1 tvg-chno="14" ch-number="14" tvg-id="MVMall Trend" tvg-name="MVMall Trend" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/42_y_MEQW4wbyedpLSGACI86uoJ7cDisaqYhK.jpg",MVMall Trend
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://n-edge-1-th.v2h-cdn.com/mvtvseries_m/mvtvseries/playlist.m3u8
-
 #EXTINF:-1 tvg-chno="15" ch-number="15" tvg-id="MVMall Living" tvg-name="MVMall Living" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/171_y_6VgPnhr2tLUak5d4QcpNiJWTMGuwevKB.jpg",MVMall Living
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://lb-mvtv-live.v2h-cdn.com/redirect/ttd14/ttd14.stream?type=m3u8
-
 #EXTINF:-1 tvg-chno="16" ch-number="16" tvg-id="TNN16.th" tvg-name="TNN16" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/121_y_vOC9d8VmjNiQJBHf4DEkryalx7XG13PR.png",TNN16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://lb-mvtv-live.v2h-cdn.com/redirect/tnn24/tnn24.stream?type=m3u8
-
 #EXTINF:-1 tvg-chno="17" ch-number="17" tvg-id="MVMall Family" tvg-name="MVMall Family" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/107_y_D9BqwSP7lu2iF18KmdCAOsJphWY6cUGH.jpg",MVMall Family
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://lb-mvtv-live.v2h-cdn.com/redirect/mvmall_ttd12/mvmall_ttd12.stream?type=m3u8
@@ -1654,6 +1649,41 @@ https://cdn-live.dltv.ac.th/dltv15.m3u8
 #EXTINF:-1 tvg-chno="216" ch-number="216" tvg-id="BOOM ANIME.th" tvg-name="BOOM ANIME" group-title="Thái Lan" tvg-logo="https://media-mvtv-app.imgix.net/uploads/channel/174_y_FLSV93BN1q5kyrxQ0DuzYhfORs768Ao4.png",BOOM ANIME
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://lb-mvtv-live.v2h-cdn.com/redirect/boom_anime/boom_anime.stream?type=m3u8
+
+#EXTINF:-1 group-title="Thái Lan" tvg-id="ApsaraTV11.kh",Apsara TV11 (720p)
+https://live.ams.com.kh/app/stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="BayonTV.kh",Bayon TV (720p)
+https://live.kh.malimarcdn.com/live/bayonhd.stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="CTV9.kh",CTV 9 (720p)
+https://live.kh.malimarcdn.com/live/tv9.stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="FreshNews.kh",Fresh News (720p)
+https://streaming.freshnewsasia.com/live/ngrp:myStream_all/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="HangMeasHDTV.kh",Hang Meas HDTV (1080p)
+http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="MSJTV.kh",MSJ TV (720p)
+http://124.248.165.18:1935/live/myStream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="",Netlink TV (720p)
+https://netlink.netlinkbroadcaster.com/hls/test.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="PNN.kh",PNN (720p)
+https://live.kh.malimarcdn.com/live/pnntvhd.stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="RasmeyHangMeasHDTV.kh",Rasmey Hang Meas HDTV (720p)
+http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="SEATV.kh",SEATV (1080p)
+https://seatv.netlinkbroadcaster.com/hls/test.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="",SEATV-Radio (720p)
+https://fmseatv.netlinkbroadcaster.com/hls/test.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="TownTV.kh",Town TV (720p)
+https://live.kh.malimarcdn.com/live/towntv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="TV3.kh",TV 3 (720p)
+https://edge6a.v2h-cdn.com/tv3cam/tv3cam.stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="TV5Cambodia.kh",TV5 Cambodia (720p)
+https://live-evg3.tv360.metfone.com.kh/live/tv5.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="TV5Cambodia.kh",TV5 Cambodia (720p)
+https://live.kh.malimarcdn.com/live/tv5.stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="TVK.kh",TVK (720p)
+https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8
+#EXTINF:-1 group-title="Thái Lan" tvg-id="TVK2.kh",TVK 2 (720p)
+https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TV3" group-title="Miến Điện" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Mrtvchannellogo.png",MRTV
 https://5a13fe32ef748.streamlock.net/mmplay/mrtv/playlist.m3u8
