@@ -1248,8 +1248,16 @@ http://42.2.54.143:9981/stream/channelid/2015411356?profile=pass
 http://42.2.54.143:9981/stream/channelid/1962858148?profile=pass
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade
 http://42.2.54.143:9981/stream/channelid/1014712634?profile=pass
-#EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade UHD
-https://live.hkdvb.com/hls/live/800.m3u8?token=680446446303541&edge=live.tvfree.sbs
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong", TVB Jade
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0958b9c657622c465a6205eb2252b8ed:2d2fd7b1661b1e28de38268872b48480
+https://live.hg16888.vip/mytvsuper/J
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong", TVB Jade 4K
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2c045f5adb26d391cc41cd01f00416fa:fc146771a9b096fc4cb57ffe769861be
+https://live.hg16888.vip/mytvsuper/JUHD
 #EXTINF:-1 tvg-id="82" tvg-name="TVB PLUS" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/TVBPlus.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Plus
 http://113.83.152.26:1936/bysid/2
 #EXTINF:-1 tvg-id="83" tvg-name="News 新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB News
