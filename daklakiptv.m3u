@@ -454,7 +454,10 @@ https://bkm.beetv.kz/btv/live/hls/000002943.m3u8
 
 
 #EXTINF:-1 tvg-id="animaxhd" group-title="Hoạt hình" tvg-logo="https://cdn.hqth.me/logo/thumbs/196.png", Animax HD
-http://vthanh.utako.moe/9/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b1a073dbd8272b0c99940db624ce8d74:9fec26ff4c6774a8bde881e5cb0fe82e
+https://live.hg16888.vip/mytvsuper/CANI
 #EXTINF:-1 tvg-id="animaxhd" group-title="Hoạt hình" tvg-logo="https://cdn.hqth.me/logo/thumbs/196.png", BBC CBeeBies HD
 http://antm.dynu.net:14285/rtp/232.84.1.90:10398
 #EXTINF:-1 tvg-id="boomerang" group-title="Hoạt hình" tvg-logo="https://cdn.hqth.me/logo/thumbs/197.png", Cartoonito HD
@@ -582,7 +585,10 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 https://amg00718-outdoorchannela-outdoortvnz-samsungnz-lylq4.amagi.tv/playlist/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 
 #EXTINF:-1 tvg-id="axnhd" group-title="Giải trí" group-logo="https://cdn.hqth.me/logo/category/entertainment.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/227.png", AXN
-http://8b00087781d2.sn.mynetname.net:8888/udp/225.1.4.9:30120
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=20bea0e14af0d3dcb63d4126e8b50172:07382de357a2b0cceabe82e0b37cb8de
+https://live.hg16888.vip/mytvsuper/CAXN
 #EXTINF:-1 tvg-id="afnhd" group-title="Giải trí" tvg-logo="https://logowik.com/content/uploads/images/comedy-central.jpg", Comedy Central
 https://i.mjh.nz/SamsungTVPlus/CHAK3504510A.m3u8
 #EXTINF:-1 tvg-id="afnhd" group-title="Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/263.png", Asian Food Network
@@ -1097,6 +1103,11 @@ http://ott.watch/stream/4LMG17SVYT/438.m3u8
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="TRUNG DĂNG TIÊN SỬ TÀI",CCTV-1 综合
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000311/index.m3u8?IASHttpSessionId=
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="TRUNG DĂNG TIÊN SỬ TÀI",CCTV-1 综合港澳版
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e50b18fee7cab76b9f2822e2ade8773a:2e2e8602b6d835ccf10ee56a9a7d91a2
+https://live.hg16888.vip/mytvsuper/CC1
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="TRUNG DĂNG TIÊN SỬ TÀI",CCTV-2 财经
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000317/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="TRUNG DĂNG TIÊN SỬ TÀI",CCTV-3 综艺
