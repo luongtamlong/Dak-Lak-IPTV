@@ -131,7 +131,7 @@ https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=18
 
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://i.imgur.com/KEMSBD3.png",HTV1
 https://vc.101vn.com/htv/htvcmb.php?id=2631
-#EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://i.imgur.com/Yc3cmAi.png",HTV2
+#EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://i.imgur.com/Yc3cmAi.png",HTV2 - Anh trai say Gex
 #EXTVLCOPT:http-referrer=http://sctvonline.vn/
 https://s12.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e2.endpoint.cdn.sctvonline.vn/nginx.s12.edge.cdn.sctvonline.vn/hls/htv2/index.m3u8
 #EXTINF:-1 tvg-id="htv3" group-title="HTV" tvg-logo="https://i.imgur.com/2iE01Ca.png",HTV3
@@ -142,24 +142,23 @@ https://s2.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e2.endpoint.cdn.sctvonline.vn/
 https://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e2.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/hls/htv4/index.m3u8
 #EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/PPFu7pv.png",HTV7
 http://p1.cvtv.xyz/htv7?token=live
-#EXTINF:0 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/wdS7Cr9.png",HTV9 HD 
-https://vc.101vn.com/htv/htvcmb.php?id=2667
-#EXTINF:0 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://i.imgur.com/z7NOxJ3.png",HTV Thể Thao 
-http://dinhdong.ddns.net:13579/udp/225.1.1.165:30120
-#EXTINF:0 tvg-id="htvccanhachd" group-title="HTV" tvg-logo="https://i.imgur.com/ZHVkEIC.png",HTVC Ca Nhạc 
-http://dinhdong.ddns.net:13579/udp/225.1.1.185:30120
-#EXTINF:0 tvg-id="htvcdulichhd" group-title="HTV" tvg-logo="https://i.imgur.com/XxIO0E0.png",HTVC Du Lịch và Cuộc Sống 
-http://dinhdong.ddns.net:13579/udp/225.1.1.166:30120
-#EXTINF:0 tvg-id="htvcgiadinhhd" group-title="HTV" tvg-logo="https://i.imgur.com/3WanRsM.png",HTVC Gia Đình 
-http://dinhdong.ddns.net:13579/udp/225.1.1.170:30120
-#EXTINF:0 tvg-id="htvcphimhd" group-title="HTV" tvg-logo="https://i.imgur.com/W16kIQP.png",HTVC Phim 
-http://dinhdong.ddns.net:13579/udp/225.1.1.184:30120
-#EXTINF:0 tvg-id="htvcphunuhd" group-title="HTV" tvg-logo="https://i.imgur.com/MyyovVe.png",HTVC Phụ Nữ 
-http://dinhdong.ddns.net:13579/udp/225.1.1.171:30120
-#EXTINF:0 tvg-id="htvcthuanviet" group-title="HTV" tvg-logo="https://i.imgur.com/xmISDWo.png",HTVC Thuần Việt 
-http://dinhdong.ddns.net:13579/udp/225.1.1.186:30120
-#EXTINF:0 tvg-id="htvcplushd" group-title="HTV" tvg-logo="https://i.imgur.com/SQ9cLJj.png",HTVC+ 
-http://dinhdong.ddns.net:13579/udp/225.1.1.181:30120
+#EXTINF:-1 tvg-id="htvthethaohd" group-title="HTV" group-logo="https://i.imgur.com/2MYvCZa.png" tvg-logo="https://teohdtv.github.io/thumbs/HTV/THETHAO.png",HTV Thể Thao
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=195
+
+#EXTINF:-1 tvg-id="htvccanhachd" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/CANHAC.png",HTVC Ca Nhạc
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=14
+#EXTINF:-1 tvg-id="htvcdulichhd" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/DULICH.png",HTVC Du Lịch và Cuộc Sống
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=133
+#EXTINF:-1 tvg-id="htvcgiadinhhd" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/GIADINH.png",HTVC Gia Đình
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=11
+#EXTINF:-1 tvg-id="htvcphimhd" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/phim.png",HTVC Phim
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=15
+#EXTINF:-1 tvg-id="htvcphunuhd" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/PHUNU.png",HTVC Phụ Nữ
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=12
+#EXTINF:-1 tvg-id="htvcthuanviet" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/thuan_viet.png",HTVC Thuần Việt
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=13
+#EXTINF:-1 tvg-id="htvcplushd" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/htvc_plus.png",HTVC+
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=132
 
 #EXTINF:-1 tvg-id="sctv1hd" group-title="SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/63.png", SCTV1 HD
 #EXTVLCOPT:http-referrer=http://sctvonline.vn/
