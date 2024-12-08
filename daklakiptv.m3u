@@ -9,7 +9,8 @@
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv1?token=live
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/qWWpYRR.png",VTV2
-https://tv.TruyenHinh.Click/CoBan/vtv2hd/TuyetDoiKhongKinhDoanh
+#EXTVLCOPT:http-user-agent=cvmedia/1.0.0
+http://p1.cvtv.xyz/vtv2?token=live
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv3?token=live
@@ -24,7 +25,8 @@ https://tv.TruyenHinh.Click/CoBan/vtv5hdtn/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" group-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/?logo=https://img-zlr1.tv360.vn/image1/2024/10/07/13/1728284084741/78fe644fb1ff_480_270.png",VTV5 Tây Nam Bộ
 https://tv.TruyenHinh.Click/CoBan/vtv5hdtnb/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" group-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/?logo=https://img-zlr1.tv360.vn/image1/2023/05/08/10/1683515328910/959609c1af01_480_270.png",VTV Cần Thơ HD
-https://tv.TruyenHinh.Click/CoBan/vtv6hd/TuyetDoiKhongKinhDoanh
+#EXTVLCOPT:http-user-agent=cvmedia/1.1.0
+http://p1.cvtv.xyz/vtvct?token=live
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" group-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/?logo=https://img-zlr1.tv360.vn/image1/2020_09_23/1600822556953/09c028dc8443_480_270.png",VTV7 HD
 https://tv.TruyenHinh.Click/CoBan/vtv7hd/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" group-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://tv.TruyenHinh.Click/HoiQuanLogo/?logo=https://img-zlr1.tv360.vn/image1/2020_09_21/160069439043/38ef3b4d4000_480_270.png",VTV8 HD
@@ -99,31 +101,31 @@ https://tv.TruyenHinh.Click/CoBan/vtvcab23hd/TruyenHinh.Click
 https://tth.vn/BTV5ONACTION
 
 
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/17/VTC1_logo_YouTube_VTC1_-_TIN_T%E1%BB%A8C.png /revision/latest?cb=20230701012439&path-prefix=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC1
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/17/VTC1_logo_YouTube_VTC1_-_TIN_T%E1%BB%A8C.png /revision/latest?cb=20230701012439&path-prefix=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC1
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=16
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/90/VTC2.png/revision/latest?cb=20220626043403&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC2
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/90/VTC2.png/revision/latest?cb=20220626043403&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC2
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=196
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3a/VTC3_logo_06-2021.png/revision/latest?cb =20240203141703&path-prefix=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC3
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3a/VTC3_logo_06-2021.png/revision/latest?cb =20240203141703&path-prefix=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC3
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=197
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/ba/VTC4.png/revision/latest?cb=20230710062006&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC4
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/ba/VTC4.png/revision/latest?cb=20230710062006&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC4
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=198
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/ac/VTC5.png/revision/latest?cb=20201123091837&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC5
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/ac/VTC5.png/revision/latest?cb=20201123091837&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC5
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=199
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/46/VTC6.png/revision/latest?cb=20201126044342&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC6
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/46/VTC6.png/revision/latest?cb=20201126044342&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC6
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=200
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c0/TodayTV_2023.png/revision/latest?cb=20231017101149&path -prefix=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",TodayTV - VTC7
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c0/TodayTV_2023.png/revision/latest?cb=20231017101149&path -prefix=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",TodayTV - VTC7
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=201
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/ba/VTC8_logo.png/revision/latest?cb=20220929154146&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC8
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/ba/VTC8_logo.png/revision/latest?cb=20220929154146&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC8
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=202
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/69/VTC9_logo_01.01.2018.png/revision/latest?cb =20230711094755&path-prefix=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC9
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/69/VTC9_logo_01.01.2018.png/revision/latest?cb =20230711094755&path-prefix=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC9
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=203
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/78/VTC10.png/revision/latest?cb=20220626043356&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC10
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/78/VTC10.png/revision/latest?cb=20220626043356&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC10
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=204
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/ce/VTC11.png/revision/latest?cb=20220626043400&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC11
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/ce/VTC11.png/revision/latest?cb=20220626043400&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC11
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=205
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fe/VTC14_logo_2024.png/revision/latest?cb=20240216083520&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC14
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fe/VTC14_logo_2024.png/revision/latest?cb=20240216083520&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC14
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=17
-#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/5/52/VTC16_logo.png/revision/latest?cb=20201125134909&path -tiền tố=vi" group-title="VTC" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC16
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/5/52/VTC16_logo.png/revision/latest?cb=20201125134909&path -tiền tố=vi" group-title="VTC (HẠ SAU NGÀY 15/1/2025)" catchup="" catchup-source="" catchup-days="" :http-referrer="" :http-user-agent="",VTC16
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=18
 
 
@@ -230,13 +232,13 @@ https://s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/
 https://s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s12.edge.cdn.sctvonline.vn/hls/sctvphimtonghop/index.m3u8
 
 
-#EXTINF:-1 tvg-id="quochoi" group-title="🌐| Thiết yếu" group-logo="https://i.imgur.com/i3Nszt6.png" tvg-logo="https://teohdtv.github.io/thumbs/National/QHTV.png",KÊNH 7 — Truyền Hình Quốc Hội Việt Nam
+#EXTINF:-1 tvg-id="quochoi" group-title="🌐| Thiết yếu" group-logo="https://i.imgur.com/i3Nszt6.png" tvg-logo="https://teohdtv.github.io/thumbs/National/QHTV.png",KÊNH 7 — Truyền Hình Quốc Hội Việt Nam (Hạ sau ngày 31/12/2024)
 https://liveh12.vtvcab.vn/hls/ONQUOCHOI_CL/index.m3u8
 #EXTINF:-1 tvg-id="antvhd" group-title="🌐| Thiết yếu" tvg-logo="https://teohdtv.github.io/thumbs/National/ANTV.png",ANTV — Truyền Hình Công An Nhân Dân
 https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
-#EXTINF:-1 tvg-id="ttxvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://teohdtv.github.io/thumbs/National/VNEWS.png",VNews — Truyền Hình Thông Tấn Xã Việt Nam
+#EXTINF:-1 tvg-id="ttxvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://teohdtv.github.io/thumbs/National/VNEWS.png",VNews — Truyền Hình Thông Tấn Xã Việt Nam (Hạ sau ngày 15/1/2025)
 https://liveh34.vtvcab.vn/hls/TTXVN_VNEWS/index.m3u8
-#EXTINF:-1 tvg-id="nhandan" group-title="🌐| Thiết yếu" tvg-logo="https://teohdtv.github.io/thumbs/National/NDTV.png",Truyền Hình Nhân Dân
+#EXTINF:-1 tvg-id="nhandan" group-title="🌐| Thiết yếu" tvg-logo="https://teohdtv.github.io/thumbs/National/NDTV.png",Truyền Hình Nhân Dân (Hạ sau ngày 15/12/2024)
 https://liveh34.vtvcab.vn/hls/ONNHANDAN_CL/index.m3u8
 #EXTINF:-1 tvg-id="qpvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://teohdtv.github.io/thumbs/National/QPVN.png",QPVN — Truyền Hình Quốc Phòng Việt Nam
 https://liveh34.vtvcab.vn/hls/ONQUOCPHONG_CL/index.m3u8
