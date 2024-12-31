@@ -533,16 +533,14 @@ https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://media.glassdoor.com/sqll/1026196/telesur-squarelogo-1584646341590.png", Telesur English
 https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/chunklist_w1864667901.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/200px-Rai_Italia_-_Logo_2017.svg.png" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC7/index.m3u8
+http://49.0.64.96:8007/RAI_Asia
 #EXTINF:-1 group-title="Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC4/index.m3u8
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_asia_main.m3u8
 #EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
 http://rr2.1ott.net/~109e1a3c05fcad5b22d13b9453dc0db5122/10094/hlsx/pl.m3u8
 #EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVP_World_%282021%29.svg/800px-TVP_World_%282021%29.svg.png", TVP World
@@ -891,11 +889,11 @@ https://cdnlive.presstv.ir/ifilmlive/smil:ifilmfa.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://185.101.107.131:2082/05551460890/60890/81835
+http://185.23.80.28:8080/Pervyj/index.m3u8?token=test
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy-pl4.png", OPT1 (MSK+4)
 http://185.101.107.131:2082/05551460890/60890/81715
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1.png", Russia 1
-http://405931549333983418.ofd1206.xyz:80/live/J5565VR88E/998742231/983418.ts
+http://185.23.80.28:8080/Rossiya1/index.m3u8?token=test
 #EXTINF:-1 tvg-id="rossia1-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1-pl4.png", Russia 1 (MSK+4)
 http://b7w5c5.newtissot.com:80/Y9v933CsYg/8le2DelZoo/267136
 #EXTINF:-1 tvg-id="kultura" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/kultura.png", Russia K
@@ -909,37 +907,21 @@ http://91.205.199.3/ntvplus4/index.m3u8
 #EXTINF:-1 tvg-id="karusel" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/karusel.png", Karousel
 http://93.125.121.75:80/Karusel/index.m3u8?token=test
 #EXTINF:-1 tvg-id="otr" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/OTR_2013_logo.svg/220px-OTR_2013_logo.svg.png", OTR
-http://91.142.158.107:8092/play/39/index.m3u8
+http://185.23.80.28:8080/OTR/index.m3u8?token=test
 #EXTINF:-1 tvg-id="izvestia" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Iz.tv.logo_news.png/200px-Iz.tv.logo_news.png", Izvestia Novosti
 http://178.212.71.253:8002/play/1/index.m3u8
 #EXTINF:-1 tvg-id="rbk" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://a-russia.ru/wp-content/uploads/2015/11/tvrbc-logo-top.jpg", RBK
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="zvezda" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zvezda_logo.svg/400px-Zvezda_logo.svg.png", Zvezda
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+http://94.230.128.105:8080/Zvezda/index.m3u8
 #EXTINF:-1 tvg-id="tvcentr" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://i.imgur.com/fIkd01t.png",TV Centr
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://91.142.158.107:8092/play/40/index.m3u8
+http://185.23.80.28:8080/TVCentr/index.m3u8?token=test
 #EXTINF:-1 tvg-id="5kanal-ru" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/5-tv.svg/150px-5-tv.svg.png", 5TV Russia
-http://91.142.158.107:8092/play/35/index.m3u8
+http://93.189.224.246:52900/play/a00y
 #EXTINF:-1 tvg-id="rentv" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://i.imgur.com/18TAzYV.png",REN TV
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://91.142.158.107:8092/play/41/index.m3u8
-#EXTINF:-1 tvg-id="domashny" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domashniy_tv_logo.svg/150px-Domashniy_tv_logo.svg.png", Domashny
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-https://livetv.mylifeisgood.net.ru/channels/domashnii
-#EXTINF:-1 tvg-id="piatnica" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/220px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png", Pyatnitsa! HD
-http://176.107.250.4:8001/ch16
+http://185.23.80.28:8080/REN/index.m3u8?token=test
 #EXTINF:-1 tvg-id="tnt" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/tnt.png",TNT HD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://91.142.158.107:8092/play/49/index.m3u8
-#EXTINF:-1 tvg-id="sts" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/sts.png",STS
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://91.142.158.107:8092/play/43/index.m3u8
-#EXTINF:-1 tvg-id="domkino" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/200px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png", Dom Kino
-http://31.148.48.15:80/Dom_Kino/index.m3u8?token=test
-#EXTINF:-1 tvg-id="domkino-premium" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://www.tvkeep.com/uploads/domkino-premium.jpg", Dom Kino Premium
-http://31.148.48.15:80/Dom_Kino_Premium_HD/index.m3u8?token=test
+http://94.230.128.105:8080/THT/index.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-pravo.png", NTV Pravo
 http://ntv-hls-orig.cdnvideo.ru/th_pravo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-serial.png", NTV Serial
@@ -948,8 +930,6 @@ http://ntv-hls-orig.cdnvideo.ru/th_serial/tracks-v1a1/mono.m3u8
 http://ntv-hls-orig.cdnvideo.ru/th_style/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://iptvxcdn.ml/ntv-xit.png", NTV Hit
 http://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
-#EXTINF:-1 tvg-id="h1-am" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Armenian_Public_TV_logo_%282021%29_%282%29.svg/220px-Armenian_Public_TV_logo_%282021%29_%282%29.svg.png", Armenia 1
-https://amtv1.livestreamingcdn.com/am2abr/index.m3u8
 #EXTINF:-1 tvg-id="belarus1" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Belarus-1.jpg/200px-Belarus-1.jpg", Belarus 1
 http://194.158.222.36:6101
 #EXTINF:-1 tvg-id="belarus2" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://seeklogo.com/images/B/belarus-2-logo-703A54CF7F-seeklogo.com.png", Belarus 2
@@ -1044,30 +1024,30 @@ http://f1.stream.devkom.pro:1063/ramowka/video.m3u8
 
 #EXTINF:-1 group-title="🇺🇦 U Cà",ПЕРШИЙ
 https://ext.cdn.nashnet.tv/228.0.2.45/index.m3u8
+#EXTINF:-1 group-title="🇺🇦 U Cà",Суспільне Культура
+http://cdnua03.hls.tv/679/hls/f62d71219200da4130d13b21d23fb23c/117/stream.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",1+1 Марафон HD 
-http://45.153.35.237:8000/play/a00y
+https://cdntv.online/high/vcbkpd63uh/866.m3u8
 #EXTINF: -1 group-title="🇺🇦 U Cà", 1+1 Україна
-http://195.211.27.149:8887/8116/index.m3u8?token=test
+http://rhsbjv7k.tvclub.xyz/iptv/75APUSFK39BBSMCCD3QXNNK9/987/index.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",1+1 International 
 http://ott.watch/stream/4LMG17SVYT/105.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",2+2
-http://mudy02.cularu.com:8880/12mmx010011/69774664/30312
+https://cdntv.online/high/vcbkpd63uh/854.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",KinoSweet UA HD
 http://95.67.12.180:11111
 #EXTINF:-1 group-title="🇺🇦 U Cà",Prokop TV HD UA
 http://158.101.194.132:8888/channel/n78ab16b6/index.m3u8?q=e97d5e5700840fb25c877ebd6f8590db
 #EXTINF:-1 group-title="🇺🇦 U Cà",Україна
-https://ipv4.bozztv.com/dvrfl07/ushba5/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="🇺🇦 U Cà",Україна 2
-https://ipv4.bozztv.com/dvrfl07/ushba12/tracks-v1a1/mono.m3u8
+http://rhsbjv7k.tvclub.xyz/iptv/75APUSFK39BBSMCCD3QXNNK9/31731/index.m3u8
 #EXTINF: -1 group-title="🇺🇦 U Cà", Интер
-https://m3u-editor.com/serve/cf5e4ea0-210c-11ef-891c-1b9696b4c25a/1176714934
+https://cdntv.online/high/vcbkpd63uh/785.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",Інтер+ HD
 http://ott.watch/stream/4LMG17SVYT/345.m3u8
 #EXTINF: -1 group-title="🇺🇦 U Cà", ICTV
-https://m3u-editor.com/serve/cf5e4ea0-210c-11ef-891c-1b9696b4c25a/1176714935
+https://cdntv.online/high/vcbkpd63uh/867.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",ICTV 2 HD
-http://iptv.prosto.tv:7000/id552/video.m3u8?secret=4hhbmi16
+http://cdnua03.hls.tv/919/hls/8743361621b245838bee193c9ec28322/4835/stream.m3u8
 #EXTINF:-1 group-title="🇺🇦 U Cà",UA: Новини HD
 http://ott.watch/stream/4LMG17SVYT/438.m3u8
 
@@ -1223,24 +1203,24 @@ https://live.hkdvb.com/hls/live/77.m3u8?token=680446446365829
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://info.hkanimal.com/png_logo/78.png" group-title="🇭🇰 Hong Kong", HOY TV 78
 https://live.hkdvb.com/hls/live/78.m3u8?token=680446446365829
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong", TVB Jade HD
-http://183.45.79.226:8889/bysid/1
+http://115.44.11.4:8001/bysid/1
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong", TVB Jade UHD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2c045f5adb26d391cc41cd01f00416fa:fc146771a9b096fc4cb57ffe769861be
 https://pixman.mytvsuper.com.mp/mytvsuper/JUHD
 #EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="🇭🇰 Hong Kong", TVB Plus
-http://183.45.79.226:8890/bysid/82
+http://115.44.11.4:5000/bysid/82
 #EXTINF:-1 tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://assets.livednow.com/logo/無線新聞台.png" group-title="🇭🇰 Hong Kong", TVB News
-http://183.45.79.226:8890/bysid/83
+http://115.44.11.4:5000/bysid/83
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="🇭🇰 Hong Kong", TVB Pearl
-http://183.45.79.226:8890/bysid/2
+http://115.44.11.4:5000/bysid/2
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
 http://223.19.212.121:20131/bysid/259
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
-http://183.45.79.226:8889/bysid/96
+http://115.44.11.4:8001/bysid/96
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
-http://183.45.79.226:8889/bysid/99
+http://115.44.11.4:8001/bysid/99
 #EXTINF:-1 tvg-id="332" tvg-name="NOW新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/NOW%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="🇭🇰 Hong Kong", NOW News
 https://live.hkdvb.com/hls/live/332.m3u8?token=680446446365829
 #EXTINF:-1 tvg-id="630" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/s-logo/630_e.png" group-title="🇭🇰 Hong Kong", NOW Sports Prime
