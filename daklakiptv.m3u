@@ -12,6 +12,8 @@ http://p1.cvtv.xyz/vtv1?token=live
 http://aff.cvtv.xyz/vtv2?token=live
 #EXTINF:-1 group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/VTV2_logo_2013_final.svg/1200px-VTV2_logo_2013_final.svg.png",VTV2 S2
 http://p2.cvtv.xyz/vtv2?token=live
+#EXTINF:-1 group-title="TRONG NƯỚC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/VTV2_logo_2013_final.svg/1200px-VTV2_logo_2013_final.svg.png",VTV2 S3
+http://aff2.cvtv.xyz/vtv2?token=live
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv3?token=live
@@ -42,11 +44,10 @@ https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist_b5000000.m3u8
 
-
-#EXTINF:-1 group-title="ASEAN CUP 2024" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/aff1.png",CVmedia Live
-http://p1.cvtv.xyz/fpt?token=live
-#EXTINF:-1 group-title="ASEAN CUP 2024" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/aff2.png",CVmedia Live 2
-http://p1.cvtv.xyz/fpt2?token=live
+#EXTINF:-1 group-title="ASEAN CUP 2024" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/aff1.png",ASEAN Cup Live S1
+http://p2.cvtv.xyz/fpt?token=live
+#EXTINF:-1 group-title="ASEAN CUP 2024" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/aff2.png",ASEAN Cup Live S2
+http://aff2.cvtv.xyz/fpt?token=live
 
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" group-logo="https://teohdtv.github.io/thumbs/Groups/VCTV.png" tvg-logo="https://teohdtv.github.io/thumbs/VCTV/VCTV1.png",ON Vie Giải Trí
