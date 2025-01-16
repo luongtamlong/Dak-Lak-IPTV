@@ -520,13 +520,14 @@ https://ertflix.s.llnwi.net/ertlive/ertworld/default/index.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="Quốc tế" tvg-logo="https://picon.ml/pervy-kanal-eu.png", OPT1
-https://streaming.thestream.cyou/live/210.m3u8
+#EXTVLCOPT:http-referrer=https://1tv.com/
+https://pkvc-hls4.cdnvideo.ru/Poehali/smil:Poehali.smil/chunklist_b5128000_slru.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="Quốc tế" tvg-logo="https://picon.ml/rtr-planeta.png", RTR Planeta
-https://streaming.thestream.cyou/live/211.m3u8
+http://stream01.vnet.am/RTRPlaneta/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://i.imgur.com/tpqsFzm.png",Russia 24 International
 https://streaming.thestream.cyou/live/30.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Quốc tế" tvg-logo="https://i.imgur.com/DtQX5P2.png",NTV Mir
-https://streaming.thestream.cyou/live/213.m3u8
+http://stream02.vnet.am/HTB/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/0Tu5lte.png",РЕН ТВ International
 https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
@@ -1171,25 +1172,25 @@ http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 
 
 #EXTINF:-1 tvg-id="31" tvg-name="港台電視 31" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/RTHK_TV_31A.svg/revision/latest?cb=20210325175806" group-title="🇭🇰 Hong Kong", RTHK 31
-https://live.hkdvb.com/hls/live/31.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/31.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="32" tvg-name="港台電視 32" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest?cb=20200511233323" group-title="🇭🇰 Hong Kong", RTHK 32
-https://live.hkdvb.com/hls/live/32.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/32.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="33" tvg-name="CCTV-1  港澳版" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a7/RTHK_TV_33.svg/revision/latest?cb=20200511233655" group-title="🇭🇰 Hong Kong", RTHK 33
-https://live.hkdvb.com/hls/live/33.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/33.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="34" tvg-name="CGTN Documentary" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/RTHK_TV_34.png/revision/latest?cb=20220815031856" group-title="🇭🇰 Hong Kong", RTHK 34
-https://live.hkdvb.com/hls/live/34.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/34.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="35" tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/85/RTHK_TV_35.svg/1024px-RTHK_TV_35.svg.png" group-title="🇭🇰 Hong Kong", RTHK 35
-https://live.hkdvb.com/hls/live/35.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/35.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="76" tvg-name="HOY 國際財經台" tvg-logo="https://info.hkanimal.com/png_logo/76.png" group-title="🇭🇰 Hong Kong", HOY TV 76
-https://live.hkdvb.com/hls/live/76.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/76.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://info.hkanimal.com/png_logo/77.png" group-title="🇭🇰 Hong Kong", HOY TV
-https://live.hkdvb.com/hls/live/77.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/77.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://info.hkanimal.com/png_logo/78.png" group-title="🇭🇰 Hong Kong", HOY TV 78
-https://live.hkdvb.com/hls/live/78.m3u8?token=680446446365829
+https://live.hkdvb.com/hls/live/78.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade
 http://p1.cvtv.xyz:81/Jade?token=live
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台 4K" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade UHD
-https://live.hkdvb.com/hls/live/800.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/800.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="🇭🇰 Hong Kong",TVB Plus
 http://115.44.11.4:5000/bysid/82
 #EXTINF:-1 tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://assets.livednow.com/logo/無線新聞台.png" group-title="🇭🇰 Hong Kong",TVB News
@@ -1203,35 +1204,35 @@ http://115.44.11.4:8001/bysid/96
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
 http://115.44.11.4:8001/bysid/99
 #EXTINF:-1 tvg-id="586" tvg-name="Classic 千禧經典台" tvg-logo="https://live.hkdvb.com/static/logos/85.png"  group-title="🇭🇰 Hong Kong",TVB Classic
-https://live.hkdvb.com/hls/live/586.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/586.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="89" tvg-name="華語劇台" tvg-logo="https://live.hkdvb.com/static/logos/803.png"  group-title="🇭🇰 Hong Kong",TVB Chinese Drama
-https://live.hkdvb.com/hls/live/89.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/89.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="90" tvg-name="黃金華劇台" tvg-logo="https://live.hkdvb.com/static/logos/804.png"  group-title="🇭🇰 Hong Kong",TVB Golden Chinese Drama
-https://live.hkdvb.com/hls/live/90.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/90.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="100" tvg-name="黃金翡翠台" tvg-logo="https://live.hkdvb.com/static/logos/100.png"  group-title="🇭🇰 Hong Kong",TVB Golden Jade
-https://live.hkdvb.com/hls/live/100.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/100.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="200" tvg-name="粵語片台" tvg-logo="https://live.hkdvb.com/static/logos/804.png"  group-title="🇭🇰 Hong Kong",TVB Classic Cantonese
-https://live.hkdvb.com/hls/live/200.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/200.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="201" tvg-name="美亞電影台" tvg-logo="https://live.hkdvb.com/static/logos/802.png"  group-title="🇭🇰 Hong Kong",Mei Ya Movie Channel
-https://live.hkdvb.com/hls/live/201.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/201.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="206" tvg-name="Popc" tvg-logo="https://live.hkdvb.com/static/logos/801.png"  group-title="🇭🇰 Hong Kong", Popc
-https://live.hkdvb.com/hls/live/206.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/206.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="133" tvg-name="Now Popcorn 爆谷台" tvg-logo="https://live.hkdvb.com/static/logos/133.png"  group-title="🇭🇰 Hong Kong", Now Popcorn 
-https://live.hkdvb.com/hls/live/133.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/133.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="138" tvg-name="Now Superstars 星影台" tvg-logo="https://live.hkdvb.com/static/logos/138.png"  group-title="🇭🇰 Hong Kong", Now Superstars 
-https://live.hkdvb.com/hls/live/138.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/138.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="332" tvg-name="Now NEWS 新聞台" tvg-logo="https://live.hkdvb.com/static/logos/332.png"  group-title="🇭🇰 Hong Kong", Now NEWS 
-https://live.hkdvb.com/hls/live/332.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/332.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="621" tvg-name="Now Sports 英超1台" tvg-logo="https://live.hkdvb.com/static/logos/621.jpg"  group-title="🇭🇰 Hong Kong", Now Sports 
-https://live.hkdvb.com/hls/live/621.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/621.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="630" tvg-name="Now Sports Prime" tvg-logo="https://live.hkdvb.com/static/logos/630.png"  group-title="🇭🇰 Hong Kong", Now Sports Prime
-https://live.hkdvb.com/hls/live/630.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/630.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="632" tvg-name="Now Sports 632" tvg-logo="https://live.hkdvb.com/static/logos/632.jpg"  group-title="🇭🇰 Hong Kong", Now Sports 632
-https://live.hkdvb.com/hls/live/632.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/632.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="641" tvg-name="Now Sports 641" tvg-logo="https://live.hkdvb.com/static/logos/641.png"  group-title="🇭🇰 Hong Kong", Now Sports 641
-https://live.hkdvb.com/hls/live/641.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/641.m3u8?token=680446446372039
 #EXTINF:-1 tvg-id="642" tvg-name="Now Sports 642" tvg-logo="https://live.hkdvb.com/static/logos/642.png"  group-title="🇭🇰 Hong Kong", Now Sports 642
-https://live.hkdvb.com/hls/live/642.m3u8?token=680446446346538&edge=live.tvfree.sbs
+https://live.hkdvb.com/hls/live/642.m3u8?token=680446446372039
 
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
 http://aktv.top/AKTV/live/aktv/tvbs/AKTV.m3u8
