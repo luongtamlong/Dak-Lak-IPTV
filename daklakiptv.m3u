@@ -9,7 +9,7 @@
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv1?token=live
 #EXTINF:-1 group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/VTV2_logo_2013_final.svg/1200px-VTV2_logo_2013_final.svg.png",VTV2 S1
-http://aff.cvtv.xyz/vtv2?token=live
+http://p1.cvtv.xyz/vtv2?token=live
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv3?token=live
@@ -1095,80 +1095,74 @@ http://tv.kmhlzxs.top:35455/gaoma/cctv4k_10m.m3u8
 http://tv.kmhlzxs.top:35455/gaoma/cctv4k.m3u8
 #EXTINF:-1,tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="TRUNG QUỐC",cctv8k_36m
 http://tv.kmhlzxs.top:35455/gaoma/cctv8k_36m.m3u8
-#EXTINF:-1 tvg-name="安徽卫视" tvg-id="安徽卫视" tvg-logo="https://live.zbds.top/logo/安徽卫视.png" group-title="TRUNG HOA", AN HUY
-http://220.164.192.48:50085/tsfile/live/0126_1.m3u8
-#EXTINF:-1 tvg-name="北京卫视" tvg-id="北京卫视" tvg-logo="https://live.zbds.top/logo/北京卫视.png" group-title="TRUNG HOA", BẮC KINH
-http://220.164.192.48:50085/tsfile/live/0135_1.m3u8
-#EXTINF:-1 tvg-name="兵团卫视" tvg-id="兵团卫视" tvg-logo="https://live.zbds.top/logo/兵团卫视.png" group-title="TRUNG HOA", BINH ĐOÀN TÂN CƯƠNG
-https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://live.zbds.top/logo/东方卫视.png" group-title="TRUNG HOA", DRAGON TV
-http://61.136.172.236:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路1』
-#EXTINF:-1 tvg-name="东南卫视" tvg-id="东南卫视" tvg-logo="https://live.zbds.top/logo/东南卫视.png" group-title="TRUNG HOA", PHÚC KIẾN
-http://101.66.199.54:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路1』
-#EXTINF:-1 tvg-name="甘肃卫视" tvg-id="甘肃卫视" tvg-logo="https://live.zbds.top/logo/甘肃卫视.png" group-title="TRUNG HOA", CAM TÚC
-http://202.100.46.58:9901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路2』
-#EXTINF:-1 tvg-name="广东卫视" tvg-id="广东卫视" tvg-logo="https://live.zbds.top/logo/广东卫视.png" group-title="TRUNG HOA", QUẢNG ĐÔNG
-http://220.164.192.48:50085/tsfile/live/0139_1.m3u8
-#EXTINF:-1 tvg-name="广西卫视" tvg-id="广西卫视" tvg-logo="https://live.zbds.top/logo/广西卫视.png" group-title="TRUNG HOA", QUẢNG TÂY
-http://220.164.192.48:50085/tsfile/live/0112_1.m3u8
-#EXTINF:-1 tvg-name="贵州卫视" tvg-id="贵州卫视" tvg-logo="https://live.zbds.top/logo/贵州卫视.png" group-title="TRUNG HOA", QUÝ CHÂU
-http://220.164.192.48:50085/tsfile/live/0125_1.m3u8
-#EXTINF:-1 tvg-name="海南卫视" tvg-id="海南卫视" tvg-logo="https://live.zbds.top/logo/海南卫视.png" group-title="TRUNG HOA", HẢI NAM
-http://220.164.192.48:50085/tsfile/live/1003_1.m3u8
-#EXTINF:-1 tvg-name="海峡卫视" tvg-id="3" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/海峡卫视.png" group-title="TRUNG HOA", ĐÀI EO BIỂN
-http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
-#EXTINF:-1 tvg-name="河北卫视" tvg-id="河北卫视" tvg-logo="https://live.zbds.top/logo/河北卫视.png" group-title="TRUNG HOA", HÀ BẮC
-http://39.164.160.249:9901/tsfile/live/0117_1.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-id="河南卫视" tvg-logo="https://live.zbds.top/logo/河南卫视.png" group-title="TRUNG HOA", HÀ NAM
-http://220.164.192.48:50085/tsfile/live/0116_1.m3u8
-#EXTINF:-1 tvg-name="湖北卫视" tvg-id="湖北卫视" tvg-logo="https://live.zbds.top/logo/湖北卫视.png" group-title="TRUNG HOA", HỒ BẮC
-http://220.164.192.48:50085/tsfile/live/0123_1.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" tvg-id="湖南卫视" tvg-logo="https://live.zbds.top/logo/湖南卫视.png" group-title="TRUNG HOA", MANGO TV HỒ NAM
-http://42.48.50.232:9002/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路15』
-#EXTINF:-1 tvg-name="吉林卫视" tvg-id="吉林卫视" tvg-logo="https://live.zbds.top/logo/吉林卫视.png" group-title="TRUNG HOA", CÁT LÂM
-http://220.164.192.48:50085/tsfile/live/0118_1.m3u8
-#EXTINF:-1 tvg-name="江苏卫视" tvg-id="江苏卫视" tvg-logo="https://live.zbds.top/logo/江苏卫视.png" group-title="TRUNG HOA", GIANG TÔ
-http://220.164.192.48:50085/tsfile/live/0128_1.m3u8
-#EXTINF:-1 tvg-name="江西卫视" tvg-id="江西卫视" tvg-logo="https://live.zbds.top/logo/江西卫视.png" group-title="TRUNG HOA", GIANG TÂY
-http://39.164.160.249:9901/tsfile/live/0138_1.m3u8
-#EXTINF:-1 tvg-name="康巴卫视" tvg-id="康巴卫视" tvg-logo="https://ghproxy.kilvn.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/康巴卫视.png" group-title="地方频道", TÂY TẠNG
-http://61.157.139.15:9901/tsfile/live/2415_1.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-id="辽宁卫视" tvg-logo="https://live.zbds.top/logo/辽宁卫视.png" group-title="TRUNG HOA", LIÊU NINH
-http://60.12.183.46:9901/tsfile/live/0123_1.m3u8
-#EXTINF:-1 tvg-name="宁夏卫视" tvg-id="宁夏卫视" tvg-logo="https://live.zbds.top/logo/宁夏卫视.png" group-title="TRUNG HOA", NINH HẠ
-http://58.57.40.22:9901/tsfile/live/1054_1.m3u8
-#EXTINF:-1 tvg-name="青海卫视" tvg-id="青海卫视" tvg-logo="https://live.zbds.top/logo/青海卫视.png" group-title="TRUNG HOA", THANH HẢI
-http://58.57.40.22:9901/tsfile/live/1057_1.m3u8
-#EXTINF:-1 tvg-name="三沙卫视" tvg-id="三沙卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/三沙卫视.png" group-title="TRUNG HOA", HOÀNG SA TRƯỜNG SA LÀ CỦA VIỆT NAM
-https://github.com/luongtamlong/Dak-Lak-IPTV/raw/refs/heads/main/TAM%20SA%20TV.mp4
-#EXTINF:-1 tvg-name="厦门卫视" tvg-id="厦门卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/厦门卫视.png" group-title="地方频道", HẠ MÔN
-http://60.208.61.2:352/tsfile/live/0119_1.m3u8
-#EXTINF:-1 tvg-name="山东卫视" tvg-id="山东卫视" tvg-logo="https://live.zbds.top/logo/山东卫视.png" group-title="TRUNG HOA", SƠN ĐÔNG
-http://60.12.183.46:9901/tsfile/live/0125_1.m3u8
-#EXTINF:-1 tvg-name="山西卫视" tvg-id="山西卫视" tvg-logo="https://live.zbds.top/logo/山西卫视.png" group-title="TRUNG HOA", SƠN TÂY
-http://220.164.192.48:50085/tsfile/live/0117_1.m3u8
-#EXTINF:-1 tvg-name="陕西卫视" tvg-id="陕西卫视" tvg-logo="https://live.zbds.top/logo/陕西卫视.png" group-title="TRUNG HOA", THIỂM TÂY
-http://39.164.160.249:9901/tsfile/live/0136_1.m3u8
-#EXTINF:-1 tvg-name="深圳卫视" tvg-id="深圳卫视" tvg-logo="https://live.zbds.top/logo/深圳卫视.png" group-title="TRUNG HOA", THÂM QUYẾN
-http://220.164.192.48:50085/tsfile/live/0142_1.m3u8
-#EXTINF:-1 tvg-name="四川卫视" tvg-id="四川卫视" tvg-logo="https://live.zbds.top/logo/四川卫视.png" group-title="TRUNG HOA", TỨ XUYÊN
-http://220.164.192.48:50085/tsfile/live/0143_1.m3u8
-#EXTINF:-1 tvg-name="天津卫视" tvg-id="天津卫视" tvg-logo="https://live.zbds.top/logo/天津卫视.png" group-title="TRUNG HOA", THIÊN TÂN
-http://220.164.192.48:50085/tsfile/live/0130_1.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-id="云南卫视" tvg-logo="https://live.zbds.top/logo/云南卫视.png" group-title="TRUNG HOA", VÂN NAM
-http://123.7.110.43:9901/tsfile/live/0142_1.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" tvg-id="浙江卫视" tvg-logo="https://live.zbds.top/logo/浙江卫视.png" group-title="TRUNG HOA", CHIẾT GIANG
-http://223.105.252.8/PLTV/4/224/3221228147/index.m3u8
-#EXTINF:-1 tvg-name="重庆卫视" tvg-id="重庆卫视" tvg-logo="https://live.zbds.top/logo/重庆卫视.png" group-title="TRUNG HOA", TRÙNG KHÁNH
-http://58.57.40.22:9901/tsfile/live/0142_1.m3u8
-#EXTINF:-1 tvg-name="南方卫视" tvg-id="南方卫视" tvg-logo="https://live.zbds.top/logo/南方卫视.png" group-title="TRUNG HOA", TVS-1
-http://111.196.129.152:20000/udp/239.3.1.161:8001
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-id="黑龙江卫视" tvg-logo="https://live.zbds.top/logo/黑龙江卫视.png" group-title="TRUNG HOA", HẮC LONG GIANG
-http://39.164.160.249:9901/tsfile/live/0143_1.m3u8
-#EXTINF:-1 tvg-name="内蒙古卫视" tvg-id="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/内蒙古卫视.png" group-title="TRUNG HOA", NỘI MÔNG
-http://221.224.4.170:1111/tsfile/live/0114_1.m3u8
-#EXTINF:-1 tvg-name="山东教育卫视" tvg-id="山东教育卫视" tvg-logo="https://live.zbds.top/logo/山东教育.png" group-title="TRUNG HOA", SƠN ĐÔNG THỂ THAO
-http://58.57.40.22:9901/tsfile/live/1026_1.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.cn/tv/北京卫视.png" group-title="TRUNG QUỐC",北京卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.cn/tv/江苏卫视.png" group-title="TRUNG QUỐC",江苏卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.cn/tv/浙江卫视.png" group-title="TRUNG QUỐC",浙江卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226899/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ETYfTgTra_pUx2cPrgZ_BDw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://live.fanmingming.cn/tv/东方卫视.png" group-title="TRUNG QUỐC",东方卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226898/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0uh4lyjjBCCN7TCq21vSIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://live.fanmingming.cn/tv/广东卫视.png" group-title="TRUNG QUỐC",广东卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E2MGyx659D_aaDPP0qt3NgA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.cn/tv/黑龙江卫视.png" group-title="TRUNG QUỐC",黑龙江卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7UiKL56-L86ihmTWaZ6csw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.cn/tv/深圳卫视.png" group-title="TRUNG QUỐC",深圳卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226959/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGrVNEZREjuNVKiTJo2mtwg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://live.fanmingming.cn/tv/天津卫视.png" group-title="TRUNG QUỐC",天津卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eaf3wyULP1h575eM_4ByMDg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://live.fanmingming.cn/tv/山东卫视.png" group-title="TRUNG QUỐC",山东卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://live.fanmingming.cn/tv/湖北卫视.png" group-title="TRUNG QUỐC",湖北卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EREB40lnZnCEwjRy7LZuhIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.cn/tv/贵州卫视.png" group-title="TRUNG QUỐC",贵州卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EnqBF03rFwPucF8ODtWxLQQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://live.fanmingming.cn/tv/江西卫视.png" group-title="TRUNG QUỐC",江西卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226956/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ei6ZIpVizXlewg-YfGvH8dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.cn/tv/重庆卫视.png" group-title="TRUNG QUỐC",重庆卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://live.fanmingming.cn/tv/辽宁卫视.png" group-title="TRUNG QUỐC",辽宁卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E6qJH8Fd-zgCGx3P-Ce86cA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://live.fanmingming.cn/tv/东南卫视.png" group-title="TRUNG QUỐC",东南卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226991/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQ6F5Mjgs0tJyEArWFL3vQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://live.fanmingming.cn/tv/四川卫视.png" group-title="TRUNG QUỐC",四川卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://live.fanmingming.cn/tv/广西卫视.png" group-title="TRUNG QUỐC",广西卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227010/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkAhb-89sxdm9fz6-heXCuw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://live.fanmingming.cn/tv/河北卫视.png" group-title="TRUNG QUỐC",河北卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227014/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErSGjhI3DMaaAASPrbQJYTg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://live.fanmingming.cn/tv/山西卫视.png" group-title="TRUNG QUỐC",山西卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://live.fanmingming.cn/tv/陕西卫视.png" group-title="TRUNG QUỐC",陕西卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://live.fanmingming.cn/tv/青海卫视.png" group-title="TRUNG QUỐC",青海卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227017/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EacviHy_ucMT27Ymf2iLtZA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.cn/tv/安徽卫视.png" group-title="TRUNG QUỐC",安徽卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226943/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0QmKQ_slRCwvVVUUfxPVbw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://live.fanmingming.cn/tv/甘肃卫视.png" group-title="TRUNG QUỐC",甘肃卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227003/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESco1zinvdUYzleEkXYhIvA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://live.fanmingming.cn/tv/宁夏卫视.png" group-title="TRUNG QUỐC",宁夏卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://live.fanmingming.cn/tv/内蒙古卫视.png" group-title="TRUNG QUỐC",内蒙古卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227018/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErN_hoRDwApMKnJqiNHvn9w%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://live.fanmingming.cn/tv/云南卫视.png" group-title="TRUNG QUỐC",云南卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227028/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGfQPqRNVeBjTMsZ48qu0SA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://live.fanmingming.cn/tv/新疆卫视.png" group-title="TRUNG QUỐC",新疆卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227011/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ExAUu61iVvo_xYbANWJhgXw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.cn/tv/吉林卫视.png" group-title="TRUNG QUỐC",吉林卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://live.fanmingming.cn/tv/海南卫视.png" group-title="TRUNG QUỐC",海南卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://live.fanmingming.cn/tv/西藏卫视.png" group-title="TRUNG QUỐC",西藏卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227033/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EdeTB7OZ9G_VNJk5C3t96fQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="延边卫视" tvg-logo="https://live.fanmingming.cn/tv/延边卫视.png" group-title="TRUNG QUỐC",延边卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227045/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eq0D3NdTUN7FuRzr8eJsbQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.cn/tv/康巴卫视.png" group-title="TRUNG QUỐC",康巴卫视
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="CETV1" tvg-logo="https://live.fanmingming.cn/tv/CETV1.png" group-title="TRUNG QUỐC",CETV-1
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227021/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ELlgU9sgTT7iMtFgKHFa-dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="CETV4" tvg-logo="https://live.fanmingming.cn/tv/CETV4.png" group-title="TRUNG QUỐC",CETV-4
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade
 http://115.44.11.4:8001/bysid/1
