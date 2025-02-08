@@ -1400,7 +1400,7 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPla
 #EXTINF:-1 tvg-id="32" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="🇭🇰 Hong Kong", HOY TV
 http://cdn.132.us.kg/live/hoy/stream.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade
-http://m.osvs.asia:8000/bysid/1
+http://beishan008.asuscomm.com:8889/bysid/1
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade SD
 http://php.jdshipin.com/TVOD/iptv.php?id=fct
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade 4K
@@ -1414,20 +1414,12 @@ http://grandprix2023.asuscomm.com:8892/bysid/2
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
 http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
-http://m.osvs.asia:8000/bysid/96
+http://beishan008.asuscomm.com:8889/bysid/96
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
-http://m.osvs.asia:8000/bysid/99
-#EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV (2nd Feed)
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/TDM_Ou_Mun.png/revision/latest/scale-to-width-down/270?cb=20220124185106" group-title="🇭🇰 Hong Kong", TDM Ou Mun
-http://cdn.132.us.kg/live/asam/stream.m3u8
-#EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/Canal_Macau.png/revision/latest/scale-to-width-down/120?cb=20220124185233" group-title="🇭🇰 Hong Kong", TDM Canal Macau
-http://grandprix2023.asuscomm.com:8891/bysid/92.m3u8
-#EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/Canal_Macau.png/revision/latest/scale-to-width-down/120?cb=20220124185233" group-title="🇭🇰 Hong Kong", TDM Informacao
-http://grandprix2023.asuscomm.com:8891/bysid/94.m3u8
+http://beishan008.asuscomm.com:8889/bysid/99
 
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
-http://aktv.top/AKTV/live/aktv/tvbs-1/AKTV.m3u8
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS ENTERTAINMENT
 rtmp://f13h.mine.nu:1935/sat/tv421
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS NEWS
@@ -1437,9 +1429,12 @@ rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="🇹🇼 Đài Loan",TTV
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-id="6028" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/22/CTV_text.png" group-title="🇹🇼 Đài Loan",CTV
-http://aktv.top/AKTV/live/aktv/null-10/AKTV.m3u8
+rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="🇹🇼 Đài Loan",CTS
-http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 tvg-name="中天亞洲台" tvg-logo="http://aktv.top/ak_ad1.gif" group-title="🇹🇼 Đài Loan",CTI
+http://aktv.top/AKTV/live/aktv/null-12/AKTV.m3u8
+
 
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="nhkg_tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png",NHK G
 http://vthanh.utako.moe/NHK_G/index.m3u8
