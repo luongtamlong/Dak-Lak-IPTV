@@ -14,21 +14,22 @@ http://p1.cvtv.xyz/vtv2?token=live
 #EXTVLCOPT:http-user-agent=cvmedia/1.0.0
 http://p1.cvtv.xyz/vtv3?token=live
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
-http://118.69.97.51:9981/stream/channelid/771312651?ticket=E09499FB794A793DD70E46D44EC5DBAD82885F90&profile=pass
+http://14.166.137.127:9981/stream/channelid/1100489344?ticket=7E59B95FE65DC57AEB3E0C376D9B25674C1F2E02&profile=pass
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
 http://p1.cvtv.xyz/vtv5?token=live
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://teohdtv.github.io/thumbs/VTV/v5-tay-nam-bo.png",VTV5 Tây Nam Bộ
-http://118.69.97.51:9981/stream/channelid/1683941283?ticket=B1F4CAC7F71ED0662C8F45F7F08B07049D9DA7E7&profile=pass
+http://14.166.137.127:9981/stream/channelid/1858322002?ticket=7D024138C85AF061FF62266485FE53C73A72B006&profile=pass
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://teohdtv.github.io/thumbs/VTV/v5-tay-nguyen.png",VTV5 Tây Nguyên
-http://118.69.97.51:9981/stream/channelid/847816171?ticket=6E0D4C4FAB8042AA2174F8901F3238D4A4855821&profile=pass
+http://14.166.137.127:9981/stream/channelid/1648410580?ticket=43A4494E5BF9CF01B4224647B0648840B84F7306&profile=pass
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://teohdtv.github.io/thumbs/VTV/V6.png",VTV Cần Thơ
-http://118.69.97.51:9981/stream/channelid/798325111?ticket=25C33CF27912665C1927A837B64D7A1F992325F9&profile=pass
+http://14.166.137.127:9981/stream/channelid/1010518358?ticket=2AF0AD2E9F3AECE37B1A0E002E5F28517E284BE8&profile=pass
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://teohdtv.github.io/thumbs/VTV/V7.png",VTV7
-http://118.69.97.51:9981/stream/channelid/887599702?ticket=7FA23C37A7BF496689F843DEA3BECFB9CD0701E2&profile=pass
+http://14.166.137.127:9981/stream/channelid/166848052?ticket=ECEBFE18EF9E75FE624914005F0F8452B34082D4&profile=pass
 #EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://teohdtv.github.io/thumbs/VTV/V8.png",VTV8
-http://118.69.97.51:9981/stream/channelid/1966513264?ticket=EE70695A9713F9E7E0AEA5D2A1F494157896E2DD&profile=pass
+http://14.166.137.127:9981/stream/channelid/106360627?ticket=654B726011675BA71447DEEBE44AD32CC3DA7DC7&profile=pass
 #EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://teohdtv.github.io/thumbs/VTV/V9.png",VTV9
-http://118.69.97.51:9981/stream/channelid/1009375882?ticket=5BDE60251335A6E2E103B7C5DC32F69EC7AF2013&profile=pass
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist_b5000000.m3u8
 
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://i.ytimg.com/vi/fyT_xa-g-Pk/hq720.jpg" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vie-giai-tri-hd/${start}/${offset}",ON Vie Giải trí
@@ -105,19 +106,21 @@ https://tv.TruyenHinh.Click/CoBan/vtvcab22hd/TuyetDoiKhongKinhDoanh
 https://tv.TruyenHinh.Click/CoBan/vtvcab23hd/TuyetDoiKhongKinhDoanh
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/04/01/04/1680297664931/fb287ae7a7ad_640_360.png", K+CINE HD
-http://113.160.152.31:5050/rtp/232.84.1.38:8202
+http://113.180.42.7:12343/rtp/232.84.1.38:8202
 #EXTINF:-1 tvg-id="kaction" group-title="K+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/01/03/16/1704275031605/a72d5eab8255_640_360.png", K+ACTION HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://113.160.152.31:5050/rtp/232.84.1.33:8172
+http://113.180.42.7:12343/rtp/232.84.1.33:8172
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://img-zlr1.tv360.vn/image1/2021/09/30/14/1632985513801/2194b65aa33f_640_360.png", K+SPORT1 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://14.181.191.169:8989/rtp/232.84.1.125:10326
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 AppleWebKit/537.36 Chrome/81.0.4044.138 Safari/537.36
+#EXTVLCOPT:http-referrer=https://watch.rkplayer.xyz/
+https://179421011.cdnfree.pro/live/m102nd/playlist.m3u8
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/03/01/14/1677655028546/6226fc34a55f_640_360.png", K+SPORT2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://14.181.191.169:8989/rtp/232.84.1.34:8178
+http://113.180.42.7:12343/rtp/232.84.1.34:8178
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://img-zlr1.tv360.vn/image1/2022/10/22/18/1666437081424/cbd3f3af84ba_640_360.png", K+KIDS HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 http://e4.endpoint.cdn.sctvonline.vn/hls/KPlusKid/01.m3u8
+
 
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" group-logo="https://teohdtv.github.io/thumbs/Groups/HTV.png" tvg-logo="https://teohdtv.github.io/thumbs/HTV/HTV1.png",HTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -206,14 +209,20 @@ http://e1.endpoint.cdn.sctvonline.vn/channel/sctv13/index.m3u8
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 http://e8.endpoint.cdn.sctvonline.vn/hls/sctv14/index.m3u8
 #EXTINF:-1 tvg-id="sctv15hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/SCTV15.jpg", SCTV15 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://olala.thatvidieu.site/stream/mux/c4ce20301964e4e48a450a1f2b47b5ca
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/SCTV15HD/manifest.mpd
 #EXTINF:-1 tvg-id="sctv16hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/SCTV16.jpg", SCTV16 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 http://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/index.m3u8
 #EXTINF:-1 tvg-id="sctv17hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/SCTV17.jpg", SCTV17 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://olala.thatvidieu.site/stream/mux/3e8422fdfa8b2ed1a277b25f819dfdb6
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/SCTV17/manifest.mpd
 #EXTINF:-1 tvg-id="sctv18hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/SCTV18.jpg", SCTV18 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/hls/sctv18/index.m3u8
@@ -244,13 +253,10 @@ https://playlive.qpvn.vn/live/qpvn.m3u8
 https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="hanoi2" group-title="Địa phương" tvg-logo="https://teohdtv.github.io/thumbs/Diaphuong/hanoi2.png",HanoiTV2 | TH Hà Nội
 https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/playlist.m3u8
-#EXTINF:-1 group-title="Địa phương" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3b/MOV_HD_logo_2014.png/revision/latest?cb=20211014105044&path-prefix=vi",Hanoicab 4 - MOV HD
-https://www.mytvsuper.com.mp/youtube.php?id=PPGLqfz3zkA
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="Địa phương" tvg-logo="https://teohdtv.github.io/thumbs/Diaphuong/THVL1.png",THVL1 | TH Vĩnh Long
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/epzch2/vinhlong1_vhls.smil/chunklist_b1000000.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="Địa phương" tvg-logo="https://teohdtv.github.io/thumbs/Diaphuong/THVL2.png",THVL2 | TH Vĩnh Long
-
 http://hoatv001.ddns.net:8002/ott/tv360.php?id=26
 #EXTINF:-1 tvg-id="vinhlong3hd" group-title="Địa phương" tvg-logo="https://teohdtv.github.io/thumbs/Diaphuong/THVL3.png",THVL3 | TH Vĩnh Long
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -410,7 +416,11 @@ https://live.yenbaitv.org.vn/hls/livestream.m3u
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" group-logo="https://cdn.hqth.me/logo/category/hbo.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO
 http://125hvt.ddns.net:21585/hbo/index.m3u8
 #EXTINF:-1 tvg-id="hbohd" group-title="HBO" group-logo="https://cdn.hqth.me/logo/category/hbo.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png", Cinemax
-http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1756117879?profile=pass
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v1/key/qnettv.xml
+http://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/max.smil/manifest.mpd
 
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/BOXMOVIE1.jpg", Box Movie 1
@@ -1249,37 +1259,41 @@ http://cdnua03.hls.tv/919/hls/8743361621b245838bee193c9ec28322/4835/stream.m3u8
 http://ott.watch/stream/4LMG17SVYT/438.m3u8
 
 #EXTINF:-1  tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png"  group-title="TRUNG QUỐC",CCTV1
-http://dsm.huarunguoji.top:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png"  group-title="TRUNG QUỐC",CCTV1 港澳版
 http://php.jdshipin.com/TVOD/iptv.php?id=rthk33
 #EXTINF:-1  tvg-name="CCTV2" tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png"  group-title="TRUNG QUỐC",CCTV2
-http://dsm.huarunguoji.top:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV3" tvg-logo="https://live.fanmingming.cn/tv/CCTV3.png"  group-title="TRUNG QUỐC",CCTV3
-http://dsm.huarunguoji.top:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV4" tvg-logo="https://live.fanmingming.cn/tv/CCTV4.png"  group-title="TRUNG QUỐC",CCTV4
-http://dsm.huarunguoji.top:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV5" tvg-logo="https://live.fanmingming.cn/tv/CCTV5.png"  group-title="TRUNG QUỐC",CCTV5
-http://dsm.huarunguoji.top:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.cn/tv/CCTV5+.png"  group-title="TRUNG QUỐC",CCTV5+
-http://dsm.huarunguoji.top:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
+#EXTINF:-1  tvg-name="CCTV6" tvg-logo="https://live.fanmingming.cn/tv/CCTV6.png"  group-title="TRUNG QUỐC",CCTV6
+http://iptv.0564.org:35455/itv/1000000005000265006.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV7" tvg-logo="https://live.fanmingming.cn/tv/CCTV7.png"  group-title="TRUNG QUỐC",CCTV7
-http://dsm.huarunguoji.top:35455/itv/1000000005000265007.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265007.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV8" tvg-logo="https://live.fanmingming.cn/tv/CCTV8.png"  group-title="TRUNG QUỐC",CCTV8
-http://dsm.huarunguoji.top:35455/itv/1000000005000265008.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265008.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV9" tvg-logo="https://live.fanmingming.cn/tv/CCTV9.png"  group-title="TRUNG QUỐC",CCTV9
-http://dsm.huarunguoji.top:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV10" tvg-logo="https://live.fanmingming.cn/tv/CCTV10.png"  group-title="TRUNG QUỐC",CCTV10
-http://dsm.huarunguoji.top:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV11" tvg-logo="https://live.fanmingming.cn/tv/CCTV11.png"  group-title="TRUNG QUỐC",CCTV11
-http://dsm.huarunguoji.top:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV12" tvg-logo="https://live.fanmingming.cn/tv/CCTV12.png"  group-title="TRUNG QUỐC",CCTV12
-http://dsm.huarunguoji.top:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV14" tvg-logo="https://live.fanmingming.cn/tv/CCTV14.png"  group-title="TRUNG QUỐC",CCTV14
-http://dsm.huarunguoji.top:35455/itv/1000000005000265013.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265013.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV15" tvg-logo="https://live.fanmingming.cn/tv/CCTV15.png"  group-title="TRUNG QUỐC",CCTV15
-http://dsm.huarunguoji.top:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV16" tvg-logo="https://live.fanmingming.cn/tv/CCTV16.png"  group-title="TRUNG QUỐC",CCTV16
-http://dsm.huarunguoji.top:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
+http://iptv.0564.org:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
+#EXTINF:-1  tvg-name="CCTV17" tvg-logo="https://live.fanmingming.cn/tv/CCTV17.png"  group-title="TRUNG QUỐC",CCTV17
+http://iptv.0564.org:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 #EXTINF:-1  tvg-name="CCTV16" tvg-logo="https://live.fanmingming.cn/tv/CCTV16.png"  group-title="TRUNG QUỐC",CCTV16 4K
 http://livetv.wqwqwq.sbs/gaoma/cctv4k16.m3u8
 #EXTINF:-1  tvg-name="CCTV17" tvg-logo="https://live.fanmingming.cn/tv/CCTV17.png"  group-title="TRUNG QUỐC",CCTV17
@@ -1390,7 +1404,7 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPla
 #EXTINF:-1 tvg-id="32" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="🇭🇰 Hong Kong", HOY TV
 http://cdn.132.us.kg/live/hoy/stream.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade
-http://beishan008.asuscomm.com:8889/bysid/1
+http://p1.cvtv.xyz:81/Jade?token=live
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade SD
 http://php.jdshipin.com/TVOD/iptv.php?id=fct
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade 4K
@@ -1404,9 +1418,11 @@ http://grandprix2023.asuscomm.com:8892/bysid/2
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
 http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
-http://beishan008.asuscomm.com:8889/bysid/96
+http://m.osvs.asia:8000/bysid/96
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
-http://beishan008.asuscomm.com:8889/bysid/99
+http://m.osvs.asia:8000/bysid/99
+#EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/TDM_Ou_Mun.png/revision/latest/scale-to-width-down/270?cb=20220124185106" group-title="🇭🇰 Hong Kong", TDM Cantonese
+http://1b6467f415.iok.la:9931/tsfile/live/1039_1.m3u8
 
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
