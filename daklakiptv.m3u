@@ -546,10 +546,6 @@ http://49.0.64.96:8007/RAI_Asia
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 https://rtvelivestream.akamaized.net/rtvesec/int/tvei_asia_main.m3u8
-#EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/250px-TVP_Polonia_Logo_2020.svg.png", TVP Polonia
-http://rr2.1ott.net/~109e1a3c05fcad5b22d13b9453dc0db5122/10094/hlsx/pl.m3u8
-#EXTINF:-1 tvg-id="tvp-polonia" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVP_World_%282021%29.svg/800px-TVP_World_%282021%29.svg.png", TVP World
-http://free.jokertv.eu:8765/stream-forwarder/TVPWorld
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
 http://141.95.55.143/CH797/index.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/2880px-Das_Erste_2014.svg.png", Das Erste International
@@ -573,6 +569,8 @@ https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 Asia 
 https://edge6a.v2h-cdn.com/cctv4/cctv4.stream/playlist.m3u8
+#EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch551_425_305",Dragon TV International
+http://aktv_stream1.m16tv.cfd/stream/aktv3/null/AKTV.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Jade Sat
 http://v2hcdn.jdshipin.com/jade2/jade.stream/chunklist_w1008.m3u8
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB News Sat
@@ -580,9 +578,9 @@ https://tvb.860775.xyz/I-NEWS
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-09/931a1b83173c0557b46f6b7343e7e9f2.png_w250" group-title="Quốc tế",TDM Macau
 https://live5.tdm.com.mo/ch3/ch3.live/chunklist_w183583391.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="Quốc tế",Phượng Hoàng Trung Văn
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+http://aktv_stream1.m16tv.cfd/stream/aktv/null-3/AKTV.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="Quốc tế",Phượng Hoàng Tin Tức
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+http://aktv_stream1.m16tv.cfd/stream/aktv/null-4/AKTV.m3u8
 
 #EXTINF:-1 tvg-id="animalhd" group-title="Khám phá" group-logo="https://cdn.hqth.me/logo/category/discovery.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/203.png", Animal Planet
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -1400,48 +1398,24 @@ http://cdn.132.us.kg/live/hoy/stream.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade
 http://p1.cvtv.xyz:81/Jade?token=live
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade SD
-http://php.jdshipin.com/TVOD/iptv.php?id=fct
+http://php.jdshipin.com:8880/smt.php?id=jade_twn
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade 4K
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2c045f5adb26d391cc41cd01f00416fa:fc146771a9b096fc4cb57ffe769861be
 http://109.166.38.107:5000/mytvsuper/JUHD
 #EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="🇭🇰 Hong Kong",TVB Plus
-http://grandprix2023.asuscomm.com:8892/bysid/82
+http://110.235.82.60:8001/bysid/82
 #EXTINF:-1 tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://assets.livednow.com/logo/無線新聞台.png" group-title="🇭🇰 Hong Kong",TVB News
-http://grandprix2023.asuscomm.com:8892/bysid/83
+http://110.235.82.60:8001/bysid/83
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://assets.livednow.com/logo/明珠台.png" group-title="🇭🇰 Hong Kong",TVB Pearl
-http://grandprix2023.asuscomm.com:8892/bysid/2
+http://110.235.82.60:8001/bysid/2
 #EXTINF:-1 tvg-id="85" tvg-name="鳳凰香港台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E9%A6%99%E6%B8%AF%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", Phoenix Hong Kong
-http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
+http://aktv_stream1.m16tv.cfd/stream/aktv/null-5/AKTV.m3u8
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV Six" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv6.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV Six
-http://m.osvs.asia:8000/bysid/96
+http://110.235.82.60:8000/bysid/96
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
-http://m.osvs.asia:8000/bysid/99
-#EXTINF:-1 tvg-id="NOW爆谷台" tvg-logo="https://epg.112114.xyz/logo/NOW爆谷台.png" group-title="🇭🇰 Hong Kong",Now 爆谷台
-https://dko29we9nm1rd.cloudfront.net/hls/CH133/index.m3u8
-#EXTINF:-1 tvg-id="NOW爆谷星影台" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch138_160_115" group-title="🇭🇰 Hong Kong",Now爆谷星影台
-https://dko29we9nm1rd.cloudfront.net/hls/CH138/index.m3u8
-#EXTINF:-1 tvg-id="Now 新聞台" tvg-logo="https://www.nowtv.now.com/media/logo/332-wbg-c.png" group-title="🇭🇰 Hong Kong",Now 新聞台
-https://dko29we9nm1rd.cloudfront.net/hls/CH332/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 英超1台" tvg-logo="https://epg.112114.xyz/logo/NOWSPORTS英超1台.png" group-title="🇭🇰 Hong Kong",Now Sports 英超1台
-https://dko29we9nm1rd.cloudfront.net/hls/CH621/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 英超2台" tvg-logo="https://epg.112114.xyz/logo/NOWSPORTS英超2台.png" group-title="🇭🇰 Hong Kong",Now Sports 英超2台
-https://dko29we9nm1rd.cloudfront.net/hls/CH622/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 英超3台" tvg-logo="https://epg.112114.xyz/logo/NOWSPORTS英超3台.png" group-title="🇭🇰 Hong Kong",Now Sports 英超3台
-https://dko29we9nm1rd.cloudfront.net/hls/CH623/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 英超4台" tvg-logo="https://epg.112114.xyz/logo/NOWSPORTS英超4台.png" group-title="🇭🇰 Hong Kong",Now Sports 英超4台
-https://dko29we9nm1rd.cloudfront.net/hls/CH624/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 3" tvg-logo="https://epg.112114.xyz/logo/NOWSPORTS3.png" group-title="🇭🇰 Hong Kong",Now Sports 3
-https://dko29we9nm1rd.cloudfront.net/hls/CH633/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 4" tvg-logo="https://epg.112114.xyz/logo/NOWSPORTS4.png" group-title="🇭🇰 Hong Kong",Now Sports 4
-https://dko29we9nm1rd.cloudfront.net/hls/CH634/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 6" tvg-logo="https://epg.112114.xyz/logo/NOWSPORTS6.png" group-title="🇭🇰 Hong Kong",Now Sports 6
-https://dko29we9nm1rd.cloudfront.net/hls/CH637/index.m3u8
-#EXTINF:-1 tvg-id="beIN SPORTS 2" tvg-logo="https://epg.112114.xyz/logo/BEINSPORTS2.png" group-title="🇭🇰 Hong Kong",beIN SPORTS 2
-https://eventcdn02-nowe.akamaized.net/hls/CH639/index.m3u8
-#EXTINF:-1 tvg-id="Now Sports 641" tvg-name="Now Sports 641" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch641_300_216" group-title="🇭🇰 Hong Kong", Now Sports 641
-https://eventcdn02-nowe.akamaized.net/hls/CH641/index.m3u8
+http://110.235.82.60:8000/bysid/99
 
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
