@@ -377,42 +377,32 @@ http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/197055
 http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/221948
 
 
-#EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/BOXMOVIE1.jpg", Box Movie 1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.TruyenHinh.Click/CoBan/boxmovie1hd/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/HollywoodClassic.jpg", Hollywood Classics
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.TruyenHinh.Click/CoBan/hollywoodclassichd/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/INTHEBOX.jpg", In The Box
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.TruyenHinh.Click/CoBan/inthebox/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/BOXHITS.jpg", Box Hits
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.TruyenHinh.Click/CoBan/boxhits/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="manhd" group-title="📦| In The Box" tvg-logo="https://img-zlr1.tv360.vn/image1/2021/08/02/18/1627902182400/125faee2618c_640_360.png", Man
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.TruyenHinh.Click/CoBan/man/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/07/20/10/1689822939536/68d521f6938e_640_360.png", Music Box
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.TruyenHinh.Click/CoBan/musicbox/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/imaginary.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/tenants/none_tenant/photos/14_1baa02dd.jpg", Dr.Fit
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.TruyenHinh.Click/CoBan/drfithd/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://img-zlr1.tv360.vn/image1/2020_09_23/1600823512270/ee08dd0e8b64_640_360.png", Happy Kids
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://tv.TruyenHinh.Click/CoBan/happykidshd/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://img-zlr1.tv360.vn/image1/2020_09_23/1600823484363/34cadc4f9c06_640_360.png", Planet Earth
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.TruyenHinh.Click/CoBan/planetearthhd/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://img-zlr1.tv360.vn/image1/2020_09_23/1600822442611/f6b738c3d05a_640_360.png", Woman
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.TruyenHinh.Click/CoBan/womanhd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 tvg-id="boxhits" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/boxhits/KenhCoBan",Box Hits
+https://tv.TruyenHinh.Click/CoBan/boxhits/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="boxmovie1hd" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/boxmovie1hd/KenhCoBan",Box Movie 1 HD
+https://tv.TruyenHinh.Click/CoBan/boxmovie1hd/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="hollywoodclassichd" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/hollywoodclassichd/KenhCoBan",Hollywood Classic HD
+https://tv.TruyenHinh.Click/CoBan/hollywoodclassichd/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="inthebox" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/inthebox/KenhCoBan",In The Box
+https://tv.TruyenHinh.Click/CoBan/inthebox/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="happykidshd" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/happykidshd/KenhCoBan",Happy Kids HD
+https://tv.TruyenHinh.Click/CoBan/happykidshd/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="womanhd" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/womanhd/KenhCoBan",Woman HD
+https://tv.TruyenHinh.Click/CoBan/womanhd/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="man" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/man/KenhCoBan",Man
+https://tv.TruyenHinh.Click/CoBan/man/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="planetearthhd" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/planetearthhd/KenhCoBan",Planet Earth HD
+https://tv.TruyenHinh.Click/CoBan/planetearthhd/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="drfithd" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/drfithd/KenhCoBan",Dr Fit HD
+https://tv.TruyenHinh.Click/CoBan/drfithd/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="musicbox" group-title="In The Box"  tvg-logo="https://tv.truyenhinh.click/Logo/musicbox/KenhCoBan",Music box
+https://tv.TruyenHinh.Click/CoBan/musicbox/TuyetDoiKhongKinhDoanh.m3u8
 
 
 #EXTINF:-1 tvg-id="" group-title="Phim truyện" group-logo="https://cdn.hqth.me/logo/category/film.png" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000076_IVP_LAND_586x330.jpg", Celestial Movies
-https://cdn09jtedge.indihometv.com/joss/130/celestialmovie/index.m3u8
+http://php.jdshipin.com:8880/smt.php?id=Celestial
 #EXTINF:-1 tvg-id="" group-title="Phim truyện" group-logo="https://static.wikia.nocookie.net/logos/images/5/53/TVB_Classic_International.png/revision/latest/scale-to-width-down/340?cb=20230714155414&path-prefix=vi", TVB Classic Movies
-https://www.mytvsuper.us.kg/astro/qianxi/qianxi.m3u8
+http://php.jdshipin.com:8880/smt.php?id=Tvbclassic
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="Phim truyện" tvg-logo="https://i.imgur.com/D2qNVZ7.png",CinemaWorld
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
