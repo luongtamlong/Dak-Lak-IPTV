@@ -200,18 +200,6 @@ https://truyenhinh.click/SCTV22HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s11.edge.cdn.sctvonline.vn/hls/sctvphimtonghop/index.m3u8
 
-#EXTINF:-1 group-title="MOV" tvg-logo="https://i.imgur.com/vthO4RG.png", MOV ONi1 - kênh xem Đoàn Phương Ly tắm
-http://server.priterytivi.com/oni/index.m3u8
-#EXTINF:-1 group-title="MOV" tvg-logo="https://i.imgur.com/4sFC7zy.png", MOV ONi2 - kênh Nhân Sếch TV
-https://live-hz-7.livepush.io/live/emZtptuFIBcC5gc/chunks.m3u8
-#EXTINF:-1 group-title="MOV" tvg-logo="https://i.imgur.com/h75NREz.png", MOV ONi3 - kênh phim điện ảnh
-https://kinescope.io/0cmfKgZUXFFH9cARiKQaBA/master.m3u8
-#EXTINF:-1 group-title="MOV" tvg-logo="https://i.imgur.com/XFys3kO.png", MOV ONi4 - kênh xem Đoàn Phương Ly tắm
-
-#EXTINF:-1 group-title="MOV" tvg-logo="https://i.imgur.com/AgdxZqo.png", MOV ONi5 (Thử Nghiệm) 
-https://live-hz-7.livepush.io/live/emOgSH6fo1e0Lzup/chunks.m3u8
-#EXTINF:-1 group-title="MOV" tvg-logo="https://i.imgur.com/bYQGbVv.png", MOV ONi4K (Thử Nghiệm) - kênh xem Đoàn Phương Ly tắm 4K
-https://kinescope.io/0cmqbxyWqBaxkxdZ6rHsHs/master.m3u8
 
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/QztqOe0.png",ANTV HD
 https://tv.TruyenHinh.Click/CoBan/antvhd/TuyetDoiKhongKinhDoanh.m3u8
@@ -221,6 +209,8 @@ https://tv.TruyenHinh.Click/CoBan/qpvnhd/TuyetDoiKhongKinhDoanh.m3u8
 https://tv.TruyenHinh.Click/CoBan/185.HiTV/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="31.YouTV" group-title="Kênh địa phương" tvg-logo="https://tv.truyenhinh.click/Logo/31.YouTV/KenhCoBan",YouTV
 https://tv.TruyenHinh.Click/CoBan/31.YouTV/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 tvg-id="31.YouTV" group-title="Kênh địa phương" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d5/MOV_HD_logo.png/revision/latest?cb=20220918124945&path-prefix=vi",MOV
+https://files.catbox.moe/bkcmoz.mp4
 #EXTINF:-1 group-title="Địa phương" tvg-id="hanoi1" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/refs/heads/main/img/hanoi1.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=400&time=${start}&offset=${duration}",Hà Nội 1
 http://p1.cvtv.xyz/hn1?token=live
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/szivqh2.png",HanoiTV2 HD
