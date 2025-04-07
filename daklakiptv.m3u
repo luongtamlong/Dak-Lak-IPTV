@@ -436,19 +436,19 @@ https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/pl
 #EXTINF:-1 tvg-id="abcaustralia" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/215.png", ABC Australia
 http://49.0.64.96:8007/ABC
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cia.lk/wp-content/uploads/2021/09/logo_aje_social.png", Al Jazeera English
-https://i.mjh.nz/al-jazeera.m3u8
+http://p1.cvtv.xyz:81/aj?token=live
 #EXTINF:-1 group-title="Quốc tế" tvg-id="BloombergTVEurope.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg
-http://p1.cvtv.xyz:81/bb?token=live
+http://125.227.210.55:8161/VideoInput/play.ts
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
-http://50.7.234.10:8278/bbcnews_twn/playlist.m3u8?tid=ME2E9411781394117813&ct=19225&tsum=ffaa2caa60183eec89d730ed80b336d1
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/bbcnews_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/1200px-CNBC_logo.svg.png", CNBC
-http://50.7.234.10:8278/cnbc_twn/playlist.m3u8?tid=MCBC5251518852515188&ct=19254&tsum=37bd48b924a593e126344eae8baec162
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/cnbc_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/08_1080-30.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
 http://p1.cvtv.xyz:81/cnn?token=live
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
-http://aktv.top/AKTV/live/aktv3/null-3/AKTV.m3u8
+http://aktv-stream.m16tv.cfd/stream/aktv3/null-3/AKTV.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
 http://p1.cvtv.xyz:81/cgtn?token=live
 #EXTINF:-1 tvg-id="dw" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW
@@ -1375,20 +1375,30 @@ http://110.235.82.60:8000/bysid/96
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
 http://110.235.82.60:8000/bysid/99
 
-#EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS
+#EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS HD
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/tvbs/playlist.m3u8
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS ENTERTAINMENT
-rtmp://f13h.mine.nu:1935/sat/tv421
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/tvbshuanle_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS NEWS
-rtmp://f13h.mine.nu/sat/tv051
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/tvbs_n/playlist.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="🇹🇼 Đài Loan",FORMOSA TV
-rtmp://f13h.mine.nu/sat/tv051
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/ftvhd_taiwan/playlist.m3u8
 #EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="🇹🇼 Đài Loan",TTV
-rtmp://f13h.mine.nu/sat/tv071
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/ttv_taiwan/playlist.m3u8
 #EXTINF:-1 tvg-id="6028" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/22/CTV_text.png" group-title="🇹🇼 Đài Loan",CTV
-rtmp://f13h.mine.nu/sat/tv091
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/zhongshihd_twn/playlist.m3u8
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="🇹🇼 Đài Loan",CTS
-rtmp://f13h.mine.nu/sat/tv111
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/ctshd_taiwan/playlist.m3u8
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c8/Public_Television_Service_%28logo%29.png" group-title="🇹🇼 Đài Loan",PTS
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/ctv_taiwan/playlist.m3u8
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://archive.org/download/20230102_20230102_1627/%E4%B8%AD%E5%A4%A9%E7%B6%9C%E5%90%88%E5%8F%B0.png" group-title="🇹🇼 Đài Loan",CTI Metro
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/ctizhonghe/playlist.m3u8
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="🇹🇼 Đài Loan",CTI Entertainment
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/ctient/playlist.m3u8
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="🇹🇼 Đài Loan",CTI News
+http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/ctinews/playlist.m3u8
 
 
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="nhkg_tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png",NHK G
