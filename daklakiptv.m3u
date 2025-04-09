@@ -1348,14 +1348,16 @@ https://tv.TruyenHinh.Click/TrungQuoc/zhejiang/TruyenHinh.Click
 https://cdn5.163189.xyz/live/rthk31/stream.m3u8
 #EXTINF:-1 tvg-id="32" tvg-name="港台電視 32" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest?cb=20200511233323" group-title="🇭🇰 Hong Kong", RTHK 32
 https://cdn5.163189.xyz/live/rthk32/stream.m3u8
-#EXTINF:-1 tvg-id="32" tvg-name="港台電視 33" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/a/a7/RTHK_TV_33.svg/800px-RTHK_TV_33.svg.png" group-title="🇭🇰 Hong Kong", RTHK 33
+#EXTINF:-1 tvg-id="33" tvg-name="港台電視 33" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/a/a7/RTHK_TV_33.svg/800px-RTHK_TV_33.svg.png" group-title="🇭🇰 Hong Kong", RTHK 33
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="32" tvg-name="港台電視 34" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f9/RTHK_TV_34.svg/440px-RTHK_TV_34.svg.png" group-title="🇭🇰 Hong Kong", RTHK 34
+#EXTINF:-1 tvg-id="34" tvg-name="港台電視 34" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f9/RTHK_TV_34.svg/440px-RTHK_TV_34.svg.png" group-title="🇭🇰 Hong Kong", RTHK 34
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="32" tvg-name="港台電視 35" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/85/RTHK_TV_35.svg/1200px-RTHK_TV_35.svg.png" group-title="🇭🇰 Hong Kong", RTHK 35
+#EXTINF:-1 tvg-id="35" tvg-name="港台電視 35" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/85/RTHK_TV_35.svg/1200px-RTHK_TV_35.svg.png" group-title="🇭🇰 Hong Kong", RTHK 35
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="32" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="🇭🇰 Hong Kong", HOY TV
+#EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="🇭🇰 Hong Kong", HOY 77
 http://cdn.132.us.kg/live/hoy/stream.m3u8
+#EXTINF:-1 tvg-id="78" tvg-name="HOY TV" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/72/HOY_78.png/revision/latest/scale-to-width-down/677?cb=20240605025155&path-prefix=vi" group-title="🇭🇰 Hong Kong", HOY 78
+http://108.181.20.197/livehttpplay?channel_id=20191
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade
 http://p1.cvtv.xyz:81/Jade?token=live
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="🇭🇰 Hong Kong",TVB Jade SD
@@ -1840,11 +1842,11 @@ http://php.jdshipin.com:8880/smt.php?id=Huahee
 #EXTINF:-1 tvg-id="Astro.Sports.UHD.my" tvg-logo="https://astromedia.com.my/wp-content/uploads/2023/12/iqiyi2.png" group-title="Malaysia và Singapore",Astro iQiyi
 http://php.jdshipin.com:8880/smt.php?id=Qiyi
 #EXTINF:2 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channel5hd" tvg-logo="" provider="AKTV" provider-logo="" provider-type="iptv", Channel 5 HD
-http://aktv_stream1.m16tv.cfd/stream/aktv/channel5hd/AKTV.m3u8
+https://cdn6.163189.xyz/live/ch5/stream.m3u8
 #EXTINF:3 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channel8hd" tvg-logo="" provider="AKTV" provider-logo="" provider-type="iptv", Channel 8 HD
-http://aktv_stream1.m16tv.cfd/stream/aktv/channel8hd/AKTV.m3u8
+https://cdn6.163189.xyz/live/ch8/stream.m3u8
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="" provider="AKTV" provider-logo="" provider-type="iptv", Channel U HD
-http://aktv_stream1.m16tv.cfd/stream/aktv/channeluhd/AKTV.m3u8
+https://cdn6.163189.xyz/live/chu/stream.m3u8
 
 #EXTINF:-1 group-title="Indo" tvg-id="TVRINasional.id",TVRI Nasional (720p)
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
