@@ -513,6 +513,12 @@ https://edge6a.v2h-cdn.com/cctv4/cctv4.stream/playlist.m3u8
 http://aktv_stream1.m16tv.cfd/stream/aktv3/null/AKTV.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Jade International
 http://192.3.130.92:20004/jade2/jade.stream/chunklist_w1008.m3u8
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://int-wv.tvb.com/wvproxy/clicense?contentid=ott_I-JADE_h264
+#EXTVLCOPT:http-user-agent=okhttp/4.9.2
+#EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",,TVB Jade International
+https://sg01-live-cfd.tvbanywhere.com/__cl/slocalr12/__c/ott_I-JADE_h264/__op/cenci/__f/index.mpd
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB News International
 https://tvb.860775.xyz/I-NEWS
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-09/931a1b83173c0557b46f6b7343e7e9f2.png_w250" group-title="Quốc tế",TDM Macau
