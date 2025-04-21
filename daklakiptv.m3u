@@ -126,68 +126,50 @@ https://thvip.site/Vieon.php?id=htvcphim
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://thvip.site/Vieon.php?id=htvcplus
 
-#EXTINF:-1 tvg-id="sctv1hd" group-title="SCTV" tvg-logo="https://i.ibb.co/yBnxfhH/sctv1-hd.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=769&time=${start}&offset=${duration}",SCTV1 HD
-#EXTVLCOPT:http-referrer=http://sctvonline.vn/
-https://s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s5.edge.cdn.sctvonline.vn/hls/sctv1/index.m3u8?token=Z2YSNNMDA5f2Q2kfYoK6Yw&e=1720250840
-#EXTINF:-1 tvg-id="sctv2hd" group-title="SCTV" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/SCTV2TODAYTV.jpg", SCTV2 HD - TODAY TV
-http://123.24.87.212:8889/ace/tv360mpd.php?id=201
-#EXTINF:-1 tvg-id="sctv3hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/SCTV3.jpg", SCTV3 HD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-http://42.117.209.249:8183/tvmp.php?play&id=sctv-sctv3-hd&type=playlist.m3u8&pass=nvtlai
-#EXTINF:-1 tvg-id="sctv4hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/SCTV4.jpg", SCTV4 HD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-http://42.117.209.249:8183/tvmp.php?play&id=sctv-sctv4&type=playlist.m3u8&pass=nvtlai
-#EXTINF:-1 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/SCTV5.jpg", SCTV5 HD - SCJ
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-http://42.117.209.249:8183/tvmp.php?play&id=sctv-sctv5&type=playlist.m3u8&pass=nvtlai
-#EXTINF:-1 tvg-id="sctv6hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/SCTV6.jpg" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/film360_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", SCTV6 HD
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="sctv7hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/SCTV7.jpg", SCTV7 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv7/index.m3u8
-#EXTINF:-1 tvg-id="sctv8hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/SCTV8.jpg", SCTV8 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv8/index.m3u8
-#EXTINF:-1 tvg-id="sctv9hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/SCTV9.jpg", SCTV9 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/channel/sctv9/index.m3u8
-#EXTINF:-1 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/59/SCTV10.jpg", SCTV10
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv10/index.m3u8
-#EXTINF:-1 tvg-id="sctv11hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/SCTV11.jpg", SCTV11 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv11/index.m3u8
-#EXTINF:-1 tvg-id="sctv12hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/SCTV12.jpg", SCTV12 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv12/index.m3u8
-#EXTINF:-1 tvg-id="sctv13hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/74/SCTV13.jpg", SCTV13 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/channel/sctv13/index.m3u8
-#EXTINF:-1 tvg-id="sctv14hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/SCTV14.jpg", SCTV14 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e8.endpoint.cdn.sctvonline.vn/hls/sctv14/index.m3u8?vmttv
-#EXTINF:-1 tvg-id="sctv16hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/SCTV16.jpg", SCTV16 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/index.m3u8
-#EXTINF:-1 tvg-id="sctv18hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/SCTV18.jpg", SCTV18 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv18/index.m3u8
-#EXTINF:-1 tvg-id="sctv19hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/SCTV19.jpg", SCTV19 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e8.endpoint.cdn.sctvonline.vn/hls/sctv19/index.m3u8
-#EXTINF:-1 tvg-id="sctv20hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/SCTV20.jpg", SCTV20 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv20/index.m3u8
-#EXTINF:-1 tvg-id="sctv21hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/SCTV21.jpg", SCTV21 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv21/index.m3u8
-#EXTINF:-1 tvg-id="sctv22hd" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/SCTV22.jpg", SCTV22 FHD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e1.endpoint.cdn.sctvonline.vn/hls/sctv22/index.m3u8
-#EXTINF:-1 tvg-id="sctvhdpth" group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/ca/SCTVPTH.jpg", SCTV HD Phim Tổng Hợp
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e8.endpoint.cdn.sctvonline.vn/hls/sctvphimtonghop/index.m3u8
+#EXTINF:-1 group-title="SCTV" group-title="SCTV" tvg-logo="https://i.imgur.com/imhFxSG.png" tvg-id="ac0f78cfd4df0bfc8031bc48bb619521",SCTV1 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/aTF0L2NlL3B1ZG1JTWMzZjZzR0UvZz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/UpBZOaH.png" tvg-id="9708629c4ddff1677657b7a8d68cce55",SCTV2 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/V295dlBURm9GN0hsME1kRWxxQW5PQT09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/wZrGAtH.png" tvg-id="7f4c71b3834b5f10b9aa0fe32feb07b1",SCTV3 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/aExUc3pMT2RmN0J2MGNiYUQyUkFMQT09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/ntSnAMJ.png" tvg-id="c39d27ecd9e72e8b555b8e45439d4a8f",SCTV4 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/Z2lIK1BrTll1VnZ4TUR5bTdTeHJvZz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/67.png", SCTV5 HD - SCJ
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/Zk50UEt4QWJoVFZNRDJJOFBndE93UT09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/pSIvTkZ.png" tvg-id="470a5b7c4a70190f827f9d216bdb8a0d",SCTV6 
+https://xem.TruyenHinh.Click/CoBan/sctv6/TuyetDoiKhongKinhDoanh.m3u8
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/EdjXUUb.png" tvg-id="8d86da0ff9fed35cc47e370c88c3727a",SCTV7 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/MEMyRFdzeGRYeDJkaG1PSlhmY1FmZz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/NULoCoA.png" tvg-id="dd9ad2b7a767fe9996db669c51b60d0f",SCTV8 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/cnFxcm83WlF1Y2wvUmU3SC9ZeWxqZz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/6dvyvea.png" tvg-id="419fd01cc049c678e2756a04bb0e567b",SCTV9 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/MlorMHZNb3Y2bTgrSGlsMlAveDhUZz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/72.png", SCTV10
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/aC96TFlrSTJqV2lMOHJZUGN3cjkwUT09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/AP2o4bW.png" tvg-id="bd68ffb32a450112faf7b2695928410c",SCTV11
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/Zk1GRjlrczY2Sm1lbDQvSDJQc1EyQT09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/5nrSZd8.png" tvg-id="b7292f947e5c48885a2d56570d1f8a08",SCTV12 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/MjE0RTJXR1JQKzNXcHI0MHJ6L1BXdz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/PEz2Ieq.png" tvg-id="62fa3b5ba23070dea05c4c4a9617f309",SCTV13 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/UVRmMFV3eTF1UzBrVmxtQlJlem9ydz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/EPwjrlB.png" tvg-id="d9e10d71efaf7ac78d801a5f7a65a9eb",SCTV15 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/aXh4RmxPVk9Db2FkMnBZTzFlNjArdz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/b4ZROQG.png" tvg-id="4ca79d2fd393a485c25ea15863c5f058",SCTV16 
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/798861132?profile=pass
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/Ghjy4HY.png" tvg-id="0efd8ae2c833b21740269ca327f6191c",SCTV17 
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1653275918?profile=pass
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/k2Eg4T4.png" tvg-id="412a7c929c1af7cee0aa0336f65bf3ee",SCTV18 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/YXVPT3l4Y20zb0VpZ01Rek1ROWY0dz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/s4vfvNb.png" tvg-id="bfded1dac1bcc416b451d2d89fb5d39f",SCTV19 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/Q2pjRTRYSCsxVk9XQmR5ckIyZWtHZz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/zwfqboB.png" tvg-id="2705c9c3314d3956d712d89afe1e3293",SCTV20 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/SmZZbFpUNGhwZnMxUDJlQWZ1VTF0UT09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/aHKybQW.png" tvg-id="54db94290eb0a931b4a780810bbe93c8",SCTV21 
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/YXVPT3l4Y20zb0VpZ01Rek1ROWY0dz09/bibo1206/bibo@123/playlist.mpegts
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/O0HdUpB.png" tvg-id="77fe775bbbd85038e59a61d46aa0a340",SCTV22 
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1534590583?profile=pass
+#EXTINF:-1 group-title="SCTV" tvg-logo="https://i.imgur.com/VzZYa4n.png" tvg-id="49734b854081bda890ee47bbcd0abc97",SCTV Phim Tổng Hợp (HD 6Mbps)
+http://bentre5.hoangai.vn:8086/stream/V295dlBURm9GN0hsME1kRWxxQW5PQT09/S1RZbzhFNlkxRUx3NVhaWXUwalhrdz09/bibo1206/bibo@123/playlist.mpegts
 
 
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/QztqOe0.png",ANTV HD
