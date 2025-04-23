@@ -74,16 +74,27 @@ http://duthao2008.fastddns.org:9981/stream/channelid/111003965?profile=pass
 #EXTINF:-1 tvg-id="onlife" group-title="VTVcab" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/ONLIFE.jpg" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vtvcab22-life-tv/${start}/${offset}", On Life
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 http://duthao2008.fastddns.org:9981/stream/channelid/1100130012?profile=pass
-#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://img.lichphatsong.xyz/logo/kcinehd.jpg", K+CINE HD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-http://42.117.209.249:8183/tvmp.php?play&id=vtv-kcine&type=playlist.m3u8&pass=nvtlai
-#EXTINF:-1 tvg-id="kactionhd" group-title="K+" tvg-logo="https://img.lichphatsong.xyz/logo/kaction.jpg", K+ACTION HD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-http://42.117.209.249:8183/tvmp.php?play&id=vtv-kaction&type=playlist.m3u8&pass=nvtlai
-#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://img.lichphatsong.xyz/logo/kkidshd.jpg", K+KIDS HD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
-http://42.117.209.249:8183/tvmp.php?play&id=vtv-kkids&type=playlist.m3u8&pass=nvtlai
 
+#EXTINF:-1 tvg-id="K+ CINE" group-title="K+" group-logo="https://truyenhinhkplusvn.com/wp-content/uploads/2024/10/Logo-K-Moi-vuong.png" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_k1_172771644656.jpg?w=300",K+ CINE 
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 11) 
+#EXTVLCOPT:http-referrer=https://deptraivkl.com/ 
+https://sctv.locket.website/kplus.m3u8?channel=kcine 
+#EXTINF:-1 tvg-id="K+ ACTION" group-title="K+" group-logo="https://truyenhinhkplusvn.com/wp-content/uploads/2024/10/Logo-K-Moi-vuong.png" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_kns_172771621265.jpg?w=300",K+ ACTION 
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 11) 
+#EXTVLCOPT:http-referrer=https://deptraivkl.com/ 
+https://sctv.locket.website/kplus.m3u8?channel=kaction 
+#EXTINF:-1 tvg-id="K+ Sport 1" group-title="K+" group-logo="https://truyenhinhkplusvn.com/wp-content/uploads/2024/10/Logo-K-Moi-vuong.png" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_kpm_172771660734.jpg?w=300",K+ Sport 1 
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 11) 
+#EXTVLCOPT:http-referrer=https://deptraivkl.com/ 
+https://sctv.locket.website/kplus.m3u8?channel=ksport1 
+#EXTINF:-1 tvg-id="K+ Sport 2" group-title="K+" group-logo="https://truyenhinhkplusvn.com/wp-content/uploads/2024/10/Logo-K-Moi-vuong.png" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_kpc_172771667492.jpg?w=300",K+ Sport 2 
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 11) 
+#EXTVLCOPT:http-referrer=https://deptraivkl.com/ 
+https://sctv.locket.website/kplus.m3u8?channel=ksport2 
+#EXTINF:-1 tvg-id="K+ KIDS" group-title="K+" group-logo="https://truyenhinhkplusvn.com/wp-content/uploads/2024/10/Logo-K-Moi-vuong.png" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_k-kids-hd_172771651866.jpg?w=300",K+ KIDS 
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 11) 
+#EXTVLCOPT:http-referrer=https://deptraivkl.com/ 
+https://sctv.locket.website/kplus.m3u8?channel=kkids
 
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" group-logo="https://teohdtv.github.io/thumbs/Groups/HTV.png" tvg-logo="https://teohdtv.github.io/thumbs/HTV/HTV1.png",HTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -618,392 +629,320 @@ http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8
 http://fl1.moveonjoy.com/NICKTOONS/index.m3u8
 
 
-#EXTINF:-1 tvg-id="9206" tvg-name="BBC News Channel HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="ANH QUỐC",BBC News Channel HD
-http://p1.cvtv.xyz:81/bbcn?token=live
-#EXTINF:-1 tvg-id="BBC.One.EastHD.uk" tvg-name="BBC One" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="ANH QUỐC",BBC One
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/83" tvg-id="3532d47977ff4e01cb5bc2ca9be857d4",BBC 1 Flagship HD
 http://p1.cvtv.xyz:81/bbc1?token=live
-#EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-uk.png" group-title="ANH QUỐC",BBC Two
-http://p1.cvtv.xyz:81/bbc2?token=live
-#EXTINF:-1 tvg-id="BBC.Three.HD.uk" tvg-name="BBC Three" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="ANH QUỐC",BBC Three
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium358/index.m3u8
-#EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-name="BBC Four" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="ANH QUỐC",BBC Four
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium359/index.m3u8
-#EXTINF:-1 tvg-id="Channel.4.uk" tvg-name="Channel 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-4-uk.png" group-title="ANH QUỐC",Channel 4
-http://p1.cvtv.xyz:81/C4uk?token=live
-#EXTINF:-1 tvg-id="Channel.5.uk" tvg-name="Channel 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-5-uk.png" group-title="ANH QUỐC",Channel 5
-#EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
-#EXTVLCOPT:http-origin=https://cookiewebplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium355/index.m3u8
-#EXTINF:-1 tvg-id="U.and.Dave.HD.uk" tvg-name="Dave" tvg-logo="https://res.cloudinary.com/uktv/image/upload/v1390389612/nnjpehbj2a2qvyxoda0z.jpg" group-title="ANH QUỐC",Dave
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium348/index.m3u8
-#EXTINF:-1 tvg-id="E4.HD.uk" tvg-name="E4 Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/E4_Logo.png" group-title="ANH QUỐC",E4 Channel
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium363/index.m3u8
-#EXTINF:-1 tvg-id="Film4.HD.uk" tvg-name="Film4" tvg-logo="https://cdn.comedy.co.uk/images/channels/film4.jpg" group-title="ANH QUỐC",Film4
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium688/index.m3u8
-#EXTINF:-1 tvg-id="Gold.uk" tvg-name="Gold" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gold-uk.png" group-title="ANH QUỐC",Gold
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium687/index.m3u8
-#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="ITV 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-1-uk.png" group-title="ANH QUỐC",ITV 1
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/83" tvg-id="3532d47977ff4e01cb5bc2ca9be857d4",BBC 1 Scot HD
+http://193.237.193.64:9981/stream/channelid/2043949621?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/84" tvg-id="ddd5ccbb1e29ed34ed84a65ce9d3fab0",BBC TWO HD
+http://193.237.193.64:9981/stream/channelid/1003279837?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/32" tvg-id="3046cb5723e0cea7a45a30618fa5f2ad",ITV1 Flagship HD
 http://p1.cvtv.xyz/itv1?token=live
-#EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-name="ITV 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-2-uk.png" group-title="ANH QUỐC",ITV 2
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium351/index.m3u8
-#EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-name="ITV 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-3-uk.png" group-title="ANH QUỐC",ITV 3
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium352/index.m3u8
-#EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-name="ITV 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-4-uk.png" group-title="ANH QUỐC",ITV 4
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/85" tvg-id="ff05fba7bfb036155ed805621046d9b4",STV HD
+http://193.237.193.64:9981/stream/channelid/670762495?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/86" tvg-id="ffd10df9f0e576bd374662d8d1f7c558",Channel 4 HD
+http://193.237.193.64:9981/stream/channelid/2030948863?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/87" tvg-id="e7f44ae379cb5de71047bae40c6b0cd1",5 HD
+http://193.237.193.64:9981/stream/channelid/1665856743?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/88" tvg-id="a771bca05f9bd71cbab63c143fc9d1e3",BBC Scotland HD
+http://193.237.193.64:9981/stream/channelid/549220775?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/89" tvg-id="b114e27426a1424c9df5fd9328cfd093",BBC FOUR HD
+http://193.237.193.64:9981/stream/channelid/1960973489?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/25" tvg-id="ab79aa2a35c66a03e34b19eafd7d8a75",BBC NEWS
+http://193.237.193.64:9981/stream/channelid/715815339?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/26" tvg-id="dd5078882c3ec247d0d55cc9ea6a5215",BBC Parliament
+http://193.237.193.64:9981/stream/channelid/142102749?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/20" tvg-id="771c7a990e4d000c54a01530068bb161",BBC ONE Scot
+http://193.237.193.64:9981/stream/channelid/427433079?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/29" tvg-id="e19ba484606fb31cbff01ce4f50797f5",STV SD
+http://193.237.193.64:9981/stream/channelid/77896673?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/30" tvg-id="49ad887dea60efba6c5ee846a8733575",Channel 4 SD
+http://193.237.193.64:9981/stream/channelid/2106109257?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/31" tvg-id="e502b14e788afe947a67b5f92be432d3",5 SD
+http://193.237.193.64:9981/stream/channelid/1320223461?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/32" tvg-id="3046cb5723e0cea7a45a30618fa5f2ad",ITV2
+http://193.237.193.64:9981/stream/channelid/1472939568?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/91" tvg-id="cdfd9dee0d042c54072180505ef3cd01",BBC ALBA
+http://193.237.193.64:9981/stream/channelid/1855847885?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/22" tvg-id="e54557c51bb4e0bbc183cf9cbc194221",That's TV (Glasgow)
+http://193.237.193.64:9981/stream/channelid/1163347429?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/92" tvg-id="17fc2e29d6c54c769f308c5d2788544c",BBC Scotland
+http://193.237.193.64:9981/stream/channelid/690945047?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/33" tvg-id="78cc4cff12c6010a9201fa5b20218538",ITV3
+http://193.237.193.64:9981/stream/channelid/2135739512?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/34" tvg-id="9f7c58462ebaf0cc115fe7298864edac",Sky Mix
+http://193.237.193.64:9981/stream/channelid/1180204191?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/35" tvg-id="4dcf73558e62f160c88b8e22b9bf222a",QUEST
+http://193.237.193.64:9981/stream/channelid/1433653069?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/36" tvg-id="ac265aacebacbcf7588ef63f1f71e2af",E4
+http://193.237.193.64:9981/stream/channelid/744105644?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/37" tvg-id="3c064d2a2af4cad7e96e0dcc1fa4161a",Film4
+http://193.237.193.64:9981/stream/channelid/709690940?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/38" tvg-id="8193967f9dba1ba555d2938ba96fae0d",Channel 4+1
+http://193.237.193.64:9981/stream/channelid/2140574593?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/39" tvg-id="beffb782610f77ea78161ee1cca035f3",QVC
+http://193.237.193.64:9981/stream/channelid/45612990?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/40" tvg-id="ad315c49f883887d56123ed760c76b0c",Really
+http://193.237.193.64:9981/stream/channelid/1230778797?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/41" tvg-id="7e9bf18d70428c050e1f02c23a7f0685",More 4
+http://193.237.193.64:9981/stream/channelid/233937790?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/42" tvg-id="4232b1a81b15e10c6db89d4468512213",U&Dave
+http://193.237.193.64:9981/stream/channelid/682701378?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/43" tvg-id="b7fdd7adea0d62b6c8da9cf50b5b935c",U&Drama
+http://193.237.193.64:9981/stream/channelid/769129911?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/44" tvg-id="ab6faa45bc81679f9a35b8e5abc058e4",5USA
+http://193.237.193.64:9981/stream/channelid/1168797611?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/45" tvg-id="feaf55c3e9cd9a9c86d34779f5fb16fa",TJC
+http://193.237.193.64:9981/stream/channelid/1129689086?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/23" tvg-id="bc211dbf20bb5baf198323230fdc93d6",BBC THREE
+http://193.237.193.64:9981/stream/channelid/1058873788?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/24" tvg-id="97ae88211cf471de7f6f1029af0838da",BBC FOUR
+http://193.237.193.64:9981/stream/channelid/562605719?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/46" tvg-id="ddf42e8f28dd530416e5a2f60f6e54d3",U&W
+http://193.237.193.64:9981/stream/channelid/254735581?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/47" tvg-id="0b5494657556f53b90263dfaae3cbe96",ITV4
 http://p1.cvtv.xyz/itv4?token=live
-#EXTINF:-1 tvg-id="MTV.USA.-.Eastern.Feed.us" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-uk.png" group-title="ANH QUỐC",MTV
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium367/index.m3u8
-#EXTINF:-1 tvg-id="MUTV.HD.uk" tvg-name="MUTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mutv-uk.png" group-title="ANH QUỐC",MUTV
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium377/index.m3u8
-#EXTINF:-1 tvg-id="RTÉ.One.ie" tvg-name="RTE 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/53/RTE_One_Stacked.svg/revision/latest/scale-to-width-down/250?cb=20210310105314" group-title="ANH QUỐC",RTE 1
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium364/index.m3u8
-#EXTINF:-1 tvg-id="RTÉ2.ie" tvg-name="RTE 2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/1200px-RT%C3%892_logo.svg.png" group-title="ANH QUỐC",RTE 2
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium365/index.m3u8
-#EXTINF:-1 tvg-id="S4C.uk" tvg-name="S4C" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/s4c-uk.png" group-title="ANH QUỐC",S4C
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium670/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Premiere.uk" tvg-name="Sky Cinema Premiere" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-premiere-uk.png" group-title="ANH QUỐC",Sky Cinema Premiere
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium671/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Cinema.Select.uk" tvg-name="Sky Cinema Select" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-select-uk.png" group-title="ANH QUỐC",Sky Cinema Select
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium672/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Cinema.Hits.HD.uk" tvg-name="Sky Cinema Hits" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-hits-uk.png" group-title="ANH QUỐC",Sky Cinema Hits
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium673/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Greats.uk" tvg-name="Sky Cinema Greats" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-greats-uk.png" group-title="ANH QUỐC",Sky Cinema Greats
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium674/index.m3u8
-#EXTINF:-1 tvg-id="SkyAnimationHD.uk" tvg-name="Sky Cinema Animation" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-animation-uk.png" group-title="ANH QUỐC",Sky Cinema Animation
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium675/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Family.HD.uk" tvg-name="Sky Cinema Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-family-uk.png" group-title="ANH QUỐC",Sky Cinema Family
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium676/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Action.uk" tvg-name="Sky Cinema Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-action-uk.png" group-title="ANH QUỐC",Sky Cinema Action
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium677/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Drama.HD.uk" tvg-name="Sky Cinema Drama" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-drama-uk.png?raw=true" group-title="ANH QUỐC",Sky Cinema Drama
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium680/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Thriller.HD.uk" tvg-name="Sky Cinema Thriller" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-thriller-uk.png" group-title="ANH QUỐC",Sky Cinema Thriller
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium679/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Sci-Fi.HD.uk" tvg-name="Sky Cinema Sci-Fi Horror" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-uk.png" group-title="ANH QUỐC",Sky Cinema Sci-Fi Horror
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
-https://zekonew.newkso.ru/zeko/premium681/index.m3u8
-#EXTINF:-1 tvg-id="SkyShowcaseHD.uk" tvg-name="Sky Showcase" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-showcase-uk.png" group-title="ANH QUỐC",Sky Showcase
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium682/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Arts.HD.uk" tvg-name="Sky Arts" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" group-title="ANH QUỐC",Sky Arts
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium683/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Comedy.HD.uk" tvg-name="Sky Comedy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-comedy-uk.png" group-title="ANH QUỐC",Sky Comedy
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium684/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Crime.HD.uk" tvg-name="Sky Crime" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-crime-uk.png" group-title="ANH QUỐC",Sky Crime
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium685/index.m3u8
-#EXTINF:-1 tvg-id="Sky.HistoryHD.uk" tvg-name="Sky History" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-history-uk.png" group-title="ANH QUỐC",Sky History
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium686/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Witness.HD.uk" tvg-name="Sky Witness HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png" group-title="ANH QUỐC",Sky Witness HD
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium361/index.m3u8
-#EXTINF:-1 tvg-id="Sky.Atlantic.HD.uk" tvg-name="Sky Atlantic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sky_Atlantic_-_Logo_2020.svg/2560px-Sky_Atlantic_-_Logo_2020.svg.png" group-title="ANH QUỐC",Sky Atlantic
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium362/index.m3u8
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/48" tvg-id="6e497f2ab0ce08168e73910037d2a757",U&Yesterday
+http://193.237.193.64:9981/stream/channelid/712984942?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/49" tvg-id="f9e66812b47da17017847ce85735c3da",ITVBe
+http://193.237.193.64:9981/stream/channelid/308864761?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/50" tvg-id="a36242c746b1663c5d97922fa41d5100",ITV2+1
+http://193.237.193.64:9981/stream/channelid/1195532963?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/51" tvg-id="cd71311e8204b77d49f9c2f1e61104df",E4+1
+http://193.237.193.64:9981/stream/channelid/506556877?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/52" tvg-id="23b00e0b194cb5b8adb27427b5d71e37",E4 Extra
+http://193.237.193.64:9981/stream/channelid/185511971?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/53" tvg-id="07386615549d8c8069e9a2dd70758f2a",5STAR
+http://193.237.193.64:9981/stream/channelid/359020551?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/54" tvg-id="ab2277f24d4fc50c43ac17288322f981",5ACTION
+http://193.237.193.64:9981/stream/channelid/1920410283?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/55" tvg-id="1c448a039fad354a6abf9235c3719d23",GREAT! movies
+http://193.237.193.64:9981/stream/channelid/59393052?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/56" tvg-id="d4ef5a48805c994630c484426f6193b5",STV+1
+http://193.237.193.64:9981/stream/channelid/1213919188?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/57" tvg-id="0b851dbc6b7e5fcbcf5658c5ca334c40",Sky Arts
+http://193.237.193.64:9981/stream/channelid/1008567563?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/58" tvg-id="3e7ab6d1c6f0598dbf4ceb96b651a595",QVC2
+http://193.237.193.64:9981/stream/channelid/1370913342?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/59" tvg-id="1f56b34582fb5b3fd5f8290db823f227",5 +1
+http://193.237.193.64:9981/stream/channelid/1169380895?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/60" tvg-id="84abe60454dd4e8d9acf0d9b9928fd3f",DMAX
+http://193.237.193.64:9981/stream/channelid/82226052?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/61" tvg-id="84d0087fa776cb557eabd35eb612f17a",Quest Red
+http://193.237.193.64:9981/stream/channelid/2131284100?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/62" tvg-id="fbc0a04ffbbb00c9f1df084e0027f7c1",LEGEND
+http://193.237.193.64:9981/stream/channelid/1335935227?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/63" tvg-id="c056738a8b5feec6777de9f3499afdbb",GREAT! action
+http://193.237.193.64:9981/stream/channelid/175331008?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/64" tvg-id="f2c39aa4d4f96867177c74fea2564b00",Food Network
+http://193.237.193.64:9981/stream/channelid/614122482?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/65" tvg-id="968c799179e339404fd190f00f253eb9",HGTV
+http://193.237.193.64:9981/stream/channelid/293178518?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/66" tvg-id="a830dacca2995a007f34a404ad01f93c",Gems TV
+http://193.237.193.64:9981/stream/channelid/1289367720?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/79" tvg-id="88ffa3a2ac26611814190840c1713df4",5SELECT
+http://193.237.193.64:9981/stream/channelid/581173128?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/67" tvg-id="47f9cc8c53da7fcaab0d9f3749e6b197",Film4+1
+http://193.237.193.64:9981/stream/channelid/214759751?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/68" tvg-id="8a2493e738ce4ded153179056fabdbc4",Challenge
+http://193.237.193.64:9981/stream/channelid/1737696394?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/69" tvg-id="b26447a431ccdb19b97d130ed41bfb5a",4seven
+http://193.237.193.64:9981/stream/channelid/608658610?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/70" tvg-id="899e1348bb1cb384b26829e009a5ba7c",GREAT! tv
+http://193.237.193.64:9981/stream/channelid/1209245321?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/71" tvg-id="28a197d33942da06950dc93e7b2e104d",Ideal World
+http://193.237.193.64:9981/stream/channelid/1402446120?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/72" tvg-id="d0b5d93f30618f58b1ab40d218663754",GREAT! romance
+http://193.237.193.64:9981/stream/channelid/1071232464?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/73" tvg-id="9e9a978bdde7c446f29dacf592ab055b",That's TV (UK)
+http://193.237.193.64:9981/stream/channelid/194484894?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/80" tvg-id="fa5c9bdfc0622240549a721570cb156a",U&Eden
+http://193.237.193.64:9981/stream/channelid/1604017402?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/110" tvg-id="ea8b34c4f0317382bacb2ae3e23f4bd7",U&Drama+1
+http://193.237.193.64:9981/stream/channelid/1144294378?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/105" tvg-id="1be6e1c73885799f8ee8f32d228ab62f",Blaze
+http://193.237.193.64:9981/stream/channelid/1205986843?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/113" tvg-id="06f2aeb7271436d0b5382fe237e28028",That's TV 2
+http://193.237.193.64:9981/stream/channelid/934212102?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/81" tvg-id="4d5d5f6a3adec973be614069a51ed301",TBN UK
+http://193.237.193.64:9981/stream/channelid/1784634701?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/101" tvg-id="9670bd912d2c103caaf831041f2fefc5",TRUE CRIME
+http://193.237.193.64:9981/stream/channelid/297627798?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/104" tvg-id="4a2fc9b51160bdb9e84e2e5e7eb04a08",TRUE CRIME XTRA
+http://193.237.193.64:9981/stream/channelid/902377290?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/82" tvg-id="1b79dbaa07d6ee9ec9951eac9ce3c8f9",LEGEND XTRA
+http://193.237.193.64:9981/stream/channelid/719026459?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/107" tvg-id="7907f965419c830bf0f94b76c1acb413",QUEST+1
+http://193.237.193.64:9981/stream/channelid/1710819193?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/108" tvg-id="2ee6b8a3ff9ba755246389535b09a6c2",That's TV 3
+http://193.237.193.64:9981/stream/channelid/599320110?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/103" tvg-id="5feaf6a9c4ea0dbc6636d4b1f4f7fe17",HobbyMaker
+http://193.237.193.64:9981/stream/channelid/704047711?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/97" tvg-id="5bc87b64a4289339b042467efccb7b00",U&DaveJaVu
+http://193.237.193.64:9981/stream/channelid/1685833819?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/98" tvg-id="c8e66837c13c1d625f4d1056537bcdee",TalkingPictures TV
+http://193.237.193.64:9981/stream/channelid/929621704?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/106" tvg-id="ea5fc0d2f21fa46d3b77d0ab24a82a58",Together TV
+http://193.237.193.64:9981/stream/channelid/1388339178?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/74" tvg-id="a53d3db66a30d4de76142147c541a954",PBS America
+http://193.237.193.64:9981/stream/channelid/909983141?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/99" tvg-id="0fbb101a6976c198e8e187c5df8f75d8",WildEarth
+http://193.237.193.64:9981/stream/channelid/437304079?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/109" tvg-id="8e7fd39c79db233d0b0bd30365627275",Rewind TV
+http://193.237.193.64:9981/stream/channelid/483622798?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/114" tvg-id="13c115e3b7fd9fe80235bcb9d51dd36f",SonLife
+http://193.237.193.64:9981/stream/channelid/1662370067?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/76" tvg-id="aca6e9ed24cb239a00bd3559e20d3a94",Sky News
+http://193.237.193.64:9981/stream/channelid/1844029100?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/100" tvg-id="cbe967e02cec081fb153a260f1bd2039",GB News
+http://193.237.193.64:9981/stream/channelid/1617422795?profile=pass
+#EXTINF:-1 group-title="ANH QUỐC" logo="http://193.237.193.64:9981/imagecache/27" tvg-id="ca0530ca2d17a4fb05c98b43bd1abd4e",BBC RB 1
+http://193.237.193.64:9981/stream/channelid/1244661194?profile=pass
 
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20hd.png" tvg-id="b020a7cc532a0b5a26918ea7b7e2f902" tvg-chno="1",10 HD
-http://49.188.116.214:9981/stream/channelid/1286021296?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20hd.png" tvg-id="6a15afea4a246168f21854f7d233d972" tvg-chno="1",10 HD
-http://49.188.116.214:9981/stream/channelid/1789859178?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20tv.png" tvg-id="b773d24b5ba82fa369650cf9bba791b5" tvg-chno="2",ABC TV
-http://49.188.116.214:9981/stream/channelid/1272083383?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20tv.png" tvg-id="600bc472fe6e8ab5d3b504301b110baf" tvg-chno="2",ABC TV
-http://49.188.116.214:9981/stream/channelid/1925450592?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20one.png" tvg-id="e1af6c9a8926a39b941a226e8c5fc1e5" tvg-chno="3",SBS ONE
-http://49.188.116.214:9981/stream/channelid/443330529?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20one.png" tvg-id="7f2e91ef61bd455e4825f7614ac6d444" tvg-chno="3",SBS ONE
-http://49.188.116.214:9981/stream/channelid/1871785599?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7%20melbourne.png" tvg-id="a2a2fe3a1c5f9bba2ce96551f7ad57c5" tvg-chno="7",7 Melbourne
-http://49.188.116.214:9981/stream/channelid/989766306?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7%20melbourne.png" tvg-id="89f14947c8d5525f6c56103023ab77c3" tvg-chno="7",7 Melbourne
-http://49.188.116.214:9981/stream/channelid/1196028297?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/channel%209%20melbourne.png" tvg-id="479a888113b53c1ce3eb71fae92a3acc" tvg-chno="9",Channel 9 Melbourne
-http://49.188.116.214:9981/stream/channelid/25729607?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/channel%209%20melbourne.png" tvg-id="e4f401539b0f8b3b1f03a1eea5700d85" tvg-chno="9",Channel 9 Melbourne
-http://49.188.116.214:9981/stream/channelid/1392637156?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10.png" tvg-id="161f3e1c6a5b8acc8a5f11365e104d97" tvg-chno="10",10
-http://49.188.116.214:9981/stream/channelid/473833238?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10.png" tvg-id="081fde38ee45e7166a3f2b7675de7c2a" tvg-chno="10",10
-http://49.188.116.214:9981/stream/channelid/954081032?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20peach.png" tvg-id="40b4f4bcc80d9022ece79f1658624182" tvg-chno="11",10 Peach Comedy
-http://49.188.116.214:9981/stream/channelid/1022669888?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20peach.png" tvg-id="c07cf4ceb071745167783529965156ab" tvg-chno="11",10 Peach Comedy
-http://49.188.116.214:9981/stream/channelid/1324645568?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20bold.png" tvg-id="c00c8ed80f4bf61a681ac7700ff025e5" tvg-chno="12",10 BOLD Drama
-http://49.188.116.214:9981/stream/channelid/1485704384?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20bold.png" tvg-id="f09dfee1c481fd50f7a2a0d42c36d452" tvg-chno="12",10 BOLD Drama
-http://49.188.116.214:9981/stream/channelid/1644076528?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20hd.png" tvg-id="0e2a43324ac0fb0226b2b6fba73fc1f6" tvg-chno="15",10 HD
-http://49.188.116.214:9981/stream/channelid/843262478?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/10%20hd.png" tvg-id="05513a428c7ba3fd50aa97b21719d600" tvg-chno="15",10 HD
-http://49.188.116.214:9981/stream/channelid/1111118085?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/tvsn.png" tvg-id="6ec80ccfd17d7582be4bc43e725ea311" tvg-chno="16",you.tv
-http://49.188.116.214:9981/stream/channelid/1326237806?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/tvsn.png" tvg-id="08a34362535123b804d09cdb22aa4d18" tvg-chno="16",you.tv
-http://49.188.116.214:9981/stream/channelid/1648599816?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/gecko.png" tvg-id="c962579c8ab01aeb7fb280712d72b98e" tvg-chno="17",gecko
-http://49.188.116.214:9981/stream/channelid/475488969?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/gecko.png" tvg-id="1cbf97e841e6afbb44a227648a40cfd5" tvg-chno="17",gecko
-http://49.188.116.214:9981/stream/channelid/1754775324?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abctv%20hd.png" tvg-id="f7543d2a0035cc4577c6376548e1807e" tvg-chno="20",ABCTV HD
-http://49.188.116.214:9981/stream/channelid/708662519?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abctv%20hd.png" tvg-id="82a0a370d8da660f44ff1c6a501ff7c5" tvg-chno="20",ABCTV HD
-http://49.188.116.214:9981/stream/channelid/1889771650?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20tv.png" tvg-id="128e53e121ab413718277a6aec70c8aa" tvg-chno="21",ABC TV
-http://49.188.116.214:9981/stream/channelid/1632865810?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20tv.png" tvg-id="aa4c486a716e2c291e34f7820db5a8c3" tvg-chno="21",ABC TV
-http://49.188.116.214:9981/stream/channelid/1783123114?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20me.png" tvg-id="d7b31baf5ade1ca1ca53a5cbc2c47762" tvg-chno="23",ABC Entertains
-http://49.188.116.214:9981/stream/channelid/790344663?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20me.png" tvg-id="cddaf7e4da9e46e162eb8a01f2b128be" tvg-chno="23",ABC Entertains
-http://49.188.116.214:9981/stream/channelid/1693965005?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20news.png" tvg-id="ab27722095e9c967c212baaf31981742" tvg-chno="24",ABC NEWS
-http://49.188.116.214:9981/stream/channelid/544352171?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20news.png" tvg-id="e7d15e79df6e58be91fcb01af4ad1ea2" tvg-chno="24",ABC NEWS
-http://49.188.116.214:9981/stream/channelid/2036257255?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20melbourne.png" tvg-id="bd376380b8112fb2b76f589db455d288" tvg-chno="25",ABC MELBOURNE
-http://49.188.116.214:9981/stream/channelid/6502333?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20melbourne.png" tvg-id="37fde23792c4747a1c4f3541f8324449" tvg-chno="25",ABC MELBOURNE
-http://49.188.116.214:9981/stream/channelid/937622839?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20rn.png" tvg-id="50854f6e4b3a98da16152009ef08689f" tvg-chno="26",ABC RN
-http://49.188.116.214:9981/stream/channelid/1850705232?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20rn.png" tvg-id="b1bda775dfbf2b9f202d206c9033c165" tvg-chno="26",ABC RN
-http://49.188.116.214:9981/stream/channelid/1973927345?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20classic.png" tvg-id="60e7b4c2558a05d709c13972a275ab3c" tvg-chno="27",ABC Classic
-http://49.188.116.214:9981/stream/channelid/1119151968?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/abc%20classic.png" tvg-id="85943bdf71dfe4eda17e2fa9a00ac155" tvg-chno="27",ABC Classic
-http://49.188.116.214:9981/stream/channelid/1597740165?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/triple%20j.png" tvg-id="1020fa9e9afecafc3c3fd23a9056d53c" tvg-chno="28",triple j
-http://49.188.116.214:9981/stream/channelid/519708688?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/triple%20j.png" tvg-id="de0db6fb1f464a6b48a5783559f7f1eb" tvg-chno="28",triple j
-http://49.188.116.214:9981/stream/channelid/2075528670?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/triple%20j%20unearthed.png" tvg-id="aeafe6206c80f9f63d54eedb74534609" tvg-chno="29",triple j Unearthed
-http://49.188.116.214:9981/stream/channelid/551989166?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/triple%20j%20unearthed.png" tvg-id="7589b9e38e8f0ea0858440ecc19e8f98" tvg-chno="29",triple j Unearthed
-http://49.188.116.214:9981/stream/channelid/1673103733?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20one%20hd.png" tvg-id="5abaf8a967f0fb0f9c15c11ce2c878f5" tvg-chno="30",SBS ONE HD
-http://49.188.116.214:9981/stream/channelid/704166490?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20one%20hd.png" tvg-id="7e1df13f48149560d60c717869431faa" tvg-chno="30",SBS ONE HD
-http://49.188.116.214:9981/stream/channelid/1072766334?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20viceland%20hd.png" tvg-id="7d3120a033a1d6d76eb47efccd496da6" tvg-chno="31",SBS VICELAND HD
-http://49.188.116.214:9981/stream/channelid/538980733?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20viceland%20hd.png" tvg-id="741e24708d77847bde99fff8166d225b" tvg-chno="31",SBS VICELAND HD
-http://49.188.116.214:9981/stream/channelid/1881415284?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20world%20movies.png" tvg-id="ea35dd148ee1e910734b6881b3c02db0" tvg-chno="32",SBS World Movies
-http://49.188.116.214:9981/stream/channelid/350041578?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20world%20movies.png" tvg-id="cfec3ab8b665bd430ae8c01011046705" tvg-chno="32",SBS World Movies
-http://49.188.116.214:9981/stream/channelid/943385807?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20food.png" tvg-id="604514ad5c77bc5bca69a75192fdf11d" tvg-chno="33",SBS Food
-http://49.188.116.214:9981/stream/channelid/756303200?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20food.png" tvg-id="ebc7cf4482f959e42e113a2229c431b3" tvg-chno="33",SBS Food
-http://49.188.116.214:9981/stream/channelid/1154467819?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20worldwatch.png" tvg-id="8612f13df44e946e5c26eff01383dfa6" tvg-chno="35",SBS WorldWatch
-http://49.188.116.214:9981/stream/channelid/1039209094?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20worldwatch.png" tvg-id="16ac3ac7c427d9be42ec3bf3a219c87a" tvg-chno="35",SBS WorldWatch
-http://49.188.116.214:9981/stream/channelid/1195027478?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/nitv.png" tvg-id="8ca9a426118d97653e4de91c65af26b3" tvg-chno="36",NITV
-http://49.188.116.214:9981/stream/channelid/648325516?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/nitv.png" tvg-id="4e0b93a82e7d4ba978ca99118180cdbe" tvg-chno="36",NITV
-http://49.188.116.214:9981/stream/channelid/680725326?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20arabic24.png" tvg-id="83f4fbdc3f451fd80001bf88e96f209c" tvg-chno="36",SBS Arabic24
-http://49.188.116.214:9981/stream/channelid/1560016003?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20arabic24.png" tvg-id="d4f0727173446b3275d454709691c72e" tvg-chno="36",SBS Arabic24
-http://49.188.116.214:9981/stream/channelid/1903358164?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20radio%201.png" tvg-id="d49cb895bff079367bd6804d052cff45" tvg-chno="37",SBS Radio 1
-http://49.188.116.214:9981/stream/channelid/364420308?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20radio%201.png" tvg-id="4aeec4168959d08f48bfe99b223b0121" tvg-chno="37",SBS Radio 1
-http://49.188.116.214:9981/stream/channelid/382004810?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20radio%202.png" tvg-id="d64d4f9299eff50c09a3cfcbd4deac00" tvg-chno="38",SBS Radio 2
-http://49.188.116.214:9981/stream/channelid/307187158?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20radio%202.png" tvg-id="aa59ea67fd755fd717dd966649908767" tvg-chno="38",SBS Radio 2
-http://49.188.116.214:9981/stream/channelid/1743411626?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20chill.png" tvg-id="138436327da9266af2adf6f079254fa6" tvg-chno="39",SBS Chill
-http://49.188.116.214:9981/stream/channelid/842433555?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/sbs%20chill.png" tvg-id="f10dd2d0a24bdc0d590c72115a12bac9" tvg-chno="39",SBS Chill
-http://49.188.116.214:9981/stream/channelid/1355943409?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/c31.png" tvg-id="47321e2194f7de1ad4079f66af313c1c" tvg-chno="44",C31
-http://49.188.116.214:9981/stream/channelid/555627079?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7hd%20melbourne.png" tvg-id="0ef2a80a791e0899dd90925328d5d75c" tvg-chno="70",7HD Melbourne
-http://49.188.116.214:9981/stream/channelid/178844174?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7hd%20melbourne.png" tvg-id="ecaf1a38b05dd801d9891abf35791f6a" tvg-chno="70",7HD Melbourne
-http://49.188.116.214:9981/stream/channelid/941273068?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7%20melbourne.png" tvg-id="4deab34484c869d9c56f63bd3843dc24" tvg-chno="71",7 Melbourne
-http://49.188.116.214:9981/stream/channelid/1152641613?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7%20melbourne.png" tvg-id="f87722ddcb07edef157a1b29c6dcc039" tvg-chno="71",7 Melbourne
-http://49.188.116.214:9981/stream/channelid/1562540024?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7two%20melbourne.png" tvg-id="d5496fb9b9a90307a8cdb497e1d0163f" tvg-chno="72",7TWO Melbourne
-http://49.188.116.214:9981/stream/channelid/963594709?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7two%20melbourne.png" tvg-id="afa4c443e62e0a1489433c82eb14ef2b" tvg-chno="72",7TWO Melbourne
-http://49.188.116.214:9981/stream/channelid/1136960687?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7matehd%20melbourne.png" tvg-id="99b89f29d2a5842f7969c2c33710f808" tvg-chno="74",7mateHD Melbourne
-http://49.188.116.214:9981/stream/channelid/698333337?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7matehd%20melbourne.png" tvg-id="e35766e2c7f9ac67d74ca605b20475c6" tvg-chno="74",7mateHD Melbourne
-http://49.188.116.214:9981/stream/channelid/1650874339?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7bravo%20melbourne.png" tvg-id="22709469c6240ae2ca08a0f346a8142f" tvg-chno="75",7Bravo Melbourne
-http://49.188.116.214:9981/stream/channelid/1771335714?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7bravo%20melbourne.png" tvg-id="ca4cba6e8baf6f48580c53e76eacff5f" tvg-chno="75",7Bravo Melbourne
-http://49.188.116.214:9981/stream/channelid/1857703114?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7flix%20melbourne.png" tvg-id="642b6f0e2c2ddf1eedb7386ea35df377" tvg-chno="76",7flix Melbourne
-http://49.188.116.214:9981/stream/channelid/242166628?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/7flix%20melbourne.png" tvg-id="e39c7568878ef233b570ee47c4f4c23d" tvg-chno="76",7flix Melbourne
-http://49.188.116.214:9981/stream/channelid/1752538339?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/racing.com.png" tvg-id="2b26603f7c43264432449de56ae69b93" tvg-chno="78",RACING.COM
-http://49.188.116.214:9981/stream/channelid/1063265835?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/racing.com.png" tvg-id="499b5fddff63b381fcd2d1d3b5551f8f" tvg-chno="78",RACING.COM
-http://49.188.116.214:9981/stream/channelid/1566546761?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9hd%20melbourne.png" tvg-id="f5f16808e653ff7f86b1ec3989c4d888" tvg-chno="90",9HD Melbourne
-http://49.188.116.214:9981/stream/channelid/141095413?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9hd%20melbourne.png" tvg-id="238e78a2c0556f7aefd04a75d1daf29b" tvg-chno="90",9HD Melbourne
-http://49.188.116.214:9981/stream/channelid/578326051?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/channel%209%20melbourne.png" tvg-id="63c05caddafc02f1b21e857ee36703ce" tvg-chno="91",Channel 9 Melbourne
-http://49.188.116.214:9981/stream/channelid/761053283?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/channel%209%20melbourne.png" tvg-id="24df714fef06c82fd84a1ae3b33d7cf8" tvg-chno="91",Channel 9 Melbourne
-http://49.188.116.214:9981/stream/channelid/1332862756?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9gem%20melbourne.png" tvg-id="d969438615cbf64e1b58eb1cd7fe043e" tvg-chno="92",9Gem Melbourne
-http://49.188.116.214:9981/stream/channelid/105081305?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9gem%20melbourne.png" tvg-id="077c2e070a477afb9dac306131a254e4" tvg-chno="92",9Gem Melbourne
-http://49.188.116.214:9981/stream/channelid/120486919?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9go%21%20melbourne.png" tvg-id="63344b89a067cec6d48036274f49adc8" tvg-chno="93",9Go! Melbourne
-http://49.188.116.214:9981/stream/channelid/155923555?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9go%21%20melbourne.png" tvg-id="80ce2de2ab4cac19b7cb38422fbebdfc" tvg-chno="93",9Go! Melbourne
-http://49.188.116.214:9981/stream/channelid/1647169152?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9life%20melbourne.png" tvg-id="04dd4b895a32f6027dd1816e0ef9a85b" tvg-chno="94",9Life Melbourne
-http://49.188.116.214:9981/stream/channelid/155966724?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9life%20melbourne.png" tvg-id="47591f33f0dc6c5d3eba74d8ca5d89a1" tvg-chno="94",9Life Melbourne
-http://49.188.116.214:9981/stream/channelid/857692487?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9gemhd%20melbourne.png" tvg-id="171e480fcd10a5611086c0e174155e0f" tvg-chno="95",9GemHD Melbourne
-http://49.188.116.214:9981/stream/channelid/256384535?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9gemhd%20melbourne.png" tvg-id="0aabcb1f5526aa5eb0db382f2bb55299" tvg-chno="95",9GemHD Melbourne
-http://49.188.116.214:9981/stream/channelid/533441290?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9rush%20melbourne.png" tvg-id="50fc75cc843cbfbf4d297aa08031068d" tvg-chno="96",9Rush Melbourne
-http://49.188.116.214:9981/stream/channelid/1282800720?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9rush%20melbourne.png" tvg-id="dfc39adac6d886c4e9d29134dd9b2d84" tvg-chno="96",9Rush Melbourne
-http://49.188.116.214:9981/stream/channelid/1520092127?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/extra.png" tvg-id="7f1fc36529f4c8fafe5ae5fe4dd21116" tvg-chno="97",Extra
-http://49.188.116.214:9981/stream/channelid/1707286399?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/extra.png" tvg-id="3aaa10fde6f34f6ecfdc899a65c4421c" tvg-chno="97",Extra
-http://49.188.116.214:9981/stream/channelid/2098244154?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9go%21%20melbourne.png" tvg-id="353c71a4d2717fd2eebf6a46efeb86b5" tvg-chno="99",9Go!HD Melbourne
-http://49.188.116.214:9981/stream/channelid/611400757?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/9go%21%20melbourne.png" tvg-id="d0d8846b71844c6eefadb6e3244ace54" tvg-chno="99",9Go!HD Melbourne
-http://49.188.116.214:9981/stream/channelid/1803868368?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/fetch%20pitv%201.png" tvg-id="22a9e4bac3fc2117cd8568fa631b7412" tvg-chno="101",FETCH PiTV 2
-http://49.188.116.214:9981/stream/channelid/988064034?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/foxtel%20pitv%201.png" tvg-id="d36a21840c1acca56546d3f18a8528ae" tvg-chno="102",FOXTEL PiTV 2
-http://49.188.116.214:9981/stream/channelid/69298899?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" logo="https://raw.githubusercontent.com/mathewcallaghan/australian-tv-network-logo-icons/master/colour/foxtel%20pitv%201.png" tvg-id="4605f7241be1cdd93f5ae8462e42d604" tvg-chno="102",FOXTEL PiTV 2
-http://49.188.116.214:9981/stream/channelid/620168518?profile=pass
 
-#EXTINF:-1 tvg-id="CTVToronto(English).ca" tvg-name="CTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-ca.png" group-title="Canada",CTV
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium602/index.m3u8
-#EXTINF:-1 tvg-id="CTVTwoToronto(English).ca" tvg-name="CTV 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV 2
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium838/index.m3u8
-#EXTINF:-1 tvg-id="Citytv.Toronto.HDTV.(CTYTH).ca" tvg-name="Citytv" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/city-tv-ca.png" group-title="Canada",Citytv
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium831/index.m3u8
-#EXTINF:-1 tvg-id="CBCToronto(English).ca" tvg-name="CBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cbc-ca.png" group-title="Canada",CBC
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium832/index.m3u8
-#EXTINF:-1 tvg-id="GlobalToronto(English).ca" tvg-name="Global" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/global-ca.png" group-title="Canada",Global
-#EXTVLCOPT:http-referrer=https://daddylivehd1.click/
-#EXTVLCOPT:http-origin=https://daddylivehd1.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium836/index.m3u8
+#EXTINF:-1  tvg-id="TF1.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/TF1%20HD.png" group-title="PHÁP", TF1
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTINF:-1  tvg-id="France2.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/France%202%20HD.png" group-title="PHÁP", France 2
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTINF:-1  tvg-id="France3.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/France%203%20HD.png" group-title="PHÁP", France 3
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france3.m3u8
+#EXTINF:-1  tvg-id="CanalPlus.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Canal+%20HD.png" group-title="PHÁP", Canal+
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/canalplusclair-hd.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTINF:-1  tvg-id="France5.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/France%205%20HD.png" group-title="PHÁP", France 5
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france5.m3u8
+#EXTINF:-1  tvg-id="M6.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/M6%20HD.png" group-title="PHÁP", M6
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m6plus/m6.m3u8
+#EXTINF:-1  tvg-id="ARTE.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Arte%20HD.png" group-title="Documentaire", Arte
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/Arte.m3u8
+#EXTINF:-1  tvg-id="C8.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/C8.png" group-title="PHÁP", C8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/c8.m3u8
+#EXTINF:-1  tvg-id="W9.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/W9%20HD.png" group-title="PHÁP", W9
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m6plus/w9.m3u8
+#EXTINF:-1  tvg-id="TMC.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/TMC%20HD.png" group-title="PHÁP", TMC
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tmc.m3u8
+#EXTINF:-1  tvg-id="NT1.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/TFX.png" group-title="PHÁP", TFX
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tfx.m3u8
+#EXTINF:-1  tvg-id="NRJ12.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/NRJ%2012%20HD.png" group-title="PHÁP", NRJ 12
+https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8
+#EXTINF:-1  tvg-id="LaChaineParlementaire.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/LCP.png" group-title="PHÁP", La Chaine Parlementaire/Public Sénat
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/lcp/lcp-dm.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTINF:-1  tvg-id="France4.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/France%204%20HD.png" group-title="PHÁP", France 4
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france4.m3u8
+#EXTINF:-1  tvg-id="BFMTV.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/BFM%20TV.png" group-title="PHÁP", BFM TV
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
+#EXTINF:-1  tvg-id="CNews.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/CNews.png" group-title="PHÁP", CNews
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8
+#EXTINF:-1  tvg-id="CStar.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/CStar.png" group-title="PHÁP", CStar
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cstar.m3u8
+#EXTINF:-1  tvg-id="Gulli.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Gulli%20HD.png" group-title="PHÁP", Gulli
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m6plus/gulli.m3u8
+#EXTINF:-1  tvg-id="TF1SeriesFilms.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/TF1%20Séries%20Films.png" group-title="PHÁP", TF1 Séries Films
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1sf.m3u8
+#EXTINF:-1  tvg-id="EquipeTV.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/L'Équipe.png" group-title="Sport", L'Équipe 21
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/l-equipe.m3u8
+#EXTINF:-1  tvg-id="6ter.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/6ter.png" group-title="PHÁP", 6ter
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/m6plus/6ter.m3u8
+#EXTINF:-1  tvg-id="RMCStory.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/RMC%20Story.png" group-title="Documentaire", RMC Story
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rmc/rmcstory.m3u8
+#EXTINF:-1  tvg-id="RMCdecouverte.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/RMC%20Découverte.png" group-title="Documentaire", RMC Découverte
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/rmc/rmcdecouverte.m3u8
+#EXTINF:-1  tvg-id="Cherie25.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Chérie%2025.png" group-title="PHÁP", Chérie 25
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/Cherie25.m3u8
+#EXTINF:-1  tvg-id="LCI.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/LCI.png" group-title="PHÁP", LCI
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/LCI.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTINF:-1  tvg-id="FranceInfo.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/franceinfo.png" group-title="PHÁP", franceinfo:
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/franceinfo.m3u8
+#EXTINF:-1  tvg-id="ParisPremiere.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Paris%20Première.png" group-title="PHÁP", Paris Première
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Offline.mp4
+#EXTINF:-1  tvg-id="Teva.fr" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Téva.png" group-title="PHÁP", Téva
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Offline.mp4
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/France%2024.png" group-title="PHÁP", France 24
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/France24.m3u8
+#EXTINF:-1  tvg-id="" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/euronews.png" group-title="PHÁP", euronews
+https://euronews-euronews-french-3-us.plex.wurl.tv/playlist.m3u8
+#EXTINF:-1  tvg-id="" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Tiji.png" group-title="PHÁP", Tiji
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Offline.mp4
+#EXTINF:-1  tvg-id="" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/GONG.png" group-title="PHÁP", GONG
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01596-gongnetworks-gong-samsungfr/playlist.m3u8
+#EXTINF:-1  tvg-id="" tvg-logo="https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Images/Trace%20Urban.png" group-title="PHÁP", Trace Urban
+https://lightning-traceurban-samsungau.amagi.TV/playlist.m3u8
+
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7afl-FAST.png" tvg-id="3b05b85a2dcfc6f6462067fc460fece6",7AFL
+http://1.156.19.136:9981/stream/channelid/1522009403?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/cas33-FAST.png" tvg-id="68125e9b18fbdfb004c7fbfc0200fd17",7CRICKET
+http://1.156.19.136:9981/stream/channelid/459149928?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/cas32-FAST.png" tvg-id="15debd7aba321c4f69ef6f186e06679f",7NEWS Spotlight
+http://1.156.19.136:9981/stream/channelid/2059263509?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7now-FAST.png" tvg-id="15264de2ae54491c51a0807ab8e0b041",7now
+http://1.156.19.136:9981/stream/channelid/1649223189?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/ae76d32898cca0be596b7f23c1bd41f2?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="cb3b04a9ba377e626217a40f5d993ed1",ABC Business in 90 Seconds
+http://1.156.19.136:9981/stream/channelid/688143307?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/144a0dacebeb9f616c1fcd637e3b2cf2?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="fac843ef27d3ac3a26d73bc178859067",ABC News in 90 Seconds
+http://1.156.19.136:9981/stream/channelid/1866713338?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/646cb8a032c847ec21c3de0de881e4cb?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="5962bd28b25ba27237a09fc6c80acb2d",ABC Sport in 90 Seconds
+http://1.156.19.136:9981/stream/channelid/683500121?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/d376e49724862f104d044ff6467f85d8?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="8b8dd6f8f305b6a23ac466316458c785",ABC Weather in 90 Seconds
+http://1.156.19.136:9981/stream/channelid/2027326859?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/abc-nsw.png" tvg-id="a816a89323cc4bd970a5b6ad24f28ab5",ABC TV
+http://1.156.19.136:9981/stream/channelid/329782952?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs.png" tvg-id="03518a97a84bc89e8371e2f729d213a2",SBS
+http://1.156.19.136:9981/stream/channelid/394940675?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/seven-syd.png" tvg-id="7e6932bd55a596dd392cec36922dd886",Seven
+http://1.156.19.136:9981/stream/channelid/1026713982?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" tvg-id="92905349d818d4b8068a7766075a4385",Channel 9
+http://1.156.19.136:9981/stream/channelid/1230213266?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10-nsw.png" tvg-id="d726215aad4d6a41bfda379517ca944d",10
+http://1.156.19.136:9981/stream/channelid/1512122071?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10peach-nsw.png" tvg-id="58a6b2493bf6f7d93e23dfc115091bbd",10 Peach
+http://1.156.19.136:9981/stream/channelid/1236444760?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10bold-nsw.png" tvg-id="a1f0768588c67ef4fe3ac4e0bd162d30",10 BOLD
+http://1.156.19.136:9981/stream/channelid/91680929?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10-nickelodeon.png" tvg-id="dfdf508f5517ce659fca969d90e8d05c",Nickelodeon
+http://1.156.19.136:9981/stream/channelid/256958431?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/tvsn-shopping.png" tvg-id="73ec0577c943007bdee45a707472104d",TVSN Shopping
+http://1.156.19.136:9981/stream/channelid/1996876915?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/gecko.png" tvg-id="7dadd9a1e62c4994b1fcea5ed18eb4c8",gecko
+http://1.156.19.136:9981/stream/channelid/567913853?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://cdn.iview.abc.net.au/thumbs/256/7_Family_C-1053_iview_LivestreamOff_2000x2000_new.png" tvg-id="fb13b6c9345bc83bf7dd1ac5360e8a9e",ABC Family
+http://1.156.19.136:9981/stream/channelid/1236669435?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/abc-kids.png" tvg-id="1a98fd381c844888643531203371c7ee",ABC Kids
+http://1.156.19.136:9981/stream/channelid/956143642?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://cdn.iview.abc.net.au/thumbs/256/6_Entertains_C-1054_iview_LivestreamOn_2000x2000_new.png" tvg-id="82dbfc23a23c2c33ab98f77804bfb3d7",ABC Entertains
+http://1.156.19.136:9981/stream/channelid/603773826?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/abc-news.png" tvg-id="087b6f8e29de7f69dc29060a0baa87eb",ABC NEWS
+http://1.156.19.136:9981/stream/channelid/242187016?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-viceland.png" tvg-id="6910b12cfbe618f413a9c4c265386a30",SBS VICELAND
+http://1.156.19.136:9981/stream/channelid/749801577?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-world-movies.png" tvg-id="482d855d90a2a0bfc5bde059649c3798",SBS World Movies
+http://1.156.19.136:9981/stream/channelid/1569008968?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-food.png" tvg-id="9600dbac609aa3f9175afc6e1c124a7e",SBS Food
+http://1.156.19.136:9981/stream/channelid/752550038?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-nitv.png" tvg-id="4a0330db1d0dbc2beff4f13040be726c",NITV
+http://1.156.19.136:9981/stream/channelid/1529873226?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-world-watch.png" tvg-id="70f5df82d5b23096e94b43446bdd4a66",SBS World Watch
+http://1.156.19.136:9981/stream/channelid/48231792?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7two-syd.png" tvg-id="f7545bc5739e5b5921786f1c3af23205",7two
+http://1.156.19.136:9981/stream/channelid/1163613431?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7mate-syd.png" tvg-id="f19a3c53a2cbbd898f541867dc6fe8f5",7mate
+http://1.156.19.136:9981/stream/channelid/1396480753?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7bravo-FAST.png" tvg-id="e9aa29b184820ff49d9154c66ba5fa87",7Bravo
+http://1.156.19.136:9981/stream/channelid/824814313?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7flix-syd.png" tvg-id="4a38a524439aff9cf5cab0af3a5c2411",7flix
+http://1.156.19.136:9981/stream/channelid/614807626?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/racing-FAST.png" tvg-id="0cdeeb1a6626ea47a512f15b66698f01",Racing.com
+http://1.156.19.136:9981/stream/channelid/451665420?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/d00389KKc5T4o5isRaDE9Pl9DWk=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F620929%2F9gem-1.png" tvg-id="0ae2728d4559bd4996a413df761cc8f3",9Gem
+http://1.156.19.136:9981/stream/channelid/225632778?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/fcTwzkAJT4q81emfp2kYkgoxlDA=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574470%2F9go.png" tvg-id="fc5726fef8a872648d0fde056512c1f3",9Go!
+http://1.156.19.136:9981/stream/channelid/2116442108?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/wMK3kBDybfEoN2iqyDDflC91D1U=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574472%2F9life.png" tvg-id="34e8657a374825f67499bf78412dac27",9Life
+http://1.156.19.136:9981/stream/channelid/2053498932?profile=pass
+#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/5B2ZDlD8Ji6dCecGQEfwy2U2m4Y=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574473%2F9rush.png" tvg-id="997385f1f238633f6ade83c55614b2d1",9Rush
+http://1.156.19.136:9981/stream/channelid/1904571289?profile=pass
 
 #EXTINF:-1 group-title="Ba Lan",TV Kujawy
 http://stream.tvkujawy.pl:8080/live/broadcast.m3u8
