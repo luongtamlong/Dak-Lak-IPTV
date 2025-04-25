@@ -493,60 +493,82 @@ https://cast1.torontocast.com/jsakura
 http://kathy.torontocast.com:3340/; 
 #EXTINF:-1 tvg-logo="https://asiadreamradio.torontocast.stream/stations/en/images/en/421173E9B37A442498AC9F215CA25971/JazzSakuraLogo2019.jpeg" group-title="QUỐC TẾ",Jazz Sakura
 https://kathy.torontocast.com:3330/;
-#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CRI China Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Radio_China_International.svg/220px-Radio_China_International.svg.png" group-title="QUỐC TẾ" radio="true",CRI China Plus
-http://sk.cri.cn/am846.m3u8
-#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR1 NEWS" tvg-logo="https://pic.qtfm.cn/sso/198/1631523942979_3Kp24fIif.jpeg" group-title="QUỐC TẾ" radio="true",CNR-1 News Radio
-http://ngcdn001.cnr.cn/live/zgzs/index.m3u8
-#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR2 BUSINESS" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191227/1577439539975.png" group-title="QUỐC TẾ" radio="true",CNR-2 Business Radio
-http://ngcdn002.cnr.cn/live/jjzs/index.m3u8
-#EXTINF:-1 group-title="QUỐC TẾ" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191224/1577155745280.png" radio="true",CNR-3 Music Radio
-http://ngcdn003.cnr.cn/live/yyzs/index.m3u8
-#EXTINF:-1 group-title="QUỐC TẾ" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20200108/1578449381052.png" radio="true",CNR-4 Golden Radio
-http://ngcdn004.cnr.cn/live/dszs/index.m3u8
-#EXTINF:-1 group-title="QUỐC TẾ" tvg-logo="http://www.radio.cn/img/default/2014/9/18/1411025614670.jpg" radio="true",CNR-5 Cross-Strait Radio
-http://ngcdn005.cnr.cn/live/zhzs/index.m3u8
-#EXTINF:-1 group-title="QUỐC TẾ" tvg-logo="http://www.radio.cn/img/default/2014/9/18/1411025635405.jpg" radio="true",CNR-6 Shenzhou Easy Radio
-http://ngcdn006.cnr.cn/live/szzs/index.m3u8
-#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR7" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20190830/1567159925260.pngg" group-title="QUỐC TẾ" radio="true",CNR-7 Radio The Greater Bay
-http://ngcdn007.cnr.cn/live/hxzs/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/wyzs.png" group-title="QUỐC TẾ",CNR-9 Culture Service
-http://ngcdn010.cnr.cn/live/wyzs/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/lnzs.png" group-title="QUỐC TẾ",CNR-10 Elder Radio
-http://ngcdn011.cnr.cn/live/lnzs/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/zgjtgb.jpg" group-title="QUỐC TẾ",CNR-16 Traffic Service
-http://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8
-#EXTINF:-1 tvg-chno="287" tvg-id="france24eng" tvg-name="CNR14" tvg-logo="https://pic.qtfm.cn/sso/198/1631523942979_3Kp24fIif.jpeg" group-title="QUỐC TẾ" radio="true",CNR Hong Kong Service
-http://ngcdn008.cnr.cn/live/xgzs/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/ez.png" group-title="QUỐC TẾ" radio="true",CRI EZFM
-http://sk.cri.cn/915.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/hitfm.png" group-title="QUỐC TẾ" radio="true",CRI Hit FM
-http://satellitepull.cnr.cn/live/wxhitfm/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/hyhq.png" group-title="QUỐC TẾ" radio="true",CRI Chinese Radio
-http://sk.cri.cn/hyhq.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/hqzx.png" group-title="QUỐC TẾ" radio="true",CRI News Radio
-http://sk.cri.cn/905.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/sjhs.png" group-title="QUỐC TẾ" radio="true",CRI Overseas Radio
-http://sk.cri.cn/hxfh.m3u8
-#EXTINF:-1 1 tvg-chno="287" tvg-id="france24eng" group-title="QUỐC TẾ" tvg-logo="https://trangdichvu.com/wp-content/uploads/2019/10/duong-luoi-bo-la-gi.jpg" radio="true", FCK YOU CHEE-NA
-http://sk.cri.cn/nhzs.m3u8
+#EXTINF:-1 radio="true" tvg-name="中国之声" tvg-logo="https://radio.0472.org/?id=639&logo" group-title="QUỐC TẾ",CNR Voice of China
+https://radio.0472.org/?id=639
+#EXTINF:-1 radio="true" tvg-name="经济之声" tvg-logo="https://radio.0472.org/?id=640&logo" group-title="QUỐC TẾ",CNR Business Radio
+https://radio.0472.org/?id=640
+#EXTINF:-1 radio="true" tvg-name="环球资讯广播" tvg-logo="https://radio.0472.org/?id=692&logo" group-title="QUỐC TẾ",CRI News Radio
+https://radio.0472.org/?id=692
+#EXTINF:-1 radio="true" tvg-name="音乐之声" tvg-logo="https://radio.0472.org/?id=641&logo" group-title="QUỐC TẾ",CNR Music Radio
+https://radio.0472.org/?id=641
+#EXTINF:-1 radio="true" tvg-name="中国交通广播" tvg-logo="https://radio.0472.org/?id=653&logo" group-title="QUỐC TẾ",CNR Traffic Radio
+https://radio.0472.org/?id=653
+#EXTINF:-1 radio="true" tvg-name="文艺之声" tvg-logo="https://radio.0472.org/?id=648&logo" group-title="QUỐC TẾ",CNR Cultural Radio
+https://radio.0472.org/?id=648
+#EXTINF:-1 radio="true" tvg-name="大湾区之声" tvg-logo="https://radio.0472.org/?id=645&logo" group-title="QUỐC TẾ",CNR Voice of the Greater Bay
+https://radio.0472.org/?id=645
+#EXTINF:-1 radio="true" tvg-name="经典音乐广播" tvg-logo="https://radio.0472.org/?id=642&logo" group-title="QUỐC TẾ",CNR Golden Radio
+https://radio.0472.org/?id=642
+#EXTINF:-1 radio="true" tvg-name="台海之声" tvg-logo="https://radio.0472.org/?id=643&logo" group-title="QUỐC TẾ",CNR Taiwan Service
+https://radio.0472.org/?id=643
+#EXTINF:-1 radio="true" tvg-name="神州之声" tvg-logo="https://radio.0472.org/?id=644&logo" group-title="QUỐC TẾ",CNR Easy Radio
+https://radio.0472.org/?id=644
+#EXTINF:-1 radio="true" tvg-name="香港之声" tvg-logo="https://radio.0472.org/?id=646&logo" group-title="QUỐC TẾ",CNR Hong Kong Service
+https://radio.0472.org/?id=646
+#EXTINF:-1 radio="true" tvg-name="民族之声" tvg-logo="https://radio.0472.org/?id=647&logo" group-title="QUỐC TẾ",CNR Minorities Service
+https://radio.0472.org/?id=647
+#EXTINF:-1 radio="true" tvg-name="老年之声" tvg-logo="https://radio.0472.org/?id=649&logo" group-title="QUỐC TẾ",CNR Elderly Radio
+https://radio.0472.org/?id=649
+#EXTINF:-1 radio="true" tvg-name="藏语广播" tvg-logo="https://radio.0472.org/?id=650&logo" group-title="QUỐC TẾ",CNR Tibetan Service
+https://radio.0472.org/?id=650
+#EXTINF:-1 radio="true" tvg-name="维吾尔语广播" tvg-logo="https://radio.0472.org/?id=651&logo" group-title="QUỐC TẾ",CNR Uyghur Service
+https://radio.0472.org/?id=651
+#EXTINF:-1 radio="true" tvg-name="阅读之声" tvg-logo="https://radio.0472.org/?id=652&logo" group-title="QUỐC TẾ",CNR Literature Radio
+https://radio.0472.org/?id=652
+#EXTINF:-1 radio="true" tvg-name="中国乡村之声" tvg-logo="https://radio.0472.org/?id=654&logo" group-title="QUỐC TẾ",CNR Rural Radio
+https://radio.0472.org/?id=654
+#EXTINF:-1 radio="true" tvg-name="哈萨克语广播" tvg-logo="https://radio.0472.org/?id=655&logo" group-title="QUỐC TẾ",CNR Kazakh Service
+https://radio.0472.org/?id=655
+#EXTINF:-1 radio="true" tvg-name="HITFM劲曲调频" tvg-logo="https://radio.0472.org/?id=662&logo" group-title="QUỐC TẾ",CRI HITFM
+https://radio.0472.org/?id=662
+#EXTINF:-1 radio="true" tvg-name="轻松调频" tvg-logo="https://radio.0472.org/?id=689&logo" group-title="QUỐC TẾ",CRI EZFM
+https://radio.0472.org/?id=689
+#EXTINF:-1 radio="true" tvg-name="南海之声" tvg-logo="https://radio.0472.org/?id=664&logo" group-title="QUỐC TẾ",PARACEL AND SPRATLY ISLANDS BELONG TO VIETNAM
+https://radio.0472.org/?id=664
+#EXTINF:-1 radio="true" tvg-name="英语资讯广播 CGTN Radio" tvg-logo="https://radio.0472.org/?id=734&logo" group-title="QUỐC TẾ",CGTN Radio
+https://radio.0472.org/?id=734
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BJJTGB.png" group-title="QUỐC TẾ",BRFM Traffic Service
 http://ls.qingting.fm/live/336.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BJXWGB.png" group-title="QUỐC TẾ",BRFM Newsradio
 http://ls.qingting.fm/live/339.m3u8
 #EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/bj974.png" group-title="QUỐC TẾ",BRFM Music
 http://ls.qingting.fm/live/332.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HNYYZS.png" group-title="QUỐC TẾ",Hunan Music FM
-http://a.live.hnradio.com/yypd/radio120k_yypd.m3u8?auth_key=1588751172-0-0-d97b858279c1c86650172b9913ea4af2
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/2e/Radio_Shanghai.jpg?20220416064017" group-title="QUỐC TẾ",SMG News Service
-https://lhttp.qingting.fm/live/270/64k.mp3 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/e0/Shanghai_Traffic_Radio.jpg" group-title="QUỐC TẾ",SMG Traffic Service
-http://lhttp.qingting.fm/live/266/64k.mp3 
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/loveradio.png" group-title="QUỐC TẾ",SMG Love Radio
-https://radio.0472.org/?id=1313
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/kfm.png" group-title="QUỐC TẾ",SMG Shanghai KFM
+#EXTINF:-1 radio="true" tvg-name="第一财经广播" tvg-logo="https://radio.0472.org/?id=370&logo" group-title="QUỐC TẾ", Shanghai First Financial Radio 
+https://radio.0472.org/?id=370
+#EXTINF:-1 radio="true" tvg-name="中国交通广播（长三角）" tvg-logo="https://radio.0472.org/?id=744&logo" group-title="QUỐC TẾ",CNR Traffic Service Yangtze Feed
+https://radio.0472.org/?id=744
+#EXTINF:-1 radio="true" tvg-name="长三角之声" tvg-logo="https://radio.0472.org/?id=843&logo" group-title="QUỐC TẾ",Voice of the Yangtze River Delta
+https://radio.0472.org/?id=843
+#EXTINF:-1 radio="true" tvg-name="上海故事广播" tvg-logo="https://radio.0472.org/?id=844&logo" group-title="QUỐC TẾ",SMG Literature Radio
+https://radio.0472.org/?id=844
+#EXTINF:-1 radio="true" tvg-name="五星体育广播" tvg-logo="https://radio.0472.org/?id=845&logo" group-title="QUỐC TẾ",SMG Sport Radio
+https://radio.0472.org/?id=845
+#EXTINF:-1 radio="true" tvg-name="上海新闻广播" tvg-logo="https://radio.0472.org/?id=849&logo" group-title="QUỐC TẾ",SMG News Radio
+https://radio.0472.org/?id=849
+#EXTINF:-1 radio="true" tvg-name="KFM981" tvg-logo="https://radio.0472.org/?id=1310&logo" group-title="QUỐC TẾ",KFM981
 https://radio.0472.org/?id=1310
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/1017.png" group-title="QUỐC TẾ",SMG Dynamic FM 101.7
+#EXTINF:-1 radio="true" tvg-name="动感101" tvg-logo="https://radio.0472.org/?id=1311&logo" group-title="QUỐC TẾ",Dynamic 101
 https://radio.0472.org/?id=1311
+#EXTINF:-1 radio="true" tvg-name="上海交通广播" tvg-logo="https://radio.0472.org/?id=1312&logo" group-title="QUỐC TẾ",SMG Traffic Radio
+https://radio.0472.org/?id=1312
+#EXTINF:-1 radio="true" tvg-name="Love Radio FM103.7" tvg-logo="https://radio.0472.org/?id=1313&logo" group-title="QUỐC TẾ",Love Radio FM103.7
+https://radio.0472.org/?id=1313
+#EXTINF:-1 radio="true" tvg-name="上海戏曲广播" tvg-logo="https://radio.0472.org/?id=1314&logo" group-title="QUỐC TẾ",SMG Opera Radio
+https://radio.0472.org/?id=1314
+#EXTINF:-1 radio="true" tvg-name="经典947" tvg-logo="https://radio.0472.org/?id=1316&logo" group-title="QUỐC TẾ",Classic 947
+https://radio.0472.org/?id=1316
+#EXTINF:-1 radio="true" tvg-name="浦江之声广播" tvg-logo="https://radio.0472.org/?id=1317&logo" group-title="QUỐC TẾ",Voice of the Pujiang River Radio
+https://radio.0472.org/?id=1317
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/c/c8/GRT_News_Radio.png" group-title="QUỐC TẾ",Guangdong Radio News Service
 https://lhttp.qingting.fm/live/1254/64k.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/87/GRT_E974.png" group-title="QUỐC TẾ",Guangdong Pearl River Economic Radio
@@ -577,23 +599,32 @@ https://radio.0472.org/?id=498
 https://radio.0472.org/?id=1065
 #EXTINF:-1 tvg-id="深圳音乐广播" tvg-name="音乐广播" tvg-logo="https://img-ossimg-qn.ajmide.com/program/1EGoGw.png" group-title="QUỐC TẾ",Shenzhen Life 94.2
 https://radio.0472.org/?id=499
-#EXTINF:-1 tvg-chno="288" tvg-id="france24eng" tvg-name="RTHK Radio 1" tvg-logo="https://dpi4fupzvxbqq.cloudfront.net/rfm/uploads/rlogo/300/300_1472016960.png" group-title="QUỐC TẾ" radio="true",RTHK Radio 1
-https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8
-#EXTINF:-1 tvg-chno="289" tvg-id="france24eng" tvg-name="RTHK Radio 2" tvg-logo="https://uk.radio.net/images/broadcasts/f7/1a/35978/1/c300.png" group-title="QUỐC TẾ" radio="true",RTHK Radio 2
-https://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/master.m3u8
-#EXTINF:-1 tvg-chno="290" tvg-id="france24eng" tvg-name="RTHK Radio 3" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/53/Rthk-3-fm.png/revision/latest?cb=20211106152905" group-title="QUỐC TẾ" radio="true",RTHK Radio 3
-https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/index_56_a-p.m3u8
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio 4" tvg-logo="https://www.rthk.hk/img/radio_player_pro_radio4.jpg" group-title="QUỐC TẾ" radio="true",RTHK Radio 4
-https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio 5" tvg-logo="https://static.wikia.nocookie.net/hkradio/images/f/f8/RTHKRadio5_logo.gif/revision/latest?cb=20131022130417&path-prefix=zh" group-title="QUỐC TẾ" radio="true",RTHK Radio 5
-https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/index_56_a-p.m3u8
-#EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://cdn-radiotime-logos.tunein.com/s14481d.png" group-title="QUỐC TẾ" radio="true",RTHK Radio Putonghua
-http://stm.rthk.hk/radioptha
+#EXTINF:-1 radio="true" tvg-name="RTHK1" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ",RTHK Radio 1
+https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8
+#EXTINF:-1 radio="true" tvg-name="RTHK2" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ",RTHK Radio 2
+https://rthkradio2-live.akamaized.net/hls/live/2040078/radio2/master.m3u8
+#EXTINF:-1 radio="true" tvg-name="RTHK3" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ",RTHK Radio 3
+https://rthkradio3-live.akamaized.net/hls/live/2040079/radio3/master.m3u8
+#EXTINF:-1 radio="true" tvg-name="RTHK4" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ",RTHK Radio 4
+https://rthkradio4-live.akamaized.net/hls/live/2040080/radio4/master.m3u8
+#EXTINF:-1 radio="true" tvg-name="RTHK5" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ",RTHK Radio 5
+https://rthkradio5-live.akamaized.net/hls/live/2040081/radio5/master.m3u8
+#EXTINF:-1 radio="true" tvg-name="RTHK普通话" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ",RTHK Putonghua
+https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://stream.881903.com/public/32762540412216622e67186ce344c74a/2019/12/4bd871097d8b07a64e3598963ad8e243.jpg" group-title="QUỐC TẾ" radio="true",Commercial 881
+#EXTVLCOPT:http-referrer=https://www.881903.com/live/881
+#EXTVLCOPT:http-origin=https://www.881903.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
 https://live.881903.com/edge-aac/881hd/chunks.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJiMa6zEfgUTUu6mXCg_2ZwYDK0mnq5e4gxg&s" group-title="QUỐC TẾ" radio="true",Commercial 903
+#EXTVLCOPT:http-referrer=https://www.881903.com/live/903
+#EXTVLCOPT:http-origin=https://www.881903.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
 https://live.881903.com/edge-aac/903hd/chunks.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJiMa6zEfgUTUu6mXCg_2ZwYDK0mnq5e4gxg&s" group-title="QUỐC TẾ" radio="true",Commercial 864
+#EXTVLCOPT:http-referrer=https://www.881903.com/live/864
+#EXTVLCOPT:http-origin=https://www.881903.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2
 https://live.881903.com/edge-aac/864sd/chunks.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/092/xin-cheng-cai-jing-tai-metro-finance-fm104.68ee386d.jpg" group-title="QUỐC TẾ" radio="true",Metro Finance
 https://1864288729.rsc.cdn77.org/1864288729/tracks-a1/mono.m3u8
