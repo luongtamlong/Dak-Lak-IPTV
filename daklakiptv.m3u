@@ -675,22 +675,6 @@ https://windnew.newkso.ru/wind/premium354/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://zekonew.newkso.ru/zeko/premium355/mono.m3u8
 
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7afl-FAST.png" tvg-id="3b05b85a2dcfc6f6462067fc460fece6",7AFL
-http://1.156.19.136:9981/stream/channelid/1522009403?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/cas33-FAST.png" tvg-id="68125e9b18fbdfb004c7fbfc0200fd17",7CRICKET
-http://1.156.19.136:9981/stream/channelid/459149928?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/cas32-FAST.png" tvg-id="15debd7aba321c4f69ef6f186e06679f",7NEWS Spotlight
-http://1.156.19.136:9981/stream/channelid/2059263509?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7now-FAST.png" tvg-id="15264de2ae54491c51a0807ab8e0b041",7now
-http://1.156.19.136:9981/stream/channelid/1649223189?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/ae76d32898cca0be596b7f23c1bd41f2?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="cb3b04a9ba377e626217a40f5d993ed1",ABC Business in 90 Seconds
-http://1.156.19.136:9981/stream/channelid/688143307?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/144a0dacebeb9f616c1fcd637e3b2cf2?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="fac843ef27d3ac3a26d73bc178859067",ABC News in 90 Seconds
-http://1.156.19.136:9981/stream/channelid/1866713338?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/646cb8a032c847ec21c3de0de881e4cb?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="5962bd28b25ba27237a09fc6c80acb2d",ABC Sport in 90 Seconds
-http://1.156.19.136:9981/stream/channelid/683500121?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://live-production.wcms.abc-cdn.net.au/d376e49724862f104d044ff6467f85d8?impolicy=wcms_crop_resize&cropH=630&cropW=1119&xPos=10&yPos=0&width=862&height=485" tvg-id="8b8dd6f8f305b6a23ac466316458c785",ABC Weather in 90 Seconds
-http://1.156.19.136:9981/stream/channelid/2027326859?profile=pass
 #EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/abc-nsw.png" tvg-id="a816a89323cc4bd970a5b6ad24f28ab5",ABC TV
 http://1.156.19.136:9981/stream/channelid/329782952?profile=pass
 #EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs.png" tvg-id="03518a97a84bc89e8371e2f729d213a2",SBS
@@ -1962,11 +1946,9 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPla
 #EXTINF:-1 tvg-id="35" tvg-name="港台電視 35" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/85/RTHK_TV_35.svg/1200px-RTHK_TV_35.svg.png" group-title="Hong Kong và Macao", RTHK 35
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="Hong Kong và Macao", HOY 77
-http://43.251.102.18:4000/play/a002
-#EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="Hong Kong và Macao", HOY 77
 http://tv.cdn5.rr.nu/live/hoy/stream.m3u8
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/72/HOY_78.png/revision/latest/scale-to-width-down/677?cb=20240605025155&path-prefix=vi" group-title="Hong Kong và Macao", HOY 78
-http://43.251.102.18:4000/play/a004
+http://108.181.20.197/livehttpplay?channel_id=20191
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv-pro.github.io/logo/feicui.png" group-title="Hong Kong và Macao",TVB Jade
 http://p1.cvtv.xyz:81/Jade?token=live
 #EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="Hong Kong và Macao",TVB Plus
@@ -1999,9 +1981,9 @@ http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="320" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS HD
 https://pixman.mytvsuper.com.mp/Smart.php?id=tvbs
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS ENTERTAINMENT
-https://pixman.mytvsuper.com.mp/Smart.php?id=tvbshuanle_twn
+http://108.181.20.197/livehttpplay?channel_id=20105
 #EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS NEWS
-https://pixman.mytvsuper.com.mp/Smart.php?id=tvbs_n
+http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="🇹🇼 Đài Loan",FORMOSA TV
 rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="🇹🇼 Đài Loan",TTV
@@ -2012,12 +1994,10 @@ http://108.181.20.197/livehttpplay?channel_id=20088
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c8/Public_Television_Service_%28logo%29.png" group-title="🇹🇼 Đài Loan",PTS
 http://108.181.20.197/livehttpplay?channel_id=20087
-#EXTINF:-1 tvg-id="6030" tvg-logo="https://archive.org/download/20230102_20230102_1627/%E4%B8%AD%E5%A4%A9%E7%B6%9C%E5%90%88%E5%8F%B0.png" group-title="🇹🇼 Đài Loan",CTI Metro
-https://pixman.mytvsuper.com.mp/Smart.php?id=ctizhonghe
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="🇹🇼 Đài Loan",CTI Entertainment
-https://pixman.mytvsuper.com.mp/Smart.php?id=ctient
+http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="🇹🇼 Đài Loan",CTI News
-https://pixman.mytvsuper.com.mp/Smart.php?id=ctinews
+http://aktv_stream.m16tv.cfd/stream/yt/null/AKTV.m3u8
 
 
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="nhkg_tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png",NHK G
