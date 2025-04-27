@@ -391,30 +391,777 @@ https://icecast.teveo.cu/3MCwWg3V
 https://icecast.teveo.cu/ktW3mW74ư
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/wqv46bsr447r.png" group-title="QUỐC TẾ" radio="true",Radio Cadena Habana
 https://icecast.teveo.cu/Jdq3Rbrg
-#EXTINF:-1 tvg-chno="284" tvg-id="france24eng" tvg-name="RNZ National" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/RNZ_National_logo.svg/1200px-RNZ_National_logo.svg.png" group-title="QUỐC TẾ" radio="true",RNZ National
-http://radionz-ice.streamguys.com/national.mp3
-#EXTINF:-1 tvg-chno="285" tvg-id="france24eng" tvg-name="ABC NewsRadio" tvg-logo="https://resize.abcradio.net.au/Dd03NnQBh2P4BVP9u3_Y2OolFTE=/1300x731/center/middle/https%3A%2F%2Fwww.abc.net.au%2Fradio%2Fimages%2Fservice%2Fabc-news-radio-logo-2022-v2.png" group-title="QUỐC TẾ" radio="true",ABC NewsRadio
-http://live-radio01.mediahubaustralia.com/PBW/aac/
-#EXTINF:-1 tvg-chno="285" tvg-id="france24eng" tvg-name="ABC NewsRadio" tvg-logo="http://gg.gg/1984t5" group-title="QUỐC TẾ" radio="true",ABC Radio Australia
-https://live-radio01.mediahubaustralia.com/RAEW/mp3/
-#EXTINF:-1 tvg-chno="286" tvg-id="france24eng" tvg-name="NewsTalk ZB" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/2SWB5WJXHx.png" group-title="QUỐC TẾ" radio="true",NewsTalk ZB
-https://ais-nzme.streamguys1.com/nz_002_aac
-#EXTINF:-1 tvg-chno="286" tvg-id="france24eng" tvg-name="NewsTalk ZB" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM3lwab6lutltERDmKRT0ahd8SNWYY-1ThvA5dXX--Z5Uhy80oVfos_b-YFK9tWz3vcfY&usqp=CAU" group-title="QUỐC TẾ" radio="true",The Edge
-https://digitalstreams.mediaworks.nz/edge_net/playlist.m3u8
-#EXTINF:-1 tvg-chno="286" tvg-id="france24eng" tvg-name="NewsTalk ZB" tvg-logo="https://iplogger.com/2ZEWY4" group-title="QUỐC TẾ" radio="true",ZM
-https://ais-nzme.streamguys1.com/nz_008_aac
-#EXTINF:-1 channel-id="mjh-radio-ih-6998" tvg-id="mjh-radio-ih-6998" tvg-logo="https://i.iheart.com/v3/re/new_assets/f90a1970-15fe-42bd-9340-6449fd56f33f" group-title="QUỐC TẾ" radio="true" , SBS Radio 1
-https://i.mjh.nz/radio-ih-6998
-#EXTINF:-1 channel-id="mjh-radio-ih-7025" tvg-id="mjh-radio-ih-7025" tvg-logo="https://i.iheart.com/v3/re/new_assets/94379826-2819-4381-a6e8-50266b8b4044" group-title="QUỐC TẾ" radio="true" , SBS Radio 2
-https://i.mjh.nz/radio-ih-7025
-#EXTINF:-1 channel-id="mjh-radio-ih-7030" tvg-id="mjh-radio-ih-7030" tvg-logo="https://i.iheart.com/v3/re/new_assets/96eb69da-3455-435a-92b0-74421f1f2a2b" group-title="QUỐC TẾ" radio="true" , SBS Arabic24
-https://i.mjh.nz/radio-ih-7030
-#EXTINF:-1 channel-id="mjh-radio-ih-7029" tvg-id="mjh-radio-ih-7029" tvg-logo="https://i.iheart.com/v3/re/new_assets/6281c8f1ef3f5a7456d95f1c" group-title="QUỐC TẾ" radio="true" , SBS Chill
-https://i.mjh.nz/radio-ih-7029
-#EXTINF:-1 channel-id="mjh-radio-ih-7031" tvg-id="mjh-radio-ih-7031" tvg-logo="https://i.iheart.com/v3/re/new_assets/0dc5ccff-b82e-4be1-b448-8463059ec708" group-title="QUỐC TẾ" radio="true" , SBS PopDesi
-https://i.mjh.nz/radio-ih-7031
-#EXTINF:-1 channel-id="mjh-radio-ih-7028" tvg-id="mjh-radio-ih-7028" tvg-logo="https://i.iheart.com/v3/re/new_assets/6dad816f-550c-4f2f-8ebd-008188bf3ddc" group-title="QUỐC TẾ" radio="true" , SBS PopAsia
-https://i.mjh.nz/radio-ih-7028
+#EXTM3U
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6157" tvg-id="mjh-radio-ih-6157" tvg-logo="https://i.iheart.com/v3/re/assets/images/3c268c71-295d-47d8-8015-5eb0c766295c.png" group-title="Melbourne" radio="true" , KIIS 101.1
+https://i.mjh.nz/.r/radio-ih-6157.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6181" tvg-id="mjh-radio-ih-6181" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6764ac42de73b9d6cbb53fec" group-title="Melbourne" radio="true" , GOLD104.3
+https://i.mjh.nz/.r/radio-ih-6181.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6179" tvg-id="mjh-radio-ih-6179" tvg-logo="https://i.iheart.com/v3/re/new_assets/623faa90fb788a23d0b662b2" group-title="Melbourne" radio="true" , CADA
+https://i.mjh.nz/.r/radio-ih-6179.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7222" tvg-id="mjh-radio-ih-7222" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67fc9ae51f12bcd3b5c1eb26" group-title="Melbourne" radio="true" , iHeartCountry Australia
+https://i.mjh.nz/.r/radio-ih-7222.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10074" tvg-id="mjh-radio-ih-10074" tvg-logo="https://i.iheart.com/v3/re/assets.streams/677351571e36dc91f19fc54d" group-title="Melbourne" radio="true" , GOLD 80s
+https://i.mjh.nz/.r/radio-ih-10074.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10070" tvg-id="mjh-radio-ih-10070" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65641771507d911431d61066" group-title="Melbourne" radio="true" , KIIS 90s
+https://i.mjh.nz/.r/radio-ih-10070.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7132" tvg-id="mjh-radio-ih-7132" tvg-logo="https://i.iheart.com/v3/re/new_assets/587391e7be6be1c151877d8b" group-title="Melbourne" radio="true" , ABC Radio Melbourne
+https://i.mjh.nz/.r/radio-ih-7132
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6902" tvg-id="mjh-radio-ih-6902" tvg-logo="https://i.iheart.com/v3/re/new_assets/5b9058d0fe2ad7e64989533a" group-title="Melbourne" radio="true" , iHeartRadio Countdown AUS
+https://i.mjh.nz/.r/radio-ih-6902.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8876" tvg-id="mjh-radio-ih-8876" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67fc545338899b35a0f861b4" group-title="Melbourne" radio="true" , TikTok Trending on iHeart
+https://i.mjh.nz/.r/radio-ih-8876.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6941" tvg-id="mjh-radio-ih-6941" tvg-logo="https://i.iheart.com/v3/re/assets.streams/652741b2f702ccd6ae1831d1" group-title="Melbourne" radio="true" , iHeartDance
+https://i.mjh.nz/.r/radio-ih-6941.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6327" tvg-id="mjh-radio-ih-6327" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65c8275d6812dae62ffafeac" group-title="Melbourne" radio="true" , The Bounce
+https://i.mjh.nz/.r/radio-ih-6327.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7050" tvg-id="mjh-radio-ih-7050" tvg-logo="https://i.iheart.com/v3/re/new_assets/6180c315c3362190b399919b" group-title="Melbourne" radio="true" , iHeartAustralia
+https://i.mjh.nz/.r/radio-ih-7050.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7115" tvg-id="mjh-radio-ih-7115" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66e3e5175e06f230d23dcbe2" group-title="Melbourne" radio="true" , triple j
+https://i.mjh.nz/.r/radio-ih-7115
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7090" tvg-id="mjh-radio-ih-7090" tvg-logo="https://i.iheart.com/v3/re/new_assets/5cff35078dc2831fd5229b9b" group-title="Melbourne" radio="true" , Double J
+https://i.mjh.nz/.r/radio-ih-7090
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7116" tvg-id="mjh-radio-ih-7116" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66e8febc05f24e0df471ef15" group-title="Melbourne" radio="true" , triple j Unearthed
+https://i.mjh.nz/.r/radio-ih-7116
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7110" tvg-id="mjh-radio-ih-7110" tvg-logo="https://i.iheart.com/v3/re/assets.streams/678da3ec50e6238b0a0994aa" group-title="Melbourne" radio="true" , ABC NewsRadio
+https://i.mjh.nz/.r/radio-ih-7110
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9056" tvg-id="mjh-radio-ih-9056" tvg-logo="https://i.iheart.com/v3/re/new_assets/62ecbccc5be8e2527065dc7b" group-title="Melbourne" radio="true" , TICKER NEWS
+https://i.mjh.nz/.r/radio-ih-9056.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9688" tvg-id="mjh-radio-ih-9688" tvg-logo="https://i.iheart.com/v3/re/assets.streams/678da3ec50e6238b0a0994a9" group-title="Melbourne" radio="true" , Radio National
+https://i.mjh.nz/.r/radio-ih-9688
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7118" tvg-id="mjh-radio-ih-7118" tvg-logo="https://i.iheart.com/v3/re/new_assets/5cff3a518dc2831fd5229ba3" group-title="Melbourne" radio="true" , ABC Classic
+https://i.mjh.nz/.r/radio-ih-7118
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7123" tvg-id="mjh-radio-ih-7123" tvg-logo="https://i.iheart.com/v3/re/new_assets/5cf84dc6fde6e9394e432460" group-title="Melbourne" radio="true" , ABC Classic 2
+https://i.mjh.nz/.r/radio-ih-7123
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6183" tvg-id="mjh-radio-ih-6183" tvg-logo="https://i.iheart.com/v3/re/new_assets/5e743bc6fa47b0d7c46e6c39" group-title="Melbourne" radio="true" , 3MBS Fine Music Melbourne
+https://i.mjh.nz/.r/radio-ih-6183.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7124" tvg-id="mjh-radio-ih-7124" tvg-logo="https://i.iheart.com/v3/re/assets.streams/63fffca0d97a654b24601522" group-title="Melbourne" radio="true" , ABC Jazz
+https://i.mjh.nz/.r/radio-ih-7124
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7125" tvg-id="mjh-radio-ih-7125" tvg-logo="https://i.iheart.com/v3/re/assets.streams/63fffca0d97a654b24601521" group-title="Melbourne" radio="true" , ABC Country
+https://i.mjh.nz/.r/radio-ih-7125
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9315" tvg-id="mjh-radio-ih-9315" tvg-logo="https://i.iheart.com/v3/re/new_assets/62eb7b18604d9d300ec34530" group-title="Melbourne" radio="true" , KIX Country
+https://i.mjh.nz/.r/radio-ih-9315.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7547" tvg-id="mjh-radio-ih-7547" tvg-logo="https://i.iheart.com/v3/re/assets.streams/657bd379f9abad8e25e39a37" group-title="Melbourne" radio="true" , JOY
+https://i.mjh.nz/.r/radio-ih-7547
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6328" tvg-id="mjh-radio-ih-6328" tvg-logo="https://i.iheart.com/v3/re/new_assets/627c4f123de77874b3705136" group-title="Melbourne" radio="true" , 96.5 Inner FM
+https://i.mjh.nz/.r/radio-ih-6328.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8676" tvg-id="mjh-radio-ih-8676" tvg-logo="https://i.iheart.com/v3/re/new_assets/5f03bcfc7fa67c080f58aca2" group-title="Melbourne" radio="true" , Golden Days Radio
+https://i.mjh.nz/.r/radio-ih-8676.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6182" tvg-id="mjh-radio-ih-6182" tvg-logo="https://i.iheart.com/v3/re/new_assets/5d23de7bdb1e1347a068f5a1" group-title="Melbourne" radio="true" , 3KND
+https://i.mjh.nz/.r/radio-ih-6182.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6316" tvg-id="mjh-radio-ih-6316" tvg-logo="https://i.iheart.com/v3/re/new_assets/62dee937b7d7a2a61415a421" group-title="Melbourne" radio="true" , PBS 106.7FM
+https://i.mjh.nz/.r/radio-ih-6316.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9522" tvg-id="mjh-radio-ih-9522" tvg-logo="https://i.iheart.com/v3/re/new_assets/62a951e7a7ebad73f300f543" group-title="Melbourne" radio="true" , 3MDR
+https://i.mjh.nz/.r/radio-ih-9522.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9885" tvg-id="mjh-radio-ih-9885" tvg-logo="https://i.iheart.com/v3/re/assets.streams/647f282eb86cd061b1eff63f" group-title="Melbourne" radio="true" , 88.6 Plenty Valley FM
+https://i.mjh.nz/.r/radio-ih-9885.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9368" tvg-id="mjh-radio-ih-9368" tvg-logo="https://i.iheart.com/v3/re/assets.streams/63fc0d1e95946aece43ff6ff" group-title="Melbourne" radio="true" , 3CR Community Radio
+https://i.mjh.nz/.r/radio-ih-9368.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9434" tvg-id="mjh-radio-ih-9434" tvg-logo="https://i.iheart.com/v3/re/new_assets/627bb4981799f5e4dd566a82" group-title="Melbourne" radio="true" , 3ZZZ
+https://i.mjh.nz/.r/radio-ih-9434.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8670" tvg-id="mjh-radio-ih-8670" tvg-logo="https://i.iheart.com/v3/re/new_assets/5ef30c659212d410968ac442" group-title="Melbourne" radio="true" , SYN
+https://i.mjh.nz/.r/radio-ih-8670.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9105" tvg-id="mjh-radio-ih-9105" tvg-logo="https://i.iheart.com/v3/re/new_assets/616522426ab77929c3d783bc" group-title="Melbourne" radio="true" , 89.9 TheLight
+https://i.mjh.nz/.r/radio-ih-9105
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9106" tvg-id="mjh-radio-ih-9106" tvg-logo="https://i.iheart.com/v3/re/new_assets/617f81a94e4d0abbe6e37288" group-title="Melbourne" radio="true" , TheLight MIX
+https://i.mjh.nz/.r/radio-ih-9106
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9177" tvg-id="mjh-radio-ih-9177" tvg-logo="https://i.iheart.com/v3/re/new_assets/617f81c54e4d0abbe6e3728a" group-title="Melbourne" radio="true" , TheLight Worship
+https://i.mjh.nz/.r/radio-ih-9177
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9689" tvg-id="mjh-radio-ih-9689" tvg-logo="https://i.iheart.com/v3/re/assets.streams/63ca07e675c6d3c9b84f4781" group-title="Melbourne" radio="true" , Vision Christian Radio
+https://i.mjh.nz/.r/radio-ih-9689.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9195" tvg-id="mjh-radio-ih-9195" tvg-logo="https://i.iheart.com/v3/re/new_assets/617f2881bd5039e366ef0289" group-title="Melbourne" radio="true" , Woolworths Radio
+https://i.mjh.nz/.r/radio-ih-9195
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6178" tvg-id="mjh-radio-ih-6178" tvg-logo="https://i.iheart.com/v3/re/new_assets/5b862f497f66f2e1e526ba23" group-title="Melbourne" radio="true" , Chemist Warehouse Remix
+https://i.mjh.nz/.r/radio-ih-6178.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7967" tvg-id="mjh-radio-ih-7967" tvg-logo="https://i.iheart.com/v3/re/new_assets/5cf84bc9fde6e9394e432456" group-title="Melbourne" radio="true" , ABC KIDS Listen
+https://i.mjh.nz/.r/radio-ih-7967
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8005" tvg-id="mjh-radio-ih-8005" tvg-logo="https://i.iheart.com/v3/re/new_assets/5b79fec37f66f2a2b9cfd0e9" group-title="Melbourne" radio="true" , Radio Australia
+https://i.mjh.nz/.r/radio-ih-8005
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6998" tvg-id="mjh-radio-ih-6998" tvg-logo="https://i.iheart.com/v3/re/new_assets/f90a1970-15fe-42bd-9340-6449fd56f33f" group-title="Melbourne" radio="true" , SBS Radio 1
+https://i.mjh.nz/.r/radio-ih-6998
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7025" tvg-id="mjh-radio-ih-7025" tvg-logo="https://i.iheart.com/v3/re/new_assets/94379826-2819-4381-a6e8-50266b8b4044" group-title="Melbourne" radio="true" , SBS Radio 2
+https://i.mjh.nz/.r/radio-ih-7025
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7030" tvg-id="mjh-radio-ih-7030" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67c91af9770c613ac4bbc5ad" group-title="Melbourne" radio="true" , SBS Arabic
+https://i.mjh.nz/.r/radio-ih-7030
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7029" tvg-id="mjh-radio-ih-7029" tvg-logo="https://i.iheart.com/v3/re/new_assets/6281c8f1ef3f5a7456d95f1c" group-title="Melbourne" radio="true" , SBS Chill
+https://i.mjh.nz/.r/radio-ih-7029
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7031" tvg-id="mjh-radio-ih-7031" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6625f5599e50a9b2f7d06c19" group-title="Melbourne" radio="true" , SBS South Asian
+https://i.mjh.nz/.r/radio-ih-7031
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7028" tvg-id="mjh-radio-ih-7028" tvg-logo="https://i.iheart.com/v3/re/new_assets/6dad816f-550c-4f2f-8ebd-008188bf3ddc" group-title="Melbourne" radio="true" , SBS PopAsia
+https://i.mjh.nz/.r/radio-ih-7028
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10143" tvg-id="mjh-radio-ih-10143" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65c44b3d3fef48f1bff243c6" group-title="Melbourne" radio="true" , 2ME
+https://i.mjh.nz/.r/radio-ih-10143
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9024" tvg-id="mjh-radio-ih-9024" tvg-logo="https://i.iheart.com/v3/re/new_assets/60f9511c07e826da5c937ad1" group-title="Melbourne" radio="true" , VA Radio Melbourne
+https://i.mjh.nz/.r/radio-ih-9024.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7421" tvg-id="mjh-radio-ih-7421" tvg-logo="https://i.iheart.com/v3/re/new_assets/5996804ee7bf0342713fb26f" group-title="Melbourne" radio="true" , AndrewHaug.com Metal Radio
+https://i.mjh.nz/.r/radio-ih-7421
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10367" tvg-id="mjh-radio-ih-10367" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6657bb4621d4053c389c0b69" group-title="Melbourne" radio="true" , Radio Eastern FM
+https://i.mjh.nz/.r/radio-ih-10367.aac
+
+#EXTINF:-1 channel-id="mjh-radio-krock" tvg-id="mjh-radio-krock" tvg-logo="https://i.mjh.nz/.images/radio-krock.png" group-title="Melbourne" radio="true" , K ROCK 95.5
+https://i.mjh.nz/.r/radio-krock.aac
+
+#EXTINF:-1 channel-id="mjh-radio-bay939" tvg-id="mjh-radio-bay939" tvg-logo="https://i.mjh.nz/.images/radio-bay939.png" group-title="Melbourne" radio="true" , Bay 93.9
+https://i.mjh.nz/.r/radio-bay939.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6794" tvg-id="mjh-radio-ih-6794" tvg-logo="https://i.iheart.com/v3/re/new_assets/e1724129-4e37-4eac-9d23-be1b2832a818" group-title="QUỐC TẾ" radio="true" , The 80s iHeartRadio
+https://i.mjh.nz/.r/radio-ih-6794.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6793" tvg-id="mjh-radio-ih-6793" tvg-logo="https://i.iheart.com/v3/re/new_assets/5e93955ade5b503e88d62549" group-title="QUỐC TẾ" radio="true" , The 90s iHeartRadio
+https://i.mjh.nz/.r/radio-ih-6793.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7111" tvg-id="mjh-radio-ih-7111" tvg-logo="https://i.iheart.com/v3/re/assets.streams/678da3ec50e6238b0a0994a9" group-title="QUỐC TẾ" radio="true" , Radio National
+https://i.mjh.nz/.r/radio-ih-7111
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9661" tvg-id="mjh-radio-ih-9661" tvg-logo="https://i.iheart.com/v3/re/new_assets/63a23ba4c183baa66e69989f" group-title="QUỐC TẾ" radio="true" , Plus Fitness Radio
+https://i.mjh.nz/.r/radio-ih-9661.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6315" tvg-id="mjh-radio-ih-6315" tvg-logo="https://i.iheart.com/v3/re/new_assets/5d23ee2ddb1e1347a068f5b1" group-title="QUỐC TẾ" radio="true" , Inspire Digital
+https://i.mjh.nz/.r/radio-ih-6315.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9934" tvg-id="mjh-radio-ih-9934" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64c101a2140bc422b010a3cd" group-title="QUỐC TẾ" radio="true" , PopRock Country
+https://i.mjh.nz/.r/radio-ih-9934
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9933" tvg-id="mjh-radio-ih-9933" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64c0ff1a140bc422b010a3ca" group-title="QUỐC TẾ" radio="true" , PopRock Radio
+https://i.mjh.nz/.r/radio-ih-9933
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9952" tvg-id="mjh-radio-ih-9952" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64d320128d46ba2e10aabf73" group-title="QUỐC TẾ" radio="true" , LiQUORiCE.fm
+https://i.mjh.nz/.r/radio-ih-9952
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9984" tvg-id="mjh-radio-ih-9984" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6506a3afb05bc240e3aae2cd" group-title="QUỐC TẾ" radio="true" , Radio Melody Australia
+https://i.mjh.nz/.r/radio-ih-9984
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8717" tvg-id="mjh-radio-ih-8717" tvg-logo="https://i.iheart.com/v3/re/new_assets/612c2c19534e7119d6a0abe2" group-title="QUỐC TẾ" radio="true" , AFTRS FM
+https://i.mjh.nz/.r/radio-ih-8717.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9939" tvg-id="mjh-radio-ih-9939" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64c70eb8021a5420524a28f9" group-title="QUỐC TẾ" radio="true" , Vision Kids
+https://i.mjh.nz/.r/radio-ih-9939.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10632" tvg-id="mjh-radio-ih-10632" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67a99921c951a0cd171b2002" group-title="QUỐC TẾ" radio="true" , Vision Worship
+https://i.mjh.nz/.r/radio-ih-10632.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9690" tvg-id="mjh-radio-ih-9690" tvg-logo="https://i.iheart.com/v3/re/assets.streams/63ca07e675c6d3c9b84f4782" group-title="QUỐC TẾ" radio="true" , V180
+https://i.mjh.nz/.r/radio-ih-9690.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9243" tvg-id="mjh-radio-ih-9243" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6681fda9efc8aa180f9f087d" group-title="QUỐC TẾ" radio="true" , Whisperscape One
+https://i.mjh.nz/.r/radio-ih-9243
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9750" tvg-id="mjh-radio-ih-9750" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6681fda9efc8aa180f9f087e" group-title="QUỐC TẾ" radio="true" , Whisperscape Two
+https://i.mjh.nz/.r/radio-ih-9750
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9748" tvg-id="mjh-radio-ih-9748" tvg-logo="https://i.iheart.com/v3/re/assets.streams/641f9d44e95244ec663dda6a" group-title="QUỐC TẾ" radio="true" , TNT Radio
+https://i.mjh.nz/.r/radio-ih-9748
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10144" tvg-id="mjh-radio-ih-10144" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65c4505a3fef48f1bff243c9" group-title="QUỐC TẾ" radio="true" , 2ME Gold
+https://i.mjh.nz/.r/radio-ih-10144
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6492" tvg-id="mjh-radio-ih-6492" tvg-logo="https://i.iheart.com/v3/re/new_assets/5c664b6e5bdc8f89537a3465" group-title="QUỐC TẾ" radio="true" , Test Stream One A
+https://i.mjh.nz/.r/radio-ih-6492
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10474" tvg-id="mjh-radio-ih-10474" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66d66d68a1d520ff6778bffc" group-title="QUỐC TẾ" radio="true" , Whisperscape Three
+https://i.mjh.nz/.r/radio-ih-10474
+
+#EXTM3U
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8272" tvg-id="mjh-radio-ih-8272" tvg-logo="https://i.iheart.com/v3/re/new_assets/5fdba4c4c50617d408b601a0" group-title="QUỐC TẾ" radio="true" , Newstalk ZB Auckland
+https://i.mjh.nz/.r/radio-ih-8272.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9473" tvg-id="mjh-radio-ih-9473" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd032848755edc76e696ef" group-title="QUỐC TẾ" radio="true" , ZM Auckland
+https://i.mjh.nz/.r/radio-ih-9473.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6197" tvg-id="mjh-radio-ih-6197" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e8" group-title="QUỐC TẾ" radio="true" , The Hits Auckland
+https://i.mjh.nz/.r/radio-ih-6197.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8823" tvg-id="mjh-radio-ih-8823" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02de48755edc76e696d9" group-title="QUỐC TẾ" radio="true" , Coast Auckland
+https://i.mjh.nz/.r/radio-ih-8823.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9472" tvg-id="mjh-radio-ih-9472" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66f22e5f9c12087e0a977e22" group-title="QUỐC TẾ" radio="true" , Flava Auckland
+https://i.mjh.nz/.r/radio-ih-9472.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6374" tvg-id="mjh-radio-ih-6374" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd031d48755edc76e696ea" group-title="QUỐC TẾ" radio="true" , Radio Hauraki Auckland
+https://i.mjh.nz/.r/radio-ih-6374.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9558" tvg-id="mjh-radio-ih-9558" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd032848755edc76e696f0" group-title="QUỐC TẾ" radio="true" , ZM Christchurch
+https://i.mjh.nz/.r/radio-ih-9558.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6189" tvg-id="mjh-radio-ih-6189" tvg-logo="https://i.iheart.com/v3/re/new_assets/5fdba4fac50617d408b601a4" group-title="QUỐC TẾ" radio="true" , Newstalk ZB Christchurch
+https://i.mjh.nz/.r/radio-ih-6189.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9906" tvg-id="mjh-radio-ih-9906" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd032848755edc76e696f2" group-title="QUỐC TẾ" radio="true" , ZM Waikato
+https://i.mjh.nz/.r/radio-ih-9906.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8824" tvg-id="mjh-radio-ih-8824" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02aa48755edc76e696d0" group-title="QUỐC TẾ" radio="true" , Gold Auckland
+https://i.mjh.nz/.r/radio-ih-8824.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9557" tvg-id="mjh-radio-ih-9557" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd032848755edc76e696f3" group-title="QUỐC TẾ" radio="true" , ZM Wellington
+https://i.mjh.nz/.r/radio-ih-9557.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6198" tvg-id="mjh-radio-ih-6198" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e7" group-title="QUỐC TẾ" radio="true" , The Hits Wellington
+https://i.mjh.nz/.r/radio-ih-6198.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6199" tvg-id="mjh-radio-ih-6199" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696dc" group-title="QUỐC TẾ" radio="true" , The Hits Canterbury
+https://i.mjh.nz/.r/radio-ih-6199.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6211" tvg-id="mjh-radio-ih-6211" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e6" group-title="QUỐC TẾ" radio="true" , The Hits Waikato
+https://i.mjh.nz/.r/radio-ih-6211.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6188" tvg-id="mjh-radio-ih-6188" tvg-logo="https://i.iheart.com/v3/re/new_assets/5fdba519c50617d408b601a6" group-title="QUỐC TẾ" radio="true" , Newstalk ZB Wellington
+https://i.mjh.nz/.r/radio-ih-6188.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9910" tvg-id="mjh-radio-ih-9910" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64a20b3d773dd6ebf2b9eaa5" group-title="QUỐC TẾ" radio="true" , Newstalk ZB Waikato
+https://i.mjh.nz/.r/radio-ih-9910.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9561" tvg-id="mjh-radio-ih-9561" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd031d48755edc76e696eb" group-title="QUỐC TẾ" radio="true" , Radio Hauraki Christchurch
+https://i.mjh.nz/.r/radio-ih-9561.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9560" tvg-id="mjh-radio-ih-9560" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd031d48755edc76e696ed" group-title="QUỐC TẾ" radio="true" , Radio Hauraki Wellington
+https://i.mjh.nz/.r/radio-ih-9560.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9559" tvg-id="mjh-radio-ih-9559" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02de48755edc76e696d8" group-title="QUỐC TẾ" radio="true" , Coast Wellington
+https://i.mjh.nz/.r/radio-ih-9559.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8702" tvg-id="mjh-radio-ih-8702" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02de48755edc76e696d5" group-title="QUỐC TẾ" radio="true" , Coast Canterbury
+https://i.mjh.nz/.r/radio-ih-8702.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9908" tvg-id="mjh-radio-ih-9908" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd031d48755edc76e696ec" group-title="QUỐC TẾ" radio="true" , Radio Hauraki Waikato
+https://i.mjh.nz/.r/radio-ih-9908.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9907" tvg-id="mjh-radio-ih-9907" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02de48755edc76e696d7" group-title="QUỐC TẾ" radio="true" , Coast Waikato
+https://i.mjh.nz/.r/radio-ih-9907.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6204" tvg-id="mjh-radio-ih-6204" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696de" group-title="QUỐC TẾ" radio="true" , The Hits Hawkes Bay
+https://i.mjh.nz/.r/radio-ih-6204.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6210" tvg-id="mjh-radio-ih-6210" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e5" group-title="QUỐC TẾ" radio="true" , The Hits Taranaki
+https://i.mjh.nz/.r/radio-ih-6210.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6203" tvg-id="mjh-radio-ih-6203" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696dd" group-title="QUỐC TẾ" radio="true" , The Hits Dunedin
+https://i.mjh.nz/.r/radio-ih-6203.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6205" tvg-id="mjh-radio-ih-6205" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696df" group-title="QUỐC TẾ" radio="true" , The Hits Manawatu
+https://i.mjh.nz/.r/radio-ih-6205.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9475" tvg-id="mjh-radio-ih-9475" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64ab7fd2e1e5b9624d5ccbe6" group-title="QUỐC TẾ" radio="true" , Gold Sport Auckland
+https://i.mjh.nz/.r/radio-ih-9475.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6190" tvg-id="mjh-radio-ih-6190" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd032848755edc76e696f1" group-title="QUỐC TẾ" radio="true" , ZM
+https://i.mjh.nz/.r/radio-ih-6190.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6191" tvg-id="mjh-radio-ih-6191" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66d16892f4226794c985987e" group-title="QUỐC TẾ" radio="true" , Radio Hauraki
+https://i.mjh.nz/.r/radio-ih-6191.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6193" tvg-id="mjh-radio-ih-6193" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02de48755edc76e696d6" group-title="QUỐC TẾ" radio="true" , Coast
+https://i.mjh.nz/.r/radio-ih-6193.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6187" tvg-id="mjh-radio-ih-6187" tvg-logo="https://i.iheart.com/v3/re/new_assets/5fdba4e7c50617d408b601a2" group-title="QUỐC TẾ" radio="true" , Newstalk ZB
+https://i.mjh.nz/.r/radio-ih-6187.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6206" tvg-id="mjh-radio-ih-6206" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e0" group-title="QUỐC TẾ" radio="true" , The Hits Nelson
+https://i.mjh.nz/.r/radio-ih-6206.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6207" tvg-id="mjh-radio-ih-6207" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67492f292bccafb67f335e59" group-title="QUỐC TẾ" radio="true" , The Hits Northland
+https://i.mjh.nz/.r/radio-ih-6207.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6208" tvg-id="mjh-radio-ih-6208" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e2" group-title="QUỐC TẾ" radio="true" , The Hits Rotorua
+https://i.mjh.nz/.r/radio-ih-6208
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9649" tvg-id="mjh-radio-ih-9649" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66f22e5f9c12087e0a977e24" group-title="QUỐC TẾ" radio="true" , Flava Christchurch
+https://i.mjh.nz/.r/radio-ih-9649.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6209" tvg-id="mjh-radio-ih-6209" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e4" group-title="QUỐC TẾ" radio="true" , The Hits Southland
+https://i.mjh.nz/.r/radio-ih-6209
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6897" tvg-id="mjh-radio-ih-6897" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696e3" group-title="QUỐC TẾ" radio="true" , The Hits Southern Lakes
+https://i.mjh.nz/.r/radio-ih-6897
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7756" tvg-id="mjh-radio-ih-7756" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02de48755edc76e696d4" group-title="QUỐC TẾ" radio="true" , Coast Bay Of Plenty
+https://i.mjh.nz/.r/radio-ih-7756.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6202" tvg-id="mjh-radio-ih-6202" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02fb48755edc76e696db" group-title="QUỐC TẾ" radio="true" , The Hits Bay of Plenty
+https://i.mjh.nz/.r/radio-ih-6202.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9562" tvg-id="mjh-radio-ih-9562" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02aa48755edc76e696d2" group-title="QUỐC TẾ" radio="true" , Gold Wellington
+https://i.mjh.nz/.r/radio-ih-9562.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6196" tvg-id="mjh-radio-ih-6196" tvg-logo="https://i.iheart.com/v3/re/assets.streams/660c609a4c300309e7c8f98a" group-title="QUỐC TẾ" radio="true" , Hokonui Southland
+https://i.mjh.nz/.r/radio-ih-6196.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6159" tvg-id="mjh-radio-ih-6159" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66f22e5f9c12087e0a977e23" group-title="QUỐC TẾ" radio="true" , Flava Old School
+https://i.mjh.nz/.r/radio-ih-6159.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6194" tvg-id="mjh-radio-ih-6194" tvg-logo="https://i.iheart.com/v3/re/new_assets/62cf578c8ce2a5638f10df6a" group-title="QUỐC TẾ" radio="true" , Gold Sport Extra
+https://i.mjh.nz/.r/radio-ih-6194
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8011" tvg-id="mjh-radio-ih-8011" tvg-logo="https://i.iheart.com/v3/re/assets.streams/660c60f24c300309e7c8f98c" group-title="QUỐC TẾ" radio="true" , Hokonui Ashburton
+https://i.mjh.nz/.r/radio-ih-8011.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7300" tvg-id="mjh-radio-ih-7300" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66822e5696ff712eb07bf8f6" group-title="QUỐC TẾ" radio="true" , Radio Wānaka
+https://i.mjh.nz/.r/radio-ih-7300.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8832" tvg-id="mjh-radio-ih-8832" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66d166710ec6f659bb101059" group-title="QUỐC TẾ" radio="true" , The Hits
+https://i.mjh.nz/.r/radio-ih-8832.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9563" tvg-id="mjh-radio-ih-9563" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66cd02aa48755edc76e696d1" group-title="QUỐC TẾ" radio="true" , Gold Christchurch
+https://i.mjh.nz/.r/radio-ih-9563.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9565" tvg-id="mjh-radio-ih-9565" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64ab7fd2e1e5b9624d5ccbe7" group-title="QUỐC TẾ" radio="true" , Gold Sport Christchurch
+https://i.mjh.nz/.r/radio-ih-9565.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9564" tvg-id="mjh-radio-ih-9564" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64ab7fd2e1e5b9624d5ccbe9" group-title="QUỐC TẾ" radio="true" , Gold Sport Wellington
+https://i.mjh.nz/.r/radio-ih-9564.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9909" tvg-id="mjh-radio-ih-9909" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64ab7fd2e1e5b9624d5ccbe8" group-title="QUỐC TẾ" radio="true" , Gold Sport Waikato
+https://i.mjh.nz/.r/radio-ih-9909.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8668" tvg-id="mjh-radio-ih-8668" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66d16946f4226794c9859885" group-title="QUỐC TẾ" radio="true" , Gold FM
+https://i.mjh.nz/.r/radio-ih-8668.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8669" tvg-id="mjh-radio-ih-8669" tvg-logo="https://i.iheart.com/v3/re/new_assets/62b814eee3e1466415bea863" group-title="QUỐC TẾ" radio="true" , Gold Sport
+https://i.mjh.nz/.r/radio-ih-8669.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8200" tvg-id="mjh-radio-ih-8200" tvg-logo="https://i.iheart.com/v3/re/new_assets/5c609614fa27df06b7080bb5" group-title="QUỐC TẾ" radio="true" , Radio Ngati Porou
+https://i.mjh.nz/.r/radio-ih-8200
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10160" tvg-id="mjh-radio-ih-10160" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65d3c8ca5f344ac4b4979571" group-title="QUỐC TẾ" radio="true" , Raukawa Vibes
+https://i.mjh.nz/.r/radio-ih-10160.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8202" tvg-id="mjh-radio-ih-8202" tvg-logo="https://i.iheart.com/v3/re/new_assets/5c6233e63317f4881799c698" group-title="QUỐC TẾ" radio="true" , Te Upoko O Te Ika
+https://i.mjh.nz/.r/radio-ih-8202
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7944" tvg-id="mjh-radio-ih-7944" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66417a65aeab5a4b78d676bb" group-title="QUỐC TẾ" radio="true" , BAYROCK
+https://i.mjh.nz/.r/radio-ih-7944.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7945" tvg-id="mjh-radio-ih-7945" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66417988aeab5a4b78d676b8" group-title="QUỐC TẾ" radio="true" , Q97
+https://i.mjh.nz/.r/radio-ih-7945.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9496" tvg-id="mjh-radio-ih-9496" tvg-logo="https://i.iheart.com/v3/re/new_assets/62a808fd9ec66f953cc81248" group-title="QUỐC TẾ" radio="true" , Coromandel’s CFM
+https://i.mjh.nz/.r/radio-ih-9496
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9050" tvg-id="mjh-radio-ih-9050" tvg-logo="https://i.iheart.com/v3/re/new_assets/60fdf21e8d281279cae30692" group-title="QUỐC TẾ" radio="true" , Niu FM
+https://i.mjh.nz/.r/radio-ih-9050.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7317" tvg-id="mjh-radio-ih-7317" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66417ae9aeab5a4b78d676be" group-title="QUỐC TẾ" radio="true" , One Double X
+https://i.mjh.nz/.r/radio-ih-7317.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8307" tvg-id="mjh-radio-ih-8307" tvg-logo="https://i.iheart.com/v3/re/new_assets/5fc6f80038bde9364e3a6d44" group-title="QUỐC TẾ" radio="true" , Crescendo
+https://i.mjh.nz/.r/radio-ih-8307
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8385" tvg-id="mjh-radio-ih-8385" tvg-logo="https://i.iheart.com/v3/re/new_assets/5d5c70653269f5571db85e89" group-title="QUỐC TẾ" radio="true" , Shake Me!
+https://i.mjh.nz/.r/radio-ih-8385
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7401" tvg-id="mjh-radio-ih-7401" tvg-logo="https://i.iheart.com/v3/re/new_assets/5f8902aebe18f9a3b03cf9c9" group-title="QUỐC TẾ" radio="true" , Lyall Bay School's Maranui FM
+https://i.mjh.nz/.r/radio-ih-7401
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9604" tvg-id="mjh-radio-ih-9604" tvg-logo="https://i.iheart.com/v3/re/assets.streams/668e03cfed52d79777dd08b0" group-title="QUỐC TẾ" radio="true" , Coast Feel Good 500
+https://i.mjh.nz/.r/radio-ih-9604.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7265" tvg-id="mjh-radio-ih-7265" tvg-logo="https://i.iheart.com/v3/re/new_assets/582c0b2a1939554e31946884" group-title="QUỐC TẾ" radio="true" , The Lounge
+https://i.mjh.nz/.r/radio-ih-7265
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8178" tvg-id="mjh-radio-ih-8178" tvg-logo="https://i.iheart.com/v3/re/new_assets/600a316b49a8016b4a79c20a" group-title="QUỐC TẾ" radio="true" , SUN FM
+https://i.mjh.nz/.r/radio-ih-8178
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8847" tvg-id="mjh-radio-ih-8847" tvg-logo="https://i.iheart.com/v3/re/new_assets/603c4c26fca759a2230c9ab5" group-title="QUỐC TẾ" radio="true" , The Cheese
+https://i.mjh.nz/.r/radio-ih-8847
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8179" tvg-id="mjh-radio-ih-8179" tvg-logo="https://i.iheart.com/v3/re/new_assets/600a318d49a8016b4a79c20c" group-title="QUỐC TẾ" radio="true" , Tumeke FM
+https://i.mjh.nz/.r/radio-ih-8179
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6676" tvg-id="mjh-radio-ih-6676" tvg-logo="https://i.iheart.com/v3/re/new_assets/5b7b3d37173d12eee163e3e2" group-title="QUỐC TẾ" radio="true" , Radio Tarana
+https://i.mjh.nz/.r/radio-ih-6676
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9000" tvg-id="mjh-radio-ih-9000" tvg-logo="https://i.iheart.com/v3/re/new_assets/60d24024783e22c11f249aa1" group-title="QUỐC TẾ" radio="true" , Hutt Radio
+https://i.mjh.nz/.r/radio-ih-9000
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6693" tvg-id="mjh-radio-ih-6693" tvg-logo="https://i.iheart.com/v3/re/assets.streams/673e67a6187fe084a5d16020" group-title="QUỐC TẾ" radio="true" , Alternative Commentary Collective
+https://i.mjh.nz/.r/radio-ih-6693.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10154" tvg-id="mjh-radio-ih-10154" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65cebaaebfde838924eba957" group-title="QUỐC TẾ" radio="true" , Southern Cross Country
+https://i.mjh.nz/.r/radio-ih-10154
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8243" tvg-id="mjh-radio-ih-8243" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64dead3d2bf69d0140959fcc" group-title="QUỐC TẾ" radio="true" , Te Arawa FM
+https://i.mjh.nz/.r/radio-ih-8243
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7946" tvg-id="mjh-radio-ih-7946" tvg-logo="https://i.iheart.com/v3/re/assets.streams/64dc2ac68b7ed32e77782ef5" group-title="QUỐC TẾ" radio="true" , The Heat
+https://i.mjh.nz/.r/radio-ih-7946
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7156" tvg-id="mjh-radio-ih-7156" tvg-logo="https://i.iheart.com/v3/re/new_assets/a2802b03-11d5-4db9-9b37-709e8869cc91" group-title="QUỐC TẾ" radio="true" , Ski FM Network
+https://i.mjh.nz/.r/radio-ih-7156
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10429" tvg-id="mjh-radio-ih-10429" tvg-logo="https://i.iheart.com/v3/re/assets.streams/669895660e750750fee5b4c6" group-title="QUỐC TẾ" radio="true" , ROCKit Radio
+https://i.mjh.nz/.r/radio-ih-10429
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8860" tvg-id="mjh-radio-ih-8860" tvg-logo="https://i.iheart.com/v3/re/new_assets/60500668ea9688b5d6f3b3d7" group-title="QUỐC TẾ" radio="true" , Oamaru FM 91.2
+https://i.mjh.nz/.r/radio-ih-8860
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8204" tvg-id="mjh-radio-ih-8204" tvg-logo="https://i.iheart.com/v3/re/new_assets/5e3087a07c7f1c7b1a55fe3c" group-title="QUỐC TẾ" radio="true" , Tūranga FM
+https://i.mjh.nz/.r/radio-ih-8204
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8839" tvg-id="mjh-radio-ih-8839" tvg-logo="https://i.iheart.com/v3/re/new_assets/60242439914c3860de7da794" group-title="QUỐC TẾ" radio="true" , Awa FM
+https://i.mjh.nz/.r/radio-ih-8839
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7429" tvg-id="mjh-radio-ih-7429" tvg-logo="https://i.iheart.com/v3/re/new_assets/59a89b5cf48c320884a81741" group-title="QUỐC TẾ" radio="true" , The Station
+https://i.mjh.nz/.r/radio-ih-7429
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8203" tvg-id="mjh-radio-ih-8203" tvg-logo="https://i.iheart.com/v3/re/new_assets/5c6381698363a5cc9bb6996d" group-title="QUỐC TẾ" radio="true" , Te Korimako o Taranaki
+https://i.mjh.nz/.r/radio-ih-8203
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8811" tvg-id="mjh-radio-ih-8811" tvg-logo="https://i.iheart.com/v3/re/new_assets/5fc59e1d165fdfccfd2b3031" group-title="QUỐC TẾ" radio="true" , The Generator FM
+https://i.mjh.nz/.r/radio-ih-8811
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7113" tvg-id="mjh-radio-ih-7113" tvg-logo="https://i.iheart.com/v3/re/new_assets/a6fd5229-b89d-41c1-b177-557f77101343" group-title="QUỐC TẾ" radio="true" , Heads 106.4FM Mangawhai
+https://i.mjh.nz/.r/radio-ih-7113
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8907" tvg-id="mjh-radio-ih-8907" tvg-logo="https://i.iheart.com/v3/re/new_assets/609c7b13d9c5e8f6be8ead5f" group-title="QUỐC TẾ" radio="true" , East FM
+https://i.mjh.nz/.r/radio-ih-8907
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8177" tvg-id="mjh-radio-ih-8177" tvg-logo="https://i.iheart.com/v3/re/new_assets/5fa86e838e29d00bfa33c135" group-title="QUỐC TẾ" radio="true" , Tainui Live
+https://i.mjh.nz/.r/radio-ih-8177
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8404" tvg-id="mjh-radio-ih-8404" tvg-logo="https://i.iheart.com/v3/re/new_assets/5d67092d6c334fb776275ca6" group-title="QUỐC TẾ" radio="true" , Radio Apna
+https://i.mjh.nz/.r/radio-ih-8404
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7072" tvg-id="mjh-radio-ih-7072" tvg-logo="https://i.iheart.com/v3/re/new_assets/5b8f2daf173d12bee4d189e2" group-title="QUỐC TẾ" radio="true" , Chinese Voice - AM936
+https://i.mjh.nz/.r/radio-ih-7072
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10155" tvg-id="mjh-radio-ih-10155" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65cebd39bfde838924eba95a" group-title="QUỐC TẾ" radio="true" , Burn Radio
+https://i.mjh.nz/.r/radio-ih-10155
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8199" tvg-id="mjh-radio-ih-8199" tvg-logo="https://i.iheart.com/v3/re/new_assets/5c606b954bc163e743122daa" group-title="QUỐC TẾ" radio="true" , Moana Radio
+https://i.mjh.nz/.r/radio-ih-8199
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8387" tvg-id="mjh-radio-ih-8387" tvg-logo="https://i.iheart.com/v3/re/new_assets/5d5f5598192e3612a36a7911" group-title="QUỐC TẾ" radio="true" , Atiawa Toa FM
+https://i.mjh.nz/.r/radio-ih-8387
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8193" tvg-id="mjh-radio-ih-8193" tvg-logo="https://i.iheart.com/v3/re/new_assets/5c4e4d0a00b1241800570645" group-title="QUỐC TẾ" radio="true" , Radio Waatea
+https://i.mjh.nz/.r/radio-ih-8193
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8536" tvg-id="mjh-radio-ih-8536" tvg-logo="https://i.iheart.com/v3/re/new_assets/5e8132bcabe821c79c5c2ac7" group-title="QUỐC TẾ" radio="true" , 100.3FM
+https://i.mjh.nz/.r/radio-ih-8536
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7782" tvg-id="mjh-radio-ih-7782" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6760f683af2e61b5a7fba3cf" group-title="QUỐC TẾ" radio="true" , Real Radio
+https://i.mjh.nz/.r/radio-ih-7782
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10623" tvg-id="mjh-radio-ih-10623" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6785887856421638085c6c49" group-title="QUỐC TẾ" radio="true" , Juice TV
+https://i.mjh.nz/.r/radio-ih-10623
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6965" tvg-id="mjh-radio-ih-6965" tvg-logo="https://i.iheart.com/v3/re/new_assets/3d16e17a-1fb6-46ca-8703-16232e5ea60b" group-title="QUỐC TẾ" radio="true" , NBR Radio
+https://i.mjh.nz/.r/radio-ih-6965.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6938" tvg-id="mjh-radio-ih-6938" tvg-logo="https://i.iheart.com/v3/re/new_assets/a14e380e-c29c-4720-9fac-03634ef73ddd" group-title="QUỐC TẾ" radio="true" , Life FM
+https://i.mjh.nz/.r/radio-ih-6938
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6937" tvg-id="mjh-radio-ih-6937" tvg-logo="https://i.iheart.com/v3/re/new_assets/56649344-0b94-4945-9108-33fdc076463e" group-title="QUỐC TẾ" radio="true" , Rhema
+https://i.mjh.nz/.r/radio-ih-6937
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7820" tvg-id="mjh-radio-ih-7820" tvg-logo="https://i.iheart.com/v3/re/new_assets/1913b105-f06c-4c73-9140-4045023f51c8" group-title="QUỐC TẾ" radio="true" , Te Patu Manawa
+https://i.mjh.nz/.r/radio-ih-7820
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9615" tvg-id="mjh-radio-ih-9615" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67201f9d064dd506e396d8b4" group-title="QUỐC TẾ" radio="true" , The Crush
+https://i.mjh.nz/.r/radio-ih-9615.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7391" tvg-id="mjh-radio-ih-7391" tvg-logo="https://i.iheart.com/v3/re/new_assets/594995390a01596ad79e7cac" group-title="QUỐC TẾ" radio="true" , Central FM
+https://i.mjh.nz/.r/radio-ih-7391.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7894" tvg-id="mjh-radio-ih-7894" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6638615ee1b88e4e2ea71932" group-title="QUỐC TẾ" radio="true" , Bassline 96.1
+https://i.mjh.nz/.r/radio-ih-7894.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6939" tvg-id="mjh-radio-ih-6939" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67aba9586569b76ac4c727c1" group-title="QUỐC TẾ" radio="true" , Sanctuary
+https://i.mjh.nz/.r/radio-ih-6939
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10159" tvg-id="mjh-radio-ih-10159" tvg-logo="https://i.iheart.com/v3/re/assets.streams/65d3bceb4126db139ea7b0d0" group-title="QUỐC TẾ" radio="true" , Alternative Commentary Collective 2
+https://i.mjh.nz/.r/radio-ih-10159.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7114" tvg-id="mjh-radio-ih-7114" tvg-logo="https://i.iheart.com/v3/re/new_assets/be97b32c-064e-4f90-8cad-bdbad338efc3" group-title="QUỐC TẾ" radio="true" , The Wireless 90.4FM
+https://i.mjh.nz/.r/radio-ih-7114
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9049" tvg-id="mjh-radio-ih-9049" tvg-logo="https://i.iheart.com/v3/re/new_assets/60fded128d281279cae3068e" group-title="QUỐC TẾ" radio="true" , 531pi
+https://i.mjh.nz/.r/radio-ih-9049.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-10712" tvg-id="mjh-radio-ih-10712" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67e1a83325a8914ed2fc323f" group-title="QUỐC TẾ" radio="true" , Lake FM 89.6
+https://i.mjh.nz/.r/radio-ih-10712.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6373" tvg-id="mjh-radio-ih-6373" tvg-logo="https://i.iheart.com/v3/re/assets/images/3fe0ed5a-ffda-4735-8713-b67acd158380.png" group-title="QUỐC TẾ" radio="true" , Official NZ Top 20
+https://i.mjh.nz/.r/radio-ih-6373
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9891" tvg-id="mjh-radio-ih-9891" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6494f9fdd4b8e07250cccaff" group-title="QUỐC TẾ" radio="true" , ZM Curated by Dan Aux
+https://i.mjh.nz/.r/radio-ih-9891.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7159" tvg-id="mjh-radio-ih-7159" tvg-logo="https://i.iheart.com/v3/re/new_assets/31360291-08eb-450f-9eb0-c9df96a068e5" group-title="QUỐC TẾ" radio="true" , The Country
+https://i.mjh.nz/.r/radio-ih-7159.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-8870" tvg-id="mjh-radio-ih-8870" tvg-logo="https://i.iheart.com/v3/re/assets.streams/66a066e13b5bb1fb482da76f" group-title="QUỐC TẾ" radio="true" , Coast 80s
+https://i.mjh.nz/.r/radio-ih-8870.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6491" tvg-id="mjh-radio-ih-6491" tvg-logo="https://i.iheart.com/v3/re/assets/images/6a2775b9-3b60-43f4-8816-3ac512700320.png" group-title="QUỐC TẾ" radio="true" , NZ Top 40
+https://i.mjh.nz/.r/radio-ih-6491.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-9199" tvg-id="mjh-radio-ih-9199" tvg-logo="https://i.iheart.com/v3/re/new_assets/617f0d6da6ee3d9e17836402" group-title="QUỐC TẾ" radio="true" , Chemist Warehouse Remix
+https://i.mjh.nz/.r/radio-ih-9199
+
+#EXTINF:-1 channel-id="mjh-radio-ih-6465" tvg-id="mjh-radio-ih-6465" tvg-logo="https://i.iheart.com/v3/re/assets/images/36a7fa80-1ac8-4a3d-8b8b-04f97816b098.png" group-title="QUỐC TẾ" radio="true" , Country Nation
+https://i.mjh.nz/.r/radio-ih-6465.aac
+
+#EXTINF:-1 channel-id="mjh-radio-ih-7073" tvg-id="mjh-radio-ih-7073" tvg-logo="https://i.iheart.com/v3/re/assets.streams/67511bf6e4ad771fa5251851" group-title="QUỐC TẾ" radio="true" , LoveFM - FM99.4
+https://i.mjh.nz/.r/radio-ih-7073
+#EXTINF:-1 channel-id="mjh-radio-rv-rnznational247-eec039" tvg-id="mjh-radio-rv-rnznational247-eec039" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/RNZ_National_Generic_600x600_Sq.png" group-title="Nz" radio="true" , RNZ National
+https://i.mjh.nz/.r/radio-rv-rnznational247-eec039.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-rnzconcert-98091b" tvg-id="mjh-radio-rv-rnzconcert-98091b" tvg-logo="https://images.mediaworks.nz/rnzconcert_network/Content/shows/images/1738181882339_rnz-concert-1x1.png?width=[width]&height=[height]&crop=auto" group-title="QUỐC TẾ" radio="true" , RNZ Concert
+https://i.mjh.nz/.r/radio-rv-rnzconcert-98091b.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-rnztahi247-4ee040" tvg-id="mjh-radio-rv-rnztahi247-4ee040" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/tahi_now_playing.jpg" group-title="QUỐC TẾ" radio="true" , TAHI
+https://i.mjh.nz/.r/radio-rv-rnztahi247-4ee040.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-rnzpacific-34924e" tvg-id="mjh-radio-rv-rnzpacific-34924e" tvg-logo="https://images.mediaworks.nz/rnzpacific_network/Content/shows/images/1737596741625_rnz-pacific-1x1-600.png?width=[width]&height=[height]&crop=auto" group-title="QUỐC TẾ" radio="true" , RNZ Pacific
+https://i.mjh.nz/.r/radio-rv-rnzpacific-34924e.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-Starradio-70b09d" tvg-id="mjh-radio-rv-Starradio-70b09d" tvg-logo="https://i.ibb.co/dBdR3yF/STAR-RADIO-600x600.png" group-title="QUỐC TẾ" radio="true" , Star Radio
+https://i.mjh.nz/.r/radio-rv-Starradio-70b09d.mp3
+
+#EXTINF:-1 channel-id="mjh-radio-rv-lifefm-e85ebc" tvg-id="mjh-radio-rv-lifefm-e85ebc" tvg-logo="https://i.ibb.co/r4jM4Y3/LIFE-FM-600x600.png" group-title="QUỐC TẾ" radio="true" , Life FM
+https://i.mjh.nz/.r/radio-rv-lifefm-e85ebc.mp3
+
+#EXTINF:-1 channel-id="mjh-radio-rv-lit-f29724" tvg-id="mjh-radio-rv-lit-f29724" tvg-logo="https://i.ibb.co/R20KrJS/Tarana-fiji-600x600.png" group-title="QUỐC TẾ" radio="true" , Tarana Fiji
+https://i.mjh.nz/.r/radio-rv-lit-f29724.m3u
+
+#EXTINF:-1 channel-id="mjh-radio-rv-surfrock247-c2a7ac" tvg-id="mjh-radio-rv-surfrock247-c2a7ac" tvg-logo="https://i.imgur.com/DoQsVax.jpeg" group-title="QUỐC TẾ" radio="true" , The Indie Mixtape
+https://i.mjh.nz/.r/radio-rv-surfrock247-c2a7ac.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-aotearoahiphop247-bed1c7" tvg-id="mjh-radio-rv-aotearoahiphop247-bed1c7" tvg-logo="https://i.ibb.co/HpWd45S/Aotearoa-Hip-Hop-App-1x1.jpg" group-title="QUỐC TẾ" radio="true" , Aotearoa Hip Hop - The Soundtrack
+https://i.mjh.nz/.r/radio-rv-aotearoahiphop247-bed1c7.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-chillhop247-0a081d" tvg-id="mjh-radio-rv-chillhop247-0a081d" tvg-logo="https://i.ibb.co/ngcLJr5/Chill-Hop-App-1x1.jpg" group-title="QUỐC TẾ" radio="true" , Chill Hop
+https://i.mjh.nz/.r/radio-rv-chillhop247-0a081d.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-jordanlee247-1e758f" tvg-id="mjh-radio-rv-jordanlee247-1e758f" tvg-logo="https://i.ibb.co/93n1S1J/Jordan-Lees-App-1x1.jpg" group-title="QUỐC TẾ" radio="true" , Jordan Lee In The Mix
+https://i.mjh.nz/.r/radio-rv-jordanlee247-1e758f.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-kiwirock247-25f901" tvg-id="mjh-radio-rv-kiwirock247-25f901" tvg-logo="https://i.imgur.com/7fzAhgv.jpeg" group-title="QUỐC TẾ" radio="true" , The Rock Kiwi Rock
+https://i.mjh.nz/.r/radio-rv-kiwirock247-25f901.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-chillcountry247-dbfd63" tvg-id="mjh-radio-rv-chillcountry247-dbfd63" tvg-logo="https://i.ibb.co/mqmpdDG/Chill-Country-App-1x1.jpg" group-title="QUỐC TẾ" radio="true" , Chill Country
+https://i.mjh.nz/.r/radio-rv-chillcountry247-dbfd63.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-okboomer-5ec565" tvg-id="mjh-radio-rv-okboomer-5ec565" tvg-logo="https://i.ibb.co/pwQ4SdH/full-logo-black-600x600.png" group-title="QUỐC TẾ" radio="true" , Bassline
+https://i.mjh.nz/.r/radio-rv-okboomer-5ec565.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-firstandbest247-b29eb2" tvg-id="mjh-radio-rv-firstandbest247-b29eb2" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_Rova_New_Channel_First_and_best_600x600.png" group-title="QUỐC TẾ" radio="true" , First & Best
+https://i.mjh.nz/.r/radio-rv-firstandbest247-b29eb2.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-beachfm247-5193a4" tvg-id="mjh-radio-rv-beachfm247-5193a4" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/RVA_BEACH_FM_600x600.png" group-title="QUỐC TẾ" radio="true" , Beach FM 106.3 - Kapiti
+https://i.mjh.nz/.r/radio-rv-beachfm247-5193a4.m3u
+
+#EXTINF:-1 channel-id="mjh-radio-rv-nuifm-ccad31" tvg-id="mjh-radio-rv-nuifm-ccad31" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/RVA_NUI_FM_600x600.png" group-title="QUỐC TẾ" radio="true" , Nui FM
+https://i.mjh.nz/.r/radio-rv-nuifm-ccad31.mp3
+
+#EXTINF:-1 channel-id="mjh-radio-rv-peakfm247-335396" tvg-id="mjh-radio-rv-peakfm247-335396" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/RVA_Peak_FM_600x600.png" group-title="QUỐC TẾ" radio="true" , Peak FM
+https://i.mjh.nz/.r/radio-rv-peakfm247-335396
+
+#EXTINF:-1 channel-id="mjh-radio-rv-playitstrange247-cf8231" tvg-id="mjh-radio-rv-playitstrange247-cf8231" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/ROVA_600x600_Square.png" group-title="QUỐC TẾ" radio="true" , Play It Strange
+https://i.mjh.nz/.r/radio-rv-playitstrange247-cf8231.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-acousticchill247-9ace13" tvg-id="mjh-radio-rv-acousticchill247-9ace13" tvg-logo="https://i.ibb.co/5vWyttV/Acoustic-Chill-App-1x1.jpg" group-title="QUỐC TẾ" radio="true" , Acoustic Chill
+https://i.mjh.nz/.r/radio-rv-acousticchill247-9ace13.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-headsfm247-36441b" tvg-id="mjh-radio-rv-headsfm247-36441b" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/Heads_600x600.png" group-title="QUỐC TẾ" radio="true" , Heads FM
+https://i.mjh.nz/.r/radio-rv-headsfm247-36441b
+
+#EXTINF:-1 channel-id="mjh-radio-rv-nztop50-0ff40a" tvg-id="mjh-radio-rv-nztop50-0ff40a" tvg-logo="https://i.ibb.co/YfTDS3k/NZTop50-App-1x1.jpg" group-title="QUỐC TẾ" radio="true" , NZ Top 50 Chart
+https://i.mjh.nz/.r/radio-rv-nztop50-0ff40a.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-6a78eb" tvg-id="mjh-radio-rv-morefm-6a78eb" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Dunedin - 97.4FM
+https://i.mjh.nz/.r/radio-rv-morefm-6a78eb.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-797d4d" tvg-id="mjh-radio-rv-thebreeze-797d4d" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Dunedin - 98.2FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-797d4d.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-anthemz-0c56ae" tvg-id="mjh-radio-rv-anthemz-0c56ae" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/anthemz600sq.png" group-title="QUỐC TẾ" radio="true" , Anthemz
+https://i.mjh.nz/.r/radio-rv-anthemz-0c56ae.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-5042dd" tvg-id="mjh-radio-rv-morefm-5042dd" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Coromandel - 90.3/89.9/93.9/89.1/97.2FM
+https://i.mjh.nz/.r/radio-rv-morefm-5042dd.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-729d31" tvg-id="mjh-radio-rv-thebreeze-729d31" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Whanganui - 97.6FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-729d31.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-1d569b" tvg-id="mjh-radio-rv-morefm-1d569b" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Central Otago & Wānaka - 90.3/94.3/97.1/99.4FM
+https://i.mjh.nz/.r/radio-rv-morefm-1d569b.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-e885b7" tvg-id="mjh-radio-rv-morefm-e885b7" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Canterbury - 92.1FM
+https://i.mjh.nz/.r/radio-rv-morefm-e885b7.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-f107e9" tvg-id="mjh-radio-rv-thebreeze-f107e9" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Canterbury - 94.5FM / 100.5FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-f107e9.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-37b6a5" tvg-id="mjh-radio-rv-morefm-37b6a5" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Bay Of Plenty - 93.4FM
+https://i.mjh.nz/.r/radio-rv-morefm-37b6a5.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-6a282f" tvg-id="mjh-radio-rv-morefm-6a282f" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Gisborne/Wairoa - 90.1/98.9FM
+https://i.mjh.nz/.r/radio-rv-morefm-6a282f.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-27042c" tvg-id="mjh-radio-rv-morefm-27042c" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Hawke's Bay - 88.7FM
+https://i.mjh.nz/.r/radio-rv-morefm-27042c.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-81b73f" tvg-id="mjh-radio-rv-thebreeze-81b73f" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Hawkes Bay - 97.5FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-81b73f.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-97147b" tvg-id="mjh-radio-rv-morefm-97147b" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Wellington - 95.3FM/99.7FM
+https://i.mjh.nz/.r/radio-rv-morefm-97147b.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-be8657" tvg-id="mjh-radio-rv-thebreeze-be8657" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Wellington - 94.1FM / 98.5FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-be8657.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-01a9f6" tvg-id="mjh-radio-rv-morefm-01a9f6" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Manawatu - 92.2FM
+https://i.mjh.nz/.r/radio-rv-morefm-01a9f6.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-befc17" tvg-id="mjh-radio-rv-thebreeze-befc17" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Manawatu - 98.6FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-befc17.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-cc913b" tvg-id="mjh-radio-rv-morefm-cc913b" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Nelson - 92.8FM
+https://i.mjh.nz/.r/radio-rv-morefm-cc913b.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-b2bedf" tvg-id="mjh-radio-rv-thebreeze-b2bedf" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Nelson - 97.6FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-b2bedf.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-418e51" tvg-id="mjh-radio-rv-morefm-418e51" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Marlborough - 92.9/94.7/89.9FM
+https://i.mjh.nz/.r/radio-rv-morefm-418e51.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-ec3e83" tvg-id="mjh-radio-rv-morefm-ec3e83" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Northland - 91.6FM
+https://i.mjh.nz/.r/radio-rv-morefm-ec3e83.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-31fb8d" tvg-id="mjh-radio-rv-morefm-31fb8d" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Queenstown - 92.0FM
+https://i.mjh.nz/.r/radio-rv-morefm-31fb8d.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-fe2633" tvg-id="mjh-radio-rv-morefm-fe2633" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Rodney - 88.9/97.8FM
+https://i.mjh.nz/.r/radio-rv-morefm-fe2633.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-533d0a" tvg-id="mjh-radio-rv-morefm-533d0a" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Rotorua - 95.9FM/89.2FM
+https://i.mjh.nz/.r/radio-rv-morefm-533d0a.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-fe8537" tvg-id="mjh-radio-rv-morefm-fe8537" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM South Canterbury - 97.9/93.1/95.0/93.1FM
+https://i.mjh.nz/.r/radio-rv-morefm-fe8537.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-49f87e" tvg-id="mjh-radio-rv-thebreeze-49f87e" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Timaru - 89.9/90.1/92.3/98.9/99.8FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-49f87e.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-340c0e" tvg-id="mjh-radio-rv-morefm-340c0e" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Taranaki - 93.2FM
+https://i.mjh.nz/.r/radio-rv-morefm-340c0e.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-2571d2" tvg-id="mjh-radio-rv-morefm-2571d2" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Southland/Te Anau - 89.2/96.0FM
+https://i.mjh.nz/.r/radio-rv-morefm-2571d2.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-channelx-6b42e4" tvg-id="mjh-radio-rv-channelx-6b42e4" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/ChannelX_600x600.png" group-title="QUỐC TẾ" radio="true" , channel X - Southland 94.0FM
+https://i.mjh.nz/.r/radio-rv-channelx-6b42e4.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-696de0" tvg-id="mjh-radio-rv-morefm-696de0" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Taupo - 93.6FM
+https://i.mjh.nz/.r/radio-rv-morefm-696de0.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-d34a4a" tvg-id="mjh-radio-rv-thebreeze-d34a4a" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Tauranga - 95.8FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-d34a4a.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-fb04dd" tvg-id="mjh-radio-rv-morefm-fb04dd" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Waikato - 92.2FM
+https://i.mjh.nz/.r/radio-rv-morefm-fb04dd.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-2b43e8" tvg-id="mjh-radio-rv-thebreeze-2b43e8" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="QUỐC TẾ" radio="true" , The Breeze Waikato - 99.4FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-2b43e8.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-fc9d1c" tvg-id="mjh-radio-rv-morefm-fc9d1c" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Wairarapa - 89.5FM
+https://i.mjh.nz/.r/radio-rv-morefm-fc9d1c.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-19c8a6" tvg-id="mjh-radio-rv-morefm-19c8a6" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , More FM Network
+https://i.mjh.nz/.r/radio-rv-morefm-19c8a6.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-6b52e6" tvg-id="mjh-radio-rv-morefm-6b52e6" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="QUỐC TẾ" radio="true" , MoreFM Whanganui - 92.8FM
+https://i.mjh.nz/.r/radio-rv-morefm-6b52e6.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-morefm-01a9f6" tvg-id="mjh-radio-rv-morefm-01a9f6" tvg-logo="https://images.mediaworks.nz/rova/Content/apps/images/MFM_2025_Logo_BLUE_600x600.png" group-title="Nz" radio="true" , MoreFM Manawatu - 92.2FM
+https://i.mjh.nz/.r/radio-rv-morefm-01a9f6.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rv-thebreeze-befc17" tvg-id="mjh-radio-rv-thebreeze-befc17" tvg-logo="https://cdn.mediaworks.nz/aem/corporate/RV_x_BRZ_600x600.png" group-title="Nz" radio="true" , The Breeze Manawatu - 98.6FM
+https://i.mjh.nz/.r/radio-rv-thebreeze-befc17.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-rdu" tvg-id="mjh-radio-rdu" tvg-logo="https://i.mjh.nz/.images/radio-rdu.png" group-title="QUỐC TẾ" radio="true" , RDU
+https://i.mjh.nz/.r/radio-rdu
+
+#EXTINF:-1 channel-id="mjh-radio-base-fm" tvg-id="mjh-radio-base-fm" tvg-logo="https://i.mjh.nz/.images/radio-base-fm.png" group-title="QUỐC TẾ" radio="true" , BASE FM
+https://i.mjh.nz/.r/radio-base-fm
+
+#EXTINF:-1 channel-id="mjh-radio-radio-active" tvg-id="mjh-radio-radio-active" tvg-logo="https://i.mjh.nz/.images/radio-radio-active.png" group-title="QUỐC TẾ" radio="true" , Radio Active
+https://i.mjh.nz/.r/radio-radio-active
+
+#EXTINF:-1 channel-id="mjh-radio-radio-control" tvg-id="mjh-radio-radio-control" tvg-logo="https://i.mjh.nz/.images/radio-radio-control.png" group-title="QUỐC TẾ" radio="true" , Radio Control
+https://i.mjh.nz/.r/radio-radio-control
+
+#EXTINF:-1 channel-id="mjh-radio-brian-fm-ashburton" tvg-id="mjh-radio-brian-fm-ashburton" tvg-logo="https://i.mjh.nz/.images/radio-brian-fm-ashburton.png" group-title="QUỐC TẾ" radio="true" , Brian FM Ashburton
+https://i.mjh.nz/.r/radio-brian-fm-ashburton.aac
+
+#EXTINF:-1 channel-id="mjh-radio-radio-x" tvg-id="mjh-radio-radio-x" tvg-logo="https://i.mjh.nz/.images/radio-radio-x.png" group-title="QUỐC TẾ" radio="true" , Radio X
+https://i.mjh.nz/.r/radio-radio-x
+
+#EXTINF:-1 channel-id="mjh-radio-sleep-radio" tvg-id="mjh-radio-sleep-radio" tvg-logo="https://i.mjh.nz/.images/radio-sleep-radio.png" group-title="QUỐC TẾ" radio="true" , Sleep Radio
+https://i.mjh.nz/.r/radio-sleep-radio
+
+#EXTINF:-1 channel-id="mjh-radio-radio-xpd" tvg-id="mjh-radio-radio-xpd" tvg-logo="https://i.mjh.nz/.images/radio-radio-xpd.png" group-title="QUỐC TẾ" radio="true" , Radio XPD
+https://i.mjh.nz/.r/radio-radio-xpd
+
+#EXTINF:-1 channel-id="mjh-radio-sport-nation-akl" tvg-id="mjh-radio-sport-nation-akl" tvg-logo="https://i.mjh.nz/.images/radio-sport-nation.png" group-title="QUỐC TẾ" radio="true" , Sport Nation
+https://i.mjh.nz/.r/radio-sport-nation-akl.m3u8
+
+#EXTINF:-1 channel-id="mjh-radio-plains-fm" tvg-id="mjh-radio-plains-fm" tvg-logo="https://i.mjh.nz/.images/radio-plains-fm.png" group-title="QUỐC TẾ" radio="true" , Plains FM
+https://i.mjh.nz/.r/radio-plains-fm.m3u8
+
 #EXTINF:-1 group-title="QUỐC TẾ" tvg-name="VIVIDH BHARATI" tvg-logo="https://onlineradiofm.in/assets/image/radio/100/vividh_bharati.webp" radio="true",AIR Vividh Bharati
 https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8
 #EXTINF:-1 group-title="QUỐC TẾ" tvg-name="RAINBOW FM" tvg-logo="https://airdco.pc.cdn.bitgravity.com/images/fm-rainbow.jpg" radio="true",AIR Rainbow FM Delhi
