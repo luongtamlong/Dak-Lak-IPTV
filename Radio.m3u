@@ -187,7 +187,7 @@ https://ice-sov.musicradio.com/ClassicFMHD?hdauth=:2000000000:a290d4b39a16153061
 https://ice-sov.musicradio.com/HeartLondonHD?hdauth=:2000000000:a290d4b39a16153061d4c743008b9fe8d424a7e5ec6469d40acf51fdcd336e80
 #EXTINF:-1 tvg-id="france24eng" tvg-name="Classic FM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUoNL-kM2_uJMpkHkFLYW_aQgrU0fry64mAA&s" group-title="QUỐC TẾ" radio="true",Smooth FM
 https://ice-sov.musicradio.com/SmoothUKHD?hdauth=:2000000000:a290d4b39a16153061d4c743008b9fe8d424a7e5ec6469d40acf51fdcd336e80
-#EXTINF:-1 tvg-id="france24eng" tvg-name="Classic FM" tvg-logo="https://media.bauerradio.com/image/upload/c_crop,g_custom/v1713302555/brand_manager/stations/oumkwpy8oydcrpkbiuom.png" group-title="QUỐC TẾ" radio="true",Hits Radio
+#EXTINF:-1 tvg-id="france24eng" tvg-name="Classic FM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Hits_Radio_2024.svg/1200px-Hits_Radio_2024.svg.png" group-title="QUỐC TẾ" radio="true",Hits Radio
 https://edge-bauerall-01-gos2.sharp-stream.com/hits.aac 
 #EXTINF:-1 tvg-id="france24eng" tvg-name="Talksport" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="QUỐC TẾ" radio="true",TalkSport
 http://radio.talksport.com/stream?aisGetOriginalStream=true
@@ -227,8 +227,16 @@ http://lbs-th2-2.nrjaudio.fm/fr/30001/aac_64.mp3
 https://radio.vaticannews.va/stream-it
 #EXTINF:-1 tvg-id="france24eng"  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMkSARXTUSTGAUZWgpf6UcbRH6Q-v9q2a0HQYq7RevrmwFpRDu5ZmIhuoseLAqpmzl6g&usqp=CAU" group-title="QUỐC TẾ" radio="true",Radio Vatican English
 https://radio.vaticannews.va/stream-en
-#EXTINF:-1 tvg-id="france24eng"  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMkSARXTUSTGAUZWgpf6UcbRH6Q-v9q2a0HQYq7RevrmwFpRDu5ZmIhuoseLAqpmzl6g&usqp=CAU" group-title="QUỐC TẾ" radio="true",Radio Vatican Tiếng Việt
+#EXTINF:-1 tvg-id="france24eng"  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMkSARXTUSTGAUZWgpf6UcbRH6Q-v9q2a0HQYq7RevrmwFpRDu5ZmIhuoseLAqpmzl6g&usqp=CAU" group-title="QUỐC TẾ" radio="true",Radio Vatican Tieng Viet
 https://radio.vaticannews.va/stream-vi
+#EXTINF:-1 tvg-id="france24eng" tvg-logo="https://www.radio.net/300/rairadiouno.png?version=d70c9f4ae01df08c62b9726cf35556e0" group-title="QUỐC TẾ" radio="true",Rai Radio 1
+http://icestreaming.rai.it/1.mp3
+#EXTINF:-1 tvg-id="france24eng" tvg-logo="https://pbs.twimg.com/profile_images/1032181212549398528/cMCNpgVF_400x400.jpg0" group-title="QUỐC TẾ" radio="true",Rai Radio 2
+http://icestreaming.rai.it/2.mp3
+#EXTINF:-1 tvg-id="france24eng" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcg7YHyPejOR4YpOwGwJvxoOpZJCTJZVJd7g&s" group-title="QUỐC TẾ" radio="true",Rai Radio 3
+http://icestreaming.rai.it/3.mp3
+#EXTINF:-1 tvg-id="france24eng" tvg-logo="https://au.radio.net/300/raiclassica.png?version=6a49c116445a7df8c72eec47733dc310" group-title="QUỐC TẾ" radio="true",Rai Radio 3 Classica
+http://icestreaming.rai.it/5.mp3
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://arbeitsunrecht.de/wp-content/uploads/2023/11/Deutschlandfunk_2017_icon.png" group-title="QUỐC TẾ" radio="true",Deutschlandfunk
 https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://i1.sndcdn.com/artworks-EaBBQWVc7sY2Q23M-Z4lVAQ-t500x500.jpg" group-title="QUỐC TẾ" radio="true",Deutschlandfunk Kultur
