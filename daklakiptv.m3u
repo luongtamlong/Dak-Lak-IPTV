@@ -466,7 +466,7 @@ https://i.mjh.nz/.r/bloomberg-tv.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/1200px-CNBC_logo.svg.png", CNBC
-https://pixman.mytvsuper.com.mp/Smart.php?id=cnbc_twn
+https://smart.pendy.dpdns.org/Smart.php?id=cnbc_twn
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 http://p1.cvtv.xyz:81/skn?token=live
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
@@ -1705,95 +1705,145 @@ http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
 #EXTINF:-1  group-title="🇺🇦 U Cà",АПОСТРОФ
 https://ext.cdn.nashnet.tv/228.0.2.165/index.m3u8
 
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-1综合" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png",CCTV-1综合
-http://111.61.236.247:9081/hls/1/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-1综合" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png",CCTV-1 Hong Kong
+#EXTINF:-1 tvg-id="cctv1" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv1/TichHop-TrungQuoc",CCTV-1 toàn diện
+https://xem.TruyenHinh.Click/TrungQuoc/cctv1/TruyenHinh.Click
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CCTV-1综合" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png",CCTV-1 Hong Kong
 http://tv.cdn5.rr.nu/live/cctv1/stream.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-2财经" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png",CCTV-2财经
-http://111.61.236.247:9081/hls/2/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-3综艺" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png",CCTV-3综艺
-http://111.61.236.247:9081/hls/3/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-4中文国际" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png",CCTV-4中文国际
-http://111.61.236.247:9081/hls/4/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-5体育" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png",CCTV-5体育
-http://111.61.236.247:9081/hls/5/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-5+体育赛事" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png",CCTV-5+体育赛事
-https://ldcctvwbcdtxy.liveplay.myqcloud.com/ldcctvwbcd/cdrmldcctv5plus_1/index.m3u8?b=200-2100
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-6电影" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png",CCTV-6电影
-http://111.61.236.247:9081/hls/6/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-7国防军事" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png",CCTV-7国防军事
-http://111.61.236.247:9081/hls/7/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-8电视剧" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png",CCTV-8电视剧
-http://111.61.236.247:9081/hls/8/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-9纪录" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png",CCTV-9纪录
-http://111.61.236.247:9081/hls/9/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-10科教" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png",CCTV-10科教
-http://111.61.236.247:9081/hls/10/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-11戏曲" tvg-logo="https://live.fanmingming.com/tv/CCTV11.png",CCTV-11戏曲
-http://111.61.236.247:9081/hls/11/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-12社会与法" tvg-logo="https://live.fanmingming.com/tv/CCTV12.png",CCTV-12社会与法
-http://111.61.236.247:9081/hls/12/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-13新闻" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png",CCTV-13新闻
-http://111.61.236.247:9081/hls/13/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-14少儿" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png",CCTV-14少儿
-http://111.61.236.247:9081/hls/14/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-15音乐" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png",CCTV-15音乐
-http://111.61.236.247:9081/hls/15/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CCTV-17农业农村" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png",CCTV-17农业农村
-http://117.161.12.124/live/program/live/cctv17hd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png",北京卫视
-http://111.61.236.247:9081/hls/28/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png",东方卫视
-http://111.61.236.247:9081/hls/40/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png",湖南卫视
-http://111.61.236.247:9081/hls/24/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="江苏卫视" tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png",江苏卫视
-http://111.61.236.247:9081/hls/26/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png",浙江卫视
-http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png",东南卫视
-http://121.24.98.226:8090/hls/36/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="厦门卫视" tvg-logo="https://live.fanmingming.com/tv/厦门卫视.png",厦门卫视
-http://117.161.12.124/live/program/live/xmws/1300000/mnf.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png",广东卫视
-http://111.61.236.247:9081/hls/43/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png",深圳卫视
-http://111.61.236.247:9081/hls/38/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="广西卫视" tvg-logo="https://live.fanmingming.com/tv/广西卫视.png",广西卫视
-http://111.61.236.247:9081/hls/44/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="云南卫视" tvg-logo="https://live.fanmingming.com/tv/云南卫视.png",云南卫视
-http://121.24.98.226:8090/hls/41/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png",贵州卫视
-http://111.61.236.247:9081/hls/37/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png",四川卫视
-http://121.24.98.226:8090/hls/58/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="新疆卫视" tvg-logo="https://live.fanmingming.com/tv/新疆卫视.png",新疆卫视
-http://111.61.236.247:9081/hls/53/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png",兵团卫视
-https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="西藏卫视" tvg-logo="https://live.fanmingming.com/tv/西藏卫视.png",西藏卫视
-http://111.61.236.247:9081/hls/52/index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="海南卫视" tvg-logo="https://live.fanmingming.com/tv/海南卫视.png",海南卫视
-https://live2.hnntv.cn/srs/tv/lywsgq.m3u8?_upt=3b561df11725341227
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="三沙卫视" tvg-logo="","Tam Sa" là thành phố được Tàu thiết đặt trái phép trên lãnh hài Việt Nam!
-https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png",CGTN纪录
+#EXTINF:-1 tvg-id="cctv2" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv2/TichHop-TrungQuoc",Tài chính CCTV-2
+https://xem.TruyenHinh.Click/TrungQuoc/cctv2/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv3" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv3/TichHop-TrungQuoc",Triển lãm giống CCTV-3
+https://xem.TruyenHinh.Click/TrungQuoc/cctv3/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv4" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv4/TichHop-TrungQuoc",CCTV-4 Trung Quốc quốc tế
+https://xem.TruyenHinh.Click/TrungQuoc/cctv4/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv5" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv5/TichHop-TrungQuoc",CCTV-5 Thể thao
+https://xem.TruyenHinh.Click/TrungQuoc/cctv5/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv5plus" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv5plus/TichHop-TrungQuoc",CCTV-5+ Các sự kiện thể thao
+https://xem.TruyenHinh.Click/TrungQuoc/cctv5plus/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv6" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv6/TichHop-TrungQuoc",Phim quan sát-6
+https://xem.TruyenHinh.Click/TrungQuoc/cctv6/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv7" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv7/TichHop-TrungQuoc",CCTV-7 Quân đội Quốc phòng
+https://xem.TruyenHinh.Click/TrungQuoc/cctv7/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv8" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv8/TichHop-TrungQuoc",Bộ phim truyền hình CCTV-8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv8/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctvjilu" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctvjilu/TichHop-TrungQuoc",Hồ sơ CCTV-9
+https://xem.TruyenHinh.Click/TrungQuoc/cctvjilu/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv10" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv10/TichHop-TrungQuoc",CCTV-10 Khoa học và Giáo dục
+https://xem.TruyenHinh.Click/TrungQuoc/cctv10/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv11" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv11/TichHop-TrungQuoc",CCTV-11 Opera
+https://xem.TruyenHinh.Click/TrungQuoc/cctv11/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv12" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv12/TichHop-TrungQuoc",CCTV-12 XÃ HỘI VÀ LUẬT
+https://xem.TruyenHinh.Click/TrungQuoc/cctv12/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv13" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv13/TichHop-TrungQuoc",CCTV-13 Tin tức
+https://xem.TruyenHinh.Click/TrungQuoc/cctv13/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctvchild" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctvchild/TichHop-TrungQuoc",CCTV-14 Trẻ em
+https://xem.TruyenHinh.Click/TrungQuoc/cctvchild/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv15" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv15/TichHop-TrungQuoc",CCTV-15 Âm nhạc
+https://xem.TruyenHinh.Click/TrungQuoc/cctv15/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv16" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv16/TichHop-TrungQuoc",Thế vận hội CCTV-16
+https://xem.TruyenHinh.Click/TrungQuoc/cctv16/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cctv17" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv17/TichHop-TrungQuoc",CCTV-17 Khu vực nông thôn và nông thôn
+https://xem.TruyenHinh.Click/TrungQuoc/cctv17/TruyenHinh.Click
+#EXTINF:-1 tvg-id="anhui" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/anhui/TichHop-TrungQuoc",TV vệ tinh Anhui
+https://xem.TruyenHinh.Click/TrungQuoc/anhui/TruyenHinh.Click
+#EXTINF:-1 tvg-id="bingtuan" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/bingtuan/TichHop-TrungQuoc",Quân đoàn TV
+https://xem.TruyenHinh.Click/TrungQuoc/bingtuan/TruyenHinh.Click
+#EXTINF:-1 tvg-id="btv1" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/btv1/TichHop-TrungQuoc",Truyền hình vệ tinh Bắc Kinh
+https://xem.TruyenHinh.Click/TrungQuoc/btv1/TruyenHinh.Click
+#EXTINF:-1 tvg-id="btvchild" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/btvchild/TichHop-TrungQuoc",Trẻ em kaku
+https://xem.TruyenHinh.Click/TrungQuoc/btvchild/TruyenHinh.Click
+#EXTINF:-1 tvg-id="btvjishi" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/btvjishi/TichHop-TrungQuoc",Tài liệu BTV
+https://xem.TruyenHinh.Click/TrungQuoc/btvjishi/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cetv1" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cetv1/TichHop-TrungQuoc",CETV-1
+https://xem.TruyenHinh.Click/TrungQuoc/cetv1/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cetv2" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cetv2/TichHop-TrungQuoc",CETV-2
+https://xem.TruyenHinh.Click/TrungQuoc/cetv2/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cetv3" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cetv3/TichHop-TrungQuoc",CETV-3
+https://xem.TruyenHinh.Click/TrungQuoc/cetv3/TruyenHinh.Click
+#EXTINF:-1 tvg-id="cetv4" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cetv4/TichHop-TrungQuoc",CETV-4
+https://xem.TruyenHinh.Click/TrungQuoc/cetv4/TruyenHinh.Click
+#EXTINF:-1 tvg-id="chongqing" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/chongqing/TichHop-TrungQuoc",Trùng Khánh
+https://xem.TruyenHinh.Click/TrungQuoc/chongqing/TruyenHinh.Click
+#EXTINF:-1 tvg-id="dongfang" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/dongfang/TichHop-TrungQuoc",Dragon TV Thượng Hải
+https://xem.TruyenHinh.Click/TrungQuoc/dongfang/TruyenHinh.Click
+#EXTINF:-1 tvg-id="dongnan" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/dongnan/TichHop-TrungQuoc",TV Đông Nam Phúc Kiến
+https://xem.TruyenHinh.Click/TrungQuoc/dongnan/TruyenHinh.Click
+#EXTINF:-1 tvg-id="gansu" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/gansu/TichHop-TrungQuoc",Cam Túc TV
+https://xem.TruyenHinh.Click/TrungQuoc/gansu/TruyenHinh.Click
+#EXTINF:-1 tvg-id="guangdong" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/guangdong/TichHop-TrungQuoc",Truyền hình vệ tinh Quảng Đông
+https://xem.TruyenHinh.Click/TrungQuoc/guangdong/TruyenHinh.Click
+#EXTINF:-1 tvg-id="guangxi" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/guangxi/TichHop-TrungQuoc",Truyền hình vệ tinh Quảng Tây
+https://xem.TruyenHinh.Click/TrungQuoc/guangxi/TruyenHinh.Click
+#EXTINF:-1 tvg-id="guizhou" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/guizhou/TichHop-TrungQuoc",Truyền hình vệ tinh Quý Châu
+https://xem.TruyenHinh.Click/TrungQuoc/guizhou/TruyenHinh.Click
+#EXTINF:-1 tvg-id="hebei" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/hebei/TichHop-TrungQuoc",TV vệ tinh Hà Bắc
+https://xem.TruyenHinh.Click/TrungQuoc/hebei/TruyenHinh.Click
+#EXTINF:-1 tvg-id="heilongjiang" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/heilongjiang/TichHop-TrungQuoc",Truyền hình vệ tinh Hắc Long Giang
+https://xem.TruyenHinh.Click/TrungQuoc/heilongjiang/TruyenHinh.Click
+#EXTINF:-1 tvg-id="henan" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/henan/TichHop-TrungQuoc",TV vệ tinh Hà Nam
+https://xem.TruyenHinh.Click/TrungQuoc/henan/TruyenHinh.Click
+#EXTINF:-1 tvg-id="hubei" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/hubei/TichHop-TrungQuoc",TV vệ tinh Hồ Bắc
+https://xem.TruyenHinh.Click/TrungQuoc/hubei/TruyenHinh.Click
+#EXTINF:-1 tvg-id="hunan" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/hunan/TichHop-TrungQuoc",TV vệ tinh Hồ Nam
+https://xem.TruyenHinh.Click/TrungQuoc/hunan/TruyenHinh.Click
+#EXTINF:-1 tvg-id="jiangsu" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/jiangsu/TichHop-TrungQuoc",Tv vệ tinh Giang Tô
+https://xem.TruyenHinh.Click/TrungQuoc/jiangsu/TruyenHinh.Click
+#EXTINF:-1 tvg-id="jiangxi" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/jiangxi/TichHop-TrungQuoc",Giang Tây truyền hình vệ tinh
+https://xem.TruyenHinh.Click/TrungQuoc/jiangxi/TruyenHinh.Click
+#EXTINF:-1 tvg-id="jilin" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/jilin/TichHop-TrungQuoc",Cát Lâm TV
+https://xem.TruyenHinh.Click/TrungQuoc/jilin/TruyenHinh.Click
+#EXTINF:-1 tvg-id="liaoning" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/liaoning/TichHop-TrungQuoc",Truyền hình vệ tinh Liêu Ninh
+https://xem.TruyenHinh.Click/TrungQuoc/liaoning/TruyenHinh.Click
+#EXTINF:-1 tvg-id="neimenggu" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/neimenggu/TichHop-TrungQuoc",TV vệ tinh Nội Mông Cồ
+https://xem.TruyenHinh.Click/TrungQuoc/neimenggu/TruyenHinh.Click
+#EXTINF:-1 tvg-id="ningxia" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/ningxia/TichHop-TrungQuoc",TV vệ tinh Ninh Hạ
+https://xem.TruyenHinh.Click/TrungQuoc/ningxia/TruyenHinh.Click
+#EXTINF:-1 tvg-id="qinghai" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/qinghai/TichHop-TrungQuoc",Truyền hình vệ tinh Thanh
+https://xem.TruyenHinh.Click/TrungQuoc/qinghai/TruyenHinh.Click
+#EXTINF:-1 tvg-id="sdetv" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/sdetv/TichHop-TrungQuoc",Truyền hình giáo dục Sơn Đông
+https://xem.TruyenHinh.Click/TrungQuoc/sdetv/TruyenHinh.Click
+#EXTINF:-1 tvg-id="shandong" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/shandong/TichHop-TrungQuoc",TV vệ tinh Sơn Đông
+https://xem.TruyenHinh.Click/TrungQuoc/shandong/TruyenHinh.Click
+#EXTINF:-1 tvg-id="shan1xi" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/shan1xi/TichHop-TrungQuoc",TV vệ tinh Sơn Tây
+https://xem.TruyenHinh.Click/TrungQuoc/shan1xi/TruyenHinh.Click
+#EXTINF:-1 tvg-id="shan3xi" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/shan3xi/TichHop-TrungQuoc",Truyền hình vệ tinh Thiểm Tây
+https://xem.TruyenHinh.Click/TrungQuoc/shan3xi/TruyenHinh.Click
+#EXTINF:-1 tvg-id="shenzhen" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/shenzhen/TichHop-TrungQuoc",Truyền hình vệ tinh Thâm Quyến
+https://xem.TruyenHinh.Click/TrungQuoc/shenzhen/TruyenHinh.Click
+#EXTINF:-1 tvg-id="sichuan" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/sichuan/TichHop-TrungQuoc",TV vệ tinh Tứ Xuyên
+https://xem.TruyenHinh.Click/TrungQuoc/sichuan/TruyenHinh.Click
+#EXTINF:-1 tvg-id="tianjin" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/tianjin/TichHop-TrungQuoc",Truyền hình vệ tinh Thiên Tân
+https://xem.TruyenHinh.Click/TrungQuoc/tianjin/TruyenHinh.Click
+#EXTINF:-1 tvg-id="travel" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/travel/TichHop-TrungQuoc",TV Hải Nam
+https://xem.TruyenHinh.Click/TrungQuoc/travel/TruyenHinh.Click
+#EXTINF:-1 tvg-id="xiamen" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/xiamen/TichHop-TrungQuoc",Hạ Môn
+https://xem.TruyenHinh.Click/TrungQuoc/xiamen/TruyenHinh.Click
+#EXTINF:-1 tvg-id="xinjiang" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/xinjiang/TichHop-TrungQuoc",TV vệ tinh Tân Cương
+https://xem.TruyenHinh.Click/TrungQuoc/xinjiang/TruyenHinh.Click
+#EXTINF:-1 tvg-id="xizang" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/xizang/TichHop-TrungQuoc",TV Tây Tạng
+https://xem.TruyenHinh.Click/TrungQuoc/xizang/TruyenHinh.Click
+#EXTINF:-1 tvg-id="yanbian" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/yanbian/TichHop-TrungQuoc",TV vệ tinh Diên Biên
+https://xem.TruyenHinh.Click/TrungQuoc/yanbian/TruyenHinh.Click
+#EXTINF:-1 tvg-id="yunnan" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/yunnan/TichHop-TrungQuoc",TV vệ tinh Vân Nam
+https://xem.TruyenHinh.Click/TrungQuoc/yunnan/TruyenHinh.Click
+#EXTINF:-1 tvg-id="zhejiang" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/zhejiang/TichHop-TrungQuoc",Truyền hình vệ tinh Chiết Giang
+https://xem.TruyenHinh.Click/TrungQuoc/zhejiang/TruyenHinh.Click
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png",CGTN纪录
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png",CGTN纪录
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png",CGTN纪录
 https://livedoc.cgtn.com/200d/prog_index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png",CGTN俄语
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png",CGTN俄语
 http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png",CGTN法语
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png",CGTN法语
 https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png",CGTN法语
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png",CGTN法语
 https://livefr.cgtn.com/200f/prog_index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png",CGTN西语
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png",CGTN西语
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png",CGTN西语
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png",CGTN西语
 https://livees.cgtn.com/200e/prog_index.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png",CGTN阿语
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png",CGTN阿语
 https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
-#EXTINF:-1 group-title="TRUNG QUỐC" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png",CGTN阿语
+#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png",CGTN阿语
 https://livear.cgtn.com/200a/prog_index.m3u8
 
 
@@ -1847,28 +1897,30 @@ https://globallive.tdm.com.mo/tv/ch22.live/playlist.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #https://cdn1.skygo.mn/live/disk1/Lotus/HLS-FTA/Lotus.m3u8
 
-#EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="🇹🇼 Đài Loan",TVBS Asia
+#EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="Đài Loan",TVBS Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-id="320" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS HD
-https://pixman.mytvsuper.com.mp/Smart.php?id=tvbs
-#EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS ENTERTAINMENT
+#EXTINF:-1 tvg-id="320" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="Đài Loan",TVBS HD
+https://smart.pendy.dpdns.org/Smart.php?id=tvbs
+#EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="Đài Loan",TVBS ENTERTAINMENT
 http://108.181.20.197/livehttpplay?channel_id=20105
-#EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="🇹🇼 Đài Loan",TVBS NEWS
+#EXTINF:-1 tvg-id="6060" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/200px-Tvbs-logo-42.png" group-title="Đài Loan",TVBS NEWS
 http://61.221.215.25:8800/hls/9/index.m3u8
-#EXTINF:-1 tvg-id="7135" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="🇹🇼 Đài Loan",FORMOSA TV
-rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="🇹🇼 Đài Loan",TTV
+#EXTINF:-1 tvg-id="7135" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="Đài Loan",FORMOSA TV
+https://smart.pendy.dpdns.org/Smart.php?id=ftvhd_taiwan
+#EXTINF:-1 tvg-id="6026" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/43/TTV_Home_Channel_with_HD_2016.png" group-title="Đài Loan",TTV
 http://108.181.20.197/livehttpplay?channel_id=20076
-#EXTINF:-1 tvg-id="6028" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/22/CTV_text.png" group-title="🇹🇼 Đài Loan",CTV
+#EXTINF:-1 tvg-id="6028" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/2/22/CTV_text.png" group-title="Đài Loan",CTV
 http://108.181.20.197/livehttpplay?channel_id=20088
-#EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="🇹🇼 Đài Loan",CTS
-rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c8/Public_Television_Service_%28logo%29.png" group-title="🇹🇼 Đài Loan",PTS
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="Đài Loan",CTS
+https://smart.pendy.dpdns.org/Smart.php?id=ctshd_twn
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c8/Public_Television_Service_%28logo%29.png" group-title="Đài Loan",PTS
 http://108.181.20.197/livehttpplay?channel_id=20087
-#EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="🇹🇼 Đài Loan",CTI Entertainment
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="🇹🇼 Đài Loan",CTI News
-http://aktv_stream.m16tv.cfd/stream/yt/null/AKTV.m3u8
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="Đài Loan",CTI Metro
+https://smart.pendy.dpdns.org/Smart.php?id=ctizhonghe
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="Đài Loan",CTI Entertainment
+https://smart.pendy.dpdns.org/Smart.php?id=ctient
+#EXTINF:-1 tvg-id="6030" tvg-logo="https://media.cakeresume.com/image/upload/s--sOVsapEm--/c_pad,fl_png8,h_400,w_400/v1558072605/be4wqirlqy5ifmj7uasd.png" group-title="Đài Loan",CTI News
+https://smart.pendy.dpdns.org/Smart.php?id=ctinews
 
 
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="nhkg_tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png",NHK G
@@ -1982,7 +2034,6 @@ https://lb-mvtv-live.v2h-cdn.com/redirect/altv2/altv.stream?type=m3u8
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
 https://lb-mvtv-live.v2h-cdn.com/redirect/tv5hd/tv5hd.stream?type=m3u8
-
 #EXTINF:-1 tvg-id="iptv36.tsports" group-title="Thái Lan" tvg-logo="https://pictr.com/images/2024/11/13/x6lsfr.png",TSport
 #KODIPROP:inputstream.adaptive.common_headers=user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 #KODIPROP:contentlookup=False
@@ -2102,540 +2153,6 @@ http://streaming-hwc.ch7.com/livech7hd/HD.m3u8
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
 http://appdootv2.dootvde.com:1935/live/50026_pptv_hd.stream.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TV5.ph" tvg-logo="https://static.wikia.nocookie.net/dxs/images/9/99/TV5_HD_Logo_2023.png/revision/latest?cb=20230410113026" group-title="Philippines", TV5 HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd
-
-#EXTINF:-1 tvg-id="Onenews.Hd.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OneNewsPH_logo.svg/2000px-OneNewsPH_logo.svg.png" group-title="Philippines", One News HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|d39eb201ae494a0b98583df4d110e8dd:6797066880d344422abd3f5eda41f45f
-https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd
-
-#EXTINF:-1 tvg-id="Onesports.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/2000px-One_Sports_logo.svg.png" group-title="Philippines", One Sports HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd
-
-#EXTINF:-1 tvg-id="Onesportsplus.Hd.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/OneSportsPlus_logo.svg/2560px-OneSportsPlus_logo.svg.png" group-title="Philippines", One Sports+ HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|322d06e9326f4753a7ec0908030c13d8:1e3e0ca32d421fbfec86feced0efefda
-https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd
-
-#EXTINF:-1 tvg-id="Oneph.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/OnePH_logo.svg/2000px-OnePH_logo.svg.png" group-title="Philippines", One PH
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|92834ab4a7e1499b90886c5d49220e46:a7108d9a6cfcc1b7939eb111daf09ab3
-https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|9568cc84e1d944f38eac304517eab6fd:f12142af8f39b3bab79d3679d3665ebe
-#EXTINF:-1 tvg-id="144" tvg-logo="https://i.imgur.com/zZWj5vn.png" group-title="Philippines",TFC ASIA
-https://d1facupi3cod3q.cloudfront.net/out/v1/e3633f8591e248b0af1af15a474bfa4a/index.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|457c50351e2a4c42a5c34cfb5c0b0682:03a2754079e082f7dec48ad362e3899e
-#EXTINF:-1 tvg-id="tfceurope" tvg-logo="https://i.ibb.co/DQJZMV1/85604140bc3167780da75560608e7a26-removebg-preview.png" group-title="Philippines",TFC EUROPE
-https://d123wz0csfw11u.cloudfront.net/out/v1/6e2906534002432984f73742ef2bcbfe/index.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|9c700e42ffc64d9b82d94cf57a2302fa:44d038e1fdcaefb3e75ffb4e42537279
-#EXTINF:-1 tvg-id="tfccanada" tvg-logo="https://i.ibb.co/RPFXz4Y/Welcome-to-i-Want-TFC-Hero5-removebg-preview.png" group-title="Philippines",TFC CANADA
-https://du44jtt5g7upx.cloudfront.net/out/v1/a3b708325c1d43dc9549c262526a6945/index.mpd
-
-#EXTINF:-1 tvg-id="GMA.ph" tvg-logo="https://iili.io/2rSp1ZQ.png"  group-title="Philippines",GMA Pinoy TV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058
-https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd
-
-#EXTINF:-1 tvg-id="Rptv.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RPTV_%282024%29.svg/2000px-RPTV_%282024%29.svg.png" group-title="Philippines", RPTV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595
-https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd
-
-#EXTINF:-1 tvg-id="A2Z.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/A2Z_Channel_11_Logo.png" group-title="Philippines", A2Z
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|f703e4c8ec9041eeb5028ab4248fa094:c22f2162e176eee6273a5d0b68d19530
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd
-
-#EXTINF:-1 tvg-id="Buko.ph" tvg-logo="https://pictr.com/images/2025/02/02/xGHllr.jpg" group-title="Philippines", Buko Channel
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|d273c085f2ab4a248e7bfc375229007d:7932354c3a84f7fc1b80efa6bcea0615
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd
-
-#EXTINF:-1 tvg-id="Depedchannel.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/DepEd_TV.png" group-title="Philippines", DepEd TV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|0f853706412b11edb8780242ac120002:2157d6529d80a760f60a8b5350dbc4df
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd
-
-#EXTINF:-1 tvg-id="Ibc13.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/IBC_13_Logo_2011.svg/1200px-IBC_13_Logo_2011.svg.png" group-title="Philippines", IBC 13
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|04e292bc99bd4ccba89e778651914254:ff0a62bdf8920ce453fe680330b563a5
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd
-
-#EXTINF:-1 tvg-id="Uaap.Varsity.ph" tvg-logo="https://static.wikia.nocookie.net/russel/images/1/10/Varsity_Channel_Logo_2021.png/revision/latest?cb=20220319212403" group-title="Philippines", UAAP Varsity
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|95588338ee37423e99358a6d431324b9:6e0f50a12f36599a55073868f814e81e
-https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd
-
-#EXTINF:-1 tvg-id="Christmas.Message.Dummy.us" tvg-logo="logo_url" group-title="Philippines", PopUp PPV HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|286e1c2d622c4c73b5c3d72e4a848abd:b7fad67599c1ce3c2fbc9d02b901be05
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_popupppvhd.mpd
-
-#EXTINF:-1 tvg-id="Cg.Mptv.ph" tvg-logo="https://cms.cignal.tv/Upload/Images/MPTV%20-%20Rev.png" group-title="Philippines", MPTV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807
-https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd
-
-#EXTINF:-1 tvg-id="PBO.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pinoy_Box_Office_logo.svg/1200px-Pinoy_Box_Office_logo.svg.png" group-title="Philippines", PBO
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|dcbdaaa6662d4188bdf97f9f0ca5e830:31e752b441bd2972f2b98a4b1bc1c7a1
-https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd
-
-#EXTINF:-1 tvg-id="Tvup.Prd.ph" tvg-logo="https://cms.cignal.tv/Upload/Images/TVUP%20Logo%20.png" group-title="Philippines", TVUP
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|83e813ccd4ca4837afd611037af02f63:a97c515dbcb5dcbc432bbd09d15afd41
-https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd
-
-#EXTINF:-1 tvg-id="Tagalized.Movie.Channel.ph" tvg-logo="https://tmc.ph/storage/images/299570476c6f0309545110c592b6a63b/c/TMC_LOGO_crop-default.png" group-title="Philippines", TMC
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|96701d297d1241e492d41c397631d857:ca2931211c1a261f082a3a2c4fd9f91b
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd
-
-#EXTINF:-1 tvg-id="DREAMWORKS.ph" tvg-logo="https://pictr.com/images/2025/02/04/xGzjnr.jpg" group-title="Philippines", Dreamwork Tagalog
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|564b3b1c781043c19242c66e348699c5:d3ad27d7fe1f14fb1a2cd5688549fbab
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd
-
-#EXTINF:-1 tvg-id="Knowledge.Channel.ph" tvg-logo="https://images.squarespace-cdn.com/content/v1/61236a89ddeb4615e347e1c3/f0f477fa-5c26-473f-8e6c-45e0bafd2f42/logo-hori-nobg-channel.png" group-title="Philippines", Knowledge Channel
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|0f856fa0412b11edb8780242ac120002:783374273ef97ad3bc992c1d63e091e7
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd
-
-#EXTINF:-1 tvg-id="Pbarush.Hd.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cd/PBA_Rush_logo.png" group-title="Philippines", PBA Rush HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|76dc29dd87a244aeab9e8b7c5da1e5f3:95b2f2ffd4e14073620506213b62ac82
-https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd
-
-#EXTINF:-1 tvg-id="VIVA.Cinema.ph" tvg-logo="https://pictr.com/images/2025/02/02/xGHYPP.png" group-title="Philippines", Viva Cinema
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|07aa813bf2c147748046edd930f7736e:3bd6688b8b44e96201e753224adfc8fb
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd
-
-#EXTINF:-1 tvg-id="TAPTV.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/TapTV-ph.png" group-title="Philippines", Tap TV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|f6804251e90b4966889b7df94fdc621e:55c3c014f2bd12d6bd62349658f24566
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd
-
-#EXTINF:-1 tvg-id="Tapmovies.Hd.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/TAP_Movies_logo.png/revision/latest?cb=20210920125940" group-title="Philippines", Tap Movies HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|71cbdf02b595468bb77398222e1ade09:c3f2aa420b8908ab8761571c01899460
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapmovies_hd1.mpd
-
-#EXTINF:-1 tvg-id="TAPSPORTS.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Philippines", Tap Sports
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
-https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
-
-#EXTINF:-1 tvg-id="TAPEDGE.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/TapEdge-ph.png" group-title="Philippines", Tap Edge
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|4553f7e8011f411fb625cefc39274300:98f2f1d153367e84b5d559dc9dfb9a35
-https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd
-
-#EXTINF:-1 tvg-id="Tapactionflix.Hd.ph" tvg-logo="https://www.tapdmv.com/logo-TapActionFlix-2021.png" group-title="Philippines", Tap Action Flix HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd
-
-#EXTINF:-1 tvg-id="PTV.ph" tvg-logo="https://pictr.com/images/2025/02/02/xGH8TG.jpg" group-title="Philippines", PTV 4
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd
-
-#EXTINF:-1 tvg-id="Sari.Sari.ph" tvg-logo="https://static.wikia.nocookie.net/russel/images/3/36/Sari-Sari_Channel_Logo_2016.png/revision/latest/scale-to-width-down/300?cb=20210301154319" group-title="Philippines", Sari Sari
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd
-
-#EXTINF:-1 tvg-id="Lotusmacau.Prd.ph" tvg-logo="https://pictr.com/images/2025/02/02/xGHGrZ.png" group-title="Philippines", Lotus Macau
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|60dc692e64ea443a8fb5ac186c865a9b:01bdbe22d59b2a4504b53adc2f606cc1
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd
-
-#EXTINF:-1 tvg-id="Cgnl.Nba.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/d/de/20200728010847%21NBA_TV_Philippines.png" group-title="Philippines", NBA PH
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
-
-#EXTINF:-1 tvg-id="Fashiontv.Hd.ph" tvg-logo="https://pictr.com/images/2025/02/02/xGxN3l.jpg" group-title="Philippines;Lifestyle", Fashion TV HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|971ebbe2d887476398e97c37e0c5c591:472aa631b1e671070a4bf198f43da0c7
-https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd
-
-#EXTINF:-1 tvg-id="Bilyonaryoch.ph" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzp4mmOlDqQJYDHOkpQ4G6pflLvDV5d5S5Q&s" group-title="Philippines", Bilyonaryo News Channel
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|227ffaf09bec4a889e0e0988704d52a2:b2d0dce5c486891997c1c92ddaca2cd2
-https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/bilyonaryoch.mpd
-
-#EXTINF:-1 tvg-id="Truefmtv.ph" tvg-logo="https://pictr.com/images/2025/02/13/xGsJSQ.png" group-title="Philippines", True FM TV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|0559c95496d44fadb94105b9176c3579:40d8bb2a46ffd03540e0c6210ece57ce
-https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/truefm_tv.mpd
-
-#EXTINF:-1 tvg-id="Tvmaria Prd.ph" tvg-logo="https://pictr.com/images/2025/02/13/xGsKf1.jpg" group-title="Philippines", TV Maria
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|fa3998b9a4de40659725ebc5151250d6:998f1294b122bbf1a96c1ddc0cbb229f
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/tvmaria_prd.mpd
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://pictr.com/images/2025/03/28/xn4AoX.png" group-title="Philippines",ALIW CHANNEL 23
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001109/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/2560px-UNTV-Logo-2016.svg.png" group-title="Philippines",UNTV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.111:6910/001/2/ch00000090990000001091/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="GTV.ph" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/93/GTV_Logo_2021.png/revision/latest?cb=20230518051736" group-title="Philippines",GTV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001143/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="Net 25.ph" tvg-name="NET 25" tvg-logo="https://i.imgur.com/pPPubX5.png" group-title="Philippines",NET 25
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.111:6910/001/2/ch00000090990000001090/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://alltv.ph/wp-content/uploads/2024/06/LOGO-ALLTV-NEW.png" group-title="Philippines",ALLTV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001179/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="Kapamilya Channel.ph" tvg-url="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5e/Kapamilya_Channel_hd_flat_latest.png/revision/latest?cb=20240502124554" group-title="Philippines",Kapamilya Channel HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001286/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="Kapamilya Channel.ph" tvg-logo="https://i.imgur.com/fRETRXx.png" group-title="Philippines",Kapamilya Channel
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|bd17afb5dc9648a39be79ee3634dd4b8:3ecf305d54a7729299b93a3d69c02ea5
-https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/index.mpd
-
-#EXTINF:-1 tvg-id="Celestial Movies Pinoy.ph" tvg-name="Celestial Movies Pinoy" tvg-logo="https://i.imgur.com/e5IZsv3.png" group-title="Philippines",Celestial Movies Pinoy
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.113:6910/001/2/ch00000090990000001077/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="SOLARFLIX.ph" tvg-logo="https://i.imgur.com/OgBDJ75.png" group-title="Philippines",SolarFlix
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.111:6910/001/2/ch00000090990000001243/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.imgur.com/Wsj7iPd.png" group-title="Philippines",Living Asia Channel
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001154/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.imgur.com/NOBlLVC.png" group-title="Philippines",Pinoy Xtreme
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001098/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.imgur.com/28X1hNb.png" group-title="Philippines",Radyo Bandido TV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001338/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="Jeepney TV.ph" tvg-name="Jeepney TV" tvg-logo="https://static.wikia.nocookie.net/russel/images/0/0b/Jeepney_TV_3D_Logo_2015.png/revision/latest?cb=20230326142526" group-title="Philippines",Jeepney TV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.113:6910/001/2/ch00000090990000001250/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="145" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png" group-title="Philippines",Cinema One Global
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|58d0e56991194043b8fb82feb4db7276:d68f41b59649676788889e19fb10d22c
-https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd
-
-#EXTINF:-1 tvg-id="Cinema.One.ph" tvg-logo="https://i.ibb.co/9scFJ3s/Cinema-One-Logo-2020.png" group-title="Philippines",Cinema One Philippines
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001283/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.imgur.com/K3knyIN.png" group-title="Philippines",Solar Sports
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001081/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="143" tvg-logo="https://i.imgur.com/Bcu69bU.png" group-title="Philippines", ANC
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|4bbdc78024a54662854b412d01fafa16:6039ec9b213aca913821677a28bd78ae
-https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd
-
-#EXTINF:-1 tvg-id="MYX.ph" tvg-logo="https://static.wikia.nocookie.net/russel/images/8/85/Myx_White_Logo_2021.png" group-title="Philippines",MYX Global
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51
-https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd
-
-#EXTINF:-1 tvg-id="MYX.ph" tvg-logo="https://i.imgur.com/XPAXVUk.png" group-title="Philippines",MYX Philippines
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.111:6910/001/2/ch00000090990000001252/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-name="TeleRadyo Serbisyo" tvg-logo="https://static.wikia.nocookie.net/russel/images/e/e5/TeleRadyo_Serbisyo_3D_Logo_2023.png" group-title="Philippines",TeleRadyo Serbisyo
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33
-https://d14c00opfjb50c.cloudfront.net/out/v1/0fa4eb67579d41cca4ed146c93aa855f/index.mpd
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://static.wikia.nocookie.net/russel/images/1/1e/INC_TV_White_Logo_July_2022.png" group-title="Philippines",INC TV
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001092/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.imgur.com/WL2ugeZ.png" group-title="Philippines",SMNI CHANNEL
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001155/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.imgur.com/zVh11EA.png" group-title="Philippines",ORAS NG HIMALA
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001175/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="Premiersports Hd.ph" group-title="Philippines" ch-number = "823" tvg-logo="https://i.imgur.com/i1njy1x.png", Premier Sports
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|fc19c98cb9504a0fb78b22fea0a4b814:ea683112a96d4ae6c32d4ea13923e8c7
-https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.ibb.co/74sqhMT/y-NQ6f-S409nl-XW19-Tu-CSME-transformed.png" group-title="Philippines",Premier Sports 2
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|59454adb530b4e0784eae62735f9d850:61100d0b8c4dd13e4eb8b4851ba192cc
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd
-
-#EXTINF:-1 tvg-id="LOCAL.PROGRAMMING.DUMMY.us" tvg-logo="https://i.ibb.co/XLqcPHP/Prem-Football-new-logo-1.png" group-title="Philippines",Premier Football
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001127/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-logo="https://i.ibb.co/5KmHCMM/OIP-5-removebg-preview.png" group-title="Philippines",MOR Entertainment
-#KODIPROP:inputstream.adaptive.common_headers=referrer=https://www.iwanttfc.com/&user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|f1d76704a9f84ce28e7e3d154c7dc5b1:36d98c5b0aad47b256629e57a651e3d8
-https://abslive.akamaized.net/dash/live/2028025/mor/manifest.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|a913faeecaac4813a55240bea0c68858:05b7d7eaba8d6410dbe234336d9b235a
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #01" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 01
-https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/pl_sdi1.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|2f3056cac18d4e31a59de39767042b03:83728946b898141ae411572f9f5fce0d
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #02" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 02
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_sdi2.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|0c16d5962a22494db502b3453f891208:acaed175b981b34ae9b5cb0130506854
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #03" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 03
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/pl_sdi3.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|c3050cba95c945418efa3aedbc69cff7:988e7fade0828273472e24545d0cfa4c
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #04" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 04
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/pl_sdi4.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|eecc6d7ac3df439fb2b73fb38007cb82:826c341a6fef4518cefd27ec85e8b274
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #05" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 05
-https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/pl_sdi5.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|02d5f086706e407e9343c040ac7fb5b8:9d7e088bf7fffc9297ab3a02f0ce9a72
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #06" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 06
-https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/pl_sdi6.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|40bed7f7948e4e5792982cf5b7ee4d78:1fbfd2e3be51aae857f2f24306e5fc41
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #07" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 07
-https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pl_sdi7.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|5a8dbf3b9c2c43079a40fb5d0068f9ef:1778ac6e22527ee2efd6886d8d509c2d
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #08" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 08
-https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/pl_sdi8.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|1c7b9a2af9ad4076b155f06269b6adc2:ed6a8b11738cd27c0bee2d9e3fee178a
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #09" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 09
-https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/pl_sdi9.mpd
-
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|63055a8904644407a64a57874703f71e:0fd611777d37a7ff8afce19d9cee2e91
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-name="PILIPINAS LIVE EVENT #10" tvg-logo="https://pilipinaslive.com/assets/images/logo/pilipinaslive-logo-wbg.png" group-title="Philippines",PILIPINAS LIVE EVENT 10
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/pl_sdi10.mpd
-
-#EXTINF:-1 tvg-id="Local.Programming.Dummy.us" tvg-logo="https://i.imgur.com/ST060qy.png"  group-title="Philippines",Rock TV Manila
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001177/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
-#EXTINF:-1 tvg-id="317" tvg-logo="https://i.imgur.com/x1wehbs.png" group-title="Philippines;Kids",Cartoonito 
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm_legacy=com.widevine.alpha|http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
-http://143.44.136.110:6910/001/2/ch00000090990000001125/manifest.mpd?virtualDomain=001.live_hls.zte.com
-
 
 #EXTINF:-1 group-title="Campuchia" tvg-id="ApsaraTV11.kh",Apsara TV11 
 https://live.ams.com.kh/app/stream/playlist.m3u8
@@ -2761,7 +2278,7 @@ https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
 #EXTINF:-1 group-title="Malaysia và Singapore" tvg-id="BERITARTM" tvg-name="BERITA RTM" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/BeritaRtm.png",BERITA RTM
 https://mifntechnology.github.io/siaranMy/channels/BeritaRTM/index.m3u8
 #EXTINF:-1 group-title="Malaysia và Singapore" tvg-id="BERITARTM" tvg-name="BERITA RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/RTM_Asean_%282024%29.svg/2880px-RTM_Asean_%282024%29.svg.png",RTM ASEAN
-https://pixman.mytvsuper.com.mp/Smart.php?id=Rtmasean
+https://smart.pendy.dpdns.org/Smart.php?id=Rtmasean
 #EXTINF:-1 group-title="Malaysia và Singapore" tvg-id="TVSUKAN" tvg-name="SUKAN RTM" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/SukanRtm.png",SUKAN RTM
 https://mifntechnology.github.io/siaranMy/channels/SukanRTM/index.m3u8
 #EXTINF:-1 tvg-id="Astro.Sports.UHD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Astro_Ria_%282024%29.png" group-title="Malaysia và Singapore",Astro Ria
@@ -2783,34 +2300,34 @@ https://cdn6.163189.xyz/live/ch8/stream.m3u8
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo=""https://upload.wikimedia.org/wikipedia/commons/d/d5/Mediacorp_Channel_U_2023.svg provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Channel U HD
 https://cdn6.163189.xyz/live/chu/stream.m3u8
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/suriahd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mediacorp_Suria_2023.svg/250px-Mediacorp_Suria_2023.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Suria
-https://pixman.mytvsuper.com.mp/Smart.php?id=Suria
+https://smart.pendy.dpdns.org/Smart.php?id=Suria
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/vasanthamhd" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%275714408%27&EntityType=%27Item%27&EntityId=%2797096%27&Width=1000&Height=260" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Vasantham
-https://pixman.mytvsuper.com.mp/Smart.php?id=Vasantham
+https://smart.pendy.dpdns.org/Smart.php?id=Vasantham
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/cnahd" tvg-logo="" provider="DAKLAKIPTV" provider-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/800px-CNA_new_logo.svg.png" provider-type="iptv", CNA (Domestic Feed)
-https://pixman.mytvsuper.com.mp/Smart.php?id=Mewatch_cna
+https://smart.pendy.dpdns.org/Smart.php?id=Mewatch_cna
 
 #EXTINF:-1 group-title="Malaysia và Singapore" tvg-id="TVRIWorld.id" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/TVRI-World.svg/1280px-TVRI-World.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv",TVRI World
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/1200px-TVRILogo2019.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", TVRI Nasional
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo=""https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/2560px-RCTI_logo_2015.svg.png provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", RCTI HD
-https://pixman.mytvsuper.com.mp/Smart.php?id=Rcti
+https://smart.pendy.dpdns.org/Smart.php?id=Rcti
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kompas_TV_%282016%29_logo.svg/2560px-Kompas_TV_%282016%29_logo.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Kompass
-https://pixman.mytvsuper.com.mp/Smart.php?id=Kompass
+https://smart.pendy.dpdns.org/Smart.php?id=Kompass
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Indosiar_2015.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Indosiar
-https://pixman.mytvsuper.com.mp/Smart.php?id=Indosiar
+https://smart.pendy.dpdns.org/Smart.php?id=Indosiar
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/2880px-Antv_logo.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", ANTV (KHÔNG PHẢI KÊNH CÔNG AN)
-https://pixman.mytvsuper.com.mp/Smart.php?id=Antv
+https://smart.pendy.dpdns.org/Smart.php?id=Antv
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_Trans7.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Trans7
-https://pixman.mytvsuper.com.mp/Smart.php?id=Trans7_eko
+https://smart.pendy.dpdns.org/Smart.php?id=Trans7_eko
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", TransTV
-https://pixman.mytvsuper.com.mp/Smart.php?id=Transtv
+https://smart.pendy.dpdns.org/Smart.php?id=Transtv
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/LogoMetroTVsince2010.svg/250px-LogoMetroTVsince2010.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Metro TV
-https://pixman.mytvsuper.com.mp/Smart.php?id=metrotv_eko
+https://smart.pendy.dpdns.org/Smart.php?id=metrotv_eko
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/SCTV_Logo.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", SCTV (KHÔNG PHẢI KÊNH HÀI ĐẮK LẮK)
-https://pixman.mytvsuper.com.mp/Smart.php?id=SCTV
+https://smart.pendy.dpdns.org/Smart.php?id=SCTV
 #EXTINF:4 group-title="Malaysia và Singapore" aktv-server-group="AKTV" tvg-id="aktv/channeluhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TvOne_2023.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", TVOne
-https://pixman.mytvsuper.com.mp/Smart.php?id=Tvone
+https://smart.pendy.dpdns.org/Smart.php?id=Tvone
 
 
 #EXTINF:-1 group-title="Thể thao quốc tế" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189720461/dc4ee8910c25_640_360.png", TV360+1
