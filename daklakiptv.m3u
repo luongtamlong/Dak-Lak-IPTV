@@ -2053,28 +2053,28 @@ https://lb1-live-mv.v2h-cdn.com/hls/ffac/7hd/7hd.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://lb1-live-mv.v2h-cdn.com/hls/ffab/pptv/pptv.m3u8
 
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="TVK.kh",TVK
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://i.imgur.com/5hPxjcl.png" tvg-id="TVK.kh",TVK
 https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="TVK2.kh",TVK 2
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://i.imgur.com/FYqvxUM.png" tvg-id="TVK2.kh",TVK 2
 https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="TV5Cambodia.kh",TV5 Cambodia
-https://es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="BayonTV.kh",Bayon TV
+#EXTINF:-9 player-buffer="50" tvg-id="BayonTV.kh" tvg-name="Bayon TV (1080p)" tvg-logo="https://i.imgur.com/lrI4Gf9.png" group-title="Truyền hình chích điện siêu phê",Bayon TV
 https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8
 #EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="BTVNews.kh",BTV News 
 https://live-evg2.tv360.metfone.com.kh/livetest/bayontest.stream/playlist.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="FreshNews.kh",Fresh News
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://i.imgur.com/iMZLyoX.png" tvg-id="TV5Cambodia.kh",TV5 Cambodia
+https://es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://i.imgur.com/bV6sawt.png" tvg-id="FreshNews.kh",Fresh News
 https://streaming.freshnewsasia.com/live/ngrp:myStream_all/playlist.m3u8
 #EXTINF:-22 player-buffer="50" tvg-id="CTV8HD.kh" tvg-logo="https://i.imgur.com/yrdr4Po.png" group-title="Truyền hình chích điện siêu phê",CTV8
 http://dodge.eu5.org/Get?id=14
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="CTV9.kh",CTV 9
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://i.imgur.com/jgVJt2G.png" tvg-id="CTV9.kh",CTV 9
 https://live-evg6.tv360.metfone.com.kh/CTV9HD@1.m3u8
 #EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="ApsaraTV11.kh",Apsara TV11 
 https://live.ams.com.kh/app/stream/playlist.m3u8
 #EXTINF:-28 tvg-id="RasmeyHangMeasHDTV.kh" tvg-logo="https://i.imgur.com/P8oOR8I.png" group-title="Truyền hình chích điện siêu phê",Rasmey Hang Meas HDTV
-http://abclive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/chunklist_w81330492_b1800000_sleng.m3u8
+http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="HangMeasHDTV.kh" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hang_maes_tv.png" group-title="Truyền hình chích điện siêu phê",Hang Meas HDTV
-http://abclive.malisresidences.com:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/chunklist_w1053296516_b1800000_sleng.m3u8
+http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/playlist.m3u8
 #EXTINF:-31 tvg-id="Hang_Meas_Now_UHDTV.kh" tvg-logo="https://i.imgur.com/5zuSs46.png" group-title="Truyền hình chích điện siêu phê",Hang Meas NOW UHDTV
 http://clive.malisresidences.com:1935/hmnow/_definst_/smil:hmnow.smil/chunklist_w604029205_b1800000_sleng.m3u8
 #EXTINF:-31 tvg-id="Hang_Meas_Melody_UHDTV.kh" tvg-logo="https://i.imgur.com/XZXtTvR.png" group-title="Truyền hình chích điện siêu phê",Hang Meas MELODY UHDTV
@@ -2093,19 +2093,17 @@ http://abclive.malisresidences.com:1935/hmbox/_definst_/smil:hmbox.smil/chunklis
 http://43.252.18.195:5080/live/streams/cnctv.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CTN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/CTN_2003.png/revision/latest?cb=20191209085803" group-title="Truyền hình chích điện siêu phê",CTN 
 http://43.252.18.195:5080/live/streams/ctntv.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="iTVHD.kh",iTV HD
-http://43.252.18.195:5080/live/streams/itv.khmeretv.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="KomsanTV.kh",Komsan TV [Not 24/7]
-http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="MSJTV.kh",MSJ TV
+#EXTINF:-1 tvg-logo="https://happywatch99.com/assets/global/live_thumb/1398.jpg" group-title="Truyền hình chích điện siêu phê",PP Digital TV
+http://live.happywatch99.com/livehd3/f9527f8b5631c605187be673ce3f2f75.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://i.imgur.com/TilslGU.png" tvg-id="MSJTV.kh",MSJ TV
 http://124.248.165.18:1935/live/myStream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="",Netlink TV
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://netlinkbroadcaster.com/_next/image?url=%2FNetlinkTV.png&w=256&q=75" tvg-id="",Netlink TV
 https://netlink.netlinkbroadcaster.com/hls/test.m3u8
-#EXTINF:-1" group-title="Truyền hình chích điện siêu phê" tvg-id="NTV.kh",NTV
-http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
+#EXTINF:-51 tvg-id="ABCTV.kh" tvg-logo="https://i.imgur.com/i89XaeY.png" group-title="Truyền hình chích điện siêu phê", ABC Cambodia
+http://217.15.167.95:5080/live/streams/live_2.m3u8
 #EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="PNN.kh",PNN (720p)
 https://live.kh.malimarcdn.com/live/pnntvhd.stream/playlist.m3u8
-#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="SEATV.kh",SEATV
+#EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-logo="https://i.imgur.com/oZPorvg.png" tvg-id="SEATV.kh",SEATV
 https://seatv.netlinkbroadcaster.com/hls/test.m3u8
 #EXTINF:-1 group-title="Truyền hình chích điện siêu phê" tvg-id="TownTV.kh",Town TV
 https://live-evg13.tv360.metfone.com.kh/live/towntv.m3u8
