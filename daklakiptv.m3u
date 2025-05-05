@@ -1,8 +1,8 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml.gz"
 #EXTM3U url-tvg="http://cvtv.xyz/xmltv"
-#EXTM3U url-tvg="https://iptvx.one/EPG" deinterlace=0
-#EXTM3U url-tvg="https://github.com/iptv-pro/iptv-pro.github.io/tree/main/epg" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
-#EXTM3U url-tvg="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
+#EXTM3U url-tvg="https://iptvx.one/EPG"interlace=0
+#EXTM3U url-tvg="https://github.com/iptv-pro/iptv-pro.github.io/tree/main/epg" cache=500interlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500interlace=1 aspect-ratio=16:9 m3uautoload=3
 #EXTM3U url-tvg="https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600" 
 
 #EXTINF:-1 group-title="VTV" tvg-id="vtv1t2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/VTV1_logo_2013_final.svg/1200px-VTV1_logo_2013_final.svg.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=210&time=${start}&offset=${duration}",VTV1
@@ -68,7 +68,8 @@ https://xem.TruyenHinh.Click/CoBan/vtvcab12hd/TuyetDoiKhongKinhDoanh.m3u8
 https://xem.TruyenHinh.Click/CoBan/vtvcab15hd/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="VTVcab" tvg-logo="https://imgvlive.vtvcab.vn/720X405/5145995d-794d-4329-a44b-d8caffdceb40.jpg?auto=format&fit=max&w=640" catchup="append" catchup-days="2" codec="system", ON Football HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://xem.TruyenHinh.Click/CoBan2/vtvcab-16-hd/TuyetDoiKhongKinhDoanh.m3u8
+#EXTVLCOPT: http-referrer=https://truyenhinh.click/
+https://xem.TruyenHinh.Click/BoSung/vtvcab16hd/TruyenHinh.Click
 #EXTINF:0 tvg-id="vtvcab17hd" type="stream" group-title="VTVcab" tvg-logo="https://i.ibb.co/k1ccQNr/vcab17.webp", ON TRENDING TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://xem.TruyenHinh.Click/CoBan/vtvcab17hd/TuyetDoiKhongKinhDoanh.m3u8
@@ -519,7 +520,7 @@ https://i.mjh.nz/.r/bloomberg-tv.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/1200px-CNBC_logo.svg.png", CNBC
-https://smart.pendy.dpdns.org/Smart.php?id=cnbc_twn
+http://p1.cvtv.xyz:81/cnbc?token=live
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 http://p1.cvtv.xyz:81/skn?token=live
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
@@ -810,62 +811,83 @@ https://windnew.newkso.ru/wind/premium354/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://zekonew.newkso.ru/zeko/premium355/mono.m3u8
 
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/abc-nsw.png" tvg-id="a816a89323cc4bd970a5b6ad24f28ab5",ABC TV
-http://1.156.19.136:9981/stream/channelid/329782952?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs.png" tvg-id="03518a97a84bc89e8371e2f729d213a2",SBS
-http://1.156.19.136:9981/stream/channelid/394940675?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/seven-syd.png" tvg-id="7e6932bd55a596dd392cec36922dd886",Seven
-http://1.156.19.136:9981/stream/channelid/1026713982?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" tvg-id="92905349d818d4b8068a7766075a4385",Channel 9
-http://1.156.19.136:9981/stream/channelid/1230213266?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10-nsw.png" tvg-id="d726215aad4d6a41bfda379517ca944d",10
-http://1.156.19.136:9981/stream/channelid/1512122071?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10peach-nsw.png" tvg-id="58a6b2493bf6f7d93e23dfc115091bbd",10 Peach
-http://1.156.19.136:9981/stream/channelid/1236444760?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10bold-nsw.png" tvg-id="a1f0768588c67ef4fe3ac4e0bd162d30",10 BOLD
-http://1.156.19.136:9981/stream/channelid/91680929?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/10-nickelodeon.png" tvg-id="dfdf508f5517ce659fca969d90e8d05c",Nickelodeon
-http://1.156.19.136:9981/stream/channelid/256958431?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/tvsn-shopping.png" tvg-id="73ec0577c943007bdee45a707472104d",TVSN Shopping
-http://1.156.19.136:9981/stream/channelid/1996876915?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/gecko.png" tvg-id="7dadd9a1e62c4994b1fcea5ed18eb4c8",gecko
-http://1.156.19.136:9981/stream/channelid/567913853?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://cdn.iview.abc.net.au/thumbs/256/7_Family_C-1053_iview_LivestreamOff_2000x2000_new.png" tvg-id="fb13b6c9345bc83bf7dd1ac5360e8a9e",ABC Family
-http://1.156.19.136:9981/stream/channelid/1236669435?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/abc-kids.png" tvg-id="1a98fd381c844888643531203371c7ee",ABC Kids
-http://1.156.19.136:9981/stream/channelid/956143642?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://cdn.iview.abc.net.au/thumbs/256/6_Entertains_C-1054_iview_LivestreamOn_2000x2000_new.png" tvg-id="82dbfc23a23c2c33ab98f77804bfb3d7",ABC Entertains
-http://1.156.19.136:9981/stream/channelid/603773826?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/abc-news.png" tvg-id="087b6f8e29de7f69dc29060a0baa87eb",ABC NEWS
-http://1.156.19.136:9981/stream/channelid/242187016?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-viceland.png" tvg-id="6910b12cfbe618f413a9c4c265386a30",SBS VICELAND
-http://1.156.19.136:9981/stream/channelid/749801577?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-world-movies.png" tvg-id="482d855d90a2a0bfc5bde059649c3798",SBS World Movies
-http://1.156.19.136:9981/stream/channelid/1569008968?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-food.png" tvg-id="9600dbac609aa3f9175afc6e1c124a7e",SBS Food
-http://1.156.19.136:9981/stream/channelid/752550038?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-nitv.png" tvg-id="4a0330db1d0dbc2beff4f13040be726c",NITV
-http://1.156.19.136:9981/stream/channelid/1529873226?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/sbs-world-watch.png" tvg-id="70f5df82d5b23096e94b43446bdd4a66",SBS World Watch
-http://1.156.19.136:9981/stream/channelid/48231792?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7two-syd.png" tvg-id="f7545bc5739e5b5921786f1c3af23205",7two
-http://1.156.19.136:9981/stream/channelid/1163613431?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7mate-syd.png" tvg-id="f19a3c53a2cbbd898f541867dc6fe8f5",7mate
-http://1.156.19.136:9981/stream/channelid/1396480753?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7bravo-FAST.png" tvg-id="e9aa29b184820ff49d9154c66ba5fa87",7Bravo
-http://1.156.19.136:9981/stream/channelid/824814313?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/7flix-syd.png" tvg-id="4a38a524439aff9cf5cab0af3a5c2411",7flix
-http://1.156.19.136:9981/stream/channelid/614807626?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://i.mjh.nz/.images/racing-FAST.png" tvg-id="0cdeeb1a6626ea47a512f15b66698f01",Racing.com
-http://1.156.19.136:9981/stream/channelid/451665420?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/d00389KKc5T4o5isRaDE9Pl9DWk=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F620929%2F9gem-1.png" tvg-id="0ae2728d4559bd4996a413df761cc8f3",9Gem
-http://1.156.19.136:9981/stream/channelid/225632778?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/fcTwzkAJT4q81emfp2kYkgoxlDA=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574470%2F9go.png" tvg-id="fc5726fef8a872648d0fde056512c1f3",9Go!
-http://1.156.19.136:9981/stream/channelid/2116442108?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/wMK3kBDybfEoN2iqyDDflC91D1U=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574472%2F9life.png" tvg-id="34e8657a374825f67499bf78412dac27",9Life
-http://1.156.19.136:9981/stream/channelid/2053498932?profile=pass
-#EXTINF:-1 group-title="ÚC CHÂU" tvg-logo="https://imageresizer.static9.net.au/5B2ZDlD8Ji6dCecGQEfwy2U2m4Y=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574473%2F9rush.png" tvg-id="997385f1f238633f6ade83c55614b2d1",9Rush
-http://1.156.19.136:9981/stream/channelid/1904571289?profile=pass
+#EXTINF:-1 group-title="ĐỨC tvg-id="ard" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Das_Erste-Logo_klein.svg/1200px-Das_Erste-Logo_klein.svg.png",Das Erste
+http://p1.cvtv.xyz:81/ard?token=live
+#EXTINF:-1 group-title="ĐỨC tvg-id="zdf" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1200px-ZDF_logo.svg.png",ZDF
+http://p1.cvtv.xyz:81/zdf?token=live
+#EXTINF:-1 group-title="ĐỨC tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTg56Kqn1XUaTDo8AYwkPKtzgfkTcZwkB9Xw&s",Phoenix
+https://s4.hopslan.com/phoenixX/index.m3u8
+#EXTINF:-1 tvg-id="RTL.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtl-de.png" group-title="ĐỨC,RTL
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium740/mono.m3u8
+#EXTINF:-1 tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/3sat.png" group-title="ĐỨC,3sat
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium726/mono.m3u8
+#EXTINF:-1 tvg-id="ARTE.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/arte.png" group-title="ĐỨC,Arte
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium725/mono.m3u8
+#EXTINF:-1 tvg-id="HR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/hr-fernsehen.png" group-title="ĐỨC,HR Fernsehen
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium740/mono.m3u8
+#EXTINF:-1 tvg-id="MDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/mdr-de.png" group-title="ĐỨC,MDR
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium733/mono.m3u8
+#EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/ndr-de.png" group-title="ĐỨC,NDR
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium736/mono.m3u8
+#EXTINF:-1 tvg-id="ProSieben.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/prosieben.png" group-title="ĐỨC,ProSieben (PRO7)
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium730/mono.m3u8
+#EXTINF:-1 tvg-id="SAT.1.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sat.1-de.png" group-title="ĐỨC,SAT.1
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium729/mono.m3u8
+#EXTINF:-1 tvg-id="SRFernsehen(src01).de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sr-fernsehen-de.png" group-title="ĐỨC,SR Fernsehen
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium739/mono.m3u8
+#EXTINF:-1 tvg-id="SUPER.RTL.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/super-rtl-de.png" group-title="ĐỨC,SUPER RTL
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium738/mono.m3u8
+#EXTINF:-1 tvg-id="SWR/SR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/swr-de.png" group-title="ĐỨC,SWR
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium735/mono.m3u8
+#EXTINF:-1 tvg-id="sixx.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sixx-de.png" group-title="ĐỨC,Sixx
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium732/mono.m3u8
+#EXTINF:-1 tvg-id="WDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/wdr-de.png" group-title="ĐỨC,WDR
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium734/mono.m3u8
+#EXTINF:-1 tvg-id="ZDFinfo.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/zdf-info-de.png" group-title="ĐỨC,ZDF Info
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium728/mono.m3u8
+
 
 #EXTINF:-1 tvg-id="TVP.1.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp1-poland.png" group-title="Ba Lan",TVP1 Poland
 #EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
