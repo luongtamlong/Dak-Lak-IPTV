@@ -1479,14 +1479,18 @@ https://rthkradio3-live.akamaized.net/hls/live/2040079/radio3/master.m3u8
 https://rthkradio4-live.akamaized.net/hls/live/2040080/radio4/master.m3u8
 #EXTINF:-1  tvg-name="RTHK5" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ" radio=true,RTHK Radio 5
 https://rthkradio5-live.akamaized.net/hls/live/2040081/radio5/master.m3u8
-#EXTINF:-1  tvg-name="RTHK普通话" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ" radio=true,RTHK Putonghua
+#EXTINF:-1  tvg-name="RTHK5" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ" radio=true,RTHK Radio Putonghua
 https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/index_56_a-p.m3u8
+#EXTINF:-1  tvg-name="RTHK普通话" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ" radio=true,CRHK TEST
+#EXTVLCOPT:http-referrer=https://www.881903.com/
+#EXTVLCOPT:http-origin=https://www.881903.com
+https://live.881903.com/edge-aac/881hd/playlist.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/092/xin-cheng-cai-jing-tai-metro-finance-fm104.68ee386d.jpg" group-title="QUỐC TẾ" radio=true ,Metro Finance
 https://1864288729.rsc.cdn77.org/1864288729/tracks-a1/mono.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/091/xin-cheng-zhi-xun-tai-metroinfo-fm997.91baf2b7.png" group-title="QUỐC TẾ" radio=true ,Metro Info
 https://1849807346.rsc.cdn77.org/1849807346/tracks-a1/mono.ts.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/090/metro-plus-am-1044.7601dbed.png" group-title="QUỐC TẾ" radio=true ,Metro Plus
-	https://1942934317.rsc.cdn77.org/1942934317/tracks-a1/mono.ts.m3u8
+https://1942934317.rsc.cdn77.org/1942934317/tracks-a1/mono.ts.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="DRHK" tvg-logo="https://cdn-radiotime-logos.tunein.com/s120798g.png" group-title="QUỐC TẾ" radio=true ,Apple FM
 http://sc.apple-fm.net:8188/;
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="DRHK" tvg-logo="https://cdn-radiotime-logos.tunein.com/s189322d.png" group-title="QUỐC TẾ" radio=true ,Digital Radio Hong Kong
