@@ -641,21 +641,30 @@ http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 #EXTINF:-1 group-title="HOA KỲ" tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/abc-7-wabc-us.png" tvg-name="ABC (WABC)",ABC
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
 #EXTINF:-1 group-title="HOA KỲ" tvg-id="WSBK.(TV-38).Boston.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS",CBS
-http://fl2.moveonjoy.com/CBSEAST/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvpass.org/
+#EXTVLCOPT:http-origin=https://tvpass.org
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://tvpass.org/live/WCBSDT1/hd/
 #EXTINF:-1 group-title="HOA KỲ" tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-flat-us.png?raw=true" tvg-name="NBC",NBC
-http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvpass.org/
+#EXTVLCOPT:http-origin=https://tvpass.org
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://tvpass.org/live/WNBCDT1/hd/
 #EXTINF:-1 group-title="HOA KỲ" tvg-id="CNBC.USA.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10139_dark_360w_270h.png" tvg-name="CNBC FHD",CNBC
 #EXTVLCOPT:http-referrer=https://topembed.pw/
 #EXTVLCOPT:http-origin=https://topembed.pw
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://wikinew.newkso.ru/wiki/ustvcnbc/mono.m3u8
 #EXTINF:-1 tvg-id="msnbc.HDTV.(msnbcH).us" tvg-name="MSNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/msnbc-alt-us.png" group-title="HOA KỲ" ,MSNBC
-#EXTVLCOPT:http-referrer=https://topembed.pw/
-#EXTVLCOPT:http-origin=https://topembed.pw
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://wikinew.newkso.ru/wiki/ustvmsnbc/mono.m3u8
+#EXTVLCOPT:http-referrer=https://tvpass.org/
+#EXTVLCOPT:http-origin=https://tvpass.org
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://tvpass.org/live/CNBC/hd/
 #EXTINF:-1 group-title="HOA KỲ" tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/fox-5-wnyw-us.png" tvg-name="FOX (WNYW)",FOX
-http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvpass.org/
+#EXTVLCOPT:http-origin=https://tvpass.org
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://tvpass.org/live/WNYWDT1/hd/
 #EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" group-title="HOA KỲ" ,CNN
 #EXTVLCOPT:http-referrer=https://tvpass.org/
 #EXTVLCOPT:http-origin=https://tvpass.org
@@ -691,54 +700,54 @@ https://tvpass.org/live/VH1East/hd/
 https://tvpass.org/live/VICETV/hd/
 
 #EXTINF:-1 tvg-id="CTV2.Toronto,.ON.ca" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/ctv-2.png" group-title="CANADA",CTV 2 Canada
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium838/mono.m3u8
 #EXTINF:-1 tvg-id="CTV.(CFCN).Calgary,.AB.ca" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/ctv-ca.png" group-title="CANADA",CTV Canada
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://zekonew.newkso.ru/zeko/premium602/mono.m3u8
 #EXTINF:-1 tvg-id="Global.BC.ca" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/global-ca.png" group-title="CANADA",Global CA
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium836/mono.m3u8
 
 #EXTINF:-1 tvg-id="RTP.1.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtp-1-portugal.png" group-title="Bồ Đào Nha",RTP 1 Portugal
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium719/mono.m3u8
 #EXTINF:-1 tvg-id="RTP.2.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtp-2-portugal.png" group-title="Bồ Đào Nha",RTP 2 Portugal
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium720/mono.m3u8
 #EXTINF:-1 tvg-id="RTP.3.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtp-3-portugal.png" group-title="Bồ Đào Nha",RTP 3 Portugal
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium721/mono.m3u8
 #EXTINF:-1 tvg-id="Canal.11.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/porto-canal-portugal.png" group-title="Bồ Đào Nha",Canal 11 Portugal
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium540/mono.m3u8
 #EXTINF:-1 tvg-id="SIC.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sic-portugal.png" group-title="Bồ Đào Nha",SIC Portugal
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium722/mono.m3u8
 #EXTINF:-1 tvg-id="TVI.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvi-portugal.png" group-title="Bồ Đào Nha",TVI Portugal
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium723/mono.m3u8
 #EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvi-reality-portugal.png" group-title="Bồ Đào Nha",TVI Reality Portugal
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium724/mono.m3u8
 
@@ -749,13 +758,13 @@ http://p1.cvtv.xyz:81/bbc1?token=live
 #EXTINF:-1 group-title="ANH QUỐC" tvg-id="BBCTwoHD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/1200px-BBC_Two_logo_2021.svg.png",BBC Two
 http://p1.cvtv.xyz:81/bbc2?token=live
 #EXTINF:-1 tvg-id="BBC.Three.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bbc-three.png" group-title="ANH QUỐC",BBC Three
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium358/mono.m3u8
 #EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bbc-four.png" group-title="ANH QUỐC",BBC Four
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium359/mono.m3u8
 #EXTINF:-1 group-title="ANH QUỐC" tvg-id="BBCRedButton1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/1200px-BBC_Red_Button_2021.svg.png",BBC RB 1
@@ -763,25 +772,25 @@ http://p1.cvtv.xyz:81/bbcrb?token=live
 #EXTINF:-1 group-title="ANH QUỐC" tvg-id="ITV1London.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1200px-ITV1_logo_%282022%29.svg.png",ITV1
 http://p1.cvtv.xyz/itv1?token=live
 #EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/itv-2-uk.png" group-title="ANH QUỐC",ITV2
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://zekonew.newkso.ru/zeko/premium351/mono.m3u8
 #EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/itv-3-uk.png" group-title="ANH QUỐC",ITV3
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://zekonew.newkso.ru/zeko/premium352/mono.m3u8
 #EXTINF:-1 group-title="ANH QUỐC" tvg-id="ITV4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1200px-ITV4_logo_%282022%29.svg.png",ITV4
 http://p1.cvtv.xyz/itv4?token=live
 #EXTINF:-1 tvg-id="Channel4.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/channel-4-uk.png" group-title="ANH QUỐC",Channel 4
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium354/mono.m3u8
 #EXTINF:-1 tvg-id="Channel.5.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/channel-5-uk.png" group-title="ANH QUỐC",Channel 5
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://zekonew.newkso.ru/zeko/premium355/mono.m3u8
 
@@ -792,160 +801,160 @@ http://p1.cvtv.xyz:81/zdf?token=live
 #EXTINF:-1 group-title="ĐỨC tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTg56Kqn1XUaTDo8AYwkPKtzgfkTcZwkB9Xw&s",Phoenix
 https://s4.hopslan.com/phoenixX/index.m3u8
 #EXTINF:-1 tvg-id="RTL.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtl-de.png" group-title="ĐỨC,RTL
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium740/mono.m3u8
 #EXTINF:-1 tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/3sat.png" group-title="ĐỨC,3sat
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium726/mono.m3u8
 #EXTINF:-1 tvg-id="ARTE.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/arte.png" group-title="ĐỨC,Arte
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium725/mono.m3u8
 #EXTINF:-1 tvg-id="HR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/hr-fernsehen.png" group-title="ĐỨC,HR Fernsehen
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium740/mono.m3u8
 #EXTINF:-1 tvg-id="MDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/mdr-de.png" group-title="ĐỨC,MDR
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium733/mono.m3u8
 #EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/ndr-de.png" group-title="ĐỨC,NDR
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium736/mono.m3u8
 #EXTINF:-1 tvg-id="ProSieben.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/prosieben.png" group-title="ĐỨC,ProSieben (PRO7)
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium730/mono.m3u8
 #EXTINF:-1 tvg-id="SAT.1.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sat.1-de.png" group-title="ĐỨC,SAT.1
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium729/mono.m3u8
 #EXTINF:-1 tvg-id="SRFernsehen(src01).de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sr-fernsehen-de.png" group-title="ĐỨC,SR Fernsehen
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium739/mono.m3u8
 #EXTINF:-1 tvg-id="SUPER.RTL.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/super-rtl-de.png" group-title="ĐỨC,SUPER RTL
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium738/mono.m3u8
 #EXTINF:-1 tvg-id="SWR/SR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/swr-de.png" group-title="ĐỨC,SWR
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium735/mono.m3u8
 #EXTINF:-1 tvg-id="sixx.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sixx-de.png" group-title="ĐỨC,Sixx
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium732/mono.m3u8
 #EXTINF:-1 tvg-id="WDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/wdr-de.png" group-title="ĐỨC,WDR
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium734/mono.m3u8
 #EXTINF:-1 tvg-id="ZDFinfo.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/zdf-info-de.png" group-title="ĐỨC,ZDF Info
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium728/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="TVP.1.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp1-poland.png" group-title="Ba Lan",TVP1 Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium560/mono.m3u8
 #EXTINF:-1 tvg-id="TVP.2.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp2-poland.png" group-title="Ba Lan",TVP2 Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium561/mono.m3u8
 #EXTINF:-1 tvg-id="TVP.Info.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp-info-poland.png" group-title="Ba Lan",TVP INFO
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium452/mono.m3u8
 #EXTINF:-1 tvg-id="TVP.Sport.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp-sport-poland.png" group-title="Ba Lan",TVP Sport Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
 #EXTINF:-1 tvg-id="TVN.HD.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvn-hd-poland.png" group-title="Ba Lan",TVN HD Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium565/mono.m3u8
 #EXTINF:-1 tvg-id="TVN.24.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvn24-poland.png" group-title="Ba Lan",TVN24 Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium444/mono.m3u8
 #EXTINF:-1 tvg-id="CANAL+.Family.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canalplusfamily.png" group-title="Ba Lan",Canal+ Family Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium567/mono.m3u8
 #EXTINF:-1 tvg-id="CANAL+.PREMIUM.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-premium.png" group-title="Ba Lan",Canal+ Premium Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium566/mono.m3u8
 #EXTINF:-1 tvg-id="CANAL+.Seriale.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-seriale.png" group-title="Ba Lan",Canal+ Seriale Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium570/mono.m3u8
 #EXTINF:-1 tvg-id="CANAL+.Sport.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-sport-poland.png" group-title="Ba Lan",Canal+ Sport Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium48/mono.m3u8
 #EXTINF:-1 tvg-id="CANAL+.Sport.2.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-sport-2-poland.png" group-title="Ba Lan",Canal+ Sport 2 Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium73/mono.m3u8
 #EXTINF:-1 tvg-id="Polsat.Film.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-film-poland.png" group-title="Ba Lan",Polsat Film Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium564/mono.m3u8
 #EXTINF:-1 tvg-id="Polsat.News.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-news-poland.png" group-title="Ba Lan",Polsat News Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium443/mono.m3u8
 #EXTINF:-1 tvg-id="Polsat.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-poland.png" group-title="Ba Lan",Polsat Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium562/mono.m3u8
 #EXTINF:-1 tvg-id="Polsat.Sport.Extra.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-sport-extra-poland.png" group-title="Ba Lan",Polsat Sport Extra Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium50/mono.m3u8
 #EXTINF:-1 tvg-id="Polsat.Sport.News.HD.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-sport-news-poland.png" group-title="Ba Lan",Polsat Sport News Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium129/mono.m3u8
 #EXTINF:-1 tvg-id="Polsat.Sport.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-sport-poland.png" group-title="Ba Lan",Polsat Sport Poland
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium47/mono.m3u8
 
@@ -1945,6 +1954,8 @@ http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 https://smart.pendy.dpdns.org/Smart.php?id=hoycaijing_twn
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv-pro.github.io/logo/feicui.png" group-title="Hong Kong và Macao",TVB Jade
 http://110.235.82.60:8000/bysid/1
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv-pro.github.io/logo/feicui.png" group-title="Hong Kong và Macao",TVB Jade 4K
+http://o12.1678520.xyz/hls/fct4k/playlist.m3u8
 #EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="Hong Kong và Macao",TVB Plus
 http://110.235.82.60:8001/bysid/82
 #EXTINF:-1 tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://assets.livednow.com/logo/無線新聞台.png" group-title="Hong Kong và Macao",TVB News
