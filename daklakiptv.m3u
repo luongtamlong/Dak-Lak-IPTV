@@ -496,7 +496,10 @@ https://i.mjh.nz/.r/bbc-news.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/1200px-CNBC_logo.svg.png", CNBC
 http://p1.cvtv.xyz:81/cnbc?token=live
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
-http://p1.cvtv.xyz:81/skn?token=live
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0045028c984fbbefcdae89b4338c4729:b08f10f5089048d11adb741080e00141
+https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(skynews)/master.mpd?audio=all&subtitle=all&forcedNarrative=true
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
 http://p1.cvtv.xyz:81/cnn?token=live
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN Max
@@ -536,10 +539,8 @@ https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/chunklist_w1864667901.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/200px-Rai_Italia_-_Logo_2017.svg.png" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
 http://49.0.64.96:8007/RAI_Asia
 #EXTINF:-1 group-title="Quốc tế" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTVLCOPT:http-user-agent=IE
+http://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/150px-Logo_TVE-Internacional.svg.png", TVE Internacional
 https://rtvelivestream.akamaized.net/rtvesec/int/tvei_asia_main.m3u8
 #EXTINF:-1 tvg-id="1plus1-int" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1_plus_1_International_logo.svg/400px-1_plus_1_International_logo.svg.png", 1+1 International
@@ -684,58 +685,6 @@ https://tvpass.org/live/VH1East/hd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://tvpass.org/live/VICETV/hd/
 
-#EXTINF:-1 tvg-id="CTV2.Toronto,.ON.ca" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/ctv-2.png" group-title="CANADA",CTV 2 Canada
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium838/mono.m3u8
-#EXTINF:-1 tvg-id="CTV.(CFCN).Calgary,.AB.ca" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/ctv-ca.png" group-title="CANADA",CTV Canada
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.newkso.ru/zeko/premium602/mono.m3u8
-#EXTINF:-1 tvg-id="Global.BC.ca" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/global-ca.png" group-title="CANADA",Global CA
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium836/mono.m3u8
-
-#EXTINF:-1 tvg-id="RTP.1.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtp-1-portugal.png" group-title="Bồ Đào Nha",RTP 1 Portugal
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium719/mono.m3u8
-#EXTINF:-1 tvg-id="RTP.2.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtp-2-portugal.png" group-title="Bồ Đào Nha",RTP 2 Portugal
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium720/mono.m3u8
-#EXTINF:-1 tvg-id="RTP.3.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtp-3-portugal.png" group-title="Bồ Đào Nha",RTP 3 Portugal
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium721/mono.m3u8
-#EXTINF:-1 tvg-id="Canal.11.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/porto-canal-portugal.png" group-title="Bồ Đào Nha",Canal 11 Portugal
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium540/mono.m3u8
-#EXTINF:-1 tvg-id="SIC.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sic-portugal.png" group-title="Bồ Đào Nha",SIC Portugal
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium722/mono.m3u8
-#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvi-portugal.png" group-title="Bồ Đào Nha",TVI Portugal
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium723/mono.m3u8
-#EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvi-reality-portugal.png" group-title="Bồ Đào Nha",TVI Reality Portugal
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium724/mono.m3u8
-
 #EXTINF:-1 group-title="ANH QUỐC"  tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1200px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png",BBC News
 http://p1.cvtv.xyz:81/bbcn?token=live
 #EXTINF:-1 group-title="ANH QUỐC" tvg-id="BBCOneLondonHD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/1200px-BBC_One_logo_2021.svg.png",BBC One
@@ -860,93 +809,6 @@ https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZ
 #EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MjgvbW9uby5tM3U4
-
-
-#EXTINF:-1 tvg-id="TVP.1.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp1-poland.png" group-title="Ba Lan",TVP1 Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium560/mono.m3u8
-#EXTINF:-1 tvg-id="TVP.2.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp2-poland.png" group-title="Ba Lan",TVP2 Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium561/mono.m3u8
-#EXTINF:-1 tvg-id="TVP.Info.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp-info-poland.png" group-title="Ba Lan",TVP INFO
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium452/mono.m3u8
-#EXTINF:-1 tvg-id="TVP.Sport.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvp-sport-poland.png" group-title="Ba Lan",TVP Sport Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
-#EXTINF:-1 tvg-id="TVN.HD.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvn-hd-poland.png" group-title="Ba Lan",TVN HD Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium565/mono.m3u8
-#EXTINF:-1 tvg-id="TVN.24.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/tvn24-poland.png" group-title="Ba Lan",TVN24 Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium444/mono.m3u8
-#EXTINF:-1 tvg-id="CANAL+.Family.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canalplusfamily.png" group-title="Ba Lan",Canal+ Family Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium567/mono.m3u8
-#EXTINF:-1 tvg-id="CANAL+.PREMIUM.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-premium.png" group-title="Ba Lan",Canal+ Premium Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium566/mono.m3u8
-#EXTINF:-1 tvg-id="CANAL+.Seriale.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-seriale.png" group-title="Ba Lan",Canal+ Seriale Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium570/mono.m3u8
-#EXTINF:-1 tvg-id="CANAL+.Sport.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-sport-poland.png" group-title="Ba Lan",Canal+ Sport Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium48/mono.m3u8
-#EXTINF:-1 tvg-id="CANAL+.Sport.2.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/canal-plus-sport-2-poland.png" group-title="Ba Lan",Canal+ Sport 2 Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium73/mono.m3u8
-#EXTINF:-1 tvg-id="Polsat.Film.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-film-poland.png" group-title="Ba Lan",Polsat Film Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium564/mono.m3u8
-#EXTINF:-1 tvg-id="Polsat.News.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-news-poland.png" group-title="Ba Lan",Polsat News Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium443/mono.m3u8
-#EXTINF:-1 tvg-id="Polsat.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-poland.png" group-title="Ba Lan",Polsat Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium562/mono.m3u8
-#EXTINF:-1 tvg-id="Polsat.Sport.Extra.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-sport-extra-poland.png" group-title="Ba Lan",Polsat Sport Extra Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium50/mono.m3u8
-#EXTINF:-1 tvg-id="Polsat.Sport.News.HD.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-sport-news-poland.png" group-title="Ba Lan",Polsat Sport News Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium129/mono.m3u8
-#EXTINF:-1 tvg-id="Polsat.Sport.pl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/polsat-sport-poland.png" group-title="Ba Lan",Polsat Sport Poland
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium47/mono.m3u8
 
 #EXTINF:-1 group-title="HÓNG TIN CHIẾN SỰ" tvg-id="i24NEWSArabic.il",I24 News Arabic 
 https://bcovlive-a.akamaihd.net/95116e8d79524d87bf3ac20ba04241e3/eu-central-1/5377161796001/playlist.m3u8
@@ -1855,21 +1717,19 @@ http://185.236.229.62:9981/play/a08i
 http://185.236.229.62:9981/play/a08j
 
 #EXTINF:-1 tvg-id="cctv1" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv1/TichHop-TrungQuoc",CCTV-1 toàn diện
-http://110.53.52.63:8888/newlive/live/hls/2/live.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CCTV-1综合" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png",CCTV-1 Hong Kong
-http://tv.cdn5.rr.nu/live/cctv1/stream.m3u8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv1/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv2" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv2/TichHop-TrungQuoc",Tài chính CCTV-2
-http://110.53.52.63:8888/newlive/live/hls/3/live.m3u8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv2/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv3" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv3/TichHop-TrungQuoc",Triển lãm giống CCTV-3
-http://110.53.52.63:8888/newlive/live/hls/4/live.m3u8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv3/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv4" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv4/TichHop-TrungQuoc",CCTV-4 Trung Quốc quốc tế
-http://110.53.52.63:8888/newlive/live/hls/5/live.m3u8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv4/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv5" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv5/TichHop-TrungQuoc",CCTV-5 Thể thao
-http://110.53.52.63:8888/newlive/live/hls/6/live.m3u8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv5/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv5plus" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv5plus/TichHop-TrungQuoc",CCTV-5+ Các sự kiện thể thao
-http://110.53.52.63:8888/newlive/live/hls/7/live.m3u8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv5plus/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv6" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv6/TichHop-TrungQuoc",Phim quan sát-6
-http://110.53.52.63:8888/newlive/live/hls/8/live.m3u8
+https://xem.TruyenHinh.Click/TrungQuoc/cctv6/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv7" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv7/TichHop-TrungQuoc",CCTV-7 Quân đội Quốc phòng
 https://xem.TruyenHinh.Click/TrungQuoc/cctv7/TruyenHinh.Click
 #EXTINF:-1 tvg-id="cctv8" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/cctv8/TichHop-TrungQuoc",Bộ phim truyền hình CCTV-8
@@ -1976,26 +1836,6 @@ https://xem.TruyenHinh.Click/TrungQuoc/yanbian/TruyenHinh.Click
 https://xem.TruyenHinh.Click/TrungQuoc/yunnan/TruyenHinh.Click
 #EXTINF:-1 tvg-id="zhejiang" group-title="Trung Quốc" group-logo="https://xem.truyenhinh.click/HoiQuanLogo/Images/HinhNhom.png" tvg-logo="https://xem.truyenhinh.click/Logo/zhejiang/TichHop-TrungQuoc",Truyền hình vệ tinh Chiết Giang
 https://xem.TruyenHinh.Click/TrungQuoc/zhejiang/TruyenHinh.Click
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png",CGTN纪录
-https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTNDoc.png",CGTN纪录
-https://livedoc.cgtn.com/200d/prog_index.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png",CGTN俄语
-http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png",CGTN法语
-https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png",CGTN法语
-https://livefr.cgtn.com/200f/prog_index.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png",CGTN西语
-https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png",CGTN西语
-https://livees.cgtn.com/200e/prog_index.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png",CGTN阿语
-https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
-#EXTINF:-1 group-title="Trung Quốc" tvg-id="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png",CGTN阿语
-https://livear.cgtn.com/200a/prog_index.m3u8
-
-
 
 #EXTINF:-1 tvg-id="31" tvg-name="港台電視 31" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/RTHK_TV_31A.svg/revision/latest?cb=20210325175806" group-title="Hong Kong và Macao", RTHK 31
 http://php.jdshipin.com/TVOD/iptv.php?id=rthk31
@@ -2013,8 +1853,6 @@ http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 https://smart.pendy.dpdns.org/Smart.php?id=hoycaijing_twn
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv-pro.github.io/logo/feicui.png" group-title="Hong Kong và Macao",TVB Jade
 http://110.235.82.60:8000/bysid/1
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv-pro.github.io/logo/feicui.png" group-title="Hong Kong và Macao",TVB Jade 4K
-http://o12.1678520.xyz/hls/fct4k/playlist.m3u8
 #EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="Hong Kong và Macao",TVB Plus
 http://110.235.82.60:8001/bysid/82
 #EXTINF:-1 tvg-id="無線新聞台" tvg-name="無線新聞台" tvg-logo="https://assets.livednow.com/logo/無線新聞台.png" group-title="Hong Kong và Macao",TVB News
@@ -2146,227 +1984,6 @@ http://luong.utako.moe/spaceshower/index.m3u8
 http://luong.utako.moe/tbsch1/index.m3u8
 #EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="tbs_ch2" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tbs-channel-2-jp.png",TBS Channel 2
 http://luong.utako.moe/tbsch2/index.m3u8
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="abema-anime" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/abema-anime/logo.png", ABEMA アニメチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"1utzVTioTXWScO9c/tlUBA==","kid":"OQaxENkVRBmFDQIYAr2DVw=="},{"kty":"oct","k":"8Nu54yV8SQWS+sOAc996+A==","kid":"ysul4KkGQOOgvcso4wXzbw=="},{"kty":"oct","k":"9dphz3XaRrCDOB0RH0r9Yw==","kid":"s7DVCMndSxqXZXXjLjGAgw=="},{"kty":"oct","k":"6VyGLcm8Rl2wYopDRiGZCQ==","kid":"qtVMUyY+QLO3RoQy8eP5Pg=="},{"kty":"oct","k":"bq8iOYFaSMulcHSeuub6ow==","kid":"t2hpMhZhTk+Mz68jZfABqg=="},{"kty":"oct","k":"jfjw5AobSeGRPQrqi/XaAg==","kid":"s4wqCSNgQQuTv/xoSsYy9Q=="},{"kty":"oct","k":"G7aqxy64SSukG2S9jBOUZw==","kid":"qc0L+ZRcQia78pgi3Vmrrg=="},{"kty":"oct","k":"xKn+epO7RTqBqAUIFmbZtg==","kid":"gr4CxqiOQ4+i859QJPm1jA=="},{"kty":"oct","k":"swy+x8OaQxSfVEx8kWaCEA==","kid":"h5Dnaz1DQbKuEsvC1K7MGQ=="},{"kty":"oct","k":"72bTolHQRn6KVGt/xOhPKg==","kid":"GEJvjzZdS8Cj6X8fFQawcA=="},{"kty":"oct","k":"63t+hkKeTx+MddpJZahNSw==","kid":"/vtnZLxZS36vi6ZR/82f6Q=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/abema-anime/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="abema-anime-2" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/abema-anime-2/logo.png", ABEMA アニメチャンネル2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"igC3ZmBqQHG0Y85TWCzRkw==","kid":"ahA7PYjvSvieyrJkmmfbGw=="},{"kty":"oct","k":"c57s6doWToOXU+JYdSXZfw==","kid":"N+vHj4bXR62akrXk+8bLVQ=="},{"kty":"oct","k":"w2N+/gHdQou85AklGHDNFA==","kid":"EfG0M/L4QIyUCVTCiTNeKg=="},{"kty":"oct","k":"DvSdIuuiRDeT6EsiWm7idQ==","kid":"IK4h6RGiTbmyTuMRQhmlew=="},{"kty":"oct","k":"DIhee9ddQ7G+p+o5m2KTWA==","kid":"MClHzk7UTkGDQY3Ux1FDfA=="},{"kty":"oct","k":"AccePa/OS7qTGnF2GlEg1g==","kid":"smZIglozT1GUY+nySY1R1A=="},{"kty":"oct","k":"YpUH0aX2Q9ary9f1iOfDmA==","kid":"MKPtujohRtebXisaod9GdA=="},{"kty":"oct","k":"7G0RJD0iR0ygBwjv/po65Q==","kid":"6fr36LlcSRSXBWR3z5SDwQ=="},{"kty":"oct","k":"pRAldVQZRI2Um+ZIrsgw3Q==","kid":"pfsuPDR5R9KWbEF9qOgqLw=="},{"kty":"oct","k":"yNHTFje5TE6R1wENYfNovQ==","kid":"Lo3ClVgwQKiaPYrjIbbypQ=="},{"kty":"oct","k":"VP+VI90ATna9gQHhlXunNA==","kid":"DOBoH+DBQzyRBBrQvOZtLg=="},{"kty":"oct","k":"WwEP3BXoQZ2mQvBPWYfkJg==","kid":"pmzv06BFSfCfXlD/Z2s8cA=="},{"kty":"oct","k":"wAfWKz1RTniYBtLuaJMAfA==","kid":"zUBKcLpvSZ6u3HkUYvtlzQ=="},{"kty":"oct","k":"qjmD3BBMSeeY4mHO3Ughxw==","kid":"jMGyF53DRQ2+Sow9q0oRbQ=="},{"kty":"oct","k":"hegeJg8SS5m5DVNePNRzJA==","kid":"zmarkbppTLmfoBdBlr/tvw=="},{"kty":"oct","k":"z0pzO8g/TBK8Tr8/0QEKvQ==","kid":"8So/0NATRNOGQ5yN3P9adg=="},{"kty":"oct","k":"qrfWBBtyS9mMfgECeRYc7w==","kid":"BYXp447jQhKMTT6dbYq0Bg=="},{"kty":"oct","k":"zli/ZfwET669Pt0SNNxMbQ==","kid":"9KcBiFNGSqmN4bM97Vn4aw=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/abema-anime-2/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="special-plus-7" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/special-plus-7/logo.png", アニメSPECIALチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"ydXPZaYAQl6Gt1WGulscwA==","kid":"AsG25qAUSOmjRhbAKM0lxw=="},{"kty":"oct","k":"ICbgZYkbRKyJrxWJj8yXdg==","kid":"0QiUPZXKT1i6wpBH50P4PQ=="},{"kty":"oct","k":"cZ+p+D/1S9iQrbJppA/jaQ==","kid":"ZojmDI56TS+s8oKzxLl+6w=="},{"kty":"oct","k":"QSvGZmzrRGqtmefL29kIfg==","kid":"n7q1qAIlQTGi17qbtCVAmA=="},{"kty":"oct","k":"fATgZryvQjimhQtanHEXug==","kid":"+Yw71fNlRzKnDTNeGAkfHQ=="},{"kty":"oct","k":"iQSDDuFaTjyzx4VyVcKpRA==","kid":"iBHBsJ6JToy7u9SFYOYmPw=="},{"kty":"oct","k":"IKEsP+q8Sy+9T+t9K32jTg==","kid":"HvpP6dd0SlOuTK6RQwrSxg=="},{"kty":"oct","k":"cY5+O0/oR5WRt6DjtXr7+A==","kid":"P7sJHEHeRqmDpn4Sk5rxvQ=="},{"kty":"oct","k":"Wd5tWlRwQiCtdM7MHtrnnQ==","kid":"5M/DwhqPR86/lm4iTPkZwg=="},{"kty":"oct","k":"kwyrYhWfQqSwYrhrBN6E/Q==","kid":"i/9wE6iPRmCueZhExcyk8w=="},{"kty":"oct","k":"WPtm9W4vTNa7GGucepw+zA==","kid":"wLJwQUu+QVONpgsCGPY5dg=="},{"kty":"oct","k":"stc9XQknTG6ukTFmE5oBxA==","kid":"7qGN3iztQYG+2Z8be3AvqA=="},{"kty":"oct","k":"1NAq7qAaRjykyGxnfhPIEA==","kid":"PKinlwwuRl+miogIJDW0Eg=="},{"kty":"oct","k":"u6wXgC7VQgi3K+UmDi4Chg==","kid":"R6UL06QZRGOdbtG9qKBdgA=="},{"kty":"oct","k":"Bmhc6R/8S3WWLR8szhqhvQ==","kid":"WdtqCqfES7qqvO8IdBV8rA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/special-plus-7/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="anime-special-2" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/anime-special-2/logo.png", アニメSPECIAL2チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"rLai7NIOSyOq7ABZooqDkQ==","kid":"yW2YhdW5TlS1NSDpPW9biQ=="},{"kty":"oct","k":"TaDxA/afR0+RtDW3zxyY9w==","kid":"L5IsukfuQBOSNiM2NLTk5A=="},{"kty":"oct","k":"4Vjn9+g+RvCkNJiteB7lew==","kid":"XNaRq83oSPuzyZazu9ONHQ=="},{"kty":"oct","k":"d1hbKBTFRWWQQctigUzYvQ==","kid":"BAPX/5I4Sc2DK5tCMFvJYA=="},{"kty":"oct","k":"8Ve5rfjeRTC0RA9mLLtXuw==","kid":"Bulc05xrTSu9fdvVNllQUA=="},{"kty":"oct","k":"82FtoPafR0CjsV1gkkWHig==","kid":"DmmXjHqXTASYYZjlZMag3A=="},{"kty":"oct","k":"nQi4qJj9RdSUug9lIRsuBA==","kid":"yCvnGtzvTxK4jclSknecCw=="},{"kty":"oct","k":"JTRzzpqpSKSqnHDKeOGmbg==","kid":"C3FKB2CARD6984YAjQNn+g=="},{"kty":"oct","k":"Rp/bld+RSb6p3dIca1hsEA==","kid":"87r/1BT9RwSPkthiF5gN9w=="},{"kty":"oct","k":"u4KbzuPhRKW3pRDh3pCgvw==","kid":"7eCjaY1UQ0qgTFUj38b7bQ=="},{"kty":"oct","k":"F5MK2hbxTe+/Tt/AQIYVKA==","kid":"rrxMRLgsTRWDcwbCBkesow=="},{"kty":"oct","k":"Wm/2gb6CQ3aHvWraCq5s6w==","kid":"r9lfI643SzW+S5tVliO4nQ=="},{"kty":"oct","k":"fPy2T0RCRSapTmIwF0iBAQ==","kid":"9n1HpbjnRzqDjjwn8EsCkg=="},{"kty":"oct","k":"QpkZ7RTpTRGe31NrnAp9uQ==","kid":"+v1VkTxsTWuluBEk645/8Q=="},{"kty":"oct","k":"43/5Tx8KTO6M/rcsu1cg7g==","kid":"ey7ddPsmTAiyOEt1i8oyow=="},{"kty":"oct","k":"9+b5Vc2pRUS5EH3301Dqng==","kid":"oLT5I0hQRtSwkIWVfjiK7w=="},{"kty":"oct","k":"fFyMBHThRmOfPF4+5xa0Pw==","kid":"ppZnMyf6SCmfsbpXsfvjmQ=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/anime-special-2/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="isekai-anime" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/isekai-anime/logo.png", 異世界・ファンタジーアニメチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"acOcvl75ThalElRExO/GJA==","kid":"4+ipa+Y1QqeVFH1T+vS5Xw=="},{"kty":"oct","k":"7qFfIi80ScmYbfAMmfbeCQ==","kid":"1blyyu10Q2KLUo/2a1AIvw=="},{"kty":"oct","k":"Vqy2+tP6QCWcP+BnemUZqA==","kid":"pNw4namrRPqrw/C+QVo7oQ=="},{"kty":"oct","k":"/B6HOCibQ6a86ceK+NjE+w==","kid":"xiqaTiFGQz2OL4omYw3ZuQ=="},{"kty":"oct","k":"15n6AHxKR4Ob59tF/wkcWg==","kid":"dTPX2mjQRYCXk9wTrQYEBQ=="},{"kty":"oct","k":"FKXab/ymRQy4jL4A6V3kzQ==","kid":"OjqP0qFkQgy7DF7TAZvF4A=="},{"kty":"oct","k":"IfKbNYQ9Q3qf9oTA1rgIQQ==","kid":"wx3PFXtCRe2XeX8Vicc+WA=="},{"kty":"oct","k":"Bx46bCH8ThSjxSeglVBhyA==","kid":"9uGdRYauS0aRVgqhz68IuA=="},{"kty":"oct","k":"9Vf6e9KpSti4rDjDszm6gQ==","kid":"+cpFvKmJQB+LW8c6L0/Viw=="},{"kty":"oct","k":"jefztaPRRt69nX3on/CgGw==","kid":"GXyfKimZSCK45DvhaQP7Zw=="},{"kty":"oct","k":"AFaBl++/TVSY6wkSblXeuA==","kid":"3ATXGWxjQm+QK1WRU6yQSA=="},{"kty":"oct","k":"437Lt6uMSBe7eQ/TSsUSZw==","kid":"bwb7peYmTSCuCvwBfkeRMg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/isekai-anime/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="isekai-anime-2" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/isekai-anime-2/logo.png", 異世界・ファンタジーアニメ2チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"E4dbuaczQxCWDzQczmxHiA==","kid":"m21+sQFKTySXXiqaGSpD+A=="},{"kty":"oct","k":"uNrDPcqPTsG01/nYKlZlGA==","kid":"UKaXs23bSt2dFVHN2RSbeg=="},{"kty":"oct","k":"rEQBHcpSQG2EVlc7i0nymA==","kid":"LqAIczV3TEWXI3LbMgQ1Pw=="},{"kty":"oct","k":"q0NQPV09R4+HuYoBPO/73Q==","kid":"TciOvQIpTB2rv2YQmraTPQ=="},{"kty":"oct","k":"cBWjWc6ATF+l2w1t4DHhqw==","kid":"sp71ssnwS4aAnxKcN/a7qQ=="},{"kty":"oct","k":"cj1f9R61S7+avJ+iVVpTbg==","kid":"k7VeT9wXR82VZTvKL1u4LA=="},{"kty":"oct","k":"s91385oLScmwzK+mxmyTdg==","kid":"Grm/sHMHT6Cur/Fzhnb22A=="},{"kty":"oct","k":"R0OxKiSuQMSJZgDo1jABAw==","kid":"htIOzuy1Sumh/6OBZtO3kw=="},{"kty":"oct","k":"NdzAsRIeRr+I8XsJFk8P3A==","kid":"QT1Ucg3pQCi2l6rcAIKq4A=="},{"kty":"oct","k":"x7ukaxzySuWY0QWhgH214A==","kid":"z+yYviloQLWDlFmycifh3g=="},{"kty":"oct","k":"lF7jP71SRSCZwAxIbJoIPw==","kid":"ecA153hmTauy7UFL/LNLMg=="},{"kty":"oct","k":"7Q8hg0rmQz65ioEcPZAicw==","kid":"6UhK9UY1RXGLBKXcE1QaUw=="},{"kty":"oct","k":"rpVcnafQQoyKxVOH4LWv4A==","kid":"L/Oo6xQNTPK/D9NExeJROw=="},{"kty":"oct","k":"cw+/cjf4S7qFcP51RGYFlQ==","kid":"UnZS0MHXR+eqapZQ0ONDtw=="},{"kty":"oct","k":"UtA0916/S96MAvh+8lx9wQ==","kid":"k7zr6RnfRQSx9OXHXq3uXQ=="},{"kty":"oct","k":"6XEG5MjWT065FvhNdGk4AA==","kid":"DeFeeTOrT02QK5YtKvV68g=="},{"kty":"oct","k":"SzPLc+ajTeeeoRSoLJUOaw==","kid":"AZubYx5iS2iOIw0y+kxMEw=="},{"kty":"oct","k":"gzTnUtfTRu2+DHFJGuuGlA==","kid":"jVyTwyNDR+SyorBZZBH0pQ=="},{"kty":"oct","k":"Sx916D4lQGelXc/Fhq1utA==","kid":"IMj2hbqJTvWTUcHTUGFmOQ=="},{"kty":"oct","k":"fc0FJtwuQjytnHU/dMz4AA==","kid":"6e3qQQFXQ+uzMz6GpeeEGw=="},{"kty":"oct","k":"hZMVrjO2QOeHB84dCe7lsw==","kid":"3MY+jCjjSbOBk9CffzfN4Q=="},{"kty":"oct","k":"uqtONmd9RwShG/b/+51SXg==","kid":"ZmxxkaOxT62wXPN/uHVvKw=="},{"kty":"oct","k":"0ZdNN5klTLmd9bOxrnOC0w==","kid":"D+SUgs9QQuygdndk6/T+wg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/isekai-anime-2/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="isekai-anime-3" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/isekai-anime-3/logo.png", 異世界・ファンタジーアニメ3チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"hh7Aq0yWTJW7zSpLviHSLA==","kid":"LdtjqWjSQyiCC7l3p9C2HA=="},{"kty":"oct","k":"TIEDq4ZBTqOsZ72G0Svy1A==","kid":"mBVmvgWfRnyM+DjhpmXzlA=="},{"kty":"oct","k":"9+Gcyz+4Q9Sjx0ZnJw8VXw==","kid":"snWzDV5fS7SUMJ+FYiNanw=="},{"kty":"oct","k":"eSvvdgv1R6qES4U4opuaYw==","kid":"c1hPN2unTi6dQx5FCYZapw=="},{"kty":"oct","k":"o9HmKMrqQGGV4lrPPV5zlw==","kid":"yzfwLmUHRSq+sqQtkyZ9Pw=="},{"kty":"oct","k":"N4IwcZcDSAC97k8ngFqnHA==","kid":"2005RNYdQSus76WViDgimQ=="},{"kty":"oct","k":"RKJ9UoyWTu+VHGB3wO1wOA==","kid":"ZnaG1vIRSDKlFDSn7r9dUg=="},{"kty":"oct","k":"/bgV7l4tRdO/OHw59997mQ==","kid":"sKQXXHUyRs6TwuaRPZfidg=="},{"kty":"oct","k":"LZ+r1+BvT5CwPSZ/K3Z9Yg==","kid":"Lfp44njsQbWiXBPt11dsrA=="},{"kty":"oct","k":"M12p/oSCSR+LMpxeQ3bWWw==","kid":"5AFvcfetR/OeI1xwCafvKQ=="},{"kty":"oct","k":"AnC5NeiMRVGFVGMP1b32Bw==","kid":"9XYxTMB4TXq9esA4V+8j8Q=="},{"kty":"oct","k":"VSgbIqENSJCu99skl2+BIg==","kid":"VaZVePTmRa2Jrxo9tkbqnA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/isekai-anime-3/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="lovecomedy-anime" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/lovecomedy-anime/logo.png", ラブコメアニメチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"SPvr72kMRJWZnC92ykBKYg==","kid":"mDPbGh1NTumz7F+erIF//Q=="},{"kty":"oct","k":"MCyxhbW2Qt6e8bJSwHyvpw==","kid":"H8lXjrRvTfKKD445umOhIw=="},{"kty":"oct","k":"Q+wFaemXTjuBjxs7TdMnkQ==","kid":"mR9weQ84QVeKHEW6xEn3+w=="},{"kty":"oct","k":"BgWekq3nQOydbpnYNgwUZQ==","kid":"Oym6+h+wSQGHXkGws/RvGQ=="},{"kty":"oct","k":"cq+OZ0/6SzugQdudZF6Jtg==","kid":"G7jbDJdHR86LHKfCAwbGcA=="},{"kty":"oct","k":"gZhNKfg9RxurXx5X0MkIkg==","kid":"LoReFT/GSRO1e4Cueb0MDQ=="},{"kty":"oct","k":"c8yd4vEpRfanUu5Jo8LKtQ==","kid":"2uuz1YEORUGOmf07dBm3xQ=="},{"kty":"oct","k":"fQZQkLMoTtinyS5yOsK4pw==","kid":"ewkdqxhQRpeTNoDLZLfdCQ=="},{"kty":"oct","k":"ZKXRASY6Tje7rAVL9iZyUw==","kid":"4TD5uy6hQfyj7WLmOWDwLw=="},{"kty":"oct","k":"KZGyoD/yQ3yOJ9PrHVJ3Og==","kid":"6HWJ9KxIRyafMHvib0voiw=="},{"kty":"oct","k":"swWRg8QeTsqcFgwkdO1k3g==","kid":"chBaU0lBRlSFTMlMRh/Ebg=="},{"kty":"oct","k":"Saq0xcFDQdGx8cg1Xtbd+Q==","kid":"GedxAckDSk2zDdra+iS4+Q=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/lovecomedy-anime/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="dailylife-anime" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/dailylife-anime/logo.png", 日常・青春アニメチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"wLoVTDIcSLa5TWVaM6f/gw==","kid":"LkYOjguxQymS0COgTLkpRg=="},{"kty":"oct","k":"de0JSk3bQxWvSuKmt3fsKg==","kid":"GUJtmSPJTp+rThVsxV+60Q=="},{"kty":"oct","k":"epc3Pst7Sg6AjQnh5XFPAA==","kid":"Zhh31h5bSY6/k5jvM5Ov5w=="},{"kty":"oct","k":"eiD0vL5vTuOkQMep0IxzhQ==","kid":"bhsdEaioQiS1ZYCeUVrV1A=="},{"kty":"oct","k":"6rcs96umR+2KHGJalnrrGQ==","kid":"q3gfgcUyTdiE1E4FryhUkQ=="},{"kty":"oct","k":"lVseAX18SMKfaR79qbc+DQ==","kid":"JDLxkFXTROuDq5Ijxw5cog=="},{"kty":"oct","k":"deqz4fyCS/K7NyuymkEnag==","kid":"TsdR35/bQjSOgyv2M7Qa5g=="},{"kty":"oct","k":"znYbohCQQouNmy3MSlvyyQ==","kid":"cBKKpFUURKOlWyegQnZomg=="},{"kty":"oct","k":"zc4WL4wgSjGVNogWyX0EFw==","kid":"u9A3uSiFQbmO20rhoQk5Pw=="},{"kty":"oct","k":"ZtPCYtWvQJWy9RC2hQF+pQ==","kid":"CrSCthvIRxGAjuhBNz3fMA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/dailylife-anime/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="late-night-anime" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/late-night-anime/logo.png", 深夜アニメチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"1G+5fgWdQfKkb6FhTDiyMg==","kid":"u2lRVcYtS6CVXhYgplEifg=="},{"kty":"oct","k":"qSyNKKiNTTmg/6v9G0XVow==","kid":"HES39Ha+Q+2aQHIZ99Fh1g=="},{"kty":"oct","k":"+U1x25fwQX+kXfY0281VPQ==","kid":"DNhsnh2MRd6QienwlDIIwg=="},{"kty":"oct","k":"lbzIrcp8SICjhJiz/uehfg==","kid":"4Jx+U7HES/OIKUv4T0qgEg=="},{"kty":"oct","k":"QvKYvrwsRxSLrwOZVu2ZMg==","kid":"d+wXfZmTQIKJoZooAUuMSA=="},{"kty":"oct","k":"yRVQDdrbQfORObaLe808Pg==","kid":"D7C6wtO3QP20oRiStcSnIA=="},{"kty":"oct","k":"CdUjbv6nTzyj+aNIb0SYLg==","kid":"ptajqoS5QfiOjmj2jZ2DYw=="},{"kty":"oct","k":"OxjrbKGySva1X9DK2590ow==","kid":"9IwoOQtvS56oTWb+TUNv/w=="},{"kty":"oct","k":"DstLGrNVQreLx+xjkCmPeQ==","kid":"jlsY0PmhSCeBcLVq+Fo6kQ=="},{"kty":"oct","k":"dNnyX/O+SuSnlYB25H4m/g==","kid":"QMFj4ac7SQ2nedNHrM850Q=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/late-night-anime/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="anime-live" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/anime-live/logo.png", アニメLIVEチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"6XaJ/Ou/RPCz45GeMOb8pQ==","kid":"7ihQcuS8RDe4FeWvfX6wWw=="},{"kty":"oct","k":"a04pvqbsRDOVbgm30Ff+fA==","kid":"E7L/CCbHSlq+cKIgT0CrbQ=="},{"kty":"oct","k":"uUEnYDciTbeGoXtc4bJzRg==","kid":"SA6OVgAUR9mJeYvrWDnDyw=="},{"kty":"oct","k":"9fnH36zARkS6/rLghfGDYA==","kid":"dDG1ZE/6SECFwyml9im8RQ=="},{"kty":"oct","k":"3WQ3ekrZRk2ePiWFjEhfpg==","kid":"GrsRD+vzS+GC4xgACvwSLA=="},{"kty":"oct","k":"9UVJ3WqKSKuQRoC3WmBhHQ==","kid":"WSfQwBdQRKOYsSUAtpwh/g=="},{"kty":"oct","k":"G3oTKT2yTra8ZedNiZEBcQ==","kid":"Ksw7jNYlTVWmInNzlcRnSQ=="},{"kty":"oct","k":"q2Ux8uH+TjiMEQIv4aEZ3A==","kid":"ANCfd/YNSVGHTnwb6Po3Aw=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/anime-live/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="atashinchi" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/atashinchi/logo.png", あたしンちチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"y8QcsuaySGKih4qhtdLwoA==","kid":"XWq8z4TGTIaxML79TjxMBg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/atashinchi/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="pokemon-1" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/pokemon-1/logo.png", アニメ ポケットモンスターチャンネル1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"l8q1Rc8bSGi4SXd+QZgxbA==","kid":"n6haGaK2SFSrzSR7XN3Xlw=="},{"kty":"oct","k":"KRSBLei+TamM6rKa26R5cw==","kid":"abTHlbbKRyq/+AR8SYBBvA=="},{"kty":"oct","k":"Ikt0wS/NS4yL+u+oYLQz5A==","kid":"A6o3tkX2Q0GQmTM6wfNL6Q=="},{"kty":"oct","k":"vgmf+QitRdehOpVE6ESEaw==","kid":"pz7nwouESWK9dk3D0jVP6A=="},{"kty":"oct","k":"cvL+/yEGT3C6qxebCCkpsg==","kid":"zmmFS8/LSjySyBgcJKIXxw=="},{"kty":"oct","k":"5Ud2jgvGRjeW9W93nu5Utg==","kid":"bT4iYkAcQJujbSXBd+awjg=="},{"kty":"oct","k":"VSLYsAw4RkCtoWBELBhU5A==","kid":"aqHVrnWUSWi/Ca5txeHn0w=="},{"kty":"oct","k":"fSjTvVY7TCKf4oS61/za3Q==","kid":"Q2gznTfOTPyRWRS73SY7gg=="},{"kty":"oct","k":"ncq8+0ITT0+RS3d5b9Om/Q==","kid":"tH2OL78kS5OdcqwLmGqc3A=="},{"kty":"oct","k":"VDKwOCzwTie5y6udt77GBg==","kid":"cISFCxLASDe54XqmvA11Sg=="},{"kty":"oct","k":"Cpm7XBipTr6UOGmUfevM1A==","kid":"cUuj5u8ERZ+3Z4Rm7Iv8Rw=="},{"kty":"oct","k":"M8cAZVV+R2W58iMR4CuKww==","kid":"gvym0kb1SJ6wZWMfLMfujw=="},{"kty":"oct","k":"yDja8ee0QYCq3S8IH3/lbA==","kid":"viPEo3JvQE676uaxccIeOw=="},{"kty":"oct","k":"1b1mrg7ORsmYkxnuaIG/Ag==","kid":"bhfT7Bl4QWyzJYCzHtiglg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/pokemon-1/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="pokemon-2" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/pokemon-2/logo.png", アニメ ポケットモンスターチャンネル2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"SxVAa8qAS+msF707WHzXlQ==","kid":"VuJClSwrR86CT5KV30KZBA=="},{"kty":"oct","k":"Sj1MPZDOSpqjn93n724Rqw==","kid":"aGrsTwGjQYWIGnfcmuF2sA=="},{"kty":"oct","k":"J4j5Nf72SOWNb1XLT5Jccw==","kid":"NMvSu9LYQQy2486+aYO0KQ=="},{"kty":"oct","k":"T6uR/mOOQnSfyFRnhtcT/w==","kid":"FCgvhj2XRCqyKFuoNyiFoA=="},{"kty":"oct","k":"ET1OvcaVR5K2FnZudaU8Hg==","kid":"SMSKM5CZTdKwMJ31ZNSHAQ=="},{"kty":"oct","k":"rqiNHNqQSQSCQKiZxraVew==","kid":"z9JlgcPnTruWGXUgyljVxQ=="},{"kty":"oct","k":"yqu94yCeSiStvRcUTlwmEg==","kid":"ow+ISl5HTUC+qJPlWaDVMw=="},{"kty":"oct","k":"AjyJKPQXQSyqInb5qII9aw==","kid":"QXRrBFKnSPaF1HBR4w+mhw=="},{"kty":"oct","k":"hW3VBNOKSi2G2ctM3BpJ5g==","kid":"TTHGnNmhR5aHdTN6gan6UQ=="},{"kty":"oct","k":"E2t9LpfUQ++zPgaQCKjQeg==","kid":"9g8LZ0TYSfih7T8O1tStsw=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/pokemon-2/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="conan" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/conan/logo.png", 名探偵コナンチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"/u2Wl+cgSyC6ZOCOTielOg==","kid":"V7uOIAUKSCqDxZHI2837Zg=="},{"kty":"oct","k":"mRMVvVoGQbG5vDEnc1J2wQ==","kid":"CR4FiQx3SDWjUsSMko6qgA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/conan/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="family-anime-1" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/family-anime-1/logo.png", ファミリーアニメ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"4RVtNg75QY+ukrp8SR/5Aw==","kid":"YAqxGyYXQaG1Jiq5nPQJYA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/family-anime-1/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="family-anime-2" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/family-anime-2/logo.png", ファミリーアニメ２
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"33/xHTEoRqGEtd28k9EaRQ==","kid":"RRnK0NjmQzm40UxzeEvTeA=="},{"kty":"oct","k":"TXOFXD2hTKiZsts6/vKq2A==","kid":"66ukHV72SaCFuKjJKBJtRg=="},{"kty":"oct","k":"kUf2YW6tTWmdfOsyjVZ7ag==","kid":"x0EEFLLeR8e7BrIIjlXV+g=="},{"kty":"oct","k":"018oEOORQd2Z3+55GuO6EQ==","kid":"Ed04+vreQn+Lttt8WmYZ/w=="},{"kty":"oct","k":"eqgCmdpnTNqLGXBvgW9mVQ==","kid":"yiSzZsGDRtugAWL1SDRfJw=="},{"kty":"oct","k":"C0yrgRx6SKOTEnOdF1NLTQ==","kid":"pgTOcVVWQCCIHv9zohbeMQ=="},{"kty":"oct","k":"I93sJ0jJSSyHCmwmJAu1Mg==","kid":"u7V8H9qVQpuYNND9lxicdQ=="},{"kty":"oct","k":"kZvdBPW8RlWX8XlR9qXH1w==","kid":"X0/v8QBkT6GUYgnLnmF6rA=="},{"kty":"oct","k":"FeeG2Bh8SbiX1hfe264gpA==","kid":"WUk03BUsRn6rVNuS12khuQ=="},{"kty":"oct","k":"vLCq6OcpRH+1KK89UofF+w==","kid":"273dZSdyQiGsu4B5ldWR6w=="},{"kty":"oct","k":"zEs1yb2rRu67SycHKzX0cw==","kid":"zgU/tP/BSc+DuEJtdGu5Kw=="},{"kty":"oct","k":"PEsRawWHQpOVJQhB+KeEiA==","kid":"5XLs5pOrQN6FthSRlKe5Pg=="},{"kty":"oct","k":"ojXl8iINSUKeWQx4n1REZA==","kid":"guwAFqBzQZS+ZFI1qC4cfw=="},{"kty":"oct","k":"kE0RMOeATKieK7ttj5XsRg==","kid":"4oUDQfRBRUuNIkV9Qwv7AQ=="},{"kty":"oct","k":"Jhh2X3ryRTORWE7PYkyCDA==","kid":"nUcdYCpQQNK+3UzDlh274g=="},{"kty":"oct","k":"jIPh9Yh8RpGh7wTL+KiU6w==","kid":"gLgaBIlUTM6xExGxea9qcw=="},{"kty":"oct","k":"zjzxNm+vRFuoyTI4LRsa5w==","kid":"pXgZFqoESf+gILEuzMt+Tw=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/family-anime-2/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="dragonball" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/dragonball/logo.png", ドラゴンボールチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"lbTCoFmsTWOfTJlMPaqxnw==","kid":"CPxZpeKlQXeY47LPZjwCBQ=="},{"kty":"oct","k":"0sm4btQ8QOCY2RsMusIlpw==","kid":"bENkBWrZQWuRQBRsjoMpWA=="},{"kty":"oct","k":"QmS+qVr5Qam/FnFKRN5z1w==","kid":"7oJtrphnT6CKx3Ms8T2i0A=="},{"kty":"oct","k":"8sC3edhZQgi7nBjG4pyF5w==","kid":"PSgg6JZURS6NUxMAOrEYMg=="},{"kty":"oct","k":"f8jKkzcaTsmxnIN3l3td3A==","kid":"zu7KYf22S/CuKZ3oIeH2CA=="},{"kty":"oct","k":"7tl5uFeCSy2JgaVhEq+KHw==","kid":"/8J94vNPSWqpHjYQc4JnFQ=="},{"kty":"oct","k":"w3VivefISSWA4DAM+x8Kqw==","kid":"jv+k4HTLRcS4UtpCi641Iw=="},{"kty":"oct","k":"nV5rmsbUSLuvfsd05Se1VA==","kid":"S1Y5PllcTFuKatv9tZ3b6g=="},{"kty":"oct","k":"/fR9L36/TjyS4BaPyJvIpw==","kid":"qIkPwlPwRNGW0bzLN1eiDg=="},{"kty":"oct","k":"3+2kSetdSrWFBLV/O812Yw==","kid":"JOokK+d0QQO4EzGpvMMLYw=="},{"kty":"oct","k":"PYcpxyONQKuyw0BwSr8I9w==","kid":"q0dDEl4lQ2+a7VSk6Ocgpg=="},{"kty":"oct","k":"sGqiosR6TYS+C+VDedivhQ==","kid":"uJlQD2QZT06HEHPXrrrr6A=="},{"kty":"oct","k":"wYwJjYw2Q++gNlpZf3F0/Q==","kid":"Dx+3h81/QM+/spGAn8uafA=="},{"kty":"oct","k":"wR6eOlhOSfGReOPW8NcnkQ==","kid":"JeRczORXThOStj38E7y50A=="},{"kty":"oct","k":"GWjvG0CPSJGEdzCgTRJIkg==","kid":"mUJTnTtFRhCHxZO16odbIA=="},{"kty":"oct","k":"KKz+W4qaR7yv//QGYNWLbA==","kid":"jcd95q5XQTqgASkxcq/sCg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/dragonball/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="80s-anime-1" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/80s-anime-1/logo.png", なつかしアニメ80's
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"A91mZIl9TPGAlLk92HHJog==","kid":"4gP0OdBtRMaugzfDr7XsRQ=="},{"kty":"oct","k":"g40eBHjLRHGv6vB6YuEZmw==","kid":"Tfhdfd8lQYKJA3LeLuYaNA=="},{"kty":"oct","k":"qNV5K77RS3O0wohKfYdvXA==","kid":"It5083fdTNOMNPzvFHvZcw=="},{"kty":"oct","k":"vpn/EhmFQ7O9YHrxYlZpuA==","kid":"dczzYmsPQpyLY1LTjdykrQ=="},{"kty":"oct","k":"vG+SZxkKRcmvMD3H7j1Xyw==","kid":"a64VLwm1Tfu8w8kqM72dAg=="},{"kty":"oct","k":"cAij/4CSQAyh7vVO8VL3gQ==","kid":"kOvhnKBzRTyy3AlbLoMgyA=="},{"kty":"oct","k":"icBk5Y+qQHW9mfRLpSG1LA==","kid":"2mk38bLKStKcJDYIpbfgHw=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/80s-anime-1/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="90s-anime-1" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/90s-anime-1/logo.png", なつかしアニメ90's
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"Hbhf3bk3R0++kf+9PH1elg==","kid":"fRBrKdGRTvm9KGdI5LPQ+w=="},{"kty":"oct","k":"UpKowOLpQ9W2AnMCI+th5Q==","kid":"UETTbOajRMmY19ELwJFWhQ=="},{"kty":"oct","k":"iAYEAm7LTt6bc1Ti8BgnCQ==","kid":"/0DtzvLqTiSL4NOqTKVIgg=="},{"kty":"oct","k":"RRtHQWieQTSx2vmLPwtcJw==","kid":"lgWbMvLrR3SiseeT+4znAw=="},{"kty":"oct","k":"L41qDI8FS5GUPiuQDI6MxQ==","kid":"RlneRn7JStGSroyOqjQCZw=="},{"kty":"oct","k":"hPjHOqfXS+CA708I2PPc1Q==","kid":"VK2AyUVIRgOvIdHtx74p1g=="},{"kty":"oct","k":"BMiumCHXR8ytXlQsnlYbxA==","kid":"AqJH1LQfSVSUsUZd0MiScQ=="},{"kty":"oct","k":"y71bWPIIQ8+6f2F7dsqN5Q==","kid":"kK8BjOfBQNmJnt2JzhodVQ=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/90s-anime-1/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="00s-anime-1" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/00s-anime-1/logo.png", なつかしアニメ00's
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"NSbFBseCS42fZdFtT1Q0jw==","kid":"nPBz0TgaQdWapkmGtJ4B4g=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/00s-anime-1/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="abema-special" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/abema-special/logo.png", ABEMA SPECIALチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"mnor8k6vSjKaQMrwuYzAuA==","kid":"FS90ZZEkRlacTUk6bl+nEA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/abema-special/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="special-plus" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/special-plus/logo.png", ABEMA SPECIAL 2チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"P494LNAEThaPEEeX77vf9Q==","kid":"p2CnzrnMQMqVK9B6LxJlSA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/special-plus/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="metrock" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/metrock/logo.png", メトロックチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"f/s2GiAgSpq1/mqZ2s7asg==","kid":"QuFeeEIBQAqdah17m8gGcA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/metrock/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="abema-news" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/abema-news/logo.png", ABEMA NEWSチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"cPvUWPYWUZy1TKctTQOMBQ==","kid":"cC4qJlB/Wk2W7a7T7sMteg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/abema-news/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="news-plus" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/news-plus/logo.png", ABEMA NEWS会見チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"3lL0KlyeWd+iy/wnpF25Tw==","kid":"tLxY8dMZWAaxphsdnDBOvQ=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/news-plus/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="asia-drama" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/asia-drama/logo.png", 韓国ドラマチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"hse8wvi5SnmwBoDQEBtMMQ==","kid":"1+iGsTVJRWuGIWnHM5jhIQ=="},{"kty":"oct","k":"u0r3wv4PRbypIvWNvYp8sg==","kid":"8g2DJtjNSdi4hkYmMGt6CQ=="},{"kty":"oct","k":"lLNZ7v9CS1KFiLsyrFpNJw==","kid":"C+zh9CHwSMiXe3odqZfIcg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/asia-drama/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="asia-drama-2" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/asia-drama-2/logo.png", 韓国ドラマチャンネル2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"J1T9qf/jRnqEr6un1BG2kg==","kid":"+94a4/tORMG4UZJh8N0VlQ=="},{"kty":"oct","k":"HYJ8DxrJQ9GE5XnbBSwndw==","kid":"yDmvV/GTSYm96wxwio6Kog=="},{"kty":"oct","k":"DVZyiWG5SyqjksmH42MtDw==","kid":"KyjzbKrzTdWfDBn0JsRzQA=="},{"kty":"oct","k":"m+Mh5ViNTUOHr92FVM4EtQ==","kid":"uvwr+LkNQ/mI5DucERF7Vw=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/asia-drama-2/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="asia-love-comedy" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/asia-love-comedy/logo.png", 韓国ラブコメディ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"qlqcF6/lQR2WxRxUcZ7tzA==","kid":"MHvp5PA6R86xqHPZZv1liQ=="},{"kty":"oct","k":"E2Wr+Zb7QbytA43mr3knQA==","kid":"6iltD8VXTUC9zoj5fpbmeQ=="},{"kty":"oct","k":"d6yUrU9OQrilV3AxpJ02MQ==","kid":"U8axYTayT1S5Y7aa1S46Ww=="},{"kty":"oct","k":"QuyPRtGUTwKGZ8GJblVd/w==","kid":"1Z3iNVvLTkasKwljl+SoRQ=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/asia-love-comedy/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="asia-loveromance" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/asia-loveromance/logo.png", 韓国ラブロマンス
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"jio5EXiYTPm988qM5T0+YQ==","kid":"Y07sjLgpSuOwQbydZq0fyA=="},{"kty":"oct","k":"UtCV81EuRe6YbQpwOk/AZA==","kid":"Ij8hfH62QF6VnkqMRsPvTw=="},{"kty":"oct","k":"nlnv04nKSIiApuYW/XOUSg==","kid":"1aQCN3SiSyCcsLqO88HlXQ=="},{"kty":"oct","k":"BtO0b4JURImOuk1b03xytw==","kid":"OyzoeMr0T32Rcf9tkDiWfQ=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/asia-loveromance/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="asia-historical" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/asia-historical/logo.png", 韓国時代劇
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"R0n+tRQBSzaepdihkK/qEg==","kid":"GXKZ2mAWTQiJFuvOWkqZvA=="},{"kty":"oct","k":"kbhelhpJSM6p/m+dMkPOxA==","kid":"rrCYruajS7KBoqqBCzO/7g=="},{"kty":"oct","k":"2yjt4HRQTTGDOnPOUyYUCQ==","kid":"TeWnjg8ERxeyYAohNi6FHw=="},{"kty":"oct","k":"QdHRimAcQYyS58Zg5LoH+w==","kid":"cBe965baSz27plKW/tH/hQ=="},{"kty":"oct","k":"DcUs5DyAT26fbZq1MNHFJA==","kid":"9iZVLkVmRSG1myglCHWstw=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/asia-historical/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="k-world" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/k-world/logo.png", K WORLDチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"RBRyiS+JS96q2H3bGgrNXg==","kid":"Ja9Lvlv1RxiM8NvqjUVJ9A=="},{"kty":"oct","k":"Yrp7s7kAQ7e0quQ6wmw7gA==","kid":"5QSaZzLESceTaMzP5Ekh9g=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/k-world/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="drama" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/drama/logo.png", ドラマ映画チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"iFIbAR9XTSiVxLiKIWcxTA==","kid":"qzLW2Sq9QAOMjlqWew3uug=="},{"kty":"oct","k":"SQDu3iMVTbSl68SGfmDLFA==","kid":"WFnvvQihTRi+5jw+luHmcg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/drama/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="drama-2" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/drama-2/logo.png", ドラマ映画チャンネル2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"P+m/2fKfQcKmKuFckgQ/cw==","kid":"0Wh4ni4JTHG4tg/B7MU8mA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/drama-2/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="mahjong" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/mahjong/logo.png", 麻雀チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"uCChVcpEReG8VeV/oQ1QOg==","kid":"/bjzYZg1S++6ffJacYgRdA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/mahjong/manifest.mpd
-
-#EXTINF:-1group-title="🇯🇵 Nhật Bản"  tvg-id="shogi" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/shogi/logo.png", 将棋チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"DZmP8qU3RHye6+nvrli1yg==","kid":"HIbwCuD4SkSFuK4eOLLu6g=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/shogi/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="world-sports" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/world-sports/logo.png", SPORTSチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"itVsqUT0Rfapthu2bO8NsQ==","kid":"5JaIDprBQD6uf1QHFj0i+w=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/world-sports/manifest.mpd
-
-#EXTINF:-1  tvg-id="motor-sport" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/motor-sport/logo.png", MOTOR SPORTチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"rlsUd5AATzOFjw/VoVArbw==","kid":"4voT/J38RNG0BAOT5LELMA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/motor-sport/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="sumo" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/sumo/logo.png", 大相撲チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"/AMhJ17CRT2Vja8XjRZqXQ==","kid":"9RKsXqBxS7axZpA8ygcMVA=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/sumo/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="boxing" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/boxing/logo.png", ボクシングチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"HFRhzjD1T/WlMTBZWyY3XQ==","kid":"/y439FJXTSmv6ZA7O8SR5g=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/boxing/manifest.mpd
-
-#EXTINF:-1 group-title="🇯🇵 Nhật Bản" tvg-id="fighting-sports" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/fighting-sports/logo.png", 格闘チャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"+JqLrgmfQCWg+gy0TCRv6Q==","kid":"6fWP8OtjQXCYZgpoZJuoRQ=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/fighting-sports/manifest.mpd
-
-#EXTINF:-1  tvg-id="hiphop" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/hiphop/logo.png", HIPHOPチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"+4/OPq2SRgmGjVb7Ff63CQ==","kid":"Ktzm0Tz2QQOa1bYjzj17Jg=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/hiphop/manifest.mpd
-#EXTINF:-1  tvg-id="commercial" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/commercial/logo.png", CMチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/commercial/manifest.mpd
-#EXTINF:-1  tvg-id="boatrace" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/boatrace/logo.png", BOATRACEチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/boatrace/manifest.mpd
-#EXTINF:-1  tvg-id="keirin-auto" tvg-logo="https://image.p-c2-x.abema-tv.com/image/channels/keirin-auto/logo.png", 競輪・オートレースチャンネル
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"yOR5cnv+S8i8Xu7vFHar9Q==","kid":"QhermdRxTsSToE86amgN3w=="}],"type":"temporary"}
-https://ds-linear-abematv.akamaized.net/channel/keirin-auto/manifest.mpd
 
 #EXTINF:-1 tvg-id="KoreanCentralTelevision.kp" tvg-logo="https://i.imgur.com/p02AEOF.png" group-title="🇰🇵 Triều Tiên" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.4044.138 Safari/537.36",KCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.4044.138 Safari/537.36
@@ -2728,500 +2345,33 @@ https://smart.pendy.dpdns.org/Smart.php?id=Rtv
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="JAKTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b4/Logo_Jak_tv_%282005-2009%29.png/revision/latest?cb=20131229082946" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", JakTV
 https://smart.pendy.dpdns.org/Smart.php?id=JakTV
 
-#EXTINF:-1 tvg-id="Sky.Arts.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-arts-uk.png" group-title="SKY TV",Sky Arts UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02ODMvbW9uby5tM3U4
 
-#EXTINF:-1 tvg-id="Sky.Atlantic.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-atlantic-uk.png" group-title="SKY TV",Sky Atlantic
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW0zNjIvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport..251.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-1.png" group-title="SKY TV",Sky Calcio 1 (251) Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW04NzEvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport..252.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-2.png" group-title="SKY TV",Sky Calcio 2 (252) Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzIvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport..253.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-3.png" group-title="SKY TV",Sky Calcio 3 (253) Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzMvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport..254.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-4.png" group-title="SKY TV",Sky Calcio 4 (254) Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport..255.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-5.png" group-title="SKY TV",Sky Calcio 5 (255) Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzUvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport..256.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-6.png" group-title="SKY TV",Sky Calcio 6 (256) Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport..257.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-7.png" group-title="SKY TV",Sky Calcio 7 (257) Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9uZnNuZXcubmV3a3NvLnJ1L25mcy9wcmVtaXVtODc3L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Action.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-action-it.png" group-title="SKY TV",Sky Cinema Action Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjEvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Action.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-action-uk.png" group-title="SKY TV",Sky Cinema Action UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzcvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkyAnimationHD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-animation-uk.png" group-title="SKY TV",Sky Cinema Animation UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzUvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Collection.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-collection-it.png" group-title="SKY TV",Sky Cinema Collection Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NTkvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Comedy.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-comedy.png" group-title="SKY TV",Sky Cinema Comedy Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjIvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Comedy.Cinema.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-comedy-uk.png" group-title="SKY TV",Sky Cinema Comedy UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzgvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Drama.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-drama-it.png" group-title="SKY TV",Sky Cinema Drama Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjcvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Drama.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-drama-uk.png" group-title="SKY TV",Sky Cinema Drama UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02ODAvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Uno.+24.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-due-plus24-it.png" group-title="SKY TV",Sky Cinema Due +24 Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Family.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-family-it.png" group-title="SKY TV",Sky Cinema Family Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjUvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Family.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-family-uk.png" group-title="SKY TV",Sky Cinema Family UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Greats.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-greats-uk.png" group-title="SKY TV",Sky Cinema Greats UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Hits.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-hits-uk.png" group-title="SKY TV",Sky Cinema Hits UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzMvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Premiere.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-premiere-uk.png" group-title="SKY TV",Sky Cinema Premiere UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzEvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Romance.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-romance-it.png" group-title="SKY TV",Sky Cinema Romance Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.ScFi/HorHD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-sci-fi-horror-uk.png" group-title="SKY TV",Sky Cinema Sci-Fi Horror UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW02ODEvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Select.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-select-uk.png" group-title="SKY TV",Sky Cinema Select UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzIvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Suspense.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-suspense.png" group-title="SKY TV",Sky Cinema Suspense Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW04NjgvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Thriller.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-thriller-uk.png" group-title="SKY TV",Sky Cinema Thriller UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02NzkvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Uno.+24.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-uno-plus24-it.png" group-title="SKY TV",Sky Cinema Uno +24 Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjMvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Cinema.Uno.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-uno-it.png" group-title="SKY TV",Sky Cinema Uno Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjAvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Comedy.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-comedy-uk.png" group-title="SKY TV",Sky Comedy UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02ODQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Crime.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-crime-uk.png" group-title="SKY TV",Sky Crime
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02ODUvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.HistoryHD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-history-uk.png" group-title="SKY TV",Sky History
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02ODYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Serie.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-serie-it.png" group-title="SKY TV",Sky Serie Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04ODAvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Showcase.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-showcase-uk.png" group-title="SKY TV",Sky Showcase UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02ODIvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.1.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-1-nz.png" group-title="SKY TV",Sky Sport 1 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTg4L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.2.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-2-nz.png" group-title="SKY TV",Sky Sport 2 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTg5L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport24.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-24-it.png" group-title="SKY TV",Sky Sport 24 Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NjkvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.3.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-3-nz.png" group-title="SKY TV",Sky Sport 3 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTkwL21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.4.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-4-nz.png" group-title="SKY TV",Sky Sport 4 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTkxL21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.5.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-5-nz.png" group-title="SKY TV",Sky Sport 5 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTkyL21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.6.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-6-nz.png" group-title="SKY TV",Sky Sport 6 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTkzL21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.7.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-7-nz.png" group-title="SKY TV",Sky Sport 7 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTk0L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.8.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-8-nz.png" group-title="SKY TV",Sky Sport 8 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTk1L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.9.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-9-nz.png" group-title="SKY TV",Sky Sport 9 NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTk2L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.Arena.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-arena-it.png" group-title="SKY TV",Sky Sport Arena Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW00NjIvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.Bundesliga.1.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-bundesliga-1-hd.png" group-title="SKY TV",Sky Sport Bundesliga 1 HD
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW01NTgvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.Calcio.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-calcio-it.png" group-title="SKY TV",Sky Sport Calcio Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzAvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.F1.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-f1-it.png" group-title="SKY TV",Sky Sport F1 Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9uZnNuZXcubmV3a3NvLnJ1L25mcy9wcmVtaXVtNTc3L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.Max.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-football-it.png" group-title="SKY TV",Sky Sport Max (Sky Sport Football Italy)
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNDYwL21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.Mix.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-mix-de.png" group-title="SKY TV",Sky Sport Mix DE
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW01NTcvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.MotoGP.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-motogp-it.png" group-title="SKY TV",Sky Sport MotoGP Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9uZnNuZXcubmV3a3NvLnJ1L25mcy9wcmVtaXVtNTc1L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.Select.nz" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-select-nz.png" group-title="SKY TV",Sky Sport Select NZ
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTg3L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.Tennis.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-tennis-it.png" group-title="SKY TV",Sky Sport Tennis Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW01NzYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.Top.Event.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-top-event-de.png" group-title="SKY TV",Sky Sport Top Event DE
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTU2L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="Sky.Sport.Uno.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-uno-it.png" group-title="SKY TV",Sky Sport UNO Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW00NjEvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkySp.Action.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-action-uk.png" group-title="SKY TV",Sky Sports Action UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9uZnNuZXcubmV3a3NvLnJ1L25mcy9wcmVtaXVtMzcvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-arena-uk.png" group-title="SKY TV",Sky Sports Arena UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW0zNi9tb25vLm0zdTg=
-
-#EXTINF:-1 tvg-id="SkySp.Cricket.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-cricket-uk.png" group-title="SKY TV",Sky Sports Cricket
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNjUvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SKY.Sport.F1.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-f1-de.png" group-title="SKY TV",Sky Sports F1 DE
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW0yNzQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkySp.F1.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-f1-uk.png" group-title="SKY TV",Sky Sports F1 UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW02MC9tb25vLm0zdTg=
-
-#EXTINF:-1 tvg-id="SkySp.Fball.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-football-uk.png" group-title="SKY TV",Sky Sports Football UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW0zNS9tb25vLm0zdTg=
-
-#EXTINF:-1 tvg-id="Sky.Sport.Golf.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-golf-it.png" group-title="SKY TV",Sky Sports Golf Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW01NzQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkySp.Golf.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-golf-uk.png" group-title="SKY TV",Sky Sports Golf UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW03MC9tb25vLm0zdTg=
-
-#EXTINF:-1 tvg-id="SkySp.Mix.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-mix-uk.png" group-title="SKY TV",Sky Sports MIX UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW00NDkvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-main-event-uk.png" group-title="SKY TV",Sky Sports Main Event
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW0zOC9tb25vLm0zdTg=
-
-#EXTINF:-1 tvg-id="SkySp.News.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-news-uk.png" group-title="SKY TV",Sky Sports News UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW0zNjYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkySportsPremierLeague.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-premier-league-uk.png" group-title="SKY TV",Sky Sports Premier League
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtMTMwL21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="SkySp.Racing.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-racing-uk.png" group-title="SKY TV",Sky Sports Racing UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW01NTQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Sport.Tennis.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-tennis-de.png" group-title="SKY TV",Sky Sports Tennis DE
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04ODQvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="SkySp.Tennis.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sports-tennis-uk.png" group-title="SKY TV",Sky Sports Tennis UK
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW00Ni9tb25vLm0zdTg=
-
-#EXTINF:-1 tvg-id="Sky.Sport.Uno.it" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-uno-it.png" group-title="SKY TV",Sky UNO Italy
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04ODEvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="Sky.Witness.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-witness-uk.png" group-title="SKY TV",Sky Witness HD
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW0zNjEvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="DAZN.1.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-1.png" group-title="DAZN",DAZN 1 Bar DE
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW00MjYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="DAZN.1.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-1.png" group-title="DAZN",DAZN 1 Spain
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW00NDUvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-2.png" group-title="DAZN",DAZN 2 Bar DE
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW00MjcvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="DAZN.2.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-2.png" group-title="DAZN",DAZN 2 Spain
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW00NDYvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="DAZN.3.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-3.png" group-title="DAZN",DAZN 3 Spain
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW00NDcvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="DAZN.4.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-4.png" group-title="DAZN",DAZN 4 Spain
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW00NDgvbW9uby5tM3U4
-
-#EXTINF:-1 tvg-id="DAZN.F1.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-f1.png" group-title="DAZN",DAZN F1 ES
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTM3L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="DAZN.LALIGA.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-laliga.png" group-title="DAZN",DAZN LaLiga
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNTM4L21vbm8ubTN1OA==
-
-#EXTINF:-1 tvg-id="DAZN.LALIGA.2.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/dazn-laliga-2.png" group-title="DAZN",DAZN LaLiga 2
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW00My9tb25vLm0zdTg=
-
-
-
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyspnews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Sky_sports_news_2021_logo.svg/1200px-Sky_sports_news_2021_logo.svg.png",Sky Sports News
+http://p1.cvtv.xyz/ssn?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyf1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/1200px-Sky_Sport_F1_-_Logo_2020.svg.png",Sky Sport F1
+http://p1.cvtv.xyz/f1?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skypl" tvg-logo="https://sender.epglogos.de/302x190_w/12181.png" catchup="default" catchup-days="2" catchup-source="http://hkg.cvtv.xyz:8080/skypl/index-${start}-${duration}.m3u8",Sky Sport Premier League
+http://p1.cvtv.xyz/pl?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skymix" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sky_Sport_Mix_Logo_2022.svg/1200px-Sky_Sport_Mix_Logo_2022.svg.png",Sky Sport Mix
+http://p1.cvtv.xyz/mix?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skybun" tvg-logo="https://sender.epglogos.de/302x190_w/623.png",Sky Sport Bundesliga
+http://p1.cvtv.xyz/bun?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skytennis" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/1200px-Sky_Sport_Tennis.svg.png",Sky Sport Tennis
+http://p1.cvtv.xyz/tennis?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skygolf" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sky_Sport_Golf_Logo_2022.svg/1200px-Sky_Sport_Golf_Logo_2022.svg.png",Sky Sport Golf
+http://p1.cvtv.xyz/golf?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyau1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sky_Sport_Austria_1_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_1_AT_Logo_2020.svg.png",Sky Sport Austria 1
+http://p1.cvtv.xyz/SA1?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyab2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 2
+http://p1.cvtv.xyz/SA2?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyab3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 3
+http://p1.cvtv.xyz/SA3?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyab4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 4
+http://p1.cvtv.xyz/SA4?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="dazn1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/1000px-DAZN_1_Logo.svg.png",DAZN 1
+http://p1.cvtv.xyz/DZ1?token=live
+#EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="dazn2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/1200px-DAZN_2.svg.png",DAZN 2
+http://p1.cvtv.xyz/DZ2?token=live
 #EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="spd" tvg-logo="https://gbcomcdn.com/uploads/production/5f574a8de2f9196327ad89f7/2021/02/sdf_logo_rgb_hoch_02.png",Sportdigital
 http://p1.cvtv.xyz/spd?token=live
 #EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="canalpl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+ Sport
@@ -3244,3 +2394,159 @@ http://p1.cvtv.xyz/tnt2?token=live
 http://p1.cvtv.xyz/tnt3?token=live
 #EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="tnt4" tvg-logo="https://media.info/l/o/1/1491.1690027975.png",TNT Sports 4 4Mbps for 4G
 http://p1.cvtv.xyz/tnt4?token=live
+#EXTINF:-1 tvg-id="Hub.Premier.1.sg" tvg-logo="https://i.imgur.com/ON1gzKM.png" group-title="THỂ THAO QUỐC TẾ", Hub Premier1 FHD
+https://7pal.short.gy/HPremier1
+#EXTINF:-1 tvg-id="Hub.Premier.2.sg" tvg-logo="https://i.imgur.com/fxsOa7l.png" group-title="THỂ THAO QUỐC TẾ", Hub Premier2 FHD
+https://7pal.short.gy/HPremier2
+#EXTINF:-1 tvg-id="Hub.Premier.3.sg" tvg-logo="https://i.imgur.com/EIVrelH.png" group-title="THỂ THAO QUỐC TẾ", Hub Premier3 FHD
+https://7pal.short.gy/HPremier3
+#EXTINF:-1 tvg-id="Now.Sports.Premier.League.1.hk" tvg-logo="https://i.imgur.com/WWi5Cjx.png" group-title="THỂ THAO QUỐC TẾ", Now Sports Premier League1 FHD
+https://7pal.short.gy/nowhkp1
+#EXTINF:-1 tvg-id="Now.Sports.Premier.League.2.hk" tvg-logo="https://i.imgur.com/Gr1qxbC.png" group-title="THỂ THAO QUỐC TẾ", Now Sports PremierLeague 2 FHD
+https://7pal.short.gy/nowhkp2
+#EXTINF:-1 tvg-id="Now.Sports.Premier.League.3.hk" tvg-logo="https://i.imgur.com/kKFsIHz.png" group-title="THỂ THAO QUỐC TẾ", Now Sports Premier eague 3-FHD
+https://7pal.short.gy/nowhkp3
+#EXTINF:-1 tvg-id="Astro.Premier.League.my" tvg-logo="https://i.imgur.com/M4nTRLb.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League FHD
+https://7pal.short.gy/astross1
+#EXTINF:-1 tvg-id="Astro.Premier.League.2.my" tvg-logo="https://i.imgur.com/f6hG3Ok.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League 2 FHD
+https://7pal.short.gy/astross2
+#EXTINF:-1 tvg-id="Astro.Grandstand.my" tvg-logo="https://i.imgur.com/u92HNWn.png" group-title="THỂ THAO QUỐC TẾ", Astro Grandstand FHD
+https://7pal.short.gy/astross3
+#EXTINF:-1 tvg-id="Astro.Football.my" tvg-logo="https://i.imgur.com/ixUEirO.png" group-title="THỂ THAO QUỐC TẾ", Astro Football FHD
+https://7pal.short.gy/astross4
+#EXTINF:-1 tvg-id="USA.Network.-.East.Feed.us" tvg-logo="https://i.imgur.com/a7ZwpAe.png" group-title="THỂ THAO QUỐC TẾ", USA NetWork FHD
+https://7pal.short.gy/usanetwork
+#EXTINF:-1 tvg-id="SkySpMainEvHD.uk" tvg-logo="https://i.imgur.com/gBtWXwY.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports Main Event FHD
+https://7pal.short.gy/SkSpMainE
+#EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-logo="https://i.imgur.com/CMChNM4.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports PremierLeague FHD
+https://7pal.short.gy/ssportspl
+#EXTINF:-1 tvg-id="SkySp.Fball.HD.uk" tvg-logo="https://i.imgur.com/V5FbXRm.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports Football FHD
+https://7pal.short.gy/ssportsfb
+#EXTINF:-1 tvg-id="SkySp.F1.HD.uk" tvg-logo="https://i.imgur.com/mssdWvm.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports F1 FHD
+https://7pal.short.gy/ssportsf1
+#EXTINF:-1 tvg-id="SkySp.Tennis.HD.uk" tvg-logo="https://i.imgur.com/ZNUDU1r.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports Tennis FHD
+https://7pal.short.gy/ssportstn
+#EXTINF:-1 tvg-id="SkySp+.uk" tvg-logo="https://pixvid.org/images/2025/01/21/Sky_Sportsplus.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports+ FHD
+https://7pal.short.gy/ssportplus
+#EXTINF:-1 tvg-id="SkySp.Cricket.uk" tvg-logo="https://i.imgur.com/ZXq4kGB.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports Criket FHD
+https://7pal.short.gy/ssportscrk
+#EXTINF:-1 tvg-id="SkySp.Golf.HD.uk" tvg-logo="https://i.imgur.com/RKUHQi8.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports Golf- FHD
+https://7pal.short.gy/ssportsgf
+#EXTINF:-1 tvg-id="SkySp.News.HD.uk" tvg-logo="https://i.imgur.com/buUigAI.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports News-FHD
+https://7pal.short.gy/ssportsnw
+#EXTINF:-1 tvg-id="SkySp.ActionHD.uk" tvg-logo="https://i.imgur.com/i1yzHZj.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports Action-FHD
+https://7pal.short.gy/ssportsat
+#EXTINF:-1 tvg-id="SkySpBoxOff.uk" tvg-logo="https://pixvid.org/images/2025/01/23/ssports-bo.png" group-title="THỂ THAO QUỐC TẾ", Sky Sports Box Office
+https://7pal.short.gy/ssportsbo
+#EXTINF:-1 tvg-id="SKY.Sport.1.nz" tvg-logo="https://i.postimg.cc/wxDNzRcQ/sky-sport-1.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport1 NZ FHD
+https://7pal.short.gy/skyspt1nz
+#EXTINF:-1 tvg-id="SKY.Sport.2.nz" tvg-logo="https://i.postimg.cc/KvFM8c0S/sky_sport_2.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport2 NZ FHD
+https://7pal.short.gy/skyspt2nz
+#EXTINF:-1 tvg-id="SKY.Sport.3.nz" tvg-logo="https://i.postimg.cc/L88gjCdx/sky_sport_3.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport3 NZ FHD
+https://7pal.short.gy/skyspt3nz
+#EXTINF:-1 tvg-id="SKY.Sport.4.nz" tvg-logo="https://i.postimg.cc/52KYgBbb/sky-sport-4.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport4 NZ FHD
+https://7pal.short.gy/skyspt4nz
+#EXTINF:-1 tvg-id="SKY.Sport.5.nz" tvg-logo="https://i.postimg.cc/3wyyckxp/sky_sport_5.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport5 NZ FHD
+https://7pal.short.gy/skyspt5nz
+#EXTINF:-1 tvg-id="SKY.Sport.6.nz" tvg-logo="https://i.postimg.cc/LsrqKmJW/sky_sport_6.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport6 NZ FHD
+https://7pal.short.gy/skyspt6nz
+#EXTINF:-1 tvg-id="SKY.Sport.7.nz" tvg-logo="https://i.postimg.cc/G2G4b6Ym/sky_sport_7.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport7 NZ FHD
+https://7pal.short.gy/skyspt7nz
+#EXTINF:-1 tvg-id="SKY.Sport.8.nz" tvg-logo="https://i.postimg.cc/PJMNwZSG/Sky-Sport-PL.png" group-title="THỂ THAO QUỐC TẾ", Sky Sport Premier League FHD
+https://7pal.short.gy/skyspt8nz
+#EXTINF:-1 tvg-id="FoxCricket.au" tvg-logo="https://pixvid.org/images/2025/01/31/Fox501.png" group-title="THỂ THAO QUỐC TẾ", Fox Sports 501
+https://7pal.short.gy/fox501au
+#EXTINF:-1 tvg-id="FoxLeague.au" tvg-logo="https://i.imgur.com/7G0lOta.png" group-title="THỂ THAO QUỐC TẾ", Fox Sports 502
+https://7pal.short.gy/fox502au
+#EXTINF:-1 tvg-id="FoxSports503.au" tvg-logo="https://i.imgur.com/fndl6gs.png" group-title="THỂ THAO QUỐC TẾ", Fox Sports 503
+https://7pal.short.gy/fox503au
+#EXTINF:-1 tvg-id="FoxFooty.au" tvg-logo="https://i.imgur.com/0tZxstM.png" group-title="THỂ THAO QUỐC TẾ", Fox Sports 504
+https://7pal.short.gy/fox504au
+#EXTINF:-1 tvg-id="FoxSports505.au" tvg-logo="https://i.imgur.com/pnrLdcb.png" group-title="THỂ THAO QUỐC TẾ", Fox Sports 505
+https://7pal.short.gy/fox505au
+#EXTINF:-1 tvg-id="FoxSports506.au" tvg-logo="https://i.imgur.com/XkOpNPe.png group-title="THỂ THAO QUỐC TẾ", Fox Sports 506
+https://7pal.short.gy/fox506au
+#EXTINF:-1 tvg-id="FoxSportsMore.au" tvg-logo="https://i.imgur.com/PeDP6zC.png" group-title="THỂ THAO QUỐC TẾ", Fox Sports 507
+https://7pal.short.gy/fox507au
+#EXTINF:-1 tvg-id="Sportsnet.One.ca" tvg-logo="https://i.imgur.com/ttlElcO.png" group-title="THỂ THAO QUỐC TẾ", Sportsnet ONE
+https://7pal.short.gy/sptsnet1
+#EXTINF:-1 tvg-id="Sportsnet.360.ca" tvg-logo="https://i.imgur.com/oKnzVLr.png" group-title="THỂ THAO QUỐC TẾ", Sportsnet 360
+https://7pal.short.gy/sptsnet360
+#EXTINF:-1 tvg-id="Sportsnet.(Ontario).ca" tvg-logo="https://i.imgur.com/UDfhP02.png" group-title="THỂ THAO QUỐC TẾ", Sportsnet Ontario
+https://7pal.short.gy/sptsneton
+#EXTINF:-1 tvg-id="TSN1.ca" tvg-logo="https://i.imgur.com/VUPAGWN.png" group-title="THỂ THAO QUỐC TẾ", TSN1
+https://7pal.short.gy/tsn1ca
+#EXTINF:-1 tvg-id="TSN2.ca" tvg-logo="https://i.imgur.com/SWscg4w.png" group-title="THỂ THAO QUỐC TẾ", TSN2
+https://7pal.short.gy/tsn2ca
+#EXTINF:-1 tvg-id="TSN3.ca" tvg-logo="https://i.imgur.com/KBQSJxA.png" group-title="THỂ THAO QUỐC TẾ", TSN3
+https://7pal.short.gy/tsn3ca
+#EXTINF:-1 tvg-id="TSN4.ca" tvg-logo="https://i.imgur.com/ofAoWIg.png" group-title="THỂ THAO QUỐC TẾ", TSN4
+https://7pal.short.gy/tsn4ca
+#EXTINF:-1 tvg-id="TSN5.ca" tvg-logo="https://i.imgur.com/6M4zAci.png" group-title="THỂ THAO QUỐC TẾ", TSN5
+https://7pal.short.gy/tsn5ca
+#EXTINF:-1 tvg-id="CBS.Sports.Network.USA.us" tvg-logo="https://i.imgur.com/uo7pHjF.png" group-title="THỂ THAO QUỐC TẾ", CBS Sport Network
+https://7pal.short.gy/cbssptnw
+#EXTINF:-1 tvg-id="MSG.(Madison.Square.Gardens).us" tvg-logo="https://i.imgur.com/OLFLQi1.jpg" group-title="THỂ THAO QUỐC TẾ", MSG
+https://7pal.short.gy/msgusa
+#EXTINF:-1 tvg-id="MSG.Plus.us" tvg-logo="https://i.imgur.com/OLFLQi1.jpg" group-title="THỂ THAO QUỐC TẾ", MSG+
+https://7pal.short.gy/msgsn
+#EXTINF:-1 tvg-id="NFL.Network.us" tvg-logo="https://i.imgur.com/XKBiWym.jpg" group-title="THỂ THAO QUỐC TẾ", NFL Network
+https://7pal.short.gy/nflnw
+#EXTINF:-1 tvg-id="NFL.RedZone.us" tvg-logo="https://i.imgur.com/R4P4iyv.png" group-title="THỂ THAO QUỐC TẾ", USA: NFL Redzone
+https://7pal.short.gy/nflredz
+#EXTINF:-1 tvg-id="ESPN.us" tvg-logo="https://variety.com/wp-content/uploads/2013/09/espn-logo.jpg" group-title="THỂ THAO QUỐC TẾ", ESPN 
+https://7pal.short.gy/espnus
+#EXTINF:-1 tvg-id="ESPN2.us" tvg-logo="https://logowik.com/content/uploads/images/espn24510.jpg" group-title="THỂ THAO QUỐC TẾ" ESPN2 
+https://7pal.short.gy/espn2
+#EXTINF:-1 tvg-id="WWE.Network.us" tvg-logo="https://i.imgur.com/Nq4lPP4.png" group-title="THỂ THAO QUỐC TẾ", WWE Network
+https://7pal.short.gy/wwenw
+#EXTINF:-1 tvg-id="NBA.TV.USA.us" tvg-logo="https://i.imgur.com/qAT0jSA.png" group-title="THỂ THAO QUỐC TẾ", NBA TV
+https://7pal.short.gy/nbatvus
+#EXTINF:-1 tvg-id="MLB.Network.us" tvg-logo="https://i.imgur.com/ZGrahiw.png" group-title="THỂ THAO QUỐC TẾ", MLB Network
+https://7pal.short.gy/mlbnw
+#EXTINF:-1 tvg-id="NHL.Network.USA.us" tvg-logo="https://i.imgur.com/tx3IEJV.png" group-title="THỂ THAO QUỐC TẾ", NHL Network
+https://7pal.short.gy/nhlnw
+#EXTINF:-1 tvg-id="The.Fight.Network.(United.States).(TFN).us" tvg-logo="https://i.imgur.com/74er6Jm.png" group-title="THỂ THAO QUỐC TẾ", UFC 24/7
+https://7pal.short.gy/ufc247
+#EXTINF:-1 tvg-id="The.Tennis.Channel.us" tvg-logo="https://i.imgur.com/QCT1frc.png" group-title="THỂ THAO QUỐC TẾ", Tennis Channel
+https://7pal.short.gy/tennisc
+#EXTINF:-1 tvg-id="SEC.Network.us" tvg-logo="https://i.imgur.com/Syh6HDB.png" group-title="THỂ THAO QUỐC TẾ", SEC Network
+https://7pal.short.gy/secnw
+#EXTINF:-1 tvg-id="YES.Network.us" tvg-logo="https://i.imgur.com/TNICRph.png" group-title="THỂ THAO QUỐC TẾ", YES Network
+https://7pal.short.gy/yesnw
+#EXTINF:-1 tvg-id="Fox.Sports.1.us" tvg-logo="https://pixvid.org/images/2025/01/25/fs1.png" group-title="THỂ THAO QUỐC TẾ",FS 1
+https://7pal.short.gy/fs1us
+#EXTINF:-1 tvg-id="Fox.Sports.2.us" tvg-logo="https://pixvid.org/images/2025/01/25/fs2.png" group-title="THỂ THAO QUỐC TẾ", FS 2
+https://7pal.short.gy/fs2us
+#EXTINF:-1 tvg-id="Premier.Sports.1.HD.ie" tvg-logo="https://i.imgur.com/1Ob8v6K.png" group-title="THỂ THAO QUỐC TẾ", PremierSports1-FHD
+https://7pal.short.gy/prsport1
+#EXTINF:-1 tvg-id="Premier.Sports.2.HD.ie" tvg-logo="https://i.imgur.com/IwezEnz.png" group-title="THỂ THAO QUỐC TẾ", PremierSports2-FHD
+https://7pal.short.gy/prsport2
+#EXTINF:-1 tvg-id="EPL.za" tvg-logo="https://i.imgur.com/Boxa3qc.png" group-title="THỂ THAO QUỐC TẾ", Supersport_Premier_League-FHD
+https://7pal.short.gy/spersppl
+#EXTINF:-1 tvg-id="FOOTBALL.za" tvg-logo="https://images.supersport.com/media/wx5prn11/football-6.png" group-title="THỂ THAO QUỐC TẾ", Supersport_Football-FHD
+https://7pal.short.gy/sperspfb
+#EXTINF:-1 tvg-id="LA.LIGA.za" tvg-logo="https://images.supersport.com/media/ngsfbrab/laliga.png" group-title="THỂ THAO QUỐC TẾ", Supersport_Laliga-FHD
+https://7pal.short.gy/sperspllg
+#EXTINF:-1 tvg-id="PSL.za" tvg-logo="https://images.supersport.com/media/o1qmay0z/psl-1.png" group-title="THỂ THAO QUỐC TẾ", Supersport_PSL-FHD
+https://7pal.short.gy/spersppsl
+#EXTINF:-1 tvg-id="MOTORSPORT.za" tvg-logo="https://i.imgur.com/WpL99ea.png" group-title="THỂ THAO QUỐC TẾ", Supersport_Motosport-FHD
+https://7pal.short.gy/sperspmts
+#EXTINF:-1 tvg-id="ACTION.za" tvg-logo="https://images.supersport.com/media/krybzs0y/action-1.png" group-title="THỂ THAO QUỐC TẾ", Supersport_Action-FHD
+https://7pal.short.gy/sperspat
+#EXTINF:-1 tvg-id="RUGBY.za" tvg-logo="https://images.supersport.com/media/ngeluwwy/rugby-5.png" group-title="THỂ THAO QUỐC TẾ", Supersport_Rugby-FHD
+https://7pal.short.gy/spersprb
+#EXTINF:-1 tvg-id="GOLF.za" tvg-logo="https://i.imgur.com/YtTDeWW.jpg" group-title="THỂ THAO QUỐC TẾ", Supersport_Golf-FHD
+https://7pal.short.gy/sperspgf
+#EXTINF:-1 tvg-id="TENNIS.za" tvg-logo="hhttps://i.imgur.com/SfYpvJj.png" group-title="THỂ THAO QUỐC TẾ", Supersport_Tennis-FHD
+https://7pal.short.gy/spersptns
+#EXTINF:-1 tvg-id="Ziggo.Sport.nl" tvg-logo="https://i.imgur.com/jVI5bge.png" group-title="THỂ THAO QUỐC TẾ",Ziggo Sport FHD
+https://7pal.short.gy/zigosfhd
+#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="THỂ THAO QUỐC TẾ", Event 1
+https://7pal.short.gy/event1
+#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="THỂ THAO QUỐC TẾ", Event 2
+https://7pal.short.gy/event2
+#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="THỂ THAO QUỐC TẾ", Event 3
+https://7pal.short.gy/event3
+#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="THỂ THAO QUỐC TẾ", Event 4
+https://7pal.short.gy/event4
