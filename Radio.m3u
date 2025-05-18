@@ -483,9 +483,11 @@ https://online-news.radioplayer.ua/RadioNews
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="http://gg.gg/1980lr" group-title="QUỐC TẾ" radio=true,Radio Ukraine International
 https://radio.ukr.radio:8443/rui-aacplus-l
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Suspilne_Ukrainske_radio_%282022%2C_icon%29.svg/revision/latest?cb=20220523085122" group-title="QUỐC TẾ" radio=true,Ukrainske Radio (UR-1)
-https://radio.ukr.radio:8443/ur1-aacplus-l
+https://radio3.ukr.radio/ur1-mp3
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Suspilne_Ukrainske_radio_%282022%2C_icon%29.svg/revision/latest?cb=20220523085122" group-title="QUỐC TẾ" radio=true,Ukrainske Radio (UR-1) Donbas
+https://radio.ukr.radio:8443/ur1-cr-mp3
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Suspilne_Radio_Promin_%282022%2C_icon%29.svg/revision/latest/scale-to-width-down/250?cb=20220523085338" group-title="QUỐC TẾ" radio=true,Radio Promin (UR-2)
-https://radio.ukr.radio:8443/ur2-aacplus-l
+https://radio3.ukr.radio/ur2-mp3
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e5/Suspilne_Kultura_%282022%2C_icon%29.svg/revision/latest?cb=20220526151239" group-title="QUỐC TẾ" radio=true,Radio Kultura (UR-3)
 https://radio.ukr.radio:8443/ur3-mp3
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/%D0%90%D1%80%D0%BC%D1%96%D1%8F_%D1%84%D0%BC.png" group-title="QUỐC TẾ" radio=true,Ukrainian Forces Radio (Army FM)
@@ -517,17 +519,19 @@ https://icecast.teveo.cu/Jdq3Rbrg
 #EXTINF:-1 tvg-id="NPR" tvg-name="NPR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/NPR_News_logo.svg/512px-NPR_News_logo.svg.png" group-title="QUỐC TẾ" radio=true,NPR (National Public Radio)
 https://npr-ice.streamguys1.com/live.mp3
 #EXTINF:-1 tvg-id="KEXP" tvg-name="KEXP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/KEXP_logo.svg/512px-KEXP_logo.svg.png" group-title="QUỐC TẾ" radio=true,KEXP 90.3 FM Seattle
-https://kexp-mp3-128.streamguys1.com/kexp128.mp3
+https://kexp.streamguys1.com/kexp160.aac
 #EXTINF:-1 tvg-id="KCRW" tvg-name="KCRW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/KCRW_logo.svg/512px-KCRW_logo.svg.png" group-title="QUỐC TẾ" radio=true,KCRW 89.9 Santa Monica
-https://kcrw.streamguys1.com/kcrw_192k_mp3_on_air
+https://streams.kcrw.com/kcrw_mp3
 #EXTINF:-1 tvg-id="WNYC" tvg-name="WNYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WNYC_logo.svg/512px-WNYC_logo.svg.png" group-title="QUỐC TẾ" radio=true,WNYC 93.9 FM New York
-https://fm939.wnyc.org/wnycfm
+https://njpr.wnyc.org/wnycfm-tunein.aac
 #EXTINF:-1 tvg-id="WABC" tvg-name="WABC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/WABC_770_AM_logo.svg/512px-WABC_770_AM_logo.svg.png" group-title="QUỐC TẾ" radio=true,WABC 770 AM New York
-https://stream.abcradio.com/stream/wabcam
+https://playerservices.streamtheworld.com/api/livestream-redirect/WABCAMAAC.aac
 #EXTINF:-1 tvg-id="Z100" tvg-name="Z100" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/WHTZ_logo.svg/512px-WHTZ_logo.svg.png" group-title="QUỐC TẾ" radio=true,Z100 New York
-https://stream.revma.ihrhls.com/zc216/hls.m3u8
+https://ample.revma.ihrhls.com/zc1469/40_celu0cen8d7602/playlist.m3u8
 #EXTINF:-1 tvg-id="KIIS" tvg-name="KIIS FM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/KIIS-FM_logo.svg/512px-KIIS-FM_logo.svg.png" group-title="QUỐC TẾ" radio=true,KIIS FM 102.7 Los Angeles
-https://stream.revma.ihrhls.com/zc197/hls.m3u8
+https://stream.revma.ihrhls.com/zc185/hls.m3u8
+#EXTINF:-1 tvg-id="KIIS" tvg-name="KIIS FM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNQ-8W8BBsuGeuz_nKBFhJgy8SVuZ_QhbvOw&s" group-title="QUỐC TẾ" radio=true,100 Hip Hop and RNB FM
+http://usa13.fastcast4u.com:5429/; 
 #EXTINF:-1 tvg-id="HOT97" tvg-name="HOT 97" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/WQHT_logo.svg/512px-WQHT_logo.svg.png" group-title="QUỐC TẾ" radio=true,HOT 97 New York
 https://playerservices.streamtheworld.com/api/livestream-redirect/WQHTFM_SC
 #EXTINF:-1 tvg-id="KROQ" tvg-name="KROQ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/KROQ_logo.svg/512px-KROQ_logo.svg.png" group-title="QUỐC TẾ" radio=true,KROQ 106.7 FM Los Angeles
@@ -540,6 +544,26 @@ https://wbgo.streamguys1.com/wbgo128
 http://listen.181fm.com/181-beat_128k.mp3
 #EXTINF:-1 tvg-id="181Buzz" tvg-name="181.fm The Buzz" tvg-logo="https://www.181.fm/images/181buzz.png" group-title="QUỐC TẾ" radio=true,181.fm - The Buzz
 http://listen.181fm.com/181-buzz_128k.mp3
+#EXTINF:-1 tvg-id="Los40MX" tvg-name="Los 40 México" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Los_40.svg/512px-Los_40.svg.png" group-title="QUỐC TẾ" radio=true,Los 40 México
+https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac
+#EXTINF:-1 tvg-id="KeBuenaMX" tvg-name="Ke Buena" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ke_Buena_logo.svg/512px-Ke_Buena_logo.svg.png" group-title="QUỐC TẾ" radio=true,Ke Buena
+https://playerservices.streamtheworld.com/api/livestream-redirect/KEBUENAAAC.aac
+#EXTINF:-1 tvg-id="WRadioMX" tvg-name="W Radio México" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/W_Radio_logo.svg/512px-W_Radio_logo.svg.png" group-title="QUỐC TẾ" radio=true,W Radio México
+https://playerservices.streamtheworld.com/api/livestream-redirect/WRADIOAAC.aac
+#EXTINF:-1 tvg-id="LaMejorMX" tvg-name="La Mejor FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/La_Mejor_logo.svg/512px-La_Mejor_logo.svg.png" group-title="QUỐC TẾ" radio=true,La Mejor FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/LAMEJORAAC.aac
+#EXTINF:-1 tvg-id="ExaFM" tvg-name="Exa FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Exa_FM_logo.svg/512px-Exa_FM_logo.svg.png" group-title="QUỐC TẾ" radio=true,Exa FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/EXAAAC.aac
+#EXTINF:-1 tvg-id="MVSNoticias" tvg-name="MVS Noticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/MVS_Noticias_logo.svg/512px-MVS_Noticias_logo.svg.png" group-title="QUỐC TẾ" radio=true,MVS Noticias
+https://playerservices.streamtheworld.com/api/livestream-redirect/MVSNOTICIASAAC.aac
+#EXTINF:-1 tvg-id="RadioFormula" tvg-name="Radio Fórmula" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Radio_F%C3%B3rmula_logo.svg/512px-Radio_F%C3%B3rmula_logo.svg.png" group-title="QUỐC TẾ" radio=true,Radio Fórmula
+https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOFORMULAAAC.aac
+#EXTINF:-1 tvg-id="Joya937" tvg-name="Joya 93.7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Joya_93.7_logo.svg/512px-Joya_93.7_logo.svg.png" group-title="QUỐC TẾ" radio=true,Joya 93.7
+https://playerservices.streamtheworld.com/api/livestream-redirect/JOYA937AAC.aac
+#EXTINF:-1 tvg-id="LaBestiaGrupera" tvg-name="La Bestia Grupera" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/La_Bestia_Grupera_logo.svg/512px-La_Bestia_Grupera_logo.svg.png" group-title="QUỐC TẾ" radio=true,La Bestia Grupera
+https://playerservices.streamtheworld.com/api/livestream-redirect/LABESTIAGRUFERAAAC.aac
+#EXTINF:-1 tvg-id="RadioDisneyMX" tvg-name="Radio Disney México" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Radio_Disney_logo.svg/512px-Radio_Disney_logo.svg.png" group-title="QUỐC TẾ" radio=true,Radio Disney México
+https://playerservices.streamtheworld.com/api/livestream-redirect/RADIODISNEYAAC.aac
 #EXTINF:-1 channel-id="mjh-radio-ih-6157" tvg-id="mjh-radio-ih-6157" tvg-logo="https://i.iheart.com/v3/re/assets/images/3c268c71-295d-47d8-8015-5eb0c766295c.png" group-title="QUỐC TẾ" radio=true, KIIS 101.1
 https://i.mjh.nz/.r/radio-ih-6157.aac
 #EXTINF:-1 channel-id="mjh-radio-ih-6181" tvg-id="mjh-radio-ih-6181" tvg-logo="https://i.iheart.com/v3/re/assets.streams/6764ac42de73b9d6cbb53fec" group-title="QUỐC TẾ" radio=true, GOLD104.3
@@ -626,34 +650,24 @@ https://i.mjh.nz/.r/radio-ih-9434.aac
 
 #EXTINF:-1 channel-id="mjh-radio-ih-8670" tvg-id="mjh-radio-ih-8670" tvg-logo="https://i.iheart.com/v3/re/new_assets/5ef30c659212d410968ac442" group-title="QUỐC TẾ" radio=true, SYN
 https://i.mjh.nz/.r/radio-ih-8670.aac
-
 #EXTINF:-1 channel-id="mjh-radio-ih-9105" tvg-id="mjh-radio-ih-9105" tvg-logo="https://i.iheart.com/v3/re/new_assets/616522426ab77929c3d783bc" group-title="QUỐC TẾ" radio=true, 89.9 TheLight
 https://i.mjh.nz/.r/radio-ih-9105
-
 #EXTINF:-1 channel-id="mjh-radio-ih-9106" tvg-id="mjh-radio-ih-9106" tvg-logo="https://i.iheart.com/v3/re/new_assets/617f81a94e4d0abbe6e37288" group-title="QUỐC TẾ" radio=true, TheLight MIX
 https://i.mjh.nz/.r/radio-ih-9106
-
 #EXTINF:-1 channel-id="mjh-radio-ih-9177" tvg-id="mjh-radio-ih-9177" tvg-logo="https://i.iheart.com/v3/re/new_assets/617f81c54e4d0abbe6e3728a" group-title="QUỐC TẾ" radio=true, TheLight Worship
 https://i.mjh.nz/.r/radio-ih-9177
-
 #EXTINF:-1 channel-id="mjh-radio-ih-9689" tvg-id="mjh-radio-ih-9689" tvg-logo="https://i.iheart.com/v3/re/assets.streams/63ca07e675c6d3c9b84f4781" group-title="QUỐC TẾ" radio=true, Vision Christian Radio
 https://i.mjh.nz/.r/radio-ih-9689.aac
-
 #EXTINF:-1 channel-id="mjh-radio-ih-9195" tvg-id="mjh-radio-ih-9195" tvg-logo="https://i.iheart.com/v3/re/new_assets/617f2881bd5039e366ef0289" group-title="QUỐC TẾ" radio=true, Woolworths Radio
 https://i.mjh.nz/.r/radio-ih-9195
-
 #EXTINF:-1 channel-id="mjh-radio-ih-6178" tvg-id="mjh-radio-ih-6178" tvg-logo="https://i.iheart.com/v3/re/new_assets/5b862f497f66f2e1e526ba23" group-title="QUỐC TẾ" radio=true, Chemist Warehouse Remix
 https://i.mjh.nz/.r/radio-ih-6178.aac
-
 #EXTINF:-1 channel-id="mjh-radio-ih-7967" tvg-id="mjh-radio-ih-7967" tvg-logo="https://i.iheart.com/v3/re/new_assets/5cf84bc9fde6e9394e432456" group-title="QUỐC TẾ" radio=true, ABC KIDS Listen
 https://i.mjh.nz/.r/radio-ih-7967
-
 #EXTINF:-1 channel-id="mjh-radio-ih-8005" tvg-id="mjh-radio-ih-8005" tvg-logo="https://i.iheart.com/v3/re/new_assets/5b79fec37f66f2a2b9cfd0e9" group-title="QUỐC TẾ" radio=true, Radio Australia
 https://i.mjh.nz/.r/radio-ih-8005
-
 #EXTINF:-1 channel-id="mjh-radio-ih-6998" tvg-id="mjh-radio-ih-6998" tvg-logo="https://i.iheart.com/v3/re/new_assets/f90a1970-15fe-42bd-9340-6449fd56f33f" group-title="QUỐC TẾ" radio=true, SBS Radio 1
 https://i.mjh.nz/.r/radio-ih-6998
-
 #EXTINF:-1 channel-id="mjh-radio-ih-7025" tvg-id="mjh-radio-ih-7025" tvg-logo="https://i.iheart.com/v3/re/new_assets/94379826-2819-4381-a6e8-50266b8b4044" group-title="QUỐC TẾ" radio=true, SBS Radio 2
 https://i.mjh.nz/.r/radio-ih-7025
 
