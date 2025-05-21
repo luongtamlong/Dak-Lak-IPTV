@@ -461,11 +461,10 @@ https://sgchill.io.vn/tv/tv360.php?id=163
 
 
 #EXTINF:-1 tvg-id="" group-title="Phim truyện" group-logo="https://cdn.hqth.me/logo/category/film.png" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000076_IVP_LAND_586x330.jpg", Celestial Movies
-http://php.jdshipin.com:8880/smt.php?id=Celestial
+https://mysupertv.pendy.dpdns.org/TYPD/typd.m3u8
 #EXTINF:-1 tvg-id="" group-title="Phim truyện" group-logo="https://static.wikia.nocookie.net/logos/images/5/53/TVB_Classic_International.png/revision/latest/scale-to-width-down/340?cb=20230714155414&path-prefix=vi", TVB Classic Movies
 http://php.jdshipin.com:8880/smt.php?id=Tvbclassic
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="Phim truyện" tvg-logo="https://i.imgur.com/D2qNVZ7.png",CinemaWorld
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"s14Sp1pCpvkYRyOpD/QtnA","kid":"7nkVVk10OdCb01Vv/MyHpA"}],"type":"temporary"}
@@ -636,8 +635,8 @@ http://125hvt.ddns.net:21585/wbtv/tracks-v1a1/mono.m3u8
 https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
 #EXTINF:-1 tvg-name="tvN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/2880px-Logo_tvN.svg.png" group-title="Giải trí",tvN
 http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
-#EXTINF:-1 tvg-id="warnertvhd" group-title="Giải trí" tvg-logo="https://static.wikia.nocookie.net/logos/images/5/52/TVB_Lifestyle.png/revision/latest/scale-to-width-down/592?cb=20240516115542&path-prefix=vi", TVB Lifestyle
-http://v2h.jdshipin.com/finance2/finance2.stream/chunklist_w102.m3u8
+#EXTINF:-1,tvg-id="娱乐新闻台" tvg-name="娱乐新闻台" tvg-logo="https://epg.112114.xyz/logo/娱乐新闻台.png" group-title="Giải trí",TVB E-News
+https://live.tvfix.org/live/enews/index.m3u8
 #EXTINF:-1 tvg-id="warnertvhd" group-title="Giải trí" tvg-logo="", TVB Xing He
 http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 
@@ -1777,6 +1776,12 @@ http://sport.pendy.dpdns.org/migu/624878970?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBP
 http://sport.pendy.dpdns.org/migu/708869532?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/196/407/202204010052_1642124762081_H169_1080.jpg" group-title="Trung Quốc", CGTN
 http://sport.pendy.dpdns.org/migu/609017205?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
+#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png" group-title="Trung Quốc",北京卫视
+https://smart.pendy.dpdns.org/Smart.php?id=beijing
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png" group-title="Trung Quốc",湖南卫视
+https://smart.pendy.dpdns.org/Smart.php?id=hunan_twn
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="Trung Quốc",浙江卫视
+https://smart.pendy.dpdns.org/Smart.php?id=zhejiang_twn
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/058/351/202106171938_5100043384_H169_1080.jpg" group-title="Trung Quốc", 东方卫视
 http://sport.pendy.dpdns.org/migu/651632648?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/199/408/202104022140_5100156802_H169_1080.jpg" group-title="Trung Quốc", 江苏卫视
@@ -1791,6 +1796,8 @@ http://sport.pendy.dpdns.org/migu/790187291?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBP
 http://sport.pendy.dpdns.org/migu/738910838?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/322/852/202304081513_1677570732561_H169_1080.jpg" group-title="Trung Quốc", 大湾区卫视
 http://sport.pendy.dpdns.org/migu/608917627?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
+#EXTINF:-1,tvg-id="珠江" tvg-name="珠江" tvg-logo="https://epg.112114.xyz/logo/珠江.png" group-title="Trung Quốc",珠江台
+https://smart.pendy.dpdns.org/Smart.php?id=zhujiang
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/163/202501231715_1658138621263_H169_1080.jpg" group-title="Trung Quốc", 湖北卫视
 http://sport.pendy.dpdns.org/migu/947472496?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/164/202501231715_1658138745288_H169_1080.jpg" group-title="Trung Quốc", 吉林卫视
