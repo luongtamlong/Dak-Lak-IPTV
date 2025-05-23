@@ -5,28 +5,37 @@
 #EXTM3U url-tvg="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500interlace=1 aspect-ratio=16:9 m3uautoload=3
 #EXTM3U url-tvg="https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600" 
 
-#EXTINF:-1 group-title="VTV" tvg-id="vtv1t2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/VTV1_logo_2013_final.svg/1200px-VTV1_logo_2013_final.svg.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=210&time=${start}&offset=${duration}",VTV1
-http://p1.cvtv.xyz/vtv1?token=live
-#EXTINF:-1 group-title="VTV" tvg-id="vtv2t2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/VTV2_logo_2013_final.svg/1200px-VTV2_logo_2013_final.svg.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=377&time=${start}&offset=${duration}",VTV2
-http://p1.cvtv.xyz/vtv2?token=live
-#EXTINF:-1 group-title="VTV" tvg-id="vtv3t2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/VTV3_logo_2013_final.svg/1200px-VTV3_logo_2013_final.svg.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=211&time=${start}&offset=${duration}",VTV3
-http://p1.cvtv.xyz/vtv3?token=live
-#EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.ytimg.com/vi/Opv4PmUyi8g/maxresdefault.jpg", VTV4
-https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist.m3u8
-#EXTINF:-1 group-title="VTV" tvg-id="vtv5hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/VTV5_logo_2013_final.svg/1280px-VTV5_logo_2013_final.svg.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=379&time=${start}&offset=${duration}",VTV5
-http://p1.cvtv.xyz/vtv5?token=live
-#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ
-https://live.fptplay53.net/fnxhd1/vtv5tnb_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
+#EXTVLCOPT:http-user-agent=hducanh/1.0.0
+https://rg.hoangducanh.site/vtv1
+#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2 
+https://rg.hoangducanh.site/vtv2
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3
+https://rg.hoangducanh.site/vtv3
+#EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://rg.hoangducanh.site/vtv4
+#EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
+#EXTVLCOPT:http-user-agent=hducanh/1.1.0
+https://rg.hoangducanh.site/vtv5
+#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+https://rg.hoangducanh.site/vtv5tnb
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.imgur.com/R8c2swd.png",VTV5 Tây Nguyên
-https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="VTV" tvg-id="vtvctt2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Logo_%C4%91%C3%A0i_VTV_C%E1%BA%A7n_Th%C6%A1.svg/1200px-Logo_%C4%91%C3%A0i_VTV_C%E1%BA%A7n_Th%C6%A1.svg.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=212&time=${start}&offset=${duration}",VTV Cần Thơ
-http://p1.cvtv.xyz/vtvct?token=live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+https://rg.hoangducanh.site/vtv5tn
+#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.imgur.com/HCpqatZ.png",VTVCần Thơ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://rg.hoangducanh.site/vtv6
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.imgur.com/AgamSNe.png",VTV7
-https://live.fptplay53.net/fnxhd1/vtv7hd_vhls.smil/chunklist_b5000000.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://rg.hoangducanh.site/vtv7
 #EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://i.imgur.com/lpcltL9.png",VTV8
-https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
-https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist_b5000000.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://rg.hoangducanh.site/vtv8
+#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://rg.hoangducanh.site/vtv9
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://i.ytimg.com/vi/fyT_xa-g-Pk/hq720.jpg" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vie-giai-tri-hd/${start}/${offset}",ON Vie Giải trí
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -157,46 +166,35 @@ https://xem.TruyenHinh.Click/CoBan/tv360.Mekong/TuyetDoiKhongKinhDoanh.m3u8
 #EXTVLCOPT:http-user-agent=vuminhthanh
 https://xem.TruyenHinh.Click/CoBan/tv360.PhimAuMy/TuyetDoiKhongKinhDoanh.m3u8
 
-#EXTINF:-1 tvg-id="htv1" group-title="HTV" group-logo="https://teohdtv.github.io/thumbs/Groups/HTV.png" tvg-logo="https://teohdtv.github.io/thumbs/HTV/HTV1.png",HTV1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://i.imgur.com/KEMSBD3.png",HTV1
 https://live.fptplay53.net/epzhd1/htv1_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/HTV2.png",HTV2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://i.imgur.com/Yc3cmAi.png",HTV2
 https://live.fptplay53.net/epzhd1/htv2hd_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="htv3" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/HTV3.png",HTV3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="htv3" group-title="HTV" tvg-logo="https://i.imgur.com/2iE01Ca.png",HTV3
 https://live.fptplay53.net/epzhd1/htv3_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="htv4" group-title="HTV" tvg-logo="https://teohdtv.github.io/thumbs/HTV/HTV4.png",HTV Key
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="htv4" group-title="HTV" tvg-logo="https://i.imgur.com/13jHqoG.png",HTV Key
 https://live.fptplay53.net/epzhd1/htv4_hls.smil/chunklist.m3u8
-#EXTINF:-1 group-title="HTV" tvg-id="htv7hd" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/refs/heads/main/img/htv7.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=128&time=${start}&offset=${duration}",HTV7
-http://p1.cvtv.xyz/htv7?token=live
-#EXTINF:-1 group-title="HTV" tvg-id="htv9hd" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/refs/heads/main/img/htv9.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=190&time=${start}&offset=${duration}",HTV9
-http://p1.cvtv.xyz/htv9?token=live
-#EXTINF:-1 group-title="HTV" tvg-id="htvthethaohd" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/refs/heads/main/img/htvtt.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=18&time=${start}&offset=${duration}",HTV Thể thao
-http://p1.cvtv.xyz/htvtt?token=live
+#EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/PPFu7pv.png",HTV7
+https://live.fptplay53.net/epzch2/htv7hd_abr.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/1SgC1yo.png",HTV9
+https://live.fptplay53.net/epzhd1/htv9hd_vhls.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://i.imgur.com/z7NOxJ3.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=18&time=${start}&offset=${duration}",HTV Thể Thao
+https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="htvcthuanviet" group-title="HTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Htvcthuanviet.jpg" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcthuanviet_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTVC Thuần Việt
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://1011154949.vnns.net/CDN-FPT/HTVC-THUANVIET-HD-ABR/HTV-ABR/HTVC-THUANVIET-HD-1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="htvcgiadinhhd" group-title="HTV" tvg-logo=https://img-zlr1.tv360.vn/image1/2020_09_23/160082347056/e8ce9503d96a_640_360.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcgiadinh_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTVC Gia đình HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://1011154949.vnns.net/CDN-FPT/HTVC-GIADINH-HD-ABR/HTV-ABR/HTVC-GIADINH-HD-1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="htvcphunuhd" group-title="HTV" tvg-logo="https://img-zlr1.tv360.vn/image1/2020_09_23/1600823432136/86f5cc6afcf6_640_360.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/htvc-phu-nu/${start}/${offset}", HTVC Phụ nữ HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://1011154949.vnns.net/CDN-FPT/HTVC-PHUNU-HD-ABR/HTV-ABR/HTVC-PHUNU-HD-1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="htvcdulichhd" group-title="HTV" tvg-logo="https://img-zlr1.tv360.vn/image1/2020/12/25/08/1608860643587/bb01290ccde1_640_360.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/htvc-du-lich-cuoc-song/${start}/${offset}", HTVC Du lịch Cuộc sống HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd1/htvcdulich_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="htvccanhachd" group-title="HTV" tvg-logo="https://img-zlr1.tv360.vn/image1/2020_09_23/1600823449894/0834e6a36f71_640_360.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/htvc-ca-nhac/${start}/${offset}", HTVC Ca nhạc HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://1011154949.vnns.net/CDN-FPT/HTVC-CANHAC-HD-ABR/HTV-ABR/HTVC-CANHAC-HD-1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="htvcphimhd" group-title="HTV" tvg-logo="https://img-zlr1.tv360.vn/image1/2021/07/01/15/1625129239161/48401c7a9ce3_640_360.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcmovieshd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTVC Phim HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://1011154949.vnns.net/CDN-FPT/HTVC-PHIM-HD-ABR/HTV-ABR/HTVC-PHIM-HD-1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="htvcplushd" group-title="HTV" tvg-logo="https://img-zlr1.tv360.vn/image1/2020/12/25/10/160886616399/c002b68d052e_640_360.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/htvc-plus/${start}/${offset}", HTVC Plus HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://1011154949.vnns.net/CDN-FPT/HTVC-PLUS-HD-ABR/HTV-ABR/HTVC-PLUS-HD-1080p/chunks.m3u8
+#EXTINF:0 tvg-id="htvccanhachd" group-title="HTVC" tvg-logo="https://i.imgur.com/ZHVkEIC.png",HTVC Ca Nhạc
+https://live.fptplay53.net/epzhd1/htvcmusic_vhls.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="htvcdulichhd" group-title="HTVC" tvg-logo="https://i.imgur.com/XxIO0E0.png",HTVC Du Lịch và Cuộc Sống
+https://live.fptplay53.net//epzhd1/htvcdulich_vhls.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="htvcgiadinhhd" group-title="HTVC" tvg-logo="https://i.imgur.com/KxWRNH6.png",HTVC Gia Đình
+https://live.fptplay53.net/epzhd1/htvcgiadinh_vhls.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="htvcphimhd" group-title="HTVC" tvg-logo="https://i.imgur.com/SXV3ya9.png",HTVC Phim
+https://live.fptplay53.net/epzhd1/htvcmovieshd_vhls.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="htvcphunuhd" group-title="HTVC" tvg-logo="https://i.imgur.com/PLliKL6.png",HTVC Phụ Nữ
+https://live.fptplay53.net/epzhd1/htvcphunu_vhls.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="htvcthuanviet" group-title="HTVC" tvg-logo="https://i.imgur.com/xmISDWo.png",HTVC Thuần Việt
+https://live.fptplay53.net/epzhd1/htvcthuanviethd_vhls.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="htvcplushd" group-title="HTVC" tvg-logo="https://i.imgur.com/SQ9cLJj.png",HTVC+
+https://live.fptplay53.net/epzhd1/htvcplus_vhls.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="sctv1hd" group-title="SCTV" tvg-logo="https://i.ibb.co/yBnxfhH/sctv1-hd.png",SCTV1
 https://freem3u.xyz/api/live/play.m3u8?tid=sctv1
@@ -641,177 +639,6 @@ https://live.tvfix.org/live/enews/index.m3u8
 http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 
 
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/abc-7-wabc-us.png" tvg-name="ABC (WABC)",ABC
-http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="WSBK.(TV-38).Boston.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" tvg-name="CBS",CBS
-http://p1.cvtv.xyz/cbs?token=live
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-flat-us.png?raw=true" tvg-name="NBC",NBC
-http://p1.cvtv.xyz/nbc?token=live
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="CNBC.USA.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10139_dark_360w_270h.png" tvg-name="CNBC FHD",CNBC
-http://fl5.moveonjoy.com/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="msnbc.HDTV.(msnbcH).us" tvg-name="MSNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/msnbc-alt-us.png" group-title="HOA KỲ" ,MSNBC
-#EXTVLCOPT:http-referrer=https://tvpass.org/
-#EXTVLCOPT:http-origin=https://tvpass.org
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://tvpass.org/live/CNBC/hd/
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/fox-5-wnyw-us.png" tvg-name="FOX (WNYW)",FOX
-http://p1.cvtv.xyz/fox?token=live
-#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" group-title="HOA KỲ" ,CNN
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="Nickelodeon.USA.-.East.Feed.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png" tvg-name="Nickelodeon",Nickelodeon
-http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="Nick.Jr..-.East.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19211_dark_360w_270h.png" tvg-name="NickJr",NickJr
-http://fl2.moveonjoy.com/NICK_JR/index.m3u8
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="Nick.Music.(NICM).us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nick-music-us.png?raw=true" tvg-name="NickMusic USA",NickMusic USA
-http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8
-#EXTINF:-1 group-title="HOA KỲ" tvg-id="Nicktoons.-.East.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nick-toons-us.png?raw=true" tvg-name="NickToons",NickToons
-http://fl1.moveonjoy.com/NICKTOONS/index.m3u8
-#EXTINF:-1 tvg-id="Telemundo..-.Eastern.Feed.us" tvg-name="Telemundo - Eastern Feed" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/telemundo-us.png" group-title="HOA KỲ",Telemundo
-#EXTVLCOPT:http-referrer=https://tvpass.org/
-#EXTVLCOPT:http-origin=https://tvpass.org
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://tvpass.org/live/TelemundoEast/hd/
-#EXTINF:-1 tvg-id="Univision.-.Eastern.Feed.us" tvg-name="Univision - Eastern Feed" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/univision-us.png" group-title="HOA KỲ",Univision
-#EXTVLCOPT:http-referrer=https://tvpass.org/
-#EXTVLCOPT:http-origin=https://tvpass.org
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://tvpass.org/live/UnivisionEast/hd/
-#EXTINF:-1 tvg-id="VH1.-.Eastern.Feed.us" tvg-name="VH1 - Eastern Feed" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11218_dark_360w_270h.png" group-title="HOA KỲ",VH1
-#EXTVLCOPT:http-referrer=https://tvpass.org/
-#EXTVLCOPT:http-origin=https://tvpass.org
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://tvpass.org/live/VH1East/hd/
-#EXTINF:-1 tvg-id="VICE.us" tvg-name="VICE" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18822_dark_360w_270h.png" group-title="HOA KỲ",VICE
-#EXTVLCOPT:http-referrer=https://tvpass.org/
-#EXTVLCOPT:http-origin=https://tvpass.org
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://tvpass.org/live/VICETV/hd/
-
-#EXTINF:-1 group-title="ANH QUỐC"  tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1200px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png",BBC News
-http://p1.cvtv.xyz:81/bbcn?token=live
-#EXTINF:-1 group-title="ANH QUỐC" tvg-id="BBCOneLondonHD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/1200px-BBC_One_logo_2021.svg.png",BBC One
-http://p1.cvtv.xyz:81/bbc1?token=live
-#EXTINF:-1 group-title="ANH QUỐC" tvg-id="BBCTwoHD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/1200px-BBC_Two_logo_2021.svg.png",BBC Two
-http://p1.cvtv.xyz:81/bbc2?token=live
-#EXTINF:-1 tvg-id="BBC.Three.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bbc-three.png" group-title="ANH QUỐC",BBC Three
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW0zNTgvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bbc-four.png" group-title="ANH QUỐC",BBC Four
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtMzU5L21vbm8ubTN1OA==
-#EXTINF:-1 group-title="ANH QUỐC" tvg-id="BBCRedButton1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/BBC_Red_Button_2021.svg/1200px-BBC_Red_Button_2021.svg.png",BBC RB 1
-http://p1.cvtv.xyz:81/bbcrb?token=live
-#EXTINF:-1 group-title="ANH QUỐC" tvg-id="ITV1London.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1200px-ITV1_logo_%282022%29.svg.png",ITV1
-http://p1.cvtv.xyz/itv1?token=live
-#EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/itv-2-uk.png" group-title="ANH QUỐC",ITV2
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW0zNTEvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/itv-3-uk.png" group-title="ANH QUỐC",ITV3
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW0zNTIvbW9uby5tM3U4
-#EXTINF:-1 group-title="ANH QUỐC" tvg-id="ITV4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1200px-ITV4_logo_%282022%29.svg.png",ITV4
-http://p1.cvtv.xyz/itv4?token=live
-#EXTINF:-1 tvg-id="Channel4.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/channel-4-uk.png" group-title="ANH QUỐC",Channel 4
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW0zNTQvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="Channel.5.uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/channel-5-uk.png" group-title="ANH QUỐC",Channel 5
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW0zNTUvbW9uby5tM3U4
-
-#EXTINF:-1 group-title="ĐỨC" tvg-id="ard" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Das_Erste-Logo_klein.svg/1200px-Das_Erste-Logo_klein.svg.png",Das Erste
-http://p1.cvtv.xyz:81/ard?token=live
-#EXTINF:-1 group-title="ĐỨC" tvg-id="zdf" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1200px-ZDF_logo.svg.png",ZDF
-http://p1.cvtv.xyz:81/zdf?token=live
-#EXTINF:-1 group-title="ĐỨC" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTg56Kqn1XUaTDo8AYwkPKtzgfkTcZwkB9Xw&s",Phoenix
-https://s4.hopslan.com/phoenixX/index.m3u8
-#EXTINF:-1 tvg-id="RTL.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rtl-de.png" group-title="ĐỨC",RTL
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03NDAvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/3sat.png" group-title="ĐỨC",3sat
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MjYvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="ARTE.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/arte.png" group-title="ĐỨC",Arte
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MjUvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="HR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/hr-fernsehen.png" group-title="ĐỨC",HR Fernsehen
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03NDAvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="kabel.eins.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/kabel-eins.png" group-title="ĐỨC",Kabel Eins (Kabel 1) DE
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzEvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="MDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/mdr-de.png" group-title="ĐỨC",MDR
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzMvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/ndr-de.png" group-title="ĐỨC",NDR
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzYvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="ProSieben.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/prosieben.png" group-title="ĐỨC",ProSieben (PRO7)
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzAvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="SAT.1.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sat.1-de.png" group-title="ĐỨC",SAT.1
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MjkvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="SRFernsehen(src01).de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sr-fernsehen-de.png" group-title="ĐỨC",SR Fernsehen
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzkvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="SUPER.RTL.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/super-rtl-de.png" group-title="ĐỨC",SUPER RTL
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzgvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="SWR/SR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/swr-de.png" group-title="ĐỨC",SWR
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzUvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="sixx.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sixx-de.png" group-title="ĐỨC",Sixx
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzIvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="WDR.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/wdr-de.png" group-title="ĐỨC",WDR
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MzQvbW9uby5tM3U4
-#EXTINF:-1 tvg-id="ZDFinfo.de" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/zdf-info-de.png" group-title="ĐỨC",ZDF Info
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddylv-proxy.hf.space/watch/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW03MjgvbW9uby5tM3U4
-
 #EXTINF:-1 group-title="HÓNG TIN CHIẾN SỰ" tvg-id="i24NEWSArabic.il",I24 News Arabic 
 https://bcovlive-a.akamaihd.net/95116e8d79524d87bf3ac20ba04241e3/eu-central-1/5377161796001/playlist.m3u8
 #EXTINF:-1 group-title="HÓNG TIN CHIẾN SỰ" tvg-id="i24NEWSEnglishWorld.il",I24 News English 
@@ -862,11 +689,11 @@ https://ncdn.telewebion.com/irinn2/live/playlist.m3u8
 
 
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал HD
-http://p1.cvtv.xyz:81/opt?token=live
+http://178.212.71.253:8000/play/62/index.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал +4
 https://edge1.1internet.tv/dash-live2/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+http://178.212.71.253:8002/play/a00w/index.m3u8?token=test
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1 +4
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 24
