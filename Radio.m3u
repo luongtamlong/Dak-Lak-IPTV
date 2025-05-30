@@ -1,6 +1,6 @@
-#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s", VOV1
+#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s",VOV1
 http://113.164.229.226:7001/stream
-#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s", VOV2
+#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s",VOV2
 http://113.164.229.226:7003/stream
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx1QbZewLeQWABiffxfgjp17UIRByi-lvag&s",VOV3
 http://113.164.229.226:7005/stream
@@ -9,7 +9,7 @@ https://stream.vovmedia.vn/vov4tb
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc0FaMCi9-I6Ni1xsAZ6ReQfQQRvSeCVa2lA&s",VOV MINORITIES SERVICE HIGHLANDS
 https://str.vov.gov.vn/vovlive/vov4.TayNguyen.sdp_aac/playlist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQNhiNTxVkpJRnrGLfGs6MG5H2tqSW4_S9A&s",VOV MINORITIES SERVICE CENTRAL
-http://media.kythuatvov.vn:8035
+https://stream-cdn.vov.vn/live/vov4-audio_only.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://dvw7f7sqjk3ag.cloudfront.net/images/radio/64904.png", VOV MINORITIES SERVICE MEKONG
 http://media.kythuatvov.vn:8031
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Q75utnoZ5wyxce99Xb7r3h0ZX2Au0GuFdQ&s",VOV WORLD SERVICE
@@ -72,7 +72,7 @@ https://live.mediatech.vn/live/285b6e443bc30734725a940da8b0629655b/playlist.m3u8
 http://113.160.131.11:8000/
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,BAC NINH (FM92.1MHz)
 https://stream.thingnet.vn/radio/bacninh_aac/playlist.m3u8
-#EXTINF:-1 group-title="VIỆT NAM" radio=true,TBRV FM THAI BINH (FM97MHz)
+#EXTINF:-1 group-title="VIỆT NAM" radio=true,TBTV FM THAI BINH (FM97MHz)
 http://118.70.118.191:1935/tbtvlive/radio/chunklist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,NAM DINH FM (FM97MHz)
 http://sohoa.truyenthanhthongminh.vn/sohoanamdinh
@@ -115,17 +115,21 @@ http://118.107.85.4:1935/radio/lamdong_aac/playlist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,BPTV-FM (FM89.4MHz)
 https://live.baobinhphuoc.com.vn/bptvlive/radio.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,BTV-FM BINH DUONG (FM92.5MHz)
-https://btvfm011220.cdn.vnns.io/0de12fc91cfbb45a00d30f2f4bf18d561746851096/btv-fm.tms/playlist.m3u8
+https://btvfm011220.cdn.vnns.io/9fdbbec1d946b3be440a176620599c291748522527/btv-fm.tms/chunks.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,DONG NAI RADIO (FM97.5MHz)
 http://118.107.85.5:1935/radio/dongnai_aac/playlist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,LONG AN (FM96.9MHz)
 https://cdn.la34.com.vn/live/2851dd3d9016ac74d84b0c4a7a659f76891/playlist.m3u8
+#EXTINF:-1 group-title="VIỆT NAM" radio=true,BEN TRE (FM97.9MHz)
+https://radiovietnamonline.com/api/v3/radios/phatthanh/radio-bentre.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,DONG THAP (FM98.4MHz)
 https://64d0d74b76158.streamlock.net/THDTR/thdtradio/playlist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,TIEN GIANG (FM96.2MHz)
 http://123.25.238.45:1935/live/radio/chunklist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,TRA VINH (FM92.7MHz)
 https://60acee235f4d5.streamlock.net/THTVR/travinhradio/playlist.m3u8
+#EXTINF:-1 group-title="VIỆT NAM" radio=true,THVL RADIO VINH LONG (FM90.2MHz)
+https://radiovietnamonline.com/api/v3/radios/phatthanh/radio-vinhlong.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,CAN THO (FM97.3MHz)
 https://live.canthotv.vn/live/radio/playlist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true,HAU GIANG (FM89.6MHz)
@@ -161,19 +165,6 @@ https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a5
 https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/svztgcvwrjew.png", Scientific Sounds Asia
 http://carol.epichosts.co.uk:8270/live.mp3
-
-#EXTINF:-1 tvg-id="KVVN" tvg-name="KVVN 1430 AM" tvg-logo="https://kvvn.net/wp-content/uploads/2021/01/KVVN-Logo.png" group-title="RẠP XIẾC BA QUE" radio=true,KVVN 1430 AM
-https://us2.maindigitalstream.com/ssl/KVVN
-#EXTINF:-1 tvg-id="KRVA" tvg-name="KRVA 1600 AM" tvg-logo="https://vva1600.com/wp-content/uploads/2021/01/KRVA-Logo.png" group-title="RẠP XIẾC BA QUE" radio=true,KRVA 1600 AM
-https://s9.citrus3.com:8246/stream
-#EXTINF:-1 tvg-id="KGOW" tvg-name="Viet Radio 1560 AM" tvg-logo="https://vietradio.com/wp-content/uploads/2021/01/VietRadio-Logo.png" group-title="RẠP XIẾC BA QUE" radio=true,Viet Radio 1560 AM
-http://71.4.56.20/3rdout/radio.hou.std2/icecast.audio
-#EXTINF:-1 tvg-id="KVNR" tvg-name="Little Saigon Radio 1480 AM" tvg-logo="https://kvnr1480.com/wp-content/uploads/2021/01/LittleSaigonRadio-Logo.png" group-title="RẠP XIẾC BA QUE" radio=true,Little Saigon Radio 1480 AM
-https://stream.zeno.fm/2znsmu8d8zquv
-#EXTINF:-1 tvg-id="KALI" tvg-name="Radio VNCR 106.3 FM" tvg-logo="https://radiovncr.com/wp-content/uploads/2021/01/RadioVNCR-Logo.png" group-title="RẠP XIẾC BA QUE" radio=true,Radio VNCR 106.3 FM
-https://ice5.securenetsystems.net/KALI
-#EXTINF:-1 tvg-id="KALI" tvg-name="Radio VNCR 106.3 FM" tvg-logo="https://radiovncr.com/wp-content/uploads/2021/01/RadioVNCR-Logo.png" group-title="RẠP XIẾC BA QUE" radio=true,VIEN THAO RADIO
-http://stream.zeno.fm/dw22656b8e9uv
 
 
 #EXTINF:-1 tvg-id="france24eng" tvg-name="BBC World Service" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_World_Service_2022_%28Boxed%29.svg/1920px-BBC_World_Service_2022_%28Boxed%29.svg.png" group-title="QUỐC TẾ" radio=true,BBC World Service Asia 
@@ -240,6 +231,8 @@ https://ice-sov.musicradio.com/HeartLondonHD?hdauth=:2000000000:a290d4b39a161530
 https://ice-sov.musicradio.com/SmoothUKHD?hdauth=:2000000000:a290d4b39a16153061d4c743008b9fe8d424a7e5ec6469d40acf51fdcd336e80
 #EXTINF:-1 tvg-id="france24eng" tvg-name="Classic FM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Hits_Radio_2024.svg/1200px-Hits_Radio_2024.svg.png" group-title="QUỐC TẾ" radio=true,Hits Radio
 https://edge-bauerall-01-gos2.sharp-stream.com/hits.aac 
+#EXTINF:-1 tvg-id="france24eng" tvg-name="Classic FM" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lPSbdpOLl8kB5AAwpZ69yqMr2D1xDeY7GRN8zqUetUy-o=s900-c-k-c0x00ffffff-no-rj" group-title="QUỐC TẾ" radio=true,Absolute Radio
+https://edge-bauerall-01-gos2.sharp-stream.com/absoluteradio.mp3
 #EXTINF:-1 tvg-id="france24eng" tvg-name="Talksport" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="QUỐC TẾ" radio=true,TalkSport
 http://radio.talksport.com/stream?aisGetOriginalStream=true
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://i1.sndcdn.com/avatars-000150249392-s07rb1-t1080x1080.jpg" group-title="QUỐC TẾ" radio=true,RTE Radio 1
@@ -545,7 +538,7 @@ http://listen.181fm.com/181-beat_128k.mp3
 #EXTINF:-1 tvg-id="181Buzz" tvg-name="181.fm The Buzz" tvg-logo="https://www.181.fm/images/181buzz.png" group-title="QUỐC TẾ" radio=true,181.fm - The Buzz
 http://listen.181fm.com/181-buzz_128k.mp3
 #EXTINF:-1 tvg-id="Los40MX" tvg-name="Los 40 México" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Los_40.svg/512px-Los_40.svg.png" group-title="QUỐC TẾ" radio=true,Los 40 México
-https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac
+ https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_MEXICO.mp3
 #EXTINF:-1 tvg-id="KeBuenaMX" tvg-name="Ke Buena" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ke_Buena_logo.svg/512px-Ke_Buena_logo.svg.png" group-title="QUỐC TẾ" radio=true,Ke Buena
 https://playerservices.streamtheworld.com/api/livestream-redirect/KEBUENAAAC.aac
 #EXTINF:-1 tvg-id="WRadioMX" tvg-name="W Radio México" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/W_Radio_logo.svg/512px-W_Radio_logo.svg.png" group-title="QUỐC TẾ" radio=true,W Radio México
