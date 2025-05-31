@@ -536,6 +536,14 @@ https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
 #EXTVLCOPT:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="tfcasia" tvg-name="TFC ASIA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Cfo9k6CeS3CkU0fvi4PZifrkt9s8bMmBAA&usqp=CAU" group-title="Quốc tế",TFC
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=9568cc84e1d944f38eac304517eab6fd:f12142af8f39b3bab79d3679d3665ebe
+https://d1facupi3cod3q.cloudfront.net/out/v1/e3633f8591e248b0af1af15a474bfa4a/index.mpd
+#EXTINF:-1 tvg-id="tfcasia" tvg-name="ANC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Cfo9k6CeS3CkU0fvi4PZifrkt9s8bMmBAA&usqp=CAU" group-title="Quốc tế",ANC
+#KODIPROP:inputstream.adaptive.license_type=Clearkey
+#KODIPROP:inputstream.adaptive.license_key=4bbdc78024a54662854b412d01fafa16:6039ec9b213aca913821677a28bd78ae
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7f/GMA_Pinoy_TV_(2011).png/revision/latest/scale-to-width-down/250?cb=20230617204705" group-title="Quốc tế",GMA Pinoy TV
 #KODIPROP:inputstream.adaptive.license_type=Clearkey
 #KODIPROP:inputstream.adaptive.license_key=c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058
@@ -938,28 +946,22 @@ http://dmi3y-tv.ru/hls/blrus/CH_BELARUS1HD.m3u8
 http://dmi3y-tv.ru/hls/blrus/CH_BELARUS2HD.m3u8
 #EXTINF:-1 tvg-id="belarus3" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/belarus3.png", Belarus 3
 http://dmi3y-tv.ru/hls/blrus/CH_BELARUS3HD.m3u8
-#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/belarus4.png", Belarus 5
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/belarus5.png", Belarus 5
 http://dmi3y-tv.ru/hls/blrus/CH_BELARUS5HD.m3u8
+#EXTINF:-1 tvg-id="belarus4-vitebsk" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/belarus5.png", Belarus 5 Internet
+http://dmi3y-tv.ru/hls/blrus/CH_BELARUS5_INTHD.m3u8
 #EXTINF:-1 tvg-id="belarus24" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Belarus_24.svg/revision/latest/scale-to-width-down/200?cb=20191008123534", Belarus 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/index.m3u8
 #EXTINF:-1 tvg-id="belarus24" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/e/e8/FirstNews2024.webp/revision/latest/scale-to-width-down/250?cb=20240918133029&path-prefix=ru", Belarus First News HD
-http://dmi3y-tv.ru/hls/blrus/CH_BELARUS5HD.m3u8
+http://dmi3y-tv.ru/hls/blrus/CH_1INFORMATSYONNYHD.m3u8
 #EXTINF:-1 tvg-id="stv-by" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/stv-by4.png", STV
 http://dmi3y-tv.ru/hls/blrus/CH_CTBHD720.m3u8
 #EXTINF:-1 tvg-id="no_epg_news" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/ont-by.png", ONT
 http://dmi3y-tv.ru/hls/blrus/CH_OHTHD.m3u8
 #EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/ntv-belarus.png", NTV-Belarus
-http://194.158.222.36:6106
+http://194.158.222.36:6107
 #EXTINF:-1 tvg-id="rtr-belarus" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus
-http://194.158.222.36:6105
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://www.mtis.by/i/tv_a/mir.png",Mir Belarus
-http://194.158.222.36:6104
-#EXTINF:-1 tvg-id="no_epg_news" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/ont-by.png", ONT Internet
-https://ont.dc.beltelecom.by/ont/ont/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-belarus" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/ntv-belarus.png", NTV-Belarus
 http://194.158.222.36:6106
-#EXTINF:-1 tvg-id="rtr-belarus" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rtr-belarus.png", RTR-Belarus
-http://194.158.222.36:6105
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://www.mtis.by/i/tv_a/mir.png",Mir Belarus
 http://194.158.222.36:6104
 #EXTINF:-1 tvg-id="tro" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/belros.png", BelRos
@@ -2237,6 +2239,46 @@ https://d1211whpimeups.cloudfront.net/smil:rtb1/chunklist_b4096000_slENG.m3u8
 #EXTINF:-1 tvg-id="202" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/aa/RTB_Aneka.png" group-title="ĐÔNG NAM Á",RTB Aneka
 #EXTVLCOPT:http-referrer=https://www.rtbgo.bn/
 https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b4096000_slENG.m3u8
+#EXTINF:-1 tvg-logo="https://iili.io/doGYNpI.png" group-title="ĐÔNG NAM Á",Kapamilya Channel
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
+http://143.44.136.110:6910/001/2/ch00000090990000001286/manifest.mpd?virtualDomain=001.live_hls.zte.com
+#EXTINF:-1 tvg-id="PTV.ph" tvg-logo="https://iili.io/2EyRTXa.png" group-title="ĐÔNG NAM Á",PTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600
+https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd
+#EXTINF:-1 tvg-id="PTV.ph" tvg-logo="https://i.imgur.com/nMSt2j0.png" group-title="ĐÔNG NAM Á",GMA
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=31363231383438333031323033393138:38694e34324d543478316b7455753437
+http://143.44.136.110:6910/001/2/ch00000090990000001093/manifest.mpd?virtualDomain=001.live_hls.zte.com
+#EXTINF:-1 tvg-logo="https://iili.io/JmUFYsR.png" group-title="ĐÔNG NAM Á",TV5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d
+https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd
+#EXTINF:-1 tvg-logo="https://iili.io/JmUF7Wv.png" group-title="ĐÔNG NAM Á",RPTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595
+https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd
+#EXTINF:-1 tvg-id="" tvg-name="TAP TV" tvg-logo="https://deprecated.cc/tv/images/KJaSftF.png" group-title="Entertainment",TAP TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f6804251e90b4966889b7df94fdc621e:55c3c014f2bd12d6bd62349658f24566
+https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd
+#EXTINF:-1 tvg-id="" tvg-name="Tap Edge" tvg-logo="https://deprecated.cc/tv/images/EKt9NGv.png" group-title="Entertainment",Tap Edge
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0f854034412b11edb8780242ac120002:af8ad1c5e3f2e1b751a4f64608f24275
+https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd
+#EXTINF:-1 tvg-id="" tvg-name="Tap Sports" tvg-logo="https://deprecated.cc/tv/images/EEDMg6S.png" group-title="Sports",Tap Sports
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
+#EXTINF:-1 tvg-id="" tvg-name="Tap Movies" tvg-logo="https://deprecated.cc/tv/images/5mRcvMS.png" group-title="Movies",Tap Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595
+https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapmovies_hd1.mpd
+#EXTINF:-1 tvg-id="" tvg-name="Tap Action Flix" tvg-logo="https://deprecated.cc/tv/images/70wmIdp.png" group-title="Movies",Tap Action Flix
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=286e1c2d622c4c73b5c3d72e4a848abd:b7fad67599c1ce3c2fbc9d02b901be05
+https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="TVRISMART" tvg-logo="https://pictr.com/images/2025/01/23/xpbBK2.jpg",TVRI Smart
 https://smart.pendy.dpdns.org/Smart.php?id=TVRI
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="TVRI.id" tvg-logo="https://pictr.com/images/2025/01/23/xpbBK2.jpg",TVRI Nasional
