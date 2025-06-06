@@ -296,8 +296,6 @@ https://xem.TruyenHinh.Click/CoBan/31.YouTV/TuyetDoiKhongKinhDoanh.m3u8
 http://118.71.40.202:9981/stream/channelid/4963272?ticket=95426A5DED67666548708015EF57BD7FD25A9692&profile=pass
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/szivqh2.png",HanoiTV2 HD
 http://118.71.40.202:9981/stream/channelid/228030465?ticket=936337DD2FEFA97CE9784C8F5122FB850B96D97F&profile=pass
-#EXTINF:-1 group-title="Địa phương" tvg-logo="https://iife.edu.vn/wp-content/uploads/2020/04/Hanoitv.png",HanoiTV 4K
-https://cloudstreamqh.tek4tv.vn/live/hntv_events_4K/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="THVL" tvg-logo="https://i.imgur.com/pTVybK6.png"tchup="default"tchup-days="2"tchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=421&time=${start}&offset=${duration}",THVL1
 https://live.fptplay53.net/epzch2/vinhlong1_abr.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="THVL" tvg-logo="https://i.imgur.com/MsHdGNZ.png"tchup="default"tchup-days="2"tchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=423&time=${start}&offset=${duration}",THVL2
@@ -2503,9 +2501,10 @@ https://smart.pendy.dpdns.org/Smart.php?id=JakTV
 
 --------------------------------------------------------------------------------
 
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/szivqh2.png" group-title="Kênh 4K",HanoiTV2 4K
+https://cloudstreamqh.tek4tv.vn/live/hanoi2.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv-pro.github.io/logo/feicui.png" group-title="Kênh 4K",TVB Jade UHD
-http://o12.1678520.xyz/hls/fct4k/playlist.m3u8
+http://cdn.163189.xyz/live/fct4k/stream.m3u8
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-logo="https://i.imgur.com/zzeXXYF.png" group-title="Kênh 4K",Sky Sports Main Event UHD
 https://7pal.short.gy/SSMEuhd
 #EXTINF:-1 tvg-id="Astro.Sports.UHD.my" tvg-logo="https://i.imgur.com/3cW86E5.png" group-title="Kênh 4K",Astro Sports UHD
