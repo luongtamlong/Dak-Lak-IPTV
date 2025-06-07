@@ -1,9 +1,9 @@
-#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s",VOV1
-http://113.164.229.226:7001/stream
-#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s",VOV2
-http://113.164.229.226:7003/stream
-#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx1QbZewLeQWABiffxfgjp17UIRByi-lvag&s",VOV3
-http://113.164.229.226:7005/stream
+#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQTZ7dJbMy7bUpaKXlaY4CvUoxz7IzQasYg&s",VOV1 HD RADIO
+https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8
+#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRy8DNT2EyV0vPm1oye3N2o43VUthJ0_IdA&s",VOV2 HD RADIO
+https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8
+#EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx1QbZewLeQWABiffxfgjp17UIRByi-lvag&s",VOV3 HD RADIO
+https://str.vov.gov.vn/vovlive/vov3.sdp_aac/playlist.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkevQ4B-uXkprvQZ6wKCcSqdGnERaSazGVw&s",VOV MINORITIES SERVICE NORTH
 https://stream.vovmedia.vn/vov4tb
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc0FaMCi9-I6Ni1xsAZ6ReQfQQRvSeCVa2lA&s",VOV MINORITIES SERVICE HIGHLANDS
@@ -13,7 +13,7 @@ https://stream-cdn.vov.vn/live/vov4-audio_only.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://dvw7f7sqjk3ag.cloudfront.net/images/radio/64904.png", VOV MINORITIES SERVICE MEKONG
 http://media.kythuatvov.vn:8031
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Q75utnoZ5wyxce99Xb7r3h0ZX2Au0GuFdQ&s",VOV WORLD SERVICE
-https://stream.vovmedia.vn/vov5
+https://stream-cdn.vov.vn/live/vov5-audio_only.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://img.radios.com.br/radio/xl/radio140193_1660315263.jpg",VOV ENGLISH SERVICE
 https://stream-cdn.vov.vn/live/vov24_7-audio_only.m3u8
 #EXTINF:-1 group-title="VIỆT NAM" radio=true tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBmnLZ3-_NqDwr3upo_xYCff3upAVlIRJlw&s",VOVGT HANOI
@@ -1390,12 +1390,6 @@ https://radio.bsod.kr/stream/playback.pls?stn=mbc&ch=chm
 https://radio.bsod.kr/stream/playback.pls?stn=afn&city=humphreys
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s" group-title="QUỐC TẾ" radio=true,NHK World Radio
 https://nhkwlive-radio.akamaized.net/hls/live/2032384/radio-rs5/index_07.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bf/NHK_Radio_1_%282020%29.svg/revision/latest?cb=20210516114917" group-title="QUỐC TẾ" radio=true,NHK Radio 1
-https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8
-#EXTINF:-1 tvg-logo="http://gg.gg/19dbe9" group-title="QUỐC TẾ" radio=true,NHK Radio 2
-https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/master48k.m3u8
-#EXTINF:-1 tvg-logo="http://gg.gg/19dbed" group-title="QUỐC TẾ" radio=true,NHK FM
-https://ap.fd7.site/hls/radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8
 #EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s287011g.png" group-title="QUỐC TẾ" radio=true,American Forces Radio Tokyo
 https://playerservices.streamtheworld.com/api/livestream-redirect/AFNP_TKO.mp3
 #EXTINF:-1 tvg-logo="https://mmo.aiircdn.com/387/5e763a347e800.png" group-title="QUỐC TẾ" radio=true,J1 Hits
@@ -1539,11 +1533,11 @@ https://rthkradio5-live.akamaized.net/hls/live/2040081/radio5/master.m3u8
 #EXTINF:-1  tvg-name="RTHK5" tvg-logo="https://live.fanmingming.cn/radio/rthk.png" group-title="QUỐC TẾ" radio=true,RTHK Radio Putonghua
 https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/index_56_a-p.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/092/xin-cheng-cai-jing-tai-metro-finance-fm104.68ee386d.jpg" group-title="QUỐC TẾ" radio=true,Metro Finance
-https://1864288729.rsc.cdn77.org/1864288729/tracks-a1/mono.m3u8
+https://1716664847.rsc.cdn77.org/1716664847/index.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/091/xin-cheng-zhi-xun-tai-metroinfo-fm997.91baf2b7.png" group-title="QUỐC TẾ" radio=true,Metro Info
-https://1849807346.rsc.cdn77.org/1849807346/tracks-a1/mono.ts.m3u8
+https://1603884249.rsc.cdn77.org/1603884249/index.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="RTHK Radio PTH" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/090/metro-plus-am-1044.7601dbed.png" group-title="QUỐC TẾ" radio=true,Metro Plus
-https://1942934317.rsc.cdn77.org/1942934317/tracks-a1/mono.ts.m3u8
+https://1946218710.rsc.cdn77.org/1946218710/index.m3u8
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="DRHK" tvg-logo="https://cdn-radiotime-logos.tunein.com/s120798g.png" group-title="QUỐC TẾ" radio=true,Apple FM
 http://sc.apple-fm.net:8188/;
 #EXTINF:-1 tvg-chno="291" tvg-id="france24eng" tvg-name="DRHK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK8he6l8vxdRHBBcqFUGMMjH-1jWBBSQxANw&s" group-title="QUỐC TẾ" radio=true,Radio Lantau
