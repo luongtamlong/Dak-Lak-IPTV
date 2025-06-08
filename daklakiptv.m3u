@@ -539,16 +539,14 @@ https://i.mjh.nz/.r/bloomberg-tv.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/1200px-CNBC_logo.svg.png", CNBC
-http://sv.cvtv.xyz:81/cnbc?token=live
+http://smt.iktv.ddns-ip.net/Smart.php?id=cnbc_twn
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0045028c984fbbefcdae89b4338c4729:b08f10f5089048d11adb741080e00141
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(skynews)/master.mpd?audio=all&subtitle=all&forcedNarrative=true
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://sv.cvtv.xyz:81/cnn?token=live
-#EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN Max
-http://sv.cvtv.xyz:81/cnnm?token=live
+http://smt.iktv.ddns-ip.net/Smart.php?id=cnn_twn
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://i.mjh.nz/.r/channel-news-asia.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
@@ -556,23 +554,19 @@ http://sv.cvtv.xyz:81/cgtn?token=live
 #EXTINF:-1 tvg-id="dw" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24
-http://sv.cvtv.xyz:81/f24?token=live
+https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 French
-http://49.0.64.96:8007/France24
-#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkq6esTeGTSjdiPcB2ThhXamdykciSAQwf5DCNYsvyFZQY-llpimdzMvWSZ-eVhfaZa6M&usqp=CAU", Vatican Media English
-https://youtube.livednow.dpdns.org/youtube/J6MqpK91bEA
-#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkq6esTeGTSjdiPcB2ThhXamdykciSAQwf5DCNYsvyFZQY-llpimdzMvWSZ-eVhfaZa6M&usqp=CAU", Vatican Media Tiếng Việt
-https://youtube.livednow.dpdns.org/youtube/nR5TjVn8IkQ
-#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://ewtn.ie/wp-content/uploads/2022/07/EWTN_roi_logo1-1.png", EWTN
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-id="kbsworld" group-title="Quốc tế" tvg-logo="https://i.imgur.com/vylHBC8.png",KBS World
-https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
+#EXTINF:-1 tvg-id="kbsworldph1" tvg-name="KBS WORLD (CON)" tvg-logo="https://i.imgur.com/0xo8Ivs.png"group-title="Quốc tế",KBS WORLD
+http://143.44.136.113:6910/001/2/ch00000090990000001353/manifest.mpd?virtualDomain=001.live_hls.zte.com
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 #EXTINF:-1 tvg-id="kbskorea" tvg-name="KBS KOREA" tvg-logo="https://i.imgur.com/0xo8Ivs.png" group-title="Quốc tế",KBS KOREA
 http://143.44.136.110:6910/001/2/ch00000090990000001246/manifest.mpd?virtualDomain=001.live_hls.zte.com
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/224.png", NHK World
-http://sv.cvtv.xyz:81/nhkw?token=live
+https://live.tvfix.org/live/nhkworld/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/224.png", NHK World Premium
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/225.png", TV5Monde
@@ -586,7 +580,7 @@ https://rakuten-euronews-10-be.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/WION_news_Logo.svg/140px-WION_news_Logo.svg.png", WION
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://media.glassdoor.com/sqll/1026196/telesur-squarelogo-1584646341590.png", Telesur English
-https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/chunklist_w1864667901.m3u8
+https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/.m3u8
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/200px-Rai_Italia_-_Logo_2017.svg.png" tvg-id="RaiItaliaAsia.it",RAI Italia Asia
 http://49.0.64.96:8007/RAI_Asia
 #EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/2880px-Das_Erste_2014.svg.png", Das Erste International
@@ -612,7 +606,7 @@ https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/pl
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=9568cc84e1d944f38eac304517eab6fd:f12142af8f39b3bab79d3679d3665ebe
 https://d1facupi3cod3q.cloudfront.net/out/v1/e3633f8591e248b0af1af15a474bfa4a/index.mpd
-#EXTINF:-1 tvg-id="tfcasia" tvg-name="TFC ASIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/ABS-CBN_News_Channel_%282015%29.svg" group-title="Quốc tế",ANC
+#EXTINF:-1 tvg-id="tfcasia" tvg-name="ANC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/ABS-CBN_News_Channel_%282015%29.svg" group-title="Quốc tế",ANC
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=4bbdc78024a54662854b412d01fafa16:6039ec9b213aca913821677a28bd78ae
 https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd
@@ -641,9 +635,9 @@ https://tvb.860775.xyz/I-NEWS
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-09/931a1b83173c0557b46f6b7343e7e9f2.png_w250" group-title="Quốc tế",TDM Satellite
 https://globallive.tdm.com.mo/ch3/ch3.live/playlist.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="Quốc tế",Phượng Hoàng Trung Văn
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+https://live.tvfix.org/live/fhzw/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="Quốc tế",Phượng Hoàng Tin Tức
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+https://live.tvfix.org/live/fwzx/index.m3u8
 
 --------------------------------------------------------------------------------
 
@@ -739,6 +733,56 @@ https://x4new.newkso.ru/x4/ustvcbs/mono.m3u8
 https://wikinew.newkso.ru/wiki/ustvnbc/mono.m3u8
 #EXTINF:-1 group-title="BẮC MỸ" tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/us-local/fox-5-wnyw-us.png" tvg-name="FOX (WNYW)",FOX (WNYW)
 http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+
+#EXTINF:-1 group-title="Anh Quốc", BBC News Channel
+https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1 group-title="Anh Quốc", BBC One
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=859e0fc9638e4f7f848412736bcc8bb9:ff4fcc6c04f31a1eaced59d91940c9a7
+https://nlziet-live.akamaized.net/L22/6e958e41/3e8eb32a.isml/.mpd
+#EXTINF:-1 group-title="Anh Quốc", BBC Two
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aef74d2bd07d4a8fb62c698bf837e7f6:0674de7571cd5047892f0012cf7c5238
+https://nlziet-live.akamaized.net/L3/75825848/a684e34a.isml/.mpd
+#EXTINF:-1 group-title="Anh Quốc", BBC Three
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9cc344f5df584c77b9f10d04b7281df7:37020f567d14e9bb8df8d1be0263c3a6
+https://nlziet-live.akamaized.net/L12/4891aa65/2c23ee3a.isml/.mpd
+#EXTINF:-1 group-title="Anh Quốc", BBC Four
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a76ba7bf50494381beca9e2f7e3be96f:c0a14394f5518ec810656323d3fe9903
+https://nlziet-live.akamaized.net/L24/b7d8aaf5/cfe54783.isml/.mpd
+#EXTINF:-1 group-title="Anh Quốc", BBC Parliament
+https://photocall.site/h4tw/fo.m3u8?ch=bbcparliament
+#EXTINF:-1 group-title="Anh Quốc", CBBC
+https://photocall.site/h4tw/fo.m3u8?ch=cbbc
+#EXTINF:-1 group-title="Anh Quốc", CBeebies
+https://photocall.site/h4tw/fo.m3u8?ch=cbeebies
+#EXTINF:-1 group-title="Anh Quốc", ITV1
+https://photocall.site/h4tw/fo.m3u8?ch=itv1
+#EXTINF:-1 group-title="Anh Quốc", ITV2
+https://photocall.site/h4tw/fo.m3u8?ch=itv2
+#EXTINF:-1 group-title="Anh Quốc", ITV3
+https://photocall.site/h4tw/fo.m3u8?ch=itv3
+#EXTINF:-1 group-title="Anh Quốc", ITV4
+https://photocall.site/h4tw/fo.m3u8?ch=itv4
+#EXTINF:-1 group-title="Anh Quốc", Channel 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000000000000000000000000063340a:5ce85f1aa5771900b952f0ba58857d7a
+https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(c4)/manifest.mpd
+#EXTINF:-1 group-title="Anh Quốc", Channel 5
+https://photocall.site/h4tw/fo.m3u8?ch=channel5
+
+--------------------------------------------------------------------------------
+
+#EXTINF:-1 group-title="Đức", ARD Das Erste
+https://s6.hopslan.com/ardX/index.m3u8
+#EXTINF:-1 group-title="Đức", ZDF
+https://s6.hopslan.com/zdfX/index.m3u8
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://editorial.uefa.com/resources/0288-199734d7ac32-76cda290f242-1000/wtw_euro.jpeg" group-title="Đức",RTL
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=57e48b99f3f6d4f13f5c5afdcca084ca:29379a5e2d3405fad2f5d9cbe92586c3
+https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd
 
 --------------------------------------------------------------------------------
 
