@@ -313,17 +313,17 @@ http://icestreaming.rai.it/5.mp3
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://www.fm-world.it/wp-content/uploads/2022/12/noname-300x300.jpg" group-title="QUỐC TẾ" radio=true,Rai No Name Radio
 https://radiodueindie-live.akamaized.net/hls/live/2032593/radiodueindie/radiodueindie/playlist.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://www.radio.net/300/rneradionacional.png?version=9979372343a43d86df0ff67cedbaef2e" group-title="QUỐC TẾ" radio=true,RNE Radio Nacional
-https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r1_main.m3u8
+https://rtvelivestream.rtve.es/rne_r1_main.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzz0TjtZVDEUfOhfzSmulcH8bFp0bQjwN5-Q&s" group-title="QUỐC TẾ" radio=true,RNE Radio Clasica
-https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r2_main.m3u8
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://i1.sndcdn.com/artworks-000304887474-zs77tp-t500x500.jpg" group-title="QUỐC TẾ" radio=true,RNE Radio 3
-https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r3_main.m3u8
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiLlRbQUTqx2Lcf6jvWEL0Jv_0_an2ehYXEg&s" group-title="QUỐC TẾ" radio=true,RNE Radio 4
-https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r4_main.m3u8
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_r4_main.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://cdn-profiles.tunein.com/s15350/images/logog.png?t=153858" group-title="QUỐC TẾ" radio=true,RNE Radio 5
-https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r5_madrid_main.m3u8
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_r5_madrid_main.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://assets.radioplayer.org/724/724505/600/600/kywx5mfr.png" group-title="QUỐC TẾ" radio=true,RNE Radio Exterior de España
-https://rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_re_main.m3u8
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://play-lh.googleusercontent.com/PwCeIUB4bVCk1QqnmGdYQUFkNEe9mCuOWoGyZTOExgFhdGak_1NCerhnl5CTwNUhjw" group-title="QUỐC TẾ" radio=true,Cadena SER
 https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MADRID.mp3
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://i1.sndcdn.com/avatars-000268520477-dhdoss-t1080x1080.jpg" group-title="QUỐC TẾ" radio=true,Cadena 100
@@ -1362,7 +1362,7 @@ http://live.trusl.com:1150/listen.pls?sid=1
 #EXTINF:-1 group-title="QUỐC TẾ" radio=truetvg-name="LAKHANDA" tvg-logo="https://yt3.googleusercontent.com/DpfKudlmh614XUdl3Fa2xgmuwPbZAlU7fzCcKWj39D7ZOWWYo1HpavPkL8mJAWcXpHSleu_Z7w=s900-c-k-c0x00ffffff-no-rj",ITN Lakhanda FM
 https://cp12.serverse.com/proxy/itnfm?mp=/stream
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vzWNcMR.png" group-title="QUỐC TẾ" radio=true,Pyongyang FM
-https://listen7.myradio24.com/69366
+https://myradio24.org/69366
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/KBS_Radio_1_logo.svg/1920px-KBS_Radio_1_logo.svg.png" group-title="QUỐC TẾ" radio=true,KBS World Radio Vietnamese
 http://101.79.244.199:1935/cocotv/_definst_/CH00011/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k-dZqCNGe7z_mB1IZ89d2wp2xDBZYKjBnL1lPYNUfgyQ0=s900-c-k-c0x00ffffff-no-rj" group-title="QUỐC TẾ" radio=true,KBS1 Radio
@@ -1389,6 +1389,8 @@ https://radio.bsod.kr/stream/playback.pls?stn=mbc&ch=sfm
 https://radio.bsod.kr/stream/playback.pls?stn=mbc&ch=chm
 #EXTINF:-1 tvg-logo="https://img.imbc.com/broad/radio/s9_2015_main/quick/__icsFiles/afieldfile/2023/06/16/m_1_1.png" group-title="QUỐC TẾ" radio=true,AFN FM Humphreys
 https://radio.bsod.kr/stream/playback.pls?stn=afn&city=humphreys
+#EXTINF:-1 tvg-logo="https://img.imbc.com/broad/radio/s9_2015_main/quick/__icsFiles/afieldfile/2023/06/16/m_1_1.png" group-title="QUỐC TẾ" radio=true,AFN FM Daegu
+https://playerservices.streamtheworld.com/api/livestream-redirect/AFNP_DGU.mp3
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTm3sRV1dGXPNeiBDKi0k5595Kmc7_xtI4xQ&s" group-title="QUỐC TẾ" radio=true,NHK World Radio
 https://nhkwlive-radio.akamaized.net/hls/live/2032384/radio-rs5/index_07.m3u8
 #EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s287011g.png" group-title="QUỐC TẾ" radio=true,American Forces Radio Tokyo
