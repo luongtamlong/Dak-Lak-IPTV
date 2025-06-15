@@ -427,11 +427,11 @@ http://astreaming.virginradio.ro:8000/VirginRadio_aac
 #EXTINF:-1 tvg-id="france24eng" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/Logo_Kiss_FM.png" group-title="QUỐC TẾ" radio=true, KISS FM ROMANIA
 https://live.rockfm.ro/kissfm.aacp
 #EXTINF:-1 group-title="QUỐC TẾ" radio=truetvg-id="radio-rossii" tvg-logo="https://i.imgur.com/P0In2kv.png",RADIO ROSSII
-https://listen.vdfm.ru:8000/radiorussia
+https://icecast-vgtrk.cdnvideo.ru/rrzonam_mp3_192kbps
 #EXTINF:-1 group-title="QUỐC TẾ" radio=truetvg-id="vesti-fm" tvg-logo="https://i.imgur.com/iFbX0ZH.png",RADIO VESTI
-https://listen18.vdfm.ru:8000/vestifm
+http://90.189.116.233:8000/vestifm
 #EXTINF:-1 group-title="QUỐC TẾ" radio=truetvg-id="radio-mayak" tvg-logo="https://i.imgur.com/Wr2gxLl.png",RADIO MAYAK
-https://listen.vdfm.ru:8000/mayak
+http://90.189.116.233:8000/mayak
 #EXTINF:-1 group-title="QUỐC TẾ" radio=truetvg-id="radio-rossii" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Zvezda_Radio.jpg/800px-Zvezda_Radio.jpg",RADIO ZVEZDA
 https://zvezda-radio-rzv.mediacdn.ru/radio/zvezda/zvezda_128
 #EXTINF:-1 tvg-id="no_epg" group-title="QUỐC TẾ" radio=truetvg-logo="https://www.lyngsat.com/logo/radio/ss/sputnik_international_ru.png",Sputnik (Russian)
@@ -442,16 +442,18 @@ https://noasrv.caster.fm:10034/stream
 https://listen.vdfm.ru:8000/retrofm
 #EXTINF:-1 tvg-id="radio-shanson" tvg-logo="https://i.imgur.com/lbqM3K2.png" group-title="QUỐC TẾ" radio=true,RADIO SHANSON
 http://chanson.hostingradio.ru:8041/chanson256.mp3
+#EXTINF:-1 tvg-id="radio-shanson" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQibxC9WoZvb9FrDz8WT7N_rcM8Qwz2Ye-1uw&s" group-title="QUỐC TẾ" radio=true,KOMSOMOLSKAYA PRAVDA RADIO
+http://5.189.242.203:8000/komsomol.mp3 
 #EXTINF:-1 tvg-id="radio-strana-fm-tv" tvg-logo="https://i.imgur.com/wG8KyeG.png" group-title="QUỐC TẾ" radio=true,Radio Strana
 http://icecast.stranafm.cdnvideo.ru/stranafm
 #EXTINF:-1 group-title="QUỐC TẾ" radio=truetvg-id="europa-plus-radio" tvg-logo="https://i.imgur.com/PlAiIoT.png",Radio Evropa Plus
-https://listen.vdfm.ru:8000/europaplus
+https://online2.gkvr.ru:8000/europa_krd_128.aac
 #EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://i.imgur.com/SPaSFKm.png" group-title="QUỐC TẾ" radio=true,Avtoradio
-https://listen.vdfm.ru:8000/autoradio
+https://pub0201.101.ru/stream/reg/mp3/128/region_avto_122
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i.imgur.com/ViOHdFW.png" group-title="QUỐC TẾ" radio=true,Radio Orfey
-	http://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
+http://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://www.radio.net/300/russkoe.png?version=ea90bb2478e4c6ce273e29cac1c5245c" group-title="QUỐC TẾ" radio=true,Russkoe Radio
-https://listen.vdfm.ru:8000/rusradio
+http://radio.city.kg:8000/rusradio.mp3
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/be/f/f9/%D0%9F%D0%9D%D0%9A%D0%91%D0%A0_%28%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D1%8B%D0%BF%29.jpeg" group-title="QUỐC TẾ" radio=true,BR Pershy Kanal
 http://stream2.datacenter.by:8005/1kanal 
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/be/1/18/%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0_%28%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D1%8B%D0%BF%29.png" group-title="QUỐC TẾ" radio=true,BR Kanal Kultura
