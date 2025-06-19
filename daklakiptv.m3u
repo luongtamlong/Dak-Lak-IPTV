@@ -465,7 +465,7 @@ http://50.7.234.10:8278/hbosignature_twn/playlist.m3u8?tid=m48ee99a5dacb15948906
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86 Build/RSR1.210722.013.A2)
 #EXTINF:-96 tvg-id="CINEMAX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="HBO",Cinemax
-http://smt.iktv.ddns-ip.net/Smart.php?id=Cinemax
+https://smart.pendy.dpdns.org/Smart.php?id=Cinemax
 
 --------------------------------------------------------------------------------
 
@@ -493,7 +493,7 @@ https://xem.TruyenHinh.Click/CoBan/man/TuyetDoiKhongKinhDoanh.m3u8
 --------------------------------------------------------------------------------
 
 #EXTINF:-1 tvg-id="" group-title="Phim truyện" group-logo="https://cdn.hqth.me/logo/category/film.png" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000076_IVP_LAND_586x330.jpg", Celestial Movies
-http://smt.iktv.ddns-ip.net/Smart.php?id=Celestial
+https://smart.pendy.dpdns.org/Smart.php?id=Celestial
 #EXTINF:-1 tvg-id="" group-title="Phim truyện" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b8/CCM_new_Logo.png/revision/latest?cb=20190603053700", Celestial Classic Movies
 http://jxiptv.dpdns.org/stream/tvb/null-11/master.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -503,9 +503,9 @@ http://143.44.136.113:6910/001/2/ch00000090990000001158/manifest.mpd?virtualDoma
 #EXTINF:-1 tvg-id="" group-title="Phim truyện" group-logo="https://static.wikia.nocookie.net/logos/images/5/53/TVB_Classic_International.png/revision/latest/scale-to-width-down/340?cb=20230714155414&path-prefix=vi", TVB Classic Movies
 http://php.jdshipin.com:8880/smt.php?id=Tvbclassic
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="Phim truyện" tvg-logo="https://i.imgur.com/D2qNVZ7.png",Star Movies
-http://smt.iktv.ddns-ip.net/Smart.php?id=starmovies_raj
+https://smart.pendy.dpdns.org/Smart.php?id=starmovies_raj
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="Phim truyện" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Thrilllogo.webp/390px-Thrilllogo.webp.png",Thrill
-http://smt.iktv.ddns-ip.net/Smart.php?id=Thrill
+https://smart.pendy.dpdns.org/Smart.php?id=Thrill
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 #EXTINF:-1 tvg-id="xingkong" tvg-name="XINGKONG" tvg-logo="https://i.imgur.com/0xo8Ivs.png" group-title="Phim truyện",XINGKONG
@@ -539,14 +539,16 @@ https://i.mjh.nz/.r/bloomberg-tv.m3u8
 #EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/1200px-CNBC_logo.svg.png", CNBC
-http://smt.iktv.ddns-ip.net/Smart.php?id=cnbc_twn
+http://sv.cvtv.xyz:81/cnbc?token=live
+#EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/213.png", CBC News
+https://apollo.production-public.tubi.io/live/ac-cbc2.m3u8
 #EXTINF:-1 tvg-id="cnbc" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/1920px-Sky_News_logo.svg.png", Sky News
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0045028c984fbbefcdae89b4338c4729:b08f10f5089048d11adb741080e00141
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(skynews)/master.mpd?audio=all&subtitle=all&forcedNarrative=true
 #EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN
-http://smt.iktv.ddns-ip.net/Smart.php?id=cnn_twn
+http://sv.cvtv.xyz:81/cnn?token=live
 #EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/219.png", CNA
 https://i.mjh.nz/.r/channel-news-asia.m3u8
 #EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/220.png", CGTN
@@ -599,6 +601,8 @@ https://player.smotrim.ru/iframe/stream/live_id/3214d57c-8651-435a-938c-be13bfd0
 https://streaming.skynetconnect.online/live/213.m3u8
 #EXTINF:-1 tvg-id="rentv-int" group-title="Quốc tế" tvg-logo="https://i.imgur.com/0Tu5lte.png",РЕН ТВ International
 https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1560.png" tvg-id="1plus1",1+1 International
+http://88.218.242.235:82/0195/index.m3u8?token=k8M5h1RyLb
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
 #EXTVLCOPT:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
@@ -627,7 +631,7 @@ http://117.158.43.187:2016/全网通.php?id=CCTV4
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch551_425_305",Dragon TV International
 http://jxiptv.dpdns.org/stream/tvb/null-12/master.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Jade Asia
-http://smt.iktv.ddns-ip.net/Smart.php?id=Tvbjade
+https://smart.pendy.dpdns.org/Smart.php?id=Tvbjade
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVBI
 http://php.jdshipin.com/TVOD/iptv.php?id=j1
 #EXTINF:-1 tvg-id="130" tvg-logo="https://i.ibb.co/P5s3ymR/11.png" group-title="Quốc tế",TVB News International
@@ -647,7 +651,7 @@ https://s1.m16tv.cfd/aktv/CH-4/AKTV.m3u8
 #KODIPROP:inputstream.adaptive.license_key=fe0d35dd7f2045e58bfdfeea879a8ae9:6a61e84d6c9147aa68c06d68f1d7b218
 https://atemecdnbalancer-voe.sysln.id/live/eds/AnimalPlanetHD/mpd/AnimalPlanetHD.mpd
 #EXTINF:-1 tvg-id="bbcearth" group-title="Khám phá" group-logo="https://cdn.hqth.me/logo/category/discovery.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/210.png", BBC Earth
-http://smt.iktv.ddns-ip.net/Smart.php?id=bbcearth_twn
+https://smart.pendy.dpdns.org/Smart.php?id=bbcearth_twn
 #EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/482/735/png-transparent-discovery-channel-television-channel-logo-television-show-others-television-globe-logo.png" group-title="KNOWLEDGE",Discovery Channel 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -680,9 +684,9 @@ https://i.mjh.nz/SamsungTVPlus/CHAK3504510A.m3u8
 #KODIPROP:inputstream.adaptive.license_key=367f9bf4d0684f109d74a9eeb68d32be:59983c58c1b0daa1dcc370f697ccaead
 https://atemecdnbalancer-voe.sysln.id/live/eds/AFNHD/mpd/AFNHD.mpd
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/211.png", BBC Lifestyle
-http://smt.iktv.ddns-ip.net/Smart.php?id=bbclifestyle_twn
+https://smart.pendy.dpdns.org/Smart.php?id=bbclifestyle_twn
 #EXTINF:-1 tvg-name="tvN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/2880px-Logo_tvN.svg.png" group-title="Giải trí",tvN
-http://smt.iktv.ddns-ip.net/Smart.php?id=TVN
+https://smart.pendy.dpdns.org/Smart.php?id=TVN
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/eE9IBhJ.png" group-title="Giải trí",tvN Premium HD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -690,9 +694,9 @@ http://smt.iktv.ddns-ip.net/Smart.php?id=TVN
 #KODIPROP:inputstream.adaptive.license_key=e1bde543e8a140b38d3f84ace746553e:b712c4ec307300043333a6899a402c10
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd
 #EXTINF:-1 tvg-id="dmax" group-title="Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/230.png", ONE
-http://smt.iktv.ddns-ip.net/Smart.php?id=One
+https://smart.pendy.dpdns.org/Smart.php?id=One
 #EXTINF:-1 tvg-id="dmax" group-title="Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/230.png", Kplus
-http://smt.iktv.ddns-ip.net/Smart.php?id=Kplus
+https://smart.pendy.dpdns.org/Smart.php?id=Kplus
 #EXTINF:-1 tvg-id="KIX.ph" tvg-logo="https://i.imgur.com/B8Fmzer.png" group-title="Giải trí",KIX HD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -839,7 +843,7 @@ https://ncdn.telewebion.com/irinn2/live/playlist.m3u8
 --------------------------------------------------------------------------------
 
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал
-http://135.181.115.81:8000/play/a03a/index.m3u8?token=livetv
+http://sv.cvtv.xyz:81/opt?token=live
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал Вьетнамское время
 https://edge1.1internet.tv/dash-live2/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1
@@ -1295,426 +1299,220 @@ https://cdn3.skygo.mn/live/disk1/MNB/HLS-FTA/MNB.m3u8
 --------------------------------------------------------------------------------
 
 
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ПЕРШИЙ
-https://tva.in.ua/live/first.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ПЕРШИЙ HD
-http://193.107.168.98:7006/play/526/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Київ HD TV 
-https://ext.cdn.nashnet.tv/228.0.0.41/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Київ
-https://demo-cdn.lanet.tv/9033.m3u8?key=5a5a2b04ed6a8b2cc488cc0a
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Вінниця
-http://cdnua05.hls.tv/649/hls/f62d71219200da4130d13b21d23fb23c/4785/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Дніпро
-http://cdnua05.hls.tv/648/hls/f62d71219200da4130d13b21d23fb23c/4786/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Житомир
-http://cdnua05.hls.tv/647/hls/f62d71219200da4130d13b21d23fb23c/4787/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Запоріжжя
-https://stream.ztv.zp.ua/hls/live.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Луцьк 
-http://193.107.168.98:7006/play/508/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Львів
-http://cdnua05.hls.tv/645/hls/f62d71219200da4130d13b21d23fb23c/4794/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Полтава
-http://cdnua05.hls.tv/646/hls/f62d71219200da4130d13b21d23fb23c/4796/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Рівне
-http://cdnua05.hls.tv/648/hls/f62d71219200da4130d13b21d23fb23c/4797/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Кропивницький
-http://cdnua05.hls.tv/650/hls/f62d71219200da4130d13b21d23fb23c/4788/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Харків
-http://cdnua05.hls.tv/631/hls/f62d71219200da4130d13b21d23fb23c/4799/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Херсон
-http://cdnua05.hls.tv/633/hls/f62d71219200da4130d13b21d23fb23c/4801/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Хмельницький
-http://cdnua05.hls.tv/632/hls/f62d71219200da4130d13b21d23fb23c/4800/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Одеса
-http://cdnua05.hls.tv/653/hls/f62d71219200da4130d13b21d23fb23c/4833/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Суми
-http://cdnua05.hls.tv/630/hls/f62d71219200da4130d13b21d23fb23c/4798/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Тернопiль
-http://cdnua05.hls.tv/647/hls/f62d71219200da4130d13b21d23fb23c/4789/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Чернівці
-http://cdnua05.hls.tv/643/hls/f62d71219200da4130d13b21d23fb23c/4790/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Чернігів
-http://cdnua05.hls.tv/645/hls/f62d71219200da4130d13b21d23fb23c/4791/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Крим
-http://193.107.168.59:7005/play/436/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Крим TV 
-https://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Культура HD TV 
-https://ext.cdn.nashnet.tv/228.0.0.141/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суспільне Миколаїв HD
-http://portal.ott.pink/watch/7763/index.m3u8?geo=auto&free=true&token=2B8378CADCB27AA393170BD7EDB7C0E9
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",1+1 марафон
-http://u.vipl.one/high/xhbn9vt3ru/866.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",1+1 International
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/27652/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",2+2 sd
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/18657/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",2+2 HD
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/27654/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV Серіал HD
-http://cdnua05.hls.tv/623/hls/f62d71219200da4130d13b21d23fb23c/4896/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV Серіал r1
-http://cdnua05.hls.tv/624/hls/f62d71219200da4130d13b21d23fb23c/4896/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV Серіал r2
-http://cdnua05.hls.tv/623/hls/f62d71219200da4130d13b21d23fb23c/4896/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV Серіал r3
-http://cdnua05.hls.tv/625/hls/f62d71219200da4130d13b21d23fb23c/4896/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV 2 hd
-http://cdnua05.hls.tv/919/hls/8743361621b245838bee193c9ec28322/4835/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV 2 hd1
-http://cdnua05.hls.tv/921/hls/8743361621b245838bee193c9ec28322/4835/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV 2 r1
-http://cdnua05.hls.tv/922/hls/8743361621b245838bee193c9ec28322/4835/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ICTV 2 r2
-http://cdnua05.hls.tv/427/hls/8743361621b245838bee193c9ec28322/4835/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Новий канал FHD
-http://85.192.28.48/test/test.php?dj=eyJ1cmwiOiJodHRwOi8vdHYuaW5mb21pci5jb20udWEvc3RhbGtlcl9wb3J0YWwvc2VydmVyL2xvYWQucGhwIiwidG9rIjoiRDVBNzQ1QTQyRDI3QkYyM0Y1QjZBRjBCMjg1Q0NGMDUiLCJtYWMiOiIwMDoxQTo3OTo0Qzo3RDo5NiJ9&id=10043
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Новый канал
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/18023/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Новый Канал hd
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/43869/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",СТБ
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/503/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",СТБ hd
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/61548/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ТЕТ
-http://85.192.28.48/test/test.php?dj=eyJ1cmwiOiJodHRwOi8vdHYuaW5mb21pci5jb20udWEvc3RhbGtlcl9wb3J0YWwvc2VydmVyL2xvYWQucGhwIiwidG9rIjoiRDVBNzQ1QTQyRDI3QkYyM0Y1QjZBRjBCMjg1Q0NGMDUiLCJtYWMiOiIwMDoxQTo3OTo0Qzo3RDo5NiJ9&id=10047
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ТЕТ sd
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/59782/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ТЕТ hd
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/29764/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",HTH HD
-http://85.192.28.48/test/test.php?dj=eyJ1cmwiOiJodHRwOi8vdHYuaW5mb21pci5jb20udWEvc3RhbGtlcl9wb3J0YWwvc2VydmVyL2xvYWQucGhwIiwidG9rIjoiRDVBNzQ1QTQyRDI3QkYyM0Y1QjZBRjBCMjg1Q0NGMDUiLCJtYWMiOiIwMDoxQTo3OTo0Qzo3RDo5NiJ9&id=10193
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",НТН sd
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/18019/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",НТН HD
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/32938/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",K1 HD
-http://85.192.28.48/test/test.php?dj=eyJ1cmwiOiJodHRwOi8vdHYuaW5mb21pci5jb20udWEvc3RhbGtlcl9wb3J0YWwvc2VydmVyL2xvYWQucGhwIiwidG9rIjoiRDVBNzQ1QTQyRDI3QkYyM0Y1QjZBRjBCMjg1Q0NGMDUiLCJtYWMiOiIwMDoxQTo3OTo0Qzo3RDo5NiJ9&id=10197
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",K2 HD
-http://85.192.28.48/test/test.php?dj=eyJ1cmwiOiJodHRwOi8vdHYuaW5mb21pci5jb20udWEvc3RhbGtlcl9wb3J0YWwvc2VydmVyL2xvYWQucGhwIiwidG9rIjoiRDVBNzQ1QTQyRDI3QkYyM0Y1QjZBRjBCMjg1Q0NGMDUiLCJtYWMiOiIwMDoxQTo3OTo0Qzo3RDo5NiJ9&id=10198
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Iнтер+
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/34629/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Iнтер+ HD
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/54742/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Enter-фільм
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/52584/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Enter-фільм HD
-http://bl2.provds.pw/~20144ee7dde9e0493f52c84a69603d888ca/61885/
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Action TVOE Kino HD
-http://193.27.209.122/tvoje_kino_action/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Xit TVOE Kino HD
-http://193.27.209.122/tvoje_kino_hit/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Super+ HD
-http://193.27.209.122/super_plus/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Сонце HD TV 
-https://tva.in.ua/live/sonce.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",FILM TV GROUP
-http://filmtv.zapto.org/FILM_TV_GROUP/video.m3u8?token=Ijb9BSWre2eLJ3
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Новосілки ТБ
-http://filmtv.zapto.org/novosilkitb/video.m3u8?token=Ijb9BSWre2eLJ3
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",FILM TV Кінозал
-http://filmtv.zapto.org/FILMTVKinozal/video.m3u8?token=Ijb9BSWre2eLJ3
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Бровари Кіно TV
-https://stream.gia.tv/giatv/giatv-88882com/88882com/chunks.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",kinosweet HD
-http://193.27.209.122/kinosweet/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Сine+ legend
-http://193.27.209.122/cine_plus_legend/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Usba TV - Україна
-https://fl1001.bozztv.com/ushba5/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Usba TV - Україна 2
-https://fl1001.bozztv.com/ushba12/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Dim TV
-http://185.236.229.62:9981/play/a04x
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ДІМ
-https://cdnua03.hls.tv/hls/6154479a1319705257f2335762b18f51/4780/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Твій серіал
-http://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4870/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Твій серіал hd
-http://cdnua05.hls.tv/935/hls/8743361621b245838bee193c9ec28322/4870/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",КІНО ТА СЕРІАЛИ
-http://cdnua05.hls.tv/679/hls/f62d71219200da4130d13b21d23fb23c/4867/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",КІНО ТА СЕРІАЛИ HD
-http://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4867/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",4EVER Theater HD
-http://cdnua05.hls.tv/923/hls/8743361621b245838bee193c9ec28322/4837/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Серіал
-http://cdnua05.hls.tv/6516/hls/f62d71219200da4130d13b21d23fb23c/4891/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Серіал r
-http://cdnua05.hls.tv/6816/hls/f62d71219200da4130d13b21d23fb23c/4891/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Мелодрами HD
-http://cdnua05.hls.tv/7211/hls/f62d71219200da4130d13b21d23fb23c/4903/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Мелодрами HD
-http://cdnua05.hls.tv/8211/hls/f62d71219200da4130d13b21d23fb23c/4903/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Сімейні мелодрами+
-http://cdnua05.hls.tv/617/hls/f62d71219200da4130d13b21d23fb23c/4892/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Сімейні мелодрами+ HD
-http://cdnua05.hls.tv/0538/hls/8743361621b245838bee193c9ec28322/4892/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ОПЕР за викликом+
-http://cdnua05.hls.tv/614/hls/f62d71219200da4130d13b21d23fb23c/4889/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ОПЕР за викликом+ HD
-http://cdnua05.hls.tv/0941/hls/8743361621b245838bee193c9ec28322/4889/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ЖВЛ+ життя відомих людей
-http://cdnua05.hls.tv/622/hls/f62d71219200da4130d13b21d23fb23c/4895/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Один За Всіх
-http://cdnua05.hls.tv/216/hls/f62d71219200da4130d13b21d23fb23c/4909/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Невигадані Історії
-http://cdnua05.hls.tv/210/hls/f62d71219200da4130d13b21d23fb23c/4902/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Машина часу
-http://cdnua05.hls.tv/635/hls/f62d71219200da4130d13b21d23fb23c/4901/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Слідство ведуть екстрасенси
-http://cdnua05.hls.tv/624/hls/f62d71219200da4130d13b21d23fb23c/4897/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ВІКТОРИНА HD
-http://cdnua05.hls.tv/221/hls/f62d71219200da4130d13b21d23fb23c/4910/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ВІКТОРИНА hd
-http://cdnua05.hls.tv/921/hls/f62d71219200da4130d13b21d23fb23c/4910/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",fun HD КОМЕДІЙНИЙ
-http://cdnua05.hls.tv/630/hls/f62d71219200da4130d13b21d23fb23c/4898/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",МИ+ УКРАЇНА
-http://cdnua05.hls.tv/0338/hls/8743361621b245838bee193c9ec28322/4885/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Стосується кожного HD
-http://cdnua05.hls.tv/679/hls/f62d71219200da4130d13b21d23fb23c/4882/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Стосується кожного
-http://cdnua05.hls.tv/0949/hls/8743361621b245838bee193c9ec28322/4882/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Одружені НАОСЛІП+
-http://cdnua05.hls.tv/619/hls/f62d71219200da4130d13b21d23fb23c/4893/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Одружені НАОСЛІП+ r
-http://cdnua05.hls.tv/6133/hls/f62d71219200da4130d13b21d23fb23c/4893/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Реаліті Шоу Врятуйте нашу сімю
-http://cdnua05.hls.tv/631/hls/f62d71219200da4130d13b21d23fb23c/4899/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Реаліті Шоу Врятуйте нашу сімю r
-http://cdnua05.hls.tv/6321/hls/f62d71219200da4130d13b21d23fb23c/4899/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суппер МАМА iptv*org*ua
-http://cdnua05.hls.tv/634/hls/f62d71219200da4130d13b21d23fb23c/4900/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Суппер МАМА r
-http://cdnua05.hls.tv/6314/hls/f62d71219200da4130d13b21d23fb23c/4900/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Панянка селянка 
-http://cdnua05.hls.tv/6135/hls/f62d71219200da4130d13b21d23fb23c/4890/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Панянка селянка r
-http://cdnua05.hls.tv/6615/hls/f62d71219200da4130d13b21d23fb23c/4890/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",TAK TV HD
-https://cdnua03.hls.tv/178/hls/6154479a1319705257f2335762b18f51/97/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Gags Network HD
-http://cdnua05.hls.tv/1236/hls/8743361621b245838bee193c9ec28322/4877/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Gags Network  
-http://95.67.12.82:9069
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",viju+ PREMIERE
-http://135.181.115.81:8000/play/a04b/index.m3u8?token=livetv
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",viju+ COMEDY
-http://135.181.115.81:8000/play/a046/index.m3u8?token=livetv
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",viju TV1000
-http://135.181.115.81:8000/play/a047/index.m3u8?token=livetv
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",TV1000
-http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",TV1000 Action
-http://65.21.85.175:8000/play/a012/index.m3u8?token=livetv
-#EXTINF:-1 group-title="🇺🇦 UKRAINA", viju TV1000 720x576
-http://109.248.236.51/viju_tv1000/mono.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",viju TV1000 Action 720x576
-http://109.248.236.51/viju_tv1000_action/mono.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Serial
-http://ukr.ukrainske.tv/5001/erd/video.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino COMEDY
-http://ukr.ukrainske.tv/493/tvainua/video.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino MEGAHIT
-http://ukr.ukrainske.tv/492/tvainua/video.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino ACTION
-http://ukr.ukrainske.tv/490/tvainua/video.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino
-http://ukr.ukrainske.tv/488/tvainua/video.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino World hd
-http://ukr.ukrainske.tv/9987/tvainua/video.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino World
-https://wowza1.leisertv.com/live/tv1000russiakino.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat KINO World hd
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4816/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat KINO World HD
-http://cdnua05.hls.tv/948/hls/8743361621b245838bee193c9ec28322/4816/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino HD
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/311/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino
-http://cdnua05.hls.tv/538/hls/8743361621b245838bee193c9ec28322/311/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino Action 
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/308/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino Action HD
-http://cdnua05.hls.tv/535/hls/8743361621b245838bee193c9ec28322/308/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino Megahit HD
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/3981/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino Megahit
-http://cdnua05.hls.tv/144/hls/8743361621b245838bee193c9ec28322/3981/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino Comedy
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/309/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Viasat Kino Comedy HD
-http://cdnua05.hls.tv/537/hls/8743361621b245838bee193c9ec28322/309/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Kinowood
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4844/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Kinosweet HD
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4876/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Kinosweet
-http://cdnua05.hls.tv/0939/hls/8743361621b245838bee193c9ec28322/4876/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Kinoliving
-http://cdnua05.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4805/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Kinoliving HD
-http://cdnua05.hls.tv/946/hls/8743361621b245838bee193c9ec28322/4805/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Cine+ HD
-http://cdnua05.hls.tv/929/hls/8743361621b245838bee193c9ec28322/4846/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Cine+
-http://cdnua05.hls.tv/932/hls/8743361621b245838bee193c9ec28322/4846/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",STAR FAMILY LV
-http://cdnua05.hls.tv/943/hls/8743361621b245838bee193c9ec28322/3996/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Ізмаіл ТВ
-http://cdn10.live-tv.od.ua:8081/izod/izod-abr/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",FOX
-http://45.143.108.110:2203/FOX
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",FX Life
-http://188.237.47.212:6008
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Орбiта tva.org.ua
-http://ftp.orbita.dn.ua/hls/orbita.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",OstWest 24
-http://95.67.12.82:9077
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Телеканал Репортер Одеса 
-http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Круг (Одеса)
-http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr-lq/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",4TV
-https://cdnua03.hls.tv/178/hls/6154479a1319705257f2335762b18f51/4838/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",УНІАН [720x576]
-https://m3u8.ott.blue/watch/236/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",D1
-https://m3u8.ott.blue/watch/7494/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",5 КАНАЛ
-https://m3u8.ott.blue/watch/7/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",7 КАНАЛ fas-tv*com
-https://ext.cdn.nashnet.tv/228.0.0.162/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",TV7+
-https://tv7plus.com/hls/tv7_site.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",8 канал HD TV
-https://ext.cdn.nashnet.tv/228.0.0.138/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Армія ТВ HD
-https://m3u8.ott.blue/watch/7572/index.m3u8?geo=auto&token=94450098895765784220366841698509 
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Перший Кабельний
-http://91.226.35.134:8081/PK 
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",24 канал TV 
-https://ext.cdn.nashnet.tv/228.0.0.33/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",24 Канал
-http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",КИЇВ 24
-https://ext.cdn.nashnet.tv/228.0.0.15/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ЕКО–ТВ
-https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Eko TV
-http://185.236.229.62:9981/play/a08h
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",СK 1 
-http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt720p/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",I-UA tv 
-https://kie2.cdn.i-ua.tv/hlsme/iuatv.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ПРЯМИЙ HD
-https://ext.cdn.nashnet.tv/228.0.0.122/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ІСЛАНДІЯ
-https://ext.cdn.nashnet.tv/228.0.3.231/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",FREEдом
-http://95.67.106.242/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",FREEDOM
-https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",FREEДОМ HD
-http://185.236.229.62:9981/play/a04p
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Ми Україна
-http://cdnua05.hls.tv/654/hls/f62d71219200da4130d13b21d23fb23c/4847/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",OBOZREVATEL HD
-https://ext.cdn.nashnet.tv/228.0.0.148/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Нове тв 
-https://novoe.top/nove_tv.m3u8.jpg?m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Надія/N.K.
-http://nadiya.home-net.com.ua/mob/mystream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,ТРК Надія - Новий Канал (Первомайский)
-http://178.217.215.57/mob/mystream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ЕСПРЕСО HD
-https://ext.cdn.nashnet.tv/228.0.0.191/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",РАДА
-http://193.107.168.98:7001/play/24/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",РАДА HD
-https://ext.cdn.nashnet.tv/228.0.0.24/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Belsat TV 
-https://irylek.ct8.pl/stream/belsat
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Полтавське ТВ
-http://cdn10.live-tv.od.ua:8081/hrpl/720p/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,PTV Полтавское TV
-https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",4TV Тернопіль
-http://cdnua05.hls.tv/654/hls/f62d71219200da4130d13b21d23fb23c/4838/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Тернопіль 1
-http://185.53.79.12/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Тернопiль 1 HD
-http://ott.columbus.te.ua/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,НТК Коломия
-https://stream.ntktv.ua/s/ntk/ntk.m3u8?cur=tva.org.ua&key=3i277
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,ТВА tva*org-ua
-http://hls.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,ТВА tva*in-ua
-http://rtsp.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ГІТ (Волинь)
-http://stream.uagit.tv/gittv.m3u8?key=iptv.org.ua
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,ГІТ (Луцьк)
-https://stream.uagit.tv/gittv.m3u8?cur=tva.org.ua&key=3i277
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",33 канал
-https://33news.org/33chanel/live/chunklist_w1484176056.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",33 канал (Хмельницький)
-https://33news.org/33chanel/live/chunklist_w459617257.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,МТМ Запоріжжя
-https://stream.ztv.zp.ua/hls/live.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,1 Городский Кривий Ріг
-https://cdn1.live-tv.cloud/1tvkr/1tvkr-abr-lq/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,1 Городский Одеса HD
-http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ЧОРНОМОРСКЕ HD TV Black Sea
-https://ext.cdn.nashnet.tv/228.0.0.136/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Чорноморська ТРК Black Sea
-https://stream.skyvision.com.ua/blackseatv/stream/main/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",TV Rivne 1 
-https://cdn1.live-tv.cloud/rivne1/rivne1-abr/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,ITV (Рівне)
-http://cdn10.live-tv.od.ua:8081/itvrv/abr-lq/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Аверс (Луцьк)
-https://avers.pp.ua/hls/efir.m3u8?key=iptv*org*ua
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Аверс tva.org.ua
-https://m3u8.ott.blue/watch/356/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ДНІПРО ТВ
-http://cdnua05.hls.tv/0338/hls/8743361621b245838bee193c9ec28322/4880/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ДНІПРО TV HD
-http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Балта ТВ HD
-http://194.50.51.34/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Telekanal RAI 
-https://stream.rai.ua/rai/stream.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Глас
-http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Чернівецький Промінь HD
-http://langate.tv/promin/live_720/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,СК1 (Житомир)
-http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr-lq/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,НТК
-http://stream.ntktv.ua/s/ntk/ntk.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",TIS TV
-https://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",ATR
-https://ext.cdn.nashnet.tv/228.0.0.49/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Lale HD
-https://ext.cdn.nashnet.tv/228.0.0.50/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Белсат
-https://m3u8.ott.blue/watch/149/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,Сфера ТВ
-http://cdn10.live-tv.od.ua:8081/sferarv/sferarv-abr/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA" ,АПОСТРОФ
-https://ext.cdn.nashnet.tv/228.0.2.165/index.m3u8
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Karavan TV
-http://185.236.229.62:9981/play/a08l
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Milady
-http://185.236.229.62:9981/play/a08i
-#EXTINF:-1 group-title="🇺🇦 UKRAINA",Nataly
-http://185.236.229.62:9981/play/a08j
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/221.png" tvg-id="ua-pershy",UA:Перший HD
+http://lb.wisp.cat/lb0/UAPerviy_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/215.png" tvg-id="ua-pershy",UA:Перший
+http://lb.wisp.cat/lb0/UA_PERSHIY/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/20.png" tvg-id="5kanal-ua",5 канал Україна HD
+http://lb.wisp.cat/lb0/5kanalHDUA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1559.png" tvg-id="1plus1",1+1 Марафон
+http://lb.wisp.cat/lb0/1plus1/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1560.png" tvg-id="1plus1",1+1 Марафон HD
+http://lb.wisp.cat/lb0/1plus1HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1560.png" tvg-id="1plus1",1+1 Ukraina HD
+http://88.218.242.235:82/8610/index.m3u8?token=k8M5h1RyLb
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/63.png" tvg-id="inter-ua",Інтер
+http://lb.wisp.cat/lb0/INTER/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/421.png" tvg-id="inter-plus-ua",Інтер
+http://lb.wisp.cat/lb0/interplus_sd/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/97.png" tvg-id="ntn-ua",НТН
+http://lb.wisp.cat/lb0/NTN/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/160.png" tvg-id="zoom-ua",Zoom
+http://lb.wisp.cat/lb0/Zoom/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/915.png" tvg-id="zoom-ua",Zoom HD
+http://lb.wisp.cat/lb0/zoom_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/166.png" tvg-id="k1-ua",К1
+http://lb.wisp.cat/lb0/K1/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/167.png" tvg-id="k2-ua",К2
+http://lb.wisp.cat/lb0/K2/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/108.png" tvg-id="mega-ua",Мега
+http://lb.wisp.cat/lb0/MEGA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/48.png" tvg-id="enter-film",Enter-Фільм
+http://lb.wisp.cat/lb0/EnterFilm/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/82.png" tvg-id="kyiv-ua",Київ TV
+http://lb.wisp.cat/lb0/KYIV_TV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/253.png" tvg-id="otb-galychyna",Галичина
+http://lb.wisp.cat/lb0/Galychina/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/532.png" tvg-id="pershy-zaxidny",Перший Західний
+http://lb.wisp.cat/lb0/PervijZaxidnyi/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/124.png" tvg-id="milady-television",Milady
+http://lb.wisp.cat/lb0/MILADYTELEVISION/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/102.png" tvg-id="24news-ua",24 Канал
+http://lb.wisp.cat/lb0/24UA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/201.png" tvg-id="24news-ua",24 Канал HD
+http://lb.wisp.cat/lb0/24UA_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/176.png" tvg-id="priamyj",Прямий
+http://lb.wisp.cat/lb0/PRYAMIY/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/180.png" tvg-id="priamyj",Прямий HD
+http://lb.wisp.cat/lb0/PramyiHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1808.png" tvg-id="",33 Канал
+http://lb.wisp.cat/lb0/33_Kanal_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/92.png" tvg-id="atr-ua",ATR
+http://lb.wisp.cat/lb0/ATR_SD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/198.png" tvg-id="atr-ua",ATR HD
+http://lb.wisp.cat/lb0/ATRHDtv/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/68.png" tvg-id="chernomorskaya",Черноморская ТРК
+http://lb.wisp.cat/lb0/Chernomorskaya_TRK/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/153.png" tvg-id="ua-tv",FREEДОМ HD
+http://lb.wisp.cat/lb0/UA_TVHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/94.png" tvg-id="ua-kyiv",Суспільне Київ HD
+http://lb.wisp.cat/lb0/UA_KIEV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/66.png" tvg-id="ua-krym",Суспільне Крим
+http://lb.wisp.cat/lb0/UAKRYM/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/71.png" tvg-id="ua-zakarpattia",Суспільне Закарпаття
+http://lb.wisp.cat/lb0/UA_Zakarpatiya/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/734.png" tvg-id="ua-donbas",Суспільне Донбас
+http://lb.wisp.cat/lb0/UA_DONBAS/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/105.png" tvg-id="kultura-ua",Суспільне Культура
+http://lb.wisp.cat/lb0/UA_KULTURA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/538.png" tvg-id="pro-vsio",8 канал Україна
+http://lb.wisp.cat/lb0/8_channel_SD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/205.png" tvg-id="pro-vsio",8 канал HD Україна
+http://lb.wisp.cat/lb0/8_kanal_UA_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/85.png" tvg-id="rada-ua",Рада
+http://lb.wisp.cat/lb0/RADA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/59.png" tvg-id="eko-tv",Eko TV
+http://lb.wisp.cat/lb0/ECO_TV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/52.png" tvg-id="espreso-tv",Еспресо
+http://lb.wisp.cat/lb0/ESPRESSO_TV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/53.png" tvg-id="espreso-tv",Еспресо HD
+http://lb.wisp.cat/lb0/Espresso_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/450.png" tvg-id="pravdatyt",Правда ТУТ
+http://lb.wisp.cat/lb0/Pravdatut_UA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/87.png" tvg-id="pravdatyt",Правда ТУТ HD
+http://lb.wisp.cat/lb0/PRAVDA_TUT_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/189.png" tvg-id="pravdatyt-kyiv",Правда ТУТ Київ HD
+http://lb.wisp.cat/lb0/PravdaTUTKievHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/230.png" tvg-id="natali",Наталі
+http://lb.wisp.cat/lb0/natali_SD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/100.png" tvg-id="nadia",Надія
+http://lb.wisp.cat/lb0/nadiya_SD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/109.png" tvg-id="svarozhichi",Сварожичи
+http://lb.wisp.cat/lb0/svarogichi_SD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/135.png" tvg-id="karavan-tv",Караван
+http://lb.wisp.cat/lb0/Karavan_TV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/414.png" tvg-id="oboz-tv",OBOZ TV
+http://lb.wisp.cat/lb0/oboz_SD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/568.png" tvg-id="oboz-tv",OBOZ TV HD
+http://lb.wisp.cat/lb0/OBOZTVHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/83.png" tvg-id="televsesvit",Телевсесвіт HD
+http://lb.wisp.cat/lb0/TELEVSESVIT_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/77.png" tvg-id="sonce-ua",Сонце
+http://lb.wisp.cat/lb0/Sonce/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/113.png" tvg-id="dumskaya",Думская ТВ
+http://lb.wisp.cat/lb0/dumska/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/89.png" tvg-id="hta",НТА HD
+http://lb.wisp.cat/lb0/NTA_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/78.png" tvg-id="m-studio",M-Studio (Мукачево)
+http://lb.wisp.cat/lb0/M_STUDIO/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/93.png" tvg-id="pervy-gorodskoy-odessa",Первй городской Одесса HD
+http://lb.wisp.cat/lb0/pervi_gor_odesa/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/741.png" tvg-id="",Первй городской Кривой Рог
+http://lb.wisp.cat/lb0/PervKrivRog/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/553.png" tvg-id="raiua",РАІ Івано-Франківськ
+http://lb.wisp.cat/lb0/RAI/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/994.png" tvg-id="ua-podilla",Суспільне Волинь
+http://lb.wisp.cat/lb0/podillyacenter/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/199.png" tvg-id="islandiya",Ісландія HD
+http://lb.wisp.cat/lb0/Islandy_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/295.png" tvg-id="armia-tv-ua",Армія TV
+http://lb.wisp.cat/lb0/ArmiyaTV_UA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/259.png" tvg-id="ntn-ua",НТН HD
+http://lb.wisp.cat/lb0/ntn_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/410.png" tvg-id="my-ukraina",Ми Україна HD
+http://lb.wisp.cat/lb0/My_Ukraine_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/192.png" tvg-id="svarozhichi",Сварожичи HD
+http://lb.wisp.cat/lb0/Svarozich_HD_TV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/293.png" tvg-id="front-ua",Фронт HD
+http://lb.wisp.cat/lb0/Front_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/676.png" tvg-id="enter-film",Enter-Фільм HD
+http://lb.wisp.cat/lb0/ENTER_FILM_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/312.png" tvg-id="ua-lviv",Суспільне Львів HD
+http://lb.wisp.cat/lb0/Suspilne_Lviv_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/649.png" tvg-id="inter-ua",Інтер HD
+http://lb.wisp.cat/lb0/Interhd/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/878.png" tvg-id="inter-plus-ua",Інтер HD
+http://lb.wisp.cat/lb0/Interplus_KN_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/632.png" tvg-id="k1-ua",К1 HD
+http://lb.wisp.cat/lb0/K1_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/789.png" tvg-id="mega-ua",Мега HD
+http://lb.wisp.cat/lb0/mega_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/346.png" tvg-id="k2-ua",К2 HD
+http://lb.wisp.cat/lb0/K2_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1239.png" tvg-id="kultura-ua",Суспільне Культура HD
+http://lb.wisp.cat/lb0/UA_KULTURA_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1260.png" tvg-id="ua-zhitomir",Суспільне Житомир HD
+http://lb.wisp.cat/lb0/Suspilne_Zhitomyr/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1309.png" tvg-id="",Візит HD
+http://lb.wisp.cat/lb0/Vizit_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="Болгарія" tvg-logo="http://play.wisp.cat/logos/1308.png" tvg-id="",Диема
+http://lb.wisp.cat/lb0/BG_Diema/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="Болгарія" tvg-logo="http://play.wisp.cat/logos/1307.png" tvg-id="",Diema Family
+http://lb.wisp.cat/lb0/BG_Diema_Family/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1404.png" tvg-id="pershy-zaxidny",Перший Західний HD
+http://lb.wisp.cat/lb0/1zahid_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1426.png" tvg-id="eko-tv",Eko TV HD
+http://lb.wisp.cat/lb0/ECO_TV_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2736.png" tvg-id="ua-kropyvnycky",Суспільне Кропивницький HD
+http://lb.wisp.cat/lb0/suskropivnic/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1564.png" tvg-id="ictv-ua",ICTV
+http://lb.wisp.cat/lb0/ICTV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1565.png" tvg-id="ictv-ua",ICTV HD
+http://lb.wisp.cat/lb0/ICTVHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1566.png" tvg-id="novy-kanal-ua",Новий канал
+http://lb.wisp.cat/lb0/NOVIY_KANAL/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1567.png" tvg-id="novy-kanal-ua",Новий канал HD
+http://lb.wisp.cat/lb0/NovyHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1568.png" tvg-id="stb-ua",СТБ
+http://lb.wisp.cat/lb0/STB/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1569.png" tvg-id="stb-ua",СТБ HD
+http://lb.wisp.cat/lb0/STBHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1577.png" tvg-id="unian-tv",Уніан
+http://lb.wisp.cat/lb0/Unian/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1583.png" tvg-id="otse",ОЦЕ
+http://lb.wisp.cat/lb0/OCE/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1584.png" tvg-id="otse",ОЦЕ HD
+http://lb.wisp.cat/lb0/OCEHD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1662.png" tvg-id="unian-tv",Уніан HD
+http://lb.wisp.cat/lb0/Unian_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1739.png" tvg-id="kyiv-ua",Київ TV HD
+http://lb.wisp.cat/lb0/Kyiv_TV_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1741.png" tvg-id="avers",ТРК Аверс
+http://lb.wisp.cat/lb0/AversTV/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2524.png" tvg-id="apostrof",Апостроф HD
+http://lb.wisp.cat/lb0/apostrophe_tv_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1911.png" tvg-id="dom",Дом
+http://lb.wisp.cat/lb0/DOM_UA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1930.png" tvg-id="ua-poltava",Суспільне Полтава HD
+http://lb.wisp.cat/lb0/Suspilne_Poltava_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/1945.png" tvg-id="itv-ua",ITV HD
+http://lb.wisp.cat/lb0/ITV_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2057.png" tvg-id="my-ukraina-plus",Ми Україна  HD
+http://lb.wisp.cat/lb0/Mu_ukraina_HD_plus/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-id="",Коломия НТК
+http://lb.wisp.cat/lb0/KolomuyaNTK/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2372.png" tvg-id="mart-tv",Март ( Миколаїв )
+http://lb.wisp.cat/lb0/MART/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-id="",Телеканал МТМ
+http://lb.wisp.cat/lb0/MTM_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2382.png" tvg-id="",Дніпро TV HD
+http://lb.wisp.cat/lb0/Dnipro_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2384.png" tvg-id="ptv-ua",Полтавське ТВ HD
+http://lb.wisp.cat/lb0/PoltavskeTV_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-id="",Конкурент ТВ HD
+http://lb.wisp.cat/lb0/Konkurent_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2389.png" tvg-id="sferatv",Сфера ТВ
+http://lb.wisp.cat/lb0/Sfera_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-id="",H1 HD
+http://lb.wisp.cat/lb0/H1_HD_UA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/2661.png" tvg-id="ictv-ukraine",ICTV2
+http://lb.wisp.cat/lb0/ICTV_Ukraine_HD/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2673.png" tvg-id="ua-odesa",Суспільне Одеса HD
+http://lb.wisp.cat/lb0/UA_ODESA/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2743.png" tvg-id="my-ukraina-plus",Ми Україна
+http://lb.wisp.cat/lb0/Mi_Ukrayina/mpegts?token=rfroGNs04A
+#EXTINF:-1 group-title="🇺🇦 UKRAINA" tvg-logo="http://play.wisp.cat/logos/2764.png" tvg-id="superplus",Super HD
+http://lb.wisp.cat/lb0/Super_plus_HD_UA/mpegts?token=rfroGNs04A
 
 --------------------------------------------------------------------------------
 
@@ -1773,21 +1571,21 @@ http://8.138.7.223/tv/zjws.m3u8
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/058/351/202106171938_5100043384_H169_1080.jpg" group-title="Trung Quốc", 东方卫视
 http://117.158.43.187:2016/全网通.php?id=东方卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/199/408/202104022140_5100156802_H169_1080.jpg" group-title="Trung Quốc", 江苏卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=jiangsu_twn
+https://smart.pendy.dpdns.org/Smart.php?id=jiangsu_twn
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/428/795/202107191524_2202428795_H169_1080.jpg" group-title="Trung Quốc", 广东卫视
 http://117.158.43.187:2016/全网通.php?id=广东卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/428/795/202107191524_2202428795_H169_1080.jpg" group-title="Trung Quốc", 广东珠江台
 http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/322/852/202304081513_1677570732561_H169_1080.jpg" group-title="Trung Quốc", 大湾区卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=nanfang_twn
+https://smart.pendy.dpdns.org/Smart.php?id=nanfang_twn
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 深圳卫视
 http://117.158.43.187:2016/全网通.php?id=深圳卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 湖北卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=hubei
+https://smart.pendy.dpdns.org/Smart.php?id=hubei
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 天津卫视
 http://117.158.43.187:2016/全网通.php?id=天津卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 广西卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=guangxi
+https://smart.pendy.dpdns.org/Smart.php?id=guangxi
 
 --------------------------------------------------------------------------------
 
@@ -1804,7 +1602,7 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPla
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="Hong Kong và Macao", HOY 77
 http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/HOY_TV_Logo.svg/1200px-HOY_TV_Logo.svg.png" group-title="Hong Kong và Macao", HOY 78
-http://smt.iktv.ddns-ip.net/Smart.php?id=hoycaijing_twn
+https://smart.pendy.dpdns.org/Smart.php?id=hoycaijing_twn
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv-pro.github.io/logo/feicui.png" group-title="Hong Kong và Macao",TVB Jade
 http://110.235.82.60:8000/bysid/1
 #EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVB Plus" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="Hong Kong và Macao",TVB Plus
@@ -1842,151 +1640,151 @@ https://globallive.tdm.com.mo/tv/ch22.live/playlist.m3u8
 #EXTINF:-1 tvg-id="320" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TVBS_v1.png" group-title="Đài Loan",TVBS Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://epg.112114.xyz/logo/TVBS.png" group-title="Đài Loan",TVBS News 新闻台
-http://smt.iktv.ddns-ip.net/Smart.php?id=tvbs_n
+https://smart.pendy.dpdns.org/Smart.php?id=tvbs_n
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://epg.112114.xyz/logo/TVBS.png" group-title="Đài Loan",TVBS 欢乐台 （备份）
-http://smt.iktv.ddns-ip.net/Smart.php?id=tvbshuanle_twn
+https://smart.pendy.dpdns.org/Smart.php?id=tvbshuanle_twn
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://epg.112114.xyz/logo/TVBS.png" group-title="Đài Loan",TVBS HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=tvbs
+https://smart.pendy.dpdns.org/Smart.php?id=tvbs
 #EXTINF:-1,tvg-id="中天新闻 HD" tvg-name="中天新闻 HD" tvg-logo="https://epg.112114.xyz/logo/中天新闻.png" group-title="Đài Loan",中天新闻 HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=ctinews
+https://smart.pendy.dpdns.org/Smart.php?id=ctinews
 #EXTINF:-1,tvg-id="中天娱乐 CTI Entertaiment" tvg-name="中天娱乐 CTI Entertaiment" tvg-logo="https://epg.112114.xyz/logo/中天娱乐CTIENTERTAIMENT.png" group-title="Đài Loan",中天娱乐 CTI Entertaiment
-http://smt.iktv.ddns-ip.net/Smart.php?id=ctient
+https://smart.pendy.dpdns.org/Smart.php?id=ctient
 #EXTINF:-1,tvg-id="中天综合 CTI Metro" tvg-name="中天综合 CTI Metro" tvg-logo="https://epg.112114.xyz/logo/中天综合CTIMETRO.png" group-title="Đài Loan",中天综合 CTI Metro
-http://smt.iktv.ddns-ip.net/Smart.php?id=ctizhonghe
+https://smart.pendy.dpdns.org/Smart.php?id=ctizhonghe
 #EXTINF:-1,tvg-id="中天亚洲台" tvg-name="中天亚洲台" tvg-logo="https://epg.112114.xyz/logo/中天亚洲台.png" group-title="Đài Loan",中天亚洲台
-http://smt.iktv.ddns-ip.net/Smart.php?id=ctiasia_twn
+https://smart.pendy.dpdns.org/Smart.php?id=ctiasia_twn
 #EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://epg.112114.xyz/logo/台视.png" group-title="Đài Loan",台视 TTV HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=ttv_taiwan
+https://smart.pendy.dpdns.org/Smart.php?id=ttv_taiwan
 #EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://epg.112114.xyz/logo/台视.png" group-title="Đài Loan",台视新闻台
-http://smt.iktv.ddns-ip.net/Smart.php?id=ttvnews_twn
+https://smart.pendy.dpdns.org/Smart.php?id=ttvnews_twn
 #EXTINF:-1,tvg-id="台视" tvg-name="台视" tvg-logo="https://epg.112114.xyz/logo/台视.png" group-title="Đài Loan",台视综合台
-http://smt.iktv.ddns-ip.net/Smart.php?id=ttvzhonghe
+https://smart.pendy.dpdns.org/Smart.php?id=ttvzhonghe
 #EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://epg.112114.xyz/logo/中视.png" group-title="Đài Loan",中视 HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=zhongshihd_twn
+https://smart.pendy.dpdns.org/Smart.php?id=zhongshihd_twn
 #EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://epg.112114.xyz/logo/中视.png" group-title="Đài Loan",中视新闻台
-http://smt.iktv.ddns-ip.net/Smart.php?id=zhongshinews_twn
+https://smart.pendy.dpdns.org/Smart.php?id=zhongshinews_twn
 #EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://epg.112114.xyz/logo/民视.png" group-title="Đài Loan",民视 HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=ftvhd_taiwan
+https://smart.pendy.dpdns.org/Smart.php?id=ftvhd_taiwan
 #EXTINF:-1,tvg-id="TVN" tvg-name="TVN" tvg-logo="https://epg.112114.xyz/logo/TVN.png" group-title="Đài Loan",民视新闻台 FTV News
-http://smt.iktv.ddns-ip.net/Smart.php?id=ftvnew_taiwan
+https://smart.pendy.dpdns.org/Smart.php?id=ftvnew_taiwan
 #EXTINF:-1,tvg-id="民视" tvg-name="民视" tvg-logo="https://epg.112114.xyz/logo/民视.png" group-title="Đài Loan",民视台湾台
-http://smt.iktv.ddns-ip.net/Smart.php?id=ftvtaiwan_twn
+https://smart.pendy.dpdns.org/Smart.php?id=ftvtaiwan_twn
 #EXTINF:-1,tvg-id="华视" tvg-name="华视" tvg-logo="https://epg.112114.xyz/logo/华视.png" group-title="Đài Loan",华视 CTS HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=ctshd_twn
+https://smart.pendy.dpdns.org/Smart.php?id=ctshd_twn
 #EXTINF:-1,tvg-id="公视" tvg-name="公视" tvg-logo="https://epg.112114.xyz/logo/公视.png" group-title="Đài Loan",公视 CTV
-http://smt.iktv.ddns-ip.net/Smart.php?id=ctv18_twn
+https://smart.pendy.dpdns.org/Smart.php?id=ctv18_twn
 #EXTINF:-1,tvg-id="八大第一 GTV First" tvg-name="八大第一 GTV First" tvg-logo="https://epg.112114.xyz/logo/八大第一GTVFIRST.png" group-title="Đài Loan",八大第一 GTV First
-http://smt.iktv.ddns-ip.net/Smart.php?id=badafirst
+https://smart.pendy.dpdns.org/Smart.php?id=badafirst
 #EXTINF:-1,tvg-id="八大综合 GTV Metro" tvg-name="八大综合 GTV Metro" tvg-logo="https://epg.112114.xyz/logo/八大综合GTVMETRO.png" group-title="Đài Loan",八大综合 GTV Metro
-http://smt.iktv.ddns-ip.net/Smart.php?id=badazhonghe
+https://smart.pendy.dpdns.org/Smart.php?id=badazhonghe
 #EXTINF:-1,tvg-id="八大戏剧 GTV Drama" tvg-name="八大戏剧 GTV Drama" tvg-logo="https://epg.112114.xyz/logo/八大戏剧GTVDRAMA.png" group-title="Đài Loan",八大戏剧 GTV Drama
-http://smt.iktv.ddns-ip.net/Smart.php?id=badadrama
+https://smart.pendy.dpdns.org/Smart.php?id=badadrama
 #EXTINF:-1,tvg-id="八大娱乐 GTV Entertainment" tvg-name="八大娱乐 GTV Entertainment" tvg-logo="https://epg.112114.xyz/logo/八大娱乐GTVENTERTAINMENT.png" group-title="Đài Loan",八大娱乐 GTV Entertainment
-http://smt.iktv.ddns-ip.net/Smart.php?id=badaentertain
+https://smart.pendy.dpdns.org/Smart.php?id=badaentertain
 #EXTINF:-1,tvg-id="Hollywood Movies" tvg-name="Hollywood Movies" tvg-logo="https://epg.112114.xyz/logo/HOLLYWOODMOVIES.png" group-title="Đài Loan",Hollywood Movies
-http://smt.iktv.ddns-ip.net/Smart.php?id=hollywoodmovies_twn
+https://smart.pendy.dpdns.org/Smart.php?id=hollywoodmovies_twn
 #EXTINF:-1,tvg-id="三立台湾 Sanli Taiwan" tvg-name="三立台湾 Sanli Taiwan" tvg-logo="https://epg.112114.xyz/logo/三立台湾SANLITAIWAN.png" group-title="Đài Loan",三立台湾 Sanli Taiwan
-http://smt.iktv.ddns-ip.net/Smart.php?id=sanlitaiwan
+https://smart.pendy.dpdns.org/Smart.php?id=sanlitaiwan
 #EXTINF:-1,tvg-id="三立戏剧" tvg-name="三立戏剧" tvg-logo="https://epg.112114.xyz/logo/三立戏剧.png" group-title="Đài Loan",三立戏剧台
-http://smt.iktv.ddns-ip.net/Smart.php?id=sanlixiju_twn
+https://smart.pendy.dpdns.org/Smart.php?id=sanlixiju_twn
 #EXTINF:-1,tvg-id="三立综合 Sanli Metro" tvg-name="三立综合 Sanli Metro" tvg-logo="https://epg.112114.xyz/logo/三立综合SANLIMETRO.png" group-title="Đài Loan",三立综合 Sanli Metro
-http://smt.iktv.ddns-ip.net/Smart.php?id=sanlizhonghe
+https://smart.pendy.dpdns.org/Smart.php?id=sanlizhonghe
 #EXTINF:-1,tvg-id="三立都会台" tvg-name="三立都会台" tvg-logo="https://epg.112114.xyz/logo/三立都会台.png" group-title="Đài Loan",三立都会台
-http://smt.iktv.ddns-ip.net/Smart.php?id=sanlidouhui
+https://smart.pendy.dpdns.org/Smart.php?id=sanlidouhui
 #EXTINF:-1,tvg-id="TVN" tvg-name="TVN" tvg-logo="https://epg.112114.xyz/logo/TVN.png" group-title="Đài Loan",东森新闻 ETTV News
-http://smt.iktv.ddns-ip.net/Smart.php?id=ettvnews
+https://smart.pendy.dpdns.org/Smart.php?id=ettvnews
 #EXTINF:-1,tvg-id="东森综合 ETTV Metro" tvg-name="东森综合 ETTV Metro" tvg-logo="https://epg.112114.xyz/logo/东森综合ETTVMETRO.png" group-title="Đài Loan",东森综合 ETTV Metro
-http://smt.iktv.ddns-ip.net/Smart.php?id=ettvzhonghe
+https://smart.pendy.dpdns.org/Smart.php?id=ettvzhonghe
 #EXTINF:-1,tvg-id="东森戏剧 ETTV Drama" tvg-name="东森戏剧 ETTV Drama" tvg-logo="https://epg.112114.xyz/logo/东森戏剧ETTVDRAMA.png" group-title="Đài Loan",东森戏剧 ETTV Drama
-http://smt.iktv.ddns-ip.net/Smart.php?id=ettvdrama
+https://smart.pendy.dpdns.org/Smart.php?id=ettvdrama
 #EXTINF:-1,tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://epg.112114.xyz/logo/东森超视.png" group-title="Đài Loan",东森超视
-http://smt.iktv.ddns-ip.net/Smart.php?id=ettvsuper
+https://smart.pendy.dpdns.org/Smart.php?id=ettvsuper
 #EXTINF:-1,tvg-id="东森财经新闻 ETTV Business" tvg-name="东森财经新闻 ETTV Business" tvg-logo="https://epg.112114.xyz/logo/东森财经新闻ETTVBUSINESS.png" group-title="Đài Loan",东森财经新闻 ETTV Business
-http://smt.iktv.ddns-ip.net/Smart.php?id=ettvcaijing_twn
+https://smart.pendy.dpdns.org/Smart.php?id=ettvcaijing_twn
 #EXTINF:-1,tvg-id="寰宇财经" tvg-name="寰宇财经" tvg-logo="https://epg.112114.xyz/logo/寰宇财经.png" group-title="Đài Loan",寰宇财经
-http://smt.iktv.ddns-ip.net/Smart.php?id=huanyutaiwan_twn
+https://smart.pendy.dpdns.org/Smart.php?id=huanyutaiwan_twn
 #EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://epg.112114.xyz/logo/寰宇新闻.png" group-title="Đài Loan",寰宇新闻台
-http://smt.iktv.ddns-ip.net/Smart.php?id=huanyuxinwen_twn
+https://smart.pendy.dpdns.org/Smart.php?id=huanyuxinwen_twn
 #EXTINF:-1,tvg-id="公视" tvg-name="公视" tvg-logo="https://epg.112114.xyz/logo/公视.png" group-title="Đài Loan",公视2
-http://smt.iktv.ddns-ip.net/Smart.php?id=ctv2_twn
+https://smart.pendy.dpdns.org/Smart.php?id=ctv2_twn
 #EXTINF:-1,tvg-id="大爱1台" tvg-name="大爱1台" tvg-logo="https://epg.112114.xyz/logo/大爱1台.png" group-title="Đài Loan",大爱1台
-http://smt.iktv.ddns-ip.net/Smart.php?id=daai_twn
+https://smart.pendy.dpdns.org/Smart.php?id=daai_twn
 #EXTINF:-1,tvg-id="非凡新闻台" tvg-name="非凡新闻台" tvg-logo="https://epg.112114.xyz/logo/非凡新闻台.png" group-title="Đài Loan",非凡新闻台
-http://smt.iktv.ddns-ip.net/Smart.php?id=feifannews_twn
+https://smart.pendy.dpdns.org/Smart.php?id=feifannews_twn
 #EXTINF:-1,tvg-id="龙华戏剧" tvg-name="龙华戏剧" tvg-logo="https://epg.112114.xyz/logo/龙华戏剧.png" group-title="Đài Loan",龙华戏剧 Lunghua Drama
-http://smt.iktv.ddns-ip.net/Smart.php?id=lunghuaxiju_twn
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuaxiju_twn
 #EXTINF:-1,tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="https://epg.112114.xyz/logo/龙华经典.png" group-title="Đài Loan",龙华经典台
-http://smt.iktv.ddns-ip.net/Smart.php?id=lunghuajingdian_twn
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuajingdian_twn
 #EXTINF:-1,tvg-id="龙华偶像" tvg-name="龙华偶像" tvg-logo="https://epg.112114.xyz/logo/龙华偶像.png" group-title="Đài Loan",龙华偶像
-http://smt.iktv.ddns-ip.net/Smart.php?id=lunghuaidol_twn
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuaidol_twn
 #EXTINF:-1,tvg-id="AXN" tvg-name="AXN" tvg-logo="https://epg.112114.xyz/logo/AXN.png" group-title="Đài Loan",AXN Taiwan
-http://smt.iktv.ddns-ip.net/Smart.php?id=axn_twn
+https://smart.pendy.dpdns.org/Smart.php?id=axn_twn
 #EXTINF:-1,tvg-id="靖天国际" tvg-name="靖天国际" tvg-logo="https://epg.112114.xyz/logo/靖天国际.png" group-title="Đài Loan",靖天国际台
-http://smt.iktv.ddns-ip.net/Smart.php?id=jingtianintl_twn
+https://smart.pendy.dpdns.org/Smart.php?id=jingtianintl_twn
 #EXTINF:-1,tvg-id="年代新闻" tvg-name="年代新闻" tvg-logo="https://epg.112114.xyz/logo/年代新闻.png" group-title="Đài Loan",年代新闻
-http://smt.iktv.ddns-ip.net/Smart.php?id=niandainews_twn
+https://smart.pendy.dpdns.org/Smart.php?id=niandainews_twn
 #EXTINF:-1,tvg-id="纬来日本台" tvg-name="纬来日本台" tvg-logo="https://epg.112114.xyz/logo/纬来日本台.png" group-title="Đài Loan",纬来日本台
-http://smt.iktv.ddns-ip.net/Smart.php?id=videolandjapan
+https://smart.pendy.dpdns.org/Smart.php?id=videolandjapan
 #EXTINF:-1,tvg-id="纬来电影台" tvg-name="纬来电影台" tvg-logo="https://epg.112114.xyz/logo/纬来电影台.png" group-title="Đài Loan",纬来电影台
-http://smt.iktv.ddns-ip.net/Smart.php?id=videolandmovie
+https://smart.pendy.dpdns.org/Smart.php?id=videolandmovie
 #EXTINF:-1,tvg-id="纬来体育台" tvg-name="纬来体育台" tvg-logo="https://epg.112114.xyz/logo/纬来体育台.png" group-title="Đài Loan",纬来体育台
-http://smt.iktv.ddns-ip.net/Smart.php?id=videolandsport
+https://smart.pendy.dpdns.org/Smart.php?id=videolandsport
 #EXTINF:-1,tvg-id="纬来综合台" tvg-name="纬来综合台" tvg-logo="https://epg.112114.xyz/logo/纬来综合台.png" group-title="Đài Loan",纬来综合台
-http://smt.iktv.ddns-ip.net/Smart.php?id=videolandzonghe
+https://smart.pendy.dpdns.org/Smart.php?id=videolandzonghe
 #EXTINF:-1,tvg-id="纬来育乐" tvg-name="纬来育乐" tvg-logo="https://epg.112114.xyz/logo/纬来育乐.png" group-title="Đài Loan",纬来育乐
-http://smt.iktv.ddns-ip.net/Smart.php?id=videolandyule
+https://smart.pendy.dpdns.org/Smart.php?id=videolandyule
 #EXTINF:-1,tvg-id="纬来精彩" tvg-name="纬来精彩" tvg-logo="https://epg.112114.xyz/logo/纬来精彩.png" group-title="Đài Loan",纬来精彩
-http://smt.iktv.ddns-ip.net/Smart.php?id=videolandspecial_twn
+https://smart.pendy.dpdns.org/Smart.php?id=videolandspecial_twn
 #EXTINF:-1,tvg-id="好消息 2" tvg-name="好消息 2" tvg-logo="https://epg.112114.xyz/logo/好消息2.png" group-title="Đài Loan",好消息 2
-http://smt.iktv.ddns-ip.net/Smart.php?id=good2_twn
+https://smart.pendy.dpdns.org/Smart.php?id=good2_twn
 #EXTINF:-1,tvg-id="大爱2台" tvg-name="大爱2台" tvg-logo="https://epg.112114.xyz/logo/大爱2台.png" group-title="Đài Loan",大爱2台
-http://smt.iktv.ddns-ip.net/Smart.php?id=daai2_twn
+https://smart.pendy.dpdns.org/Smart.php?id=daai2_twn
 #EXTINF:-1,tvg-id="亚洲美食" tvg-name="亚洲美食" tvg-logo="https://epg.112114.xyz/logo/亚洲美食.png" group-title="Đài Loan",亚洲美食
-http://smt.iktv.ddns-ip.net/Smart.php?id=afc_twn
+https://smart.pendy.dpdns.org/Smart.php?id=afc_twn
 #EXTINF:-1,tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://epg.112114.xyz/logo/美食星球.png" group-title="Đài Loan",美食星球
-http://smt.iktv.ddns-ip.net/Smart.php?id=foodplanet_twn
+https://smart.pendy.dpdns.org/Smart.php?id=foodplanet_twn
 #EXTINF:-1,tvg-id="东森电影 ETTV Movie" tvg-name="东森电影 ETTV Movie" tvg-logo="https://epg.112114.xyz/logo/东森电影ETTVMOVIE.png" group-title="Đài Loan",东森电影 ETTV Movie
-http://smt.iktv.ddns-ip.net/Smart.php?id=ettvmovie
+https://smart.pendy.dpdns.org/Smart.php?id=ettvmovie
 #EXTINF:-1,tvg-id="博斯运动 1" tvg-name="博斯运动 1" tvg-logo="https://epg.112114.xyz/logo/博斯运动1.png" group-title="Đài Loan",博斯运动 1
-http://smt.iktv.ddns-ip.net/Smart.php?id=bosisport1_twn
+https://smart.pendy.dpdns.org/Smart.php?id=bosisport1_twn
 #EXTINF:-1,tvg-id="博斯运动 2" tvg-name="博斯运动 2" tvg-logo="https://epg.112114.xyz/logo/博斯运动2.png" group-title="Đài Loan",博斯运动 2
-http://smt.iktv.ddns-ip.net/Smart.php?id=bosisport2_twn
+https://smart.pendy.dpdns.org/Smart.php?id=bosisport2_twn
 #EXTINF:-1,tvg-id="博斯高球2 HD" tvg-name="博斯高球2 HD" tvg-logo="https://epg.112114.xyz/logo/博斯高球2.png" group-title="Đài Loan",博斯高球2 HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=bosigolf2_twn
+https://smart.pendy.dpdns.org/Smart.php?id=bosigolf2_twn
 #EXTINF:-1,tvg-id="博斯网球 HD" tvg-name="博斯网球 HD" tvg-logo="https://epg.112114.xyz/logo/博斯网球.png" group-title="Đài Loan",博斯网球 HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=bositennis_twn
+https://smart.pendy.dpdns.org/Smart.php?id=bositennis_twn
 #EXTINF:-1,tvg-id="东森洋片 ETTV Western" tvg-name="东森洋片 ETTV Western" tvg-logo="https://epg.112114.xyz/logo/东森洋片ETTVWESTERN.png" group-title="Đài Loan",东森洋片 ETTV Western
-http://smt.iktv.ddns-ip.net/Smart.php?id=ettvwestern
+https://smart.pendy.dpdns.org/Smart.php?id=ettvwestern
 #EXTINF:-1,tvg-id="龙华洋片" tvg-name="龙华洋片" tvg-logo="https://epg.112114.xyz/logo/龙华洋片.png" group-title="Đài Loan",龙华洋片 Lunghua Western
-http://smt.iktv.ddns-ip.net/Smart.php?id=lunghuawestern_twn
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuawestern_twn
 #EXTINF:-1,tvg-id="博斯无限" tvg-name="博斯无限" tvg-logo="https://epg.112114.xyz/logo/博斯无限.png" group-title="Đài Loan",博斯无限
-http://smt.iktv.ddns-ip.net/Smart.php?id=bosiunlimited_twn
+https://smart.pendy.dpdns.org/Smart.php?id=bosiunlimited_twn
 #EXTINF:-1,tvg-id="MTV" tvg-name="MTV" tvg-logo="https://epg.112114.xyz/logo/MTV.png" group-title="Đài Loan",MTV Live
-http://smt.iktv.ddns-ip.net/Smart.php?id=mtvhd_twn
+https://smart.pendy.dpdns.org/Smart.php?id=mtvhd_twn
 #EXTINF:-1,tvg-id="龙详时代" tvg-name="龙详时代" tvg-logo="https://epg.112114.xyz/logo/龙详时代.png" group-title="Đài Loan",龙详时代
-http://smt.iktv.ddns-ip.net/Smart.php?id=lungxiangtime_twn
+https://smart.pendy.dpdns.org/Smart.php?id=lungxiangtime_twn
 #EXTINF:-1,tvg-id="EYETV 旅游" tvg-name="EYETV 旅游" tvg-logo="https://epg.112114.xyz/logo/EYETV旅游.png" group-title="Đài Loan",EYETV 旅游
-http://smt.iktv.ddns-ip.net/Smart.php?id=eyetvtravel_twn
+https://smart.pendy.dpdns.org/Smart.php?id=eyetvtravel_twn
 #EXTINF:-1,tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://epg.112114.xyz/logo/靖天卡通台.png" group-title="Đài Loan",靖天卡通台
-http://smt.iktv.ddns-ip.net/Smart.php?id=jingtiancartoon_twn
+https://smart.pendy.dpdns.org/Smart.php?id=jingtiancartoon_twn
 #EXTINF:-1,tvg-id="EYETV 戏剧" tvg-name="EYETV 戏剧" tvg-logo="https://epg.112114.xyz/logo/EYETV戏剧.png" group-title="Đài Loan",EYETV 戏剧
-http://smt.iktv.ddns-ip.net/Smart.php?id=eyetvxiju_twn
+https://smart.pendy.dpdns.org/Smart.php?id=eyetvxiju_twn
 #EXTINF:-1,tvg-id="卫视中文台" tvg-name="卫视中文台" tvg-logo="https://epg.112114.xyz/logo/卫视中文台.png" group-title="Đài Loan",卫视中文台 Star Movies Chinese
-http://smt.iktv.ddns-ip.net/Smart.php?id=weishichinese_twn
+https://smart.pendy.dpdns.org/Smart.php?id=weishichinese_twn
 #EXTINF:-1,tvg-id="东森幼幼 Yoyo TV" tvg-name="东森幼幼 Yoyo TV" tvg-logo="https://epg.112114.xyz/logo/东森幼幼YOYOTV.png" group-title="Đài Loan",东森幼幼 Yoyo TV
-http://smt.iktv.ddns-ip.net/Smart.php?id=yoyo_twn
+https://smart.pendy.dpdns.org/Smart.php?id=yoyo_twn
 #EXTINF:-1,tvg-id="卫视电影台" tvg-name="卫视电影台" tvg-logo="https://epg.112114.xyz/logo/卫视电影台.png" group-title="Đài Loan",卫视电影台
-http://smt.iktv.ddns-ip.net/Smart.php?id=weishimovie_twn
+https://smart.pendy.dpdns.org/Smart.php?id=weishimovie_twn
 #EXTINF:-1,tvg-id="美亚电影" tvg-name="美亚电影" tvg-logo="https://epg.112114.xyz/logo/美亚电影.png" group-title="Đài Loan",美亚电影
-http://smt.iktv.ddns-ip.net/Smart.php?id=meiyamovie_twn
+https://smart.pendy.dpdns.org/Smart.php?id=meiyamovie_twn
 #EXTINF:-1,tvg-id="爱尔达影剧" tvg-name="爱尔达影剧" tvg-logo="https://epg.112114.xyz/logo/爱尔达影剧.png" group-title="Đài Loan",爱尔达影剧台
-http://smt.iktv.ddns-ip.net/Smart.php?id=eltayingju_twn
+https://smart.pendy.dpdns.org/Smart.php?id=eltayingju_twn
 #EXTINF:-1,tvg-id="爱尔达综合" tvg-name="爱尔达综合" tvg-logo="https://epg.112114.xyz/logo/爱尔达综合.png" group-title="Đài Loan",爱尔达综合台
-http://smt.iktv.ddns-ip.net/Smart.php?id=eltazonghe_twn
+https://smart.pendy.dpdns.org/Smart.php?id=eltazonghe_twn
 #EXTINF:-1,tvg-id="星卫电影" tvg-name="星卫电影" tvg-logo="https://epg.112114.xyz/logo/星卫电影.png" group-title="Đài Loan",星卫电影
-http://smt.iktv.ddns-ip.net/Smart.php?id=xingwei_movie
+https://smart.pendy.dpdns.org/Smart.php?id=xingwei_movie
 #EXTINF:-1,tvg-id="亚洲旅游台" tvg-name="亚洲旅游台" tvg-logo="https://epg.112114.xyz/logo/亚洲旅游台.png" group-title="Đài Loan",AFC 亚洲旅游台
-http://smt.iktv.ddns-ip.net/Smart.php?id=asiatravel_twn
+https://smart.pendy.dpdns.org/Smart.php?id=asiatravel_twn
 
 --------------------------------------------------------------------------------
 
@@ -2309,7 +2107,7 @@ https://mifntechnology.github.io/siaranMy/channels/BeritaRTM/index.m3u8
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="TVSUKAN" tvg-name="SUKAN RTM" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/SukanRtm.png",SUKAN RTM
 https://mifntechnology.github.io/siaranMy/channels/SukanRTM/index.m3u8
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="BERITARTM" tvg-name="BERITA RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/RTM_Asean_%282024%29.svg/2880px-RTM_Asean_%282024%29.svg.png",RTM ASEAN
-http://smt.iktv.ddns-ip.net/Smart.php?id=Rtmasean
+https://smart.pendy.dpdns.org/Smart.php?id=Rtmasean
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="BernamaTV" tvg-name="BernamaTV" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Bernama.png", BERNAMA
 https://mifntechnology.github.io/siaranMy/channels/Bernama/index.m3u8
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="TVS"  tvg- tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tvs.jpg",TVS
@@ -2333,21 +2131,21 @@ https://mifntechnology.github.io/siaranMy/channels/DewanRakyat/index.m3u8
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="Dewan Negara" tvg-name="Dewan Negara" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/RTM_Parlimen.png",DewanNegara
 https://mifntechnology.github.io/siaranMy/channels/DewanNegara/index.m3u8
 #EXTINF:-1 tvg-id="Astro.Prima" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/Astro_Prima_%282024%29.png" group-title="ĐÔNG NAM Á",Astro Prima
-http://smt.iktv.ddns-ip.net/Smart.php?id=Prima-0
+https://smart.pendy.dpdns.org/Smart.php?id=Prima-0
 #EXTINF:-1 tvg-id="Astro.Ria" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Astro_Ria_%282024%29.png" group-title="ĐÔNG NAM Á",Astro Ria
-http://smt.iktv.ddns-ip.net/Smart.php?id=Ria-0
+https://smart.pendy.dpdns.org/Smart.php?id=Ria-0
 #EXTINF:-1 tvg-id="Astro.Citra" tvg-logo="https://resizer-acm.eco.astro.com.my/tr:w-256,q:85/https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/301_144.png" group-title="ĐÔNG NAM Á",Astro Citra
-http://smt.iktv.ddns-ip.net/Smart.php?id=AAcitra
+https://smart.pendy.dpdns.org/Smart.php?id=AAcitra
 #EXTINF:-1 tvg-id="Astro.Oasis" tvg-logo="https://resizer-acm.eco.astro.com.my/tr:w-256,q:85/https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/315_144.png" group-title="ĐÔNG NAM Á",Astro Oasis
-http://smt.iktv.ddns-ip.net/Smart.php?id=Oasis
+https://smart.pendy.dpdns.org/Smart.php?id=Oasis
 #EXTINF:-1 tvg-id="Astro.Rania" tvg-logo="https://resizer-acm.eco.astro.com.my/tr:w-256,q:85/https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/401_144.png" group-title="ĐÔNG NAM Á",Astro Rania
-http://smt.iktv.ddns-ip.net/Smart.php?id=Rania
+https://smart.pendy.dpdns.org/Smart.php?id=Rania
 #EXTINF:-1 tvg-id="Astro.Aura" tvg-logo="https://resizer-acm.eco.astro.com.my/tr:w-256,q:85/https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/400_144.png" group-title="ĐÔNG NAM Á",Astro Aura
-http://smt.iktv.ddns-ip.net/Smart.php?id=Aura
+https://smart.pendy.dpdns.org/Smart.php?id=Aura
 #EXTINF:-1 tvg-id="Astro.Vaanavil" tvg-logo="https://resizer-acm.eco.astro.com.my/tr:w-256,q:85/https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/397_144.png" group-title="ĐÔNG NAM Á",Astro Vaanavil
-http://smt.iktv.ddns-ip.net/Smart.php?id=Vaanavil
+https://smart.pendy.dpdns.org/Smart.php?id=Vaanavil
 #EXTINF:-1 tvg-id="Astro.Vellithirai" tvg-logo="https://resizer-acm.eco.astro.com.my/tr:w-256,q:85/https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/399_144.png" group-title="ĐÔNG NAM Á",Astro Vellithirai 
-http://smt.iktv.ddns-ip.net/Smart.php?id=Vellithirai
+https://smart.pendy.dpdns.org/Smart.php?id=Vellithirai
 #EXTINF:-1 tvg-id="Astro.AEC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Astro_AEC_%282024%29.png" group-title="ĐÔNG NAM Á",Astro AEC
 http://php.jdshipin.com:8880/smt.php?id=AEC
 #EXTINF:-1 tvg-id="Wahlaitoi.Jade" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Astro_WLT.png" group-title="ĐÔNG NAM Á",Astro Wah Lai Toi
@@ -2357,7 +2155,7 @@ http://php.jdshipin.com:8880/smt.php?id=Quanjia
 #EXTINF:-1 tvg-id="Huahee" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Astro_Hua_Hee_Dai_%282024%29.png" group-title="ĐÔNG NAM Á",Astro Hua Hee Dai
 http://php.jdshipin.com:8880/smt.php?id=Huahee
 #EXTINF:-1 tvg-id="AOD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Astro_AOD_%282024%29.png" group-title="ĐÔNG NAM Á",Astro AOD
-http://smt.iktv.ddns-ip.net/Smart.php?id=Aodhd
+https://smart.pendy.dpdns.org/Smart.php?id=Aodhd
 #EXTINF:-1 tvg-id="iQiyi" tvg-logo="https://astromedia.com.my/wp-content/uploads/2023/12/iqiyi2.png" group-title="ĐÔNG NAM Á",Astro iQiyi
 http://php.jdshipin.com:8880/smt.php?id=Qiyi
 #EXTINF:2 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="channel5hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Mediacorp_Channel_5_2023.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Channel 5 HD
@@ -2365,11 +2163,11 @@ https://cdn6.163189.xyz/live/ch5/stream.m3u8
 #EXTINF:3 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="channel8hd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/55/Mediacorp_Channel_8_2023.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Channel 8 HD
 https://cdn6.163189.xyz/live/ch8/stream.m3u8
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="suriahd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mediacorp_Suria_2023.svg/250px-Mediacorp_Suria_2023.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Suria
-http://smt.iktv.ddns-ip.net/Smart.php?id=Suria
+https://smart.pendy.dpdns.org/Smart.php?id=Suria
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="vasanthamhd" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%275714408%27&EntityType=%27Item%27&EntityId=%2797096%27&Width=1000&Height=260" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Vasantham
-http://smt.iktv.ddns-ip.net/Smart.php?id=Vasantham
+https://smart.pendy.dpdns.org/Smart.php?id=Vasantham
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="cnahd" tvg-logo="" provider="DAKLAKIPTV" provider-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/800px-CNA_new_logo.svg.png" provider-type="iptv", CNA (Domestic Feed)
-http://smt.iktv.ddns-ip.net/Smart.php?id=Mewatch_cna
+https://smart.pendy.dpdns.org/Smart.php?id=Mewatch_cna
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="channeluhd" tvg-logo=""https://upload.wikimedia.org/wikipedia/commons/d/d5/Mediacorp_Channel_U_2023.svg provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Channel U HD
 https://cdn6.163189.xyz/live/chu/stream.m3u8
 #EXTINF:-1  tvg-id="201" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c0/RTB_Sukmaindera.png" group-title="ĐÔNG NAM Á",RTB Sukmaindera
@@ -2443,7 +2241,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapmovies_hd1.mpd
 #KODIPROP:inputstream.adaptive.license_key=bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="TVRISMART" tvg-logo="https://pictr.com/images/2025/01/23/xpbBK2.jpg",TVRI Smart
-http://smt.iktv.ddns-ip.net/Smart.php?id=TVRI
+https://smart.pendy.dpdns.org/Smart.php?id=TVRI
 #EXTINF:-1 group-title="ĐÔNG NAM Á" tvg-id="TVRI.id" tvg-logo="https://pictr.com/images/2025/01/23/xpbBK2.jpg",TVRI Nasional
 #KODIPROP:inputstream.adaptive.common_headers=user-agent=TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #KODIPROP:contentlookup=False
@@ -2463,31 +2261,31 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="RCTI" tvg-logo=""https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/2560px-RCTI_logo_2015.svg.png provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", RCTI HD
-http://smt.iktv.ddns-ip.net/Smart.php?id=Rcti
+https://smart.pendy.dpdns.org/Smart.php?id=Rcti
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="Kompass" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kompas_TV_%282016%29_logo.svg/2560px-Kompas_TV_%282016%29_logo.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Kompass
-http://smt.iktv.ddns-ip.net/Smart.php?id=Kompass
+https://smart.pendy.dpdns.org/Smart.php?id=Kompass
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="indosiarhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Indosiar_2015.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Indosiar
-http://smt.iktv.ddns-ip.net/Smart.php?id=Indosiar
+https://smart.pendy.dpdns.org/Smart.php?id=Indosiar
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="Antvdeophaikenhcongan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/2880px-Antv_logo.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", ANTV (KHÔNG PHẢI KÊNH CÔNG AN)
-http://smt.iktv.ddns-ip.net/Smart.php?id=Antv
+https://smart.pendy.dpdns.org/Smart.php?id=Antv
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="trans7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_Trans7.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Trans7
-http://smt.iktv.ddns-ip.net/Smart.php?id=Trans7_eko
+https://smart.pendy.dpdns.org/Smart.php?id=Trans7_eko
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="transtv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", TransTV
-http://smt.iktv.ddns-ip.net/Smart.php?id=Transtv
+https://smart.pendy.dpdns.org/Smart.php?id=Transtv
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="metrotv" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/LogoMetroTVsince2010.svg/250px-LogoMetroTVsince2010.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", Metro TV
-http://smt.iktv.ddns-ip.net/Smart.php?id=metrotv_eko
+https://smart.pendy.dpdns.org/Smart.php?id=metrotv_eko
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="metrotv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/MNCTV_logo.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", MNCTV
-http://smt.iktv.ddns-ip.net/Smart.php?id=Mnctv
+https://smart.pendy.dpdns.org/Smart.php?id=Mnctv
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="sctvkhongphaikenhhai" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/SCTV_Logo.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", SCTV (KHÔNG PHẢI KÊNH HÀI ĐẮK LẮK)
-http://smt.iktv.ddns-ip.net/Smart.php?id=SCTV
+https://smart.pendy.dpdns.org/Smart.php?id=SCTV
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="tvone" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TvOne_2023.svg" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", TVOne
-http://smt.iktv.ddns-ip.net/Smart.php?id=Tvone
+https://smart.pendy.dpdns.org/Smart.php?id=Tvone
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="GTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_%282017%29.svg/1200px-GTV_%282017%29.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", GTV
-http://smt.iktv.ddns-ip.net/Smart.php?id=Gtv
+https://smart.pendy.dpdns.org/Smart.php?id=Gtv
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="RTV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/250px-Rajawali_Televisi.svg.png" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", RTV
-http://smt.iktv.ddns-ip.net/Smart.php?id=Rtv
+https://smart.pendy.dpdns.org/Smart.php?id=Rtv
 #EXTINF:4 group-title="ĐÔNG NAM Á" aktv-server-group="AKTV" tvg-id="JAKTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b4/Logo_Jak_tv_%282005-2009%29.png/revision/latest?cb=20131229082946" provider="DAKLAKIPTV" provider-logo="" provider-type="iptv", JakTV
-http://smt.iktv.ddns-ip.net/Smart.php?id=JakTV
+https://smart.pendy.dpdns.org/Smart.php?id=JakTV
 
 --------------------------------------------------------------------------------
 
@@ -2544,33 +2342,33 @@ https://7pal.short.gy/nowhkp2
 #EXTINF:-1 tvg-id="English.-.Now.Sports.Premier.League.3.hk" tvg-logo="https://i.imgur.com/kKFsIHz.png" group-title="THỂ THAO QUỐC TẾ", Now Sports Premier eague 3-FHD
 https://7pal.short.gy/nowhkp3
 #EXTINF:-1,tvg-id="体育频道|Arena" tvg-name="体育频道|Arena" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena
-http://smt.iktv.ddns-ip.net/Smart.php?id=Arena
+https://smart.pendy.dpdns.org/Smart.php?id=Arena
 #EXTINF:-1,tvg-id="体育频道|Arena 2" tvg-name="体育频道|Arena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena 2
-http://smt.iktv.ddns-ip.net/Smart.php?id=Arena2
+https://smart.pendy.dpdns.org/Smart.php?id=Arena2
 #EXTINF:-1,tvg-id="体育频道|BolaArena 1" tvg-name="体育频道|BolaArena 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA1.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 1
-http://smt.iktv.ddns-ip.net/Smart.php?id=Bolaarena1
+https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena1
 #EXTINF:-1,tvg-id="体育频道|BolaArena 2" tvg-name="体育频道|BolaArena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 2
-http://smt.iktv.ddns-ip.net/Smart.php?id=Bolaarena2
+https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena2
 #EXTINF:-1 tvg-id="Astro.Premier.League.my" tvg-logo="https://i.imgur.com/M4nTRLb.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League FHD
-http://smt.iktv.ddns-ip.net/Smart.php?id=Assp1
+https://smart.pendy.dpdns.org/Smart.php?id=Assp1
 #EXTINF:-1 tvg-id="Astro.Premier.League.2.my" tvg-logo="https://i.imgur.com/f6hG3Ok.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League 2 FHD
-http://smt.iktv.ddns-ip.net/Smart.php?id=Assp2
+https://smart.pendy.dpdns.org/Smart.php?id=Assp2
 #EXTINF:-1 tvg-id="Astro.Grandstand.my" tvg-logo="https://i.imgur.com/u92HNWn.png" group-title="THỂ THAO QUỐC TẾ", Astro Grandstand FHD
-http://smt.iktv.ddns-ip.net/Smart.php?id=Assp3
+https://smart.pendy.dpdns.org/Smart.php?id=Assp3
 #EXTINF:-1 tvg-id="Astro.Football.my" tvg-logo="https://i.imgur.com/ixUEirO.png" group-title="THỂ THAO QUỐC TẾ", Astro Football FHD
-http://smt.iktv.ddns-ip.net/Smart.php?id=Assp4
+https://smart.pendy.dpdns.org/Smart.php?id=Assp4
 #EXTINF:-1,tvg-id="体育频道|Astro Sports Plus" tvg-name="体育频道|Astro Sports Plus" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROSPORTSPLUS.png" group-title="THỂ THAO QUỐC TẾ",Astro Sports Plus
-http://smt.iktv.ddns-ip.net/Smart.php?id=go_sportsplus
+https://smart.pendy.dpdns.org/Smart.php?id=go_sportsplus
 #EXTINF:-1,tvg-id="体育频道|Astro Badminton 1" tvg-name="体育频道|Astro Badminton 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON1.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 1
-http://smt.iktv.ddns-ip.net/Smart.php?id=go_badminton1
+https://smart.pendy.dpdns.org/Smart.php?id=go_badminton1
 #EXTINF:-1,tvg-id="体育频道|Astro Badminton 2" tvg-name="体育频道|Astro Badminton 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON2.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 2
-http://smt.iktv.ddns-ip.net/Smart.php?id=go_badminton2
+https://smart.pendy.dpdns.org/Smart.php?id=go_badminton2
 #EXTINF:-1,tvg-id="体育频道|Astro W-Sports" tvg-name="体育频道|Astro W-Sports" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROWSPORTS.png" group-title="THỂ THAO QUỐC TẾ",Astro W-Sports
-http://smt.iktv.ddns-ip.net/Smart.php?id=go_assp5
+https://smart.pendy.dpdns.org/Smart.php?id=go_assp5
 #EXTINF:-1,tvg-id="体育频道|Astro Cricket" tvg-name="体育频道|Astro Cricket" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROCRICKET.png" group-title="THỂ THAO QUỐC TẾ",Astro Cricket
-http://smt.iktv.ddns-ip.net/Smart.php?id=Acricket
+https://smart.pendy.dpdns.org/Smart.php?id=Acricket
 #EXTINF:-1,tvg-id="体育频道|Astro Golf" tvg-name="体育频道|Astro Golf" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROGOLF.png" group-title="THỂ THAO QUỐC TẾ",Astro Golf
-http://smt.iktv.ddns-ip.net/Smart.php?id=Agolf
+https://smart.pendy.dpdns.org/Smart.php?id=Agolf
 #EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyspnews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Sky_sports_news_2021_logo.svg/1200px-Sky_sports_news_2021_logo.svg.png",Sky Sports News
 https://7pal.short.gy/ssportsnw
 #EXTINF:-1 group-title="THỂ THAO QUỐC TẾ" tvg-id="skyf1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/1200px-Sky_Sport_F1_-_Logo_2020.svg.png",Sky Sport F1
