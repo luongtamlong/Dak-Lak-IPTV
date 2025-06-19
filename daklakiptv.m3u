@@ -623,7 +623,7 @@ https://absp-live.akamaized.net/dash/live/2099526/gmanw/manifest.mpd|Referer=htt
 #EXTINF:-1 tvg-id="gmapinoytv2" tvg-name="GMA PINOY TV (TFC)" tvg-logo="https://i.imgur.com/54f9r5A.png" group-title="Quốc tế",GMA PINOY TV
 https://absp-live.akamaized.net/dash/live/2099522/gmapt/manifest.mpd|Referer=https://www.iwanttfc.com/
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/singapore/cctv4-sg.png",CCTV4 Asia 
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv4
+http://117.158.43.187:2016/全网通.php?id=CCTV4
 #EXTINF:-1 group-title="Quốc tế" tvg-id="CCTV4Asia.cn" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch551_425_305",Dragon TV International
 http://jxiptv.dpdns.org/stream/tvb/null-12/master.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://i.ibb.co/yqmsPcx/3.png" group-title="Quốc tế",TVB Jade Asia
@@ -635,9 +635,9 @@ https://tvb.860775.xyz/I-NEWS
 #EXTINF:-1 tvg-id="Jade.hk" tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-09/931a1b83173c0557b46f6b7343e7e9f2.png_w250" group-title="Quốc tế",TDM Satellite
 https://globallive.tdm.com.mo/ch3/ch3.live/playlist.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="Quốc tế",Phượng Hoàng Trung Văn
-https://live.tvfix.org/live/fhzw/index.m3u8
+https://s1.m16tv.cfd/aktv/CH-3/AKTV.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="Quốc tế",Phượng Hoàng Tin Tức
-https://live.tvfix.org/live/fwzx/index.m3u8
+https://s1.m16tv.cfd/aktv/CH-4/AKTV.m3u8
 
 --------------------------------------------------------------------------------
 
@@ -713,6 +713,10 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
 https://live.tvfix.org/live/enews/index.m3u8
 #EXTINF:-1 tvg-id="warnertvhd" group-title="Giải trí" tvg-logo="", TVB Xing He
 http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
+#EXTINF:-1 tvg-id="warnertvhd" group-title="Giải trí" tvg-logo="", TVB Drama
+https://s1.m16tv.cfd/aktv/CH-18/AKTV.m3u8
+#EXTINF:-1 tvg-id="warnertvhd" group-title="Giải trí" tvg-logo="", TVB Pearl Drama
+https://s1.m16tv.cfd/aktv/CH-19/AKTV.m3u8
 
 --------------------------------------------------------------------------------
 
@@ -1715,41 +1719,41 @@ http://185.236.229.62:9981/play/a08j
 --------------------------------------------------------------------------------
 
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2201/057/821/202204010054_1626677502161_H169_1080.jpg" group-title="Trung Quốc", CCTV1综合
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv1
+http://117.158.43.187:2016/全网通.php?id=CCTV1
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/346/945/202205311432_1653977575541_H169_1080.jpg" group-title="Trung Quốc", CCTV2财经
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv2
+http://117.158.43.187:2016/全网通.php?id=CCTV2
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/864/202204010055_1626679292691_H169_1080.jpg" group-title="Trung Quốc", CCTV3综艺
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv3
+http://117.158.43.187:2016/全网通.php?id=CCTV3
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/346/947/202204010054_1626679457281_H169_1080.jpg" group-title="Trung Quốc", CCTV4中文国际
-http://smt.iktv.ddns-ip.net/Smart.php?id=Cctv4
+http://117.158.43.187:2016/全网通.php?id=CCTV4
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/171/202204010048_1626679645474_H169_1080.jpg" group-title="Trung Quốc", CCTV5体育
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv5
+http://117.158.43.187:2016/全网通.php?id=CCTV5
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/516/288/202204010048_1626679726956_H169_1080.jpg" group-title="Trung Quốc", CCTV5+体育赛事
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv5plus
+http://117.158.43.187:2016/全网通.php?id=CCTV5p
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/872/202204010054_1626679942827_H169_1080.jpg" group-title="Trung Quốc", CCTV6电影
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv6
+http://117.158.43.187:2016/全网通.php?id=CCTV6
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/622/202204010054_1626680072401_H169_1080.jpg" group-title="Trung Quốc", CCTV7国防军事
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv7
+http://117.158.43.187:2016/全网通.php?id=CCTV7
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/868/202204010049_1626677144094_H169_1080.jpg" group-title="Trung Quốc", CCTV8电视剧
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv8
+http://117.158.43.187:2016/全网通.php?id=CCTV8
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/624/202204010054_1626677492322_H169_1080.jpg" group-title="Trung Quốc", CCTV9纪录
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv9
+http://117.158.43.187:2016/全网通.php?id=CCTV9
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/874/202204010054_1626677759168_H169_1080.jpg" group-title="Trung Quốc", CCTV10科教
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv10
+http://117.158.43.187:2016/全网通.php?id=CCTV10
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/988/610/202204010054_1626677917611_H169_1080.jpg" group-title="Trung Quốc", CCTV11戏曲
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv11
+http://117.158.43.187:2016/全网通.php?id=CCTV11
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/627/202204010053_1626678104342_H169_1080.jpg" group-title="Trung Quốc", CCTV12社会与法
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv12
+http://117.158.43.187:2016/全网通.php?id=CCTV12
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/208/864/202204010051_2202208864_H169_1080.jpg" group-title="Trung Quốc", CCTV13新闻
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv13
+http://117.158.43.187:2016/全网通.php?id=CCTV13
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/212/875/202204010054_1626678143105_H169_1080.jpg" group-title="Trung Quốc", CCTV14少儿
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv14
+http://117.158.43.187:2016/全网通.php?id=CCTV14
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/628/202204010054_1626678239769_H169_1080.jpg" group-title="Trung Quốc", CCTV15音乐
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv15
+http://117.158.43.187:2016/全网通.php?id=CCTV15
 #EXTINF:-1 tvg-logo="" group-title="Trung Quốc", CCTV16奥林匹克
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv16
+http://117.158.43.187:2016/全网通.php?id=CCTV16
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5501/083/631/202204010052_1626678423944_H169_1080.jpg" group-title="Trung Quốc", CCTV17农业农村
-http://smt.iktv.ddns-ip.net/Smart.php?id=cctv17
+http://117.158.43.187:2016/全网通.php?id=CCTV17
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/356/202502251602_1740470533820_H169_1080.jpg" group-title="Trung Quốc", CGTN外语记录
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/303/202502251557_1740470224929_H169_1080.jpg" group-title="Trung Quốc", CGTN阿拉伯语
@@ -1761,25 +1765,27 @@ https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/179/332/202502251558_1740470310039_H169_1080.jpg" group-title="Trung Quốc", CGTN俄语
 https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
 #EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png" group-title="Trung Quốc",北京卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=beijing
+http://117.158.43.187:2016/全网通.php?id=北京卫视
 #EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png" group-title="Trung Quốc",湖南卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=hunan_twn
+http://117.158.43.187:2016/全网通.php?id=湖南卫视
 #EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="Trung Quốc",浙江卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=zhejiang_twn
+http://8.138.7.223/tv/zjws.m3u8
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/058/351/202106171938_5100043384_H169_1080.jpg" group-title="Trung Quốc", 东方卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=dongfangweishi_twn
+http://117.158.43.187:2016/全网通.php?id=东方卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/199/408/202104022140_5100156802_H169_1080.jpg" group-title="Trung Quốc", 江苏卫视
 http://smt.iktv.ddns-ip.net/Smart.php?id=jiangsu_twn
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/428/795/202107191524_2202428795_H169_1080.jpg" group-title="Trung Quốc", 广东卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=guangdongweishi_twn
+http://117.158.43.187:2016/全网通.php?id=广东卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2202/428/795/202107191524_2202428795_H169_1080.jpg" group-title="Trung Quốc", 广东珠江台
 http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2200/322/852/202304081513_1677570732561_H169_1080.jpg" group-title="Trung Quốc", 大湾区卫视
 http://smt.iktv.ddns-ip.net/Smart.php?id=nanfang_twn
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 深圳卫视
-http://smt.iktv.ddns-ip.net/Smart.php?id=shenzhen
+http://117.158.43.187:2016/全网通.php?id=深圳卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 湖北卫视
 http://smt.iktv.ddns-ip.net/Smart.php?id=hubei
+#EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 天津卫视
+http://117.158.43.187:2016/全网通.php?id=天津卫视
 #EXTINF:-1 tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/021/492/202303201551_1658134112236_H169_1080.jpg" group-title="Trung Quốc", 广西卫视
 http://smt.iktv.ddns-ip.net/Smart.php?id=guangxi
 
