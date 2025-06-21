@@ -606,7 +606,7 @@ https://cdn1.skygo.mn/live/disk1/RenTV/HLS-FTA/RenTV.m3u8
 #EXTINF:-1 group-title="Quốc tế" catchup-days="5" catchup-type="flussonic" tvg-logo="http://play.wisp.cat/logos/1560.png" tvg-id="1plus1",1+1 International
 http://88.218.242.235:82/0195/index.m3u8?token=k8M5h1RyLb
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
-#EXTVLCOPT:http-referrer=https://teveo.cu/
+#EXTVLC:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tfcasia" tvg-name="TFC ASIA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Cfo9k6CeS3CkU0fvi4PZifrkt9s8bMmBAA&usqp=CAU" group-title="Quốc tế",TFC
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -846,8 +846,12 @@ https://ncdn.telewebion.com/irinn2/live/playlist.m3u8
 
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал
 http://sv.cvtv.xyz:81/opt?token=live
+#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал Московское время
+http://cdntv.online/hls/bwarxef2py/1.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
+#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1 Московское время
+http://dmi3y-tv.ru/hls/smotrim/T2/CH_RUSSIA1HD.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1 Региональная версия
 http://dmi3y-tv.ru/hls/smotrim/region/CH_RUSSIA1HD_TOMSK.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 24
@@ -858,6 +862,8 @@ http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
 http://178.212.71.253:8000/play/9/index.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ
 https://cdn.ntv.ru/ntv4/playlist.m3u8
+#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ Московское время
+http://dmi3y-tv.ru/hls/T2/CH_NTVHD.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ-Сериал
 https://cdn.ntv.ru/th_serial/playlist.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ-хит
@@ -866,266 +872,44 @@ https://cdn.ntv.ru/th_hit/playlist.m3u8
 https://cdn.ntv.ru/th_pravo/playlist.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ-Стиль
 https://cdn.ntv.ru/th_style/playlist.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ТНТ4
-http://178.212.71.253:8000/play/106/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ТНТ
-http://178.212.71.253:8000/play/19/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",РЕН ТВ
-http://178.212.71.253:8000/play/11/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Матч!
-http://178.212.71.253:8000/play/3/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Точка РФ
-http://178.212.71.253:8000/play/61/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",RTG TV
-http://178.212.71.253:8000/play/71/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Живая природа
-http://178.212.71.253:8000/play/79/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",История
-http://178.212.71.253:8000/play/87/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Охота и Рыбалка
-http://178.212.71.253:8000/play/93/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Живая Планета
-http://178.212.71.253:8000/play/114/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Моя Планета
-http://178.212.71.253:8000/play/117/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Наука
-http://178.212.71.253:8000/play/88/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Большая азия
-http://178.212.71.253:8000/play/83/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Техно 24
-http://178.212.71.253:8000/play/63/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",5 Канал
-http://178.212.71.253:8000/play/5/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ТВЦ
-http://178.212.71.253:8000/play/10/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Спас
-http://178.212.71.253:8000/play/12/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",СТС
-http://178.212.71.253:8000/play/13/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Домашний
-http://178.212.71.253:8000/play/14/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ТВ3
-http://178.212.71.253:8000/play/15/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Пятница
-http://178.212.71.253:8000/play/16/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Звезда
-http://178.212.71.253:8000/play/17/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мир
-http://178.212.71.253:8000/play/18/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Первый Крымский
-http://178.212.71.253:8000/play/22/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мир 24
-http://178.212.71.253:8000/play/23/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Милет
-http://178.212.71.253:8000/play/24/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Первый Крымский HD
-http://178.212.71.253:8000/play/25/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG", Крым 24 HD
-http://178.212.71.253:8000/play/26/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Ялта ТВ
-http://178.212.71.253:8000/play/27/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Москва 24
-http://178.212.71.253:8000/play/28/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ИКС
-http://178.212.71.253:8000/play/29/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Mezzo
-http://178.212.71.253:8000/play/31/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Витрина
-http://178.212.71.253:8000/play/32/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Ювелирочка
-http://178.212.71.253:8000/play/35/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",РБК
-http://178.212.71.253:8000/play/36/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ТРО
-http://178.212.71.253:8000/play/37/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Телеканал 360
-http://178.212.71.253:8000/play/39/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Cinema
-http://178.212.71.253:8000/play/40/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ЦТВ
-http://178.212.71.253:8000/play/41/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Русский Роман
-http://178.212.71.253:8000/play/42/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",МузСоюз
-http://178.212.71.253:8000/play/43/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Сарафан
-http://178.212.71.253:8000/play/44/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Русский Детектив
-http://178.212.71.253:8000/play/45/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Русский Иллюзион
-http://178.212.71.253:8000/play/49/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Любимое кино
-http://178.212.71.253:8000/play/50/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Москва Доверие
-http://178.212.71.253:8000/play/53/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Индия
-http://178.212.71.253:8000/play/59/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Киносерия
-http://178.212.71.253:8000/play/64/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Киносат
-http://178.212.71.253:8000/play/66/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",365 дней
-http://178.212.71.253:8000/play/67/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Доктор
-http://178.212.71.253:8000/play/68/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Авто плюс
-http://178.212.71.253:8000/play/69/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Телеканал 360
-http://178.212.71.253:8000/play/72/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Наша Тема
-http://178.212.71.253:8000/play/73/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Суббота
-http://178.212.71.253:8000/play/75/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Кино ТВ
-http://178.212.71.253:8000/play/78/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Союз
-http://178.212.71.253:8000/play/80/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мир 24 HD
-http://178.212.71.253:8000/play/82/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Вместе-РФ
-http://178.212.71.253:8000/play/84/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Беларусь 24
-http://178.212.71.253:8000/play/89/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Ретро
-http://178.212.71.253:8000/play/90/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Усадьба
-http://178.212.71.253:8000/play/91/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Драйв
-http://178.212.71.253:8000/play/92/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Здоровое ТВ
-http://178.212.71.253:8000/play/94/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Домашние животные
-http://178.212.71.253:8000/play/95/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Психология 21
-http://178.212.71.253:8000/play/96/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Вопросы и ответы
-http://178.212.71.253:8000/play/97/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Дом Кино
-http://178.212.71.253:8000/play/99/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",НСТ
-http://178.212.71.253:8000/play/100/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG", CTC love
-http://178.212.71.253:8000/play/104/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG", Ю
-http://178.212.71.253:8000/play/105/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Конный Мир
-http://178.212.71.253:8000/play/108/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Соловьев Live
-http://178.212.71.253:8000/play/111/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",2x2
-http://178.212.71.253:8000/play/113/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Русский Бестселер
-http://178.212.71.253:8000/play/115/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",КВН ТВ
-http://178.212.71.253:8000/play/119/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",7TV
-http://178.212.71.253:8000/play/120/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",8 канал
-http://178.212.71.253:8000/play/121/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мосфильм. Золотая коллекция
-http://178.212.71.253:8000/play/124/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мужское Кино
-http://178.212.71.253:8000/play/126/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Киносемья
-http://178.212.71.253:8000/play/127/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Киносвидание
-http://178.212.71.253:8000/play/122/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Киномикс
-http://178.212.71.253:8000/play/70/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Кинохит
-http://178.212.71.253:8000/play/123/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Наше Новое Кино
-http://178.212.71.253:8000/play/128/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Кинопремьера HD
-http://178.212.71.253:8000/play/125/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Кинокомедия
-http://178.212.71.253:8000/play/85/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Родное Кино
-http://178.212.71.253:8000/play/136/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Победа
-http://178.212.71.253:8000/play/129/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Звезда+
-http://178.212.71.253:8000/play/130/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Ностальгия
-http://178.212.71.253:8000/play/131/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Кто Есть Кто
-http://178.212.71.253:8000/play/132/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Киноужас
-http://178.212.71.253:8000/play/133/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",7ТВ
-http://178.212.71.253:8000/play/381/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Известия
-http://178.212.71.253:8000/play/138/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Че
-http://178.212.71.253:8000/play/139/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Продвижение
-http://178.212.71.253:8000/play/140/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Жара
-http://178.212.71.253:8000/play/141/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",1HD
-http://178.212.71.253:8000/play/60/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",МузТВ
-http://178.212.71.253:8000/play/20/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Music Box Russia
-http://178.212.71.253:8000/play/65/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Шансон ТВ
-http://178.212.71.253:8000/play/76/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Bridge HD
-http://178.212.71.253:8000/play/98/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Bridge TV
-http://178.212.71.253:8000/play/110/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Bridge TV Rock
-http://178.212.71.253:8000/play/101/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",BridgeTV Hit
-http://178.212.71.253:8000/play/134/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Bridge TV classic
-http://178.212.71.253:8000/play/135/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Bridge TV Шлягер
-http://178.212.71.253:8000/play/142/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",ТНТ Music
-http://178.212.71.253:8000/play/137/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",RU.TV
-http://178.212.71.253:8000/play/38/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Cолнце
-http://178.212.71.253:8000/play/103/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мама
-http://178.212.71.253:8000/play/86/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",СТС Kids
-http://178.212.71.253:8000/play/112/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Ani
-http://178.212.71.253:8000/play/74/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Детский Мир
-http://178.212.71.253:8000/play/52/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Радость Моя
-http://178.212.71.253:8000/play/46/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Карусель
-http://178.212.71.253:8000/play/8/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Бобёр
-http://178.212.71.253:8000/play/77/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мульт
-http://178.212.71.253:8000/play/47/index.m3u8
-#EXTINF:-1 ggroup-title="🇷🇺 Nga và khối SNG",Мультимузыка
-http://178.212.71.253:8000/play/116/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Eurosport 1
-http://178.212.71.253:8000/play/143/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Матч ТВ HD
-http://178.212.71.253:8000/play/34/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Матч! Страна
-http://178.212.71.253:8000/play/51/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Матч! Арена
-http://178.212.71.253:8000/play/54/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Матч! Борец
-http://178.212.71.253:8000/play/55/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Матч! Игра
-http://178.212.71.253:8000/play/56/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Матч Премьер
-http://178.212.71.253:8000/play/57/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Матч! Футбол 1
-http://178.212.71.253:8000/play/58/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Русский Экстрим
-http://178.212.71.253:8000/play/118/index.m3u8
-#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Старт
-http://178.212.71.253:8000/play/81/index.m3u8
+#EXTINF:0 tvg-id="22" tvg-logo="http://epg.cdntv.online/img/22.png" group-title="🇷🇺 Nga và khối SNG", Домашний
+http://cdntv.online/hls/bwarxef2py/22.m3u8
+#EXTINF:0 tvg-id="23" tvg-logo="http://epg.cdntv.online/img/23.png" group-title="🇷🇺 Nga và khối SNG", Звезда
+http://cdntv.online/hls/bwarxef2py/23.m3u8
+#EXTINF:0 tvg-id="24" tvg-logo="http://epg.cdntv.online/img/24.png" group-title="🇷🇺 Nga và khối SNG", Мир
+http://cdntv.online/hls/bwarxef2py/24.m3u8
+#EXTINF:0 tvg-id="26" tvg-logo="http://epg.cdntv.online/img/26.png" group-title="🇷🇺 Nga và khối SNG", Пятница!
+http://cdntv.online/hls/bwarxef2py/26.m3u8
+#EXTINF:0 tvg-id="30" tvg-logo="http://epg.cdntv.online/img/30.png" group-title="🇷🇺 Nga và khối SNG", Пятый канал
+http://cdntv.online/hls/bwarxef2py/30.m3u8
+#EXTINF:0 tvg-id="31" tvg-logo="http://epg.cdntv.online/img/31.png" group-title="🇷🇺 Nga và khối SNG", Рен ТВ
+http://cdntv.online/hls/bwarxef2py/31.m3u8
+#EXTINF:0 tvg-id="31" tvg-logo="http://epg.cdntv.online/img/31.png" group-title="🇷🇺 Nga và khối SNG", Рен ТВ Московское время
+http://cdntv.online/hls/bwarxef2py/11.m3u8
+#EXTINF:0 tvg-id="36" tvg-logo="http://epg.cdntv.online/img/36.png" group-title="🇷🇺 Nga và khối SNG", ТВ Центр
+http://cdntv.online/hls/bwarxef2py/36.m3u8
+#EXTINF:0 tvg-id="36" tvg-logo="http://epg.cdntv.online/img/36.png" group-title="🇷🇺 Nga và khối SNG", ТВ Центр Московское время
+http://cdntv.online/hls/bwarxef2py/10.m3u8
+#EXTINF:0 tvg-id="140" tvg-logo="http://epg.cdntv.online/img/140.png" group-title="🇷🇺 Nga và khối SNG", Суббота!
+http://cdntv.online/hls/bwarxef2py/140.m3u8
+#EXTINF:0 tvg-id="152" tvg-logo="http://epg.cdntv.online/img/152.png" group-title="🇷🇺 Nga và khối SNG", Карусель
+http://cdntv.online/hls/bwarxef2py/152.m3u8
+#EXTINF:0 tvg-id="166" tvg-logo="http://epg.cdntv.online/img/166.png" group-title="🇷🇺 Nga và khối SNG", 2x2
+http://cdntv.online/hls/bwarxef2py/166.m3u8
+#EXTINF:0 tvg-id="173" tvg-logo="http://epg.cdntv.online/img/173.png" group-title="🇷🇺 Nga và khối SNG", Пятница!
+http://cdntv.online/hls/bwarxef2py/173.m3u8
+#EXTINF:0 tvg-id="180" tvg-logo="http://epg.cdntv.online/img/180.png" group-title="🇷🇺 Nga và khối SNG", ТВ3
+http://cdntv.online/hls/bwarxef2py/180.m3u8
+#EXTINF:0 tvg-id="181" tvg-logo="http://epg.cdntv.online/img/181.png" group-title="🇷🇺 Nga và khối SNG", ТНТ
+http://cdntv.online/hls/bwarxef2py/181.m3u8
+#EXTINF:0 tvg-id="182" tvg-logo="http://epg.cdntv.online/img/182.png" group-title="🇷🇺 Nga và khối SNG", ТНТ4
+http://cdntv.online/hls/bwarxef2py/182.m3u8
+#EXTINF:0 tvg-id="184" tvg-logo="http://epg.cdntv.online/img/184.png" group-title="🇷🇺 Nga và khối SNG", Че
+http://cdntv.online/hls/bwarxef2py/184.m3u8
+#EXTINF:0 tvg-id="585" tvg-logo="http://epg.cdntv.online/img/585.png" group-title="🇷🇺 Nga và khối SNG", Муз ТВ
+http://cdntv.online/hls/bwarxef2py/585.m3u8
+#EXTINF:0 tvg-id="693" tvg-logo="http://epg.cdntv.online/img/693.png" group-title="🇷🇺 Nga và khối SNG", Ю
+http://cdntv.online/hls/bwarxef2py/693.m3u8
 #EXTINF:-1 tvg-id="belarus1" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Belarus-1.jpg/200px-Belarus-1.jpg", Belarus 1
 http://dmi3y-tv.ru/hls/blrus/CH_BELARUS1HD.m3u8
 #EXTINF:-1 tvg-id="belarus2" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://seeklogo.com/images/B/belarus-2-logo-703A54CF7F-seeklogo.com.png", Belarus 2
