@@ -594,8 +594,8 @@ https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" group-title="Quốc tế" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Russia-today-logo.svg/revision/latest/scale-to-width-down/200?cb=20180603181710", Russia Today
 https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-eu" group-title="Quốc tế" tvg-logo="https://picon.ml/pervy-kanal-eu.png", OPT1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s14/index.m3u8
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+https://streaming.skynetconnect.online/live/210.m3u8
 #EXTINF:-1 tvg-id="rtr-planeta-azia" group-title="Quốc tế" tvg-logo="https://picon.ml/rtr-planeta.png", RTR Planeta
 https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
 #EXTINF:-1 group-title="Quốc tế" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://i.imgur.com/tpqsFzm.png",Russia 24 International
@@ -847,9 +847,9 @@ https://ncdn.telewebion.com/irinn2/live/playlist.m3u8
 --------------------------------------------------------------------------------
 
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал
-http://cdntv.online/hls/bwarxef2py/27.m3u8
+https://edge3.1internet.tv/dash-live2/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Первый канал Московское время
-http://cdntv.online/hls/bwarxef2py/29.m3u8
+http://vs6.cdn.mrf.tvime.ru/pervyikanalhd_MSK/video.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия 1 Московское время
@@ -861,7 +861,7 @@ http://dmi3y-tv.ru/hls/smotrim/T2/CH_RUSSIA24_3.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",Россия Культура
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",ОТР
-http://178.212.71.253:8000/play/9/index.m3u8
+http://178.217.72.66:8080/OTR/video.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ
 https://cdn.ntv.ru/ntv4/playlist.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ Московское время
@@ -874,6 +874,8 @@ https://cdn.ntv.ru/th_hit/playlist.m3u8
 https://cdn.ntv.ru/th_pravo/playlist.m3u8
 #EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",НТВ-Стиль
 https://cdn.ntv.ru/th_style/playlist.m3u8
+#EXTINF:-1 group-title="🇷🇺 Nga và khối SNG",РБК-ТВ
+https://online-video.rbc.ru/online/rbctvhd.m3u8
 #EXTINF:0 tvg-id="22" tvg-logo="http://epg.cdntv.online/img/22.png" group-title="🇷🇺 Nga và khối SNG", Домашний
 http://cdntv.online/hls/bwarxef2py/22.m3u8
 #EXTINF:0 tvg-id="23" tvg-logo="http://epg.cdntv.online/img/23.png" group-title="🇷🇺 Nga và khối SNG", Звезда
